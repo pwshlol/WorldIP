@@ -25,7 +25,7 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
         $content = Invoke-RestMethod -Uri $_.Value
         Set-Content ".\sources\$($_.Key).txt" -Value $content -Force
     } catch {
-        Write-Error $_
+        Write-Output ("Error downloading $($_.Value)")
     }
 
 } -ThrottleLimit 6
