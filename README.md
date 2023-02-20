@@ -13,8 +13,8 @@ Regions Allocated/Assigned CIDR :
 
 Regions Reserved CIDR :
 
-- global : 133898 Total | 3072 IPV4 | 130826 IPV6
-- ripencc : 80355 Total | 329 IPV4 | 80026 IPV6
+- global : 133894 Total | 3069 IPV4 | 130825 IPV6
+- ripencc : 80351 Total | 326 IPV4 | 80025 IPV6
 - apnic : 1395 Total | 487 IPV4 | 908 IPV6
 - arin : 38079 Total | 1711 IPV4 | 36368 IPV6
 - afrinic : 0 Total | 0 IPV4 | 0 IPV6
@@ -22,8 +22,8 @@ Regions Reserved CIDR :
 
 Regions Available CIDR :
 
-- global : 137291 Total | 948 IPV4 | 136343 IPV6
-- ripencc : 650 Total | 4 IPV4 | 646 IPV6
+- global : 137295 Total | 951 IPV4 | 136344 IPV6
+- ripencc : 654 Total | 7 IPV4 | 647 IPV6
 - apnic : 83539 Total | 940 IPV4 | 82599 IPV6
 - arin : 26600 Total | 4 IPV4 | 26596 IPV6
 - afrinic : 0 Total | 0 IPV4 | 0 IPV6
