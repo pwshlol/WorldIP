@@ -1,0 +1,22 @@
+name: Build
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+permissions: write-all
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          .\BuildLists.ps1
+          .\BuildReadme.ps1
+          git config --global user.email "61202991+innovatodev@users.noreply.github.com"
+          git config --global user.name "innovatodev"
+          git add --all
+          git commit -m "Automated Build"
+          git push
+        shell: pwsh
