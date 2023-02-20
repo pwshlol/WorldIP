@@ -21,11 +21,11 @@ $delegated_sources = [ordered]@{
 }
 $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
     try {
-        Write-Output ($_.Key = $_.Value)
+        Write-Output "$($_.Key) = $($_.Value)"
         $content = Invoke-RestMethod -Uri $_.Value
         Set-Content ".\sources\$($_.Key).txt" -Value $content -Force
     } catch {
-        Write-Output ("Error downloading $($_.Value)")
+        Write-Output "Error downloading $($_.Value)"
     }
 
 } -ThrottleLimit 6
@@ -40,7 +40,7 @@ $Region_Reserved = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new(
 $Country = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
 
 $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
-    Write-Output ($_.Key)
+    Write-Output "$($_.Key)"
     $null = Get-Content ".\sources\$($_.Key).txt" | Where-Object { $_ -match 'ipv4|ipv6' } | ForEach-Object {
         $split = $_.Split('|')
         if ($split[1] -eq 'ZZ') {
