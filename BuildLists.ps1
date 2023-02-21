@@ -21,7 +21,7 @@ $delegated_sources = [ordered]@{
 }
 
 #endregion startup
-<#
+
 #region download
 $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
     try {
@@ -34,7 +34,7 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
 
 } -ThrottleLimit 6
 #endregion download
-#>
+
 #region process
 $IANA_Reserved = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
 $IANA_Available = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
@@ -186,7 +186,6 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
 
 #endregion Process
 
-<#
 #region IANA
 
 Write-Output "IANA_Reserved"
@@ -580,22 +579,21 @@ Group-Object -Property 'country' | ForEach-Object -Parallel {
 } -ThrottleLimit 16
 
 #endregion CountrySeparated
-#>
 
 #region WorldJSON
 
 Write-Output "World"
-[PSCustomObject]$World = @{
-    IANA    = @{
+[PSCustomObject]$World = [ordered]@{
+    IANA    = [ordered]@{
         Allocated = $IANA_Available |
-        Sort-Object {
+        Sort-Object region, version, {
             if ($_.version -eq 'ipv4') {
                 $_.ip.Split('.')[0] -as [int]
             } else {
                 [int64]('0x' + $_.ip.Replace(":", ""))
             }
         }, prefixlength |
-        Select-Object version, ip, prefixlength
+        Select-Object region, version, ip, prefixlength
         Reserved  = $IANA_Reserved |
         Sort-Object version, {
             if ($_.version -eq 'ipv4') {
@@ -613,7 +611,7 @@ Write-Output "World"
             }
         }, prefixlength
     }
-    AFRINIC = @{
+    AFRINIC = [ordered]@{
         Allocated = $Country |
         Where-Object { $_.region -eq 'AFRINIC' } |
         Select-Object country, version, ip, prefixlength |
@@ -645,7 +643,7 @@ Write-Output "World"
             }
         }, prefixlength
     }
-    APNIC   = @{
+    APNIC   = [ordered]@{
         Allocated = $Country |
         Where-Object { $_.region -eq 'APNIC' } |
         Select-Object country, version, ip, prefixlength |
@@ -677,7 +675,7 @@ Write-Output "World"
             }
         }, prefixlength
     }
-    ARIN    = @{
+    ARIN    = [ordered]@{
         Allocated = $Country |
         Where-Object { $_.region -eq 'ARIN' } |
         Select-Object country, version, ip, prefixlength |
@@ -709,7 +707,7 @@ Write-Output "World"
             }
         }, prefixlength
     }
-    LACNIC  = @{
+    LACNIC  = [ordered]@{
         Allocated = $Country |
         Where-Object { $_.region -eq 'LACNIC' } |
         Select-Object country, version, ip, prefixlength |
@@ -741,7 +739,7 @@ Write-Output "World"
             }
         }, prefixlength
     }
-    RIPENCC = @{
+    RIPENCC = [ordered]@{
         Allocated = $Country |
         Where-Object { $_.region -eq 'RIPENCC' } |
         Select-Object country, version, ip, prefixlength |
