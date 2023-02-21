@@ -1,5 +1,7 @@
 # WorldIP
 
+Last update: 2023/02/21 01:05:52 (UTC)
+
 238 Countries in 5 regions
 
 Regions Allocated/Assigned CIDR :

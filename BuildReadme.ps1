@@ -30,6 +30,8 @@ $Countries = $CountryGlobal | Select-Object country -Unique
 
 $README = "# WorldIP
 
+Last update: {DATE}
+
 {Country_Count} Countries in {Region_Count} regions
 
 Regions Allocated/Assigned CIDR :
@@ -62,7 +64,6 @@ IANA Available CIDR :
 "
 
 #region Header
-
 $README = $README -replace '{Country_Count}', $($Countries.Count)
 $README = $README -replace '{Region_Count}', $($Regions.Count)
 
@@ -124,10 +125,14 @@ $README = $README -replace '{IANA_Available_STATS}', "- global : $($IANA_Availab
 
 #endregion IANA
 
-# Print
+#region END
+$Date = (Get-Date).ToUniversalTime().ToString("yyyy/MM/dd HH:mm:ss (UTC)")
+$README = $README -replace '{DATE}', $($Date)
+
 "<----------------------->"
 ($README).Trim()
 "<----------------------->"
 
-# Write
 ($README).Trim() | Set-Content .\README.md
+
+#endregion END
