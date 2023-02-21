@@ -2,12 +2,12 @@
 $ProgressPreference = 'SilentlyContinue'
 $ErrorActionPreference = 'Stop'
 if (!(Test-Path ".\sources")) { $null = New-Item ".\sources" -ItemType Directory -Force }
-if (!(Test-Path ".\csv")) { $null = New-Item ".\csv" -ItemType Directory -Force }
-if (!(Test-Path ".\csv\CountryGlobal")) { $null = New-Item ".\csv\CountryGlobal" -ItemType Directory -Force }
-if (!(Test-Path ".\csv\CountrySeparated")) { $null = New-Item ".\csv\CountrySeparated" -ItemType Directory -Force }
-if (!(Test-Path ".\csv\IANA")) { $null = New-Item ".\csv\IANA" -ItemType Directory -Force }
-if (!(Test-Path ".\csv\RegionGlobal")) { $null = New-Item ".\csv\RegionGlobal" -ItemType Directory -Force }
-if (!(Test-Path ".\csv\RegionSeparated")) { $null = New-Item ".\csv\RegionSeparated" -ItemType Directory -Force }
+if (!(Test-Path ".\lists")) { $null = New-Item ".\lists" -ItemType Directory -Force }
+if (!(Test-Path ".\lists\CountryGlobal")) { $null = New-Item ".\lists\CountryGlobal" -ItemType Directory -Force }
+if (!(Test-Path ".\lists\CountrySeparated")) { $null = New-Item ".\lists\CountrySeparated" -ItemType Directory -Force }
+if (!(Test-Path ".\lists\IANA")) { $null = New-Item ".\lists\IANA" -ItemType Directory -Force }
+if (!(Test-Path ".\lists\RegionGlobal")) { $null = New-Item ".\lists\RegionGlobal" -ItemType Directory -Force }
+if (!(Test-Path ".\lists\RegionSeparated")) { $null = New-Item ".\lists\RegionSeparated" -ItemType Directory -Force }
 #endregion startup
 
 #region download
@@ -186,59 +186,117 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
 
 Write-Output "IANA_Reserved"
 $IANA_Reserved |
-Sort-Object version |
+Sort-Object version, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object version, ip, prefixlength |
-Export-Csv -Path ".\csv\IANA\IANA_Reserved.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Reserved.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Reserved_IPV4"
 $IANA_Reserved |
 Where-Object { $_.version -EQ 'ipv4' } |
+Sort-Object {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object ip, prefixlength |
-Export-Csv -Path ".\csv\IANA\IANA_Reserved_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Reserved_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Reserved_IPV6"
 $IANA_Reserved |
 Where-Object { $_.version -EQ 'ipv6' } |
+Sort-Object {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object ip, prefixlength |
-Export-Csv -Path ".\csv\IANA\IANA_Reserved_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Reserved_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Available"
 $IANA_Available |
-Sort-Object version |
+Sort-Object {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object version, ip, prefixlength |
-Export-Csv -Path ".\csv\IANA\IANA_Available.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Available.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Available_IPV4"
 $IANA_Available |
 Where-Object { $_.version -EQ 'ipv4' } |
+Sort-Object {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object ip, prefixlength |
-Export-Csv -Path ".\csv\IANA\IANA_Available_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Available_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Available_IPV6"
 $IANA_Available |
+Sort-Object {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Where-Object { $_.version -EQ 'ipv6' } |
 Select-Object ip, prefixlength |
-Export-Csv -Path ".\csv\IANA\IANA_Available_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Available_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Allocated"
 $IANA_Allocated |
-Sort-Object region |
+Sort-Object region, version, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength, state |
 Select-Object region, version, ip, prefixlength, state |
-Export-Csv -Path ".\csv\IANA\IANA_Allocated.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Allocated.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Allocated_IPV4"
 $IANA_Allocated |
 Where-Object { $_.version -EQ 'ipv4' } |
-Sort-Object region |
+Sort-Object region, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength, state |
 Select-Object region, ip, prefixlength, state |
-Export-Csv -Path ".\csv\IANA\IANA_Allocated_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Allocated_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "IANA_Allocated_IPV6"
 $IANA_Allocated |
 Where-Object { $_.version -EQ 'ipv6' } |
-Sort-Object region |
+Sort-Object region, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength, state |
 Select-Object region, ip, prefixlength, state |
-Export-Csv -Path ".\csv\IANA\IANA_Allocated_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\IANA\IANA_Allocated_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 #endregion INANA
 
@@ -246,43 +304,79 @@ Export-Csv -Path ".\csv\IANA\IANA_Allocated_IPV6.csv" -NoTypeInformation -UseQuo
 
 Write-Output "RegionGlobal_Available"
 $Region_Available |
-Sort-Object region |
+Sort-Object region, version, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object region, version, ip, prefixlength |
-Export-Csv -Path ".\csv\RegionGlobal\RegionGlobal_Available.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\RegionGlobal\RegionGlobal_Available.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "RegionGlobal_Available_IPV4"
 $Region_Available |
 Where-Object { $_.version -EQ 'ipv4' } |
-Sort-Object region |
+Sort-Object region, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object region, ip, prefixlength |
-Export-Csv -Path ".\csv\RegionGlobal\RegionGlobal_Available_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\RegionGlobal\RegionGlobal_Available_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "RegionGlobal_Available_IPV6"
 $Region_Available |
 Where-Object { $_.version -EQ 'ipv6' } |
-Sort-Object region |
+Sort-Object region, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object region, ip, prefixlength |
-Export-Csv -Path ".\csv\RegionGlobal\RegionGlobal_Available_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\RegionGlobal\RegionGlobal_Available_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "RegionGlobal_Reserved"
 $Region_Reserved |
-Sort-Object region |
+Sort-Object region, version, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object region, version, ip, prefixlength |
-Export-Csv -Path ".\csv\RegionGlobal\RegionGlobal_Reserved.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\RegionGlobal\RegionGlobal_Reserved.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "RegionGlobal_Reserved_IPV4"
 $Region_Reserved |
 Where-Object { $_.version -EQ 'ipv4' } |
-Sort-Object region |
+Sort-Object region, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object region, ip, prefixlength |
-Export-Csv -Path ".\csv\RegionGlobal\RegionGlobal_Reserved_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\RegionGlobal\RegionGlobal_Reserved_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "RegionGlobal_Reserved_IPV6"
 $Region_Reserved |
 Where-Object { $_.version -EQ 'ipv6' } |
-Sort-Object region |
+Sort-Object region, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength |
 Select-Object region, ip, prefixlength |
-Export-Csv -Path ".\csv\RegionGlobal\RegionGlobal_Reserved_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\RegionGlobal\RegionGlobal_Reserved_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 #endregion RegionGlobal
 
@@ -293,9 +387,15 @@ $Region_Available |
 Group-Object -Property 'region' |
 ForEach-Object -Parallel {
     $_.Group |
-    Sort-Object version |
+    Sort-Object version, {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength |
     Select-Object version, ip, prefixlength |
-    Export-Csv -Path ".\csv\RegionSeparated\$($_.Name)_Available.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\RegionSeparated\$($_.Name)_Available.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 Write-Output "RegionSeparated_Available_IPV4"
@@ -304,9 +404,15 @@ Where-Object { $_.version -EQ 'ipv4' } |
 Group-Object -Property 'region' |
 ForEach-Object -Parallel {
     $_.Group |
-    Sort-Object version |
+    Sort-Object {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength |
     Select-Object ip, prefixlength |
-    Export-Csv -Path ".\csv\RegionSeparated\$($_.Name)_Available_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\RegionSeparated\$($_.Name)_Available_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 Write-Output "RegionSeparated_Available_IPV6"
@@ -315,9 +421,15 @@ Where-Object { $_.version -EQ 'ipv6' } |
 Group-Object -Property 'region' |
 ForEach-Object -Parallel {
     $_.Group |
-    Sort-Object version |
+    Sort-Object {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength |
     Select-Object ip, prefixlength |
-    Export-Csv -Path ".\csv\RegionSeparated\$($_.Name)_Available_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\RegionSeparated\$($_.Name)_Available_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 Write-Output "RegionSeparated_Reserved"
@@ -325,9 +437,15 @@ $Region_Reserved |
 Group-Object -Property 'region' |
 ForEach-Object -Parallel {
     $_.Group |
+    Sort-Object version, {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength |
     Select-Object version, ip, prefixlength |
-    Sort-Object version |
-    Export-Csv -Path ".\csv\RegionSeparated\$($_.Name)_Reserved.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\RegionSeparated\$($_.Name)_Reserved.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 Write-Output "RegionSeparated_Reserved_IPV4"
@@ -336,9 +454,15 @@ Where-Object { $_.version -EQ 'ipv4' } |
 Group-Object -Property 'region' |
 ForEach-Object -Parallel {
     $_.Group |
-    Sort-Object version |
+    Sort-Object {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength |
     Select-Object ip, prefixlength |
-    Export-Csv -Path ".\csv\RegionSeparated\$($_.Name)_Reserved_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\RegionSeparated\$($_.Name)_Reserved_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 Write-Output "RegionSeparated_Reserved_IPV6"
@@ -347,9 +471,15 @@ Where-Object { $_.version -EQ 'ipv6' } |
 Group-Object -Property 'region' |
 ForEach-Object -Parallel {
     $_.Group |
-    Sort-Object version |
+    Sort-Object {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength |
     Select-Object ip, prefixlength |
-    Export-Csv -Path ".\csv\RegionSeparated\$($_.Name)_Reserved_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\RegionSeparated\$($_.Name)_Reserved_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 #endregion RegionSeparated
@@ -358,23 +488,41 @@ ForEach-Object -Parallel {
 
 Write-Output "CountryGlobal"
 $Country |
-Sort-Object country |
+Sort-Object region, country, version, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength, state |
 Select-Object region, country, version, ip, prefixlength, state |
-Export-Csv -Path ".\csv\CountryGlobal\CountryGlobal.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\CountryGlobal\CountryGlobal.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "CountryGlobal_IPV4"
 $Country |
 Where-Object { $_.version -EQ 'ipv4' } |
-Sort-Object country |
+Sort-Object region, country, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength, state |
 Select-Object region, country, ip, prefixlength, state |
-Export-Csv -Path ".\csv\CountryGlobal\CountryGlobal_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\CountryGlobal\CountryGlobal_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "CountryGlobal_IPV6"
 $Country |
 Where-Object { $_.version -EQ 'ipv6' } |
-Sort-Object country |
+Sort-Object region, country, {
+    if ($_.version -eq 'ipv4') {
+        $_.ip.Split('.')[0] -as [int]
+    } else {
+        [int64]('0x' + $_.ip.Replace(":", ""))
+    }
+}, prefixlength, state |
 Select-Object region, country, ip, prefixlength, state |
-Export-Csv -Path ".\csv\CountryGlobal\CountryGlobal_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+Export-Csv -Path ".\lists\CountryGlobal\CountryGlobal_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 #endregion CountryGlobal
 
@@ -383,9 +531,15 @@ Export-Csv -Path ".\csv\CountryGlobal\CountryGlobal_IPV6.csv" -NoTypeInformation
 Write-Output "CountrySeparated"
 $Country | Group-Object -Property 'country' | ForEach-Object -Parallel {
     $_.Group |
-    Sort-Object version |
+    Sort-Object region, version, {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength, state |
     Select-Object region, version, ip, prefixlength, state |
-    Export-Csv -Path ".\csv\CountrySeparated\$($_.Name).csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\CountrySeparated\$($_.Name).csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 Write-Output "CountrySeparated_IPV4"
@@ -393,9 +547,15 @@ $Country |
 Where-Object { $_.version -EQ 'ipv4' } |
 Group-Object -Property 'country' | ForEach-Object -Parallel {
     $_.Group |
-
+    Sort-Object region, {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength, state |
     Select-Object region, ip, prefixlength, state |
-    Export-Csv -Path ".\csv\CountrySeparated\$($_.Name)_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\CountrySeparated\$($_.Name)_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 Write-Output "CountrySeparated_IPV6"
@@ -403,9 +563,15 @@ $Country |
 Where-Object { $_.version -EQ 'ipv6' } |
 Group-Object -Property 'country' | ForEach-Object -Parallel {
     $_.Group |
-
+    Sort-Object region, {
+        if ($_.version -eq 'ipv4') {
+            $_.ip.Split('.')[0] -as [int]
+        } else {
+            [int64]('0x' + $_.ip.Replace(":", ""))
+        }
+    }, prefixlength, state |
     Select-Object region, ip, prefixlength, state |
-    Export-Csv -Path ".\csv\CountrySeparated\$($_.Name)_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+    Export-Csv -Path ".\lists\CountrySeparated\$($_.Name)_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 16
 
 #endregion CountrySeparated
