@@ -119,9 +119,9 @@ foreach ($region in $Regions) {
 }
 $README = $README -replace '{IANA_AA_STATS}', ($buffer).Trim()
 # Reserved
-$README = $README -replace '{IANA_Reserved_STATS}', "- global : $($IANA_Reserved.Count) Total | $($IANA_Reserved_IPV4.Count) IPV4 | $($IANA_Reserved_IPV6.Count) IPV6"
+$README = $README -replace '{IANA_Reserved_STATS}', "-  $($IANA_Reserved.Count) Total | $($IANA_Reserved_IPV4.Count) IPV4 | $($IANA_Reserved_IPV6.Count) IPV6"
 # Available
-$README = $README -replace '{IANA_Available_STATS}', "- global : $($IANA_Available.Count) Total | $($IANA_Available_IPV4.Count) IPV4 | $($IANA_Available_IPV6.Count) IPV6"
+$README = $README -replace '{IANA_Available_STATS}', "- $($IANA_Available.Count) Total | $($IANA_Available_IPV4.Count) IPV4 | $($IANA_Available_IPV6.Count) IPV6"
 
 #endregion IANA
 
