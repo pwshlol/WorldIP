@@ -1,4 +1,5 @@
 ﻿#region startup
+
 $ProgressPreference = 'SilentlyContinue'
 $ErrorActionPreference = 'Stop'
 if (!(Test-Path ".\sources")) { $null = New-Item ".\sources" -ItemType Directory -Force }
@@ -8,9 +9,8 @@ if (!(Test-Path ".\lists\CountrySeparated")) { $null = New-Item ".\lists\Country
 if (!(Test-Path ".\lists\IANA")) { $null = New-Item ".\lists\IANA" -ItemType Directory -Force }
 if (!(Test-Path ".\lists\RegionGlobal")) { $null = New-Item ".\lists\RegionGlobal" -ItemType Directory -Force }
 if (!(Test-Path ".\lists\RegionSeparated")) { $null = New-Item ".\lists\RegionSeparated" -ItemType Directory -Force }
-#endregion startup
+if (!(Test-Path ".\lists\World")) { $null = New-Item ".\lists\World" -ItemType Directory -Force }
 
-#region download
 $delegated_sources = [ordered]@{
     'delegated-iana-latest'             = 'https://ftp.apnic.net/stats/iana/delegated-iana-latest'
     'delegated-afrinic-extended-latest' = 'https://ftp.apnic.net/stats/afrinic/delegated-afrinic-extended-latest'
@@ -19,6 +19,10 @@ $delegated_sources = [ordered]@{
     'delegated-lacnic-extended-latest'  = 'https://ftp.apnic.net/stats/lacnic/delegated-lacnic-extended-latest'
     'delegated-ripencc-extended-latest' = 'https://ftp.apnic.net/stats/ripe-ncc/delegated-ripencc-extended-latest'
 }
+
+#endregion startup
+<#
+#region download
 $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
     try {
         Write-Output "$($_.Key) = $($_.Value)"
@@ -30,7 +34,7 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
 
 } -ThrottleLimit 6
 #endregion download
-
+#>
 #region process
 $IANA_Reserved = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
 $IANA_Available = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
@@ -182,6 +186,7 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
 
 #endregion Process
 
+<#
 #region IANA
 
 Write-Output "IANA_Reserved"
@@ -575,3 +580,201 @@ Group-Object -Property 'country' | ForEach-Object -Parallel {
 } -ThrottleLimit 16
 
 #endregion CountrySeparated
+#>
+
+#region WorldJSON
+
+Write-Output "World"
+[PSCustomObject]$World = @{
+    IANA    = @{
+        Allocated = $IANA_Available |
+        Sort-Object {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength |
+        Select-Object version, ip, prefixlength
+        Reserved  = $IANA_Reserved |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Available = $IANA_Available |
+        Sort-Object {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+    }
+    AFRINIC = @{
+        Allocated = $Country |
+        Where-Object { $_.region -eq 'AFRINIC' } |
+        Select-Object country, version, ip, prefixlength |
+        Sort-Object region, country, version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Reserved  = $Region_Reserved |
+        Where-Object { $_.region -eq 'AFRINIC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Available = $Region_Available |
+        Where-Object { $_.region -eq 'AFRINIC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+    }
+    APNIC   = @{
+        Allocated = $Country |
+        Where-Object { $_.region -eq 'APNIC' } |
+        Select-Object country, version, ip, prefixlength |
+        Sort-Object region, country, version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Reserved  = $Region_Reserved |
+        Where-Object { $_.region -eq 'APNIC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Available = $Region_Available |
+        Where-Object { $_.region -eq 'APNIC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+    }
+    ARIN    = @{
+        Allocated = $Country |
+        Where-Object { $_.region -eq 'ARIN' } |
+        Select-Object country, version, ip, prefixlength |
+        Sort-Object region, country, version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Reserved  = $Region_Reserved |
+        Where-Object { $_.region -eq 'ARIN' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Available = $Region_Available |
+        Where-Object { $_.region -eq 'ARIN' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+    }
+    LACNIC  = @{
+        Allocated = $Country |
+        Where-Object { $_.region -eq 'LACNIC' } |
+        Select-Object country, version, ip, prefixlength |
+        Sort-Object region, country, version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Reserved  = $Region_Reserved |
+        Where-Object { $_.region -eq 'LACNIC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Available = $Region_Available |
+        Where-Object { $_.region -eq 'LACNIC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+    }
+    RIPENCC = @{
+        Allocated = $Country |
+        Where-Object { $_.region -eq 'RIPENCC' } |
+        Select-Object country, version, ip, prefixlength |
+        Sort-Object region, country, version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Reserved  = $Region_Reserved |
+        Where-Object { $_.region -eq 'RIPENCC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+        Available = $Region_Available |
+        Where-Object { $_.region -eq 'RIPENCC' } |
+        Select-Object version, ip, prefixlength |
+        Sort-Object version, {
+            if ($_.version -eq 'ipv4') {
+                $_.ip.Split('.')[0] -as [int]
+            } else {
+                [int64]('0x' + $_.ip.Replace(":", ""))
+            }
+        }, prefixlength
+    }
+}
+$World | ConvertTo-Json -Depth 99 | Out-File .\lists\World\World.json
+$World | ConvertTo-Json -Depth 99 -Compress | Out-File .\lists\World\World_compressed.json
+
+#endregion WorldJSON
