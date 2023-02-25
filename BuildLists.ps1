@@ -114,7 +114,6 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
                         }
                     }
                 }
-
             }
         } else {
             if ($split[6] -eq 'allocated' -or $split[6] -eq 'assigned') {
