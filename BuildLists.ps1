@@ -11,20 +11,22 @@ if (!(Test-Path ".\lists\RegionGlobal")) { $null = New-Item ".\lists\RegionGloba
 if (!(Test-Path ".\lists\RegionSeparated")) { $null = New-Item ".\lists\RegionSeparated" -ItemType Directory -Force }
 if (!(Test-Path ".\lists\World")) { $null = New-Item ".\lists\World" -ItemType Directory -Force }
 
-$delegated_sources = [ordered]@{
+$sources = [ordered]@{
     'delegated-iana-latest'             = 'https://ftp.apnic.net/stats/iana/delegated-iana-latest'
-    'delegated-afrinic-extended-latest' = 'https://ftp.apnic.net/stats/afrinic/delegated-afrinic-extended-latest'
+    'delegated-afrinic-extended-latest' = 'https://ftp.afrinic.net/pub/stats/afrinic/delegated-afrinic-extended-latest'
     'delegated-apnic-extended-latest'   = 'https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest'
-    'delegated-arin-extended-latest'    = 'https://ftp.apnic.net/stats/arin/delegated-arin-extended-latest'
-    'delegated-lacnic-extended-latest'  = 'https://ftp.apnic.net/stats/lacnic/delegated-lacnic-extended-latest'
-    'delegated-ripencc-extended-latest' = 'https://ftp.apnic.net/stats/ripe-ncc/delegated-ripencc-extended-latest'
+    'delegated-arin-extended-latest'    = 'https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest'
+    'delegated-lacnic-extended-latest'  = 'https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest'
+    'delegated-ripencc-extended-latest' = 'https://ftp.ripe.net/ripe/stats/delegated-ripencc-extended-latest'
+    'asnames'                           = 'https://ftp.ripe.net/ripe/asnames/asn.txt'
+    'alloclist'                         = 'https://ftp.apnic.net/stats/ripe-ncc/membership/alloclist.txt'
 }
 
 #endregion startup
 
 #region download
 
-$delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
+$sources.GetEnumerator() | ForEach-Object -Parallel {
     try {
         Write-Output "$($_.Key) = $($_.Value)"
         $content = Invoke-RestMethod -Uri $_.Value
@@ -33,7 +35,7 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
         Write-Output "Error downloading $($_.Value)"
     }
 
-} -ThrottleLimit 6
+} -ThrottleLimit 8
 
 #endregion download
 
@@ -48,143 +50,161 @@ $delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
     Country          = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
 }
 
-$delegated_sources.GetEnumerator() | ForEach-Object -Parallel {
+$sources.GetEnumerator() | ForEach-Object -Parallel {
     Write-Output "$($_.Key)"
-    $null = Get-Content ".\sources\$($_.Key).txt" | Where-Object { $_ -match 'ipv4|ipv6' } | ForEach-Object {
-        $split = $_.Split('|')
-        if ($split[1] -eq 'ZZ') {
-            if ($split[6] -eq 'Reserved') {
-                switch ($split[2]) {
-                    'ipv4' {
-                        ($using:World.IANA_Reserved).Add(@{
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
-                                'state'        = $split[6]
-                            })
-                    }
-                    'ipv6' {
-                        ($using:World.IANA_Reserved).Add(@{
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = $split[4]
-                                'state'        = $split[6]
-                            })
-                    }
-                }
-            } else {
-                if ($split[6] -ne 'available') {
+    if ($_.Key -like 'delegated*' ) {
+        $null = Get-Content ".\sources\$($_.Key).txt" | Where-Object { $_ -match 'ipv4|ipv6' } | ForEach-Object {
+            $split = $_.Split('|')
+            if ($split[1] -eq 'ZZ') {
+                if ($split[6] -eq 'Reserved') {
                     switch ($split[2]) {
                         'ipv4' {
-                            ($using:World.IANA_Allocated).Add(@{
-                                    'region'       = $split[7]
+                            ($using:World.IANA_Reserved).Add(
+                                @{
                                     'version'      = $split[2]
                                     'ip'           = $split[3]
                                     'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
-                                    'state'        = $split[6]
-                                })
+                                }
+                            )
                         }
                         'ipv6' {
-                            ($using:World.IANA_Allocated).Add(@{
-                                    'region'       = $split[7]
+                            ($using:World.IANA_Reserved).Add(
+                                @{
                                     'version'      = $split[2]
                                     'ip'           = $split[3]
                                     'prefixlength' = $split[4]
-                                    'state'        = $split[6]
-                                })
+                                }
+                            )
                         }
                     }
                 } else {
+                    if ($split[6] -ne 'available') {
+                        switch ($split[2]) {
+                            'ipv4' {
+                                ($using:World.IANA_Allocated).Add(
+                                    @{
+                                        'region'       = $split[7]
+                                        'version'      = $split[2]
+                                        'ip'           = $split[3]
+                                        'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
+                                        'state'        = $split[6]
+                                    }
+                                )
+                            }
+                            'ipv6' {
+                                ($using:World.IANA_Allocated).Add(
+                                    @{
+                                        'region'       = $split[7]
+                                        'version'      = $split[2]
+                                        'ip'           = $split[3]
+                                        'prefixlength' = $split[4]
+                                        'state'        = $split[6]
+                                    }
+                                )
+                            }
+                        }
+                    } else {
+                        switch ($split[2]) {
+                            'ipv4' {
+                                ($using:World.IANA_Available).Add(
+                                    @{
+                                        'version'      = $split[2]
+                                        'ip'           = $split[3]
+                                        'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
+                                    }
+                                )
+                            }
+                            'ipv6' {
+                                ($using:World.IANA_Available).Add(
+                                    @{
+                                        'version'      = $split[2]
+                                        'ip'           = $split[3]
+                                        'prefixlength' = $split[4]
+                                    }
+                                )
+                            }
+                        }
+                    }
+                }
+            } else {
+                if ($split[6] -eq 'allocated' -or $split[6] -eq 'assigned') {
                     switch ($split[2]) {
                         'ipv4' {
-                            ($using:World.IANA_Available).Add(@{
+                            ($using:World.Country).Add(
+                                @{
+                                    'region'       = $split[0]
+                                    'country'      = $split[1]
                                     'version'      = $split[2]
                                     'ip'           = $split[3]
                                     'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
                                     'state'        = $split[6]
-                                })
+                                }
+                            )
                         }
                         'ipv6' {
-                            ($using:World.IANA_Available).Add(@{
+                            ($using:World.Country).Add(
+                                @{
+                                    'region'       = $split[0]
+                                    'country'      = $split[1]
                                     'version'      = $split[2]
                                     'ip'           = $split[3]
                                     'prefixlength' = $split[4]
                                     'state'        = $split[6]
-                                })
+                                }
+                            )
                         }
                     }
-                }
-            }
-        } else {
-            if ($split[6] -eq 'allocated' -or $split[6] -eq 'assigned') {
-                switch ($split[2]) {
-                    'ipv4' {
-                        ($using:World.Country).Add(@{
-                                'region'       = $split[0]
-                                'country'      = $split[1]
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
-                                'state'        = $split[6]
-                            })
+                } elseif ($split[6] -eq 'available') {
+                    switch ($split[2]) {
+                        'ipv4' {
+                            ($using:World.Region_Available).Add(
+                                @{
+                                    'region'       = $split[0]
+                                    'version'      = $split[2]
+                                    'ip'           = $split[3]
+                                    'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
+                                }
+                            )
+                        }
+                        'ipv6' {
+                            ($using:World.Region_Available).Add(
+                                @{
+                                    'region'       = $split[0]
+                                    'version'      = $split[2]
+                                    'ip'           = $split[3]
+                                    'prefixlength' = $split[4]
+                                }
+                            )
+                        }
                     }
-                    'ipv6' {
-                        ($using:World.Country).Add(@{
-                                'region'       = $split[0]
-                                'country'      = $split[1]
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = $split[4]
-                                'state'        = $split[6]
-                            })
-                    }
-                }
-            } elseif ($split[6] -eq 'available') {
-                switch ($split[2]) {
-                    'ipv4' {
-                        ($using:World.Region_Available).Add(@{
-                                'region'       = $split[0]
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
-                                'state'        = $split[6]
-                            })
-                    }
-                    'ipv6' {
-                        ($using:World.Region_Available).Add(@{
-                                'region'       = $split[0]
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = $split[4]
-                                'state'        = $split[6]
-                            })
-                    }
-                }
-            } elseif ($split[6] -eq 'Reserved') {
-                switch ($split[2]) {
-                    'ipv4' {
-                    ($using:World.Region_Reserved).Add(@{
-                                'region'       = $split[0]
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
-                                'state'        = $split[6]
-                            })
-                    }
-                    'ipv6' {
-                    ($using:World.Region_Reserved).Add(@{
-                                'region'       = $split[0]
-                                'version'      = $split[2]
-                                'ip'           = $split[3]
-                                'prefixlength' = $split[4]
-                                'state'        = $split[6]
-                            })
+                } elseif ($split[6] -eq 'Reserved') {
+                    switch ($split[2]) {
+                        'ipv4' {
+                        ($using:World.Region_Reserved).Add(
+                                @{
+                                    'region'       = $split[0]
+                                    'version'      = $split[2]
+                                    'ip'           = $split[3]
+                                    'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
+                                }
+                            )
+                        }
+                        'ipv6' {
+                        ($using:World.Region_Reserved).Add(
+                                @{
+                                    'region'       = $split[0]
+                                    'version'      = $split[2]
+                                    'ip'           = $split[3]
+                                    'prefixlength' = $split[4]
+                                }
+                            )
+                        }
                     }
                 }
             }
         }
     }
-} -ThrottleLimit 32
+} -ThrottleLimit 8
 
 #endregion Process
 
