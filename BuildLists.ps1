@@ -2,6 +2,7 @@
 
 $ProgressPreference = 'SilentlyContinue'
 $ErrorActionPreference = 'Stop'
+
 if (!(Test-Path ".\sources")) { $null = New-Item ".\sources" -ItemType Directory -Force }
 if (!(Test-Path ".\lists")) { $null = New-Item ".\lists" -ItemType Directory -Force }
 if (!(Test-Path ".\lists\CountryGlobal")) { $null = New-Item ".\lists\CountryGlobal" -ItemType Directory -Force }
@@ -10,6 +11,7 @@ if (!(Test-Path ".\lists\IANA")) { $null = New-Item ".\lists\IANA" -ItemType Dir
 if (!(Test-Path ".\lists\RegionGlobal")) { $null = New-Item ".\lists\RegionGlobal" -ItemType Directory -Force }
 if (!(Test-Path ".\lists\RegionSeparated")) { $null = New-Item ".\lists\RegionSeparated" -ItemType Directory -Force }
 if (!(Test-Path ".\lists\World")) { $null = New-Item ".\lists\World" -ItemType Directory -Force }
+if (!(Test-Path ".\lists\Misc")) { $null = New-Item ".\lists\Misc" -ItemType Directory -Force }
 
 $sources = [ordered]@{
     'delegated-iana-latest'             = 'https://ftp.apnic.net/stats/iana/delegated-iana-latest'
@@ -48,6 +50,8 @@ $sources.GetEnumerator() | ForEach-Object -Parallel {
     Region_Available = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
     Region_Reserved  = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
     Country          = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
+    ASN              = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
+    Providers        = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
 }
 
 $sources.GetEnumerator() | ForEach-Object -Parallel {
@@ -203,12 +207,78 @@ $sources.GetEnumerator() | ForEach-Object -Parallel {
                 }
             }
         }
+    } elseif ($_.Key -eq 'asnames') {
+        $file = Get-Content ".\sources\$($_.Key).txt"
+        $file | ForEach-Object {
+            if (-not ([string]::IsNullOrEmpty($_))) {
+                $split = $_ -split ' '
+                $number = $split[0]
+                $country = $split[-1]
+                $name = $_ -replace "^$number\s|\s$country$", ""
+                $name = $name.Substring(0, $name.Length - 1)
+                ($using:World.ASN).Add(
+                    [ordered]@{
+                        'number'  = $number
+                        'name'    = $name
+                        'country' = $country
+                    }
+                )
+            }
+        }
+    } elseif ($_.Key -eq 'alloclist') {
+        $file = Get-Content ".\sources\$($_.Key).txt"
+        for ($i = 0; $i -lt $file.Length; $i++) {
+            if ($file[$i] -match "^\S") {
+                $shortname = $file[$i].Trim()
+                $fullname = $file[$i + 1].Trim()
+                $ipv4 = @()
+                $ipv6 = @()
+                $i = $i + 2
+                while ($file[$i] -notmatch "^\S") {
+                    if (-not ([string]::IsNullOrEmpty($file[$i]))) {
+                        $parts = $file[$i] -split '\s+'
+                        if ($parts[2] -like '*.*') {
+                            $ipv4 += $parts[2].Trim()
+                        } else {
+                            $ipv6 += $parts[2].Trim()
+                        }
+                    }
+                    $i++
+                }
+                $ipv4 = $ipv4 | Sort-Object {
+                    $split = $_.split('/')
+                    $split[0] -as [version]
+                }
+                $ipv6 = $ipv6 | Sort-Object {
+                    $split = $_.split('/')
+                    [int64]('0x' + ($split[0]).Replace(":", ""))
+                }
+                ($using:World.Providers).Add(
+                    [ordered]@{
+                        'shortname' = $shortname
+                        'fullname'  = $fullname
+                        'ipv4'      = $ipv4
+                        'ipv6'      = $ipv6
+                    }
+                )
+            }
+        }
     }
 } -ThrottleLimit 8
 
 #endregion Process
 
 #region Sorting
+
+Write-Output "Sorting ASN"
+$World.ASN = $World.ASN | Sort-Object {
+    $_.number -as [Int64]
+}
+
+Write-Output "Sorting Providers"
+$World.Providers = $World.Providers | Sort-Object {
+    $_.shortname
+}
 
 Write-Output "Sorting IANA_Reserved"
 $World.IANA_Reserved = $World.IANA_Reserved |
@@ -273,6 +343,15 @@ Sort-Object region, country, version, {
 #endregion Sorting
 
 #region Export
+
+Write-Output "Exporting ASN"
+$World.ASN | Export-Csv -Path ".\lists\Misc\ASN.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
+$World.ASN | ConvertTo-Json -Depth 99 | Out-File .\lists\Misc\ASN.json
+$World.ASN | ConvertTo-Json -Depth 99 -Compress | Out-File .\lists\Misc\ASN_compressed.json
+
+Write-Output "Exporting Providers"
+$World.Providers | ConvertTo-Json -Depth 99 | Out-File .\lists\Misc\Providers.json
+$World.Providers | ConvertTo-Json -Depth 99 -Compress | Out-File .\lists\Misc\Providers_compressed.json
 
 Write-Output "Exporting IANA_Reserved"
 $World.IANA_Reserved |
