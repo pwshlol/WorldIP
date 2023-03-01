@@ -54,9 +54,70 @@ $sources.GetEnumerator() | ForEach-Object -Parallel {
     Providers        = [System.Collections.Concurrent.ConcurrentBag[psobject]]::new()
 }
 
+#region ASN
+
+Write-Output "Processing ASN"
+$file = Get-Content ".\sources\asnames.txt"
+$file | ForEach-Object {
+    if (-not ([string]::IsNullOrEmpty($_))) {
+        $split = $_ -split ' '
+        $number = $split[0]
+        $country = $split[-1]
+        $name = $_ -replace "^$number\s|\s$country$", ""
+        $name = $name.Substring(0, $name.Length - 1)
+                ($World.ASN).Add(
+            [ordered]@{
+                'number'  = $number
+                'name'    = $name
+                'country' = $country
+            }
+        )
+    }
+}
+
+#endregion ASN
+
+#region Providers
+
+Write-Output "Processing Providers"
+$file = Get-Content ".\sources\alloclist.txt"
+for ($i = 0; $i -lt $file.Length; $i++) {
+    if ($file[$i] -match "^\S.*") {
+        $shortname = $file[$i].Trim()
+        $fullname = $file[$i + 1].Trim()
+        $i = $i + 2
+        while ($i -lt $file.Length -and $file[$i] -notmatch "^\S") {
+            if (-not ([string]::IsNullOrEmpty($file[$i]))) {
+                $parts = $file[$i] -split '\s+'
+                if ($parts[2].Trim() -like '*.*') {
+                    $version = 'ipv4'
+                } else {
+                    $version = 'ipv6'
+                }
+                $split = $parts[2].split('/')
+            }
+            $i++
+        }
+        ($World.Providers).Add(
+            [ordered]@{
+                'shortname'    = $shortname
+                'fullname'     = $fullname
+                'version'      = $version
+                'ip'           = $split[0]
+                'prefixlength' = $split[1]
+            }
+        )
+    }
+}
+
+#endregion Providers
+
+#region Delegated
+
+Write-Output "Processing Delegated"
 $sources.GetEnumerator() | ForEach-Object -Parallel {
-    Write-Output "$($_.Key)"
     if ($_.Key -like 'delegated*' ) {
+        Write-Output "$($_.Key)"
         $null = Get-Content ".\sources\$($_.Key).txt" | Where-Object { $_ -match 'ipv4|ipv6' } | ForEach-Object {
             $split = $_.Split('|')
             if ($split[1] -eq 'ZZ') {
@@ -207,65 +268,29 @@ $sources.GetEnumerator() | ForEach-Object -Parallel {
                 }
             }
         }
-    } elseif ($_.Key -eq 'asnames') {
-        $file = Get-Content ".\sources\$($_.Key).txt"
-        $file | ForEach-Object {
-            if (-not ([string]::IsNullOrEmpty($_))) {
-                $split = $_ -split ' '
-                $number = $split[0]
-                $country = $split[-1]
-                $name = $_ -replace "^$number\s|\s$country$", ""
-                $name = $name.Substring(0, $name.Length - 1)
-                ($using:World.ASN).Add(
-                    [ordered]@{
-                        'number'  = $number
-                        'name'    = $name
-                        'country' = $country
-                    }
-                )
-            }
-        }
-    } elseif ($_.Key -eq 'alloclist') {
-        $file = Get-Content ".\sources\$($_.Key).txt"
-        for ($i = 0; $i -lt $file.Length; $i++) {
-            if ($file[$i] -match "^\S") {
-                $shortname = $file[$i].Trim()
-                $fullname = $file[$i + 1].Trim()
-                $ipv4 = @()
-                $ipv6 = @()
-                $i = $i + 2
-                while ($file[$i] -notmatch "^\S") {
-                    if (-not ([string]::IsNullOrEmpty($file[$i]))) {
-                        $parts = $file[$i] -split '\s+'
-                        if ($parts[2] -like '*.*') {
-                            $ipv4 += $parts[2].Trim()
-                        } else {
-                            $ipv6 += $parts[2].Trim()
-                        }
-                    }
-                    $i++
-                }
-                $ipv4 = $ipv4 | Sort-Object {
-                    $split = $_.split('/')
-                    $split[0] -as [version]
-                }
-                $ipv6 = $ipv6 | Sort-Object {
-                    $split = $_.split('/')
-                    [int64]('0x' + ($split[0]).Replace(":", ""))
-                }
-                ($using:World.Providers).Add(
-                    [ordered]@{
-                        'shortname' = $shortname
-                        'fullname'  = $fullname
-                        'ipv4'      = $ipv4
-                        'ipv6'      = $ipv6
-                    }
-                )
-            }
-        }
     }
-} -ThrottleLimit 8
+} -ThrottleLimit 6
 
+#endregion Delegated
+<#
+#region Injecting Providers
+$World.Providers | ForEach-Object -Parallel {
+    $shortname = $_.shortname
+    $fullname = $_.fullname
+    $ip = $_.ip
+    $prefixlength = $_.prefixlength
+    ($using:World.Country) |
+    Where-Object { $_.provider -eq $null } |
+    Where-Object { $_.prefixlength -eq $prefixlength } |
+    Where-Object { $_.ip -eq $ip } | ForEach-Object {
+        $_.provider = "$shortname;$fullname"
+        Write-Output "$($_.ip)/$($_.prefixlength) = $($_.provider)"
+        break
+    }
+} -ThrottleLimit 16
+($World.Country | Where-Object { $null -ne $_.provider }).count
+#endregion Injecting Providers
+#>
 #endregion Process
 
 #region Sorting
