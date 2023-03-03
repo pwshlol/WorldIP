@@ -89,6 +89,11 @@ $README = $README -replace '{Region_Count}', $($Regions.Count)
 
 #endregion Header
 
+# IANA Reserved
+
+Write-Output "replacing IANA Reserved string"
+$README = $README -replace '{IANA_Reserved_STATS}', "- $($IANA_Reserved.Count) Total | $($IANA_Reserved_IPV4.Count) IPV4 | $($IANA_Reserved_IPV6.Count) IPV6"
+
 # IANA Allocated
 
 Write-Output "replacing IANA Allocated string"
@@ -101,11 +106,6 @@ foreach ($region in $Regions) {
     $buffer += "- $($region.region) : $($count) Total | $($count_ipv4) IPV4 | $($count_ipv6) IPV6`n"
 }
 $README = $README -replace '{IANA_ALLOCATED_STATS}', ($buffer).Trim()
-
-# IANA Reserved
-
-Write-Output "replacing IANA Reserved string"
-$README = $README -replace '{IANA_Reserved_STATS}', "- $($IANA_Reserved.Count) Total | $($IANA_Reserved_IPV4.Count) IPV4 | $($IANA_Reserved_IPV6.Count) IPV6"
 
 # IANA Available
 
