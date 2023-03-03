@@ -245,7 +245,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                                     'ip'           = $split[3]
                                     'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
                                     'state'        = $split[6]
-                                    'provider'     = $null
+                                    'org'          = $null
                                 }
                             )
                         }
@@ -258,7 +258,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                                     'ip'           = $split[3]
                                     'prefixlength' = $split[4]
                                     'state'        = $split[6]
-                                    'provider'     = $null
+                                    'org'          = $null
                                 }
                             )
                         }
@@ -324,30 +324,20 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
 #endregion Delegated
 
 #region Injecting ORG
-<#
-$World.ORG | ForEach-Object -Parallel {
-    $shortname = $_.shortname
-    $fullname = $_.fullname
-    $ip = $_.ip
-    $prefixlength = $_.prefixlength
-    ($using:World.Country_Allocated).Where({ $_.ip -eq $ip -and $_.prefixlength -eq $prefixlength }, 'First') |
-    ForEach-Object {
-        $_.provider = "$shortname;$fullname"
-        Write-Output "$($_.ip)/$($_.prefixlength) = $($_.provider)"
-    }
-} -ThrottleLimit 32
 
-$World.ORG | ForEach-Object -Parallel {
-    $shortname = $_.shortname
-    $fullname = $_.fullname
-    $ip = $_.ip
-    $prefixlength = $_.prefixlength
-    ($using:World.Country_Allocated) | Where-Object { $_.ip -eq $ip -and $_.prefixlength -eq $prefixlength } | ForEach-Object {
-        $_.provider = "$shortname;$fullname"
-        Write-Output "$($_.ip)/$($_.prefixlength) = $($_.provider)"
+Write-Output "Injecting ORGs"
+$CountryHashtable = @{}
+$World.Country_Allocated | ForEach-Object {
+    $key = $_.ip + '/' + $_.prefixlength
+    $CountryHashtable[$key] = $_
+}
+foreach ($org in $World.ORG) {
+    $key = $org.ip + '/' + $org.prefixlength
+    if ($Country = $CountryHashtable[$key]) {
+        $Country.org = "$($org.shortname);$($org.fullname)"
     }
-} -ThrottleLimit 8
-#>
+}
+Write-Output "Injected $(($world.Country_Allocated | Where-Object { $_.org -ne $null }).count) ORGs"
 
 #endregion Injecting ORG
 
