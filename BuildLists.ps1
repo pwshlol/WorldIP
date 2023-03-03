@@ -770,7 +770,7 @@ Group-Object -Property 'country' | ForEach-Object -Parallel {
 #endregion Country
 
 Write-Output "Exporting World"
-$World | ConvertTo-Json -Depth 99 | Out-File .\Lists\World\World.json
-$World | ConvertTo-Json -Depth 99 -Compress | Out-File .\Lists\World\World_compressed.json
+#$World | ConvertTo-Json -Depth 99 | Out-File .\Lists\World\World.json
+#$World | ConvertTo-Json -Depth 99 -Compress | Out-File .\Lists\World\World_compressed.json
 
 #endregion Export
