@@ -447,16 +447,12 @@ Sort-Object region, country, version, {
 
 Write-Output "Exporting ASN"
 $World.ASN | Export-Csv -Path ".\Lists\Misc\ASN\ASN.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
-$World.ASN | ConvertTo-Json -Depth 99 | Out-File ".\Lists\Misc\ASN\ASN.json"
-$World.ASN | ConvertTo-Json -Depth 99 -Compress | Out-File ".\Lists\Misc\ASN\ASN_compressed.json"
+$World.ASN | ConvertTo-Json -Depth 99 -Compress | Out-File ".\Lists\Misc\ASN\ASN.json"
 
 Write-Output "Exporting ORG"
 $World.ORG |
 Select-Object shortname, fullname, version, ip, prefixlength |
-ConvertTo-Json -Depth 99 | Out-File .\Lists\Misc\ORG\ORG.json
-$World.ORG |
-Select-Object shortname, fullname, version, ip, prefixlength |
-ConvertTo-Json -Depth 99 -Compress | Out-File .\Lists\Misc\ORG\ORG_compressed.json
+ConvertTo-Json -Depth 99 -Compress | Out-File .\Lists\Misc\ORG\ORG.json
 
 #endregion Misc
 
@@ -770,7 +766,6 @@ Group-Object -Property 'country' | ForEach-Object -Parallel {
 #endregion Country
 
 Write-Output "Exporting World"
-#$World | ConvertTo-Json -Depth 99 | Out-File .\Lists\World\World.json
-#$World | ConvertTo-Json -Depth 99 -Compress | Out-File .\Lists\World\World_compressed.json
+$World | ConvertTo-Json -Depth 99 -Compress | Out-File .\Lists\World\World.json
 
 #endregion Export
