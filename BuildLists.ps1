@@ -35,7 +35,7 @@ $Sources = [ordered]@{
 #endregion startup
 
 #region download
-
+<#
 $Sources.GetEnumerator() | ForEach-Object -Parallel {
     try {
         Write-Output "$($_.Key) = $($_.Value)"
@@ -45,7 +45,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
         Write-Output "Error downloading $($_.Value)"
     }
 } -ThrottleLimit 8
-
+#>
 #endregion download
 
 #region process
@@ -245,7 +245,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                                     'ip'           = $split[3]
                                     'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
                                     'state'        = $split[6]
-                                    'org'          = $null
+                                    'org'          = "n/a"
                                 }
                             )
                         }
@@ -258,7 +258,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                                     'ip'           = $split[3]
                                     'prefixlength' = $split[4]
                                     'state'        = $split[6]
-                                    'org'          = $null
+                                    'org'          = "n/a"
                                 }
                             )
                         }
@@ -274,6 +274,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                                     'ip'           = $split[3]
                                     'prefixlength' = [string][math]::Round((32 - [Math]::Log($split[4], 2)))
                                     'state'        = $split[6]
+                                    'org'          = "n/a"
                                 }
                             )
                         }
@@ -286,6 +287,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                                     'ip'           = $split[3]
                                     'prefixlength' = $split[4]
                                     'state'        = $split[6]
+                                    'org'          = "n/a"
                                 }
                             )
                         }
@@ -337,7 +339,7 @@ foreach ($org in $World.ORG) {
         $Country.org = "$($org.shortname);$($org.fullname)"
     }
 }
-Write-Output "Injected $(($world.Country_Allocated | Where-Object { $_.org -ne $null }).count) ORGs"
+Write-Output "Injected $(($world.Country_Allocated | Where-Object { $_.org -ne "n/a" }).count) ORGs"
 
 #endregion Injecting ORG
 
@@ -645,7 +647,7 @@ ForEach-Object -Parallel {
 
 Write-Output "Exporting Country_Global"
 $World.Country_Allocated + $World.Country_Assigned |
-Select-Object region, country, state, version, ip, prefixlength |
+Select-Object region, country, state, version, ip, prefixlength, org |
 Sort-Object region, country, state, version, {
     if ($_.version -eq 'ipv4') {
         $_.ip -as [version]
@@ -657,7 +659,7 @@ Sort-Object region, country, state, version, {
 Write-Output "Exporting Country_Global_IPV4"
 $World.Country_Allocated + $World.Country_Assigned |
 Where-Object { $_.version -EQ 'ipv4' } |
-Select-Object region, country, state, ip, prefixlength |
+Select-Object region, country, state, ip, prefixlength, org |
 Sort-Object region, country, state, {
     $_.ip -as [version]
 } | Export-Csv -Path ".\Lists\Country\Global\Country_Global_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
@@ -665,26 +667,26 @@ Sort-Object region, country, state, {
 Write-Output "Exporting Country_Global_IPV6"
 $World.Country_Allocated + $World.Country_Assigned |
 Where-Object { $_.version -EQ 'ipv6' } |
-Select-Object region, country, state, ip, prefixlength |
+Select-Object region, country, state, ip, prefixlength, org |
 Sort-Object region, country, state, {
     [int64]('0x' + $_.ip.Replace(":", ""))
 } | Export-Csv -Path ".\Lists\Country\Global\Country_Global_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "Exporting Country_All_Allocated"
 $World.Country_Allocated |
-Select-Object region, country, version, ip, prefixlength |
+Select-Object region, country, version, ip, prefixlength, org |
 Export-Csv -Path ".\Lists\Country\All\Country_All_Allocated.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "Exporting Country_All_Allocated_IPV4"
 $World.Country_Allocated |
 Where-Object { $_.version -EQ 'ipv4' } |
-Select-Object region, country, ip, prefixlength |
+Select-Object region, country, ip, prefixlength, org |
 Export-Csv -Path ".\Lists\Country\All\Country_All_Allocated_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "Exporting Country_All_Allocated_IPV6"
 $World.Country_Allocated |
 Where-Object { $_.version -EQ 'ipv6' } |
-Select-Object region, country, ip, prefixlength |
+Select-Object region, country, ip, prefixlength, org |
 Export-Csv -Path ".\Lists\Country\All\Country_All_Allocated_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "Exporting Country_All_Assigned"
@@ -707,7 +709,7 @@ Export-Csv -Path ".\Lists\Country\All\Country_All_Assigned_IPV6.csv" -NoTypeInfo
 Write-Output "Exporting Country_Separated_Allocated"
 $World.Country_Allocated | Group-Object -Property 'country' | ForEach-Object -Parallel {
     $_.Group |
-    Select-Object region, version, ip, prefixlength |
+    Select-Object region, version, ip, prefixlength, org |
     Export-Csv -Path ".\Lists\Country\Separated\$($_.Name)_Allocated.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 32
 
@@ -716,7 +718,7 @@ $World.Country_Allocated |
 Where-Object { $_.version -EQ 'ipv4' } |
 Group-Object -Property 'country' | ForEach-Object -Parallel {
     $_.Group |
-    Select-Object region, ip, prefixlength |
+    Select-Object region, ip, prefixlength, org |
     Export-Csv -Path ".\Lists\Country\Separated\$($_.Name)_Allocated_IPV4.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 32
 
@@ -725,7 +727,7 @@ $World.Country_Allocated |
 Where-Object { $_.version -EQ 'ipv6' } |
 Group-Object -Property 'country' | ForEach-Object -Parallel {
     $_.Group |
-    Select-Object region, ip, prefixlength |
+    Select-Object region, ip, prefixlength, org |
     Export-Csv -Path ".\Lists\Country\Separated\$($_.Name)_Allocated_IPV6.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 } -ThrottleLimit 32
 
