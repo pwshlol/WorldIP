@@ -1,5 +1,5 @@
 ﻿#region startup
-
+<#
 $ProgressPreference = 'SilentlyContinue'
 $ErrorActionPreference = 'Stop'
 
@@ -163,8 +163,18 @@ foreach ($region in $Regions) {
     $buffer += "- $($region.region) : $($count) Total | $($count_ipv4) IPV4 | $($count_ipv6) IPV6`n"
 }
 $README = $README -replace '{Country_ASSIGNED_STATS}', ($buffer).Trim()
-
+#>
 #region END
+
+#region README
+
+Write-Output "generating README string"
+$README = "# WorldIP
+
+Last update: {DATE}
+"
+
+#endregion README
 
 $Date = (Get-Date).ToUniversalTime().ToString("yyyy/MM/dd HH:mm:ss (UTC)")
 $README = $README -replace '{DATE}', $($Date)
