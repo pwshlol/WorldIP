@@ -637,25 +637,25 @@ $Start = Get-Date -AsUTC -UFormat "%Y-%m-%d %H:%M:%S"
 
 Write-Output "Export_IANA_Reserved"
 $ToExport = $World.IANA_Reserved |
-Select-Object ip, prefixlength
+Select-Object version, ip, prefixlength
 $ToExport | ConvertTo-Json -Depth 99 -Compress | Out-File "$($Directories.IANA_Separated_State)\IANA_Reserved.json"
 $ToExport | Export-Csv -Path "$($Directories.IANA_Separated_State)\IANA_Reserved.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "Export_IANA_Available"
 $ToExport = $World.IANA_Available |
-Select-Object ip, prefixlength
+Select-Object version, ip, prefixlength
 $ToExport | ConvertTo-Json -Depth 99 -Compress | Out-File "$($Directories.IANA_Separated_State)\IANA_Available.json"
 $ToExport | Export-Csv -Path "$($Directories.IANA_Separated_State)\IANA_Available.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "Export_IANA_Allocated"
 $ToExport = $World.IANA_Allocated |
-Select-Object region, ip, prefixlength
+Select-Object region, version, ip, prefixlength
 $ToExport | ConvertTo-Json -Depth 99 -Compress | Out-File "$($Directories.IANA_Separated_State)\IANA_Allocated.json"
 $ToExport | Export-Csv -Path "$($Directories.IANA_Separated_State)\IANA_Allocated.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
 Write-Output "Export_IANA_Global"
 $ToExport = $World.IANA_Reserved + $World.IANA_Available + $World.IANA_Allocated |
-Select-Object region, ip, prefixlength, state
+Select-Object region, version, ip, prefixlength, state
 $ToExport | ConvertTo-Json -Depth 99 -Compress | Out-File "$($Directories.IANA_Global)\IANA_Global.json"
 $ToExport | Export-Csv -Path "$($Directories.IANA_Global)\IANA_Global.csv" -NoTypeInformation -UseQuotes AsNeeded -Force
 
