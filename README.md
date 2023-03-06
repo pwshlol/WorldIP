@@ -1,25 +1,25 @@
 # WorldIP
 
-Last update: 2023/03/06 03:18:52 (UTC)
+Last update: 2023/03/06 04:39:57 (UTC)
 
 238 Countries in 5 regions
 
 ## IANA Reserved CIDR
 
-- 71 Total | 0 IPV4 | 0 IPV6
+- 71 Total | 48 IPV4 | 23 IPV6
 
 ## IANA Available CIDR
 
-- 63 Total | 0 IPV4 | 0 IPV6
+- 63 Total | 3 IPV4 | 60 IPV6
 
 ## IANA Allocated CIDR
 
-- global : 1373 Total | 0 IPV4 | 0 IPV6
-- afrinic : 62 Total | 0 IPV4 | 0 IPV6
-- apnic : 196 Total | 0 IPV4 | 0 IPV6
-- arin : 949 Total | 0 IPV4 | 0 IPV6
-- lacnic : 65 Total | 0 IPV4 | 0 IPV6
-- ripencc : 101 Total | 0 IPV4 | 0 IPV6
+- global : 1373 Total | 1327 IPV4 | 46 IPV6
+- afrinic : 62 Total | 60 IPV4 | 2 IPV6
+- apnic : 196 Total | 180 IPV4 | 16 IPV6
+- arin : 949 Total | 942 IPV4 | 7 IPV6
+- lacnic : 65 Total | 63 IPV4 | 2 IPV6
+- ripencc : 101 Total | 82 IPV4 | 19 IPV6
 
 ## Regions Reserved CIDR
 
