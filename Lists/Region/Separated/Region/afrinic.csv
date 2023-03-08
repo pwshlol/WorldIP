@@ -140,7 +140,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.183.0.0,16,reserved,*
 *,ipv4,102.212.88.0,21,reserved,*
 *,ipv4,102.212.96.0,20,reserved,*
-*,ipv4,102.212.112.0,22,reserved,*
 *,ipv4,102.212.132.0,22,reserved,*
 *,ipv4,102.212.136.0,21,reserved,*
 *,ipv4,102.212.152.0,22,reserved,*
@@ -148,12 +147,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.174.0,23,reserved,*
 *,ipv4,102.212.176.0,21,reserved,*
 *,ipv4,102.212.188.0,22,reserved,*
-*,ipv4,102.212.228.0,22,reserved,*
 *,ipv4,102.212.252.0,22,reserved,*
 *,ipv4,102.213.12.0,22,reserved,*
 *,ipv4,102.213.16.0,23,reserved,*
 *,ipv4,102.213.40.0,22,reserved,*
-*,ipv4,102.213.244.0,22,reserved,*
 *,ipv4,102.218.96.0,23,reserved,*
 *,ipv4,102.218.168.0,22,reserved,*
 *,ipv4,102.218.248.0,22,reserved,*
@@ -3432,6 +3429,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.196.0,22,available,*
 *,ipv4,102.212.200.0,21,available,*
 *,ipv4,102.212.208.0,20,available,*
+*,ipv4,102.212.229.0,24,available,*
+*,ipv4,102.212.230.0,23,available,*
 *,ipv4,102.212.244.0,22,available,*
 *,ipv4,102.213.68.0,22,available,*
 *,ipv4,102.213.72.0,21,available,*
@@ -5873,7 +5872,7 @@ AO,ipv6,2c0f:f740::,32,allocated,[327806;AO;CNTI-AS]
 AO,ipv6,2c0f:f810::,32,allocated,[36907;AO;TVCaboAngola]
 AO,ipv6,2c0f:f828::,32,allocated,[327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv6,2c0f:f888::,32,allocated,[37119;AO;unitel-AS]
-AO,ipv6,2c0f:f980::,32,allocated,[37096;NA;Paratus][33763;NA;Paratus]
+AO,ipv6,2c0f:f980::,32,allocated,[37096;MU;Paratus][33763;MU;Paratus]
 AO,ipv6,2c0f:fa38::,32,allocated,[37081;AO;movicel-as]
 AO,ipv6,2c0f:fa60::,32,allocated,[36917;AO;ACS]
 AO,ipv6,2c0f:fa80::,32,allocated,[37011;AO;MSTARTEL-AS]
@@ -7261,7 +7260,7 @@ MU,ipv4,41.212.128.0,17,allocated,*
 MU,ipv4,41.215.248.0,22,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,41.216.96.0,19,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,41.217.212.0,22,allocated,[37100;MU;SEACOM-AS]
-MU,ipv4,41.218.64.0,18,allocated,[37096;NA;Paratus][33763;NA;Paratus]
+MU,ipv4,41.218.64.0,18,allocated,[37096;MU;Paratus][33763;MU;Paratus]
 MU,ipv4,41.220.224.0,20,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,41.220.240.0,20,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,41.222.0.0,21,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
@@ -7293,10 +7292,10 @@ MU,ipv4,154.66.240.0,21,allocated,[37662;MU;WIOCC-AS]
 MU,ipv4,154.71.0.0,19,allocated,[30999;MU;EMTEL-AS-AP]
 MU,ipv4,154.120.192.0,18,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,154.127.48.0,20,allocated,[37692;ZA;NetStack-AS]
-MU,ipv4,160.242.0.0,17,allocated,[37096;NA;Paratus][33763;NA;Paratus]
+MU,ipv4,160.242.0.0,17,allocated,[37096;MU;Paratus][33763;MU;Paratus]
 MU,ipv4,169.239.140.0,22,allocated,[328019;MU;Les-Relais-Ltd]
 MU,ipv4,169.255.160.0,22,allocated,[37722;MU;Kaldera]
-MU,ipv4,196.1.28.0,22,allocated,[37096;NA;Paratus][33763;NA;Paratus]
+MU,ipv4,196.1.28.0,22,allocated,[37096;MU;Paratus][33763;MU;Paratus]
 MU,ipv4,196.2.64.0,20,allocated,[37379;MU;IWAYAFRICA-ZAMBIA][37238;MU;IWAY-AFRICA][36877;MU;IWAY_AFRICA][36871;MU;IWAY_AFRICA]
 MU,ipv4,196.12.128.0,19,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,196.15.8.0,22,allocated,[37379;MU;IWAYAFRICA-ZAMBIA][37238;MU;IWAY-AFRICA][36877;MU;IWAY_AFRICA][36871;MU;IWAY_AFRICA]
@@ -7312,7 +7311,7 @@ MU,ipv4,196.192.96.0,20,allocated,*
 MU,ipv4,196.201.16.0,21,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,196.201.228.0,22,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,196.207.48.0,20,allocated,[328623;MU;VGR-Communications]
-MU,ipv4,196.216.32.0,19,allocated,[37096;NA;Paratus][33763;NA;Paratus]
+MU,ipv4,196.216.32.0,19,allocated,[37096;MU;Paratus][33763;MU;Paratus]
 MU,ipv4,196.216.64.0,19,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,196.251.148.0,22,allocated,*
 MU,ipv4,197.155.64.0,19,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
@@ -7320,7 +7319,7 @@ MU,ipv4,197.155.224.0,20,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][212
 MU,ipv4,197.211.192.0,18,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
 MU,ipv4,197.224.0.0,14,allocated,*
 MU,ipv4,197.231.184.0,21,allocated,[37455;MU;BHARAT-TEL]
-MU,ipv4,197.234.64.0,18,allocated,[37096;NA;Paratus][33763;NA;Paratus]
+MU,ipv4,197.234.64.0,18,allocated,[37096;MU;Paratus][33763;MU;Paratus]
 MU,ipv4,197.242.184.0,21,allocated,[37455;MU;BHARAT-TEL]
 MU,ipv4,202.123.0.0,19,allocated,*
 MU,ipv4,217.21.112.0,20,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
@@ -7461,6 +7460,7 @@ NE,ipv4,41.138.32.0,19,allocated,[37385;NE;SONITEL]
 NE,ipv4,41.190.228.0,22,allocated,[37038;NE;SANCFIS-NIGER]
 NE,ipv4,41.203.128.0,19,allocated,[37233;NE;ORANGE-NIGER]
 NE,ipv4,102.213.60.0,22,allocated,[329203;NE;COMSATES-NIGER]
+NE,ipv4,102.213.244.0,22,allocated,
 NE,ipv4,102.214.4.0,22,allocated,[26130;NE;LIPTINFOR-AS]
 NE,ipv4,102.215.84.0,22,allocated,[329103;NE;NS3-AS]
 NE,ipv4,102.217.96.0,22,allocated,*
@@ -8059,6 +8059,7 @@ SZ,ipv4,69.63.64.0,20,allocated,[327762;SZ;SPTC][19711;SZ;SWAZINET]
 SZ,ipv4,102.23.132.0,22,allocated,[328690;SZ;Royal-Science-and-Technology-Park]
 SZ,ipv4,102.67.144.0,22,allocated,[328628;SZ;Wanderport]
 SZ,ipv4,102.68.48.0,22,allocated,*
+SZ,ipv4,102.212.228.0,24,allocated,
 SZ,ipv4,102.214.160.0,22,allocated,[328169;SZ;SWAZI-MOBILE]
 SZ,ipv4,102.215.24.0,22,allocated,*
 SZ,ipv4,102.215.99.0,24,allocated,[329095;SZ;AFRIMETRO-AS]
@@ -8177,6 +8178,7 @@ TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
 TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Maas-Computers-and-Networks-AS]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
+TZ,ipv4,102.212.112.0,22,allocated,*
 TZ,ipv4,102.213.36.0,22,allocated,*
 TZ,ipv4,102.214.28.0,22,allocated,[329172;TZ;ISL3-AS]
 TZ,ipv4,102.214.32.0,22,allocated,[329178;TZ;NIDC-AS]
