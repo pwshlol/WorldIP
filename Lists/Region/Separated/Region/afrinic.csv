@@ -364,7 +364,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.49.93.0,24,reserved,*
 *,ipv4,196.49.95.0,24,reserved,*
 *,ipv4,196.49.97.0,24,reserved,*
-*,ipv4,196.49.98.0,23,reserved,*
+*,ipv4,196.49.99.0,24,reserved,*
 *,ipv4,196.49.100.0,22,reserved,*
 *,ipv4,196.49.104.0,21,reserved,*
 *,ipv4,196.49.112.0,20,reserved,*
@@ -414,7 +414,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.60.111.0,24,reserved,*
 *,ipv4,196.60.113.0,24,reserved,*
 *,ipv4,196.60.115.0,24,reserved,*
-*,ipv4,196.60.116.0,22,reserved,*
+*,ipv4,196.60.117.0,24,reserved,*
+*,ipv4,196.60.118.0,23,reserved,*
 *,ipv4,196.60.120.0,21,reserved,*
 *,ipv4,196.60.128.0,17,reserved,*
 *,ipv4,196.61.0.0,22,reserved,*
@@ -5348,7 +5349,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43ff:800::,37,available,*
 *,ipv6,2001:43f8:1120::,44,available,*
 *,ipv6,2001:43f8:16e0::,43,available,*
-*,ipv6,2001:43f8:1710::,44,available,*
 *,ipv6,2001:43f8:1720::,43,available,*
 *,ipv6,2001:43f8:1740::,42,available,*
 *,ipv6,2001:43f8:1780::,41,available,*
@@ -6596,7 +6596,7 @@ EG,ipv6,2c0f:fee0::,32,allocated,[33785;EG;CITYNET]
 ER,ipv4,196.200.96.0,20,allocated,[30987;ER;ERITEL-AS]
 ET,ipv4,102.218.0.0,22,allocated,[24757;ET;EthioNet-AS]
 ET,ipv4,102.218.48.0,22,allocated,[328988;ET;SAFARICOM-TEL]
-ET,ipv4,164.160.184.0,22,allocated,*
+ET,ipv4,164.160.184.0,22,allocated,
 ET,ipv4,196.188.0.0,14,allocated,[24757;ET;EthioNet-AS]
 ET,ipv4,197.154.0.0,16,allocated,[37467;ET;ETherNeT]
 ET,ipv4,197.156.64.0,18,allocated,[24757;ET;EthioNet-AS]
@@ -10072,6 +10072,10 @@ EG,ipv6,2001:43f8:40::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:41::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:2e0::,48,assigned,[37348;EG;CAC]
 EG,ipv6,2001:43f8:c50::,48,assigned,[37003;EG;Xceed-as]
+ET,ipv4,196.49.98.0,24,assigned,[37798;ZZ;-Reserved AS-]
+ET,ipv4,196.60.116.0,24,assigned,[37798;ZZ;-Reserved AS-]
+ET,ipv6,2001:43f8:1710::,48,assigned,[37798;ZZ;-Reserved AS-]
+ET,ipv6,2001:43f8:1711::,48,assigned,[37798;ZZ;-Reserved AS-]
 GA,ipv4,192.188.164.0,22,assigned,*
 GA,ipv4,192.189.139.0,23,assigned,*
 GA,ipv4,196.49.17.0,24,assigned,[327796;GA;GABON-IX][37780;GA;GABIX-PEERING-AS]
