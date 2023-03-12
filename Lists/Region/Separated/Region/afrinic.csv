@@ -5246,7 +5246,13 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7f10::,28,available,*
 *,ipv6,2c0f:7f20::,27,available,*
 *,ipv6,2c0f:7f40::,26,available,*
-*,ipv6,2c0f:7f80::,25,available,*
+*,ipv6,2c0f:7f81::,32,available,*
+*,ipv6,2c0f:7f82::,31,available,*
+*,ipv6,2c0f:7f84::,30,available,*
+*,ipv6,2c0f:7f88::,29,available,*
+*,ipv6,2c0f:7f90::,28,available,*
+*,ipv6,2c0f:7fa0::,27,available,*
+*,ipv6,2c0f:7fc0::,26,available,*
 *,ipv6,2c0f:8000::,18,available,*
 *,ipv6,2c0f:c000::,19,available,*
 *,ipv6,2c0f:e000::,21,available,*
@@ -7851,7 +7857,7 @@ SC,ipv4,102.135.0.0,17,allocated,*
 SC,ipv4,102.141.200.0,22,allocated,[328543;SC;sun-asn]
 SC,ipv4,102.141.236.0,22,allocated,[327861;SC;ICT-Department-Seychelles-Govt]
 SC,ipv4,102.164.48.0,22,allocated,*
-SC,ipv4,102.212.88.0,22,allocated,
+SC,ipv4,102.212.88.0,22,allocated,[329225;SC;LAL1-AS]
 SC,ipv4,102.219.181.0,24,allocated,[328958;SC;CL21-AS]
 SC,ipv4,102.220.88.0,22,allocated,[328543;SC;sun-asn]
 SC,ipv4,102.222.76.0,22,allocated,[328703;SC;Seven-Network-Seychelles-AS]
@@ -7902,7 +7908,7 @@ SC,ipv4,197.234.240.0,22,allocated,*
 SC,ipv6,2c0f:f00::,32,allocated,[328958;SC;CL21-AS]
 SC,ipv6,2001:42e0::,32,allocated,[36867;SC;Kokonet-BGP]
 SC,ipv6,2c0f:2800::,32,allocated,[328543;SC;sun-asn]
-SC,ipv6,2c0f:3f80::,32,allocated,
+SC,ipv6,2c0f:3f80::,32,allocated,[329225;SC;LAL1-AS]
 SC,ipv6,2c0f:e838::,32,allocated,*
 SC,ipv6,2c0f:ec00::,32,allocated,[328383;SC;xTom-Limited-AS][328247;SC;xTomLimited]
 SC,ipv6,2c0f:efa0::,32,allocated,[36902;SC;ASINTELVISION]
@@ -9532,6 +9538,7 @@ ZA,ipv6,2c0f:7900::,32,allocated,[328935;ZA;PC6-AS]
 ZA,ipv6,2c0f:7b80::,32,allocated,[37114;ZA;vodacom-business]
 ZA,ipv6,2c0f:7d00::,32,allocated,[328942;ZA;IIL3-AS]
 ZA,ipv6,2c0f:7e80::,32,allocated,[329144;ZA;EC7-AS]
+ZA,ipv6,2c0f:7f80::,32,allocated,[328517;ZA;Infinity-Wireless-AS]
 ZA,ipv6,2c0f:e810::,32,allocated,[328624;ZA;VDB-Communications-Ltd]
 ZA,ipv6,2c0f:e820::,32,allocated,[328575;ZA;SA-Domain-InternetServices]
 ZA,ipv6,2c0f:e840::,32,allocated,[328167;ZA;TWK-Communications]
@@ -10072,10 +10079,10 @@ EG,ipv6,2001:43f8:40::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:41::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:2e0::,48,assigned,[37348;EG;CAC]
 EG,ipv6,2001:43f8:c50::,48,assigned,[37003;EG;Xceed-as]
-ET,ipv4,196.49.98.0,24,assigned,[37798;ZZ;-Reserved AS-]
-ET,ipv4,196.60.116.0,24,assigned,[37798;ZZ;-Reserved AS-]
-ET,ipv6,2001:43f8:1710::,48,assigned,[37798;ZZ;-Reserved AS-]
-ET,ipv6,2001:43f8:1711::,48,assigned,[37798;ZZ;-Reserved AS-]
+ET,ipv4,196.49.98.0,24,assigned,[37798;ZZ;AddIX-IXP-Peering]
+ET,ipv4,196.60.116.0,24,assigned,[37798;ZZ;AddIX-IXP-Peering]
+ET,ipv6,2001:43f8:1710::,48,assigned,[37798;ZZ;AddIX-IXP-Peering]
+ET,ipv6,2001:43f8:1711::,48,assigned,[37798;ZZ;AddIX-IXP-Peering]
 GA,ipv4,192.188.164.0,22,assigned,*
 GA,ipv4,192.189.139.0,23,assigned,*
 GA,ipv4,196.49.17.0,24,assigned,[327796;GA;GABON-IX][37780;GA;GABIX-PEERING-AS]
