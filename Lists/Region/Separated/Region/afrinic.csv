@@ -145,7 +145,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.104.0,21,reserved,*
 *,ipv4,102.212.132.0,22,reserved,*
 *,ipv4,102.212.136.0,21,reserved,*
-*,ipv4,102.212.152.0,22,reserved,*
 *,ipv4,102.212.162.0,23,reserved,*
 *,ipv4,102.212.172.0,24,reserved,*
 *,ipv4,102.212.174.0,23,reserved,*
@@ -153,7 +152,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.188.0,22,reserved,*
 *,ipv4,102.212.229.0,24,reserved,*
 *,ipv4,102.212.244.0,22,reserved,*
-*,ipv4,102.212.252.0,22,reserved,*
 *,ipv4,102.213.12.0,22,reserved,*
 *,ipv4,102.213.16.0,23,reserved,*
 *,ipv4,102.213.40.0,22,reserved,*
@@ -3454,7 +3452,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:8::,29,available,*
 *,ipv6,2c0f:10::,28,available,*
 *,ipv6,2c0f:20::,27,available,*
-*,ipv6,2c0f:40::,26,available,*
+*,ipv6,2c0f:41::,32,available,*
+*,ipv6,2c0f:42::,31,available,*
+*,ipv6,2c0f:44::,30,available,*
+*,ipv6,2c0f:48::,29,available,*
+*,ipv6,2c0f:50::,28,available,*
+*,ipv6,2c0f:60::,27,available,*
 *,ipv6,2c0f:81::,32,available,*
 *,ipv6,2c0f:82::,31,available,*
 *,ipv6,2c0f:84::,30,available,*
@@ -7589,6 +7592,7 @@ NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
 NG,ipv4,102.212.232.0,22,allocated,[329215;NG;LL4-AS]
 NG,ipv4,102.212.240.0,22,allocated,[37347;NG;NGCOM]
+NG,ipv4,102.212.252.0,22,allocated,
 NG,ipv4,102.213.18.0,23,allocated,[329218;NG;Qrios-VAS-AS]
 NG,ipv4,102.213.84.0,22,allocated,[328309;NG;Globacom-AS][37148;NG;globacom-as]
 NG,ipv4,102.213.88.0,22,allocated,[329182;NG;AMICS-TECHNOLOGIES-LIMITED]
@@ -8710,6 +8714,7 @@ ZA,ipv4,102.212.96.0,22,allocated,[37621;ZA;CipherWave][37315;ZA;CipherWave]
 ZA,ipv4,102.212.128.0,22,allocated,[327996;ZA;ACCELERIT]
 ZA,ipv4,102.212.144.0,22,allocated,[329222;ZA;Ndende-Technologies]
 ZA,ipv4,102.212.148.0,22,allocated,[328933;ZA;IBC-AS]
+ZA,ipv4,102.212.152.0,22,allocated,
 ZA,ipv4,102.212.156.0,22,allocated,[328785;ZA;Gigawave-Solutions]
 ZA,ipv4,102.212.164.0,22,allocated,[328963;ZA;WWOW1-AS]
 ZA,ipv4,102.212.168.0,22,allocated,[329216;ZA;LC1-AS]
@@ -9430,6 +9435,7 @@ ZA,ipv4,213.193.32.0,19,allocated,[28698;ZA;UUNETZM-AS][24788;ZA;UUNET-AFRICA][1
 ZA,ipv4,216.236.176.0,20,allocated,[26106;ZA;ALTONET-]
 ZA,ipv4,217.29.208.0,20,allocated,[328471;ZA;Hero-Telecoms][328409;ZA;Atcomm-AS][328232;ZA;HX-Systems-AS][328130;ZA;Kosh-Communication-AS][328064;ZA;LCOM-AS][327957;ZA;HERO-TELECOMS][327858;ZA;CloudConnect-Networks][327826;ZA;SAFRICOM][327781;ZA;HERO-TELECOMS][327715;ZA;HERO-TELECOMS][37596;ZA;HERO-TELECOMS][37439;ZA;HERO-TELECOMS][37417;ZA;HERO-TELECOMS][36953;ZA;HERO-TELECOMS]
 ZA,ipv6,2c0f::,32,allocated,[328001;ZA;SATSOFT]
+ZA,ipv6,2c0f:40::,32,allocated,
 ZA,ipv6,2c0f:200::,32,allocated,[328810;ZA;Techwood-as]
 ZA,ipv6,2c0f:380::,32,allocated,[328548;ZA;TOUCHNET-TELECOMMUNICATIONS-AS]
 ZA,ipv6,2c0f:400::,32,allocated,[328787;ZA;China-Mobile-International]
@@ -10117,7 +10123,7 @@ GH,ipv4,155.12.224.0,19,assigned,[328184;GH;Univ-Health-Science]
 GH,ipv4,156.0.128.0,19,assigned,[328224;GH;University-of-Energy-and-Natural-Resourc]
 GH,ipv4,156.0.234.0,23,assigned,[328213;GH;IT-Consortium-Limited-AS]
 GH,ipv4,156.38.96.0,19,assigned,[328212;GH;The-University-Of-Cape-Coast-AS]
-GH,ipv4,160.226.179.0,24,assigned,[328185;GH;Consolidated-Bank-Ghana]
+GH,ipv4,160.226.179.0,24,assigned,[328185;GH;Consolidated-Bank-Ghana][327928;GH;Royal-Bank]
 GH,ipv4,164.160.132.0,22,assigned,[328054;GH;Univ-Development-AS]
 GH,ipv4,164.160.240.0,20,assigned,[328439;GH;GIMPA]
 GH,ipv4,192.251.202.0,24,assigned,*
@@ -10130,7 +10136,7 @@ GH,ipv4,196.10.215.0,24,assigned,[327845;GH;Sage-Petroleum]
 GH,ipv4,196.11.90.0,24,assigned,[37647;GH;BlueCloud-AS]
 GH,ipv4,196.11.206.0,23,assigned,[327848;GH;HFC-Bank]
 GH,ipv4,196.13.123.0,24,assigned,[327853;GH;CEIB]
-GH,ipv4,196.13.174.0,23,assigned,[327928;GH;Royal-Bank]
+GH,ipv4,196.13.174.0,23,assigned,[328185;GH;Consolidated-Bank-Ghana][327928;GH;Royal-Bank]
 GH,ipv4,196.13.252.0,24,assigned,[327944;GH;AIFM]
 GH,ipv4,196.29.224.0,20,assigned,[33786;GH;KNet]
 GH,ipv4,196.40.144.0,20,assigned,[37570;GH;FIDELITY-AS]
