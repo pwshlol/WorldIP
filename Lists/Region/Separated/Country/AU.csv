@@ -878,6 +878,7 @@ apnic,ipv4,103.114.12.0,22,allocated,[137576;AU;EASYCOMMUNICATE-AS-AP EasyCable 
 apnic,ipv4,103.114.190.0,23,allocated,*
 apnic,ipv4,103.115.12.0,23,allocated,[137199;AU;FLINTELPTYLTD-AS-AP Flintel Pty Ltd]
 apnic,ipv4,103.115.22.0,24,allocated,[137575;AU;SQUAREALPHAPTYLTD-AS-AP SquareAlpha Pty Ltd]
+apnic,ipv4,103.115.90.0,23,allocated,
 apnic,ipv4,103.115.112.0,22,allocated,[137841;AU;NET360-AS-AP SENSIA SERVICES PTY LTD]
 apnic,ipv4,103.115.136.0,22,allocated,[137847;AU;CRISP-AS-AP Crisp Wireless Pty Ltd]
 apnic,ipv4,103.115.160.0,22,allocated,[137852;AU;BIZCOMNT-AS-AP BIZCOM NT PTY. LTD.]
@@ -2963,6 +2964,7 @@ apnic,ipv4,203.32.40.0,23,allocated,[150110;AU;FJ-AS-AP FJ Networking Pty Limite
 apnic,ipv4,203.32.42.0,23,allocated,*
 apnic,ipv4,203.32.44.0,23,allocated,*
 apnic,ipv4,203.32.47.0,24,allocated,*
+apnic,ipv4,203.32.98.0,23,allocated,[138595;AU;LNPL-AS-AP LIGHTNING BROADBAND]
 apnic,ipv4,203.32.144.0,21,allocated,*
 apnic,ipv4,203.32.160.0,21,allocated,[45201;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd][38014;AU;GENERAL-PANTS-AU-AP General Pants Co  Sell Cloth][23609;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd][17766;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd][9797;AU;NEXONASIAPACIFIC-AS-AP Nexon Asia Pacific PL][7567;AU;ASIANONLINEAUS2-AS-AP Nexon Asia Pacific]
 apnic,ipv4,203.32.224.0,19,allocated,[133885;AU;TRANSGRID-AU Transgrid]
@@ -3655,6 +3657,7 @@ apnic,ipv6,2400:e820::,32,allocated,*
 apnic,ipv6,2400:ea20::,32,allocated,[140065;AU;CIFIPTYLTD-AS-AP CiFi Pty Ltd]
 apnic,ipv6,2400:eb00::,32,allocated,[45481;AU;DIGITALSENSE-AS-AP Digital Sense Data Centre Hosting Brisbane]
 apnic,ipv6,2400:eb60::,32,allocated,*
+apnic,ipv6,2400:eba0::,32,allocated,
 apnic,ipv6,2400:ec40::,32,allocated,[133895;AU;PENTANET-AS-AP Pentanet Limited][132458;AU;PENTANET-AS-AP Pentanet Limited][10214;AU;PENTANET-AS-AP Pentanet Limited]
 apnic,ipv6,2400:ed80::,32,allocated,[133389;AU;ACURUS-AS-AP ACURUS NETWORKS PTY LTD]
 apnic,ipv6,2400:f280::,32,allocated,[133739;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][133379;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][55954;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][55766;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][45418;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][18000;AU;ORROPTYLTD-AS-AU-AP Orro Pty Ltd]
@@ -5080,7 +5083,6 @@ apnic,ipv4,103.154.199.0,24,assigned,[38825;AU;TPP-PL-AS-AP Third Party Platform
 apnic,ipv4,103.154.249.0,24,assigned,*
 apnic,ipv4,103.155.55.0,24,assigned,[141046;AU;KMAPL-AS-AP KIA MOTORS AUSTRALIA PTY LIMITED]
 apnic,ipv4,103.155.97.0,24,assigned,[132900;AU;ASCHAMSCHOOLLTD-AS-AP Ascham School LTD]
-apnic,ipv4,103.155.124.0,24,assigned,[141162;AU;DTATPL-AS-AP Digital Technologies and Telecommunications Pty Ltd]
 apnic,ipv4,103.155.139.0,24,assigned,[141165;AU;AURL-AS-AP Australian United Retailers Ltd.]
 apnic,ipv4,103.155.181.0,24,assigned,[140907;AU;VCX-AS-AP Vicinity Centres PM Pty Ltd]
 apnic,ipv4,103.156.37.0,24,assigned,[141387;AU;CLOUDTALK1-AS-AP CLOUDTALK PTY LTD]
@@ -5347,7 +5349,6 @@ apnic,ipv4,103.246.234.0,24,assigned,[132020;AU;NINEWIRE-AS-AP NineWire Pty Ltd]
 apnic,ipv4,103.246.235.0,24,assigned,*
 apnic,ipv4,103.247.0.0,22,assigned,[58511;AU;ANYCAST-GLOBAL-BACKBONE Anycast Global Backbone][38330;AU;ANYCAST-GLOBAL-BACKBONE ANYCAST HOLDINGS PTY LTD][17551;AU;ANYCAST-AS-AP Anycast Global Backbone]
 apnic,ipv4,103.247.64.0,24,assigned,*
-apnic,ipv4,103.247.65.0,24,assigned,[132710;AU;COVERMOREMORE-AS-AP Cover-More Insurance Services Pty Ltd]
 apnic,ipv4,103.247.116.0,24,assigned,[132136;AU;BREMMAR-AS-AP Bremmar Communications Pty Ltd]
 apnic,ipv4,103.247.118.0,23,assigned,[132131;AU;MEDIBANK-AS-AP Medibank Private Ltd]
 apnic,ipv4,103.248.26.0,23,assigned,[58928;AU;EPATPL-AU Cloud365 Australia Pty Limited]
@@ -8214,7 +8215,6 @@ apnic,ipv4,203.32.93.0,24,assigned,*
 apnic,ipv4,203.32.94.0,24,assigned,*
 apnic,ipv4,203.32.96.0,24,assigned,*
 apnic,ipv4,203.32.97.0,24,assigned,*
-apnic,ipv4,203.32.98.0,23,assigned,*
 apnic,ipv4,203.32.100.0,24,assigned,*
 apnic,ipv4,203.32.101.0,24,assigned,*
 apnic,ipv4,203.32.103.0,24,assigned,*
@@ -8545,7 +8545,7 @@ apnic,ipv4,203.55.151.0,24,assigned,*
 apnic,ipv4,203.55.152.0,24,assigned,*
 apnic,ipv4,203.55.153.0,24,assigned,*
 apnic,ipv4,203.55.154.0,24,assigned,*
-apnic,ipv4,203.55.155.0,24,assigned,*
+apnic,ipv4,203.55.155.0,24,assigned,[9648;AU;ASN-OZONLINE-AU # AS-OZONLINE-AU CONVERTED TO ASN-OZONLINE-AU FOR RPSL COMPLIANCE Australia On-Line Pty Ltd]
 apnic,ipv4,203.55.156.0,24,assigned,*
 apnic,ipv4,203.55.157.0,24,assigned,[37928;AU;TRANSACT-IX-AS-AP TransACT Capital Communications Pty Limited][24037;AU;FUSION-AS-AU-AP Fusion Enterprises Pty Ltd][23645;AU;BBW-AS-AP Broadband Wireless Pty Ltd][18371;AU;NCABLE-AP Neighbourhood Cable][9556;AU;IINET-AU iiNet Limited][9543;AU;WESTNET-AS-AP Westnet Internet Services][7718;AU;TRANSACT-SDN-AS TransACT Capital Communications Pty Limited][7498;AU;IINET-WA-AS-AP iiNet Limited][4854;AU;IINET-AU Netspace Online Systems][4802;AU;ASN-IINET iiNet Limited][4739;AU;INTERNODE-AS Internode Pty Ltd]
 apnic,ipv4,203.55.158.0,24,assigned,[133620;AU;RUNGE-AS-AP Runge ICT Pty Ltd][133614;AU;RUNGE-AS-AP Runge ICT Pty Ltd][9652;AU;ECN-AS-AP ECN Internet]
@@ -9405,7 +9405,6 @@ apnic,ipv6,2001:df4:b600::,48,assigned,[135519;AU;ECCONNECT-AS-AP Appscorp PTY L
 apnic,ipv6,2001:df4:b680::,48,assigned,[141046;AU;KMAPL-AS-AP KIA MOTORS AUSTRALIA PTY LIMITED]
 apnic,ipv6,2001:df4:bf80::,48,assigned,[132900;AU;ASCHAMSCHOOLLTD-AS-AP Ascham School LTD]
 apnic,ipv6,2001:df4:c500::,48,assigned,[136900;AU;IQNETNSW-AS-AP IQ NET NSW PTY LTD]
-apnic,ipv6,2001:df4:c980::,48,assigned,[141162;AU;DTATPL-AS-AP Digital Technologies and Telecommunications Pty Ltd]
 apnic,ipv6,2001:df4:cc80::,48,assigned,[141165;AU;AURL-AS-AP Australian United Retailers Ltd.]
 apnic,ipv6,2001:df4:ce00::,48,assigned,[137896;AU;HUNTERWATER-AS-AP Hunter Water Corporation]
 apnic,ipv6,2001:df4:de00::,48,assigned,*
