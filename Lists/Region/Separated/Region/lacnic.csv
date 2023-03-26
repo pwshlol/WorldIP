@@ -481,7 +481,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,45.69.253.0,24,reserved,*
 *,ipv4,45.69.254.0,24,reserved,*
 *,ipv4,45.69.255.0,24,reserved,*
-*,ipv4,45.164.206.0,24,reserved,*
 *,ipv4,45.174.196.0,22,reserved,*
 *,ipv4,45.182.12.0,22,reserved,*
 *,ipv4,45.225.250.0,23,reserved,*
@@ -502,9 +501,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,177.73.216.0,22,reserved,*
 *,ipv4,177.105.196.0,22,reserved,*
 *,ipv4,177.105.200.0,21,reserved,*
-*,ipv4,177.125.181.0,24,reserved,*
 *,ipv4,179.63.0.0,22,reserved,*
-*,ipv4,179.63.176.0,23,reserved,*
 *,ipv4,181.192.96.0,22,reserved,*
 *,ipv4,187.63.232.0,22,reserved,*
 *,ipv4,187.102.196.0,23,reserved,*
@@ -1304,8 +1301,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:1a:1::,48,reserved,*
 *,ipv6,2801:1a:2::,47,reserved,*
 *,ipv6,2801:1a:4::,46,reserved,*
-*,ipv6,2801:1a8::,40,reserved,*
 *,ipv6,2801:1a:8::,45,reserved,*
+*,ipv6,2801:1a8::,40,reserved,*
 *,ipv6,2801:1b:1::,48,reserved,*
 *,ipv6,2801:1b:2::,47,reserved,*
 *,ipv6,2801:1b:4::,46,reserved,*
@@ -9262,6 +9259,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2803:c582::,31,reserved,*
 *,ipv6,2803:c584::,30,reserved,*
 *,ipv6,2803:c588::,29,reserved,*
+*,ipv6,2803:c591::,32,reserved,*
+*,ipv6,2803:c592::,31,reserved,*
+*,ipv6,2803:c594::,30,reserved,*
+*,ipv6,2803:c598::,29,reserved,*
 *,ipv6,2803:c5a1::,32,reserved,*
 *,ipv6,2803:c5a2::,31,reserved,*
 *,ipv6,2803:c5a4::,30,reserved,*
@@ -12044,10 +12045,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11e:20::,43,reserved,*
 *,ipv6,2801:11e:40::,42,reserved,*
 *,ipv6,2801:11e:80::,41,reserved,*
-*,ipv6,2801:121:10::,44,reserved,*
 *,ipv6,2801:12:110::,44,reserved,*
-*,ipv6,2801:121:20::,43,reserved,*
+*,ipv6,2801:121:10::,44,reserved,*
 *,ipv6,2801:12:120::,43,reserved,*
+*,ipv6,2801:121:20::,43,reserved,*
 *,ipv6,2801:12:140::,42,reserved,*
 *,ipv6,2801:121:40::,42,reserved,*
 *,ipv6,2801:121:80::,41,reserved,*
@@ -18196,7 +18197,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2803:c530::,28,available,*
 *,ipv6,2803:c550::,28,available,*
 *,ipv6,2803:c570::,28,available,*
-*,ipv6,2803:c590::,28,available,*
 *,ipv6,2803:c5b0::,28,available,*
 *,ipv6,2803:c5d0::,28,available,*
 *,ipv6,2803:c5f0::,28,available,*
@@ -35412,8 +35412,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:10:6100::,40,available,*
 *,ipv6,2801:106:200::,39,available,*
 *,ipv6,2801:10:6200::,39,available,*
-*,ipv6,2801:10:6400::,38,available,*
 *,ipv6,2801:106:400::,38,available,*
+*,ipv6,2801:10:6400::,38,available,*
 *,ipv6,2801:106:800::,37,available,*
 *,ipv6,2801:10:6810::,44,available,*
 *,ipv6,2801:10:6820::,43,available,*
@@ -35434,8 +35434,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:10:8020::,43,available,*
 *,ipv6,2801:10:8040::,42,available,*
 *,ipv6,2801:10:8080::,41,available,*
-*,ipv6,2801:108:100::,40,available,*
 *,ipv6,2801:10:8100::,40,available,*
+*,ipv6,2801:108:100::,40,available,*
 *,ipv6,2801:10:8200::,39,available,*
 *,ipv6,2801:108:200::,39,available,*
 *,ipv6,2801:10:8400::,38,available,*
@@ -35452,12 +35452,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:10:9020::,43,available,*
 *,ipv6,2801:10:9040::,42,available,*
 *,ipv6,2801:10:9080::,41,available,*
-*,ipv6,2801:109:100::,40,available,*
 *,ipv6,2801:10:9100::,40,available,*
+*,ipv6,2801:109:100::,40,available,*
 *,ipv6,2801:10:9200::,39,available,*
 *,ipv6,2801:109:200::,39,available,*
-*,ipv6,2801:109:400::,38,available,*
 *,ipv6,2801:10:9400::,38,available,*
+*,ipv6,2801:109:400::,38,available,*
 *,ipv6,2801:109:800::,37,available,*
 *,ipv6,2801:10:9810::,44,available,*
 *,ipv6,2801:10:9820::,43,available,*
@@ -35498,8 +35498,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:10:c080::,41,available,*
 *,ipv6,2801:10c:100::,40,available,*
 *,ipv6,2801:10:c100::,40,available,*
-*,ipv6,2801:10:c200::,39,available,*
 *,ipv6,2801:10c:200::,39,available,*
+*,ipv6,2801:10:c200::,39,available,*
 *,ipv6,2801:10:c400::,38,available,*
 *,ipv6,2801:10c:400::,38,available,*
 *,ipv6,2801:10c:800::,37,available,*
@@ -35558,8 +35558,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11:1100::,40,available,*
 *,ipv6,2801:11:1200::,39,available,*
 *,ipv6,2801:111:200::,39,available,*
-*,ipv6,2801:111:400::,38,available,*
 *,ipv6,2801:11:1400::,38,available,*
+*,ipv6,2801:111:400::,38,available,*
 *,ipv6,2801:111:800::,37,available,*
 *,ipv6,2801:11:1810::,44,available,*
 *,ipv6,2801:11:1820::,43,available,*
@@ -35638,10 +35638,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11:6080::,41,available,*
 *,ipv6,2801:11:6100::,40,available,*
 *,ipv6,2801:116:100::,40,available,*
-*,ipv6,2801:11:6200::,39,available,*
 *,ipv6,2801:116:200::,39,available,*
-*,ipv6,2801:11:6400::,38,available,*
+*,ipv6,2801:11:6200::,39,available,*
 *,ipv6,2801:116:400::,38,available,*
+*,ipv6,2801:11:6400::,38,available,*
 *,ipv6,2801:116:800::,37,available,*
 *,ipv6,2801:11:6810::,44,available,*
 *,ipv6,2801:11:6820::,43,available,*
@@ -35662,12 +35662,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11:8020::,43,available,*
 *,ipv6,2801:11:8040::,42,available,*
 *,ipv6,2801:11:8080::,41,available,*
-*,ipv6,2801:118:100::,40,available,*
 *,ipv6,2801:11:8100::,40,available,*
+*,ipv6,2801:118:100::,40,available,*
 *,ipv6,2801:118:200::,39,available,*
 *,ipv6,2801:11:8200::,39,available,*
-*,ipv6,2801:118:400::,38,available,*
 *,ipv6,2801:11:8400::,38,available,*
+*,ipv6,2801:118:400::,38,available,*
 *,ipv6,2801:118:800::,37,available,*
 *,ipv6,2801:11:8810::,44,available,*
 *,ipv6,2801:11:8820::,43,available,*
@@ -35680,8 +35680,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11:9020::,43,available,*
 *,ipv6,2801:11:9040::,42,available,*
 *,ipv6,2801:11:9080::,41,available,*
-*,ipv6,2801:11:9100::,40,available,*
 *,ipv6,2801:119:100::,40,available,*
+*,ipv6,2801:11:9100::,40,available,*
 *,ipv6,2801:11:9200::,39,available,*
 *,ipv6,2801:119:200::,39,available,*
 *,ipv6,2801:11:9400::,38,available,*
@@ -35698,8 +35698,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11:a020::,43,available,*
 *,ipv6,2801:11:a040::,42,available,*
 *,ipv6,2801:11:a080::,41,available,*
-*,ipv6,2801:11:a100::,40,available,*
 *,ipv6,2801:11a:100::,40,available,*
+*,ipv6,2801:11:a100::,40,available,*
 *,ipv6,2801:11:a200::,39,available,*
 *,ipv6,2801:11a:200::,39,available,*
 *,ipv6,2801:11a:400::,38,available,*
@@ -35728,8 +35728,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11:c100::,40,available,*
 *,ipv6,2801:11c:200::,39,available,*
 *,ipv6,2801:11:c200::,39,available,*
-*,ipv6,2801:11:c400::,38,available,*
 *,ipv6,2801:11c:400::,38,available,*
+*,ipv6,2801:11:c400::,38,available,*
 *,ipv6,2801:11c:800::,37,available,*
 *,ipv6,2801:11:c810::,44,available,*
 *,ipv6,2801:11:c820::,43,available,*
@@ -35758,10 +35758,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11:e080::,41,available,*
 *,ipv6,2801:11:e100::,40,available,*
 *,ipv6,2801:11e:100::,40,available,*
-*,ipv6,2801:11:e200::,39,available,*
 *,ipv6,2801:11e:200::,39,available,*
-*,ipv6,2801:11e:400::,38,available,*
+*,ipv6,2801:11:e200::,39,available,*
 *,ipv6,2801:11:e400::,38,available,*
+*,ipv6,2801:11e:400::,38,available,*
 *,ipv6,2801:11e:800::,37,available,*
 *,ipv6,2801:11:e810::,44,available,*
 *,ipv6,2801:11:e820::,43,available,*
@@ -35786,8 +35786,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:12:1020::,43,available,*
 *,ipv6,2801:12:1040::,42,available,*
 *,ipv6,2801:12:1080::,41,available,*
-*,ipv6,2801:12:1100::,40,available,*
 *,ipv6,2801:121:100::,40,available,*
+*,ipv6,2801:12:1100::,40,available,*
 *,ipv6,2801:12:1200::,39,available,*
 *,ipv6,2801:121:200::,39,available,*
 *,ipv6,2801:12:1400::,38,available,*
@@ -36670,8 +36670,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:16:1080::,41,available,*
 *,ipv6,2801:16:1100::,40,available,*
 *,ipv6,2801:161:100::,40,available,*
-*,ipv6,2801:161:200::,39,available,*
 *,ipv6,2801:16:1200::,39,available,*
+*,ipv6,2801:161:200::,39,available,*
 *,ipv6,2801:161:400::,38,available,*
 *,ipv6,2801:16:1400::,38,available,*
 *,ipv6,2801:161:800::,37,available,*
@@ -38413,10 +38413,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:1d:c080::,41,available,*
 *,ipv6,2801:1d:c100::,40,available,*
 *,ipv6,2801:1dc:100::,40,available,*
-*,ipv6,2801:1dc:200::,39,available,*
 *,ipv6,2801:1d:c200::,39,available,*
-*,ipv6,2801:1dc:400::,38,available,*
+*,ipv6,2801:1dc:200::,39,available,*
 *,ipv6,2801:1d:c400::,38,available,*
+*,ipv6,2801:1dc:400::,38,available,*
 *,ipv6,2801:1dc:800::,37,available,*
 *,ipv6,2801:1d:c810::,44,available,*
 *,ipv6,2801:1d:c820::,43,available,*
@@ -44008,6 +44008,7 @@ BR,ipv4,45.164.192.0,22,allocated,[268646;BR;TW TELECOM]
 BR,ipv4,45.164.196.0,22,allocated,[268640;BR;JSOUZANET TELECOM]
 BR,ipv4,45.164.200.0,23,allocated,[268642;BR;L & C TELECOMUNICACOES E SERVICOS LTDA]
 BR,ipv4,45.164.202.0,23,allocated,[272174;BR;JONATAN F DA SILVA SERVICOS - ME]
+BR,ipv4,45.164.206.0,24,allocated,[271629;BR;ATELE COMUNICACOES EIRELI]
 BR,ipv4,45.164.208.0,22,allocated,[268637;BR;Easy Connection Internet Ltda. - ME]
 BR,ipv4,45.164.212.0,22,allocated,[268641;BR;JULIO CESAR BATISTA DE OLIVEIRA - ME]
 BR,ipv4,45.164.216.0,22,allocated,[268653;BR;4K Telecom Internet Ltda - ME]
@@ -50212,6 +50213,7 @@ BR,ipv4,177.125.152.0,21,allocated,[262394;BR;Internet 5.8 Ltda-ME]
 BR,ipv4,177.125.160.0,21,allocated,[262346;BR;FP Telecomunicacoes Ltda]
 BR,ipv4,177.125.168.0,22,allocated,[52613;BR;VIP BR TELECOM S.A.]
 BR,ipv4,177.125.172.0,22,allocated,[52613;BR;VIP BR TELECOM S.A.]
+BR,ipv4,177.125.181.0,24,allocated,[271629;BR;ATELE COMUNICACOES EIRELI]
 BR,ipv4,177.125.184.0,22,allocated,[268323;BR;AZZA TELECOM SERVICOS EM TELECOMUNICACOES LTDA]
 BR,ipv4,177.125.188.0,22,allocated,[268323;BR;AZZA TELECOM SERVICOS EM TELECOMUNICACOES LTDA]
 BR,ipv4,177.125.192.0,22,allocated,[262351;BR;SITE - Soluc. em Inf. Telec. e Eng. Ltda. - BRSITE]
@@ -50914,6 +50916,7 @@ BR,ipv4,179.63.156.0,22,allocated,[271602;BR;CANDEIAS NET TELECOM COMUNICACOES L
 BR,ipv4,179.63.160.0,22,allocated,[271650;BR;LC NET TELECOMUNICACOES LTDA]
 BR,ipv4,179.63.164.0,22,allocated,[271563;BR;Mega Mais Telecom Ltda me]
 BR,ipv4,179.63.172.0,22,allocated,[271566;BR;R N V DA COSTA JUNIOR EIRELI]
+BR,ipv4,179.63.176.0,23,allocated,[271629;BR;ATELE COMUNICACOES EIRELI]
 BR,ipv4,179.63.178.0,23,allocated,[61605;BR;SELIGA TELECOMUNICACOES DO BRASIL EIRELI]
 BR,ipv4,179.63.180.0,22,allocated,[272681;BR;I S SOUZA SERVICOS DE TELECOMUNICACOES EIRELI]
 BR,ipv4,179.63.184.0,22,allocated,[271570;BR;Upnet Com. e Serv. de Mat. Eletrico e Internet]
@@ -54598,7 +54601,7 @@ BR,ipv4,201.182.68.0,22,allocated,[267502;BR;SSNet Provedor]
 BR,ipv4,201.182.72.0,22,allocated,[267506;BR;NETLUX Telecom]
 BR,ipv4,201.182.88.0,22,allocated,[267516;BR;Company Telecom Ltda]
 BR,ipv4,201.182.92.0,22,allocated,[267510;BR;PROVEDOR CRNET TELECOM S.C. MULTIMIDIA EIRELI]
-BR,ipv4,201.182.96.0,22,allocated,[267507;BR;LoopHOST Datacenter]
+BR,ipv4,201.182.96.0,22,allocated,[267507;BR;GRUPO SRX]
 BR,ipv4,201.182.100.0,22,allocated,[267511;BR;JK NET SERVICOS MULTIMIDIA EIRELI - EPP]
 BR,ipv4,201.182.104.0,22,allocated,[267508;BR;SEMPRENET INTERNET LTDA ME]
 BR,ipv4,201.182.116.0,22,allocated,[267512;BR;ENTERPRISE TELECOMUNICACOES]
@@ -58341,7 +58344,7 @@ BR,ipv6,2804:4278::,32,allocated,[267502;BR;SSNet Provedor]
 BR,ipv6,2804:427c::,32,allocated,[267503;BR;RCM BRASIL MULTIMIDIA LTDA]
 BR,ipv6,2804:4284::,32,allocated,[267505;BR;EMBRATEC COMUNICACOES LTDA ME]
 BR,ipv6,2804:4288::,32,allocated,[267506;BR;NETLUX Telecom]
-BR,ipv6,2804:428c::,32,allocated,[267507;BR;LoopHOST Datacenter]
+BR,ipv6,2804:428c::,32,allocated,[267507;BR;GRUPO SRX]
 BR,ipv6,2804:4290::,32,allocated,[267508;BR;SEMPRENET INTERNET LTDA ME]
 BR,ipv6,2804:4294::,32,allocated,[267510;BR;PROVEDOR CRNET TELECOM S.C. MULTIMIDIA EIRELI]
 BR,ipv6,2804:4298::,32,allocated,[267511;BR;JK NET SERVICOS MULTIMIDIA EIRELI - EPP]
@@ -62752,8 +62755,8 @@ BR,ipv6,2804:8b18::,32,allocated,[273711;BR;HD de Sousa provedores]
 BR,ipv6,2804:8b1c::,32,allocated,[273712;BR;A. G. DA SILVA BATISTA]
 BR,ipv6,2804:8b20::,32,allocated,[273713;BR;Web Lan Provedor de Internet LTDA]
 BR,ipv6,2804:8b24::,32,allocated,[273714;BR;POINT NET TELECOMUNICACAO LTDA]
-BR,ipv6,2804:8b28::,32,allocated,
-BR,ipv6,2804:8b2c::,32,allocated,
+BR,ipv6,2804:8b28::,32,allocated,[273715;BR;CONECTA - AB LTDA]
+BR,ipv6,2804:8b2c::,32,allocated,[273716;BR;Lemit Tecnologia da Informacao Ltda - ME]
 BZ,ipv4,45.70.228.0,22,allocated,[265826;BZ;BROADBAND BELIZE LTD]
 BZ,ipv4,45.70.240.0,22,allocated,[265818;BZ;CORAL CABLE VISION LIMITED]
 BZ,ipv4,45.180.120.0,22,allocated,[267932;BZ;CENTRAL INFORMATION TECHNOLOGY OFFICE CITO]
@@ -64428,6 +64431,7 @@ CR,ipv4,190.113.112.0,20,allocated,[262217;CR;Telecable Economico S.A.][52263;CR
 CR,ipv4,190.113.248.0,21,allocated,[262241;CR;COOPERATIVA DE ELECTRIFICACION RURAL DE ALFARO RUIZ R.L.]
 CR,ipv4,190.115.200.0,22,allocated,[270058;CR;CABLE CENTRO SOCIEDAD ANONIMA]
 CR,ipv4,190.120.240.0,22,allocated,[262252;CR;Servicios Technologicos Antares de Costa Rica  S.A.]
+CR,ipv4,190.123.14.0,24,allocated,[272108;CR;ADMINTEK S.A.]
 CR,ipv4,190.123.128.0,20,allocated,[28086;CR;Worldcom de Costa Rica  S.A.]
 CR,ipv4,190.124.248.0,22,allocated,[265766;CR;NAVEGALO S.A.][263796;CR;NAVEGALO S.A.][28317;CR;NAVEGALO S.A.][28110;CR;NAVEGALO S.A.]
 CR,ipv4,190.148.85.0,24,allocated,[262172;CR;Claro CR Telecomunicaciones S.A.]
@@ -65054,7 +65058,6 @@ EC,ipv4,190.111.80.0,20,allocated,[23487;EC;CONECEL]
 EC,ipv4,190.120.64.0,20,allocated,[28025;EC;CENTROSUR]
 EC,ipv4,190.120.80.0,20,allocated,[28025;EC;CENTROSUR]
 EC,ipv4,190.123.0.0,23,allocated,[27868;EC;ECUAONLINE S.A.]
-EC,ipv4,190.123.14.0,24,allocated,[27868;EC;ECUAONLINE S.A.]
 EC,ipv4,190.123.32.0,21,allocated,[22724;EC;PUNTONET S.A.]
 EC,ipv4,190.123.48.0,20,allocated,[28025;EC;CENTROSUR]
 EC,ipv4,190.130.128.0,17,allocated,[27738;EC;Ecuadortelecom S.A.]
@@ -66770,7 +66773,7 @@ MX,ipv6,2806:3f6::,32,allocated,[28447;MX;ONFIBER SA DE CV]
 MX,ipv6,2806:3f7::,32,allocated,[270200;MX;MEGABIT TELECOMUNICACIONES SA DE CV]
 MX,ipv6,2806:3f8::,32,allocated,[270207;MX;JOSE DE JESUS VAZQUEZ PONCE]
 MX,ipv6,2806:3f9::,32,allocated,[28451;MX;Ignacio Sanchez Gutierrez]
-MX,ipv6,2806:3fb::,32,allocated,
+MX,ipv6,2806:3fb::,32,allocated,[270211;MX;MARIO ELIEZER VILLAMIL ARGUELLES]
 MX,ipv6,2806:400::,32,allocated,[270217;MX;JAVIER ALEJANDRO OLVERA GRANADOS]
 MX,ipv6,2001:1200::,32,allocated,[16531;MX;TOPNET SA de CV]
 MX,ipv6,2001:1208::,32,allocated,[265514;MX;Uninet S.A. de C.V.][265513;MX;Uninet S.A. de C.V.][265512;MX;Uninet S.A. de C.V.][28550;MX;Uninet S.A. de C.V.][28513;MX;Uninet S.A. de C.V.][28413;MX;Uninet S.A. de C.V.][28412;MX;Uninet S.A. de C.V.][8151;MX;Uninet S.A. de C.V.]
@@ -67948,7 +67951,7 @@ VE,ipv4,190.103.48.0,20,allocated,[22313;VE;Supercable]
 VE,ipv4,190.111.120.0,22,allocated,[52285;VE;Ewinet C.A.]
 VE,ipv4,190.113.63.0,24,allocated,[272126;VE;STARTNET C.A.]
 VE,ipv4,190.114.240.0,21,allocated,[28007;VE;Gold Data C.A.]
-VE,ipv4,190.120.248.0,21,allocated,*
+VE,ipv4,190.120.248.0,21,allocated,[264628;VE;CORPORACION FIBEX TELECOM  C.A.]
 VE,ipv4,190.121.224.0,20,allocated,[264731;VE;Corporacion Digitel C.A.][27717;VE;Corporacion Digitel C.A.]
 VE,ipv4,190.122.216.0,21,allocated,[263223;VE;SATELITES Y TELECOMUNICACIONES C.A]
 VE,ipv4,190.123.66.0,23,allocated,[271813;VE;COMUNICACIONES MIGTEL C.A.]
@@ -68128,6 +68131,7 @@ VE,ipv6,2803:c1a0::,32,allocated,[267693;VE;PROYTEL CONNECTIONS C.A]
 VE,ipv6,2803:c210::,32,allocated,[271899;VE;GIGAPOP  C.A.]
 VE,ipv6,2803:c290::,32,allocated,[272854;VE;TELECOMUNICACIONES SILVERDATA  C.A.]
 VE,ipv6,2803:c2e0::,32,allocated,[269920;VE;INVERSIONES RDN3 C.A.]
+VE,ipv6,2803:c590::,32,allocated,
 VE,ipv6,2803:ca10::,32,allocated,[271917;VE;SOLUCIONES TECNICAS VENEZUELA  C.A.]
 VE,ipv6,2803:cf10::,32,allocated,[272119;VE;GTITHOST C.A]
 VE,ipv6,2803:d060::,32,allocated,[267813;VE;REPRESENTACIONES ABANET  C.A.]
@@ -68584,7 +68588,7 @@ BR,ipv4,45.5.204.0,22,assigned,[266122;BR;Banco da Amazonia SA]
 BR,ipv4,45.6.52.0,22,assigned,[263044;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][61580;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][53035;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][28345;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][26162;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][22548;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][20121;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][14650;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][14026;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][13874;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][12136;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][11752;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][11644;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][11431;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][11284;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.][10906;BR;Nucleo de Inf. e Coord. do Ponto BR - NIC.]
 BR,ipv4,45.7.60.0,22,assigned,[266561;BR;NATURA COSMETICOS SA]
 BR,ipv4,45.65.201.0,24,assigned,[266589;BR;Sociedade de Educacao Tiradentes S.A.]
-BR,ipv4,45.65.253.0,24,assigned,[265941;BR;DUAS RODAS INDUSTRIAL LTDA]
+BR,ipv4,45.65.253.0,24,assigned,[265941;BR;DUAS RODAS INDUSTRIAL SA]
 BR,ipv4,45.71.4.0,24,assigned,[267592;BR;Colegio do Registro de Imoveis do Parana]
 BR,ipv4,45.71.6.0,24,assigned,[267630;BR;UNIVERSIDADE ESTADUAL DO MARANHAO]
 BR,ipv4,45.71.214.0,23,assigned,[267626;BR;Tribunal de Justica de Goias]
@@ -69873,7 +69877,7 @@ BR,ipv6,2801:80:1d21::,48,assigned,[265910;BR;UCEFF-Unidade Central de Educacao 
 BR,ipv6,2801:80:1d30::,48,assigned,[265916;BR;Claudino SA Lojas de Departamentos]
 BR,ipv6,2801:80:1d40::,48,assigned,[265932;BR;Cooperativa Regional Auriverde]
 BR,ipv6,2801:80:1d50::,48,assigned,[265939;BR;TRIBUNAL REGIONAL DO TRABALHO DA 16A. REGIAO]
-BR,ipv6,2801:80:1d70::,48,assigned,[265941;BR;DUAS RODAS INDUSTRIAL LTDA]
+BR,ipv6,2801:80:1d70::,48,assigned,[265941;BR;DUAS RODAS INDUSTRIAL SA]
 BR,ipv6,2801:80:1d90::,48,assigned,[265988;BR;DAITAN LABS SOLUCOES EM TECNOLOGIA SA]
 BR,ipv6,2801:80:1da0::,48,assigned,[265993;BR;ESTADO DO MARANHAO - PROCURADORIA GERAL DA JUSTICA]
 BR,ipv6,2801:80:1db0::,46,assigned,[267445;BR;Romagnole Produtos Eletricos S.A.]
