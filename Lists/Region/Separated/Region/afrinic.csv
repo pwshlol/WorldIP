@@ -135,6 +135,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.177.224.0,19,reserved,*
 *,ipv4,102.181.224.0,19,reserved,*
 *,ipv4,102.183.0.0,16,reserved,*
+*,ipv4,102.212.60.0,22,reserved,*
 *,ipv4,102.212.66.0,23,reserved,*
 *,ipv4,102.212.72.0,21,reserved,*
 *,ipv4,102.212.80.0,21,reserved,*
@@ -3429,11 +3430,13 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,14,available,*
-*,ipv4,102.212.0.0,18,available,*
+*,ipv4,102.212.0.0,19,available,*
+*,ipv4,102.212.32.0,20,available,*
+*,ipv4,102.212.48.0,21,available,*
+*,ipv4,102.212.56.0,22,available,*
 *,ipv4,102.212.64.0,23,available,*
 *,ipv4,102.212.116.0,22,available,*
 *,ipv4,102.212.120.0,21,available,*
-*,ipv4,102.212.163.0,24,available,*
 *,ipv4,102.212.196.0,22,available,*
 *,ipv4,102.212.200.0,21,available,*
 *,ipv4,102.212.208.0,20,available,*
@@ -3476,7 +3479,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:108::,29,available,*
 *,ipv6,2c0f:110::,28,available,*
 *,ipv6,2c0f:120::,27,available,*
-*,ipv6,2c0f:140::,26,available,*
+*,ipv6,2c0f:141::,32,available,*
+*,ipv6,2c0f:142::,31,available,*
+*,ipv6,2c0f:144::,30,available,*
+*,ipv6,2c0f:148::,29,available,*
+*,ipv6,2c0f:150::,28,available,*
+*,ipv6,2c0f:160::,27,available,*
 *,ipv6,2c0f:181::,32,available,*
 *,ipv6,2c0f:182::,31,available,*
 *,ipv6,2c0f:184::,30,available,*
@@ -6772,6 +6780,7 @@ GM,ipv4,197.231.204.0,22,allocated,[37552;GM;Gamtel]
 GM,ipv4,197.242.128.0,20,allocated,[37309;GM;QCell]
 GM,ipv4,197.255.192.0,20,allocated,[37323;GM;NETPAGE]
 GM,ipv4,212.60.64.0,19,allocated,[25250;GM;GAMTEL-AS]
+GM,ipv6,2c0f:140::,32,allocated,[37524;GM;AFRICELL-]
 GM,ipv6,2c0f:4c00::,32,allocated,[328140;GM;INSIST-NET-AS]
 GM,ipv6,2c0f:6780::,32,allocated,[25250;GM;GAMTEL-AS]
 GM,ipv6,2c0f:f890::,32,allocated,[37503;GM;Unique-Solutions]
@@ -7617,6 +7626,7 @@ NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
 NG,ipv4,102.212.140.0,24,allocated,[329233;NG;SABI-NETWORKS-LIMITED]
+NG,ipv4,102.212.163.0,24,allocated,
 NG,ipv4,102.212.232.0,22,allocated,[329215;NG;LL4-AS]
 NG,ipv4,102.212.240.0,22,allocated,[37347;NG;NGCOM]
 NG,ipv4,102.212.252.0,22,allocated,[329230;NG;Pronto-Broadband-Solutions]
