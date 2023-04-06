@@ -136,6 +136,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.177.224.0,19,reserved,*
 *,ipv4,102.181.224.0,19,reserved,*
 *,ipv4,102.183.0.0,16,reserved,*
+*,ipv4,102.212.48.0,22,reserved,*
 *,ipv4,102.212.60.0,22,reserved,*
 *,ipv4,102.212.66.0,23,reserved,*
 *,ipv4,102.212.72.0,21,reserved,*
@@ -155,6 +156,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.218.168.0,22,reserved,*
 *,ipv4,102.218.248.0,22,reserved,*
 *,ipv4,102.219.128.0,22,reserved,*
+*,ipv4,102.219.174.0,23,reserved,*
 *,ipv4,102.219.244.0,22,reserved,*
 *,ipv4,102.220.0.0,22,reserved,*
 *,ipv4,102.220.136.0,22,reserved,*
@@ -192,6 +194,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,154.70.196.0,22,reserved,*
 *,ipv4,154.72.28.0,22,reserved,*
 *,ipv4,154.73.12.0,22,reserved,*
+*,ipv4,154.73.60.0,22,reserved,*
 *,ipv4,154.73.76.0,22,reserved,*
 *,ipv4,154.73.116.0,22,reserved,*
 *,ipv4,154.73.144.0,21,reserved,*
@@ -432,6 +435,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.246.0.0,16,reserved,*
 *,ipv4,196.250.160.0,20,reserved,*
 *,ipv4,196.250.248.0,22,reserved,*
+*,ipv4,197.148.224.0,19,reserved,*
+*,ipv4,197.149.156.0,22,reserved,*
+*,ipv4,197.149.188.0,22,reserved,*
+*,ipv4,197.157.200.0,22,reserved,*
+*,ipv4,197.157.224.0,22,reserved,*
+*,ipv4,197.158.128.0,18,reserved,*
+*,ipv4,197.159.80.0,21,reserved,*
+*,ipv4,197.159.112.0,20,reserved,*
+*,ipv4,197.220.192.0,18,reserved,*
+*,ipv4,197.231.136.0,21,reserved,*
+*,ipv4,197.231.208.0,22,reserved,*
+*,ipv4,197.255.248.0,22,reserved,*
 *,ipv4,212.12.224.0,19,reserved,*
 *,ipv4,212.122.224.0,19,reserved,*
 *,ipv4,213.147.64.0,19,reserved,*
@@ -985,9 +1000,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:ec49::,32,reserved,*
 *,ipv6,2c0f:ec4a::,31,reserved,*
 *,ipv6,2c0f:ec4c::,30,reserved,*
-*,ipv6,2c0f:ec51::,32,reserved,*
-*,ipv6,2c0f:ec52::,31,reserved,*
-*,ipv6,2c0f:ec54::,30,reserved,*
+*,ipv6,2c0f:ec50::,29,reserved,*
 *,ipv6,2c0f:ec59::,32,reserved,*
 *,ipv6,2c0f:ec5a::,31,reserved,*
 *,ipv6,2c0f:ec5c::,30,reserved,*
@@ -3422,10 +3435,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.208.0.0,14,available,*
 *,ipv4,102.212.0.0,19,available,*
 *,ipv4,102.212.32.0,20,available,*
-*,ipv4,102.212.48.0,22,available,*
 *,ipv4,102.212.116.0,22,available,*
 *,ipv4,102.212.120.0,21,available,*
-*,ipv4,102.212.196.0,22,available,*
 *,ipv4,102.212.200.0,21,available,*
 *,ipv4,102.212.208.0,20,available,*
 *,ipv4,102.213.68.0,22,available,*
@@ -6812,10 +6823,7 @@ GQ,ipv4,197.214.64.0,20,allocated,[37529;GQ;GITGE]
 GQ,ipv6,2c0f:1680::,32,allocated,[329060;GQ;GEDC1-AS]
 GQ,ipv6,2c0f:f840::,32,allocated,[37337;GQ;MUNI-EG]
 GQ,ipv6,2c0f:f8c0::,32,allocated,[37529;GQ;GITGE]
-GW,ipv4,102.219.174.0,23,allocated,[327769;GW;MTN-Bissau]
-GW,ipv4,154.73.60.0,22,allocated,[327769;GW;MTN-Bissau]
 GW,ipv4,197.214.80.0,20,allocated,[37559;GW;ORANGE-BISSAU]
-GW,ipv6,2c0f:ec50::,32,allocated,[327769;GW;MTN-Bissau]
 GW,ipv6,2c0f:f928::,32,allocated,[37559;GW;ORANGE-BISSAU]
 KE,ipv4,41.57.96.0,20,allocated,[36866;KE;JTL]
 KE,ipv4,41.72.160.0,19,allocated,[30896;KE;Iway-Network-AS]
@@ -8749,6 +8757,7 @@ ZA,ipv4,102.212.168.0,22,allocated,[329216;ZA;LC1-AS]
 ZA,ipv4,102.212.172.0,24,allocated,[329231;ZA;Digitegrity-AS]
 ZA,ipv4,102.212.173.0,24,allocated,*
 ZA,ipv4,102.212.192.0,22,allocated,[37231;ZA;RSAWEB][37053;ZA;RSAWEB-AS]
+ZA,ipv4,102.212.196.0,22,allocated,[37231;ZA;RSAWEB][37053;ZA;RSAWEB-AS]
 ZA,ipv4,102.212.224.0,22,allocated,[328517;ZA;Infinity-Wireless-AS]
 ZA,ipv4,102.213.0.0,22,allocated,[327872;ZA;IBITS-Internet]
 ZA,ipv4,102.213.4.0,22,allocated,[329206;ZA;RL5-AS]
