@@ -150,7 +150,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.174.0,23,reserved,*
 *,ipv4,102.212.244.0,22,reserved,*
 *,ipv4,102.213.12.0,22,reserved,*
-*,ipv4,102.213.16.0,23,reserved,*
 *,ipv4,102.213.40.0,22,reserved,*
 *,ipv4,102.218.96.0,23,reserved,*
 *,ipv4,102.218.168.0,22,reserved,*
@@ -4402,7 +4401,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4108::,29,available,*
 *,ipv6,2c0f:4110::,28,available,*
 *,ipv6,2c0f:4120::,27,available,*
-*,ipv6,2c0f:4140::,26,available,*
+*,ipv6,2c0f:4141::,32,available,*
+*,ipv6,2c0f:4142::,31,available,*
+*,ipv6,2c0f:4144::,30,available,*
+*,ipv6,2c0f:4148::,29,available,*
+*,ipv6,2c0f:4150::,28,available,*
+*,ipv6,2c0f:4160::,27,available,*
 *,ipv6,2c0f:4181::,32,available,*
 *,ipv6,2c0f:4182::,31,available,*
 *,ipv6,2c0f:4184::,30,available,*
@@ -6697,7 +6701,7 @@ GH,ipv4,102.23.112.0,22,allocated,*
 GH,ipv4,102.69.220.0,22,allocated,[328494;GH;WirelessPlus-3D]
 GH,ipv4,102.176.0.0,17,allocated,[29614;GH;GHANATEL-AS]
 GH,ipv4,102.177.100.0,22,allocated,[328261;GH;E-Connecta]
-GH,ipv4,102.212.56.0,22,allocated,
+GH,ipv4,102.212.56.0,22,allocated,[329238;GH;Abex-Interconnects-AS]
 GH,ipv4,102.212.176.0,22,allocated,[328957;GH;CLGL1-AS]
 GH,ipv4,102.213.214.0,23,allocated,[329176;GH;FTST-AS]
 GH,ipv4,102.214.88.0,24,allocated,[329169;GH;MB1-AS]
@@ -6879,7 +6883,7 @@ KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
 KE,ipv4,102.212.132.0,22,allocated,[37305;KE;FON]
-KE,ipv4,102.212.230.0,24,allocated,
+KE,ipv4,102.212.230.0,24,allocated,[329239;KE;Xcobean-Systems-AS]
 KE,ipv4,102.212.236.0,22,allocated,[329211;KE;Novia-East-Africa-AS]
 KE,ipv4,102.213.48.0,22,allocated,[329205;KE;VUMA-FIBER-LIMITED]
 KE,ipv4,102.213.92.0,22,allocated,[329183;KE;FLINK-AS]
@@ -7021,6 +7025,7 @@ KE,ipv6,2c0f:3980::,32,allocated,[329211;KE;Novia-East-Africa-AS]
 KE,ipv6,2c0f:3a00::,32,allocated,[328835;KE;Easy-BroadBand]
 KE,ipv6,2c0f:3b00::,32,allocated,[328993;KE;Click-Fiber-AS]
 KE,ipv6,2c0f:3f00::,32,allocated,[328994;KE;NCL4-AS]
+KE,ipv6,2c0f:4140::,32,allocated,[329239;KE;Xcobean-Systems-AS]
 KE,ipv6,2c0f:4500::,32,allocated,[328808;KE;DUMATEL-AS]
 KE,ipv6,2c0f:4980::,32,allocated,[329152;KE;ATL7-AS]
 KE,ipv6,2c0f:4d80::,32,allocated,[329157;KE;ZBL1-AS]
@@ -7622,7 +7627,7 @@ NG,ipv4,102.165.124.0,22,allocated,[37521;NG;Internet-Solutions-]
 NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
-NG,ipv4,102.212.100.0,22,allocated,
+NG,ipv4,102.212.100.0,22,allocated,[329241;NG;Friends-Wireless-AS]
 NG,ipv4,102.212.104.0,22,allocated,[329236;NG;Teltwine-Networks-Limited]
 NG,ipv4,102.212.140.0,24,allocated,[329233;NG;SABI-NETWORKS-LIMITED]
 NG,ipv4,102.212.163.0,24,allocated,[329235;NG;REXIFI-TECHNOLOGIES-AS]
@@ -8744,7 +8749,7 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
-ZA,ipv4,102.212.52.0,22,allocated,
+ZA,ipv4,102.212.52.0,22,allocated,[329240;ZA;Techseeds-Telecommunications-AS]
 ZA,ipv4,102.212.64.0,23,allocated,[329237;ZA;Snowvalley-Communications]
 ZA,ipv4,102.212.96.0,22,allocated,[37621;ZA;CipherWave][37315;ZA;CipherWave]
 ZA,ipv4,102.212.128.0,22,allocated,[327996;ZA;ACCELERIT]
@@ -10680,6 +10685,7 @@ TZ,ipv4,102.23.218.0,23,assigned,[328557;TZ;DIAMOND-TRUST-BANK-TANZANIA-AS]
 TZ,ipv4,102.68.64.0,22,assigned,[328478;TZ;Exim-Bank-TZ-AS]
 TZ,ipv4,102.68.71.0,24,assigned,[328504;TZ;National-Identification-Authority-AS]
 TZ,ipv4,102.165.191.0,24,assigned,[37045;TZ;tznic]
+TZ,ipv4,102.213.16.0,23,assigned,
 TZ,ipv4,102.213.55.0,24,assigned,[329221;TZ;TANZANIA-ELECTRIC-SUPPLY-COMPANY-LIMITED]
 TZ,ipv4,102.214.44.0,23,assigned,[328676;TZ;ZICTIA]
 TZ,ipv4,102.214.142.0,24,assigned,[328700;TZ;TIX-CDN][328326;TZ;TISPA-MBIXP-AS][328325;TZ;TISPA-DIXP-AS][328294;TZ;TISPA-ZIXP-MGMT-AS][328022;TZ;MWANXA-IXP-mgmnt][327852;TZ;TISPA-AIXP-MNGNT][327844;TZ;TISPA-TIX-MANAGEMENT][37779;TZ;TISPA-MBIXP-PEERING-AS][37778;TZ;TISPA-DIXP-PEERING-AS][37777;TZ;TISPA-ZIXP-PEERING-AS][37769;TZ;MWANZA-IXP-peering][37710;TZ;AIXP-Route-Server][33791;TZ;TIX-ASN]
