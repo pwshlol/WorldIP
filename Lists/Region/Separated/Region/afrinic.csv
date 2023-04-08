@@ -147,7 +147,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.141.0,24,reserved,*
 *,ipv4,102.212.142.0,23,reserved,*
 *,ipv4,102.212.162.0,24,reserved,*
-*,ipv4,102.212.174.0,23,reserved,*
+*,ipv4,102.212.175.0,24,reserved,*
 *,ipv4,102.212.244.0,22,reserved,*
 *,ipv4,102.213.12.0,22,reserved,*
 *,ipv4,102.213.40.0,22,reserved,*
@@ -3433,9 +3433,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,14,available,*
 *,ipv4,102.212.0.0,19,available,*
-*,ipv4,102.212.32.0,20,available,*
+*,ipv4,102.212.32.0,21,available,*
+*,ipv4,102.212.40.0,22,available,*
 *,ipv4,102.212.116.0,22,available,*
 *,ipv4,102.212.120.0,21,available,*
+*,ipv4,102.212.174.0,24,available,*
 *,ipv4,102.212.200.0,21,available,*
 *,ipv4,102.212.208.0,20,available,*
 *,ipv4,102.213.68.0,22,available,*
@@ -3495,7 +3497,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:208::,29,available,*
 *,ipv6,2c0f:210::,28,available,*
 *,ipv6,2c0f:220::,27,available,*
-*,ipv6,2c0f:240::,26,available,*
+*,ipv6,2c0f:241::,32,available,*
+*,ipv6,2c0f:242::,31,available,*
+*,ipv6,2c0f:244::,30,available,*
+*,ipv6,2c0f:248::,29,available,*
+*,ipv6,2c0f:250::,28,available,*
+*,ipv6,2c0f:260::,27,available,*
 *,ipv6,2c0f:281::,32,available,*
 *,ipv6,2c0f:282::,31,available,*
 *,ipv6,2c0f:284::,30,available,*
@@ -8749,6 +8756,7 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.212.44.0,22,allocated,
 ZA,ipv4,102.212.52.0,22,allocated,[329240;ZA;Techseeds-Telecommunications-AS]
 ZA,ipv4,102.212.64.0,23,allocated,[329237;ZA;Snowvalley-Communications]
 ZA,ipv4,102.212.96.0,22,allocated,[37621;ZA;CipherWave][37315;ZA;CipherWave]
@@ -9480,6 +9488,7 @@ ZA,ipv4,217.29.208.0,20,allocated,[328471;ZA;Hero-Telecoms][328409;ZA;Atcomm-AS]
 ZA,ipv6,2c0f::,32,allocated,[328001;ZA;SATSOFT]
 ZA,ipv6,2c0f:40::,32,allocated,[329229;ZA;Stellar-Technology-Solutions]
 ZA,ipv6,2c0f:200::,32,allocated,[328810;ZA;Techwood-as]
+ZA,ipv6,2c0f:240::,32,allocated,
 ZA,ipv6,2c0f:380::,32,allocated,[328548;ZA;TOUCHNET-TELECOMMUNICATIONS-AS]
 ZA,ipv6,2c0f:400::,32,allocated,[328787;ZA;China-Mobile-International]
 ZA,ipv6,2c0f:800::,32,allocated,[328778;ZA;Star-Network-Marketing]

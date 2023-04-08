@@ -1,6 +1,6 @@
 # WorldIP
 
-Last update: 2023/04/07 01:42:41 (UTC)
+Last update: 2023/04/08 01:27:20 (UTC)
 
 238 Countries in 5 regions
 
@@ -23,36 +23,36 @@ Last update: 2023/04/07 01:42:41 (UTC)
 
 ## Regions Reserved CIDR
 
-- global : 139553 Total | 4770 IPV4 | 134783 IPV6
+- global : 139566 Total | 4763 IPV4 | 134803 IPV6
 - afrinic : 3431 Total | 453 IPV4 | 2978 IPV6
 - apnic : 2719 Total | 1777 IPV4 | 942 IPV6
-- arin : 38572 Total | 1752 IPV4 | 36820 IPV6
+- arin : 38585 Total | 1745 IPV4 | 36840 IPV6
 - lacnic : 14160 Total | 519 IPV4 | 13641 IPV6
 - ripencc : 80671 Total | 269 IPV4 | 80402 IPV6
 
 ## Regions Available CIDR
 
-- global : 140885 Total | 923 IPV4 | 139962 IPV6
-- afrinic : 2385 Total | 17 IPV4 | 2368 IPV6
-- apnic : 84427 Total | 899 IPV4 | 83528 IPV6
-- arin : 26701 Total | 4 IPV4 | 26697 IPV6
-- lacnic : 26634 Total | 2 IPV4 | 26632 IPV6
+- global : 140900 Total | 924 IPV4 | 139976 IPV6
+- afrinic : 2392 Total | 19 IPV4 | 2373 IPV6
+- apnic : 84432 Total | 898 IPV4 | 83534 IPV6
+- arin : 26703 Total | 5 IPV4 | 26698 IPV6
+- lacnic : 26635 Total | 1 IPV4 | 26634 IPV6
 - ripencc : 738 Total | 1 IPV4 | 737 IPV6
 
 ## Country Allocated CIDR
 
-- global : 245611 Total | 194556 IPV4 | 51055 IPV6
-- afrinic : 4101 Total | 3144 IPV4 | 957 IPV6
+- global : 245628 Total | 194567 IPV4 | 51061 IPV6
+- afrinic : 4103 Total | 3145 IPV4 | 958 IPV6
 - apnic : 44168 Total | 35677 IPV4 | 8491 IPV6
-- arin : 80943 Total | 72067 IPV4 | 8876 IPV6
-- lacnic : 27448 Total | 16555 IPV4 | 10893 IPV6
+- arin : 80956 Total | 72076 IPV4 | 8880 IPV6
+- lacnic : 27450 Total | 16556 IPV4 | 10894 IPV6
 - ripencc : 88951 Total | 67113 IPV4 | 21838 IPV6
 
 ## Country Assigned CIDR
 
-- global : 53671 Total | 42839 IPV4 | 10832 IPV6
+- global : 53673 Total | 42840 IPV4 | 10833 IPV6
 - afrinic : 1804 Total | 1490 IPV4 | 314 IPV6
-- apnic : 20055 Total | 14632 IPV4 | 5423 IPV6
+- apnic : 20057 Total | 14633 IPV4 | 5424 IPV6
 - arin : 0 Total | 0 IPV4 | 0 IPV6
 - lacnic : 3962 Total | 2540 IPV4 | 1422 IPV6
 - ripencc : 27850 Total | 24177 IPV4 | 3673 IPV6
