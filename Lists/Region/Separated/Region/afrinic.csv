@@ -138,7 +138,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.183.0.0,16,reserved,*
 *,ipv4,102.212.48.0,22,reserved,*
 *,ipv4,102.212.60.0,22,reserved,*
-*,ipv4,102.212.66.0,23,reserved,*
 *,ipv4,102.212.72.0,21,reserved,*
 *,ipv4,102.212.80.0,21,reserved,*
 *,ipv4,102.212.92.0,22,reserved,*
@@ -150,12 +149,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.175.0,24,reserved,*
 *,ipv4,102.212.244.0,22,reserved,*
 *,ipv4,102.213.12.0,22,reserved,*
-*,ipv4,102.213.40.0,22,reserved,*
 *,ipv4,102.218.96.0,23,reserved,*
 *,ipv4,102.218.168.0,22,reserved,*
 *,ipv4,102.218.248.0,22,reserved,*
 *,ipv4,102.219.128.0,22,reserved,*
-*,ipv4,102.219.174.0,23,reserved,*
 *,ipv4,102.219.244.0,22,reserved,*
 *,ipv4,102.220.0.0,22,reserved,*
 *,ipv4,102.220.136.0,22,reserved,*
@@ -193,7 +190,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,154.70.196.0,22,reserved,*
 *,ipv4,154.72.28.0,22,reserved,*
 *,ipv4,154.73.12.0,22,reserved,*
-*,ipv4,154.73.60.0,22,reserved,*
 *,ipv4,154.73.76.0,22,reserved,*
 *,ipv4,154.73.116.0,22,reserved,*
 *,ipv4,154.73.144.0,21,reserved,*
@@ -999,7 +995,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:ec49::,32,reserved,*
 *,ipv6,2c0f:ec4a::,31,reserved,*
 *,ipv6,2c0f:ec4c::,30,reserved,*
-*,ipv6,2c0f:ec50::,29,reserved,*
+*,ipv6,2c0f:ec51::,32,reserved,*
+*,ipv6,2c0f:ec52::,31,reserved,*
+*,ipv6,2c0f:ec54::,30,reserved,*
 *,ipv6,2c0f:ec59::,32,reserved,*
 *,ipv6,2c0f:ec5a::,31,reserved,*
 *,ipv6,2c0f:ec5c::,30,reserved,*
@@ -3439,6 +3437,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.174.0,24,available,*
 *,ipv4,102.212.200.0,21,available,*
 *,ipv4,102.212.208.0,20,available,*
+*,ipv4,102.213.40.0,22,available,*
 *,ipv4,102.213.68.0,22,available,*
 *,ipv4,102.213.72.0,21,available,*
 *,ipv4,102.213.108.0,22,available,*
@@ -6833,7 +6832,10 @@ GQ,ipv4,197.214.64.0,20,allocated,[37529;GQ;GITGE]
 GQ,ipv6,2c0f:1680::,32,allocated,[329060;GQ;GEDC1-AS]
 GQ,ipv6,2c0f:f840::,32,allocated,[37337;GQ;MUNI-EG]
 GQ,ipv6,2c0f:f8c0::,32,allocated,[37529;GQ;GITGE]
+GW,ipv4,102.219.174.0,23,allocated,[327769;ZZ;MTN-Bissau]
+GW,ipv4,154.73.60.0,22,allocated,[327769;ZZ;MTN-Bissau]
 GW,ipv4,197.214.80.0,20,allocated,[37559;GW;ORANGE-BISSAU]
+GW,ipv6,2c0f:ec50::,32,allocated,[327769;ZZ;MTN-Bissau]
 GW,ipv6,2c0f:f928::,32,allocated,[37559;GW;ORANGE-BISSAU]
 KE,ipv4,41.57.96.0,20,allocated,[36866;KE;JTL]
 KE,ipv4,41.72.160.0,19,allocated,[30896;KE;Iway-Network-AS]
@@ -10087,6 +10089,7 @@ EG,ipv4,102.69.149.0,24,assigned,[328430;EG;Fawry-Banking-Electronic-Payment-AS]
 EG,ipv4,102.69.150.0,24,assigned,[328484;EG;TBE-Egypt-AS]
 EG,ipv4,102.164.114.0,23,assigned,[36978;EG;EFG]
 EG,ipv4,102.164.122.0,24,assigned,[328308;EG;Azurde-Jewelry-AS]
+EG,ipv4,102.212.66.0,23,assigned,[328786;EG;ValU]
 EG,ipv4,102.214.185.0,24,assigned,[329131;EG;NBOK-AS]
 EG,ipv4,102.217.254.0,24,assigned,[328969;EG;ABOE1-AS]
 EG,ipv4,102.218.20.0,22,assigned,[328972;EG;Geidea-Technology-AS]
