@@ -143,7 +143,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.141.0,24,reserved,*
 *,ipv4,102.212.142.0,23,reserved,*
 *,ipv4,102.212.162.0,24,reserved,*
-*,ipv4,102.212.244.0,22,reserved,*
 *,ipv4,102.213.12.0,22,reserved,*
 *,ipv4,102.218.96.0,23,reserved,*
 *,ipv4,102.218.168.0,22,reserved,*
@@ -4467,7 +4466,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4408::,29,available,*
 *,ipv6,2c0f:4410::,28,available,*
 *,ipv6,2c0f:4420::,27,available,*
-*,ipv6,2c0f:4440::,26,available,*
+*,ipv6,2c0f:4441::,32,available,*
+*,ipv6,2c0f:4442::,31,available,*
+*,ipv6,2c0f:4444::,30,available,*
+*,ipv6,2c0f:4448::,29,available,*
+*,ipv6,2c0f:4450::,28,available,*
+*,ipv6,2c0f:4460::,27,available,*
 *,ipv6,2c0f:4481::,32,available,*
 *,ipv6,2c0f:4482::,31,available,*
 *,ipv6,2c0f:4484::,30,available,*
@@ -6909,6 +6913,7 @@ KE,ipv4,102.212.28.0,22,allocated,
 KE,ipv4,102.212.132.0,22,allocated,[37305;KE;FON]
 KE,ipv4,102.212.230.0,24,allocated,[329239;KE;Xcobean-Systems-AS]
 KE,ipv4,102.212.236.0,22,allocated,[329211;KE;Novia-East-Africa-AS]
+KE,ipv4,102.212.244.0,22,allocated,*
 KE,ipv4,102.213.48.0,22,allocated,[329205;KE;VUMA-FIBER-LIMITED]
 KE,ipv4,102.213.92.0,22,allocated,[329183;KE;FLINK-AS]
 KE,ipv4,102.213.160.0,22,allocated,[329201;KE;Gigabit-Connections-Limited]
@@ -7051,6 +7056,7 @@ KE,ipv6,2c0f:3a00::,32,allocated,[328835;KE;Easy-BroadBand]
 KE,ipv6,2c0f:3b00::,32,allocated,[328993;KE;Click-Fiber-AS]
 KE,ipv6,2c0f:3f00::,32,allocated,[328994;KE;NCL4-AS]
 KE,ipv6,2c0f:4140::,32,allocated,[329239;KE;Xcobean-Systems-AS]
+KE,ipv6,2c0f:4440::,32,allocated,*
 KE,ipv6,2c0f:4500::,32,allocated,[328808;KE;DUMATEL-AS]
 KE,ipv6,2c0f:4980::,32,allocated,[329152;KE;ATL7-AS]
 KE,ipv6,2c0f:4d80::,32,allocated,[329157;KE;ZBL1-AS]
@@ -10092,7 +10098,7 @@ CM,ipv6,2001:43fd:c000::,48,assigned,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][32
 CM,ipv6,2001:43fe:c000::,48,assigned,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][328840;CM;ST-Digital-AS][37790;CM;DoualaIXPeering]
 CM,ipv6,2001:43ff:8000::,44,assigned,[328878;CM;BDED-AS]
 CV,ipv4,102.69.151.0,24,assigned,[328440;CV;Banco-BAI]
-CV,ipv4,102.212.175.0,24,assigned,
+CV,ipv4,102.212.175.0,24,assigned,[329245;CV;Public-University-of-Cape-Verde]
 CV,ipv4,102.214.188.0,24,assigned,[329138;CV;BBCD1-AS]
 CV,ipv4,102.216.132.0,24,assigned,[329040;CV;BDCV1-AS]
 CV,ipv4,196.49.96.0,24,assigned,[329173;CV;CV-IX-MGT][37796;CV;CV-IX-Peering]
