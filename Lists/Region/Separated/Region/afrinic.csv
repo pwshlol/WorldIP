@@ -136,10 +136,14 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.177.224.0,19,reserved,*
 *,ipv4,102.181.224.0,19,reserved,*
 *,ipv4,102.183.0.0,16,reserved,*
+*,ipv4,102.212.0.0,22,reserved,*
+*,ipv4,102.212.11.0,24,reserved,*
+*,ipv4,102.212.12.0,22,reserved,*
+*,ipv4,102.212.16.0,22,reserved,*
 *,ipv4,102.212.60.0,22,reserved,*
 *,ipv4,102.212.72.0,21,reserved,*
-*,ipv4,102.212.80.0,21,reserved,*
-*,ipv4,102.212.136.0,22,reserved,*
+*,ipv4,102.212.80.0,23,reserved,*
+*,ipv4,102.212.84.0,22,reserved,*
 *,ipv4,102.212.141.0,24,reserved,*
 *,ipv4,102.212.142.0,23,reserved,*
 *,ipv4,102.212.162.0,24,reserved,*
@@ -211,6 +215,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,160.19.236.0,22,reserved,*
 *,ipv4,160.20.252.0,22,reserved,*
 *,ipv4,160.119.104.0,22,reserved,*
+*,ipv4,160.119.198.0,23,reserved,*
 *,ipv4,160.181.0.0,16,reserved,*
 *,ipv4,160.184.0.0,16,reserved,*
 *,ipv4,160.226.188.0,22,reserved,*
@@ -3425,9 +3430,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,14,available,*
-*,ipv4,102.212.0.0,20,available,*
-*,ipv4,102.212.16.0,21,available,*
-*,ipv4,102.212.108.0,22,available,*
+*,ipv4,102.212.8.0,23,available,*
+*,ipv4,102.212.10.0,24,available,*
 *,ipv4,102.212.116.0,22,available,*
 *,ipv4,102.212.120.0,21,available,*
 *,ipv4,102.212.200.0,21,available,*
@@ -6286,6 +6290,7 @@ CI,ipv4,102.67.192.0,18,allocated,[36924;CI;GVA-Canalbox]
 CI,ipv4,102.130.224.0,21,allocated,[328406;CI;MainOne-CI-AS]
 CI,ipv4,102.135.184.0,22,allocated,[328903;CI;RITER]
 CI,ipv4,102.136.0.0,14,allocated,[36995;CI;MTN-][36974;CI;AFNET-AS]
+CI,ipv4,102.212.4.0,22,allocated,
 CI,ipv4,102.212.188.0,22,allocated,[37190;CI;ATLANTIQUE-TELECOM-]
 CI,ipv4,102.213.172.0,22,allocated,[327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.215.224.0,22,allocated,[328992;CI;Bonus-1000F-AS]
@@ -7157,6 +7162,7 @@ LY,ipv4,102.38.0.0,19,allocated,[328539;LY;Giga-Communication]
 LY,ipv4,102.68.128.0,21,allocated,[327752;LY;RAWAFED-LIBYA]
 LY,ipv4,102.69.0.0,17,allocated,[329129;LY;LNETLICT]
 LY,ipv4,102.164.96.0,21,allocated,[328286;LY;Libyana-Mobile-AS]
+LY,ipv4,102.212.136.0,22,allocated,[328200;LY;Al-Madar-Al-Jadeed]
 LY,ipv4,102.213.44.0,22,allocated,[329027;LY;OZON-ALJADED]
 LY,ipv4,102.213.228.0,22,allocated,[328539;LY;Giga-Communication]
 LY,ipv4,102.214.104.0,22,allocated,[327752;LY;RAWAFED-LIBYA]
@@ -7749,7 +7755,7 @@ NG,ipv4,154.120.64.0,18,allocated,[329051;NG;Spectranet-Limited][37340;NG;Spectr
 NG,ipv4,155.93.0.0,17,allocated,[16284;NG;Inq-Digital-Nigeria-AS]
 NG,ipv4,156.0.248.0,22,allocated,[328203;NG;Platinum-Index-AS]
 NG,ipv4,160.119.124.0,22,allocated,[328160;NG;Dotmac-Tech]
-NG,ipv4,160.119.196.0,22,allocated,[328171;NG;TREFOIL]
+NG,ipv4,160.119.196.0,23,allocated,[328171;NG;TREFOIL]
 NG,ipv4,160.152.0.0,16,allocated,[37637;NG;Smile-Nigeria-AS]
 NG,ipv4,160.226.0.0,17,allocated,[37472;NG;NIGCOMSAT]
 NG,ipv4,165.90.240.0,20,allocated,[37506;NG;Zinox]
@@ -8272,6 +8278,7 @@ TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
 TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Maas-Computers-and-Networks-AS]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
+TZ,ipv4,102.212.108.0,22,allocated,[37349;TZ;Aptus]
 TZ,ipv4,102.212.112.0,22,allocated,*
 TZ,ipv4,102.213.36.0,22,allocated,*
 TZ,ipv4,102.214.28.0,22,allocated,[329172;TZ;ISL3-AS]
@@ -8783,6 +8790,7 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.212.20.0,24,allocated,
 ZA,ipv4,102.212.24.0,22,allocated,[329247;ZA;Swift-Fibre-AS]
 ZA,ipv4,102.212.32.0,22,allocated,[329248;ZA;Simtel-ISP-AS]
 ZA,ipv4,102.212.36.0,22,allocated,[328672;ZA;Silicon-Sky-Consulting-AS]
@@ -10731,6 +10739,7 @@ TZ,ipv4,102.23.218.0,23,assigned,[328557;TZ;DIAMOND-TRUST-BANK-TANZANIA-AS]
 TZ,ipv4,102.68.64.0,22,assigned,[328478;TZ;Exim-Bank-TZ-AS]
 TZ,ipv4,102.68.71.0,24,assigned,[328504;TZ;National-Identification-Authority-AS]
 TZ,ipv4,102.165.191.0,24,assigned,[37045;TZ;tznic]
+TZ,ipv4,102.212.82.0,23,assigned,
 TZ,ipv4,102.213.16.0,23,assigned,[329242;TZ;Equity-Bank-Tanzania-Limited]
 TZ,ipv4,102.213.55.0,24,assigned,[329221;TZ;TANZANIA-ELECTRIC-SUPPLY-COMPANY-LIMITED]
 TZ,ipv4,102.214.44.0,23,assigned,[328676;TZ;ZICTIA]
@@ -10855,6 +10864,8 @@ ZA,ipv4,102.164.240.0,22,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
 ZA,ipv4,102.165.180.0,22,assigned,*
 ZA,ipv4,102.165.188.0,24,assigned,[328174;ZA;HomeFind24]
 ZA,ipv4,102.176.251.0,24,assigned,[328260;ZA;SPORTPESA]
+ZA,ipv4,102.212.21.0,24,assigned,[328934;ZA;SSL6-AS]
+ZA,ipv4,102.212.22.0,23,assigned,[328934;ZA;SSL6-AS]
 ZA,ipv4,102.212.184.0,22,assigned,[329214;ZA;MSAL1-ASN]
 ZA,ipv4,102.213.140.0,23,assigned,[329188;ZA;TTS2-AS]
 ZA,ipv4,102.213.236.0,22,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
