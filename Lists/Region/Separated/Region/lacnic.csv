@@ -1256,8 +1256,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:12:1::,48,reserved,*
 *,ipv6,2801:12:2::,47,reserved,*
 *,ipv6,2801:12:4::,46,reserved,*
-*,ipv6,2801:128::,36,reserved,*
 *,ipv6,2801:12:8::,45,reserved,*
+*,ipv6,2801:128::,36,reserved,*
 *,ipv6,2801:13:1::,48,reserved,*
 *,ipv6,2801:13:2::,47,reserved,*
 *,ipv6,2801:13:4::,46,reserved,*
@@ -1291,8 +1291,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:1a:1::,48,reserved,*
 *,ipv6,2801:1a:2::,47,reserved,*
 *,ipv6,2801:1a:4::,46,reserved,*
-*,ipv6,2801:1a:8::,45,reserved,*
 *,ipv6,2801:1a8::,40,reserved,*
+*,ipv6,2801:1a:8::,45,reserved,*
 *,ipv6,2801:1b:1::,48,reserved,*
 *,ipv6,2801:1b:2::,47,reserved,*
 *,ipv6,2801:1b:4::,46,reserved,*
@@ -3439,6 +3439,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2803:2d82::,31,reserved,*
 *,ipv6,2803:2d84::,30,reserved,*
 *,ipv6,2803:2d88::,29,reserved,*
+*,ipv6,2803:2d91::,32,reserved,*
+*,ipv6,2803:2d92::,31,reserved,*
+*,ipv6,2803:2d94::,30,reserved,*
+*,ipv6,2803:2d98::,29,reserved,*
 *,ipv6,2803:2da1::,32,reserved,*
 *,ipv6,2803:2da2::,31,reserved,*
 *,ipv6,2803:2da4::,30,reserved,*
@@ -12115,10 +12119,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2801:11e:20::,43,reserved,*
 *,ipv6,2801:11e:40::,42,reserved,*
 *,ipv6,2801:11e:80::,41,reserved,*
-*,ipv6,2801:121:10::,44,reserved,*
 *,ipv6,2801:12:110::,44,reserved,*
-*,ipv6,2801:12:120::,43,reserved,*
+*,ipv6,2801:121:10::,44,reserved,*
 *,ipv6,2801:121:20::,43,reserved,*
+*,ipv6,2801:12:120::,43,reserved,*
 *,ipv6,2801:12:140::,42,reserved,*
 *,ipv6,2801:121:40::,42,reserved,*
 *,ipv6,2801:121:80::,41,reserved,*
@@ -17246,7 +17250,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2803:2d30::,28,available,*
 *,ipv6,2803:2d50::,28,available,*
 *,ipv6,2803:2d70::,28,available,*
-*,ipv6,2803:2d90::,28,available,*
 *,ipv6,2803:2db0::,28,available,*
 *,ipv6,2803:2dd0::,28,available,*
 *,ipv6,2803:2df0::,28,available,*
@@ -44532,7 +44535,7 @@ BR,ipv4,45.171.244.0,22,allocated,[268976;BR;Weclix Telecom SA]
 BR,ipv4,45.171.248.0,22,allocated,[268729;BR;Wnett Fibra]
 BR,ipv4,45.171.252.0,22,allocated,[268737;BR;CONECT TELECOM COMUNICACAO LTDA]
 BR,ipv4,45.172.0.0,22,allocated,[268754;BR;FIBER GIGA PROVEDORES DE INTERNET LTDA]
-BR,ipv4,45.172.4.0,22,allocated,[268739;BR;LINK NET WORLD SERVICO DE COMUNICACAO EI]
+BR,ipv4,45.172.4.0,22,allocated,[268739;BR;TRI CLOUD DATA CENTER LTDA]
 BR,ipv4,45.172.12.0,22,allocated,[268779;BR;GIGANET SOLUCOES E TECNOLOGIA LTDA]
 BR,ipv4,45.172.20.0,22,allocated,[268740;BR;Lexxion Provedor de Servicos de Internet LTDA - ME]
 BR,ipv4,45.172.32.0,22,allocated,[268748;BR;SKYNET TECNOLOGIA]
@@ -44747,7 +44750,8 @@ BR,ipv4,45.176.244.0,23,allocated,[268957;BR;MARCIO RODRIGO FREDERICO RODRIGUES 
 BR,ipv4,45.176.246.0,23,allocated,[268961;BR;ACONE ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA]
 BR,ipv4,45.176.248.0,22,allocated,[268977;BR;CEPAIN C2 TELECOM]
 BR,ipv4,45.176.252.0,22,allocated,[268973;BR;CARVALHOS SERVICOS DE INFORMATICA LTDA - ME]
-BR,ipv4,45.177.4.0,22,allocated,[268962;BR;CONNECT TELECOMUNICACOES E INTERNET LTDA]
+BR,ipv4,45.177.4.0,23,allocated,[268943;BR;Veloxnet Internet de Alta Velocidade LTDA - M.E]
+BR,ipv4,45.177.6.0,23,allocated,[268962;BR;CONNECT TELECOMUNICACOES E INTERNET LTDA]
 BR,ipv4,45.177.8.0,22,allocated,[268967;BR;SIDNET TELECOM]
 BR,ipv4,45.177.12.0,22,allocated,[268978;BR;LINK NET TELECOMUNICACOES LTDA]
 BR,ipv4,45.177.24.0,22,allocated,[269010;BR;CIANET PROVEDOR DE INTERNET E S. DE C. EIRELI]
@@ -48917,7 +48921,7 @@ BR,ipv4,170.233.84.0,22,allocated,[53057;BR;RedeHost Internet Ltda.]
 BR,ipv4,170.233.88.0,22,allocated,[265247;BR;Estacaonet Telecom Servicos e Comercio Ltda]
 BR,ipv4,170.233.96.0,22,allocated,[265077;BR;J P DOS SANTOS]
 BR,ipv4,170.233.100.0,22,allocated,[265092;BR;CLICK CONNECTION SERVICO DE INTERNET E INF. LTDA]
-BR,ipv4,170.233.104.0,22,allocated,[265093;BR;MARKSAT Telecomunicacoes LTDA]
+BR,ipv4,170.233.104.0,22,allocated,[265093;BR;PegaNet Telecom]
 BR,ipv4,170.233.108.0,22,allocated,[265090;BR;GS TELECOMUNICACOES LTDA]
 BR,ipv4,170.233.112.0,22,allocated,[265078;BR;JHS TELECOMUNICACOES LTDA]
 BR,ipv4,170.233.120.0,22,allocated,[265080;BR;AD TELECOM]
@@ -50421,7 +50425,7 @@ BR,ipv4,177.126.96.0,20,allocated,[53006;BR;ALGAR TELECOM SA][16735;BR;ALGAR TEL
 BR,ipv4,177.126.112.0,20,allocated,[52720;BR;WEBFOCO TELECOMUNICACOES LTDA]
 BR,ipv4,177.126.128.0,20,allocated,[262343;BR;Net Aki Internet Ltda]
 BR,ipv4,177.126.144.0,21,allocated,[52714;BR;Firemicro Informatica]
-BR,ipv4,177.126.152.0,21,allocated,[263520;BR;VOA TELECOMUNICACOES EIRELI - EPP]
+BR,ipv4,177.126.152.0,21,allocated,[263520;BR;VOA TELECOMUNICACOES LTDA]
 BR,ipv4,177.126.160.0,19,allocated,[270475;BR;EQUINIX BRASIL][265376;BR;EQUINIX BRASIL][264220;BR;EQUINIX BRASIL][26592;BR;EQUINIX BRASIL][16397;BR;EQUINIX BRASIL]
 BR,ipv4,177.126.192.0,20,allocated,[262688;BR;MHNET TELECOM][28224;BR;MHNET TELECOM][28146;BR;MHNET TELECOM]
 BR,ipv4,177.126.208.0,21,allocated,[52717;BR;Teleuno Provedor Ltda]
@@ -51515,7 +51519,7 @@ BR,ipv4,181.191.216.0,22,allocated,[267560;BR;PC CONNECT TELECOMUNICACOES LTDA]
 BR,ipv4,181.191.228.0,22,allocated,[267449;BR;GLOBALNET TELECOMUNICACOES LTDA]
 BR,ipv4,181.191.236.0,22,allocated,[267446;BR;Newertech Sol. Tec. e Prod. de Informatica LTDA ME]
 BR,ipv4,181.191.240.0,22,allocated,[267456;BR;INOVANET TELECOM]
-BR,ipv4,181.192.80.0,20,allocated,[263520;BR;VOA TELECOMUNICACOES EIRELI - EPP]
+BR,ipv4,181.192.80.0,20,allocated,[263520;BR;VOA TELECOMUNICACOES LTDA]
 BR,ipv4,181.192.96.0,22,allocated,[271709;BR;fiber city network internet ltda]
 BR,ipv4,181.192.104.0,22,allocated,[270636;BR;GLOBALLIG TELECOMUNICACOES LTDA - ME]
 BR,ipv4,181.192.108.0,22,allocated,[270637;BR;NetPurus Servicos de Telecomunicaces LTDA]
@@ -55891,7 +55895,7 @@ BR,ipv6,2804:1320::,32,allocated,[263517;BR;Acesso Telecomunicacoes LTDA]
 BR,ipv6,2804:1324::,32,allocated,[263518;BR;NOSSA NET]
 BR,ipv6,2804:1328::,32,allocated,[52724;BR;Adriano Telecomunicacoes Ltda Me]
 BR,ipv6,2804:132c::,32,allocated,[263519;BR;Netlite Internet]
-BR,ipv6,2804:1330::,32,allocated,[263520;BR;VOA TELECOMUNICACOES EIRELI - EPP]
+BR,ipv6,2804:1330::,32,allocated,[263520;BR;VOA TELECOMUNICACOES LTDA]
 BR,ipv6,2804:1334::,32,allocated,[263521;BR;New Net Provedor de Internet LTDA - ME]
 BR,ipv6,2804:1338::,32,allocated,[263522;BR;LGNET SERVICOS DE TELECOMUNICACOES LTDA]
 BR,ipv6,2804:1340::,32,allocated,[263524;BR;Ciabrasnet - Central Brasileira de Internet Ltda]
@@ -57582,7 +57586,7 @@ BR,ipv6,2804:329c::,32,allocated,[265088;BR;Club21 Servicos de Telecomunicacoes]
 BR,ipv6,2804:32a4::,32,allocated,[265090;BR;GS TELECOMUNICACOES LTDA]
 BR,ipv6,2804:32a8::,32,allocated,[265091;BR;AGS Antenas LTDA ME]
 BR,ipv6,2804:32ac::,32,allocated,[265092;BR;CLICK CONNECTION SERVICO DE INTERNET E INF. LTDA]
-BR,ipv6,2804:32b0::,32,allocated,[265093;BR;MARKSAT Telecomunicacoes LTDA]
+BR,ipv6,2804:32b0::,32,allocated,[265093;BR;PegaNet Telecom]
 BR,ipv6,2804:32b4::,32,allocated,[265094;BR;NET PARAISO]
 BR,ipv6,2804:32b8::,32,allocated,[265095;BR;Grimm Telecom]
 BR,ipv6,2804:32bc::,32,allocated,[265096;BR;PRGNET SERVICOS DE TELECOMUNICACOES]
@@ -59901,7 +59905,7 @@ BR,ipv6,2804:59f0::,32,allocated,[268735;BR;MARCOS LUIZ DE ALMEIDA ME]
 BR,ipv6,2804:59f4::,32,allocated,[268736;BR;Patricki A Felipe]
 BR,ipv6,2804:59f8::,32,allocated,[268737;BR;CONECT TELECOM COMUNICACAO LTDA]
 BR,ipv6,2804:59fc::,32,allocated,[268738;BR;M3 Net Fibra LTDA - ME]
-BR,ipv6,2804:5a00::,32,allocated,[268739;BR;LINK NET WORLD SERVICO DE COMUNICACAO EI]
+BR,ipv6,2804:5a00::,32,allocated,[268739;BR;TRI CLOUD DATA CENTER LTDA]
 BR,ipv6,2804:5a04::,32,allocated,[268740;BR;Lexxion Provedor de Servicos de Internet LTDA - ME]
 BR,ipv6,2804:5a08::,32,allocated,[268741;BR;RODRIGO OLIVEIRA DE SOUSA]
 BR,ipv6,2804:5a0c::,32,allocated,[268742;BR;DURVAL TELECOM LTDA]
@@ -62825,7 +62829,7 @@ BR,ipv6,2804:89e0::,32,allocated,[273632;BR;UBERNET SERVICOS DE TELECOMUNICACAO 
 BR,ipv6,2804:89e4::,32,allocated,[273633;BR;BOX TELECOM]
 BR,ipv6,2804:89e8::,32,allocated,[273634;BR;G-Link Telecomunicacoes Eireli]
 BR,ipv6,2804:89ec::,32,allocated,[273635;BR;CAVALCANTE NET TELECOM LTDA]
-BR,ipv6,2804:89f0::,32,allocated,[273636;BR;L M WANZELER EIRELI]
+BR,ipv6,2804:89f0::,32,allocated,[273636;BR;DATALINK LTDA]
 BR,ipv6,2804:89f4::,32,allocated,[273637;BR;G MENDES & SARAIVA LTDA]
 BR,ipv6,2804:89f8::,32,allocated,[273638;BR;Power Fiber Servicos de Telecomunicacoes LTDA]
 BR,ipv6,2804:89fc::,32,allocated,[273639;BR;UTRA NET]
@@ -63891,7 +63895,7 @@ CO,ipv4,131.0.168.0,22,allocated,*
 CO,ipv4,131.72.136.0,22,allocated,[272043;CO;OSNET SAS]
 CO,ipv4,131.100.48.0,22,allocated,[270062;CO;FIBERNET TV SAS]
 CO,ipv4,131.108.168.0,22,allocated,[10299;CO;EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.]
-CO,ipv4,131.221.40.0,22,allocated,*
+CO,ipv4,131.221.40.0,22,allocated,
 CO,ipv4,131.255.17.0,24,allocated,[271908;CO;BIG DATA S.A.S]
 CO,ipv4,131.255.18.0,23,allocated,[271908;CO;BIG DATA S.A.S]
 CO,ipv4,132.255.20.0,22,allocated,[27951;CO;Media Commerce Partners S.A]
@@ -64419,7 +64423,7 @@ CO,ipv6,2803:85e0::,32,allocated,[270031;CO;TELENET DIGITAL S.A.S]
 CO,ipv6,2803:87a0::,32,allocated,*
 CO,ipv6,2803:8980::,32,allocated,[27758;CO;Redes Integrales S.A.]
 CO,ipv6,2803:8b00::,32,allocated,*
-CO,ipv6,2803:8b80::,32,allocated,*
+CO,ipv6,2803:8b80::,32,allocated,
 CO,ipv6,2803:8ca0::,32,allocated,[266832;CO;CONEXIONES TECNOLOGICAS Y COMUNICACION S.A.S.]
 CO,ipv6,2803:8d90::,32,allocated,[272988;CO;Hydra Soluciones Empresariales Ingenieria SAS]
 CO,ipv6,2803:9060::,32,allocated,[267810;CO;INTERMEGAMUNDO PARTNERS S.A.S.]
@@ -65744,7 +65748,7 @@ HN,ipv4,45.170.32.0,22,allocated,[267761;HN;Onda Network S de R.L]
 HN,ipv4,45.171.200.0,22,allocated,[267803;HN;TEVISAT TELA S.A.]
 HN,ipv4,45.175.64.0,22,allocated,*
 HN,ipv4,45.181.84.0,22,allocated,[269729;HN;GRUPO MULTICABLES DE CORTES S.R.L de C.V]
-HN,ipv4,45.182.20.0,22,allocated,*
+HN,ipv4,45.182.20.0,22,allocated,
 HN,ipv4,45.184.92.0,22,allocated,[269780;HN;INTESA S. DE R.L.]
 HN,ipv4,45.185.52.0,22,allocated,[269800;HN;NTERCONEXION HN S.A]
 HN,ipv4,45.186.152.0,22,allocated,[269866;HN;CLOUD COLIBRI S.A]
@@ -65909,7 +65913,7 @@ HN,ipv6,2803:1ac0::,32,allocated,[265631;HN;INVERSIONES Y SOLUCIONES GENERALES S
 HN,ipv6,2803:1ec0::,32,allocated,[265671;HN;PODOJIL CONTRACTING  S.A.]
 HN,ipv6,2803:2080::,32,allocated,[263170;HN;Netsys]
 HN,ipv6,2803:21c0::,32,allocated,[265680;HN;HNTELCO S.A]
-HN,ipv6,2803:2560::,32,allocated,*
+HN,ipv6,2803:2560::,32,allocated,
 HN,ipv6,2803:2a20::,32,allocated,[265850;HN;TELEIUM SA]
 HN,ipv6,2803:2fc0::,32,allocated,*
 HN,ipv6,2803:2fe0::,32,allocated,[271781;HN;TELECOMUNICACIONES DE MARCALA  SOCIEDAD ANONIMA DE CAPITAL VARIABLE]
@@ -68262,6 +68266,7 @@ VE,ipv6,2803:2760::,32,allocated,[269820;VE;FULL DATA COMUNICACIONES C.A.]
 VE,ipv6,2803:2890::,32,allocated,[272857;VE;MAXI CABLE C.A]
 VE,ipv6,2803:2c10::,32,allocated,[271875;VE;MARATEL CA]
 VE,ipv6,2803:2c80::,32,allocated,*
+VE,ipv6,2803:2d90::,32,allocated,
 VE,ipv6,2803:3060::,32,allocated,[267814;VE;ENLACES GUAYANA  C.A.]
 VE,ipv6,2803:32e0::,32,allocated,[269928;VE;TELECOMUNICACIONES RHJ  C. A.]
 VE,ipv6,2803:3610::,32,allocated,[271951;VE;IT PRONETWORK C.A.]
