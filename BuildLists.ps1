@@ -737,3 +737,7 @@ $End_format = [datetime]$End
 Write-Output ("Export_Region In {0} Minutes and {1} Seconds" -f $(($End_format - $Start_format).Minutes), $(($End_format - $Start_format).Seconds))
 
 #endregion Export_Region
+
+# Remove these noname .csv and .json because RIR seems to sometimes provide bugged range.
+Get-ChildItem -recurse -Path $Directories.Lists -Filter ".json" | Remove-Item -Force -Recurse
+Get-ChildItem -recurse -Path $Directories.Lists -Filter ".csv" | Remove-Item -Force -Recurse
