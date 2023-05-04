@@ -140,7 +140,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.10.0,24,reserved,*
 *,ipv4,102.212.12.0,22,reserved,*
 *,ipv4,102.212.60.0,22,reserved,*
-*,ipv4,102.212.72.0,21,reserved,*
+*,ipv4,102.212.72.0,22,reserved,*
 *,ipv4,102.212.81.0,24,reserved,*
 *,ipv4,102.212.84.0,22,reserved,*
 *,ipv4,102.212.141.0,24,reserved,*
@@ -3567,7 +3567,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:608::,29,available,*
 *,ipv6,2c0f:610::,28,available,*
 *,ipv6,2c0f:620::,27,available,*
-*,ipv6,2c0f:640::,26,available,*
+*,ipv6,2c0f:641::,32,available,*
+*,ipv6,2c0f:642::,31,available,*
+*,ipv6,2c0f:644::,30,available,*
+*,ipv6,2c0f:648::,29,available,*
+*,ipv6,2c0f:650::,28,available,*
+*,ipv6,2c0f:660::,27,available,*
 *,ipv6,2c0f:681::,32,available,*
 *,ipv6,2c0f:682::,31,available,*
 *,ipv6,2c0f:684::,30,available,*
@@ -6929,6 +6934,7 @@ KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
 KE,ipv4,102.212.11.0,24,allocated,[329254;KE;TWL2-AS]
 KE,ipv4,102.212.28.0,22,allocated,[329246;KE;HANIF-TELECOM-LIMITED]
+KE,ipv4,102.212.76.0,22,allocated,
 KE,ipv4,102.212.132.0,22,allocated,[37305;KE;FON]
 KE,ipv4,102.212.230.0,24,allocated,[329239;KE;Xcobean-Systems-AS]
 KE,ipv4,102.212.236.0,22,allocated,[329211;KE;Novia-East-Africa-AS]
@@ -7053,6 +7059,7 @@ KE,ipv4,217.199.144.0,20,allocated,*
 KE,ipv6,2c0f:80::,32,allocated,[329002;KE;PAID1-AS]
 KE,ipv6,2c0f:340::,32,allocated,[329246;KE;HANIF-TELECOM-LIMITED]
 KE,ipv6,2c0f:500::,32,allocated,[328862;KE;SKL-AS]
+KE,ipv6,2c0f:640::,32,allocated,
 KE,ipv6,2c0f:880::,32,allocated,[329033;KE;Systel-Limited]
 KE,ipv6,2001:4358::,32,allocated,[36866;KE;JTL]
 KE,ipv6,2001:4368::,32,allocated,*
