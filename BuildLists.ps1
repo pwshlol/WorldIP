@@ -308,7 +308,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                 }
             }
 
-            if ($split[6] -eq 'allocated') {
+            if ($split[6] -eq 'allocated' -and $split[1] -ne '') {
                 switch ($split[2]) {
                     'ipv4' {
                         ($using:World.Region_Allocated).Add(
@@ -343,7 +343,7 @@ $Sources.GetEnumerator() | ForEach-Object -Parallel {
                 }
             }
 
-            if ($split[6] -eq 'assigned') {
+            if ($split[6] -eq 'assigned' -and $split[1] -ne '') {
                 switch ($split[2]) {
                     'ipv4' {
                         ($using:World.Region_Assigned).Add(
@@ -737,7 +737,3 @@ $End_format = [datetime]$End
 Write-Output ("Export_Region In {0} Minutes and {1} Seconds" -f $(($End_format - $Start_format).Minutes), $(($End_format - $Start_format).Seconds))
 
 #endregion Export_Region
-
-# Remove these noname .csv and .json because RIR seems to sometimes provide bugged range.
-Get-ChildItem -recurse -Path $Directories.Lists -Filter ".json" | Remove-Item -Force -Recurse
-Get-ChildItem -recurse -Path $Directories.Lists -Filter ".csv" | Remove-Item -Force -Recurse
