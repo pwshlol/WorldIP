@@ -142,7 +142,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.60.0,22,reserved,*
 *,ipv4,102.212.72.0,22,reserved,*
 *,ipv4,102.212.81.0,24,reserved,*
-*,ipv4,102.212.141.0,24,reserved,*
 *,ipv4,102.212.142.0,23,reserved,*
 *,ipv4,102.212.162.0,24,reserved,*
 *,ipv4,102.213.12.0,22,reserved,*
@@ -3433,7 +3432,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.212.200.0,21,available,*
 *,ipv4,102.212.208.0,20,available,*
 *,ipv4,102.213.68.0,22,available,*
-*,ipv4,102.213.72.0,21,available,*
+*,ipv4,102.213.72.0,22,available,*
 *,ipv4,102.213.124.0,22,available,*
 *,ipv4,102.213.177.0,24,available,*
 *,ipv4,102.213.178.0,23,available,*
@@ -7696,6 +7695,7 @@ NG,ipv4,102.212.232.0,22,allocated,[329215;NG;LL4-AS]
 NG,ipv4,102.212.240.0,22,allocated,[37347;NG;NGCOM]
 NG,ipv4,102.212.252.0,22,allocated,[329230;NG;Pronto-Broadband-Solutions]
 NG,ipv4,102.213.18.0,23,allocated,[329218;NG;Qrios-VAS-AS]
+NG,ipv4,102.213.76.0,22,allocated,
 NG,ipv4,102.213.84.0,22,allocated,[328309;NG;Globacom-AS][37148;NG;globacom-as]
 NG,ipv4,102.213.88.0,22,allocated,[329182;NG;AMICS-TECHNOLOGIES-LIMITED]
 NG,ipv4,102.213.243.0,24,allocated,[329199;NG;SFL2-AS]
@@ -9595,7 +9595,7 @@ ZA,ipv6,2c0f:1980::,32,allocated,[328350;ZA;NetworkComputing-AS]
 ZA,ipv6,2c0f:1b80::,32,allocated,[328760;ZA;ZTEL-AS]
 ZA,ipv6,2c0f:1c00::,32,allocated,[328802;ZA;Khula-Tech-AS]
 ZA,ipv6,2c0f:1d00::,32,allocated,*
-ZA,ipv6,2c0f:2100::,32,allocated,[328910;ZZ;-Reserved AS-]
+ZA,ipv6,2c0f:2100::,32,allocated,[328910;ZZ;Devboks-AS]
 ZA,ipv6,2c0f:2180::,32,allocated,[328257;ZA;ASK-Internet-Technologies]
 ZA,ipv6,2c0f:2600::,32,allocated,[328848;ZA;SSVC-AS]
 ZA,ipv6,2c0f:2680::,32,allocated,[329089;ZA;BN2-AS]
@@ -10897,6 +10897,7 @@ ZA,ipv4,102.165.188.0,24,assigned,[328174;ZA;HomeFind24]
 ZA,ipv4,102.176.251.0,24,assigned,[328260;ZA;SPORTPESA]
 ZA,ipv4,102.212.21.0,24,assigned,[328934;ZA;SSL6-AS]
 ZA,ipv4,102.212.22.0,23,assigned,[328934;ZA;SSL6-AS]
+ZA,ipv4,102.212.141.0,24,assigned,
 ZA,ipv4,102.212.184.0,22,assigned,[329214;ZA;MSAL1-ASN]
 ZA,ipv4,102.213.140.0,23,assigned,[329188;ZA;TTS2-AS]
 ZA,ipv4,102.213.236.0,22,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
