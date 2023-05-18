@@ -1730,6 +1730,7 @@ apnic,ipv4,103.148.64.0,23,allocated,*
 apnic,ipv4,103.148.66.0,23,allocated,*
 apnic,ipv4,103.148.96.0,23,allocated,*
 apnic,ipv4,103.148.120.0,23,allocated,*
+apnic,ipv4,103.148.122.0,23,allocated,*
 apnic,ipv4,103.148.138.0,23,allocated,*
 apnic,ipv4,103.148.152.0,23,allocated,[136720;IN;ESTO-AS-AP ESTO MEDIA PRIVATE LIMITED][135817;IN;ESTO-AS-AP ESTO MEDIA PRIVATE LIMITED]
 apnic,ipv4,103.148.156.0,23,allocated,[140209;IN;NSTEVEDESIGNS-AS-AP nSteve Designs]
@@ -2423,6 +2424,7 @@ apnic,ipv4,103.203.144.0,22,allocated,*
 apnic,ipv4,103.203.172.0,22,allocated,*
 apnic,ipv4,103.203.208.0,22,allocated,*
 apnic,ipv4,103.203.228.0,22,allocated,*
+apnic,ipv4,103.204.0.0,23,allocated,*
 apnic,ipv4,103.204.119.0,24,allocated,*
 apnic,ipv4,103.204.164.0,22,allocated,*
 apnic,ipv4,103.204.168.0,22,allocated,*
@@ -2802,7 +2804,6 @@ apnic,ipv4,110.232.248.0,21,allocated,*
 apnic,ipv4,110.235.192.0,20,allocated,*
 apnic,ipv4,110.235.208.0,21,allocated,*
 apnic,ipv4,111.90.168.0,21,allocated,*
-apnic,ipv4,111.91.0.0,17,allocated,*
 apnic,ipv4,111.91.224.0,21,allocated,*
 apnic,ipv4,111.92.0.0,17,allocated,[17465;IN;ASIANET Cable ISP in India]
 apnic,ipv4,111.93.0.0,16,allocated,[137076;IN;TTSL-AS-BB TTSL-ISP DIVISION][131317;IN;TTSLMEIS-IN TTSL-ISP DIVISION][58693;IN;NNI NNI][55740;IN;TTSLMEIS-AS-AP TTSL-ISP DIVISION][55441;IN;TTSLMEIS-AS-AP TTSL-ISP DIVISION][45820;IN;TTSL-MEISISP Tata Teleservices ISP AS]
@@ -4021,6 +4022,7 @@ apnic,ipv6,2400:fae0::,32,allocated,*
 apnic,ipv6,2400:fd20::,32,allocated,*
 apnic,ipv6,2400:fdc0::,32,allocated,[134261;IN;BEPL-AS-IN Big-tree Entertainment Pvt. Ltd.]
 apnic,ipv6,2400:fde0::,32,allocated,*
+apnic,ipv6,2400:ff20::,32,allocated,*
 apnic,ipv6,2400:ffc0::,32,allocated,[136505;IN;MTVPL-AS-AP Mantra Tech Ventures Pvt Ltd]
 apnic,ipv6,2401:1a00::,32,allocated,[38806;IN;COGNIZANT-IN-AP Cognizant Technology Solutions India Pvt Ltd][17903;IN;COGNIZANT-IN-AP Cognizant Technology Solutions India Pvt Ltd]
 apnic,ipv6,2401:27c0::,32,allocated,[58594;IN;INFRANETSOLUTIONS-IN INFRANET SOLUTIONS]
@@ -6312,7 +6314,7 @@ apnic,ipv4,103.104.221.0,24,assigned,*
 apnic,ipv4,103.104.222.0,23,assigned,*
 apnic,ipv4,103.104.224.0,22,assigned,*
 apnic,ipv4,103.104.231.0,24,assigned,*
-apnic,ipv4,103.105.22.0,24,assigned,*
+apnic,ipv4,103.105.22.0,24,assigned,
 apnic,ipv4,103.105.152.0,22,assigned,*
 apnic,ipv4,103.105.188.0,24,assigned,*
 apnic,ipv4,103.105.224.0,22,assigned,*
@@ -6801,6 +6803,7 @@ apnic,ipv4,103.148.43.0,24,assigned,*
 apnic,ipv4,103.148.109.0,24,assigned,[140094;IN;RISPL-AS-AP RapidValue IT Services Private Limited]
 apnic,ipv4,103.148.118.0,24,assigned,*
 apnic,ipv4,103.148.119.0,24,assigned,*
+apnic,ipv4,103.148.134.0,23,assigned,*
 apnic,ipv4,103.148.136.0,23,assigned,*
 apnic,ipv4,103.148.144.0,24,assigned,*
 apnic,ipv4,103.148.160.0,23,assigned,[140218;IN;YISL-AS-AP Yotta Infrastructure solutions LLP]
@@ -8195,6 +8198,7 @@ apnic,ipv4,103.196.132.0,22,assigned,*
 apnic,ipv4,103.196.157.0,24,assigned,*
 apnic,ipv4,103.196.184.0,23,assigned,*
 apnic,ipv4,103.196.186.0,24,assigned,*
+apnic,ipv4,103.196.187.0,24,assigned,
 apnic,ipv4,103.196.192.0,24,assigned,*
 apnic,ipv4,103.196.193.0,24,assigned,*
 apnic,ipv4,103.196.200.0,22,assigned,*
@@ -8254,6 +8258,7 @@ apnic,ipv4,103.203.36.0,22,assigned,*
 apnic,ipv4,103.203.60.0,22,assigned,*
 apnic,ipv4,103.203.64.0,22,assigned,*
 apnic,ipv4,103.203.224.0,22,assigned,*
+apnic,ipv4,103.203.250.0,23,assigned,*
 apnic,ipv4,103.203.252.0,22,assigned,*
 apnic,ipv4,103.204.20.0,22,assigned,[64071;IN;DCPL-IN DEV COLLECTION PRIVATE LIMITED]
 apnic,ipv4,103.204.36.0,22,assigned,*
@@ -9909,7 +9914,11 @@ apnic,ipv6,2001:df2:7040::,48,assigned,*
 apnic,ipv6,2001:df2:7140::,48,assigned,*
 apnic,ipv6,2001:df2:71c0::,48,assigned,*
 apnic,ipv6,2001:df2:7240::,48,assigned,*
+apnic,ipv6,2001:df2:72c0::,48,assigned,*
+apnic,ipv6,2001:df2:7340::,48,assigned,*
 apnic,ipv6,2001:df2:7380::,48,assigned,*
+apnic,ipv6,2001:df2:73c0::,48,assigned,*
+apnic,ipv6,2001:df2:7540::,48,assigned,*
 apnic,ipv6,2001:df2:7680::,48,assigned,[139916;IN;LTITL-AS-AP LTIMINDTREE LIMITED][45625;IN;LTITL-AS-AP LTIMINDTREE LIMITED]
 apnic,ipv6,2001:df2:7a80::,48,assigned,[139911;IN;DESIPL-AS-AP DELUXE ENTERTAINMENT SERVICES INDIA PRIVATE LIMITED]
 apnic,ipv6,2001:df2:8500::,48,assigned,*
