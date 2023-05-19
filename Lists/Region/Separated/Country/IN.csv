@@ -2425,6 +2425,8 @@ apnic,ipv4,103.203.172.0,22,allocated,*
 apnic,ipv4,103.203.208.0,22,allocated,*
 apnic,ipv4,103.203.228.0,22,allocated,*
 apnic,ipv4,103.204.0.0,23,allocated,*
+apnic,ipv4,103.204.48.0,23,allocated,*
+apnic,ipv4,103.204.94.0,23,allocated,*
 apnic,ipv4,103.204.119.0,24,allocated,*
 apnic,ipv4,103.204.164.0,22,allocated,*
 apnic,ipv4,103.204.168.0,22,allocated,*
@@ -4024,6 +4026,7 @@ apnic,ipv6,2400:fdc0::,32,allocated,[134261;IN;BEPL-AS-IN Big-tree Entertainment
 apnic,ipv6,2400:fde0::,32,allocated,*
 apnic,ipv6,2400:ff20::,32,allocated,*
 apnic,ipv6,2400:ffc0::,32,allocated,[136505;IN;MTVPL-AS-AP Mantra Tech Ventures Pvt Ltd]
+apnic,ipv6,2400:ffe0::,32,allocated,*
 apnic,ipv6,2401:1a00::,32,allocated,[38806;IN;COGNIZANT-IN-AP Cognizant Technology Solutions India Pvt Ltd][17903;IN;COGNIZANT-IN-AP Cognizant Technology Solutions India Pvt Ltd]
 apnic,ipv6,2401:27c0::,32,allocated,[58594;IN;INFRANETSOLUTIONS-IN INFRANET SOLUTIONS]
 apnic,ipv6,2401:2d00::,32,allocated,[55540;IN;BLAZENET-AS-AP Blazenet Pvt Ltd][17625;IN;BLAZENET-IN-AP BlazeNets Network][17423;IN;SUREPREP-AS-AP Sureprep AS]
@@ -6314,7 +6317,7 @@ apnic,ipv4,103.104.221.0,24,assigned,*
 apnic,ipv4,103.104.222.0,23,assigned,*
 apnic,ipv4,103.104.224.0,22,assigned,*
 apnic,ipv4,103.104.231.0,24,assigned,*
-apnic,ipv4,103.105.22.0,24,assigned,
+apnic,ipv4,103.105.22.0,24,assigned,[151335;IN;ICSPL-AS-AP Intensy Cloud Services Pvt Ltd]
 apnic,ipv4,103.105.152.0,22,assigned,*
 apnic,ipv4,103.105.188.0,24,assigned,*
 apnic,ipv4,103.105.224.0,22,assigned,*
@@ -8198,7 +8201,7 @@ apnic,ipv4,103.196.132.0,22,assigned,*
 apnic,ipv4,103.196.157.0,24,assigned,*
 apnic,ipv4,103.196.184.0,23,assigned,*
 apnic,ipv4,103.196.186.0,24,assigned,*
-apnic,ipv4,103.196.187.0,24,assigned,
+apnic,ipv4,103.196.187.0,24,assigned,[151335;IN;ICSPL-AS-AP Intensy Cloud Services Pvt Ltd]
 apnic,ipv4,103.196.192.0,24,assigned,*
 apnic,ipv4,103.196.193.0,24,assigned,*
 apnic,ipv4,103.196.200.0,22,assigned,*
@@ -8261,14 +8264,18 @@ apnic,ipv4,103.203.224.0,22,assigned,*
 apnic,ipv4,103.203.250.0,23,assigned,*
 apnic,ipv4,103.203.252.0,22,assigned,*
 apnic,ipv4,103.204.20.0,22,assigned,[64071;IN;DCPL-IN DEV COLLECTION PRIVATE LIMITED]
+apnic,ipv4,103.204.34.0,23,assigned,*
 apnic,ipv4,103.204.36.0,22,assigned,*
+apnic,ipv4,103.204.50.0,23,assigned,*
 apnic,ipv4,103.204.52.0,22,assigned,*
 apnic,ipv4,103.204.70.0,24,assigned,*
 apnic,ipv4,103.204.71.0,24,assigned,[151205;IN;HSBC-INM-AS-AP HSBC]
+apnic,ipv4,103.204.92.0,23,assigned,*
 apnic,ipv4,103.204.120.0,22,assigned,*
 apnic,ipv4,103.204.132.0,22,assigned,*
 apnic,ipv4,103.204.156.0,22,assigned,*
 apnic,ipv4,103.204.160.0,22,assigned,*
+apnic,ipv4,103.204.176.0,23,assigned,*
 apnic,ipv4,103.204.218.0,24,assigned,[134986;IN;SHFL-AS-AP Sundaram Home Finance Limited]
 apnic,ipv4,103.204.231.0,24,assigned,*
 apnic,ipv4,103.205.39.0,24,assigned,[136807;IN;VIJAYABANK-IN-AS VIJAYA BANK LIMITED]
@@ -9323,8 +9330,6 @@ apnic,ipv6,2001:df2:480::,48,assigned,*
 apnic,ipv6,2001:df2:4c0::,48,assigned,*
 apnic,ipv6,2001:df2:500::,48,assigned,[136894;IN;TASECLIMITED-AS-AP TASEC Limited]
 apnic,ipv6,2001:df2:700::,48,assigned,*
-apnic,ipv6,2001:df2:780::,48,assigned,*
-apnic,ipv6,2001:df2:781::,48,assigned,*
 apnic,ipv6,2001:df2:8c0::,48,assigned,*
 apnic,ipv6,2001:df2:940::,48,assigned,*
 apnic,ipv6,2001:df2:9c0::,48,assigned,*
@@ -9919,6 +9924,7 @@ apnic,ipv6,2001:df2:7340::,48,assigned,*
 apnic,ipv6,2001:df2:7380::,48,assigned,*
 apnic,ipv6,2001:df2:73c0::,48,assigned,*
 apnic,ipv6,2001:df2:7540::,48,assigned,*
+apnic,ipv6,2001:df2:7640::,48,assigned,*
 apnic,ipv6,2001:df2:7680::,48,assigned,[139916;IN;LTITL-AS-AP LTIMINDTREE LIMITED][45625;IN;LTITL-AS-AP LTIMINDTREE LIMITED]
 apnic,ipv6,2001:df2:7a80::,48,assigned,[139911;IN;DESIPL-AS-AP DELUXE ENTERTAINMENT SERVICES INDIA PRIVATE LIMITED]
 apnic,ipv6,2001:df2:8500::,48,assigned,*
