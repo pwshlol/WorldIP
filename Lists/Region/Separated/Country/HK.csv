@@ -1,7 +1,6 @@
 region,version,ip,prefixlength,state,orgsflat
 apnic,ipv4,1.36.0.0,16,allocated,[9925;HK;HKTHOST-AP Powerbase DataCenter Services HK Ltd.][4760;HK;HKTIMS-AP HKT Limited][4515;HK;ERX-STAR HKT Limited]
 apnic,ipv4,1.64.0.0,15,allocated,[9925;HK;HKTHOST-AP Powerbase DataCenter Services HK Ltd.][4760;HK;HKTIMS-AP HKT Limited][4515;HK;ERX-STAR HKT Limited]
-apnic,ipv4,1.178.208.0,20,allocated,[134833;HK;LIHGL-HK 24.HK BGP FAST GLOBAL][58931;HK;LIHGL-AS-AP 24.hk global BGP][24009;HK;LIHGL-AS-AP LANLIAN INTERNATIONAL HOLDING GROUP LIMITED][24000;HK;LIHGL-AS-AP 24.hk global BGP]
 apnic,ipv4,5.254.128.0,19,allocated,[24099;HK;LAYERLINKS-HK Layerlinks Global Lmited]
 apnic,ipv4,14.0.128.0,17,allocated,[38819;HK;HKCSL-AS-AP HKCSL GPRS NETWORK]
 apnic,ipv4,14.1.20.0,22,allocated,[55778;HK;WEBWEB-HK International Trade Centre]
@@ -316,7 +315,8 @@ apnic,ipv4,45.249.96.0,22,allocated,[137386;HK;CW-AS-AP Child Wisdom Limited]
 apnic,ipv4,45.250.60.0,22,allocated,*
 apnic,ipv4,45.250.172.0,22,allocated,[135426;HK;EURO-AS-AP EURO STYLE INDUSTRIAL CO.  LIMITED]
 apnic,ipv4,45.250.196.0,22,allocated,[134675;HK;HKSERVER-AS-AP 7F  TRANS ASIA CTR 18 KIN HONG ST  KWAI CHUNG HONGKONG][132839;HK;POWERLINE-AS-AP POWER LINE DATACENTER]
-apnic,ipv4,45.251.64.0,22,allocated,[63981;HK;NTDKL-HK 43F  AIA Tower  183 Electric Road  North Point  Hong Kong]
+apnic,ipv4,45.251.64.0,23,allocated,[63981;HK;NTDKL-HK 43F  AIA Tower  183 Electric Road  North Point  Hong Kong]
+apnic,ipv4,45.251.66.0,24,allocated,[63981;HK;NTDKL-HK 43F  AIA Tower  183 Electric Road  North Point  Hong Kong]
 apnic,ipv4,45.251.104.0,22,allocated,[135509;HK;CCCCL-AS-AP CN Care Cyber Cloud Limited]
 apnic,ipv4,45.251.108.0,22,allocated,[135510;HK;AOSL-AS-AP Aula Online Solution Limited]
 apnic,ipv4,45.254.252.0,22,allocated,*
@@ -968,7 +968,7 @@ apnic,ipv4,103.172.80.0,23,allocated,[149982;HK;YOUSAFAN-LLC-AS-AP YousaFan LLC]
 apnic,ipv4,103.173.12.0,23,allocated,[147019;HK;HHLJ-AS-AP jiii]
 apnic,ipv4,103.173.26.0,23,allocated,[147043;HK;HKPJIGL-AS-AP Hong Kong Pu Ju International Group Limited][147021;HK;HKPJIGL-AS-AP Hong Kong Pu Ju International Group Limited]
 apnic,ipv4,103.175.196.0,23,allocated,[148995;HK;HJITL-AS-AP HK JIUYUN INFINITE TRADE LIMITED]
-apnic,ipv4,103.176.0.0,23,allocated,
+apnic,ipv4,103.176.0.0,23,allocated,[151352;HK;LIGHT-AS-AP Light Moon Networks Limited]
 apnic,ipv4,103.177.80.0,23,allocated,[149044;HK;SITCL-AS-AP SICLOUD INFORMATION TECHNOLOGY HONGKONG CO.  LIMITED][149042;HK;SITCL-AS-AP Silicon Cloud Global US]
 apnic,ipv4,103.177.222.0,23,allocated,[149282;HK;KTGL-AS-AP Kyushu Telecom Global Limited]
 apnic,ipv4,103.179.152.0,23,allocated,[149438;HK;M7IHL-AS-AP 7Road International HK Limited]
@@ -2166,6 +2166,7 @@ apnic,ipv6,2001:ce1::,32,allocated,[137207;HK;JUCC-AS-AP Joint Universities Comp
 apnic,ipv6,2001:eb0::,32,allocated,[133893;HK;DIYIXIAN-DIC-AS Dyxnet Data Centre Services Limited][9793;HK;SMART-HK-AP Smart-bets.com Lmited][9584;HK;GENESIS-AP Diyixian.com Limited][9244;TW;ASN-DYXNET-TW-AP # AS-DYXNET-TW-AP CONVERTED TO ASN-DYXNET-TW-AP FOR RPSL COMPLIANCE Diyixian.com TW Limited]
 apnic,ipv6,2401:280::,32,allocated,[134833;HK;LIHGL-HK 24.HK BGP FAST GLOBAL][58931;HK;LIHGL-AS-AP 24.hk global BGP][24009;HK;LIHGL-AS-AP LANLIAN INTERNATIONAL HOLDING GROUP LIMITED][24000;HK;LIHGL-AS-AP 24.hk global BGP]
 apnic,ipv6,2401:300::,32,allocated,[4658;HK;M2012LIMITED-AS 2012 Limited  Netfront]
+apnic,ipv6,2401:360::,32,allocated,[136251;HK;EDTCL-HK EVERY DAY TECHNOLOGY CO. LIMITED]
 apnic,ipv6,2402:c80::,32,allocated,[133107;HK;FNETLINK FNETLINK CO . LIMITED][56082;HK;ONE-NET-HK INTERNET-SOLUTION-]
 apnic,ipv6,2403:380::,32,allocated,*
 apnic,ipv6,2403:3c0::,32,allocated,[137892;HK;LINGSHENG1-AS-AP LINGSHENG GROUP HK LIMITED]
@@ -3484,7 +3485,7 @@ apnic,ipv6,2001:df2:7400::,48,assigned,[4641;HK;HKIX-AS-AP The Hong Kong Interne
 apnic,ipv6,2001:df2:7900::,48,assigned,*
 apnic,ipv6,2001:df2:7b80::,48,assigned,[134485;HK;NSTCL-AS-AP NORTH STAR TECHNOLOGY COMPANY LIMITED]
 apnic,ipv6,2001:df2:7c80::,48,assigned,[141160;HK;HKYTC-AS-AP HONG KONG YUCHUANG TECHNOLOGY CO. LIMITED]
-apnic,ipv6,2001:df2:7cc0::,48,assigned,
+apnic,ipv6,2001:df2:7cc0::,48,assigned,[151352;HK;LIGHT-AS-AP Light Moon Networks Limited]
 apnic,ipv6,2001:df2:7d80::,48,assigned,*
 apnic,ipv6,2001:df2:7e40::,48,assigned,[138672;HK;TRCLOUD-AS-AP TR CLOUD CO . LIMITED]
 apnic,ipv6,2001:df2:8300::,48,assigned,*
