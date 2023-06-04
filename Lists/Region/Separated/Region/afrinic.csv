@@ -3630,7 +3630,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:a08::,29,available,*
 *,ipv6,2c0f:a10::,28,available,*
 *,ipv6,2c0f:a20::,27,available,*
-*,ipv6,2c0f:a40::,26,available,*
+*,ipv6,2c0f:a41::,32,available,*
+*,ipv6,2c0f:a42::,31,available,*
+*,ipv6,2c0f:a44::,30,available,*
+*,ipv6,2c0f:a48::,29,available,*
+*,ipv6,2c0f:a50::,28,available,*
+*,ipv6,2c0f:a60::,27,available,*
 *,ipv6,2c0f:a81::,32,available,*
 *,ipv6,2c0f:a82::,31,available,*
 *,ipv6,2c0f:a84::,30,available,*
@@ -7252,6 +7257,7 @@ LY,ipv4,169.239.116.0,22,allocated,[329079;LY;Alriyada]
 LY,ipv4,195.234.120.0,22,allocated,[328619;LY;Abraj-Libya]
 LY,ipv4,197.215.128.0,19,allocated,[328615;LY;LITC2][37795;LY;LYB-IX][37791;LY;LITC-TRIP-KM4][37558;LY;LITC]
 LY,ipv4,197.231.228.0,22,allocated,[37566;LY;ICONA-AS]
+LY,ipv6,2c0f:a40::,32,allocated,[328733;LY;Awal-Telecom]
 LY,ipv6,2c0f:3200::,32,allocated,[328615;LY;LITC2][37795;LY;LYB-IX][37791;LY;LITC-TRIP-KM4][37558;LY;LITC]
 LY,ipv6,2c0f:6d80::,32,allocated,[328073;LY;Ion-Telecom-AS]
 LY,ipv6,2c0f:7980::,32,allocated,[37284;LY;Aljeel-net]
@@ -7733,7 +7739,7 @@ NG,ipv4,102.212.104.0,22,allocated,[329236;NG;Teltwine-Networks-Limited]
 NG,ipv4,102.212.140.0,24,allocated,[329233;NG;SABI-NETWORKS-LIMITED]
 NG,ipv4,102.212.163.0,24,allocated,[329235;NG;REXIFI-TECHNOLOGIES-AS]
 NG,ipv4,102.212.174.0,24,allocated,[37249;NG;CWHOUSE]
-NG,ipv4,102.212.208.0,22,allocated,
+NG,ipv4,102.212.208.0,22,allocated,[329267;NG;FBL5-AS]
 NG,ipv4,102.212.232.0,22,allocated,[329215;NG;LL4-AS]
 NG,ipv4,102.212.240.0,22,allocated,[37347;NG;NGCOM]
 NG,ipv4,102.212.252.0,22,allocated,[329230;NG;Pronto-Broadband-Solutions]
@@ -7869,7 +7875,7 @@ NG,ipv4,217.14.80.0,20,allocated,[16284;NG;Inq-Digital-Nigeria-AS]
 NG,ipv4,217.117.0.0,20,allocated,[16284;NG;Inq-Digital-Nigeria-AS]
 NG,ipv6,2c0f:180::,32,allocated,[329148;NG;FTNL2-AS]
 NG,ipv6,2c0f:480::,32,allocated,[329024;NG;LFCS1-AS]
-NG,ipv6,2c0f:840::,32,allocated,
+NG,ipv6,2c0f:840::,32,allocated,[329267;NG;FBL5-AS]
 NG,ipv6,2001:4270::,32,allocated,[30998;NG;NAL-AS]
 NG,ipv6,2001:43b0::,32,allocated,*
 NG,ipv6,2c0f:1080::,32,allocated,[329052;NG;NEDL1-AS]
@@ -8281,7 +8287,7 @@ TN,ipv4,102.128.0.0,18,allocated,[328414;TN;Next-Step-IT-AS]
 TN,ipv4,102.152.0.0,14,allocated,[327934;TN;Tunisie-Telecom]
 TN,ipv4,102.156.0.0,14,allocated,[37705;TN;TOPNET]
 TN,ipv4,102.168.0.0,13,allocated,[37693;TN;TUNISIANA]
-TN,ipv4,102.212.8.0,23,allocated,
+TN,ipv4,102.212.8.0,23,allocated,[329268;TN;SS7-AS]
 TN,ipv4,102.215.218.0,23,allocated,[329071;TN;MSS3-AS]
 TN,ipv4,102.217.168.0,22,allocated,[37693;TN;TUNISIANA]
 TN,ipv4,102.217.210.0,24,allocated,[329186;TN;FOCUS-TECHNOLOGY-SOLUTIONS]
@@ -8308,7 +8314,7 @@ TN,ipv4,197.244.0.0,16,allocated,[37705;TN;TOPNET]
 TN,ipv4,213.150.160.0,19,allocated,[327718;TN;ATI-DNS][37551;TN;ATI-TUNIXP][37107;TN;ATI-AS][31245;TN;ATI-ISP]
 TN,ipv6,2001:4350::,32,allocated,[327718;TN;ATI-DNS][37551;TN;ATI-TUNIXP][37107;TN;ATI-AS][31245;TN;ATI-ISP]
 TN,ipv6,2c0f:4280::,32,allocated,[37705;TN;TOPNET]
-TN,ipv6,2c0f:4840::,32,allocated,
+TN,ipv6,2c0f:4840::,32,allocated,[329268;TN;SS7-AS]
 TN,ipv6,2c0f:ec90::,32,allocated,[328414;TN;Next-Step-IT-AS]
 TN,ipv6,2c0f:f290::,32,allocated,[328126;TN;ORANGE-CDN-AS][37492;TN;ORANGE-]
 TN,ipv6,2c0f:f3a0::,32,allocated,[327934;TN;Tunisie-Telecom]
@@ -10763,7 +10769,7 @@ SL,ipv4,196.216.220.0,23,assigned,[327903;SL;MICG]
 SL,ipv4,196.223.10.0,24,assigned,[37117;SL;IXPSL-AS]
 SL,ipv6,2001:43f8:b0::,48,assigned,[37117;SL;IXPSL-AS]
 SL,ipv6,2001:43f8:a90::,48,assigned,[327903;SL;MICG]
-SN,ipv4,102.36.136.0,22,assigned,[328650;SN;Universite-Virtuelle-du-Senegal-AS]
+SN,ipv4,102.36.136.0,22,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE-AS]
 SN,ipv4,102.36.147.0,24,assigned,[328558;SN;Senelec-AS]
 SN,ipv4,102.223.68.0,22,assigned,[328667;SN;ARTP]
 SN,ipv4,196.1.92.0,24,assigned,*
@@ -10780,7 +10786,7 @@ SN,ipv4,196.60.40.0,24,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][377
 SN,ipv4,196.223.252.0,24,assigned,*
 SN,ipv6,2001:43f8:cf0::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
 SN,ipv6,2001:43f8:cf1::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
-SN,ipv6,2001:43f8:1400::,48,assigned,[328650;SN;Universite-Virtuelle-du-Senegal-AS]
+SN,ipv6,2001:43f8:1400::,48,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE-AS]
 SN,ipv6,2001:43f8:1610::,48,assigned,[328667;SN;ARTP]
 SO,ipv4,102.68.144.0,21,assigned,[328435;SO;Economic-Strategic-Research-Center-AS]
 SO,ipv4,196.11.62.0,24,assigned,[37644;SO;MIPT-AS]
