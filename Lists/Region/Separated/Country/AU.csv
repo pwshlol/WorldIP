@@ -1253,6 +1253,7 @@ apnic,ipv4,103.212.216.0,22,allocated,[7628;AU;CORPCLOUDPTYLTD-AS-AP CorpCloud P
 apnic,ipv4,103.212.240.0,22,allocated,[55564;AU;JETNET-AU Malcolm Weatherley]
 apnic,ipv4,103.213.100.0,22,allocated,[132002;AU;M21-AS-AP Micron21 Datacentre Pty Ltd][38880;AU;M21-AS-AP Micron21 Datacentre Pty Ltd]
 apnic,ipv4,103.213.229.0,24,allocated,*
+apnic,ipv4,103.213.252.0,23,allocated,
 apnic,ipv4,103.214.30.0,23,allocated,[136206;AU;SKYNETBROADBAND-AS-AP Skynet Broadband Pty Ltd][135321;AU;SKYNETBROADBAND-AS-AP Skynet Broadband Pty Ltd]
 apnic,ipv4,103.214.43.0,24,allocated,[133080;AU;COMCITY-AS-AP Comcity Technology Pty Ltd]
 apnic,ipv4,103.214.207.0,24,allocated,[135516;AU;NOWIT-AS-AP Now IT Solutions Ply Ltd]
@@ -3457,7 +3458,9 @@ apnic,ipv6,2401:400::,32,allocated,[133060;AU;ZETTANET-AS ZettaNet Pty Ltd][1328
 apnic,ipv6,2401:401::,32,allocated,[133060;AU;ZETTANET-AS ZettaNet Pty Ltd][132873;AU;CONEXIM-AS-AC Conexim Global AnyCast Network][131479;AU;ZETTANET-AS ZettaNet Pty Ltd][45145;AU;ZETTANET-AS ZettaNet Pty Ltd][37996;AU;CONEXIM-NET-AS-AP Conexim][18195;AU;ZETTANET-AS ZettaNet Pty Ltd][7604;AU;ZETTAGRID-AS ZETTAGRID CLOUD]
 apnic,ipv6,2401:402::,31,allocated,[133060;AU;ZETTANET-AS ZettaNet Pty Ltd][132873;AU;CONEXIM-AS-AC Conexim Global AnyCast Network][131479;AU;ZETTANET-AS ZettaNet Pty Ltd][45145;AU;ZETTANET-AS ZettaNet Pty Ltd][37996;AU;CONEXIM-NET-AS-AP Conexim][18195;AU;ZETTANET-AS ZettaNet Pty Ltd][7604;AU;ZETTAGRID-AS ZETTAGRID CLOUD]
 apnic,ipv6,2401:640::,32,allocated,[134844;AU;ACCESS4-AS-AP ACCESS 4 PTY LTD]
+apnic,ipv6,2401:6a0::,32,allocated,
 apnic,ipv6,2401:700::,32,allocated,[133739;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][133379;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][55954;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][55766;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][45418;AU;ORROPTYLTD-AS-AP Orro Pty Ltd][18000;AU;ORROPTYLTD-AS-AU-AP Orro Pty Ltd]
+apnic,ipv6,2401:820::,32,allocated,[132085;AU;HOMELINX-JOEL-AS-AP Joel Clarke - HomeLinx][45763;AU;FUZENETPTYLTD-AS-AP Fuzenet Pty Ltd][18384;AU;FUZENET-AU-AP FUZENET PTY LTD]
 apnic,ipv6,2401:8c0::,32,allocated,[136517;AU;EQUINIXMEL-AS-AP EQUINIX AUSTRALIA ENTERPRISES PTY LIMITED]
 apnic,ipv6,2401:d80::,32,allocated,[133521;AU;UNMETEREDSERVERS-AS-AP Unmetered Servers Pty Ltd]
 apnic,ipv6,2401:e40::,32,allocated,[58372;AU;MTSPL-AS-AP Unit 6]
@@ -5487,7 +5490,7 @@ apnic,ipv4,192.76.122.0,24,assigned,*
 apnic,ipv4,192.82.140.0,24,assigned,[134150;AU;CSIRO-RARN-AS-AP Commonwealth Scientific and Industrial Research Organisation][134111;AU;CSIRO-PAWSEY-AS-AP Commonwealth Scientific and Industrial Research Organisation][6262;AU;CSIRO Commonwealth Scientific and Industrial]
 apnic,ipv4,192.82.143.0,24,assigned,[150689;AU;TELSTRA-AS-MOBILE-INTERCONNECT-AP Telstra Corporation Limited][149288;AU;TELSTRA-AS-AP Telstra Corporation Limited][141886;AU;TELSTRA-MAPS-AP Telstra UC MAPS Network Telstra Corporation][135887;AU;TELSTRA-BELONG-AP Belong Telstra Corporation][135599;AU;TELSTRA-GLOBALCDC-AP Telstra Corporation][135313;AU;TELSTRA-AS-AP Telstra Corporation Limited][135083;AU;TELSTRA-AS-AP Telstra Corporation Limited][135052;AU;TELSTRA-AS-AP Telstra Corporation Limited][133931;AU;TELSTRA-AS-AP Telstra Pty Ltd][133859;AU;TELSTRA-AS-AP Telstra Corporation Limited][132292;AU;ASN-TELSTRA-03 Telstra Pty Ltd.][132029;AU;ASN-TELSTRA-02 Telstra Pty Ltd.][37978;AU;NETTAS-AS-AP Networking Tasmania][9514;AU;APIC-AP Asia-Pacific Inter-Carrier services][4632;AU;TMNS-AS Telstra Managed Network Services][1221;AU;ASN-TELSTRA Telstra Corporation Ltd]
 apnic,ipv4,192.82.161.0,24,assigned,*
-apnic,ipv4,192.83.118.0,24,assigned,*
+apnic,ipv4,192.83.118.0,24,assigned,[136572;AU;OCIO-AS-AP Office of the Chief Information Officer]
 apnic,ipv4,192.83.119.0,24,assigned,*
 apnic,ipv4,192.83.198.0,24,assigned,*
 apnic,ipv4,192.83.224.0,24,assigned,*
@@ -7081,7 +7084,6 @@ apnic,ipv4,203.20.104.0,24,assigned,[131298;AU;NXG32B-AS-AP Nextgen Networks][13
 apnic,ipv4,203.20.110.0,23,assigned,*
 apnic,ipv4,203.20.112.0,24,assigned,*
 apnic,ipv4,203.20.114.0,24,assigned,*
-apnic,ipv4,203.20.116.0,24,assigned,*
 apnic,ipv4,203.20.120.0,24,assigned,*
 apnic,ipv4,203.20.121.0,24,assigned,*
 apnic,ipv4,203.20.125.0,24,assigned,*
@@ -7378,7 +7380,7 @@ apnic,ipv4,203.24.70.0,23,assigned,[7635;AU;TCC-AS-AP Townsville City Council]
 apnic,ipv4,203.24.72.0,24,assigned,*
 apnic,ipv4,203.24.73.0,24,assigned,*
 apnic,ipv4,203.24.75.0,24,assigned,*
-apnic,ipv4,203.24.78.0,24,assigned,*
+apnic,ipv4,203.24.78.0,24,assigned,[139578;AU;SAAB-AS-AU Saab Australia Pty Ltd]
 apnic,ipv4,203.24.88.0,23,assigned,[45214;AU;NETREGISTRY Netregistry Pty Ltd][38877;AU;MD-WEB-HOSTING-AU-AP Netregistry Pty Ltd][38318;AU;AFL-TRANSIT-AS-AP Transit AS for delivery of content][24557;AU;UBERGLOBAL-AS-AP WEBCENTRAL PTY LTD][24446;AU;NETREGISTRY-AS-AP NetRegistry Pty Ltd.][24330;AU;NICHOLLS-PRICE-AS-AU-AP Netregistry Pty Ltd][23705;AU;EDUCATION-QUEENSLAND-AS-AP Queensland State Government Department responsible][9736;AU;ASN-DOMAINZ-NZ # AS-DOMAINZ-NZ CONVERTED TO ASN-DOMAINZ-NZ FOR RPSL COMPLIANCE Domainz]
 apnic,ipv4,203.24.95.0,24,assigned,*
 apnic,ipv4,203.24.96.0,24,assigned,*

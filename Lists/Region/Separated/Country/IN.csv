@@ -2535,6 +2535,7 @@ apnic,ipv4,103.214.20.0,22,allocated,[134450;IN;HOSTROYALETECHNOLOGIES-AS-AP Hos
 apnic,ipv4,103.214.96.0,23,allocated,*
 apnic,ipv4,103.214.128.0,22,allocated,*
 apnic,ipv4,103.214.136.0,22,allocated,*
+apnic,ipv4,103.214.160.0,23,allocated,*
 apnic,ipv4,103.214.188.0,22,allocated,*
 apnic,ipv4,103.214.232.0,22,allocated,*
 apnic,ipv4,103.215.52.0,22,allocated,*
@@ -3733,6 +3734,9 @@ apnic,ipv6,2401:1e0::,32,allocated,*
 apnic,ipv6,2401:320::,32,allocated,*
 apnic,ipv6,2401:3c0::,32,allocated,*
 apnic,ipv6,2401:420::,32,allocated,*
+apnic,ipv6,2401:760::,32,allocated,*
+apnic,ipv6,2401:7a0::,32,allocated,*
+apnic,ipv6,2401:7e0::,32,allocated,*
 apnic,ipv6,2402:540::,32,allocated,*
 apnic,ipv6,2402:640::,32,allocated,*
 apnic,ipv6,2402:740::,32,allocated,*
@@ -5097,9 +5101,7 @@ apnic,ipv4,45.117.216.0,22,assigned,*
 apnic,ipv4,45.117.220.0,22,assigned,*
 apnic,ipv4,45.117.224.0,22,assigned,*
 apnic,ipv4,45.117.248.0,22,assigned,*
-apnic,ipv4,45.118.8.0,24,assigned,*
 apnic,ipv4,45.118.9.0,24,assigned,*
-apnic,ipv4,45.118.10.0,23,assigned,*
 apnic,ipv4,45.118.20.0,22,assigned,*
 apnic,ipv4,45.118.32.0,22,assigned,*
 apnic,ipv4,45.118.44.0,22,assigned,*
@@ -5685,9 +5687,7 @@ apnic,ipv4,103.57.226.0,24,assigned,*
 apnic,ipv4,103.58.0.0,22,assigned,*
 apnic,ipv4,103.58.4.0,22,assigned,*
 apnic,ipv4,103.58.12.0,22,assigned,*
-apnic,ipv4,103.58.40.0,24,assigned,*
 apnic,ipv4,103.58.41.0,24,assigned,*
-apnic,ipv4,103.58.42.0,23,assigned,*
 apnic,ipv4,103.58.52.0,22,assigned,*
 apnic,ipv4,103.58.64.0,22,assigned,*
 apnic,ipv4,103.58.76.0,22,assigned,*
@@ -8419,13 +8419,19 @@ apnic,ipv4,103.213.192.0,22,assigned,*
 apnic,ipv4,103.213.208.0,22,assigned,*
 apnic,ipv4,103.213.212.0,22,assigned,*
 apnic,ipv4,103.213.224.0,24,assigned,*
+apnic,ipv4,103.214.2.0,24,assigned,*
+apnic,ipv4,103.214.3.0,24,assigned,*
 apnic,ipv4,103.214.60.0,22,assigned,*
 apnic,ipv4,103.214.114.0,23,assigned,*
 apnic,ipv4,103.214.116.0,22,assigned,*
 apnic,ipv4,103.214.122.0,23,assigned,*
 apnic,ipv4,103.214.124.0,22,assigned,*
 apnic,ipv4,103.214.132.0,22,assigned,*
+apnic,ipv4,103.214.162.0,23,assigned,*
+apnic,ipv4,103.214.170.0,23,assigned,*
 apnic,ipv4,103.214.177.0,24,assigned,*
+apnic,ipv4,103.214.224.0,23,assigned,*
+apnic,ipv4,103.214.226.0,23,assigned,*
 apnic,ipv4,103.214.230.0,23,assigned,*
 apnic,ipv4,103.215.96.0,23,assigned,*
 apnic,ipv4,103.215.135.0,24,assigned,*
@@ -9182,6 +9188,7 @@ apnic,ipv4,203.18.26.0,24,assigned,[24222;IN;OFFICETIGER-ANNANAGAR-INDIA-AS OFFI
 apnic,ipv4,203.18.51.0,24,assigned,[56166;IN;IISERBNET-IN IISER Bhopal Campus]
 apnic,ipv4,203.18.137.0,24,assigned,[45765;IN;NIHILENT-IN 4th Floor  Weikfield IT Park]
 apnic,ipv4,203.19.3.0,24,assigned,[24222;IN;OFFICETIGER-ANNANAGAR-INDIA-AS OFFICETIGER DATABASE SYSTEMS INDIA PVT LTD]
+apnic,ipv4,203.20.116.0,24,assigned,*
 apnic,ipv4,203.21.7.0,24,assigned,[24448;IN;NDSINDIA-AS Synamedia Technologies India Private Limited]
 apnic,ipv4,203.24.87.0,24,assigned,[24222;IN;OFFICETIGER-ANNANAGAR-INDIA-AS OFFICETIGER DATABASE SYSTEMS INDIA PVT LTD]
 apnic,ipv4,203.25.108.0,24,assigned,[133491;IN;STI-IN Synchronoss Technologies India Private Limited][17566;IN;STI-IN Synchronoss Technologies India Private Limited][17446;IN;STI-IN Synchronoss Technologies India Private Limited]
@@ -9977,7 +9984,13 @@ apnic,ipv6,2001:df2:8840::,48,assigned,*
 apnic,ipv6,2001:df2:88c0::,48,assigned,*
 apnic,ipv6,2001:df2:8940::,48,assigned,*
 apnic,ipv6,2001:df2:8c80::,48,assigned,*
+apnic,ipv6,2001:df2:8cc0::,48,assigned,*
+apnic,ipv6,2001:df2:8d40::,48,assigned,*
 apnic,ipv6,2001:df2:8d80::,48,assigned,[139794;IN;GLOVIS-AS-AP Glovis India Anathapur Private Limited]
+apnic,ipv6,2001:df2:8dc0::,48,assigned,*
+apnic,ipv6,2001:df2:8e40::,48,assigned,*
+apnic,ipv6,2001:df2:8ec0::,48,assigned,*
+apnic,ipv6,2001:df2:8f40::,48,assigned,*
 apnic,ipv6,2001:df2:8f80::,48,assigned,*
 apnic,ipv6,2001:df2:9080::,48,assigned,[139926;IN;LUVIA-AS-AP LUVIA NETWORKS PRIVATE LIMITED]
 apnic,ipv6,2001:df2:9280::,48,assigned,*
