@@ -223,7 +223,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,165.52.0.0,14,reserved,*
 *,ipv4,165.73.144.0,20,reserved,*
 *,ipv4,168.211.0.0,16,reserved,*
-*,ipv4,169.239.48.0,21,reserved,*
+*,ipv4,169.239.52.0,22,reserved,*
 *,ipv4,169.239.56.0,22,reserved,*
 *,ipv4,169.239.88.0,22,reserved,*
 *,ipv4,169.239.144.0,22,reserved,*
@@ -4671,7 +4671,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4d08::,29,available,*
 *,ipv6,2c0f:4d10::,28,available,*
 *,ipv6,2c0f:4d20::,27,available,*
-*,ipv6,2c0f:4d40::,26,available,*
+*,ipv6,2c0f:4d41::,32,available,*
+*,ipv6,2c0f:4d42::,31,available,*
+*,ipv6,2c0f:4d44::,30,available,*
+*,ipv6,2c0f:4d48::,29,available,*
+*,ipv6,2c0f:4d50::,28,available,*
+*,ipv6,2c0f:4d60::,27,available,*
 *,ipv6,2c0f:4d81::,32,available,*
 *,ipv6,2c0f:4d82::,31,available,*
 *,ipv6,2c0f:4d84::,30,available,*
@@ -7885,6 +7890,7 @@ NG,ipv4,168.253.112.0,21,allocated,[37347;NG;NGCOM]
 NG,ipv4,168.253.208.0,21,allocated,[37230;NG;SWIFTTALK]
 NG,ipv4,169.159.64.0,18,allocated,[37637;NG;Smile-Nigeria-AS]
 NG,ipv4,169.239.16.0,22,allocated,[327981;NG;Ekovolt-Telco]
+NG,ipv4,169.239.48.0,22,allocated,[327924;ZZ;-Reserved AS-]
 NG,ipv4,169.239.188.0,22,allocated,*
 NG,ipv4,169.239.192.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
 NG,ipv4,169.239.232.0,22,allocated,[327985;NG;IDS-AFRICA]
@@ -9748,6 +9754,7 @@ ZA,ipv6,2c0f:4a00::,32,allocated,[328818;ZA;CASTLEROCK-AS]
 ZA,ipv6,2c0f:4a80::,32,allocated,[329039;ZA;KAL3-AS]
 ZA,ipv6,2c0f:4b80::,32,allocated,[328816;ZA;ATS-AS]
 ZA,ipv6,2c0f:4c80::,32,allocated,[329035;ZA;Telsense]
+ZA,ipv6,2c0f:4d40::,32,allocated,[328952;ZA;Bitconnect]
 ZA,ipv6,2c0f:4f00::,32,allocated,[328961;ZA;NET99]
 ZA,ipv6,2c0f:4f80::,32,allocated,[328464;ZA;TCS-Wi-Fi]
 ZA,ipv6,2c0f:5000::,32,allocated,[328745;ZA;Urban-Wave-Internet-Solutions]
