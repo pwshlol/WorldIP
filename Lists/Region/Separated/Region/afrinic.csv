@@ -135,7 +135,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.177.224.0,19,reserved,*
 *,ipv4,102.181.224.0,19,reserved,*
 *,ipv4,102.183.0.0,16,reserved,*
-*,ipv4,102.212.81.0,24,reserved,*
 *,ipv4,102.212.162.0,24,reserved,*
 *,ipv4,102.218.96.0,23,reserved,*
 *,ipv4,102.218.168.0,22,reserved,*
@@ -3426,7 +3425,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.211.128.0,18,available,*
 *,ipv4,102.211.192.0,19,available,*
 *,ipv4,102.211.224.0,20,available,*
-*,ipv4,102.211.240.0,21,available,*
 *,ipv4,102.212.12.0,23,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
@@ -5653,7 +5651,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fd:4200::,39,available,*
 *,ipv6,2001:43fd:4400::,38,available,*
 *,ipv6,2001:43fd:4800::,37,available,*
-*,ipv6,2001:43fd:5000::,36,available,*
+*,ipv6,2001:43fd:5001::,48,available,*
+*,ipv6,2001:43fd:5002::,47,available,*
+*,ipv6,2001:43fd:5004::,46,available,*
+*,ipv6,2001:43fd:5008::,45,available,*
+*,ipv6,2001:43fd:5010::,44,available,*
+*,ipv6,2001:43fd:5020::,43,available,*
+*,ipv6,2001:43fd:5040::,42,available,*
+*,ipv6,2001:43fd:5080::,41,available,*
+*,ipv6,2001:43fd:5100::,40,available,*
+*,ipv6,2001:43fd:5200::,39,available,*
+*,ipv6,2001:43fd:5400::,38,available,*
+*,ipv6,2001:43fd:5800::,37,available,*
 *,ipv6,2001:43fd:6100::,40,available,*
 *,ipv6,2001:43fd:6200::,39,available,*
 *,ipv6,2001:43fd:6400::,38,available,*
@@ -6904,6 +6913,7 @@ GM,ipv4,41.76.8.0,21,allocated,[37503;GM;Unique-Solutions]
 GM,ipv4,41.223.212.0,22,allocated,[37309;GM;QCell]
 GM,ipv4,102.69.160.0,22,allocated,[328488;GM;DK-Telecom]
 GM,ipv4,102.140.128.0,19,allocated,[25250;GM;GAMTEL-AS]
+GM,ipv4,102.211.244.0,22,allocated,[37323;GM;NETPAGE]
 GM,ipv4,102.213.220.0,22,allocated,[329179;GM;Sky-Telecom-AS]
 GM,ipv4,102.216.248.0,22,allocated,*
 GM,ipv4,102.221.64.0,22,allocated,[328488;GM;DK-Telecom]
@@ -7890,7 +7900,7 @@ NG,ipv4,168.253.112.0,21,allocated,[37347;NG;NGCOM]
 NG,ipv4,168.253.208.0,21,allocated,[37230;NG;SWIFTTALK]
 NG,ipv4,169.159.64.0,18,allocated,[37637;NG;Smile-Nigeria-AS]
 NG,ipv4,169.239.16.0,22,allocated,[327981;NG;Ekovolt-Telco]
-NG,ipv4,169.239.48.0,22,allocated,[327924;ZZ;-Reserved AS-]
+NG,ipv4,169.239.48.0,22,allocated,[327924;ZZ;EXCELSIMO-NETWORKS]
 NG,ipv4,169.239.188.0,22,allocated,*
 NG,ipv4,169.239.192.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
 NG,ipv4,169.239.232.0,22,allocated,[327985;NG;IDS-AFRICA]
@@ -8927,6 +8937,7 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.211.240.0,22,allocated,
 ZA,ipv4,102.211.252.0,22,allocated,[328114;ZA;Comsol-Networks-AS]
 ZA,ipv4,102.212.0.0,22,allocated,[329266;ZA;IITL1-AS]
 ZA,ipv4,102.212.16.0,22,allocated,[328178;ZA;The-Computer-Hut-AS]
@@ -10265,6 +10276,7 @@ CM,ipv6,2001:43fd:c000::,48,assigned,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][32
 CM,ipv6,2001:43fe:c000::,48,assigned,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][328840;CM;ST-Digital-AS][37790;CM;DoualaIXPeering]
 CM,ipv6,2001:43ff:8000::,44,assigned,[328878;CM;BDED-AS]
 CV,ipv4,102.69.151.0,24,assigned,[328440;CV;Banco-BAI]
+CV,ipv4,102.212.81.0,24,assigned,
 CV,ipv4,102.212.175.0,24,assigned,[329245;CV;Public-University-of-Cape-Verde]
 CV,ipv4,102.214.188.0,24,assigned,[329138;CV;BBCD1-AS]
 CV,ipv4,102.216.132.0,24,assigned,[329040;CV;BDCV1-AS]
@@ -10273,6 +10285,7 @@ CV,ipv4,196.60.112.0,24,assigned,[329173;CV;CV-IX-MGT][37796;CV;CV-IX-Peering]
 CV,ipv6,2001:43f8:16c0::,48,assigned,[329173;CV;CV-IX-MGT][37796;CV;CV-IX-Peering]
 CV,ipv6,2001:43f8:16c1::,48,assigned,[329173;CV;CV-IX-MGT][37796;CV;CV-IX-Peering]
 CV,ipv6,2001:43fc:1000::,48,assigned,[329138;CV;BBCD1-AS]
+CV,ipv6,2001:43fd:5000::,48,assigned,
 DJ,ipv4,196.49.10.0,24,assigned,[327831;DJ;Djibouti-Data-Center][37775;DJ;DJIX-PEERING-LAN]
 DJ,ipv4,196.223.38.0,24,assigned,[327831;DJ;Djibouti-Data-Center][37775;DJ;DJIX-PEERING-LAN]
 DJ,ipv6,2001:43f8:9c0::,48,assigned,[327831;DJ;Djibouti-Data-Center][37775;DJ;DJIX-PEERING-LAN]
