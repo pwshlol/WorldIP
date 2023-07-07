@@ -1,7 +1,7 @@
-2.3|lacnic|20230704|86912|19870101|20230704|-0300
+2.3|lacnic|20230705|86919|19870101|20230705|-0300
 lacnic|*|ipv4|*|19642|summary
-lacnic|*|ipv6|*|52993|summary
-lacnic|*|asn|*|14277|summary
+lacnic|*|ipv6|*|52998|summary
+lacnic|*|asn|*|14279|summary
 lacnic|BR|ipv4|24.152.0.0|1024|20200310|allocated|310248
 lacnic|BR|ipv4|24.152.4.0|1024|20200312|allocated|311598
 lacnic|BR|ipv4|24.152.8.0|1024|20200309|allocated|301675
@@ -9473,7 +9473,7 @@ lacnic|BR|ipv4|177.73.108.0|1024|20131217|allocated|116609
 lacnic|BR|ipv4|177.73.112.0|2048|20110826|allocated|137620
 lacnic|BR|ipv4|177.73.120.0|1024|20121214|allocated|141690
 lacnic|BR|ipv4|177.73.124.0|1024|20131226|allocated|130788
-lacnic||ipv4|177.73.128.0|2048||reserved|
+lacnic||ipv4|177.73.128.0|2048||available
 lacnic|BR|ipv4|177.73.136.0|1024|20121217|allocated|103039
 lacnic|BR|ipv4|177.73.140.0|1024|20130327|allocated|103039
 lacnic|BR|ipv4|177.73.144.0|1024|20110826|allocated|124185
@@ -72200,8 +72200,13 @@ lacnic||ipv6|2804:8c2e::|31||available
 lacnic|BR|ipv6|2804:8c30::|32|20230628|allocated|340145
 lacnic||ipv6|2804:8c31::|32||available
 lacnic||ipv6|2804:8c32::|31||available
-lacnic||ipv6|2804:8c34::|30||available
-lacnic||ipv6|2804:8c38::|29||available
+lacnic|BR|ipv6|2804:8c34::|32|20230705|allocated|347938
+lacnic||ipv6|2804:8c35::|32||available
+lacnic||ipv6|2804:8c36::|31||available
+lacnic|BR|ipv6|2804:8c38::|32|20230705|allocated|347617
+lacnic||ipv6|2804:8c39::|32||available
+lacnic||ipv6|2804:8c3a::|31||available
+lacnic||ipv6|2804:8c3c::|30||available
 lacnic||ipv6|2804:8c40::|26||available
 lacnic||ipv6|2804:8c80::|25||available
 lacnic||ipv6|2804:8d00::|24||available
@@ -86913,5 +86918,7 @@ lacnic|BR|asn|273783|1|20230626|allocated|322918
 lacnic|BR|asn|273784|1|20230627|allocated|309922
 lacnic|BR|asn|273785|1|20230628|allocated|340145
 lacnic|BR|asn|273786|1|20230704|allocated|348735
-lacnic||asn|273787|34||available
+lacnic|BR|asn|273787|1|20230705|allocated|347938
+lacnic|BR|asn|273788|1|20230705|allocated|347617
+lacnic||asn|273789|32||available
 
