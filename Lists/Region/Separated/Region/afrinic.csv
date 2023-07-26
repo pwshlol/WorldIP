@@ -3424,8 +3424,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.208.0.0,15,available,*
 *,ipv4,102.210.0.0,16,available,*
 *,ipv4,102.211.0.0,17,available,*
-*,ipv4,102.211.128.0,18,available,*
-*,ipv4,102.211.198.0,23,available,*
+*,ipv4,102.211.128.0,19,available,*
+*,ipv4,102.211.160.0,20,available,*
+*,ipv4,102.211.180.0,22,available,*
+*,ipv4,102.211.186.0,23,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -3774,7 +3776,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:1108::,29,available,*
 *,ipv6,2c0f:1110::,28,available,*
 *,ipv6,2c0f:1120::,27,available,*
-*,ipv6,2c0f:1140::,26,available,*
+*,ipv6,2c0f:1141::,32,available,*
+*,ipv6,2c0f:1142::,31,available,*
+*,ipv6,2c0f:1144::,30,available,*
+*,ipv6,2c0f:1148::,29,available,*
+*,ipv6,2c0f:1150::,28,available,*
+*,ipv6,2c0f:1160::,27,available,*
 *,ipv6,2c0f:1181::,32,available,*
 *,ipv6,2c0f:1182::,31,available,*
 *,ipv6,2c0f:1184::,30,available,*
@@ -6978,6 +6985,7 @@ GN,ipv4,41.223.48.0,22,allocated,[37665;GN;MouNa]
 GN,ipv4,41.242.88.0,22,allocated,[37612;GN;Areeba-Guinea-AS]
 GN,ipv4,45.220.52.0,22,allocated,[328107;GN;GUILAB-AS]
 GN,ipv4,102.176.160.0,20,allocated,[37612;GN;Areeba-Guinea-AS]
+GN,ipv4,102.211.199.0,24,allocated,
 GN,ipv4,102.218.129.0,24,allocated,[328965;GN;LNSS1-AS]
 GN,ipv4,102.218.136.0,22,allocated,[328923;GN;KTSU-AS]
 GN,ipv4,102.218.236.0,22,allocated,[328899;GN;Afribone-AS]
@@ -8461,7 +8469,7 @@ TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
 TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Maas-Computers-and-Networks-AS]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
-TZ,ipv4,102.211.196.0,23,allocated,
+TZ,ipv4,102.211.196.0,23,allocated,[329292;TZ;GEEZNET-TECHNOLOGIES]
 TZ,ipv4,102.211.248.0,22,allocated,*
 TZ,ipv4,102.212.108.0,22,allocated,[37349;TZ;Aptus]
 TZ,ipv4,102.212.112.0,22,allocated,*
@@ -8541,7 +8549,7 @@ TZ,ipv6,2c0f:b80::,32,allocated,[329155;TZ;ATEB-AS]
 TZ,ipv6,2001:4258::,32,allocated,[37084;TZ;simbanet-tz][37027;TZ;SIMBANET-AS]
 TZ,ipv6,2001:43a0::,32,allocated,[36965;TZ;WIA-]
 TZ,ipv6,2c0f:2580::,32,allocated,[329178;TZ;NIDC-AS]
-TZ,ipv6,2c0f:5040::,32,allocated,
+TZ,ipv6,2c0f:5040::,32,allocated,[329292;TZ;GEEZNET-TECHNOLOGIES]
 TZ,ipv6,2c0f:5500::,32,allocated,[328895;TZ;WINCABLE-AND-INTERNET-LIMITED-AS]
 TZ,ipv6,2c0f:5c00::,32,allocated,[328805;TZ;ZAPTECH-AS]
 TZ,ipv6,2c0f:6600::,32,allocated,[328849;TZ;Nexusnet-AS]
@@ -8979,6 +8987,9 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.211.176.0,22,allocated,*
+ZA,ipv4,102.211.188.0,22,allocated,[327991;ZA;MEGASURF-WIRELESS-INTERNET]
+ZA,ipv4,102.211.198.0,24,allocated,
 ZA,ipv4,102.211.204.0,22,allocated,[329166;ZA;Absolute-Hosting-PTY-LTD-AS]
 ZA,ipv4,102.211.220.0,22,allocated,[329289;ZA;Novasys-IT-Pty-Ltd]
 ZA,ipv4,102.211.236.0,22,allocated,[329284;ZA;Invisible-Waves]
@@ -9766,6 +9777,7 @@ ZA,ipv6,2c0e:4000::,24,allocated,[37311;ZA;VODACOM][36994;ZA;Vodacom-VB][29975;Z
 ZA,ipv6,2c0e:7f00::,28,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
 ZA,ipv6,2c0f:1000::,32,allocated,[328767;ZA;Wiza-Solutions]
 ZA,ipv6,2c0f:1100::,32,allocated,[328255;ZA;Infraplex-AS]
+ZA,ipv6,2c0f:1140::,32,allocated,
 ZA,ipv6,2c0f:1200::,32,allocated,[328820;ZA;TF-Telecom-AS]
 ZA,ipv6,2c0f:1480::,32,allocated,[328803;ZA;RW-AS]
 ZA,ipv6,2c0f:1500::,32,allocated,[328888;ZA;ORCA-TECHNOLOGIES-AS]
@@ -11094,6 +11106,7 @@ ZA,ipv4,102.164.240.0,22,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
 ZA,ipv4,102.165.180.0,22,assigned,*
 ZA,ipv4,102.165.188.0,24,assigned,[328174;ZA;HomeFind24]
 ZA,ipv4,102.176.251.0,24,assigned,[328260;ZA;SPORTPESA]
+ZA,ipv4,102.211.184.0,23,assigned,
 ZA,ipv4,102.211.230.0,23,assigned,[329291;ZA;Euphoria-Telecom]
 ZA,ipv4,102.212.13.0,24,assigned,[329283;ZA;Ore-and-Metal-Company]
 ZA,ipv4,102.212.14.0,23,assigned,[329277;ZA;e-centric-Switch-Proprietary-Limited]
