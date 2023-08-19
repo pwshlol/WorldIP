@@ -604,6 +604,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0e:6800::,21,reserved,*
 *,ipv6,2c0e:7900::,24,reserved,*
 *,ipv6,2c0e:7a00::,23,reserved,*
+*,ipv6,2c0e:7e90::,28,reserved,*
+*,ipv6,2c0e:7ea0::,27,reserved,*
+*,ipv6,2c0e:7ec0::,26,reserved,*
 *,ipv6,2c0e:7f10::,28,reserved,*
 *,ipv6,2c0e:7f20::,27,reserved,*
 *,ipv6,2c0e:7f40::,26,reserved,*
@@ -3420,7 +3423,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,15,available,*
 *,ipv4,102.210.0.0,16,available,*
-*,ipv4,102.211.0.0,17,available,*
+*,ipv4,102.211.0.0,18,available,*
+*,ipv4,102.211.64.0,19,available,*
+*,ipv4,102.211.96.0,20,available,*
+*,ipv4,102.211.112.0,21,available,*
+*,ipv4,102.211.120.0,22,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -3742,7 +3749,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fd::,48,available,*
 *,ipv6,2c0e:7000::,21,available,*
 *,ipv6,2c0e:7c00::,23,available,*
-*,ipv6,2c0e:7e00::,24,available,*
+*,ipv6,2c0e:7e00::,25,available,*
 *,ipv6,2c0e:8000::,17,available,*
 *,ipv6,2c0f:1001::,32,available,*
 *,ipv6,2c0f:1002::,31,available,*
@@ -7671,6 +7678,7 @@ MW,ipv4,196.45.188.0,22,allocated,[33773;MW;nic-mw-as1]
 MW,ipv4,196.216.8.0,21,allocated,[37294;MW;TNM][36913;MW;TELEKOM-NETWORKS-MALAWI]
 MW,ipv4,197.211.96.0,19,allocated,[37187;MW;SKYBAND]
 MW,ipv6,2c0e:7800::,24,allocated,[36969;MW;MTL-AS]
+MW,ipv6,2c0e:7e80::,28,allocated,[37215;MW;MAREN]
 MW,ipv6,2c0f:1300::,32,allocated,[37440;MW;Airtel-]
 MW,ipv6,2c0f:7300::,32,allocated,[328949;MW;CTNL1-AS]
 MW,ipv6,2c0f:ea60::,32,allocated,[37215;MW;MAREN]
@@ -9024,7 +9032,8 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
-ZA,ipv4,102.211.132.0,22,allocated,
+ZA,ipv4,102.211.124.0,22,allocated,[328917;ZA;SONIC]
+ZA,ipv4,102.211.132.0,22,allocated,[329303;ZA;Splizr-Networks-Pty-Ltd]
 ZA,ipv4,102.211.156.0,22,allocated,[329300;ZA;Valostar-139-Pty-Ltd]
 ZA,ipv4,102.211.176.0,22,allocated,*
 ZA,ipv4,102.211.180.0,22,allocated,[328366;ZA;FirstnetTechnology-AS]
@@ -9822,7 +9831,7 @@ ZA,ipv6,2c0f:1100::,32,allocated,[328255;ZA;Infraplex-AS]
 ZA,ipv6,2c0f:1140::,32,allocated,[329294;ZA;SOUTHERN-CROSS-SOLUTIONS-PTY-LTD]
 ZA,ipv6,2c0f:1200::,32,allocated,[328820;ZA;TF-Telecom-AS]
 ZA,ipv6,2c0f:1240::,32,allocated,[329300;ZA;Valostar-139-Pty-Ltd]
-ZA,ipv6,2c0f:1440::,32,allocated,
+ZA,ipv6,2c0f:1440::,32,allocated,[329303;ZA;Splizr-Networks-Pty-Ltd]
 ZA,ipv6,2c0f:1480::,32,allocated,[328803;ZA;RW-AS]
 ZA,ipv6,2c0f:1500::,32,allocated,[328888;ZA;ORCA-TECHNOLOGIES-AS]
 ZA,ipv6,2c0f:1600::,32,allocated,[328670;ZA;Nowtech-PTY]
