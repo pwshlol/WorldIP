@@ -2799,11 +2799,13 @@ apnic,ipv4,103.254.204.0,22,allocated,*
 apnic,ipv4,103.254.236.0,22,allocated,*
 apnic,ipv4,103.254.240.0,22,allocated,*
 apnic,ipv4,103.255.2.0,23,allocated,*
+apnic,ipv4,103.255.64.0,23,allocated,*
 apnic,ipv4,103.255.72.0,22,allocated,*
 apnic,ipv4,103.255.76.0,24,allocated,*
 apnic,ipv4,103.255.77.0,24,allocated,*
 apnic,ipv4,103.255.78.0,23,allocated,*
 apnic,ipv4,103.255.80.0,22,allocated,[149779;IN;FIBMESH-AS-AP FIBMESH IN LIMITED][133082;IN;FIBMESH-AS-AP FIBMESH IN LIMITED]
+apnic,ipv4,103.255.96.0,23,allocated,[151671;IN;AGHRENI-AS-AP AGHRENI TECHNOLOGIES PRIVATE LIMITED]
 apnic,ipv4,103.255.112.0,22,allocated,[18196;IN;SEVENSTAR-AS Seven Star Internet Service Provider]
 apnic,ipv4,103.255.144.0,22,allocated,*
 apnic,ipv4,103.255.180.0,22,allocated,*
@@ -4076,6 +4078,7 @@ apnic,ipv6,2401:27c0::,32,allocated,[58594;IN;INFRANETSOLUTIONS-IN INFRANET SOLU
 apnic,ipv6,2401:27e0::,32,allocated,*
 apnic,ipv6,2401:2820::,32,allocated,*
 apnic,ipv6,2401:2860::,32,allocated,*
+apnic,ipv6,2401:2960::,32,allocated,*
 apnic,ipv6,2401:2d00::,32,allocated,[55540;IN;BLAZENET-AS-AP Blazenet Pvt Ltd][17625;IN;BLAZENET-IN-AP BlazeNets Network][17423;IN;SUREPREP-AS-AP Sureprep AS]
 apnic,ipv6,2401:2d80::,32,allocated,[58641;IN;TRUNKOZ-IN Trunkoz Technologies Pvt Ltd]
 apnic,ipv6,2401:4040::,32,allocated,*
@@ -8918,6 +8921,7 @@ apnic,ipv4,103.255.28.0,24,assigned,*
 apnic,ipv4,103.255.36.0,22,assigned,*
 apnic,ipv4,103.255.100.0,22,assigned,*
 apnic,ipv4,103.255.104.0,22,assigned,*
+apnic,ipv4,103.255.134.0,23,assigned,*
 apnic,ipv4,103.255.158.0,23,assigned,*
 apnic,ipv4,103.255.168.0,23,assigned,[132272;IN;TRIJITNET-IN TRIJIT TECHNOLOGIES PVT LTD][59335;IN;TRIJITNET-DC TRIJIT TECHNOLOGIES PVT. LTD.][59261;IN;TRIJITNET-DC-IN TRIJIT TECHNOLOGIES PVT LTD][7593;IN;TRIJITNET-GDC TRIJIT TECHNOLOGIES PVT. LTD.]
 apnic,ipv4,103.255.188.0,22,assigned,*
@@ -9066,7 +9070,6 @@ apnic,ipv4,192.140.152.0,22,assigned,*
 apnic,ipv4,192.140.220.0,22,assigned,*
 apnic,ipv4,192.140.228.0,22,assigned,*
 apnic,ipv4,196.1.1.0,24,assigned,[55433;IN;CDAC-NON-AS-AP Centre for Development of Advanced Computing]
-apnic,ipv4,196.1.68.0,24,assigned,*
 apnic,ipv4,196.1.104.0,24,assigned,*
 apnic,ipv4,196.1.105.0,24,assigned,[55446;IN;CENTDEVTEL-NON-AS-AP CENTRE FOR DEVELOPMENT OF TELEMATICS]
 apnic,ipv4,196.1.106.0,24,assigned,[55446;IN;CENTDEVTEL-NON-AS-AP CENTRE FOR DEVELOPMENT OF TELEMATICS]
@@ -9074,7 +9077,6 @@ apnic,ipv4,196.1.109.0,24,assigned,[55433;IN;CDAC-NON-AS-AP Centre for Developme
 apnic,ipv4,196.1.110.0,23,assigned,[55446;IN;CENTDEVTEL-NON-AS-AP CENTRE FOR DEVELOPMENT OF TELEMATICS]
 apnic,ipv4,196.1.113.0,24,assigned,[55433;IN;CDAC-NON-AS-AP Centre for Development of Advanced Computing]
 apnic,ipv4,196.1.114.0,24,assigned,*
-apnic,ipv4,196.1.134.0,24,assigned,*
 apnic,ipv4,198.217.248.0,24,assigned,[149799;SG;VCSSIPL-AS-AP Visa Consolidated Support Services India Private Limited][135858;IN;VCSSIPL-AS-AP Visa Consolidated Support Services India Private Limited]
 apnic,ipv4,202.0.97.0,24,assigned,*
 apnic,ipv4,202.0.103.0,24,assigned,*
@@ -9126,8 +9128,6 @@ apnic,ipv4,202.41.68.0,24,assigned,[2697;IN;ERX-ERNET-AS Education and Research 
 apnic,ipv4,202.41.69.0,24,assigned,[2697;IN;ERX-ERNET-AS Education and Research Network]
 apnic,ipv4,202.41.70.0,24,assigned,[2697;IN;ERX-ERNET-AS Education and Research Network]
 apnic,ipv4,202.41.71.0,24,assigned,[2697;IN;ERX-ERNET-AS Education and Research Network]
-apnic,ipv4,202.41.132.0,24,assigned,*
-apnic,ipv4,202.41.133.0,24,assigned,*
 apnic,ipv4,202.41.204.0,24,assigned,[45432;IN;MBTNET-IN Tech Mahindra Limited][38746;IN;MBTNET-IN Tech Mahindra Limited][38720;IN;MBTNET-AS-AP Tech Mahindra Limited][17825;IN;MAHINDRABT-AS-AP Tech Mahindra Ltd. Software Development Organisation India]
 apnic,ipv4,202.41.205.0,24,assigned,[24041;IN;VCUSTOMER-INDIA-AS-AP VCustomer Services India Pvt Ltd. Transit AS.]
 apnic,ipv4,202.41.206.0,23,assigned,[24041;IN;VCUSTOMER-INDIA-AS-AP VCustomer Services India Pvt Ltd. Transit AS.]
@@ -9222,9 +9222,7 @@ apnic,ipv4,202.137.228.0,23,assigned,[131256;IN;MGRM-IN MGRM DIGITAL CLOUD SERVI
 apnic,ipv4,202.137.248.0,22,assigned,[38241;IN;HITECH-AS-AP HI-TECH ISOLUTIONS LLP]
 apnic,ipv4,202.140.132.0,22,assigned,[58990;IN;HEPL-IN HYSEC EXIM PRIVATE LIMITED]
 apnic,ipv4,202.140.136.0,22,assigned,*
-apnic,ipv4,202.142.0.0,22,assigned,*
 apnic,ipv4,202.142.4.0,22,assigned,[139066;IN;NTTDATA-DIPS-AS-AP NTT DATA INFORMATION PROCESSING SERVICES PRIVATE LIMITED][136034;IN;NTTDATA-DIPS-AS-AP NTT DATA INFORMATION PROCESSING SERVICES PRIVATE LIMITED][135569;IN;NTTDATA-DIPS-AS-AP NTT Data Global Delivery Services Private Limited][134796;IN;NTTDATA-DIPS-AS-AP NTT DATA INFORMATION PROCESSING SERVICES PRIVATE LIMITED][134793;IN;NTTDATA-DIPS-AS-AP NTT DATA INFORMATION PROCESSING SERVICES PRIVATE LIMITED][132065;IN;NTTDATA-DIPS-AS-AP NTT DATA INFORMATION PROCESSING SERVICES PRIVATE LIMITED][38557;IN;NTTDATA-DIPS-AS-AP NTT DATA INFORMATION PROCESSING SERVICES PRIVATE LIMITED][7487;IN;NTTDATA-DIPS-AS-AP NTT DATA INFORMATION PROCESSING SERVICES PRIVATE LIMITED]
-apnic,ipv4,202.143.0.0,23,assigned,*
 apnic,ipv4,202.143.96.0,22,assigned,*
 apnic,ipv4,202.148.60.0,22,assigned,*
 apnic,ipv4,202.150.4.0,22,assigned,[24574;IN;NTSIPL-AS-IN Nuance Transcription Services India Private Limited]
