@@ -3425,8 +3425,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.210.0.0,16,available,*
 *,ipv4,102.211.0.0,18,available,*
 *,ipv4,102.211.64.0,19,available,*
-*,ipv4,102.211.96.0,21,available,*
-*,ipv4,102.211.104.0,22,available,*
+*,ipv4,102.211.96.0,22,available,*
+*,ipv4,102.211.104.0,23,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -3891,7 +3891,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:1708::,29,available,*
 *,ipv6,2c0f:1710::,28,available,*
 *,ipv6,2c0f:1720::,27,available,*
-*,ipv6,2c0f:1740::,26,available,*
+*,ipv6,2c0f:1741::,32,available,*
+*,ipv6,2c0f:1742::,31,available,*
+*,ipv6,2c0f:1744::,30,available,*
+*,ipv6,2c0f:1748::,29,available,*
+*,ipv6,2c0f:1750::,28,available,*
+*,ipv6,2c0f:1760::,27,available,*
 *,ipv6,2c0f:1781::,32,available,*
 *,ipv6,2c0f:1782::,31,available,*
 *,ipv6,2c0f:1784::,30,available,*
@@ -7545,6 +7550,7 @@ MG,ipv4,41.242.96.0,20,allocated,[37608;MG;iRENALA-AS]
 MG,ipv4,102.16.0.0,14,allocated,[37054;MG;Telecom-Malagasy]
 MG,ipv4,102.20.0.0,15,allocated,[37054;MG;Telecom-Malagasy]
 MG,ipv4,102.68.192.0,18,allocated,[37037;MG;ORANGEMG-AS]
+MG,ipv4,102.211.100.0,22,allocated,
 MG,ipv4,154.120.128.0,18,allocated,[37037;MG;ORANGEMG-AS]
 MG,ipv4,154.126.0.0,17,allocated,[37054;MG;Telecom-Malagasy]
 MG,ipv4,196.192.32.0,20,allocated,[37054;MG;Telecom-Malagasy]
@@ -7554,6 +7560,7 @@ MG,ipv4,197.158.64.0,18,allocated,[328411;MG;Gulfsat-Madagascar-AS]
 MG,ipv4,197.159.144.0,20,allocated,[37037;MG;ORANGEMG-AS]
 MG,ipv4,197.215.192.0,20,allocated,[37037;MG;ORANGEMG-AS]
 MG,ipv6,2001:4398::,32,allocated,[328411;MG;Gulfsat-Madagascar-AS]
+MG,ipv6,2c0f:1740::,32,allocated,
 MG,ipv6,2c0f:f1c8::,32,allocated,[37037;MG;ORANGEMG-AS]
 MG,ipv6,2c0f:f9f0::,32,allocated,[37608;MG;iRENALA-AS]
 MG,ipv6,2c0f:fa28::,32,allocated,[37054;MG;Telecom-Malagasy]
@@ -8462,6 +8469,7 @@ TD,ipv4,41.242.152.0,21,allocated,[328594;TD;SUDATCHAD-AS]
 TD,ipv4,102.23.84.0,22,allocated,[328599;TD;Amanet-SARL]
 TD,ipv4,102.131.56.0,22,allocated,[327975;TD;ILNET-TELECOM]
 TD,ipv4,102.164.244.0,22,allocated,[328310;TD;GLOBALTEL-Networks]
+TD,ipv4,102.211.107.0,24,allocated,
 TD,ipv4,102.212.248.0,22,allocated,[329207;TD;NBSS1-AS]
 TD,ipv4,102.220.101.0,24,allocated,[328908;TD;FOCON-NET-TELECOMS]
 TD,ipv4,102.220.196.0,22,allocated,[327756;TD;AIRTEL-]
@@ -10638,6 +10646,7 @@ KE,ipv4,102.68.142.0,24,assigned,[328466;KE;International-School-of-Kenya-AS]
 KE,ipv4,102.69.239.0,24,assigned,[328465;KE;Integrated-Payment-Services-AS]
 KE,ipv4,102.130.102.0,24,assigned,[328380;KE;Prime-Bank-AS]
 KE,ipv4,102.134.129.0,24,assigned,[328392;KE;USAC1-AS]
+KE,ipv4,102.211.106.0,24,assigned,
 KE,ipv4,102.212.142.0,23,assigned,[329262;KE;TBBI1-AS]
 KE,ipv4,102.213.242.0,24,assigned,[329190;KE;TKTN1-AS]
 KE,ipv4,102.214.140.0,23,assigned,[327884;KE;I-and-M-Bank]
