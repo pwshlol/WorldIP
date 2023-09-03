@@ -1,7 +1,7 @@
-2.3|lacnic|20230831|87458|19870101|20230831|-0300
+2.3|lacnic|20230901|87472|19870101|20230901|-0300
 lacnic|*|ipv4|*|19671|summary
-lacnic|*|ipv6|*|53384|summary
-lacnic|*|asn|*|14403|summary
+lacnic|*|ipv6|*|53394|summary
+lacnic|*|asn|*|14407|summary
 lacnic|BR|ipv4|24.152.0.0|1024|20200310|allocated|310248
 lacnic|BR|ipv4|24.152.4.0|1024|20200312|allocated|311598
 lacnic|BR|ipv4|24.152.8.0|1024|20200309|allocated|301675
@@ -29695,7 +29695,8 @@ lacnic|MX|ipv6|2801:c4:97::|48|20230228|assigned|338201
 lacnic|MX|ipv6|2801:c4:98::|45|20221229|assigned|56662
 lacnic|MX|ipv6|2801:c4:a0::|48|20131129|assigned|98631
 lacnic|MX|ipv6|2801:c4:a1::|48|20230824|assigned|73713
-lacnic||ipv6|2801:c4:a2::|47||available
+lacnic||ipv6|2801:c4:a2::|48||available
+lacnic|MX|ipv6|2801:c4:a3::|48|20230901|assigned|339904
 lacnic|MX|ipv6|2801:c4:a4::|48|20230724|assigned|337260
 lacnic||ipv6|2801:c4:a5::|48||available
 lacnic||ipv6|2801:c4:a6::|47||available
@@ -29703,7 +29704,8 @@ lacnic|MX|ipv6|2801:c4:a8::|48|20230810|assigned|340340
 lacnic||ipv6|2801:c4:a9::|48||available
 lacnic|MX|ipv6|2801:c4:aa::|48|20230714|assigned|39164
 lacnic||ipv6|2801:c4:ab::|48||available
-lacnic||ipv6|2801:c4:ac::|47||available
+lacnic|MX|ipv6|2801:c4:ac::|48|20230901|assigned|342666
+lacnic||ipv6|2801:c4:ad::|48||available
 lacnic|MX|ipv6|2801:c4:ae::|48|20230818|assigned|348311
 lacnic||ipv6|2801:c4:af::|48||available
 lacnic|MX|ipv6|2801:c4:b0::|48|20131113|assigned|172376
@@ -32628,7 +32630,11 @@ lacnic||ipv6|2803:f81::|32||reserved|
 lacnic||ipv6|2803:f82::|31||reserved|
 lacnic||ipv6|2803:f84::|30||reserved|
 lacnic||ipv6|2803:f88::|29||reserved|
-lacnic||ipv6|2803:f90::|28||available
+lacnic|CO|ipv6|2803:f90::|32|20230901|allocated|345065
+lacnic||ipv6|2803:f91::|32||reserved|
+lacnic||ipv6|2803:f92::|31||reserved|
+lacnic||ipv6|2803:f94::|30||reserved|
+lacnic||ipv6|2803:f98::|29||reserved|
 lacnic|AR|ipv6|2803:fa0::|32|20190301|allocated|298605
 lacnic||ipv6|2803:fa1::|32||reserved|
 lacnic||ipv6|2803:fa2::|31||reserved|
@@ -39704,7 +39710,11 @@ lacnic||ipv6|2803:8f81::|32||reserved|
 lacnic||ipv6|2803:8f82::|31||reserved|
 lacnic||ipv6|2803:8f84::|30||reserved|
 lacnic||ipv6|2803:8f88::|29||reserved|
-lacnic||ipv6|2803:8f90::|28||available
+lacnic|AR|ipv6|2803:8f90::|32|20230901|allocated|349698
+lacnic||ipv6|2803:8f91::|32||reserved|
+lacnic||ipv6|2803:8f92::|31||reserved|
+lacnic||ipv6|2803:8f94::|30||reserved|
+lacnic||ipv6|2803:8f98::|29||reserved|
 lacnic|AR|ipv6|2803:8fa0::|32|20190301|allocated|44991
 lacnic||ipv6|2803:8fa1::|32||reserved|
 lacnic||ipv6|2803:8fa2::|31||reserved|
@@ -74624,7 +74634,8 @@ lacnic|MX|asn|28451|1|20221217|allocated|303317
 lacnic|MX|asn|28452|1|20230124|allocated|344482
 lacnic|MX|asn|28453|1|20150209|allocated|224500
 lacnic|MX|asn|28454|1|20131217|allocated|79540
-lacnic||asn|28455|2||available
+lacnic|MX|asn|28455|1|20230901|allocated|339904
+lacnic||asn|28456|1||available
 lacnic|MX|asn|28457|1|20120828|allocated|91735
 lacnic|MX|asn|28458|1|20150629|allocated|98943
 lacnic||asn|28459|1||available
@@ -84448,7 +84459,8 @@ lacnic|MX|asn|270228|1|20230822|allocated|338360
 lacnic|MX|asn|270229|1|20230725|allocated|340620
 lacnic||asn|270230|2||available
 lacnic|MX|asn|270232|1|20230714|allocated|39164
-lacnic||asn|270233|2||available
+lacnic||asn|270233|1||available
+lacnic|MX|asn|270234|1|20230901|allocated|342666
 lacnic|MX|asn|270235|1|20230818|allocated|348311
 lacnic|MX|asn|270236|1|20210121|allocated|260407
 lacnic|BR|asn|270237|1|20200114|allocated|308943
@@ -87177,7 +87189,9 @@ lacnic|PE|asn|273067|1|20230830|allocated|349285
 lacnic|EC|asn|273068|1|20230831|allocated|349266
 lacnic|VE|asn|273069|1|20230831|allocated|349134
 lacnic|DO|asn|273070|1|20230831|allocated|336233
-lacnic||asn|273071|238||available
+lacnic|CO|asn|273071|1|20230901|allocated|345065
+lacnic|AR|asn|273072|1|20230901|allocated|349698
+lacnic||asn|273073|236||available
 lacnic|BR|asn|273309|1|20230726|allocated|348245
 lacnic|BR|asn|273310|1|20230726|allocated|348708
 lacnic|BR|asn|273311|1|20230803|allocated|349922
