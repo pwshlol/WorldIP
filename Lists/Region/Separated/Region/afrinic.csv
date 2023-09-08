@@ -340,7 +340,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.49.89.0,24,reserved,*
 *,ipv4,196.49.91.0,24,reserved,*
 *,ipv4,196.49.93.0,24,reserved,*
-*,ipv4,196.49.95.0,24,reserved,*
+*,ipv4,196.49.94.0,23,reserved,*
 *,ipv4,196.49.97.0,24,reserved,*
 *,ipv4,196.49.99.0,24,reserved,*
 *,ipv4,196.49.101.0,24,reserved,*
@@ -389,7 +389,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.60.100.0,22,reserved,*
 *,ipv4,196.60.105.0,24,reserved,*
 *,ipv4,196.60.107.0,24,reserved,*
-*,ipv4,196.60.109.0,24,reserved,*
+*,ipv4,196.60.108.0,23,reserved,*
 *,ipv4,196.60.111.0,24,reserved,*
 *,ipv4,196.60.113.0,24,reserved,*
 *,ipv4,196.60.115.0,24,reserved,*
@@ -3425,7 +3425,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,15,available,*
 *,ipv4,102.210.0.0,16,available,*
-*,ipv4,102.211.0.0,19,available,*
+*,ipv4,102.211.4.0,22,available,*
+*,ipv4,102.211.8.0,21,available,*
+*,ipv4,102.211.16.0,20,available,*
 *,ipv4,102.211.32.0,20,available,*
 *,ipv4,102.211.48.0,21,available,*
 *,ipv4,102.211.56.0,22,available,*
@@ -7684,6 +7686,7 @@ MU,ipv4,102.131.48.0,21,allocated,[37622;MU;MTML-AS]
 MU,ipv4,102.140.176.0,20,allocated,[36894;MU;goc]
 MU,ipv4,102.160.0.0,14,allocated,[30999;MU;EMTEL-AS-AP]
 MU,ipv4,102.176.128.0,19,allocated,*
+MU,ipv4,102.211.0.0,22,allocated,[329187;MU;OADC-IX-MGMT][37797;MU;OADC-AS]
 MU,ipv4,102.211.104.0,24,allocated,*
 MU,ipv4,102.214.100.0,22,allocated,[37722;MU;Kaldera]
 MU,ipv4,102.221.182.0,23,allocated,[328758;MU;RA-Consulting-Services]
@@ -9955,7 +9958,7 @@ ZA,ipv6,2c0f:1700::,32,allocated,[328966;ZA;SoftphoneVIP-AS]
 ZA,ipv6,2c0f:1780::,32,allocated,[328426;ZA;Zonke-Wifi-AS]
 ZA,ipv6,2c0f:1880::,32,allocated,[329062;ZA;BCT2-AS]
 ZA,ipv6,2c0f:1900::,32,allocated,*
-ZA,ipv6,2c0f:1940::,32,allocated,
+ZA,ipv6,2c0f:1940::,32,allocated,[329323;ZA;Bravoscan-252]
 ZA,ipv6,2c0f:1980::,32,allocated,[328350;ZA;NetworkComputing-AS]
 ZA,ipv6,2c0f:1b80::,32,allocated,[328760;ZA;ZTEL-AS]
 ZA,ipv6,2c0f:1c00::,32,allocated,[328802;ZA;Khula-Tech-AS]
@@ -10854,9 +10857,7 @@ MU,ipv4,196.1.7.0,24,assigned,[328540;MU;UOMAS]
 MU,ipv4,196.3.109.0,24,assigned,*
 MU,ipv4,196.13.125.0,24,assigned,[36894;MU;goc]
 MU,ipv4,196.49.9.0,24,assigned,[327821;MU;MIXP-mgmnt][37324;MU;MIXP]
-MU,ipv4,196.49.94.0,24,assigned,[329187;MU;OADC-IX-MGMT][37797;MU;OADC-AS]
 MU,ipv4,196.50.2.0,24,assigned,[327914;MU;MPLS-EMEA][327913;MU;VPLS-EMEA][37674;MU;IP-MPLS-EMEA]
-MU,ipv4,196.60.108.0,24,assigned,[329187;MU;OADC-IX-MGMT][37797;MU;OADC-AS]
 MU,ipv4,196.192.112.0,23,assigned,[37708;MU;AFRINIC-MAIN][37301;MU;AFRINIC-ZA-CPT-AS][37181;MU;AFRINIC-Anycast-RFC-5855][37177;MU;AFRINIC-ANYCAST][33764;MU;AFRINIC-ZA-JNB-AS]
 MU,ipv4,196.192.114.0,23,assigned,[37708;MU;AFRINIC-MAIN][37301;MU;AFRINIC-ZA-CPT-AS][37181;MU;AFRINIC-Anycast-RFC-5855][37177;MU;AFRINIC-ANYCAST][33764;MU;AFRINIC-ZA-JNB-AS]
 MU,ipv4,196.192.140.0,22,assigned,[37708;MU;AFRINIC-MAIN][37301;MU;AFRINIC-ZA-CPT-AS][37181;MU;AFRINIC-Anycast-RFC-5855][37177;MU;AFRINIC-ANYCAST][33764;MU;AFRINIC-ZA-JNB-AS]
