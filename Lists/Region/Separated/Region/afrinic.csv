@@ -3425,11 +3425,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,15,available,*
 *,ipv4,102.210.0.0,16,available,*
-*,ipv4,102.211.8.0,21,available,*
 *,ipv4,102.211.16.0,20,available,*
-*,ipv4,102.211.32.0,20,available,*
+*,ipv4,102.211.32.0,21,available,*
+*,ipv4,102.211.40.0,22,available,*
 *,ipv4,102.211.55.0,24,available,*
-*,ipv4,102.211.105.0,24,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -3970,7 +3969,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:1b08::,29,available,*
 *,ipv6,2c0f:1b10::,28,available,*
 *,ipv6,2c0f:1b20::,27,available,*
-*,ipv6,2c0f:1b40::,26,available,*
+*,ipv6,2c0f:1b41::,32,available,*
+*,ipv6,2c0f:1b42::,31,available,*
+*,ipv6,2c0f:1b44::,30,available,*
+*,ipv6,2c0f:1b48::,29,available,*
+*,ipv6,2c0f:1b50::,28,available,*
+*,ipv6,2c0f:1b60::,27,available,*
 *,ipv6,2c0f:1b81::,32,available,*
 *,ipv6,2c0f:1b82::,31,available,*
 *,ipv6,2c0f:1b84::,30,available,*
@@ -5004,7 +5008,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:5b08::,29,available,*
 *,ipv6,2c0f:5b10::,28,available,*
 *,ipv6,2c0f:5b20::,27,available,*
-*,ipv6,2c0f:5b40::,26,available,*
+*,ipv6,2c0f:5b41::,32,available,*
+*,ipv6,2c0f:5b42::,31,available,*
+*,ipv6,2c0f:5b44::,30,available,*
+*,ipv6,2c0f:5b48::,29,available,*
+*,ipv6,2c0f:5b50::,28,available,*
+*,ipv6,2c0f:5b60::,27,available,*
 *,ipv6,2c0f:5b81::,32,available,*
 *,ipv6,2c0f:5b82::,31,available,*
 *,ipv6,2c0f:5b84::,30,available,*
@@ -6766,6 +6775,7 @@ CV,ipv4,41.74.128.0,20,allocated,[37517;CV;CV-Multimedia]
 CV,ipv4,41.79.124.0,22,allocated,[37575;CV;TMAIS]
 CV,ipv4,41.215.208.0,20,allocated,[37517;CV;CV-Multimedia]
 CV,ipv4,41.221.192.0,20,allocated,[37517;CV;CV-Multimedia]
+CV,ipv4,102.211.8.0,22,allocated,[37517;CV;CV-Multimedia]
 CV,ipv4,102.213.204.0,22,allocated,[37517;CV;CV-Multimedia]
 CV,ipv4,102.219.86.0,23,allocated,[328941;CV;CVTS1-AS]
 CV,ipv4,102.220.164.0,22,allocated,[37517;CV;CV-Multimedia]
@@ -7084,6 +7094,7 @@ GM,ipv4,41.76.8.0,21,allocated,[37503;GM;Unique-Solutions]
 GM,ipv4,41.223.212.0,22,allocated,[37309;GM;QCell]
 GM,ipv4,102.69.160.0,22,allocated,[328488;GM;DK-Telecom]
 GM,ipv4,102.140.128.0,19,allocated,[25250;GM;GAMTEL-AS]
+GM,ipv4,102.211.12.0,22,allocated,
 GM,ipv4,102.211.244.0,22,allocated,[37323;GM;NETPAGE]
 GM,ipv4,102.213.220.0,22,allocated,[329179;GM;Sky-Telecom-AS]
 GM,ipv4,102.216.248.0,22,allocated,*
@@ -7103,6 +7114,7 @@ GM,ipv6,2c0f:140::,32,allocated,[37524;GM;AFRICELL-]
 GM,ipv6,2c0f:540::,32,allocated,[328488;GM;DK-Telecom]
 GM,ipv6,2c0f:740::,32,allocated,[37552;GM;Gamtel]
 GM,ipv6,2c0f:4c00::,32,allocated,[328140;GM;INSIST-NET-AS]
+GM,ipv6,2c0f:5b40::,32,allocated,
 GM,ipv6,2c0f:6780::,32,allocated,[25250;GM;GAMTEL-AS]
 GM,ipv6,2c0f:f890::,32,allocated,[37503;GM;Unique-Solutions]
 GM,ipv6,2c0f:fcb8::,32,allocated,[37323;GM;NETPAGE]
@@ -9148,6 +9160,7 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.211.44.0,22,allocated,
 ZA,ipv4,102.211.48.0,22,allocated,[329081;ZA;CENTRACOM-2][329080;ZA;CENTRACOM-2][327791;ZA;Centracom]
 ZA,ipv4,102.211.84.0,22,allocated,[329316;ZA;REALTIME-COMMUNICATIONS]
 ZA,ipv4,102.211.92.0,22,allocated,[329317;ZA;Minntech-Pty-Limited]
@@ -9962,6 +9975,7 @@ ZA,ipv6,2c0f:1880::,32,allocated,[329062;ZA;BCT2-AS]
 ZA,ipv6,2c0f:1900::,32,allocated,*
 ZA,ipv6,2c0f:1940::,32,allocated,[329323;ZA;Bravoscan-252]
 ZA,ipv6,2c0f:1980::,32,allocated,[328350;ZA;NetworkComputing-AS]
+ZA,ipv6,2c0f:1b40::,32,allocated,
 ZA,ipv6,2c0f:1b80::,32,allocated,[328760;ZA;ZTEL-AS]
 ZA,ipv6,2c0f:1c00::,32,allocated,[328802;ZA;Khula-Tech-AS]
 ZA,ipv6,2c0f:1d00::,32,allocated,*
@@ -10598,6 +10612,7 @@ EG,ipv6,2001:43f8:40::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:41::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:2e0::,48,assigned,[37348;EG;CAC]
 EG,ipv6,2001:43f8:c50::,48,assigned,[37003;EG;Xceed-as]
+ET,ipv4,102.211.105.0,24,assigned,
 ET,ipv4,102.212.10.0,24,assigned,[329265;ET;CBOE3-AS]
 ET,ipv4,196.49.98.0,24,assigned,[329226;ET;AddIX-IXP-MGMT][37798;ET;AddIX-IXP-Peering]
 ET,ipv4,196.60.116.0,24,assigned,[329226;ET;AddIX-IXP-MGMT][37798;ET;AddIX-IXP-Peering]
