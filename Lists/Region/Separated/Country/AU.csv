@@ -2127,9 +2127,8 @@ apnic,ipv4,161.143.0.0,16,allocated,[45837;AU;CITECGOV-AU-AP CITEC  Queensland G
 apnic,ipv4,161.146.0.0,16,allocated,[45821;AU;DHSNET-AS-AP Department of Human Services][45175;AU;MCA-XSITE-AS-AU-AP Medicare Australia Cross Site AS][18055;AU;CENTRELINK Department of Human Services][9552;AU;DHSNET-AS-AP Department of Human Services]
 apnic,ipv4,161.152.0.0,16,allocated,*
 apnic,ipv4,162.12.240.0,22,allocated,[137536;AU;CERNER-AS-AP CERNER CORPORATION PTY LIMITED][136898;AU;CERNER-AS-AP CERNER CORPORATION PTY LIMITED][42382;AU;CERNER-AS-AP CERNER CORPORATION PTY LIMITED]
-apnic,ipv4,162.145.0.0,16,allocated,[23744;AU;CUSTOMS-AS-AP Department of Immigration and Border Protection]
-apnic,ipv4,162.146.0.0,16,allocated,[23744;AU;CUSTOMS-AS-AP Department of Immigration and Border Protection]
-apnic,ipv4,162.147.0.0,16,allocated,[23744;AU;CUSTOMS-AS-AP Department of Immigration and Border Protection]
+apnic,ipv4,162.145.0.0,16,allocated,[38470;AU;DIBP-AS-AP DIBP][23744;AU;CUSTOMS-AS-AP Department of Immigration and Border Protection]
+apnic,ipv4,162.146.0.0,15,allocated,[38470;AU;DIBP-AS-AP DIBP][23744;AU;CUSTOMS-AS-AP Department of Immigration and Border Protection]
 apnic,ipv4,162.221.76.0,22,allocated,[134063;AU;ACTIVENET1-AS-AP ACTIVENET PTY LTD]
 apnic,ipv4,162.223.168.0,21,allocated,[134063;AU;ACTIVENET1-AS-AP ACTIVENET PTY LTD]
 apnic,ipv4,163.8.0.0,16,allocated,[45589;AU;ENERGYAUST-AS AUSGRID]
@@ -2174,7 +2173,7 @@ apnic,ipv4,163.233.0.0,16,allocated,[141400;AU;COMCARE-AS-AP COMCARE]
 apnic,ipv4,164.53.0.0,16,allocated,[38876;AU;NAB-AS-AP National Australia Bank Limited][10235;AU;NAB-AS-AP National Australia Bank Limited]
 apnic,ipv4,164.75.0.0,16,allocated,[45442;AU;PARLIAMENT-DPS-AS-AP Department of Parliamentary Services]
 apnic,ipv4,164.80.0.0,16,allocated,[134984;AU;NEXTGEN-AS-AP NextGen.Net Pty Ltd][17768;AU;NEXTGENNET-AS-AU NextGen.Net Application Service Provider][9880;AU;NEXTGENNET-AS1-AU-AP NextGen.Net Pty Ltd  North Sydney]
-apnic,ipv4,164.97.0.0,16,allocated,[38470;AU;DIBP-AS-AP DIBP]
+apnic,ipv4,164.97.0.0,16,allocated,[38470;AU;DIBP-AS-AP DIBP][23744;AU;CUSTOMS-AS-AP Department of Immigration and Border Protection]
 apnic,ipv4,164.108.0.0,16,allocated,*
 apnic,ipv4,164.112.0.0,16,allocated,*
 apnic,ipv4,164.153.28.0,22,allocated,[137012;AU;SATCOM-AS-AP Satcom Direct Australia Pty Ltd.]
@@ -3507,7 +3506,7 @@ apnic,ipv6,2400:a880::,32,allocated,*
 apnic,ipv6,2400:ad00::,32,allocated,[56265;AU;TRANSURBAN-AU Level 23]
 apnic,ipv6,2400:b100::,32,allocated,[55859;AU;TOTALWEB-US Total Web Solutions Australia][55555;AU;DELION-AP Delion Pty Ltd]
 apnic,ipv6,2400:b160::,32,allocated,[150333;AU;COTCOGC-AS-AP GOLD COAST CITY COUNCIL]
-apnic,ipv6,2400:b300::,32,allocated,[38470;AU;DIBP-AS-AP DIBP]
+apnic,ipv6,2400:b300::,32,allocated,[38470;AU;DIBP-AS-AP DIBP][23744;AU;CUSTOMS-AS-AP Department of Immigration and Border Protection]
 apnic,ipv6,2400:b440::,32,allocated,[134139;AU;HARBOURISPPTYLTD-AS-AP Harbour ISP Pty LTD]
 apnic,ipv6,2400:b4c0::,32,allocated,[136273;AU;BHPL-AS-AP Bureau Holdings Pty Ltd]
 apnic,ipv6,2400:b6e0::,32,allocated,[150354;AU;BUCPL-AS-AP Bluehub Unified Communications Pty Ltd]
@@ -5219,12 +5218,9 @@ apnic,ipv4,103.240.88.0,24,assigned,*
 apnic,ipv4,103.240.132.0,24,assigned,[131182;AU;CROSSPOINT-AS-AP Crosspoint Telecommunications Pty Ltd][58473;AU;CROSSPOINT-AS-AP Crosspoint Telecommunications Pty Ltd]
 apnic,ipv4,103.240.222.0,23,assigned,[133048;AU;CAPTIONITPTYLTD-AS-AP Caption It Pty Ltd]
 apnic,ipv4,103.240.224.0,22,assigned,*
-apnic,ipv4,103.241.26.0,24,assigned,[133057;AU;BESITSYSTEMS-AS-AP The Trustee for THE BOWEN FAMILY TRUST ta BES IT Systems]
 apnic,ipv4,103.241.252.0,22,assigned,[133094;AU;HPIMRI-AS-AP Harry Perkins Institute of Medical Research Inc]
 apnic,ipv4,103.242.49.0,24,assigned,[133044;AU;SOL1PTYLTD-AS-AP Sol1 Pty Ltd]
 apnic,ipv4,103.242.182.0,24,assigned,[136584;NZ;VPL-UK-AS VoIP Line Telecom Pty. Ltd.][135306;US;CHPL-US-AP Computer Helper Pty. Ltd.][59204;AU;VPL-AU-AS VoIP Line Telecom Pty. Ltd.]
-apnic,ipv4,103.242.183.0,24,assigned,[133057;AU;BESITSYSTEMS-AS-AP The Trustee for THE BOWEN FAMILY TRUST ta BES IT Systems]
-apnic,ipv4,103.242.210.0,23,assigned,[133057;AU;BESITSYSTEMS-AS-AP The Trustee for THE BOWEN FAMILY TRUST ta BES IT Systems]
 apnic,ipv4,103.242.235.0,24,assigned,[133102;AU;SAHMSC-AS-AP Sydney Anglican Home Mission Society Council]
 apnic,ipv4,103.243.17.0,24,assigned,[133093;AU;COMWIREITPTYLTD-AS-AP Comwire IT Pty Ltd]
 apnic,ipv4,103.243.91.0,24,assigned,[133143;AU;MHS-AS-AP Medihost Solutions Pty Ltd]
@@ -7954,7 +7950,6 @@ apnic,ipv6,2001:df1:cac0::,48,assigned,[139763;AU;HTML-AS-AP Hastings Technology
 apnic,ipv6,2001:df1:cc00::,48,assigned,*
 apnic,ipv6,2001:df1:cd00::,48,assigned,*
 apnic,ipv6,2001:df1:cf40::,48,assigned,*
-apnic,ipv6,2001:df1:d000::,48,assigned,[133057;AU;BESITSYSTEMS-AS-AP The Trustee for THE BOWEN FAMILY TRUST ta BES IT Systems]
 apnic,ipv6,2001:df1:d2c0::,48,assigned,[150739;AU;NBC-AS-AP Northern Beaches Council]
 apnic,ipv6,2001:df1:d300::,48,assigned,[135396;AU;TAFEQUEENSLAND-AS-AP TAFE Queensland]
 apnic,ipv6,2001:df1:d600::,48,assigned,[135362;AU;THESTAR-AS-AP The Star Pty Limited]
