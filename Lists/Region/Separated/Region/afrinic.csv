@@ -3424,7 +3424,13 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,15,available,*
-*,ipv4,102.210.0.0,16,available,*
+*,ipv4,102.210.0.0,17,available,*
+*,ipv4,102.210.128.0,18,available,*
+*,ipv4,102.210.192.0,19,available,*
+*,ipv4,102.210.224.0,20,available,*
+*,ipv4,102.210.240.0,21,available,*
+*,ipv4,102.210.248.0,22,available,*
+*,ipv4,102.210.252.0,23,available,*
 *,ipv4,102.211.22.0,24,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
@@ -6917,6 +6923,7 @@ EG,ipv4,102.56.0.0,13,allocated,[36992;EG;ETISALAT-MISR]
 EG,ipv4,102.128.176.0,21,allocated,[328405;EG;Link-Datacenter-For-Data-Circulation]
 EG,ipv4,102.131.32.0,22,allocated,[37726;EG;PS-Extra-AS]
 EG,ipv4,102.184.0.0,13,allocated,[36935;EG;Vodafone-][30995;EG;CIBEG-AS][24835;EG;RAYA-AS]
+EG,ipv4,102.210.254.0,23,allocated,
 EG,ipv4,102.211.56.0,22,allocated,[329325;EG;Maxko-for-Gaming-Development]
 EG,ipv4,102.214.224.0,22,allocated,[329132;EG;NCFT1-AS]
 EG,ipv4,102.217.68.0,22,allocated,[37191;EG;Raya-Holding]
@@ -8481,7 +8488,7 @@ SO,ipv4,102.141.196.0,22,allocated,[328319;SO;Amtel-AS]
 SO,ipv4,102.214.168.0,22,allocated,[328469;SO;Somtel-Somalia-AS]
 SO,ipv4,102.218.10.0,23,allocated,[328954;SO;BL27-AS]
 SO,ipv4,102.218.56.0,22,allocated,[328959;SO;SO_Gasho]
-SO,ipv4,102.218.98.0,24,allocated,[328953;SO;TA43-AS]
+SO,ipv4,102.218.98.0,24,allocated,[328953;SO;TAYOCOM]
 SO,ipv4,102.220.40.0,22,allocated,[328250;SO;Golis-Telecom-AS]
 SO,ipv4,102.223.188.0,22,allocated,[328250;SO;Golis-Telecom-AS]
 SO,ipv4,154.72.24.0,22,allocated,[327742;SO;SOMALI-WIRELESS]
@@ -8496,7 +8503,7 @@ SO,ipv4,197.157.244.0,22,allocated,[37473;SO;TELESOM]
 SO,ipv4,197.220.64.0,19,allocated,[37326;SO;GICO]
 SO,ipv4,197.231.200.0,22,allocated,[37563;SO;SOMTEL]
 SO,ipv6,2c0f:b00::,32,allocated,[328954;SO;BL27-AS]
-SO,ipv6,2c0f:4700::,32,allocated,[328953;SO;TA43-AS]
+SO,ipv6,2c0f:4700::,32,allocated,[328953;SO;TAYOCOM]
 SO,ipv6,2c0f:ed08::,32,allocated,[328363;SO;SOIXP-Management-AS][327764;SO;SomaliREN][37781;SO;SOIXP-PEERING-AS]
 SO,ipv6,2c0f:eef8::,32,allocated,[328319;SO;Amtel-AS]
 SO,ipv6,2c0f:f068::,32,allocated,[327742;SO;SOMALI-WIRELESS]
