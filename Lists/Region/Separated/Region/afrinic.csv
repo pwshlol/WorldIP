@@ -3424,7 +3424,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.210.0.0,17,available,*
 *,ipv4,102.210.128.0,18,available,*
 *,ipv4,102.210.192.0,20,available,*
-*,ipv4,102.210.208.0,21,available,*
+*,ipv4,102.210.208.0,22,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -5100,7 +5100,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:5f08::,29,available,*
 *,ipv6,2c0f:5f10::,28,available,*
 *,ipv6,2c0f:5f20::,27,available,*
-*,ipv6,2c0f:5f40::,26,available,*
+*,ipv6,2c0f:5f41::,32,available,*
+*,ipv6,2c0f:5f42::,31,available,*
+*,ipv6,2c0f:5f44::,30,available,*
+*,ipv6,2c0f:5f48::,29,available,*
+*,ipv6,2c0f:5f50::,28,available,*
+*,ipv6,2c0f:5f60::,27,available,*
 *,ipv6,2c0f:5f81::,32,available,*
 *,ipv6,2c0f:5f82::,31,available,*
 *,ipv6,2c0f:5f84::,30,available,*
@@ -7609,6 +7614,7 @@ MA,ipv4,102.68.8.0,22,allocated,[328577;MA;Enterprise-Services]
 MA,ipv4,102.72.0.0,13,allocated,[36956;MA;MT-MPLS][36903;MA;MT-MPLS][6713;MA;IAM-AS]
 MA,ipv4,102.96.0.0,13,allocated,[36925;MA;ASMedi]
 MA,ipv4,102.135.248.0,22,allocated,*
+MA,ipv4,102.210.212.0,22,allocated,
 MA,ipv4,102.216.12.0,22,allocated,[36925;MA;ASMedi]
 MA,ipv4,102.220.124.0,24,allocated,[328867;MA;CBS-AS]
 MA,ipv4,102.222.176.0,22,allocated,[328709;MA;UM6P-AS]
@@ -7650,6 +7656,7 @@ MA,ipv6,2001:4310::,32,allocated,[30983;MA;MARWAN-AS]
 MA,ipv6,2c0e:6000::,24,allocated,[36925;MA;ASMedi]
 MA,ipv6,2c0f:4100::,32,allocated,[329337;MA;Cas-ix-mgmnt][328055;MA;N-PLUS-ONE-AS][37787;MA;CAS-IX]
 MA,ipv6,2c0f:5400::,32,allocated,[328799;MA;HOSTOWEB-AS]
+MA,ipv6,2c0f:5f40::,32,allocated,
 MA,ipv6,2c0f:e918::,32,allocated,[328709;MA;UM6P-AS]
 MA,ipv6,2c0f:eda8::,32,allocated,[328493;MA;SADV-AS]
 MA,ipv6,2c0f:ee40::,32,allocated,[327989;MA;GeniousMorocco]
@@ -8324,7 +8331,7 @@ RW,ipv4,41.197.0.0,16,allocated,[327899;RW;BSC][37619;RW;BSC-AS][36934;RW;Broadb
 RW,ipv4,41.222.244.0,22,allocated,[37010;RW;National-University-Rwanda]
 RW,ipv4,41.242.140.0,22,allocated,[22690;RW;AxiomNET-AS]
 RW,ipv4,102.22.128.0,18,allocated,*
-RW,ipv4,102.211.72.0,22,allocated,[329321;RW;MCSWEEN-TELECOM-Limited][329320;RW;MCSWEEN-TELECOM-Limited]
+RW,ipv4,102.211.72.0,22,allocated,[329321;RW;MCSWEEN-TELECOM-Limited][329320;RW;MCSWEEN-TELECOM-Limited][37737;RW;MCSWEEN-TELECOM-Limited][37736;RW;MCSWEEN-TELECOM-Limited]
 RW,ipv4,102.215.8.0,22,allocated,[329104;RW;AL14-AS]
 RW,ipv4,105.178.0.0,17,allocated,[327755;RW;ORNL][37228;RW;Olleh-Rwanda-Networks]
 RW,ipv4,105.179.0.0,19,allocated,[327755;RW;ORNL][37228;RW;Olleh-Rwanda-Networks]
@@ -8336,7 +8343,7 @@ RW,ipv4,197.157.212.0,22,allocated,[327708;RW;AIRTEL-][327707;RW;AIRTEL-][37124;
 RW,ipv4,197.234.244.0,22,allocated,[37547;RW;ISPA-]
 RW,ipv4,197.243.0.0,17,allocated,[327899;RW;BSC][37619;RW;BSC-AS][36934;RW;Broadband-Systems-Corporation]
 RW,ipv6,2c0f:580::,32,allocated,[329104;RW;AL14-AS]
-RW,ipv6,2c0e:7c00::,24,allocated,[329321;RW;MCSWEEN-TELECOM-Limited][329320;RW;MCSWEEN-TELECOM-Limited]
+RW,ipv6,2c0e:7c00::,24,allocated,[329321;RW;MCSWEEN-TELECOM-Limited][329320;RW;MCSWEEN-TELECOM-Limited][37737;RW;MCSWEEN-TELECOM-Limited][37736;RW;MCSWEEN-TELECOM-Limited]
 RW,ipv6,2c0f:3880::,32,allocated,[327755;RW;ORNL][37228;RW;Olleh-Rwanda-Networks]
 RW,ipv6,2c0f:6100::,32,allocated,[22690;RW;AxiomNET-AS]
 RW,ipv6,2c0f:6700::,32,allocated,[327708;RW;AIRTEL-][327707;RW;AIRTEL-][37124;RW;tigo-rw-as]
@@ -11040,7 +11047,7 @@ NG,ipv4,102.131.64.0,18,assigned,[328362;NG;UniversityIlorin-AS]
 NG,ipv4,102.131.128.0,17,assigned,[37420;NG;UNIV-JOS]
 NG,ipv4,102.141.233.0,24,assigned,[328332;NG;FEAP-AS]
 NG,ipv4,102.141.234.0,24,assigned,[328324;NG;FederalUniversity-AS]
-NG,ipv4,102.210.216.0,22,assigned,
+NG,ipv4,102.210.216.0,22,assigned,[329349;NG;Optimus-Bank-Limited]
 NG,ipv4,102.211.163.0,24,assigned,[329299;NG;NOVA-Merchant-Bank-LTD]
 NG,ipv4,102.211.228.0,23,assigned,[329285;NG;ARM-Pension-Managers]
 NG,ipv4,102.212.206.0,23,assigned,[329275;NG;FBNQuest-Capital-Limited]
