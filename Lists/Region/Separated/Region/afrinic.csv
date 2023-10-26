@@ -3424,7 +3424,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.210.0.0,17,available,*
 *,ipv4,102.210.128.0,18,available,*
 *,ipv4,102.210.192.0,20,available,*
-*,ipv4,102.210.208.0,22,available,*
+*,ipv4,102.210.208.0,23,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -5124,7 +5124,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:6008::,29,available,*
 *,ipv6,2c0f:6010::,28,available,*
 *,ipv6,2c0f:6020::,27,available,*
-*,ipv6,2c0f:6040::,26,available,*
+*,ipv6,2c0f:6041::,32,available,*
+*,ipv6,2c0f:6042::,31,available,*
+*,ipv6,2c0f:6044::,30,available,*
+*,ipv6,2c0f:6048::,29,available,*
+*,ipv6,2c0f:6050::,28,available,*
+*,ipv6,2c0f:6060::,27,available,*
 *,ipv6,2c0f:6081::,32,available,*
 *,ipv6,2c0f:6082::,31,available,*
 *,ipv6,2c0f:6084::,30,available,*
@@ -7619,7 +7624,7 @@ MA,ipv4,102.68.8.0,22,allocated,[328577;MA;Enterprise-Services]
 MA,ipv4,102.72.0.0,13,allocated,[36956;MA;MT-MPLS][36903;MA;MT-MPLS][6713;MA;IAM-AS]
 MA,ipv4,102.96.0.0,13,allocated,[36925;MA;ASMedi]
 MA,ipv4,102.135.248.0,22,allocated,*
-MA,ipv4,102.210.212.0,22,allocated,
+MA,ipv4,102.210.212.0,22,allocated,[37738;MA;HOSTOWEB]
 MA,ipv4,102.216.12.0,22,allocated,[36925;MA;ASMedi]
 MA,ipv4,102.220.124.0,24,allocated,[328867;MA;CBS-AS]
 MA,ipv4,102.222.176.0,22,allocated,[328709;MA;UM6P-AS]
@@ -7661,7 +7666,7 @@ MA,ipv6,2001:4310::,32,allocated,[30983;MA;MARWAN-AS]
 MA,ipv6,2c0e:6000::,24,allocated,[36925;MA;ASMedi]
 MA,ipv6,2c0f:4100::,32,allocated,[329337;MA;Cas-ix-mgmnt][328055;MA;N-PLUS-ONE-AS][37787;MA;CAS-IX]
 MA,ipv6,2c0f:5400::,32,allocated,[328799;MA;HOSTOWEB-AS]
-MA,ipv6,2c0f:5f40::,32,allocated,
+MA,ipv6,2c0f:5f40::,32,allocated,[37738;MA;HOSTOWEB]
 MA,ipv6,2c0f:e918::,32,allocated,[328709;MA;UM6P-AS]
 MA,ipv6,2c0f:eda8::,32,allocated,[328493;MA;SADV-AS]
 MA,ipv6,2c0f:ee40::,32,allocated,[327989;MA;GeniousMorocco]
@@ -9241,6 +9246,7 @@ ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.210.210.0,23,allocated,
 ZA,ipv4,102.210.224.0,22,allocated,[329348;ZA;Calmex-Mobile]
 ZA,ipv4,102.210.232.0,22,allocated,[329345;ZA;Bkonnect-PTY-LTD]
 ZA,ipv4,102.210.243.0,24,allocated,[329346;ZA;Light-Bridge]
@@ -10129,6 +10135,7 @@ ZA,ipv6,2c0f:5e40::,32,allocated,[329345;ZA;Bkonnect-PTY-LTD]
 ZA,ipv6,2c0f:5f00::,32,allocated,[328974;ZA;Datonet-AS]
 ZA,ipv6,2c0f:5f80::,32,allocated,[328498;ZA;Enabling-ICT-Solutions]
 ZA,ipv6,2c0f:6000::,32,allocated,[328106;ZA;UNIWISP-AS]
+ZA,ipv6,2c0f:6040::,32,allocated,
 ZA,ipv6,2c0f:6180::,32,allocated,[32714;ZA;COMPUTE]
 ZA,ipv6,2c0f:6280::,32,allocated,[328016;ZA;Netdirect]
 ZA,ipv6,2c0f:6380::,32,allocated,[328538;ZA;OCTOP-SMART-SOLUTIONS-AS]
