@@ -3424,7 +3424,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.210.0.0,17,available,*
 *,ipv4,102.210.128.0,18,available,*
 *,ipv4,102.210.192.0,21,available,*
-*,ipv4,102.210.208.0,23,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -5172,7 +5171,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:6208::,29,available,*
 *,ipv6,2c0f:6210::,28,available,*
 *,ipv6,2c0f:6220::,27,available,*
-*,ipv6,2c0f:6240::,26,available,*
+*,ipv6,2c0f:6241::,32,available,*
+*,ipv6,2c0f:6242::,31,available,*
+*,ipv6,2c0f:6244::,30,available,*
+*,ipv6,2c0f:6248::,29,available,*
+*,ipv6,2c0f:6250::,28,available,*
+*,ipv6,2c0f:6260::,27,available,*
 *,ipv6,2c0f:6281::,32,available,*
 *,ipv6,2c0f:6282::,31,available,*
 *,ipv6,2c0f:6284::,30,available,*
@@ -6661,6 +6665,7 @@ CI,ipv4,102.67.192.0,18,allocated,[36924;CI;GVA-Canalbox]
 CI,ipv4,102.130.224.0,21,allocated,[328406;CI;MainOne-CI-AS]
 CI,ipv4,102.135.184.0,22,allocated,[328903;CI;RITER]
 CI,ipv4,102.136.0.0,14,allocated,[36995;CI;MTN-][36974;CI;MTNCI-AS]
+CI,ipv4,102.210.208.0,24,allocated,
 CI,ipv4,102.211.232.0,22,allocated,[329250;CI;AOT1-AS]
 CI,ipv4,102.212.4.0,22,allocated,[329250;CI;AOT1-AS]
 CI,ipv4,102.212.188.0,22,allocated,[37190;CI;ATLANTIQUE-TELECOM-]
@@ -7034,6 +7039,7 @@ EG,ipv6,2001:42b8::,32,allocated,[15475;EG;NOL]
 EG,ipv6,2001:4300::,32,allocated,[328587;EG;Ministry-of-Interior-][36885;EG;Internet2][33789;EG;Internet2][31065;EG;MCIT][24736;EG;CAIX]
 EG,ipv6,2001:4388::,32,allocated,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43c8::,32,allocated,[20928;EG;NOOR-AS]
+EG,ipv6,2c0f:6240::,32,allocated,
 EG,ipv6,2c0f:7480::,32,allocated,[329132;EG;NCFT1-AS]
 EG,ipv6,2c0f:7b00::,28,allocated,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2c0f:f0b0::,32,allocated,[37069;EG;MOBINIL]
@@ -7305,6 +7311,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.210.209.0,24,allocated,
 KE,ipv4,102.210.220.0,22,allocated,[328858;KE;EDN-AS]
 KE,ipv4,102.210.244.0,22,allocated,[329341;KE;Tatu-Telecom-Company-SEZ-Limited]
 KE,ipv4,102.211.64.0,22,allocated,[329324;KE;Windstream-Limited]
