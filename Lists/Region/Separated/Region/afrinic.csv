@@ -3425,10 +3425,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,15,available,*
 *,ipv4,102.210.0.0,17,available,*
-*,ipv4,102.210.132.0,22,available,*
 *,ipv4,102.210.136.0,21,available,*
 *,ipv4,102.210.158.0,23,available,*
-*,ipv4,102.210.169.0,24,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -4158,7 +4156,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:2508::,29,available,*
 *,ipv6,2c0f:2510::,28,available,*
 *,ipv6,2c0f:2520::,27,available,*
-*,ipv6,2c0f:2540::,26,available,*
+*,ipv6,2c0f:2541::,32,available,*
+*,ipv6,2c0f:2542::,31,available,*
+*,ipv6,2c0f:2544::,30,available,*
+*,ipv6,2c0f:2548::,29,available,*
+*,ipv6,2c0f:2550::,28,available,*
+*,ipv6,2c0f:2560::,27,available,*
 *,ipv6,2c0f:2581::,32,available,*
 *,ipv6,2c0f:2582::,31,available,*
 *,ipv6,2c0f:2584::,30,available,*
@@ -5242,7 +5245,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:6508::,29,available,*
 *,ipv6,2c0f:6510::,28,available,*
 *,ipv6,2c0f:6520::,27,available,*
-*,ipv6,2c0f:6540::,26,available,*
+*,ipv6,2c0f:6541::,32,available,*
+*,ipv6,2c0f:6542::,31,available,*
+*,ipv6,2c0f:6544::,30,available,*
+*,ipv6,2c0f:6548::,29,available,*
+*,ipv6,2c0f:6550::,28,available,*
+*,ipv6,2c0f:6560::,27,available,*
 *,ipv6,2c0f:6581::,32,available,*
 *,ipv6,2c0f:6582::,31,available,*
 *,ipv6,2c0f:6584::,30,available,*
@@ -6254,6 +6262,7 @@ AO,ipv4,102.64.60.0,22,allocated,[328509;AO;SpeedNet-Servicos]
 AO,ipv4,102.130.64.0,21,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv4,102.130.192.0,19,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.131.40.0,21,allocated,[328368;AO;SNIR-AS]
+AO,ipv4,102.210.169.0,24,allocated,
 AO,ipv4,102.210.176.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.210.228.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.211.128.0,22,allocated,[37645;AO;ZAP-Angola]
@@ -6337,6 +6346,7 @@ AO,ipv6,2c0f:1c80::,32,allocated,[329065;AO;STSL2-AS]
 AO,ipv6,2c0f:2700::,32,allocated,[328979;AO;NPDS-AS]
 AO,ipv6,2c0f:2b80::,32,allocated,[328725;AO;Advanlink-AS]
 AO,ipv6,2c0f:5600::,32,allocated,[328792;AO;EEID-AS]
+AO,ipv6,2c0f:6540::,32,allocated,
 AO,ipv6,2c0f:e968::,32,allocated,[328718;AO;ANYCONNECT]
 AO,ipv6,2c0f:ea28::,32,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv6,2c0f:eab0::,32,allocated,[328111;AO;IPWORLD-AS]
@@ -7806,6 +7816,7 @@ MR,ipv4,102.216.228.0,22,allocated,[329004;MR;CONNECTY-SARL]
 MR,ipv4,102.219.207.0,24,allocated,[328850;MR;CSS-AS]
 MR,ipv4,197.231.0.0,19,allocated,[37541;MR;CHINGUITEL]
 MR,ipv6,2c0f:2240::,32,allocated,[328997;MR;RIMATEL]
+MR,ipv6,2c0f:2540::,32,allocated,[37541;MR;CHINGUITEL]
 MR,ipv6,2c0f:4e80::,32,allocated,[329048;MR;NETCOM-AS]
 MR,ipv6,2c0f:f998::,32,allocated,[29544;MR;MAURITEL]
 MU,ipv4,41.72.192.0,19,allocated,[36942;MU;SWIFGLOBALKENYA][33768;MU;LTOL][21280;MU;SWIFT-GLOBAL][19676;MU;SWIFT-GLOBAL]
@@ -9320,6 +9331,7 @@ ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
 ZA,ipv4,102.210.128.0,22,allocated,
+ZA,ipv4,102.210.132.0,22,allocated,
 ZA,ipv4,102.210.156.0,23,allocated,[329366;ZA;ABT-Telecoms]
 ZA,ipv4,102.210.171.0,24,allocated,[329363;ZA;LTX-Omega-Mushrooms]
 ZA,ipv4,102.210.196.0,22,allocated,[329355;ZA;Glidepath]
