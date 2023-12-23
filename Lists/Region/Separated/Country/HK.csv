@@ -35,7 +35,7 @@ apnic,ipv4,27.126.192.0,18,allocated,[45474;HK;NEXUSGUARD-AS-AP NEXUSGUARD LIMIT
 apnic,ipv4,36.37.32.0,22,allocated,[56136;HK;LF-HK 3F  HK Spinners Industrial Building Phase I & II]
 apnic,ipv4,36.50.14.0,23,allocated,[152121;HK;ADIT-AS-AP Atto Digital Information Technology Hong Kong Limited]
 apnic,ipv4,36.50.90.0,24,allocated,[152165;HK;IITCL-AS-AP IoT Innovation Technologies Company Limited]
-apnic,ipv4,36.50.130.0,23,allocated,
+apnic,ipv4,36.50.130.0,23,allocated,[152179;HK;GCNL-AS-AP GLOBAL COMMUNICATION NETWORK LIMITED]
 apnic,ipv4,36.255.56.0,22,allocated,*
 apnic,ipv4,36.255.192.0,22,allocated,[137451;HK;TELECOM-AS-AP Hong Kong Business Telecom Limited][135119;HK;TELECOM-KR Korea Telecom Limited][132422;HK;TELECOM-HK Hong Kong Telecom Global Data Centre][64021;CN;NETWORK-TRANSIT Network-Transit]
 apnic,ipv4,36.255.204.0,22,allocated,[140952;US;STL-AS-AP Strong Technology  LLC]
@@ -1100,7 +1100,7 @@ apnic,ipv4,103.220.8.0,22,allocated,[136144;HK;NTDKL-HK Nova Technology Developm
 apnic,ipv4,103.220.72.0,22,allocated,[135509;HK;CCCCL-AS-AP CN Care Cyber Cloud Limited]
 apnic,ipv4,103.220.76.0,22,allocated,[135510;HK;AOSL-AS-AP Aula Online Solution Limited]
 apnic,ipv4,103.224.56.0,22,allocated,*
-apnic,ipv4,103.224.172.0,23,allocated,[151407;HK;HNSL-AS-AP Hytron Network Services Limited]
+apnic,ipv4,103.224.172.0,23,allocated,[152187;HK;HOMURANETWORKLTD-AS-AP Homura Network LTD][151407;HK;HNSL-AS-AP Hytron Network Services Limited]
 apnic,ipv4,103.224.248.0,22,allocated,[134200;HK;CLOUD-RELY Cloud Rely Limited][134198;HK;CLOUD-RELY Cloud Rely Limited][63857;HK;CLOUD-RELY Cloud Rely Limited][59270;HK;CLOUD-RELY Cloud Rely Limited]
 apnic,ipv4,103.225.8.0,22,allocated,[133322;HK;XIM-HK Room 704  ChinaChen Leighton Plaza][133024;HK;XIM-HK Room 704  ChinaChen Leighton Plaza][55953;HK;XIM-HK Room 704  ChinaChen Leighton Plaza]
 apnic,ipv4,103.225.20.0,22,allocated,[136501;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited][58441;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited][9381;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited][2706;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited]
@@ -2176,7 +2176,7 @@ apnic,ipv6,2001:eb0::,32,allocated,[133893;HK;DIYIXIAN-DIC-AS Dyxnet Data Centre
 apnic,ipv6,2401:280::,32,allocated,[134833;HK;LIHGL-HK 24.HK BGP FAST GLOBAL][58931;HK;LIHGL-AS-AP 24.hk global BGP][24009;HK;LIHGL-AS-AP LANLIAN INTERNATIONAL HOLDING GROUP LIMITED][24000;HK;LIHGL-AS-AP 24.hk global BGP]
 apnic,ipv6,2401:300::,32,allocated,[4658;HK;M2012LIMITED-AS 2012 Limited  Netfront]
 apnic,ipv6,2401:360::,32,allocated,[136251;HK;EDTCL-HK EVERY DAY TECHNOLOGY CO. LIMITED]
-apnic,ipv6,2401:b60::,32,allocated,[151407;HK;HNSL-AS-AP Hytron Network Services Limited]
+apnic,ipv6,2401:b60::,32,allocated,[152187;HK;HOMURANETWORKLTD-AS-AP Homura Network LTD][151407;HK;HNSL-AS-AP Hytron Network Services Limited]
 apnic,ipv6,2401:c60::,32,allocated,[138190;HK;GHC-AS-AP GLOBAL-ICT HONGKONG CO.LIMITED]
 apnic,ipv6,2401:e60::,32,allocated,[151419;HK;LINKLESS-AS-AP LINKLESS COMMUNICATIONS LIMITED][132313;HK;SOFIN-AS-AP SOFI NETWORK CORPORATION]
 apnic,ipv6,2402:c80::,32,allocated,[133107;HK;FNETLINK FNETLINK CO . LIMITED][56082;HK;ONE-NET-HK INTERNET-SOLUTION-]
@@ -2631,7 +2631,7 @@ arin,ipv4,204.79.169.0,24,allocated,*
 arin,ipv4,206.220.132.0,22,allocated,*
 arin,ipv4,206.225.128.0,22,allocated,*
 ripencc,ipv4,2.59.100.0,22,allocated,*
-ripencc,ipv4,2.59.152.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
+ripencc,ipv4,2.59.152.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
 ripencc,ipv4,5.182.216.0,22,allocated,[205109;HK;DXTL-UK Dingfeng Xinhui (Hongkong) Technology Limited]
 ripencc,ipv4,31.41.38.0,24,allocated,*
 ripencc,ipv4,45.8.28.0,22,allocated,*
@@ -2649,35 +2649,35 @@ ripencc,ipv4,45.86.232.0,22,allocated,[208628;HK;Anchent ChangLian Network Techn
 ripencc,ipv4,45.87.52.0,22,allocated,*
 ripencc,ipv4,45.87.228.0,22,allocated,*
 ripencc,ipv4,45.88.192.0,22,allocated,*
-ripencc,ipv4,45.91.224.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
-ripencc,ipv4,45.93.16.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,45.91.224.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv4,45.93.16.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,45.93.64.0,22,allocated,*
 ripencc,ipv4,45.131.156.0,22,allocated,*
 ripencc,ipv4,45.133.228.0,22,allocated,*
-ripencc,ipv4,45.134.144.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,45.134.144.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,45.135.44.0,22,allocated,*
-ripencc,ipv4,45.135.236.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,45.135.236.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,45.138.80.0,22,allocated,*
-ripencc,ipv4,45.139.188.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,45.139.188.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,45.141.68.0,22,allocated,[207190;HK;Yuhonet YUHONET INTERNATIONAL LIMITED]
 ripencc,ipv4,45.142.76.0,22,allocated,*
-ripencc,ipv4,45.142.152.0,22,allocated,*
+ripencc,ipv4,45.142.152.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
 ripencc,ipv4,45.146.112.0,22,allocated,[208628;HK;Anchent ChangLian Network Technology Co. Limited]
 ripencc,ipv4,45.147.24.0,22,allocated,*
 ripencc,ipv4,45.147.212.0,22,allocated,*
 ripencc,ipv4,45.149.68.0,22,allocated,*
-ripencc,ipv4,45.155.88.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
-ripencc,ipv4,45.155.224.0,22,allocated,[212836;HK;AS212836 369 IntoNet Limited]
+ripencc,ipv4,45.155.88.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,45.155.224.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,45.156.20.0,22,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,45.156.24.0,22,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,45.156.168.0,22,allocated,*
 ripencc,ipv4,45.156.216.0,22,allocated,*
-ripencc,ipv4,45.156.220.0,22,allocated,[212836;HK;AS212836 369 IntoNet Limited]
+ripencc,ipv4,45.156.220.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,45.157.68.0,22,allocated,*
 ripencc,ipv4,45.158.180.0,22,allocated,*
 ripencc,ipv4,45.158.220.0,22,allocated,*
 ripencc,ipv4,45.158.228.0,22,allocated,*
-ripencc,ipv4,45.158.252.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,45.158.252.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,45.159.56.0,22,allocated,[34806;HK;ASLINE ASLINE LIMITED]
 ripencc,ipv4,62.3.23.0,24,allocated,[51837;HK;NETEX-51837-AS Netex Limited][47362;HK;NETEX-47362-AS Netex Limited][44893;HK;NETEX-44893-AS Netex Limited][44582;HK;NETEX-44582-AS Netex Limited][42375;HK;NETEX-42375-AS Netex Limited][41498;HK;PRTN-AS Netex Limited][39182;HK;NETEX-39182-AS Netex Limited][39106;HK;NETEX-39106-AS Netex Limited]
 ripencc,ipv4,62.192.188.0,22,allocated,*
@@ -2686,13 +2686,13 @@ ripencc,ipv4,83.138.52.0,24,allocated,[51837;HK;NETEX-51837-AS Netex Limited][47
 ripencc,ipv4,83.150.224.0,22,allocated,*
 ripencc,ipv4,84.252.100.0,23,allocated,*
 ripencc,ipv4,85.8.182.0,23,allocated,*
-ripencc,ipv4,85.92.112.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,85.92.112.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,85.208.56.0,22,allocated,*
 ripencc,ipv4,86.106.77.0,24,allocated,*
 ripencc,ipv4,91.190.152.0,24,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,91.200.146.0,24,allocated,*
-ripencc,ipv4,91.204.224.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
-ripencc,ipv4,91.209.182.0,24,allocated,[212836;HK;AS212836 369 IntoNet Limited]
+ripencc,ipv4,91.204.224.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv4,91.209.182.0,24,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,91.212.61.0,24,allocated,*
 ripencc,ipv4,91.212.229.0,24,allocated,[51837;HK;NETEX-51837-AS Netex Limited][47362;HK;NETEX-47362-AS Netex Limited][44893;HK;NETEX-44893-AS Netex Limited][44582;HK;NETEX-44582-AS Netex Limited][42375;HK;NETEX-42375-AS Netex Limited][41498;HK;PRTN-AS Netex Limited][39182;HK;NETEX-39182-AS Netex Limited][39106;HK;NETEX-39106-AS Netex Limited]
 ripencc,ipv4,91.220.198.0,24,allocated,*
@@ -2732,7 +2732,7 @@ ripencc,ipv4,185.159.128.0,22,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMIT
 ripencc,ipv4,185.170.208.0,22,allocated,[213243;HK;STAR-EU Starry Network Limited]
 ripencc,ipv4,185.171.244.0,22,allocated,[206922;HK;Globex-NL-AMS Globex Telecom Group Limited]
 ripencc,ipv4,185.190.92.0,22,allocated,*
-ripencc,ipv4,185.202.100.0,22,allocated,*
+ripencc,ipv4,185.202.100.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
 ripencc,ipv4,185.207.213.0,24,allocated,*
 ripencc,ipv4,185.209.40.0,22,allocated,*
 ripencc,ipv4,185.211.132.0,22,allocated,[41717;HK;TelflyNetwork Telfly Technology Limited]
@@ -2744,17 +2744,17 @@ ripencc,ipv4,185.228.184.0,22,allocated,[205109;HK;DXTL-UK Dingfeng Xinhui (Hong
 ripencc,ipv4,185.228.232.0,22,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,185.232.56.0,22,allocated,*
 ripencc,ipv4,185.232.92.0,22,allocated,*
-ripencc,ipv4,185.233.16.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
-ripencc,ipv4,185.235.164.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,185.233.16.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,185.235.164.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,185.237.166.0,24,allocated,[211598;HK;IPSERVICES-AS IPSERVICES LIMITED]
 ripencc,ipv4,185.238.224.0,22,allocated,[62325;HK;HDHK HUNGTAK International Network Limited]
 ripencc,ipv4,185.239.84.0,22,allocated,*
 ripencc,ipv4,185.239.224.0,22,allocated,*
 ripencc,ipv4,185.241.40.0,22,allocated,[215958;HK;FENGYE FENGYE NETWORKS LIMITED]
 ripencc,ipv4,185.242.232.0,22,allocated,*
-ripencc,ipv4,185.243.4.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,185.243.4.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,185.243.240.0,22,allocated,*
-ripencc,ipv4,185.245.0.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,185.245.0.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,185.245.40.0,22,allocated,*
 ripencc,ipv4,188.68.64.0,20,allocated,[210462;HK;mll-fr Mining Link Limited]
 ripencc,ipv4,193.5.24.0,23,allocated,*
@@ -2771,7 +2771,7 @@ ripencc,ipv4,193.82.192.0,19,allocated,*
 ripencc,ipv4,193.84.248.0,23,allocated,*
 ripencc,ipv4,193.105.244.0,23,allocated,*
 ripencc,ipv4,193.107.23.0,24,allocated,[62107;HK;GrassRoots-AS GrassRoots Limited]
-ripencc,ipv4,193.107.216.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,193.107.216.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,193.108.46.0,23,allocated,*
 ripencc,ipv4,193.108.96.0,23,allocated,*
 ripencc,ipv4,193.109.213.0,24,allocated,[51837;HK;NETEX-51837-AS Netex Limited][47362;HK;NETEX-47362-AS Netex Limited][44893;HK;NETEX-44893-AS Netex Limited][44582;HK;NETEX-44582-AS Netex Limited][42375;HK;NETEX-42375-AS Netex Limited][41498;HK;PRTN-AS Netex Limited][39182;HK;NETEX-39182-AS Netex Limited][39106;HK;NETEX-39106-AS Netex Limited]
@@ -2786,30 +2786,30 @@ ripencc,ipv4,193.176.179.0,24,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMIT
 ripencc,ipv4,193.176.190.0,24,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,193.203.214.0,23,allocated,[207190;HK;Yuhonet YUHONET INTERNATIONAL LIMITED]
 ripencc,ipv4,193.218.38.0,23,allocated,[207190;HK;Yuhonet YUHONET INTERNATIONAL LIMITED]
-ripencc,ipv4,193.239.150.0,23,allocated,*
-ripencc,ipv4,193.239.154.0,23,allocated,*
+ripencc,ipv4,193.239.150.0,23,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv4,193.239.154.0,23,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
 ripencc,ipv4,194.32.80.0,23,allocated,*
 ripencc,ipv4,194.32.148.0,23,allocated,*
 ripencc,ipv4,194.36.170.0,23,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,194.36.208.0,23,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,194.41.36.0,23,allocated,*
 ripencc,ipv4,194.41.58.0,23,allocated,*
-ripencc,ipv4,194.62.214.0,23,allocated,[212836;HK;AS212836 369 IntoNet Limited]
-ripencc,ipv4,194.76.0.0,23,allocated,[212836;HK;AS212836 369 IntoNet Limited]
+ripencc,ipv4,194.62.214.0,23,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,194.76.0.0,23,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,194.113.209.0,24,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,194.113.245.0,24,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,194.116.214.0,23,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,194.116.216.0,23,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,194.120.24.0,24,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
 ripencc,ipv4,194.120.116.0,24,allocated,[56971;HK;CloudBackbone CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
-ripencc,ipv4,194.120.144.0,24,allocated,[212836;HK;AS212836 369 IntoNet Limited]
-ripencc,ipv4,194.120.164.0,24,allocated,[212836;HK;AS212836 369 IntoNet Limited]
-ripencc,ipv4,194.120.171.0,24,allocated,[212836;HK;AS212836 369 IntoNet Limited]
-ripencc,ipv4,194.120.230.0,24,allocated,[212836;HK;AS212836 369 IntoNet Limited]
-ripencc,ipv4,194.126.202.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
-ripencc,ipv4,194.126.215.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
-ripencc,ipv4,194.126.219.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
-ripencc,ipv4,194.126.227.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
+ripencc,ipv4,194.120.144.0,24,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,194.120.164.0,24,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,194.120.171.0,24,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,194.120.230.0,24,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv4,194.126.202.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv4,194.126.215.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv4,194.126.219.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv4,194.126.227.0,24,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
 ripencc,ipv4,194.145.237.0,24,allocated,*
 ripencc,ipv4,194.146.84.0,22,allocated,*
 ripencc,ipv4,195.2.248.0,24,allocated,*
@@ -2831,12 +2831,12 @@ ripencc,ipv6,2a0f:2c0::,29,allocated,*
 ripencc,ipv6,2a14:980::,29,allocated,[215929;HK;datacampus Data Campus Limited]
 ripencc,ipv6,2a01:9260::,32,allocated,*
 ripencc,ipv6,2a02:1620::,32,allocated,*
-ripencc,ipv6,2a02:afc0::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv6,2a02:afc0::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv6,2a03:5f40::,32,allocated,[199506;HK;Baidu-Global-EU Baidu (Hong Kong) Limited]
 ripencc,ipv6,2a04:94c0::,30,allocated,[202746;HK;EUROPEER-AS Europeer Ltd.]
 ripencc,ipv6,2a05:a300::,29,allocated,*
 ripencc,ipv6,2a06:9200::,29,allocated,[13006;HK;DIDLOGIC-AS DID Logic Limited]
-ripencc,ipv6,2a06:da40::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv6,2a06:da40::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv6,2a07:5340::,29,allocated,*
 ripencc,ipv6,2a07:aec0::,29,allocated,*
 ripencc,ipv6,2a07:d940::,29,allocated,[51837;HK;NETEX-51837-AS Netex Limited][47362;HK;NETEX-47362-AS Netex Limited][44893;HK;NETEX-44893-AS Netex Limited][44582;HK;NETEX-44582-AS Netex Limited][42375;HK;NETEX-42375-AS Netex Limited][41498;HK;PRTN-AS Netex Limited][39182;HK;NETEX-39182-AS Netex Limited][39106;HK;NETEX-39106-AS Netex Limited]
@@ -2845,19 +2845,19 @@ ripencc,ipv6,2a09:42c0::,29,allocated,[211512;HK;SCG-EU StarCloud Global Limited
 ripencc,ipv6,2a09:4f80::,29,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv6,2a0a:68c0::,32,allocated,[213243;HK;STAR-EU Starry Network Limited]
 ripencc,ipv6,2a0a:a880::,29,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
-ripencc,ipv6,2a0b:1f00::,29,allocated,[212836;HK;AS212836 369 IntoNet Limited]
+ripencc,ipv6,2a0b:1f00::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv6,2a0b:65c0::,29,allocated,[41717;HK;TelflyNetwork Telfly Technology Limited]
 ripencc,ipv6,2a0c:9380::,29,allocated,*
 ripencc,ipv6,2a0c:f480::,29,allocated,*
 ripencc,ipv6,2a0d:2480::,29,allocated,*
 ripencc,ipv6,2a0d:5300::,29,allocated,*
-ripencc,ipv6,2a0e:1840::,29,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
-ripencc,ipv6,2a0e:31c0::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
-ripencc,ipv6,2a0e:a0c0::,29,allocated,*
-ripencc,ipv6,2a0f:22c0::,29,allocated,[212836;HK;AS212836 369 IntoNet Limited]
+ripencc,ipv6,2a0e:1840::,29,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv6,2a0e:31c0::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
+ripencc,ipv6,2a0e:a0c0::,29,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv6,2a0f:22c0::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv6,2a0f:7a80::,29,allocated,[34806;HK;ASLINE ASLINE LIMITED]
-ripencc,ipv6,2a0f:aec0::,29,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC KIDC Limited]
-ripencc,ipv6,2a0f:cf40::,29,allocated,[212836;HK;AS212836 369 IntoNet Limited]
+ripencc,ipv6,2a0f:aec0::,29,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
+ripencc,ipv6,2a0f:cf40::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 369 IntoNet Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv6,2a10:4d00::,29,allocated,*
 ripencc,ipv6,2a10:bc40::,29,allocated,[211598;HK;IPSERVICES-AS IPSERVICES LIMITED]
 ripencc,ipv6,2a10:ce40::,32,allocated,[211512;HK;SCG-EU StarCloud Global Limited]
@@ -3496,7 +3496,7 @@ apnic,ipv6,2001:df3:3040::,48,assigned,[152121;HK;ADIT-AS-AP Atto Digital Inform
 apnic,ipv6,2001:df3:3680::,48,assigned,*
 apnic,ipv6,2001:df3:3d00::,48,assigned,[135318;HK;SUNDII-AS-AP SUNDII TECHNOLOGY LIMITED]
 apnic,ipv6,2001:df3:4080::,48,assigned,[142032;HK;HFTCL-AS-AP High Family Technology Co.  Limited]
-apnic,ipv6,2001:df3:49c0::,48,assigned,
+apnic,ipv6,2001:df3:49c0::,48,assigned,[152179;HK;GCNL-AS-AP GLOBAL COMMUNICATION NETWORK LIMITED]
 apnic,ipv6,2001:df3:4dc0::,48,assigned,[152159;HK;HZCL-AS-AP HK ZUNGWAI CLOUD LIMITED]
 apnic,ipv6,2001:df3:5180::,48,assigned,[140542;HK;CCT-AS-AP CCT Technologies Co.  Limited]
 apnic,ipv6,2001:df3:5500::,48,assigned,*

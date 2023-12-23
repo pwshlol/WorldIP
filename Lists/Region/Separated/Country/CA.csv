@@ -2,12 +2,12 @@ region,version,ip,prefixlength,state,orgsflat
 afrinic,ipv6,2001:42c8::,32,allocated,*
 apnic,ipv4,103.21.220.0,23,allocated,*
 apnic,ipv4,103.75.116.0,22,allocated,[136258;CA;ONEPROVIDER-AS BrainStorm Network  Inc]
-apnic,ipv4,103.79.120.0,22,allocated,[135899;CN;EHCL-AS-AP ELEGANT HOME COOP LTD.]
+apnic,ipv4,103.79.120.0,22,allocated,[135899;CA;EHCL-AS-AP ELEGANT HOME COOP LTD.]
 apnic,ipv4,103.97.203.0,24,allocated,[136258;CA;ONEPROVIDER-AS BrainStorm Network  Inc]
 apnic,ipv4,103.106.228.0,22,allocated,[136258;CA;ONEPROVIDER-AS BrainStorm Network  Inc]
 apnic,ipv4,103.144.176.0,23,allocated,[140098;PH;CHEAZEY-AS-AP CHEAZEY.NET WEBSITE HOSTING SERVICES][139912;CA;GIGIX_ROUTE_SERVERS GigIX is a non-profit initiative to create low-cost Internet Exchange points around the world.][139693;NZ;RYDELL-AS-AP Rydell properties][139686;NZ;FRCHI-AS-AP Free Range Cloud Hosting Inc]
 apnic,ipv4,103.151.126.0,23,allocated,*
-apnic,ipv4,202.91.36.0,22,allocated,[135899;CN;EHCL-AS-AP ELEGANT HOME COOP LTD.]
+apnic,ipv4,202.91.36.0,22,allocated,[135899;CA;EHCL-AS-AP ELEGANT HOME COOP LTD.]
 apnic,ipv4,202.183.64.0,20,allocated,[140911;IN;TCL-AS-IN Tata Communications Ltd.][139309;CA;TCL-AS-AP Tata Communications CANADA Ltd.]
 apnic,ipv4,203.9.40.0,21,allocated,[137945;CA;AS-NCHU-AP NUTRIEN CANADA HOLDINGS ULC APAC AS]
 apnic,ipv6,2400:b820::,32,allocated,*
@@ -196,7 +196,7 @@ arin,ipv4,23.160.240.0,24,allocated,[398425;CA;MYBC-DATACOM]
 arin,ipv4,23.161.64.0,24,allocated,[36140;CA;AS-ETS]
 arin,ipv4,23.161.176.0,24,allocated,[398568;CA;SAVTECHNOLOGY]
 arin,ipv4,23.161.248.0,24,allocated,[23300;CA;JCS-NET]
-arin,ipv4,23.162.168.0,24,allocated,[15353;US;XENTAIN]
+arin,ipv4,23.162.168.0,24,allocated,[15353;CA;XENTAIN]
 arin,ipv4,23.162.184.0,24,allocated,*
 arin,ipv4,23.162.232.0,24,allocated,*
 arin,ipv4,23.162.240.0,24,allocated,[397896;CA;TAIGA-ASN-01]
@@ -2132,7 +2132,7 @@ arin,ipv4,149.112.54.0,24,allocated,[22748;CA;RESILIENCE-DATA-GROUP-GLOBAL-PUBLI
 arin,ipv4,149.112.55.0,24,allocated,[22748;CA;RESILIENCE-DATA-GROUP-GLOBAL-PUBLIC-NETWORK]
 arin,ipv4,149.112.58.0,23,allocated,[22748;CA;RESILIENCE-DATA-GROUP-GLOBAL-PUBLIC-NETWORK]
 arin,ipv4,149.112.74.0,24,allocated,*
-arin,ipv4,149.112.78.0,23,allocated,[15353;US;XENTAIN]
+arin,ipv4,149.112.78.0,23,allocated,[15353;CA;XENTAIN]
 arin,ipv4,149.112.80.0,24,allocated,[399226;CA;SPEEDFI]
 arin,ipv4,149.112.120.0,21,allocated,[396501;CA;CIRA-5][394354;CA;CIRA-CLOUD2][55195;CA;CIRA-CLOUD1][40568;CA;CIRADNS3][33221;CA;PEIIX][27299;CA;CIRA-REGISTRY]
 arin,ipv4,149.112.160.0,20,allocated,[396501;CA;CIRA-5][394354;CA;CIRA-CLOUD2][55195;CA;CIRA-CLOUD1][40568;CA;CIRADNS3][33221;CA;PEIIX][27299;CA;CIRA-REGISTRY]
@@ -5870,6 +5870,9 @@ arin,ipv4,199.254.235.0,24,allocated,*
 arin,ipv4,199.255.28.0,22,allocated,[40108;CA;LOGNET]
 arin,ipv4,199.255.216.0,21,allocated,[11260;CA;EASTLINK-HSI]
 arin,ipv4,200.50.136.0,21,allocated,[397561;CA;GNI-WAP][396420;CA;VALLEYFIBER][46300;CA;HSC-WAP]
+arin,ipv4,200.69.0.0,21,allocated,[394738;CA;DENETRON][40092;CA;ONIAAS][32241;CA;ACPANA][23273;CA;HOSTP-LA][18650;CA;KORAX][15244;CA;ADD2NET-INC]
+arin,ipv4,200.69.16.0,22,allocated,[394738;CA;DENETRON][40092;CA;ONIAAS][32241;CA;ACPANA][23273;CA;HOSTP-LA][18650;CA;KORAX][15244;CA;ADD2NET-INC]
+arin,ipv4,200.69.28.0,22,allocated,[394738;CA;DENETRON][40092;CA;ONIAAS][32241;CA;ACPANA][23273;CA;HOSTP-LA][18650;CA;KORAX][15244;CA;ADD2NET-INC]
 arin,ipv4,202.73.7.0,24,allocated,*
 arin,ipv4,202.130.217.0,24,allocated,[18986;CA;PACIFICONLINE]
 arin,ipv4,202.170.192.0,22,allocated,[33549;CA;WHIPCORD]
@@ -8992,7 +8995,7 @@ arin,ipv6,2602:f9d2::,40,allocated,[393659;CA;NWRP-AS]
 arin,ipv6,2602:f9ec::,36,allocated,[19651;CA;TTLL]
 arin,ipv6,2602:f9fc::,40,allocated,[46910;CA;NOCTYS-AS]
 arin,ipv6,2602:fa03::,40,allocated,[46938;CA;NFS-IP-AS-1]
-arin,ipv6,2602:fa11::,36,allocated,[15353;US;XENTAIN]
+arin,ipv6,2602:fa11::,36,allocated,[15353;CA;XENTAIN]
 arin,ipv6,2602:fa25::,40,allocated,[40690;CA;EXAION-001]
 arin,ipv6,2602:fa2c::,40,allocated,[23300;CA;JCS-NET]
 arin,ipv6,2602:fa34::,36,allocated,[394719;CA;PINAX]
@@ -9657,7 +9660,7 @@ arin,ipv6,2001:504:112::,48,allocated,[400243;CA;FNIX]
 arin,ipv6,2001:504:117::,48,allocated,[62513;CA;GOCODEIT-INC][39975;CA;GOCODEIT-DNS-ANYCAST][13523;CA;GOCODEIT-IX][922;CA;GOCODEIT-CORP][835;CA;GOCODEIT-EDGE]
 arin,ipv6,2001:504:130::,48,allocated,[54625;CA;KUDOS-STUDIO]
 arin,ipv6,2001:504:132::,48,allocated,*
-arin,ipv6,2001:504:135::,48,allocated,[15353;US;XENTAIN]
+arin,ipv6,2001:504:135::,48,allocated,[15353;CA;XENTAIN]
 arin,ipv6,2620:10:8000::,44,allocated,[397681;CA;CGINAA][19086;CA;CGI-HOSTING][18563;CA;CGINET-01][14811;CA;CGI-02][11568;CA;CGI-REGINA-1][2710;CA;CGI]
 arin,ipv6,2620:13:2000::,48,allocated,[29807;CA;ZANDOR-ASN-01]
 arin,ipv6,2620:13:6000::,48,allocated,[46641;CA;NIAGARA-CATHOLIC-DISTRICT-SCHOOL-BOARD]
