@@ -3431,7 +3431,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,15,available,*
-*,ipv4,102.210.0.0,18,available,*
+*,ipv4,102.210.0.0,19,available,*
+*,ipv4,102.210.32.0,20,available,*
+*,ipv4,102.210.48.0,22,available,*
+*,ipv4,102.210.53.0,24,available,*
+*,ipv4,102.210.54.0,23,available,*
 *,ipv4,102.210.103.0,24,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
@@ -6470,7 +6474,7 @@ BJ,ipv4,41.223.248.0,22,allocated,[37292;BJ;OTI-AS]
 BJ,ipv4,45.221.224.0,19,allocated,[328092;BJ;SUD-TELCOM-AS]
 BJ,ipv4,81.91.224.0,20,allocated,[328228;BJ;SBIN-AS][28683;BJ;SBIN]
 BJ,ipv4,102.38.128.0,19,allocated,[327818;BJ;BENIN-IX][37090;BJ;ISOCEL]
-BJ,ipv4,102.213.224.0,22,allocated,[329200;BJ;AZESAT-INTERNATIONAL-TELECOM-AND-INGENEERING]
+BJ,ipv4,102.213.224.0,22,allocated,[329200;BJ;AZESAT-INTERNATIONAL-TELECOM-AND-INGENEE]
 BJ,ipv4,102.214.143.0,24,allocated,[329156;BJ;DA11-AS]
 BJ,ipv4,102.214.247.0,24,allocated,[329217;BJ;EUPHORBIA-SARL]
 BJ,ipv4,102.215.88.0,22,allocated,[329085;BJ;AA99-AS]
@@ -6492,7 +6496,7 @@ BJ,ipv6,2001:4320::,32,allocated,[328228;BJ;SBIN-AS][28683;BJ;SBIN]
 BJ,ipv6,2c0f:1280::,32,allocated,[329055;BJ;DT3-AS]
 BJ,ipv6,2c0f:2480::,32,allocated,[329085;BJ;AA99-AS]
 BJ,ipv6,2c0f:6a80::,32,allocated,[329107;BJ;TS8-AS]
-BJ,ipv6,2c0f:7180::,32,allocated,[329200;BJ;AZESAT-INTERNATIONAL-TELECOM-AND-INGENEERING]
+BJ,ipv6,2c0f:7180::,32,allocated,[329200;BJ;AZESAT-INTERNATIONAL-TELECOM-AND-INGENEE]
 BJ,ipv6,2c0f:e900::,32,allocated,[328702;BJ;ADN-AS]
 BJ,ipv6,2c0f:f018::,32,allocated,[328133;BJ;ABC-Corporation-AS]
 BJ,ipv6,2c0f:f188::,32,allocated,[328228;BJ;SBIN-AS][28683;BJ;SBIN]
@@ -7391,6 +7395,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.210.56.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
 KE,ipv4,102.210.88.0,22,allocated,[329382;KE;Pure-Infrastructure-Limited]
 KE,ipv4,102.210.100.0,23,allocated,[329379;KE;FIBERLINK]
 KE,ipv4,102.210.104.0,22,allocated,[329378;KE;MATRUCHHAYA-CABLE-NETWORK]
@@ -8201,6 +8206,7 @@ NG,ipv4,102.165.124.0,22,allocated,[37521;NG;Internet-Solutions-]
 NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
+NG,ipv4,102.210.60.0,22,allocated,
 NG,ipv4,102.210.168.0,24,allocated,[329365;NG;E-Lapariah-Technologies]
 NG,ipv4,102.210.192.0,24,allocated,[329361;NG;Nisi-Technologies]
 NG,ipv4,102.210.240.0,23,allocated,[329347;NG;FREEPASS]
@@ -8605,6 +8611,7 @@ SL,ipv4,102.22.104.0,22,allocated,[37723;SL;Cajutel-ASN]
 SL,ipv4,102.23.140.0,22,allocated,[328581;SL;K3-Telecom-AS]
 SL,ipv4,102.143.0.0,17,allocated,[328297;SL;Qcell-AS]
 SL,ipv4,102.176.188.0,22,allocated,[328289;SL;Ceedee-Investment-AS]
+SL,ipv4,102.210.52.0,24,allocated,[36988;SL;Africell-Lintel]
 SL,ipv4,102.210.193.0,24,allocated,[36988;SL;Africell-Lintel]
 SL,ipv4,102.216.238.0,23,allocated,[329109;SL;ZL5-AS]
 SL,ipv4,102.220.249.0,24,allocated,[36988;SL;Africell-Lintel]
