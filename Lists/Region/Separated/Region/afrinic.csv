@@ -613,6 +613,17 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0e:6200::,23,reserved,*
 *,ipv6,2c0e:6400::,22,reserved,*
 *,ipv6,2c0e:6800::,21,reserved,*
+*,ipv6,2c0e:7001::,32,reserved,*
+*,ipv6,2c0e:7002::,31,reserved,*
+*,ipv6,2c0e:7004::,30,reserved,*
+*,ipv6,2c0e:7008::,29,reserved,*
+*,ipv6,2c0e:7010::,28,reserved,*
+*,ipv6,2c0e:7020::,27,reserved,*
+*,ipv6,2c0e:7040::,26,reserved,*
+*,ipv6,2c0e:7080::,25,reserved,*
+*,ipv6,2c0e:7100::,24,reserved,*
+*,ipv6,2c0e:7200::,23,reserved,*
+*,ipv6,2c0e:7400::,22,reserved,*
 *,ipv6,2c0e:7900::,24,reserved,*
 *,ipv6,2c0e:7a00::,23,reserved,*
 *,ipv6,2c0e:7d00::,24,reserved,*
@@ -3753,7 +3764,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f9::,32,available,*
 *,ipv6,2001:43fa::,31,available,*
 *,ipv6,2001:43fd::,48,available,*
-*,ipv6,2c0e:7000::,21,available,*
 *,ipv6,2c0e:8000::,17,available,*
 *,ipv6,2c0f:1001::,32,available,*
 *,ipv6,2c0f:1002::,31,available,*
@@ -9419,7 +9429,7 @@ ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
 ZA,ipv4,102.210.0.0,22,allocated,
-ZA,ipv4,102.210.8.0,22,allocated,
+ZA,ipv4,102.210.8.0,22,allocated,[329391;ZA;Cosmiq-Broadband]
 ZA,ipv4,102.210.20.0,22,allocated,[328178;ZA;The-Computer-Hut-AS]
 ZA,ipv4,102.210.36.0,22,allocated,[329388;ZA;Cube-ICT-Solutions-Pty-Ltd]
 ZA,ipv4,102.210.48.0,22,allocated,[329360;ZA;iiNet-Connect-Pty-Ltd]
@@ -10237,6 +10247,7 @@ ZA,ipv6,2001:43d8::,32,allocated,[327703;ZA;Adept][15022;ZA;ADEPT-]
 ZA,ipv6,2001:43e8::,32,allocated,[327840;ZA;RAIN-GROUP-HOLDINGS][327685;ZA;RAIN-GROUP-HOLDINGS][37597;ZA;RAIN-GROUP-HOLDINGS][37105;ZA;RAIN-GROUP-HOLDINGS][37070;ZA;RAIN-GROUP-HOLDINGS][33762;ZA;RAIN-GROUP-HOLDINGS]
 ZA,ipv6,2c0e:2000::,20,allocated,[328028;ZA;AS-TELKOM-RETAIL][37457;ZA;Telkom-Internet][37251;ZA;TELKOMMOBILE][37167;ZA;CYBERNEST][37118;ZA;telkom-as][5734;ZA;TIENET][5713;ZA;SAIX-NET]
 ZA,ipv6,2c0e:4000::,24,allocated,[37311;ZA;VODACOM][36994;ZA;Vodacom-VB][29975;ZA;VODACOM-]
+ZA,ipv6,2c0e:7000::,32,allocated,
 ZA,ipv6,2c0e:7e00::,28,allocated,[37049;ZA;SADV]
 ZA,ipv6,2c0e:7f00::,28,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
 ZA,ipv6,2c0f:1000::,32,allocated,[328767;ZA;Wiza-Solutions]
@@ -10268,7 +10279,7 @@ ZA,ipv6,2c0f:2600::,32,allocated,[328848;ZA;SSVC-AS]
 ZA,ipv6,2c0f:2680::,32,allocated,[329089;ZA;BN2-AS]
 ZA,ipv6,2c0f:2900::,32,allocated,[328915;ZA;MANN-IT-AS]
 ZA,ipv6,2c0f:2a40::,32,allocated,[329388;ZA;Cube-ICT-Solutions-Pty-Ltd]
-ZA,ipv6,2c0f:2b40::,32,allocated,
+ZA,ipv6,2c0f:2b40::,32,allocated,[329391;ZA;Cosmiq-Broadband]
 ZA,ipv6,2c0f:2c00::,32,allocated,[328807;ZA;FedEx-AS]
 ZA,ipv6,2c0f:2d00::,32,allocated,[328916;ZA;MCPL-AS]
 ZA,ipv6,2c0f:2e80::,32,allocated,[329113;ZA;AIT1-AS]
