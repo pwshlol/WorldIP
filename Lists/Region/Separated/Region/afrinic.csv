@@ -135,6 +135,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.177.76.0,22,reserved,*
 *,ipv4,102.177.88.0,21,reserved,*
 *,ipv4,102.177.96.0,22,reserved,*
+*,ipv4,102.177.104.0,21,reserved,*
 *,ipv4,102.177.200.0,21,reserved,*
 *,ipv4,102.177.208.0,20,reserved,*
 *,ipv4,102.177.224.0,19,reserved,*
@@ -160,6 +161,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.222.238.0,23,reserved,*
 *,ipv4,102.222.254.0,24,reserved,*
 *,ipv4,102.223.60.0,23,reserved,*
+*,ipv4,102.223.68.0,22,reserved,*
 *,ipv4,102.223.108.0,23,reserved,*
 *,ipv4,102.223.112.0,23,reserved,*
 *,ipv4,102.223.152.0,23,reserved,*
@@ -279,6 +281,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.20.32.0,19,reserved,*
 *,ipv4,196.22.12.0,22,reserved,*
 *,ipv4,196.28.9.0,24,reserved,*
+*,ipv4,196.28.12.0,22,reserved,*
 *,ipv4,196.29.96.0,19,reserved,*
 *,ipv4,196.32.16.0,20,reserved,*
 *,ipv4,196.32.200.0,21,reserved,*
@@ -1173,9 +1176,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:ee19::,32,reserved,*
 *,ipv6,2c0f:ee1a::,31,reserved,*
 *,ipv6,2c0f:ee1c::,30,reserved,*
-*,ipv6,2c0f:ee21::,32,reserved,*
-*,ipv6,2c0f:ee22::,31,reserved,*
-*,ipv6,2c0f:ee24::,30,reserved,*
+*,ipv6,2c0f:ee20::,29,reserved,*
 *,ipv6,2c0f:ee29::,32,reserved,*
 *,ipv6,2c0f:ee2a::,31,reserved,*
 *,ipv6,2c0f:ee2c::,30,reserved,*
@@ -3383,10 +3384,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:1602::,47,reserved,*
 *,ipv6,2001:43f8:1604::,46,reserved,*
 *,ipv6,2001:43f8:1608::,45,reserved,*
-*,ipv6,2001:43f8:1611::,48,reserved,*
-*,ipv6,2001:43f8:1612::,47,reserved,*
-*,ipv6,2001:43f8:1614::,46,reserved,*
-*,ipv6,2001:43f8:1618::,45,reserved,*
+*,ipv6,2001:43f8:1610::,44,reserved,*
 *,ipv6,2001:43f8:1621::,48,reserved,*
 *,ipv6,2001:43f8:1622::,47,reserved,*
 *,ipv6,2001:43f8:1624::,46,reserved,*
@@ -3442,7 +3440,13 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:4000::,34,reserved,*
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
-*,ipv4,102.208.0.0,15,available,*
+*,ipv4,102.208.0.0,16,available,*
+*,ipv4,102.209.0.0,17,available,*
+*,ipv4,102.209.128.0,18,available,*
+*,ipv4,102.209.192.0,19,available,*
+*,ipv4,102.209.224.0,20,available,*
+*,ipv4,102.209.240.0,21,available,*
+*,ipv4,102.209.248.0,22,available,*
 *,ipv4,102.210.54.0,23,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
@@ -7726,6 +7730,7 @@ LY,ipv4,102.38.0.0,19,allocated,[328539;LY;Giga-Communication]
 LY,ipv4,102.68.128.0,21,allocated,[327752;LY;RAWAFED-LIBYA]
 LY,ipv4,102.69.0.0,17,allocated,[329129;LY;LNETLICT]
 LY,ipv4,102.164.96.0,21,allocated,[328286;LY;Libyana-Mobile-AS]
+LY,ipv4,102.209.252.0,22,allocated,[328539;LY;Giga-Communication]
 LY,ipv4,102.211.4.0,22,allocated,[328611;LY;Libyan-Elite]
 LY,ipv4,102.211.148.0,22,allocated,*
 LY,ipv4,102.211.172.0,22,allocated,[329297;LY;Alaan-for-Communications-and-Information]
@@ -9424,7 +9429,6 @@ ZA,ipv4,102.176.192.0,19,allocated,[327984;ZA;Fibre-Stream-AS]
 ZA,ipv4,102.176.224.0,20,allocated,[328365;ZA;Edge-connect][37017;ZA;Edge-connect]
 ZA,ipv4,102.177.0.0,18,allocated,[37357;ZA;SAINET][37356;ZA;Huge-Networks]
 ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
-ZA,ipv4,102.177.104.0,21,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
@@ -10059,7 +10063,6 @@ ZA,ipv4,196.23.0.0,16,allocated,[27598;ZA;INTERNET-SOLUTIONS-MI-NETWORK][20011;Z
 ZA,ipv4,196.24.0.0,16,allocated,[6149;ZA;TENET-2][2018;ZA;TENET-1][1232;ZA;UNINET-ASNBLOCK][1231;ZA;UNINET-ASNBLOCK][1230;ZA;UNINET-ASNBLOCK][1229;ZA;UNINET-ASNBLOCK][1228;ZA;UNINET-ASNBLOCK]
 ZA,ipv4,196.25.0.0,16,allocated,[328028;ZA;AS-TELKOM-RETAIL][37457;ZA;Telkom-Internet][37251;ZA;TELKOMMOBILE][37167;ZA;CYBERNEST][37118;ZA;telkom-as][5734;ZA;TIENET][5713;ZA;SAIX-NET]
 ZA,ipv4,196.26.0.0,16,allocated,[27598;ZA;INTERNET-SOLUTIONS-MI-NETWORK][20011;ZA;INTERNET-SOLUTIONS][12258;ZA;OPTINET][10474;ZA;OPTINET][10393;ZA;OPTINET][6351;ZA;OPTINET][6089;ZA;OPTINET][3741;ZA;IS]
-ZA,ipv4,196.28.12.0,22,allocated,[33784;ZA;SYR-AS]
 ZA,ipv4,196.28.16.0,20,allocated,[27598;ZA;INTERNET-SOLUTIONS-MI-NETWORK][20011;ZA;INTERNET-SOLUTIONS][12258;ZA;OPTINET][10474;ZA;OPTINET][10393;ZA;OPTINET][6351;ZA;OPTINET][6089;ZA;OPTINET][3741;ZA;IS]
 ZA,ipv4,196.28.32.0,20,allocated,[27598;ZA;INTERNET-SOLUTIONS-MI-NETWORK][20011;ZA;INTERNET-SOLUTIONS][12258;ZA;OPTINET][10474;ZA;OPTINET][10393;ZA;OPTINET][6351;ZA;OPTINET][6089;ZA;OPTINET][3741;ZA;IS]
 ZA,ipv4,196.28.64.0,18,allocated,[27598;ZA;INTERNET-SOLUTIONS-MI-NETWORK][20011;ZA;INTERNET-SOLUTIONS][12258;ZA;OPTINET][10474;ZA;OPTINET][10393;ZA;OPTINET][6351;ZA;OPTINET][6089;ZA;OPTINET][3741;ZA;IS]
@@ -10445,7 +10448,6 @@ ZA,ipv6,2c0f:edd8::,32,allocated,[328114;ZA;Comsol-Networks-AS]
 ZA,ipv6,2c0f:ede0::,32,allocated,[328507;ZA;Open-Link-Communication]
 ZA,ipv6,2c0f:ede8::,32,allocated,[328510;ZA;ikeja]
 ZA,ipv6,2c0f:edf8::,32,allocated,[328512;ZA;Backspace-Technologies]
-ZA,ipv6,2c0f:ee20::,32,allocated,[328251;ZA;Force-Telecoms-AS]
 ZA,ipv6,2c0f:ee28::,32,allocated,[37172;ZA;MITSOL]
 ZA,ipv6,2c0f:ee30::,32,allocated,[328210;ZA;TENACIT-SOLUTIONS]
 ZA,ipv6,2c0f:ee48::,32,allocated,[328254;ZA;Verdana-Group-AS]
@@ -11434,7 +11436,6 @@ SL,ipv6,2001:43f8:b0::,48,assigned,[37117;SL;IXPSL-AS]
 SL,ipv6,2001:43f8:a90::,48,assigned,[327903;SL;MICG]
 SN,ipv4,102.36.136.0,22,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE-AS]
 SN,ipv4,102.36.147.0,24,assigned,[328558;SN;Senelec-AS]
-SN,ipv4,102.223.68.0,22,assigned,[328667;SN;ARTP]
 SN,ipv4,196.1.92.0,24,assigned,*
 SN,ipv4,196.1.93.0,24,assigned,*
 SN,ipv4,196.1.94.0,24,assigned,*
@@ -11450,7 +11451,6 @@ SN,ipv4,196.223.252.0,24,assigned,*
 SN,ipv6,2001:43f8:cf0::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
 SN,ipv6,2001:43f8:cf1::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
 SN,ipv6,2001:43f8:1400::,48,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE-AS]
-SN,ipv6,2001:43f8:1610::,48,assigned,[328667;SN;ARTP]
 SO,ipv4,102.68.144.0,21,assigned,[328435;SO;Economic-Strategic-Research-Center-AS]
 SO,ipv4,196.11.62.0,24,assigned,[37644;SO;MIPT-AS]
 SO,ipv4,196.49.58.0,24,assigned,[328363;SO;SOIXP-Management-AS][327764;SO;SomaliREN][37781;SO;SOIXP-PEERING-AS]
