@@ -3482,7 +3482,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,16,available,*
 *,ipv4,102.209.0.0,17,available,*
-*,ipv4,102.209.128.0,20,available,*
+*,ipv4,102.209.128.0,21,available,*
 *,ipv4,102.209.152.0,23,available,*
 *,ipv4,102.209.154.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
@@ -4429,7 +4429,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3008::,29,available,*
 *,ipv6,2c0f:3010::,28,available,*
 *,ipv6,2c0f:3020::,27,available,*
-*,ipv6,2c0f:3040::,26,available,*
+*,ipv6,2c0f:3041::,32,available,*
+*,ipv6,2c0f:3042::,31,available,*
+*,ipv6,2c0f:3044::,30,available,*
+*,ipv6,2c0f:3048::,29,available,*
+*,ipv6,2c0f:3050::,28,available,*
+*,ipv6,2c0f:3060::,27,available,*
 *,ipv6,2c0f:3081::,32,available,*
 *,ipv6,2c0f:3082::,31,available,*
 *,ipv6,2c0f:3084::,30,available,*
@@ -7558,6 +7563,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.209.136.0,22,allocated,
 KE,ipv4,102.209.155.0,24,allocated,[329409;KE;JIJI_FIBER_LTD]
 KE,ipv4,102.209.180.0,22,allocated,[329403;KE;Vhost-Limited]
 KE,ipv4,102.210.12.0,22,allocated,[328977;KE;WISP2-AS]
@@ -7730,6 +7736,7 @@ KE,ipv6,2c0f:2e00::,32,allocated,[328578;KE;KEMNET-TECHNOLOGIES-AS]
 KE,ipv6,2c0f:2e40::,32,allocated,[329403;KE;Vhost-Limited]
 KE,ipv6,2c0f:2f00::,32,allocated,[328987;KE;LESL-AS]
 KE,ipv6,2c0f:2f80::,32,allocated,[329192;KE;OGL1-AS]
+KE,ipv6,2c0f:3040::,32,allocated,
 KE,ipv6,2c0f:3180::,32,allocated,[329198;KE;CELCOM-NETWORKS-LIMITED]
 KE,ipv6,2c0f:3280::,32,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv6,2c0f:3300::,32,allocated,[328989;KE;SMARTCLOUD]
@@ -9538,6 +9545,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.209.140.0,22,allocated,[328366;ZA;FirstnetTechnology-AS]
 ZA,ipv4,102.209.144.0,22,allocated,[329371;ZA;Afrieta]
 ZA,ipv4,102.209.156.0,22,allocated,[329408;ZA;Marveltec]
 ZA,ipv4,102.209.184.0,22,allocated,[328418;ZA;Olena-Trading-AS]
