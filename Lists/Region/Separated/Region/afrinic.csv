@@ -88,7 +88,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,41.242.32.0,21,reserved,*
 *,ipv4,41.242.64.0,20,reserved,*
 *,ipv4,41.242.84.0,22,reserved,*
-*,ipv4,41.242.88.0,21,reserved,*
+*,ipv4,41.242.92.0,22,reserved,*
 *,ipv4,41.242.120.0,22,reserved,*
 *,ipv4,41.242.128.0,22,reserved,*
 *,ipv4,41.242.136.0,22,reserved,*
@@ -147,7 +147,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.164.40.0,22,reserved,*
 *,ipv4,102.164.48.0,22,reserved,*
 *,ipv4,102.165.190.0,24,reserved,*
-*,ipv4,102.176.160.0,20,reserved,*
 *,ipv4,102.176.188.0,22,reserved,*
 *,ipv4,102.177.76.0,22,reserved,*
 *,ipv4,102.177.88.0,21,reserved,*
@@ -159,7 +158,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.181.224.0,19,reserved,*
 *,ipv4,102.183.0.0,16,reserved,*
 *,ipv4,102.214.15.0,24,reserved,*
+*,ipv4,102.214.96.0,22,reserved,*
 *,ipv4,102.214.246.0,24,reserved,*
+*,ipv4,102.215.80.0,22,reserved,*
 *,ipv4,102.215.156.0,22,reserved,*
 *,ipv4,102.215.172.0,22,reserved,*
 *,ipv4,102.215.216.0,23,reserved,*
@@ -173,6 +174,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.218.248.0,22,reserved,*
 *,ipv4,102.219.4.0,22,reserved,*
 *,ipv4,102.219.36.0,22,reserved,*
+*,ipv4,102.219.104.0,22,reserved,*
 *,ipv4,102.219.128.0,22,reserved,*
 *,ipv4,102.219.212.0,22,reserved,*
 *,ipv4,102.219.244.0,22,reserved,*
@@ -180,6 +182,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.220.32.0,22,reserved,*
 *,ipv4,102.220.136.0,22,reserved,*
 *,ipv4,102.220.144.0,22,reserved,*
+*,ipv4,102.220.172.0,22,reserved,*
 *,ipv4,102.220.180.0,22,reserved,*
 *,ipv4,102.220.240.0,22,reserved,*
 *,ipv4,102.221.104.0,22,reserved,*
@@ -194,6 +197,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.222.238.0,23,reserved,*
 *,ipv4,102.222.244.0,22,reserved,*
 *,ipv4,102.222.254.0,24,reserved,*
+*,ipv4,102.223.1.0,24,reserved,*
 *,ipv4,102.223.60.0,23,reserved,*
 *,ipv4,102.223.68.0,22,reserved,*
 *,ipv4,102.223.102.0,24,reserved,*
@@ -1228,7 +1232,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:ee31::,32,reserved,*
 *,ipv6,2c0f:ee32::,31,reserved,*
 *,ipv6,2c0f:ee34::,30,reserved,*
-*,ipv6,2c0f:ee38::,29,reserved,*
+*,ipv6,2c0f:ee39::,32,reserved,*
+*,ipv6,2c0f:ee3a::,31,reserved,*
+*,ipv6,2c0f:ee3c::,30,reserved,*
 *,ipv6,2c0f:ee41::,32,reserved,*
 *,ipv6,2c0f:ee42::,31,reserved,*
 *,ipv6,2c0f:ee44::,30,reserved,*
@@ -3485,8 +3491,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,16,available,*
-*,ipv4,102.209.0.0,17,available,*
-*,ipv4,102.209.128.0,22,available,*
+*,ipv4,102.209.0.0,18,available,*
+*,ipv4,102.209.64.0,19,available,*
+*,ipv4,102.209.96.0,20,available,*
+*,ipv4,102.209.112.0,21,available,*
+*,ipv4,102.209.120.0,22,available,*
 *,ipv4,102.209.153.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
@@ -4452,7 +4461,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3108::,29,available,*
 *,ipv6,2c0f:3110::,28,available,*
 *,ipv6,2c0f:3120::,27,available,*
-*,ipv6,2c0f:3140::,26,available,*
+*,ipv6,2c0f:3141::,32,available,*
+*,ipv6,2c0f:3142::,31,available,*
+*,ipv6,2c0f:3144::,30,available,*
+*,ipv6,2c0f:3148::,29,available,*
+*,ipv6,2c0f:3150::,28,available,*
+*,ipv6,2c0f:3160::,27,available,*
 *,ipv6,2c0f:3181::,32,available,*
 *,ipv6,2c0f:3182::,31,available,*
 *,ipv6,2c0f:3184::,30,available,*
@@ -4914,6 +4928,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4d48::,29,available,*
 *,ipv6,2c0f:4d50::,28,available,*
 *,ipv6,2c0f:4d60::,27,available,*
+*,ipv6,2c0f:4d80::,32,available,*
 *,ipv6,2c0f:4d81::,32,available,*
 *,ipv6,2c0f:4d82::,31,available,*
 *,ipv6,2c0f:4d84::,30,available,*
@@ -6013,7 +6028,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fc:a200::,39,available,*
 *,ipv6,2001:43fc:a400::,38,available,*
 *,ipv6,2001:43fc:a800::,37,available,*
-*,ipv6,2001:43fc:b000::,36,available,*
+*,ipv6,2001:43fc:b001::,48,available,*
+*,ipv6,2001:43fc:b002::,47,available,*
+*,ipv6,2001:43fc:b004::,46,available,*
+*,ipv6,2001:43fc:b008::,45,available,*
+*,ipv6,2001:43fc:b010::,44,available,*
+*,ipv6,2001:43fc:b020::,43,available,*
+*,ipv6,2001:43fc:b040::,42,available,*
+*,ipv6,2001:43fc:b080::,41,available,*
+*,ipv6,2001:43fc:b100::,40,available,*
+*,ipv6,2001:43fc:b200::,39,available,*
+*,ipv6,2001:43fc:b400::,38,available,*
+*,ipv6,2001:43fc:b800::,37,available,*
 *,ipv6,2001:43fc:c001::,48,available,*
 *,ipv6,2001:43fc:c002::,47,available,*
 *,ipv6,2001:43fc:c004::,46,available,*
@@ -7392,7 +7418,6 @@ GH,ipv4,102.216.39.0,24,allocated,[329066;GH;DTL5-AS]
 GH,ipv4,102.216.212.0,23,allocated,[329009;GH;Spectrum-Internet-Service-AS]
 GH,ipv4,102.217.148.0,22,allocated,[328984;GH;RL4-AS]
 GH,ipv4,102.219.32.0,22,allocated,[328887;GH;BluetownGhana-AS]
-GH,ipv4,102.219.104.0,22,allocated,[328891;GH;EFANEST-LIMITED-AS]
 GH,ipv4,102.220.223.0,24,allocated,[328842;GH;Prodata-AS]
 GH,ipv4,102.221.28.0,22,allocated,[328797;GH;BL26-AS]
 GH,ipv4,102.221.228.0,22,allocated,[328717;GH;Tizeti-Network-Ghana]
@@ -7478,7 +7503,9 @@ GN,ipv4,41.79.200.0,22,allocated,[37427;GN;Cellcom]
 GN,ipv4,41.79.236.0,22,allocated,[37141;GN;ETI-AS]
 GN,ipv4,41.191.220.0,22,allocated,[37141;GN;ETI-AS]
 GN,ipv4,41.223.48.0,22,allocated,[37665;GN;MouNa]
+GN,ipv4,41.242.88.0,22,allocated,[37612;ZZ;-Reserved AS-]
 GN,ipv4,45.220.52.0,22,allocated,[328107;GN;GUILAB-AS]
+GN,ipv4,102.176.160.0,20,allocated,[37612;ZZ;-Reserved AS-]
 GN,ipv4,102.209.204.0,22,allocated,[329399;GN;Societe-Cajutel]
 GN,ipv4,102.211.199.0,24,allocated,[329293;GN;SOGEB-SA]
 GN,ipv4,102.218.129.0,24,allocated,[328965;GN;LNSS1-AS]
@@ -7493,6 +7520,7 @@ GN,ipv6,2c0f:5300::,32,allocated,[328965;GN;LNSS1-AS]
 GN,ipv6,2c0f:5b80::,32,allocated,[328107;GN;GUILAB-AS]
 GN,ipv6,2c0f:6c40::,32,allocated,[329399;GN;Societe-Cajutel]
 GN,ipv6,2c0f:7100::,32,allocated,[328923;GN;KTSU-AS]
+GN,ipv6,2c0f:ee38::,32,allocated,[37612;ZZ;-Reserved AS-]
 GN,ipv6,2c0f:f180::,32,allocated,[37487;GQ;GUINEANET]
 GN,ipv6,2c0f:f600::,32,allocated,[37427;GN;Cellcom]
 GN,ipv6,2c0f:f990::,32,allocated,[37665;GN;MouNa]
@@ -7616,7 +7644,6 @@ KE,ipv4,102.214.68.0,22,allocated,[329272;KE;Servercore-Africa-Ltd]
 KE,ipv4,102.214.72.0,22,allocated,[329170;KE;BTL8-AS]
 KE,ipv4,102.214.76.0,22,allocated,[329152;KE;ATL7-AS]
 KE,ipv4,102.214.84.0,22,allocated,[329135;KE;Unicast-technology]
-KE,ipv4,102.214.96.0,22,allocated,[329157;KE;ZBL1-AS]
 KE,ipv4,102.214.156.0,22,allocated,[16907;KE;ISPKENYA][15399;KE;WANANCHI-]
 KE,ipv4,102.214.252.0,22,allocated,[329110;KE;FLL2-AS]
 KE,ipv4,102.215.4.0,22,allocated,[328475;KE;Afriq-Network-Solutions-AS]
@@ -7753,7 +7780,6 @@ KE,ipv6,2c0f:4500::,32,allocated,[328808;KE;DUMATEL-AS]
 KE,ipv6,2c0f:4640::,32,allocated,[329261;KE;NEXT-THING-NETWORKS-LTD]
 KE,ipv6,2c0f:4980::,32,allocated,[329152;KE;ATL7-AS]
 KE,ipv6,2c0f:4b40::,32,allocated,[329272;KE;Servercore-Africa-Ltd]
-KE,ipv6,2c0f:4d80::,32,allocated,[329157;KE;ZBL1-AS]
 KE,ipv6,2c0f:4e40::,32,allocated,[329288;KE;Fimnet-Communications-Limited]
 KE,ipv6,2c0f:5340::,32,allocated,[329021;KE;SAVENET-LIMITED]
 KE,ipv6,2c0f:5740::,32,allocated,[329014;KE;Vilcom-Networks]
@@ -7840,6 +7866,7 @@ LS,ipv4,197.189.128.0,18,allocated,[37057;LS;VODACOM-LESOTHO]
 LS,ipv4,197.220.128.0,19,allocated,[37331;LS;NUL]
 LS,ipv4,197.231.32.0,19,allocated,[37057;LS;VODACOM-LESOTHO]
 LS,ipv4,197.254.128.0,18,allocated,[37057;LS;VODACOM-LESOTHO]
+LS,ipv6,2c0f:3140::,32,allocated,[328567;LS;LEC-Communications]
 LS,ipv6,2c0f:3480::,32,allocated,*
 LS,ipv6,2c0f:f130::,32,allocated,[37642;LS;Comnet-Lesotho-AS]
 LS,ipv6,2c0f:fd00::,32,allocated,[37331;LS;NUL]
@@ -8443,7 +8470,6 @@ NG,ipv4,102.219.220.0,22,allocated,[328861;NG;NIMC-AS]
 NG,ipv4,102.220.44.0,22,allocated,[328834;NG;WIN-FTTH-AS][37540;NG;WINROCK-]
 NG,ipv4,102.220.96.0,22,allocated,[328825;NG;AACL-AS]
 NG,ipv4,102.220.160.0,22,allocated,[328833;NG;FW-AS]
-NG,ipv4,102.220.172.0,22,allocated,[328658;NG;De-Choicetech-Integrated]
 NG,ipv4,102.220.188.0,22,allocated,[328160;NG;Dotmac-Tech]
 NG,ipv4,102.220.204.0,22,allocated,[37004;NG;Suburban-Broadband-AS]
 NG,ipv4,102.220.212.0,22,allocated,[328528;NG;NetIT-Solutions]
@@ -8459,7 +8485,6 @@ NG,ipv4,102.221.184.0,22,allocated,[328742;NG;Simplifyd-Systems-AS]
 NG,ipv4,102.221.236.0,22,allocated,[328722;NG;Ciudad-AS]
 NG,ipv4,102.222.96.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
 NG,ipv4,102.222.116.0,22,allocated,[328696;NG;Tecpoint-Global-Solutions]
-NG,ipv4,102.223.1.0,24,allocated,[328658;NG;De-Choicetech-Integrated]
 NG,ipv4,102.223.36.0,22,allocated,[328668;NG;Nkponani-AS]
 NG,ipv4,102.223.52.0,22,allocated,*
 NG,ipv4,102.223.180.0,23,allocated,[329015;NG;EAL1-AS]
@@ -9160,6 +9185,7 @@ UG,ipv4,102.36.216.0,21,allocated,[37689;UG;SNU-NET-AS]
 UG,ipv4,102.68.172.0,22,allocated,[328015;UG;Sombha-Solutions]
 UG,ipv4,102.80.0.0,13,allocated,[37075;UG;ZAINUGAS][36977;UG;Airtel-]
 UG,ipv4,102.134.140.0,22,allocated,[328408;UG;HAMILTON-TELECOM-AS]
+UG,ipv4,102.209.128.0,22,allocated,[37689;UG;SNU-NET-AS]
 UG,ipv4,102.209.200.0,22,allocated,[327724;UG;NITA]
 UG,ipv4,102.210.108.0,22,allocated,[329377;UG;Hqzen-tech]
 UG,ipv4,102.211.60.0,22,allocated,[37689;UG;SNU-NET-AS]
@@ -9545,6 +9571,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.209.124.0,22,allocated,
 ZA,ipv4,102.209.140.0,22,allocated,[328366;ZA;FirstnetTechnology-AS]
 ZA,ipv4,102.209.144.0,22,allocated,[329371;ZA;Afrieta]
 ZA,ipv4,102.209.156.0,22,allocated,[329408;ZA;Marveltec]
@@ -11398,7 +11425,6 @@ NG,ipv4,102.211.163.0,24,assigned,[329299;NG;NOVA-Merchant-Bank-LTD]
 NG,ipv4,102.211.228.0,23,assigned,[329285;NG;ARM-Pension-Managers]
 NG,ipv4,102.212.206.0,23,assigned,[329275;NG;FBNQuest-Capital-Limited]
 NG,ipv4,102.212.229.0,24,assigned,[37005;NG;ACCESSBK-AS]
-NG,ipv4,102.215.80.0,22,assigned,[329100;NG;NUON1-AS]
 NG,ipv4,102.215.222.0,23,assigned,[329083;NG;WTSO1-AS]
 NG,ipv4,102.216.21.0,24,assigned,[329050;NG;JBNP1-AS]
 NG,ipv4,102.216.128.0,23,assigned,[329054;NG;PSBL1-AS]
@@ -12637,6 +12663,7 @@ ZA,ipv6,2001:43f8:1700::,46,assigned,*
 ZA,ipv6,2001:43f8:1800::,40,assigned,[37724;ZA;TFyreIT-PTY-LTD]
 ZA,ipv6,2001:43f8:1ac0::,44,assigned,[327988;ZA;CAPITEC-BANK-LIMITED]
 ZA,ipv6,2001:43fc:8000::,40,assigned,[328041;ZA;Hollywood-Sportsbooks-AS]
+ZA,ipv6,2001:43fc:b000::,48,assigned,[329016;ZA;IPAP1-AS]
 ZA,ipv6,2001:43fe:2000::,48,assigned,[328934;ZA;SSL6-AS]
 ZA,ipv6,2001:43fe:9000::,48,assigned,[329214;ZA;MSAL1-ASN]
 ZA,ipv6,2001:43fe:a000::,40,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
