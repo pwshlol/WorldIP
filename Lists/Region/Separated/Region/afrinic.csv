@@ -59,6 +59,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,41.154.0.0,16,reserved,*
 *,ipv4,41.190.64.0,22,reserved,*
 *,ipv4,41.190.72.0,21,reserved,*
+*,ipv4,41.190.228.0,22,reserved,*
 *,ipv4,41.191.160.0,19,reserved,*
 *,ipv4,41.191.240.0,21,reserved,*
 *,ipv4,41.191.252.0,22,reserved,*
@@ -468,6 +469,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.61.192.0,20,reserved,*
 *,ipv4,196.62.0.0,15,reserved,*
 *,ipv4,196.160.0.0,13,reserved,*
+*,ipv4,196.192.144.0,20,reserved,*
 *,ipv4,196.192.192.0,18,reserved,*
 *,ipv4,196.193.0.0,16,reserved,*
 *,ipv4,196.194.0.0,15,reserved,*
@@ -1214,6 +1216,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:ede9::,32,reserved,*
 *,ipv6,2c0f:edea::,31,reserved,*
 *,ipv6,2c0f:edec::,30,reserved,*
+*,ipv6,2c0f:edf1::,36,reserved,*
 *,ipv6,2c0f:edf9::,32,reserved,*
 *,ipv6,2c0f:edfa::,31,reserved,*
 *,ipv6,2c0f:edfc::,30,reserved,*
@@ -3180,10 +3183,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:de8::,45,reserved,*
 *,ipv6,2001:43f8:df0::,44,reserved,*
 *,ipv6,2001:43f8:f00::,40,reserved,*
-*,ipv6,2c0f:edf1:100::,40,reserved,*
-*,ipv6,2c0f:edf1:200::,39,reserved,*
-*,ipv6,2c0f:edf1:400::,38,reserved,*
-*,ipv6,2c0f:edf1:800::,37,reserved,*
 *,ipv6,2001:42d0:1000::,36,reserved,*
 *,ipv6,2001:42d0:2000::,35,reserved,*
 *,ipv6,2001:42d0:4000::,34,reserved,*
@@ -8308,7 +8307,6 @@ NA,ipv6,2c0f:f778::,32,allocated,[37009;NA;MTCASN]
 NA,ipv6,2c0f:f980::,32,allocated,[37096;MU;Paratus][33763;MU;Paratus]
 NE,ipv4,41.78.116.0,22,allocated,[37205;NE;ATLANTIQUE-TELECOM-NIGER]
 NE,ipv4,41.138.32.0,19,allocated,[37385;NE;SONITEL]
-NE,ipv4,41.190.228.0,22,allocated,[37038;NE;SANCFIS-NIGER]
 NE,ipv4,41.203.128.0,19,allocated,[37233;NE;ORANGE-NIGER]
 NE,ipv4,102.213.60.0,22,allocated,[329203;NE;COMSATES-NIGER]
 NE,ipv4,102.213.244.0,22,allocated,[329224;NE;Global-Data-Services]
@@ -11500,7 +11498,6 @@ NG,ipv4,196.49.62.0,24,assigned,[328395;NG;WAF-IX-AS-MGMT][37783;NG;WAF-IX-AS-Pe
 NG,ipv4,196.49.90.0,24,assigned,[329145;NG;AF-CIX][37793;NG;AF-CIX]
 NG,ipv4,196.60.58.0,24,assigned,[328395;NG;WAF-IX-AS-MGMT][37783;NG;WAF-IX-AS-Peering][37282;NG;MAINONE][30984;NG;Mainone-AS]
 NG,ipv4,196.60.104.0,24,assigned,[329145;NG;AF-CIX][37793;NG;AF-CIX]
-NG,ipv4,196.192.144.0,20,assigned,[328520;NG;University-Benin]
 NG,ipv4,196.216.4.0,22,assigned,[37528;NG;AISA]
 NG,ipv4,196.216.144.0,22,assigned,[36922;NG;UBA-AS]
 NG,ipv4,196.216.148.0,22,assigned,[36940;NG;IXPN-AS-MGMT][36932;NG;IXPN-AS]
@@ -11520,7 +11517,6 @@ NG,ipv4,204.8.206.0,24,assigned,[328158;NG;Exchange-Telecoms-Limited]
 NG,ipv4,204.8.207.0,24,assigned,[328221;NG;CORALPAY]
 NG,ipv4,213.255.128.0,19,assigned,[37170;NG;UNILAG]
 NG,ipv6,2001:43fc::,48,assigned,[328764;NG;Ekiti-State-University-AS]
-NG,ipv6,2c0f:edf1::,40,assigned,[328520;NG;University-Benin]
 NG,ipv6,2001:43f8:160::,48,assigned,[37170;NG;UNILAG]
 NG,ipv6,2001:43f8:180::,48,assigned,[37420;NG;UNIV-JOS]
 NG,ipv6,2001:43f8:190::,48,assigned,[37676;NG;Oye-Ekiti]
