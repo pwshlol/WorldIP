@@ -323,6 +323,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.10.140.0,24,reserved,*
 *,ipv4,196.10.147.0,24,reserved,*
 *,ipv4,196.10.252.0,22,reserved,*
+*,ipv4,196.11.31.0,24,reserved,*
 *,ipv4,196.11.75.0,24,reserved,*
 *,ipv4,196.11.150.0,23,reserved,*
 *,ipv4,196.11.250.0,23,reserved,*
@@ -2939,10 +2940,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:902::,47,reserved,*
 *,ipv6,2001:43f8:904::,46,reserved,*
 *,ipv6,2001:43f8:908::,45,reserved,*
-*,ipv6,2001:43f8:921::,48,reserved,*
-*,ipv6,2001:43f8:922::,47,reserved,*
-*,ipv6,2001:43f8:924::,46,reserved,*
-*,ipv6,2001:43f8:928::,45,reserved,*
+*,ipv6,2001:43f8:920::,44,reserved,*
 *,ipv6,2001:43f8:932::,47,reserved,*
 *,ipv6,2001:43f8:934::,46,reserved,*
 *,ipv6,2001:43f8:938::,45,reserved,*
@@ -3497,7 +3495,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,16,available,*
 *,ipv4,102.209.0.0,18,available,*
-*,ipv4,102.209.64.0,19,available,*
+*,ipv4,102.209.64.0,20,available,*
+*,ipv4,102.209.80.0,21,available,*
+*,ipv4,102.209.88.0,22,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,102.209.236.0,24,available,*
@@ -9067,6 +9067,7 @@ TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
 TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Maas-Computers-and-Networks-AS]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
+TZ,ipv4,102.209.92.0,22,allocated,*
 TZ,ipv4,102.209.132.0,22,allocated,*
 TZ,ipv4,102.209.152.0,24,allocated,[329413;TZ;Kasi-Networks]
 TZ,ipv4,102.210.44.0,22,allocated,[327714;TZ;ComNet-]
@@ -12297,7 +12298,6 @@ ZA,ipv4,196.10.232.0,22,assigned,*
 ZA,ipv4,196.10.236.0,21,assigned,*
 ZA,ipv4,196.10.246.0,22,assigned,*
 ZA,ipv4,196.11.0.0,19,assigned,*
-ZA,ipv4,196.11.31.0,24,assigned,*
 ZA,ipv4,196.11.32.0,20,assigned,[11125;ZA;EBIZ]
 ZA,ipv4,196.11.48.0,21,assigned,[37691;ZA;THOUGHTEXPRESS-AS]
 ZA,ipv4,196.11.56.0,23,assigned,*
@@ -12658,7 +12658,6 @@ ZA,ipv6,2001:43f8:770::,46,assigned,[37501;ZA;UOFS]
 ZA,ipv6,2001:43f8:790::,48,assigned,[37561;ZA;Domain-Name-Services]
 ZA,ipv6,2001:43f8:7e0::,48,assigned,[37667;ZA;Iress-SouthAfrica]
 ZA,ipv6,2001:43f8:900::,48,assigned,[11157;ZA;ELAB]
-ZA,ipv6,2001:43f8:920::,48,assigned,*
 ZA,ipv6,2001:43f8:950::,48,assigned,[37656;ZA;SOTERIA-AS]
 ZA,ipv6,2001:43f8:960::,48,assigned,[37691;ZA;THOUGHTEXPRESS-AS]
 ZA,ipv6,2001:43f8:bc0::,48,assigned,[37399;ZA;SWITCHTEL]
