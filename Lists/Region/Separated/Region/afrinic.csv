@@ -3497,7 +3497,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.209.0.0,18,available,*
 *,ipv4,102.209.64.0,20,available,*
 *,ipv4,102.209.80.0,21,available,*
-*,ipv4,102.209.88.0,22,available,*
+*,ipv4,102.209.90.0,23,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,102.209.236.0,24,available,*
@@ -6337,7 +6337,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fe:a200::,39,available,*
 *,ipv6,2001:43fe:a400::,38,available,*
 *,ipv6,2001:43fe:a800::,37,available,*
-*,ipv6,2001:43fe:b000::,36,available,*
+*,ipv6,2001:43fe:b001::,48,available,*
+*,ipv6,2001:43fe:b002::,47,available,*
+*,ipv6,2001:43fe:b004::,46,available,*
+*,ipv6,2001:43fe:b008::,45,available,*
+*,ipv6,2001:43fe:b010::,44,available,*
+*,ipv6,2001:43fe:b020::,43,available,*
+*,ipv6,2001:43fe:b040::,42,available,*
+*,ipv6,2001:43fe:b080::,41,available,*
+*,ipv6,2001:43fe:b100::,40,available,*
+*,ipv6,2001:43fe:b200::,39,available,*
+*,ipv6,2001:43fe:b400::,38,available,*
+*,ipv6,2001:43fe:b800::,37,available,*
 *,ipv6,2001:43fe:c001::,48,available,*
 *,ipv6,2001:43fe:c002::,47,available,*
 *,ipv6,2001:43fe:c004::,46,available,*
@@ -11672,6 +11683,7 @@ TZ,ipv4,102.23.218.0,23,assigned,[328557;TZ;DIAMOND-TRUST-BANK-TANZANIA-AS]
 TZ,ipv4,102.68.64.0,22,assigned,[328478;TZ;Exim-Bank-TZ-AS]
 TZ,ipv4,102.68.71.0,24,assigned,[328504;TZ;National-Identification-Authority-AS]
 TZ,ipv4,102.165.191.0,24,assigned,[37045;TZ;tznic]
+TZ,ipv4,102.209.88.0,23,assigned,
 TZ,ipv4,102.211.120.0,24,assigned,[329304;TZ;THE-TRUSTEES-OF-THE-TANZANIA-NATIONAL-PARKS]
 TZ,ipv4,102.212.82.0,23,assigned,[329251;TZ;NATIONAL-BANK-OF-COMMERCE-LIMITED]
 TZ,ipv4,102.213.16.0,23,assigned,[329242;TZ;Equity-Bank-Tanzania-Limited]
@@ -11736,6 +11748,7 @@ TZ,ipv6,2001:43f8:1390::,48,assigned,[328478;TZ;Exim-Bank-TZ-AS]
 TZ,ipv6,2001:43f8:14d0::,48,assigned,[328700;TZ;TIX-CDN][328326;TZ;TISPA-MBIXP-AS][328325;TZ;TISPA-DIXP-AS][328294;TZ;TISPA-ZIXP-MGMT-AS][328022;TZ;MWANXA-IXP-mgmnt][327852;TZ;TISPA-AIXP-MNGNT][327844;TZ;TISPA-TIX-MANAGEMENT][37779;TZ;TISPA-MBIXP-PEERING-AS][37778;TZ;TISPA-DIXP-PEERING-AS][37777;TZ;TISPA-ZIXP-PEERING-AS][37769;TZ;MWANZA-IXP-peering][37710;TZ;AIXP-Route-Server][33791;TZ;TIX-ASN]
 TZ,ipv6,2001:43fc:2000::,48,assigned,[328930;TZ;TNEC-AS]
 TZ,ipv6,2001:43fd:e000::,48,assigned,[328700;TZ;TIX-CDN][328326;TZ;TISPA-MBIXP-AS][328325;TZ;TISPA-DIXP-AS][328294;TZ;TISPA-ZIXP-MGMT-AS][328022;TZ;MWANXA-IXP-mgmnt][327852;TZ;TISPA-AIXP-MNGNT][327844;TZ;TISPA-TIX-MANAGEMENT][37779;TZ;TISPA-MBIXP-PEERING-AS][37778;TZ;TISPA-DIXP-PEERING-AS][37777;TZ;TISPA-ZIXP-PEERING-AS][37769;TZ;MWANZA-IXP-peering][37710;TZ;AIXP-Route-Server][33791;TZ;TIX-ASN]
+TZ,ipv6,2001:43fe:b000::,48,assigned,
 TZ,ipv6,2001:43ff:2000::,48,assigned,[328980;TZ;ISOT-AS]
 UG,ipv4,80.88.2.0,24,assigned,[328233;UG;DFCU-Bank-AS]
 UG,ipv4,102.68.124.0,24,assigned,[328462;UG;National-Social-Security-Fund-AS]
