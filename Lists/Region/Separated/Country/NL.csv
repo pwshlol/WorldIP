@@ -2609,7 +2609,7 @@ ripencc,ipv4,185.67.4.0,22,allocated,*
 ripencc,ipv4,185.67.60.0,22,allocated,[56943;NL;NITRONET Enreach Netherlands B.V.][49713;NL;XENOSITE-AS Enreach Netherlands B.V.][39647;NL;REDHOSTING-AS Enreach Netherlands B.V.][16131;NL;VW-MO-GRX Enreach Netherlands B.V.][15426;NL;XENOSITE Enreach Netherlands B.V.]
 ripencc,ipv4,185.67.64.0,22,allocated,[9150;NL;Interconnect ML Consultancy]
 ripencc,ipv4,185.67.136.0,22,allocated,[59409;NL;LEGACO-AS59409 Legaco Networks B.V.][42946;NL;AS-LEGACO Legaco Networks B.V.][42161;NL;TEPUCOM-AS Legaco Networks B.V.][41725;NL;legaconetworks2 Legaco Networks B.V.]
-ripencc,ipv4,185.67.200.0,22,allocated,[59791;NL;LINQHOST LinQhost B.V.]
+ripencc,ipv4,185.67.200.0,22,allocated,*
 ripencc,ipv4,185.67.224.0,22,allocated,[205670;NL;Axeos Axeos Holding B.V.]
 ripencc,ipv4,185.68.12.0,22,allocated,[201629;NL;PAYU MIH PayU BV]
 ripencc,ipv4,185.68.88.0,22,allocated,[201644;NL;BW_AS01 Brabant Water N.V]
@@ -2717,7 +2717,7 @@ ripencc,ipv4,185.87.248.0,22,allocated,[202916;NL;IPS Savvii B.V.][200831;NL;MIH
 ripencc,ipv4,185.88.8.0,24,allocated,[210332;NL;Swadon Swadon B.V.]
 ripencc,ipv4,185.88.64.0,22,allocated,[207903;NL;ASN-Greenet Greenet Netwerk BV]
 ripencc,ipv4,185.88.140.0,22,allocated,[209829;NL;Greenhost-US Greenhost BV][47172;NL;Greenhost Greenhost BV]
-ripencc,ipv4,185.88.148.0,22,allocated,[59791;NL;LINQHOST LinQhost B.V.]
+ripencc,ipv4,185.88.148.0,22,allocated,*
 ripencc,ipv4,185.88.188.0,22,allocated,*
 ripencc,ipv4,185.89.4.0,22,allocated,[201269;NL;CLDIN-RESERVED Your hosting B.V.]
 ripencc,ipv4,185.89.16.0,22,allocated,*
@@ -5366,7 +5366,7 @@ ripencc,ipv6,2a04:f7c0::,29,allocated,[201766;NL;KNS-AS KNS Automatisering B.V.]
 ripencc,ipv6,2a04:f840::,29,allocated,*
 ripencc,ipv6,2a04:fbc0::,29,allocated,[201460;NL;adipisching ABN AMRO Bank N.V.][15916;NL;ABN AMRO Bank N.V.][15740;NL;ABN AMRO Bank N.V.][13169;NL;ABN AMRO Bank N.V.]
 ripencc,ipv6,2a05:1080::,29,allocated,[212877;NL;Forhosting Angelo Kreikamp trading as Forhosting][44437;NL;Forhosting Angelo Kreikamp trading as Forhosting]
-ripencc,ipv6,2a05:1180::,29,allocated,[59791;NL;LINQHOST LinQhost B.V.]
+ripencc,ipv6,2a05:1180::,29,allocated,*
 ripencc,ipv6,2a05:1480::,29,allocated,[201629;NL;PAYU MIH PayU BV]
 ripencc,ipv6,2a05:1500::,29,allocated,[205631;NL;PCEXTREME-HAG CLDIN B.V.][202861;NL;CLDIN-ES CLDIN B.V.][200837;NL;PCEXTREME-MIA-UNUSED CLDIN B.V.][200746;NL;CLDIN-MCI CLDIN B.V.][200549;NL;CLDIN-OOB-ES CLDIN B.V.][48635;NL;CLDIN-NL CLDIN B.V.][43345;NL;CLDIN-BE CLDIN B.V.][35744;NL;CLDIN-DNS CLDIN B.V.][29290;NL;CLDIN-OOB-NL CLDIN B.V.]
 ripencc,ipv6,2a05:16c0::,29,allocated,[201644;NL;BW_AS01 Brabant Water N.V]
@@ -5410,7 +5410,7 @@ ripencc,ipv6,2a05:b8c0::,29,allocated,[203815;NL;NL-Exa-AS Robert Gerrit Johanne
 ripencc,ipv6,2a05:ba00::,32,allocated,[207595;NL;Hestronic Hestronic BV]
 ripencc,ipv6,2a05:c080::,29,allocated,*
 ripencc,ipv6,2a05:c4c0::,29,allocated,[202916;NL;IPS Savvii B.V.][200831;NL;MIHOSNET Savvii B.V.]
-ripencc,ipv6,2a05:cb80::,29,allocated,[59791;NL;LINQHOST LinQhost B.V.]
+ripencc,ipv6,2a05:cb80::,29,allocated,*
 ripencc,ipv6,2a05:ccc0::,29,allocated,[209288;NL;Transit020 Services2xs b.v.][204727;NL;SIS-Networks Services2xs b.v.]
 ripencc,ipv6,2a05:cd80::,29,allocated,*
 ripencc,ipv6,2a05:cfc0::,29,allocated,[201269;NL;CLDIN-RESERVED Your hosting B.V.]
@@ -7800,6 +7800,7 @@ ripencc,ipv6,2001:67c:e34::,48,assigned,[215321;NL;CENTRALCITY-ASN Central City 
 ripencc,ipv6,2001:67c:e3c::,48,assigned,[215296;NL;RAOULBROUNS Raoul Brouns]
 ripencc,ipv6,2001:67c:e5c::,48,assigned,[215131;NL;AS215131 Bram van de Burgt]
 ripencc,ipv6,2001:67c:e60::,48,assigned,[215125;NL;Cyberology-AS Church of Cyberology]
+ripencc,ipv6,2001:67c:e6c::,48,assigned,[210004;NL;SIDN-ANYCAST2 Stichting Internet Domeinregistratie Nederland][48283;NL;SIDN-ANYCAST Stichting Internet Domeinregistratie Nederland][1140;NL;SIDN Stichting Internet Domeinregistratie Nederland]
 ripencc,ipv6,2001:7f8:100::,48,assigned,[212789;NL;MOTP Bart Vrancken trading as MLaB][60355;NL;MOSSIX-AMS Bart Vrancken trading as MLaB][59760;NL;MOSSIX-DUS Bart Vrancken trading as MLaB][49790;NL;MOSSIX-FRA Bart Vrancken trading as MLaB][41047;NL;NL-MLAB Bart Vrancken trading as MLaB]
 ripencc,ipv6,2001:7f8:104::,48,assigned,[39704;NL;CJ2-AS CJ2 Hosting B.V.]
 ripencc,ipv6,2001:7f8:10f::,48,assigned,[56393;NL;FRYS-IX Arend Brouwer][51517;NL;AS-ORANJEKOEK Arend Brouwer][44854;NL;ERITAP-AS Arend Brouwer]
