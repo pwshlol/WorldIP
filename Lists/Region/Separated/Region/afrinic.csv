@@ -3497,7 +3497,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.208.0.0,16,available,*
 *,ipv4,102.209.0.0,18,available,*
 *,ipv4,102.209.64.0,21,available,*
-*,ipv4,102.209.72.0,22,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,102.209.236.0,24,available,*
@@ -6105,7 +6104,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fc:e200::,39,available,*
 *,ipv6,2001:43fc:e400::,38,available,*
 *,ipv6,2001:43fc:e800::,37,available,*
-*,ipv6,2001:43fc:f000::,36,available,*
+*,ipv6,2001:43fc:f001::,48,available,*
+*,ipv6,2001:43fc:f002::,47,available,*
+*,ipv6,2001:43fc:f004::,46,available,*
+*,ipv6,2001:43fc:f008::,45,available,*
+*,ipv6,2001:43fc:f010::,44,available,*
+*,ipv6,2001:43fc:f020::,43,available,*
+*,ipv6,2001:43fc:f040::,42,available,*
+*,ipv6,2001:43fc:f080::,41,available,*
+*,ipv6,2001:43fc:f100::,40,available,*
+*,ipv6,2001:43fc:f200::,39,available,*
+*,ipv6,2001:43fc:f400::,38,available,*
+*,ipv6,2001:43fc:f800::,37,available,*
 *,ipv6,2001:43fd:1001::,48,available,*
 *,ipv6,2001:43fd:1002::,47,available,*
 *,ipv6,2001:43fd:1004::,46,available,*
@@ -10989,6 +10999,7 @@ CD,ipv6,2001:43f8:3c1::,48,assigned,[328796;CD;GOMIX-MGT][328452;CD;ISPA-RDC-LUB
 CD,ipv6,2001:43f8:1460::,48,assigned,[328601;CD;Compagnie-Financiere-du-Congo-AS]
 CD,ipv6,2001:43ff:6000::,48,assigned,[328442;CD;UNITED-SA][37799;CD;ACIX-Peering]
 CF,ipv4,196.216.160.0,24,assigned,*
+CG,ipv4,102.209.72.0,22,assigned,
 CG,ipv4,196.43.240.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv4,196.49.56.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv4,196.49.60.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
@@ -10998,6 +11009,7 @@ CG,ipv6,2001:43f8:6a0::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;C
 CG,ipv6,2001:43f8:6a1::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv6,2001:43f8:6a2::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv6,2001:43f8:6a3::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
+CG,ipv6,2001:43fc:f000::,48,assigned,
 CI,ipv4,102.135.191.0,24,assigned,[328355;CI;DGI-AS]
 CI,ipv4,102.216.100.0,22,assigned,[329037;CI;BBGC1-AS]
 CI,ipv4,102.221.152.0,24,assigned,[328809;CI;EDIATTAH-AS]
