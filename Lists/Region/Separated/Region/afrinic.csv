@@ -3496,7 +3496,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,16,available,*
 *,ipv4,102.209.0.0,18,available,*
-*,ipv4,102.209.64.0,21,available,*
+*,ipv4,102.209.64.0,22,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,102.209.236.0,24,available,*
@@ -5675,7 +5675,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7408::,29,available,*
 *,ipv6,2c0f:7410::,28,available,*
 *,ipv6,2c0f:7420::,27,available,*
-*,ipv6,2c0f:7440::,26,available,*
+*,ipv6,2c0f:7441::,32,available,*
+*,ipv6,2c0f:7442::,31,available,*
+*,ipv6,2c0f:7444::,30,available,*
+*,ipv6,2c0f:7448::,29,available,*
+*,ipv6,2c0f:7450::,28,available,*
+*,ipv6,2c0f:7460::,27,available,*
 *,ipv6,2c0f:7480::,32,available,*
 *,ipv6,2c0f:7481::,32,available,*
 *,ipv6,2c0f:7482::,31,available,*
@@ -7642,6 +7647,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.209.68.0,22,allocated,
 KE,ipv4,102.209.76.0,22,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
 KE,ipv4,102.209.90.0,23,allocated,[329421;KE;Localtel-Communications-Limited]
 KE,ipv4,102.209.100.0,22,allocated,[329417;KE;HOME-CONNECT-NETWORKS-LIMITED]
@@ -7849,6 +7855,7 @@ KE,ipv6,2c0f:6c80::,32,allocated,[329029;KE;MyManga-AS]
 KE,ipv6,2c0f:6f40::,32,allocated,[329409;KE;JIJI_FIBER_LTD]
 KE,ipv6,2c0f:7200::,32,allocated,[37219;KE;ICTA-]
 KE,ipv6,2c0f:7340::,32,allocated,[329421;KE;Localtel-Communications-Limited]
+KE,ipv6,2c0f:7440::,32,allocated,
 KE,ipv6,2c0f:7880::,32,allocated,[329135;KE;Unicast-technology]
 KE,ipv6,2c0f:7a00::,32,allocated,*
 KE,ipv6,2c0f:7d80::,32,allocated,[328302;KE;Cloudone-AS]
@@ -9100,7 +9107,7 @@ TZ,ipv4,41.223.180.0,22,allocated,[37576;TZ;ZeeASN]
 TZ,ipv4,41.223.228.0,22,allocated,[37013;TZ;Satcom-AS]
 TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
-TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Maas-Computers-and-Networks-AS]
+TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Flashnet-Technologies-Limited]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
 TZ,ipv4,102.209.92.0,22,allocated,*
 TZ,ipv4,102.209.132.0,22,allocated,*
@@ -9143,7 +9150,7 @@ TZ,ipv4,102.220.184.0,22,allocated,[328805;TZ;ZAPTECH-AS]
 TZ,ipv4,102.221.20.0,22,allocated,*
 TZ,ipv4,102.222.84.0,22,allocated,*
 TZ,ipv4,102.223.8.0,22,allocated,[327795;TZ;Tanzania-e-Government-Agency]
-TZ,ipv4,102.223.16.0,22,allocated,[328436;TZ;Maas-Computers-and-Networks-AS]
+TZ,ipv4,102.223.16.0,22,allocated,[328436;TZ;Flashnet-Technologies-Limited]
 TZ,ipv4,154.0.152.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,154.66.224.0,22,allocated,[327714;TZ;ComNet-]
 TZ,ipv4,154.72.20.0,22,allocated,[327728;TZ;CTV]
@@ -9198,7 +9205,7 @@ TZ,ipv6,2c0f:5c00::,32,allocated,[328805;TZ;ZAPTECH-AS]
 TZ,ipv6,2c0f:6600::,32,allocated,[328849;TZ;Nexusnet-AS]
 TZ,ipv6,2c0f:7040::,32,allocated,[329413;TZ;Kasi-Networks]
 TZ,ipv6,2c0f:e958::,32,allocated,*
-TZ,ipv6,2c0f:ebf8::,32,allocated,[328436;TZ;Maas-Computers-and-Networks-AS]
+TZ,ipv6,2c0f:ebf8::,32,allocated,[328436;TZ;Flashnet-Technologies-Limited]
 TZ,ipv6,2c0f:ef00::,32,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
 TZ,ipv6,2c0f:efe8::,32,allocated,[327795;TZ;Tanzania-e-Government-Agency]
 TZ,ipv6,2c0f:eff0::,32,allocated,[327859;TZ;Capital-Technologies]
