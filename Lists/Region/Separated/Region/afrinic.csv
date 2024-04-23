@@ -165,6 +165,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.215.156.0,22,reserved,*
 *,ipv4,102.215.172.0,22,reserved,*
 *,ipv4,102.215.216.0,23,reserved,*
+*,ipv4,102.215.232.0,22,reserved,*
 *,ipv4,102.216.88.0,22,reserved,*
 *,ipv4,102.216.164.0,22,reserved,*
 *,ipv4,102.217.60.0,22,reserved,*
@@ -7580,7 +7581,6 @@ GQ,ipv4,41.79.48.0,22,allocated,[37337;GQ;MUNI-EG]
 GQ,ipv4,41.222.112.0,21,allocated,[37173;ZA;GETESA]
 GQ,ipv4,102.164.248.0,21,allocated,[328311;GQ;Conexxia-AS]
 GQ,ipv4,102.213.52.0,23,allocated,*
-GQ,ipv4,102.215.232.0,22,allocated,[329060;GQ;GEDC1-AS]
 GQ,ipv4,102.223.24.0,22,allocated,[37337;GQ;MUNI-EG]
 GQ,ipv4,105.235.224.0,20,allocated,[37487;GQ;GUINEANET]
 GQ,ipv4,164.160.84.0,22,allocated,[329219;GQ;Fenix-EG]
@@ -7647,7 +7647,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
-KE,ipv4,102.209.68.0,22,allocated,
+KE,ipv4,102.209.68.0,22,allocated,[329424;KE;HTL8]
 KE,ipv4,102.209.76.0,22,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
 KE,ipv4,102.209.90.0,23,allocated,[329421;KE;Localtel-Communications-Limited]
 KE,ipv4,102.209.100.0,22,allocated,[329417;KE;HOME-CONNECT-NETWORKS-LIMITED]
@@ -7855,7 +7855,7 @@ KE,ipv6,2c0f:6c80::,32,allocated,[329029;KE;MyManga-AS]
 KE,ipv6,2c0f:6f40::,32,allocated,[329409;KE;JIJI_FIBER_LTD]
 KE,ipv6,2c0f:7200::,32,allocated,[37219;KE;ICTA-]
 KE,ipv6,2c0f:7340::,32,allocated,[329421;KE;Localtel-Communications-Limited]
-KE,ipv6,2c0f:7440::,32,allocated,
+KE,ipv6,2c0f:7440::,32,allocated,[329424;KE;HTL8]
 KE,ipv6,2c0f:7880::,32,allocated,[329135;KE;Unicast-technology]
 KE,ipv6,2c0f:7a00::,32,allocated,*
 KE,ipv6,2c0f:7d80::,32,allocated,[328302;KE;Cloudone-AS]
@@ -11006,7 +11006,7 @@ CD,ipv6,2001:43f8:3c1::,48,assigned,[328796;CD;GOMIX-MGT][328452;CD;ISPA-RDC-LUB
 CD,ipv6,2001:43f8:1460::,48,assigned,[328601;CD;Compagnie-Financiere-du-Congo-AS]
 CD,ipv6,2001:43ff:6000::,48,assigned,[328442;CD;UNITED-SA][37799;CD;ACIX-Peering]
 CF,ipv4,196.216.160.0,24,assigned,*
-CG,ipv4,102.209.72.0,22,assigned,
+CG,ipv4,102.209.72.0,22,assigned,[329423;CG;CIRAS]
 CG,ipv4,196.43.240.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv4,196.49.56.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv4,196.49.60.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
@@ -11016,7 +11016,7 @@ CG,ipv6,2001:43f8:6a0::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;C
 CG,ipv6,2001:43f8:6a1::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv6,2001:43f8:6a2::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv6,2001:43f8:6a3::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
-CG,ipv6,2001:43fc:f000::,48,assigned,
+CG,ipv6,2001:43fc:f000::,48,assigned,[329423;CG;CIRAS]
 CI,ipv4,102.135.191.0,24,assigned,[328355;CI;DGI-AS]
 CI,ipv4,102.216.100.0,22,assigned,[329037;CI;BBGC1-AS]
 CI,ipv4,102.221.152.0,24,assigned,[328809;CI;EDIATTAH-AS]
