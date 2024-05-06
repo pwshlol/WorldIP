@@ -1,6 +1,6 @@
 # WorldIP
 
-Last update: 2024/05/05 01:13:42 (UTC)
+Last update: 2024/05/06 01:12:04 (UTC)
 
 238 Countries in 5 regions
 
@@ -23,21 +23,21 @@ Last update: 2024/05/05 01:13:42 (UTC)
 
 ## Regions Reserved CIDR
 
-- global : 148232 Total | 6088 IPV4 | 142144 IPV6
+- global : 148231 Total | 6088 IPV4 | 142143 IPV6
 - afrinic : 3497 Total | 511 IPV4 | 2986 IPV6
 - apnic : 3135 Total | 2725 IPV4 | 410 IPV6
 - arin : 43215 Total | 2177 IPV4 | 41038 IPV6
 - lacnic : 15315 Total | 484 IPV4 | 14831 IPV6
-- ripencc : 83070 Total | 191 IPV4 | 82879 IPV6
+- ripencc : 83069 Total | 191 IPV4 | 82878 IPV6
 
 ## Regions Available CIDR
 
-- global : 145148 Total | 829 IPV4 | 144319 IPV6
+- global : 145149 Total | 829 IPV4 | 144320 IPV6
 - afrinic : 3050 Total | 8 IPV4 | 3042 IPV6
 - apnic : 86737 Total | 804 IPV4 | 85933 IPV6
 - arin : 27633 Total | 8 IPV4 | 27625 IPV6
 - lacnic : 27291 Total | 2 IPV4 | 27289 IPV6
-- ripencc : 437 Total | 7 IPV4 | 430 IPV6
+- ripencc : 438 Total | 7 IPV4 | 431 IPV6
 
 ## Country Allocated CIDR
 
