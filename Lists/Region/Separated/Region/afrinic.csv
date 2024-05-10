@@ -3499,7 +3499,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,16,available,*
 *,ipv4,102.209.0.0,19,available,*
-*,ipv4,102.209.32.0,20,available,*
+*,ipv4,102.209.32.0,21,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
@@ -5702,7 +5702,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7508::,29,available,*
 *,ipv6,2c0f:7510::,28,available,*
 *,ipv6,2c0f:7520::,27,available,*
-*,ipv6,2c0f:7540::,26,available,*
+*,ipv6,2c0f:7541::,32,available,*
+*,ipv6,2c0f:7542::,31,available,*
+*,ipv6,2c0f:7544::,30,available,*
+*,ipv6,2c0f:7548::,29,available,*
+*,ipv6,2c0f:7550::,28,available,*
+*,ipv6,2c0f:7560::,27,available,*
 *,ipv6,2c0f:7581::,32,available,*
 *,ipv6,2c0f:7582::,31,available,*
 *,ipv6,2c0f:7584::,30,available,*
@@ -6863,7 +6868,7 @@ CD,ipv4,102.213.196.0,22,allocated,[37638;CD;Orioncom]
 CD,ipv4,102.216.240.0,22,allocated,[328442;CD;UNITED-SA][37799;CD;ACIX-Peering]
 CD,ipv4,102.217.16.0,22,allocated,[328344;CD;STETechplus-AS]
 CD,ipv4,102.217.140.0,22,allocated,[328981;CD;Signal-HD]
-CD,ipv4,102.220.56.0,22,allocated,*
+CD,ipv4,102.220.56.0,22,allocated,
 CD,ipv4,102.221.96.0,23,allocated,*
 CD,ipv4,102.222.228.0,22,allocated,[37638;CD;Orioncom]
 CD,ipv4,102.223.128.0,22,allocated,[37483;CD;Congo-Chine][37447;CD;ORANGE-RDC]
@@ -6888,7 +6893,7 @@ CD,ipv4,197.157.208.0,22,allocated,[37483;CD;Congo-Chine][37447;CD;ORANGE-RDC]
 CD,ipv4,197.189.0.0,17,allocated,[37598;CD;Ebale]
 CD,ipv4,197.215.220.0,22,allocated,[327870;CD;GBS-DRC]
 CD,ipv4,197.231.252.0,22,allocated,[327797;CD;COWS][37571;CD;ITM-DRC]
-CD,ipv6,2c0f:e00::,28,allocated,*
+CD,ipv6,2c0f:e00::,28,allocated,
 CD,ipv6,2c0f:4400::,32,allocated,[37020;CD;CELTEL-DRC]
 CD,ipv6,2c0f:6340::,32,allocated,[329362;CD;Ministere-du-Numerique]
 CD,ipv6,2c0f:6580::,32,allocated,[37414;CD;Microcom-Sprl]
@@ -8003,6 +8008,7 @@ LY,ipv6,2c0f:3200::,32,allocated,[328615;LY;LITC2][37795;LY;LYB-IX][37791;LY;LIT
 LY,ipv6,2c0f:6a40::,32,allocated,[329079;LY;Alriyada]
 LY,ipv6,2c0f:6d80::,32,allocated,[328073;LY;Ion-Telecom-AS]
 LY,ipv6,2c0f:6e40::,32,allocated,[329405;LY;Libyan-United-International-Telecommunication]
+LY,ipv6,2c0f:7540::,32,allocated,[328539;LY;Giga-Communication]
 LY,ipv6,2c0f:7980::,32,allocated,[37284;LY;Aljeel-net]
 LY,ipv6,2c0f:ed18::,32,allocated,[328200;LY;Al-Madar-Al-Jadeed]
 LY,ipv6,2c0f:f518::,32,allocated,[329129;LY;LNETLICT]
@@ -8485,6 +8491,7 @@ NG,ipv4,102.165.124.0,22,allocated,[37521;NG;Internet-Solutions-]
 NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
+NG,ipv4,102.209.44.0,22,allocated,[328668;NG;Nkponani-AS]
 NG,ipv4,102.210.60.0,22,allocated,[329385;NG;Koncept-Digital]
 NG,ipv4,102.210.168.0,24,allocated,[329365;NG;E-Lapariah-Technologies]
 NG,ipv4,102.210.192.0,24,allocated,[329361;NG;Nisi-Technologies]
@@ -9649,6 +9656,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.209.40.0,22,allocated,[328910;ZA;Devboks-AS]
 ZA,ipv4,102.209.48.0,22,allocated,[328745;ZA;Urban-Wave-Internet-Solutions]
 ZA,ipv4,102.209.84.0,22,allocated,[328723;ZA;Telasera-Technologies]
 ZA,ipv4,102.209.116.0,22,allocated,[329184;ZA;Host-Africa-AS2][328364;ZA;Host-Africa-AS]
