@@ -502,6 +502,7 @@ afrinic,ipv4,197.220.160.0,19
 afrinic,ipv4,197.220.192.0,18
 afrinic,ipv4,197.231.136.0,21
 afrinic,ipv4,197.231.208.0,22
+afrinic,ipv4,197.231.248.0,22
 afrinic,ipv4,197.234.208.0,21
 afrinic,ipv4,197.255.248.0,22
 afrinic,ipv4,212.12.224.0,19
@@ -1542,9 +1543,7 @@ afrinic,ipv6,2c0f:f189::,32
 afrinic,ipv6,2c0f:f18a::,31
 afrinic,ipv6,2c0f:f18c::,30
 afrinic,ipv6,2c0f:f190::,29
-afrinic,ipv6,2c0f:f199::,32
-afrinic,ipv6,2c0f:f19a::,31
-afrinic,ipv6,2c0f:f19c::,30
+afrinic,ipv6,2c0f:f198::,29
 afrinic,ipv6,2c0f:f1a1::,32
 afrinic,ipv6,2c0f:f1a2::,31
 afrinic,ipv6,2c0f:f1a4::,30
@@ -8117,9 +8116,12 @@ arin,ipv4,23.178.65.0,21
 arin,ipv4,23.178.73.0,21
 arin,ipv4,23.178.81.0,21
 arin,ipv4,23.178.89.0,21
-arin,ipv4,23.178.97.0,20
-arin,ipv4,23.178.113.0,20
-arin,ipv4,23.178.129.0,20
+arin,ipv4,23.178.97.0,21
+arin,ipv4,23.178.105.0,21
+arin,ipv4,23.178.113.0,21
+arin,ipv4,23.178.121.0,21
+arin,ipv4,23.178.129.0,21
+arin,ipv4,23.178.137.0,21
 arin,ipv4,23.178.145.0,20
 arin,ipv4,23.178.161.0,20
 arin,ipv4,23.178.179.0,19
@@ -8675,7 +8677,6 @@ arin,ipv4,204.153.219.0,24
 arin,ipv4,204.174.47.0,24
 arin,ipv4,204.187.11.0,24
 arin,ipv4,204.187.129.0,24
-arin,ipv4,204.194.207.0,24
 arin,ipv4,204.209.52.0,22
 arin,ipv4,204.225.107.0,24
 arin,ipv4,205.142.128.0,22
@@ -8915,8 +8916,8 @@ arin,ipv6,2620:1:4::,46
 arin,ipv6,2620:15::,48
 arin,ipv6,2620:1:8::,45
 arin,ipv6,2620:1f::,48
-arin,ipv6,2620:2:1::,48
 arin,ipv6,2620:21::,48
+arin,ipv6,2620:2:1::,48
 arin,ipv6,2620:2:2::,47
 arin,ipv6,2620:2:4::,46
 arin,ipv6,2620:2:8::,45
@@ -8946,7 +8947,6 @@ arin,ipv6,2620:6:4::,46
 arin,ipv6,2620:65::,40
 arin,ipv6,2620:6:8::,45
 arin,ipv6,2620:70::,48
-arin,ipv6,2620:71::,48
 arin,ipv6,2620:7:1::,48
 arin,ipv6,2620:7:2::,47
 arin,ipv6,2620:7:4::,46
@@ -10325,8 +10325,8 @@ arin,ipv6,2620:11d::,44
 arin,ipv6,2620:12:1::,48
 arin,ipv6,2620:12:2::,47
 arin,ipv6,2620:12:4::,46
-arin,ipv6,2620:12:8::,45
 arin,ipv6,2620:128::,44
+arin,ipv6,2620:12:8::,45
 arin,ipv6,2620:13:1::,48
 arin,ipv6,2620:13:2::,47
 arin,ipv6,2620:13:4::,46
@@ -10342,8 +10342,8 @@ arin,ipv6,2620:15:2::,47
 arin,ipv6,2620:15:4::,46
 arin,ipv6,2620:155::,36
 arin,ipv6,2620:15:8::,45
-arin,ipv6,2620:161::,32
 arin,ipv6,2620:16:1::,48
+arin,ipv6,2620:161::,32
 arin,ipv6,2620:16:2::,47
 arin,ipv6,2620:16:4::,46
 arin,ipv6,2620:16:8::,45
@@ -10355,8 +10355,8 @@ arin,ipv6,2620:177::,36
 arin,ipv6,2620:17:8::,45
 arin,ipv6,2620:18:1::,48
 arin,ipv6,2620:18:2::,47
-arin,ipv6,2620:184::,36
 arin,ipv6,2620:18:4::,46
+arin,ipv6,2620:184::,36
 arin,ipv6,2620:18:8::,45
 arin,ipv6,2620:19:1::,48
 arin,ipv6,2620:19:2::,47
@@ -10364,8 +10364,8 @@ arin,ipv6,2620:19:4::,46
 arin,ipv6,2620:19:8::,45
 arin,ipv6,2620:1a:1::,48
 arin,ipv6,2620:1a1::,32
-arin,ipv6,2620:1a:2::,47
 arin,ipv6,2620:1a2::,31
+arin,ipv6,2620:1a:2::,47
 arin,ipv6,2620:1a:4::,46
 arin,ipv6,2620:1a4::,30
 arin,ipv6,2620:1a8::,29
@@ -42931,6 +42931,10 @@ arin,ipv6,2620:1ff:1000::,36
 arin,ipv6,2620:1ff:2000::,35
 arin,ipv6,2620:1ff:4000::,34
 arin,ipv6,2620:1ff:8000::,33
+arin,ipv6,2602:f8eb:1000::,36
+arin,ipv6,2602:f8eb:2000::,35
+arin,ipv6,2602:f8eb:4000::,34
+arin,ipv6,2602:f8eb:8000::,33
 arin,ipv6,2602:f8ec:1000::,36
 arin,ipv6,2602:f8ec:2000::,35
 arin,ipv6,2602:f8ec:4000::,34
@@ -51216,11 +51220,12 @@ lacnic,ipv6,2801:11:8::,45
 lacnic,ipv6,2801:12:1::,48
 lacnic,ipv6,2801:12:2::,47
 lacnic,ipv6,2801:12:4::,46
-lacnic,ipv6,2801:128::,36
 lacnic,ipv6,2801:12:8::,45
+lacnic,ipv6,2801:128::,36
 lacnic,ipv6,2801:13:1::,48
 lacnic,ipv6,2801:13:2::,47
 lacnic,ipv6,2801:13:4::,46
+lacnic,ipv6,2801:136::,44
 lacnic,ipv6,2801:13:8::,45
 lacnic,ipv6,2801:14:1::,48
 lacnic,ipv6,2801:14:2::,47
@@ -52939,6 +52944,7 @@ lacnic,ipv6,2803:1e81::,32
 lacnic,ipv6,2803:1e82::,31
 lacnic,ipv6,2803:1e84::,30
 lacnic,ipv6,2803:1e88::,29
+lacnic,ipv6,2803:1e90::,32
 lacnic,ipv6,2803:1e91::,32
 lacnic,ipv6,2803:1e92::,31
 lacnic,ipv6,2803:1e94::,30
@@ -56959,6 +56965,7 @@ lacnic,ipv6,2803:7e81::,32
 lacnic,ipv6,2803:7e82::,31
 lacnic,ipv6,2803:7e84::,30
 lacnic,ipv6,2803:7e88::,29
+lacnic,ipv6,2803:7e90::,32
 lacnic,ipv6,2803:7e91::,32
 lacnic,ipv6,2803:7e92::,31
 lacnic,ipv6,2803:7e94::,30
@@ -61756,6 +61763,10 @@ lacnic,ipv6,2803:f141::,32
 lacnic,ipv6,2803:f142::,31
 lacnic,ipv6,2803:f144::,30
 lacnic,ipv6,2803:f148::,29
+lacnic,ipv6,2803:f151::,32
+lacnic,ipv6,2803:f152::,31
+lacnic,ipv6,2803:f154::,30
+lacnic,ipv6,2803:f158::,29
 lacnic,ipv6,2803:f161::,32
 lacnic,ipv6,2803:f162::,31
 lacnic,ipv6,2803:f164::,30
@@ -63159,8 +63170,8 @@ lacnic,ipv6,2801:11e:10::,44
 lacnic,ipv6,2801:11e:20::,43
 lacnic,ipv6,2801:11e:40::,42
 lacnic,ipv6,2801:11e:80::,41
-lacnic,ipv6,2801:12:110::,44
 lacnic,ipv6,2801:121:10::,44
+lacnic,ipv6,2801:12:110::,44
 lacnic,ipv6,2801:121:20::,43
 lacnic,ipv6,2801:12:120::,43
 lacnic,ipv6,2801:12:140::,42
