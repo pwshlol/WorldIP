@@ -64,7 +64,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,41.202.0.0,19,reserved,*
 *,ipv4,41.202.128.0,19,reserved,*
 *,ipv4,41.204.224.0,19,reserved,*
-*,ipv4,41.205.0.0,19,reserved,*
 *,ipv4,41.205.224.0,19,reserved,*
 *,ipv4,41.207.228.0,22,reserved,*
 *,ipv4,41.209.192.0,18,reserved,*
@@ -218,7 +217,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,105.179.32.0,19,reserved,*
 *,ipv4,105.179.64.0,18,reserved,*
 *,ipv4,105.179.128.0,17,reserved,*
-*,ipv4,129.0.0.0,16,reserved,*
 *,ipv4,129.205.80.0,20,reserved,*
 *,ipv4,137.171.0.0,16,reserved,*
 *,ipv4,154.0.64.0,18,reserved,*
@@ -228,7 +226,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,154.66.100.0,22,reserved,*
 *,ipv4,154.66.232.0,21,reserved,*
 *,ipv4,154.70.64.0,20,reserved,*
-*,ipv4,154.70.96.0,19,reserved,*
 *,ipv4,154.70.156.0,22,reserved,*
 *,ipv4,154.70.196.0,22,reserved,*
 *,ipv4,154.72.28.0,22,reserved,*
@@ -481,7 +478,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.192.192.0,18,reserved,*
 *,ipv4,196.193.0.0,16,reserved,*
 *,ipv4,196.194.0.0,15,reserved,*
-*,ipv4,196.202.224.0,20,reserved,*
+*,ipv4,196.202.224.0,21,reserved,*
 *,ipv4,196.207.64.0,18,reserved,*
 *,ipv4,196.216.0.0,24,reserved,*
 *,ipv4,196.216.16.0,21,reserved,*
@@ -1950,7 +1947,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:f659::,32,reserved,*
 *,ipv6,2c0f:f65a::,31,reserved,*
 *,ipv6,2c0f:f65c::,30,reserved,*
-*,ipv6,2c0f:f660::,29,reserved,*
+*,ipv6,2c0f:f661::,32,reserved,*
+*,ipv6,2c0f:f662::,31,reserved,*
+*,ipv6,2c0f:f664::,30,reserved,*
 *,ipv6,2c0f:f669::,32,reserved,*
 *,ipv6,2c0f:f66a::,31,reserved,*
 *,ipv6,2c0f:f66c::,30,reserved,*
@@ -3496,7 +3495,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,16,available,*
-*,ipv4,102.209.18.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
@@ -4592,7 +4590,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3808::,29,available,*
 *,ipv6,2c0f:3810::,28,available,*
 *,ipv6,2c0f:3820::,27,available,*
-*,ipv6,2c0f:3840::,26,available,*
+*,ipv6,2c0f:3841::,32,available,*
+*,ipv6,2c0f:3842::,31,available,*
+*,ipv6,2c0f:3844::,30,available,*
+*,ipv6,2c0f:3848::,29,available,*
+*,ipv6,2c0f:3850::,28,available,*
+*,ipv6,2c0f:3860::,27,available,*
 *,ipv6,2c0f:3881::,32,available,*
 *,ipv6,2c0f:3882::,31,available,*
 *,ipv6,2c0f:3884::,30,available,*
@@ -7196,6 +7199,7 @@ CM,ipv4,41.190.224.0,22,allocated,[328866;CM;NEWTELNET]
 CM,ipv4,41.191.100.0,22,allocated,[37089;CM;ALINK-CM-AS]
 CM,ipv4,41.202.192.0,19,allocated,[36912;CM;ORANGE]
 CM,ipv4,41.204.64.0,19,allocated,[15964;CM;CAMNET-AS]
+CM,ipv4,41.205.0.0,19,allocated,[30992;ZZ;-Reserved AS-]
 CM,ipv4,41.205.64.0,19,allocated,[36905;CM;Creolink]
 CM,ipv4,41.211.96.0,19,allocated,[36955;CM;Matrix-ASN1]
 CM,ipv4,41.216.232.0,22,allocated,[37672;CM;INQ-DIGITAL-CAMEROON]
@@ -7212,6 +7216,8 @@ CM,ipv4,102.219.44.0,22,allocated,*
 CM,ipv4,102.219.68.0,22,allocated,[328920;CM;ADCS-AS]
 CM,ipv4,102.220.16.0,22,allocated,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][328840;CM;ST-Digital-AS][37790;CM;DoualaIXPeering]
 CM,ipv4,102.244.0.0,14,allocated,[36912;CM;ORANGE]
+CM,ipv4,129.0.0.0,16,allocated,[30992;ZZ;-Reserved AS-]
+CM,ipv4,154.70.96.0,19,allocated,[30992;ZZ;-Reserved AS-]
 CM,ipv4,154.72.128.0,18,allocated,[15964;CM;CAMNET-AS]
 CM,ipv4,154.126.128.0,19,allocated,[328909;CM;ANTIC]
 CM,ipv4,154.126.160.0,19,allocated,[36905;CM;Creolink]
@@ -7219,6 +7225,7 @@ CM,ipv4,165.210.0.0,15,allocated,[15964;CM;CAMNET-AS]
 CM,ipv4,169.239.40.0,22,allocated,[328481;CM;AVS-Telecom][327920;CM;AVS-TELECOM-SARL]
 CM,ipv4,169.255.4.0,22,allocated,[327820;CM;SWECOM]
 CM,ipv4,195.24.192.0,19,allocated,[15964;CM;CAMNET-AS]
+CM,ipv4,196.202.232.0,21,allocated,[30992;ZZ;-Reserved AS-]
 CM,ipv4,197.159.0.0,19,allocated,[15964;CM;CAMNET-AS]
 CM,ipv6,2001:4268::,32,allocated,[15964;CM;CAMNET-AS]
 CM,ipv6,2c0f:3100::,32,allocated,[328920;CM;ADCS-AS]
@@ -7228,6 +7235,7 @@ CM,ipv6,2c0f:5900::,32,allocated,*
 CM,ipv6,2c0f:f070::,32,allocated,[36912;CM;ORANGE]
 CM,ipv6,2c0f:f3d8::,32,allocated,[327741;CM;INFOGENIE-AS]
 CM,ipv6,2c0f:f4d8::,32,allocated,[328481;CM;AVS-Telecom][327920;CM;AVS-TELECOM-SARL]
+CM,ipv6,2c0f:f660::,32,allocated,[30992;ZZ;-Reserved AS-]
 CM,ipv6,2c0f:f6c8::,32,allocated,[328909;CM;ANTIC]
 CM,ipv6,2c0f:f7d0::,32,allocated,[36955;CM;Matrix-ASN1]
 CM,ipv6,2c0f:fad8::,32,allocated,[327780;KE;Intersat-2014][37019;KE;IAL]
@@ -7670,6 +7678,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.209.18.0,24,allocated,
 KE,ipv4,102.209.56.0,22,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv4,102.209.68.0,22,allocated,[329424;KE;HTL8]
 KE,ipv4,102.209.76.0,22,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
@@ -7857,6 +7866,7 @@ KE,ipv6,2c0f:3280::,32,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv6,2c0f:3300::,32,allocated,[328989;KE;SMARTCLOUD]
 KE,ipv6,2c0f:3340::,32,allocated,[329419;KE;IX-AFRICA-DATA-CENTRE]
 KE,ipv6,2c0f:3440::,32,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
+KE,ipv6,2c0f:3840::,32,allocated,
 KE,ipv6,2c0f:3980::,32,allocated,[329211;KE;Novia-East-Africa-AS]
 KE,ipv6,2c0f:3a00::,32,allocated,[328835;KE;Easy-BroadBand]
 KE,ipv6,2c0f:3b00::,32,allocated,[328993;KE;Click-Fiber-AS]
