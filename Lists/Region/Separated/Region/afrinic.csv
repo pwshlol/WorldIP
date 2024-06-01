@@ -3498,7 +3498,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:4000::,34,reserved,*
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
-*,ipv4,102.208.0.0,16,available,*
+*,ipv4,102.208.0.0,17,available,*
+*,ipv4,102.208.128.0,18,available,*
+*,ipv4,102.208.192.0,19,available,*
+*,ipv4,102.208.224.0,20,available,*
+*,ipv4,102.208.240.0,21,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
@@ -7215,7 +7219,7 @@ CM,ipv4,41.190.224.0,22,allocated,[328866;CM;NEWTELNET]
 CM,ipv4,41.191.100.0,22,allocated,[37089;CM;ALINK-CM-AS]
 CM,ipv4,41.202.192.0,19,allocated,[36912;CM;ORANGE]
 CM,ipv4,41.204.64.0,19,allocated,[15964;CM;CAMNET-AS]
-CM,ipv4,41.205.0.0,19,allocated,[30992;ZZ;MTN-NS-CAMEROON]
+CM,ipv4,41.205.0.0,19,allocated,[30992;CM;MTN-NS-CAMEROON]
 CM,ipv4,41.205.64.0,19,allocated,[36905;CM;Creolink]
 CM,ipv4,41.211.96.0,19,allocated,[36955;CM;Matrix-ASN1]
 CM,ipv4,41.216.232.0,22,allocated,[37672;CM;INQ-DIGITAL-CAMEROON]
@@ -7232,8 +7236,8 @@ CM,ipv4,102.219.44.0,22,allocated,*
 CM,ipv4,102.219.68.0,22,allocated,[328920;CM;ADCS-AS]
 CM,ipv4,102.220.16.0,22,allocated,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][328840;CM;ST-Digital-AS][37790;CM;DoualaIXPeering]
 CM,ipv4,102.244.0.0,14,allocated,[36912;CM;ORANGE]
-CM,ipv4,129.0.0.0,16,allocated,[30992;ZZ;MTN-NS-CAMEROON]
-CM,ipv4,154.70.96.0,19,allocated,[30992;ZZ;MTN-NS-CAMEROON]
+CM,ipv4,129.0.0.0,16,allocated,[30992;CM;MTN-NS-CAMEROON]
+CM,ipv4,154.70.96.0,19,allocated,[30992;CM;MTN-NS-CAMEROON]
 CM,ipv4,154.72.128.0,18,allocated,[15964;CM;CAMNET-AS]
 CM,ipv4,154.126.128.0,19,allocated,[328909;CM;ANTIC]
 CM,ipv4,154.126.160.0,19,allocated,[36905;CM;Creolink]
@@ -7241,7 +7245,7 @@ CM,ipv4,165.210.0.0,15,allocated,[15964;CM;CAMNET-AS]
 CM,ipv4,169.239.40.0,22,allocated,[328481;CM;AVS-Telecom][327920;CM;AVS-TELECOM-SARL]
 CM,ipv4,169.255.4.0,22,allocated,[327820;CM;SWECOM]
 CM,ipv4,195.24.192.0,19,allocated,[15964;CM;CAMNET-AS]
-CM,ipv4,196.202.232.0,21,allocated,[30992;ZZ;MTN-NS-CAMEROON]
+CM,ipv4,196.202.232.0,21,allocated,[30992;CM;MTN-NS-CAMEROON]
 CM,ipv4,197.159.0.0,19,allocated,[15964;CM;CAMNET-AS]
 CM,ipv6,2001:4268::,32,allocated,[15964;CM;CAMNET-AS]
 CM,ipv6,2c0f:3100::,32,allocated,[328920;CM;ADCS-AS]
@@ -7251,7 +7255,7 @@ CM,ipv6,2c0f:5900::,32,allocated,*
 CM,ipv6,2c0f:f070::,32,allocated,[36912;CM;ORANGE]
 CM,ipv6,2c0f:f3d8::,32,allocated,[327741;CM;INFOGENIE-AS]
 CM,ipv6,2c0f:f4d8::,32,allocated,[328481;CM;AVS-Telecom][327920;CM;AVS-TELECOM-SARL]
-CM,ipv6,2c0f:f660::,32,allocated,[30992;ZZ;MTN-NS-CAMEROON]
+CM,ipv6,2c0f:f660::,32,allocated,[30992;CM;MTN-NS-CAMEROON]
 CM,ipv6,2c0f:f6c8::,32,allocated,[328909;CM;ANTIC]
 CM,ipv6,2c0f:f7d0::,32,allocated,[36955;CM;Matrix-ASN1]
 CM,ipv6,2c0f:fad8::,32,allocated,[327780;KE;Intersat-2014][37019;KE;IAL]
@@ -7694,7 +7698,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
-KE,ipv4,102.209.18.0,24,allocated,
+KE,ipv4,102.209.18.0,24,allocated,[329437;KE;VENNET-SOLUTIONS-LIMITED]
 KE,ipv4,102.209.56.0,22,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv4,102.209.68.0,22,allocated,[329424;KE;HTL8]
 KE,ipv4,102.209.76.0,22,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
@@ -7882,7 +7886,7 @@ KE,ipv6,2c0f:3280::,32,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv6,2c0f:3300::,32,allocated,[328989;KE;SMARTCLOUD]
 KE,ipv6,2c0f:3340::,32,allocated,[329419;KE;IX-AFRICA-DATA-CENTRE]
 KE,ipv6,2c0f:3440::,32,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
-KE,ipv6,2c0f:3840::,32,allocated,
+KE,ipv6,2c0f:3840::,32,allocated,[329437;KE;VENNET-SOLUTIONS-LIMITED]
 KE,ipv6,2c0f:3980::,32,allocated,[329211;KE;Novia-East-Africa-AS]
 KE,ipv6,2c0f:3a00::,32,allocated,[328835;KE;Easy-BroadBand]
 KE,ipv6,2c0f:3b00::,32,allocated,[328993;KE;Click-Fiber-AS]
@@ -9698,6 +9702,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.208.252.0,22,allocated,
 ZA,ipv4,102.209.8.0,22,allocated,[328631;ZA;BallitoISP]
 ZA,ipv4,102.209.12.0,22,allocated,[329433;ZA;Develop-Net-PTY-LTD]
 ZA,ipv4,102.209.20.0,22,allocated,[329206;ZA;RL5-AS]
@@ -11505,7 +11510,7 @@ MW,ipv4,102.220.250.0,24,assigned,[328811;MW;FCB-AS]
 MW,ipv4,102.223.95.0,24,assigned,[328738;MW;Youth-Net-Counselling]
 MW,ipv4,196.32.208.0,21,assigned,[36944;MW;UBUNTU-UNICAST-AS]
 MW,ipv4,196.49.72.0,24,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
-MW,ipv4,196.60.122.0,24,assigned,[37800;ZZ;-Reserved AS-]
+MW,ipv4,196.60.122.0,24,assigned,[37800;ZZ;Lilongwe-Open-Neutral-Internet-Exchange-Limited]
 MW,ipv4,196.223.27.0,24,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
 MW,ipv6,2001:43f8:20::,48,assigned,[36944;MW;UBUNTU-UNICAST-AS]
 MW,ipv6,2001:43f8:380::,48,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
@@ -11513,7 +11518,7 @@ MW,ipv6,2001:43f8:1130::,48,assigned,[328300;MW;Malawi-Bank-AS]
 MW,ipv6,2001:43f8:13a0::,48,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
 MW,ipv6,2001:43f8:13e0::,48,assigned,[328403;MW;Malawi-Revenue-Authority-AS]
 MW,ipv6,2001:43f8:1640::,48,assigned,[328738;MW;Youth-Net-Counselling]
-MW,ipv6,2001:43f8:1720::,48,assigned,[37800;ZZ;-Reserved AS-]
+MW,ipv6,2001:43f8:1720::,48,assigned,[37800;ZZ;Lilongwe-Open-Neutral-Internet-Exchange-Limited]
 MW,ipv6,2001:43fc:d000::,48,assigned,[329220;MW;Department-of-E-Government]
 MW,ipv6,2001:43fd:1000::,48,assigned,[329260;MW;MCRA1-AS]
 MW,ipv6,2001:43fd:d000::,48,assigned,[329333;MW;National-Oil-Company-of-Malawi]
@@ -11913,6 +11918,7 @@ ZA,ipv4,102.164.240.0,22,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
 ZA,ipv4,102.165.180.0,22,assigned,*
 ZA,ipv4,102.165.188.0,24,assigned,[328174;ZA;HomeFind24]
 ZA,ipv4,102.176.251.0,24,assigned,[328260;ZA;SPORTPESA]
+ZA,ipv4,102.208.248.0,22,assigned,*
 ZA,ipv4,102.210.190.0,23,assigned,*
 ZA,ipv4,102.211.36.0,22,assigned,[329331;ZA;Flash-Mobile-Vending-Pty-Ltd]
 ZA,ipv4,102.211.76.0,22,assigned,[329319;ZA;Discovery-Bank-LTD]
