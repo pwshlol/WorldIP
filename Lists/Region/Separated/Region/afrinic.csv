@@ -3502,7 +3502,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.208.128.0,18,available,*
 *,ipv4,102.208.192.0,19,available,*
 *,ipv4,102.208.224.0,20,available,*
-*,ipv4,102.208.240.0,21,available,*
+*,ipv4,102.208.240.0,22,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
@@ -5777,7 +5777,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7808::,29,available,*
 *,ipv6,2c0f:7810::,28,available,*
 *,ipv6,2c0f:7820::,27,available,*
-*,ipv6,2c0f:7840::,26,available,*
+*,ipv6,2c0f:7841::,32,available,*
+*,ipv6,2c0f:7842::,31,available,*
+*,ipv6,2c0f:7844::,30,available,*
+*,ipv6,2c0f:7848::,29,available,*
+*,ipv6,2c0f:7850::,28,available,*
+*,ipv6,2c0f:7860::,27,available,*
 *,ipv6,2c0f:7881::,32,available,*
 *,ipv6,2c0f:7882::,31,available,*
 *,ipv6,2c0f:7884::,30,available,*
@@ -6755,6 +6760,7 @@ BF,ipv6,2c0f:1a40::,32,allocated,[329041;BF;ANDE1-AS]
 BF,ipv6,2c0f:1c40::,32,allocated,[328627;BF;ATCS-AS]
 BF,ipv6,2c0f:5700::,32,allocated,[328967;BF;PA16-AS]
 BF,ipv6,2c0f:5a40::,32,allocated,[37073;BF;IPP-burkina-as]
+BF,ipv6,2c0f:7840::,32,allocated,[328721;BF;Groupe-Netforce-AS]
 BF,ipv6,2c0f:e948::,32,allocated,[328716;BF;VIPNET-BUKINA-FASO]
 BF,ipv6,2c0f:ea50::,32,allocated,[328534;BF;AFREENET-SA]
 BF,ipv6,2c0f:eb58::,32,allocated,*
@@ -9170,6 +9176,7 @@ TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
 TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Flashnet-Technologies-Limited]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
+TZ,ipv4,102.208.244.0,22,allocated,[327819;TZ;AZAM-MEDIA]
 TZ,ipv4,102.209.36.0,22,allocated,*
 TZ,ipv4,102.209.92.0,22,allocated,*
 TZ,ipv4,102.209.132.0,22,allocated,*
@@ -11510,7 +11517,7 @@ MW,ipv4,102.220.250.0,24,assigned,[328811;MW;FCB-AS]
 MW,ipv4,102.223.95.0,24,assigned,[328738;MW;Youth-Net-Counselling]
 MW,ipv4,196.32.208.0,21,assigned,[36944;MW;UBUNTU-UNICAST-AS]
 MW,ipv4,196.49.72.0,24,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
-MW,ipv4,196.60.122.0,24,assigned,[37800;ZZ;Lilongwe-Open-Neutral-Internet-Exchange-Limited]
+MW,ipv4,196.60.122.0,24,assigned,[37800;MW;Lilongwe-Open-Neutral-Internet-Exchange-Limited]
 MW,ipv4,196.223.27.0,24,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
 MW,ipv6,2001:43f8:20::,48,assigned,[36944;MW;UBUNTU-UNICAST-AS]
 MW,ipv6,2001:43f8:380::,48,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
@@ -11518,7 +11525,7 @@ MW,ipv6,2001:43f8:1130::,48,assigned,[328300;MW;Malawi-Bank-AS]
 MW,ipv6,2001:43f8:13a0::,48,assigned,[328489;MW;MISPA-MGMT-AS][37651;MW;MIX-AS]
 MW,ipv6,2001:43f8:13e0::,48,assigned,[328403;MW;Malawi-Revenue-Authority-AS]
 MW,ipv6,2001:43f8:1640::,48,assigned,[328738;MW;Youth-Net-Counselling]
-MW,ipv6,2001:43f8:1720::,48,assigned,[37800;ZZ;Lilongwe-Open-Neutral-Internet-Exchange-Limited]
+MW,ipv6,2001:43f8:1720::,48,assigned,[37800;MW;Lilongwe-Open-Neutral-Internet-Exchange-Limited]
 MW,ipv6,2001:43fc:d000::,48,assigned,[329220;MW;Department-of-E-Government]
 MW,ipv6,2001:43fd:1000::,48,assigned,[329260;MW;MCRA1-AS]
 MW,ipv6,2001:43fd:d000::,48,assigned,[329333;MW;National-Oil-Company-of-Malawi]
