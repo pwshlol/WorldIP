@@ -3501,8 +3501,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.208.0.0,17,available,*
 *,ipv4,102.208.128.0,18,available,*
 *,ipv4,102.208.192.0,19,available,*
-*,ipv4,102.208.224.0,22,available,*
-*,ipv4,102.208.240.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
@@ -6190,7 +6188,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fd:2200::,39,available,*
 *,ipv6,2001:43fd:2400::,38,available,*
 *,ipv6,2001:43fd:2800::,37,available,*
-*,ipv6,2001:43fd:3000::,36,available,*
+*,ipv6,2001:43fd:3001::,48,available,*
+*,ipv6,2001:43fd:3002::,47,available,*
+*,ipv6,2001:43fd:3004::,46,available,*
+*,ipv6,2001:43fd:3008::,45,available,*
+*,ipv6,2001:43fd:3010::,44,available,*
+*,ipv6,2001:43fd:3020::,43,available,*
+*,ipv6,2001:43fd:3040::,42,available,*
+*,ipv6,2001:43fd:3080::,41,available,*
+*,ipv6,2001:43fd:3100::,40,available,*
+*,ipv6,2001:43fd:3200::,39,available,*
+*,ipv6,2001:43fd:3400::,38,available,*
+*,ipv6,2001:43fd:3800::,37,available,*
 *,ipv6,2001:43fd:4001::,48,available,*
 *,ipv6,2001:43fd:4002::,47,available,*
 *,ipv6,2001:43fd:4004::,46,available,*
@@ -7705,7 +7714,7 @@ KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
 KE,ipv4,102.208.232.0,22,allocated,[329341;KE;Tatu-Telecom-Company-SEZ-Limited]
-KE,ipv4,102.209.18.0,24,allocated,[329437;KE;VENNET-SOLUTIONS-LIMITED]
+KE,ipv4,102.209.18.0,24,allocated,[329437;KE;Vennet-Fiber]
 KE,ipv4,102.209.56.0,22,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv4,102.209.68.0,22,allocated,[329424;KE;HTL8]
 KE,ipv4,102.209.76.0,22,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
@@ -7893,7 +7902,7 @@ KE,ipv6,2c0f:3280::,32,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv6,2c0f:3300::,32,allocated,[328989;KE;SMARTCLOUD]
 KE,ipv6,2c0f:3340::,32,allocated,[329419;KE;IX-AFRICA-DATA-CENTRE]
 KE,ipv6,2c0f:3440::,32,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
-KE,ipv6,2c0f:3840::,32,allocated,[329437;KE;VENNET-SOLUTIONS-LIMITED]
+KE,ipv6,2c0f:3840::,32,allocated,[329437;KE;Vennet-Fiber]
 KE,ipv6,2c0f:3980::,32,allocated,[329211;KE;Novia-East-Africa-AS]
 KE,ipv6,2c0f:3a00::,32,allocated,[328835;KE;Easy-BroadBand]
 KE,ipv6,2c0f:3b00::,32,allocated,[328993;KE;Click-Fiber-AS]
@@ -9111,6 +9120,7 @@ TN,ipv4,102.128.0.0,18,allocated,[328414;TN;Next-Step-IT-AS]
 TN,ipv4,102.152.0.0,14,allocated,[327934;TN;Tunisie-Telecom]
 TN,ipv4,102.156.0.0,14,allocated,[37705;TN;TOPNET]
 TN,ipv4,102.168.0.0,13,allocated,[37693;TN;TUNISIANA]
+TN,ipv4,102.208.224.0,22,allocated,[328853;TN;OXAHOST-AS]
 TN,ipv4,102.210.140.0,22,allocated,[37705;TN;TOPNET]
 TN,ipv4,102.211.208.0,22,allocated,[328853;TN;OXAHOST-AS]
 TN,ipv4,102.212.8.0,23,allocated,[329268;TN;SS7-AS]
@@ -11030,6 +11040,7 @@ AO,ipv6,2001:43f8:a80::,48,assigned,[37384;AO;BANKO-KEVE]
 AO,ipv6,2001:43f8:dc0::,48,assigned,[328211;AO;SETIC-FP-AS]
 AO,ipv6,2001:43f8:1100::,48,assigned,[328283;AO;BBDP1-AS]
 BF,ipv4,102.68.125.0,24,assigned,[328448;BF;Direction-Generale-Des-Impots-AS]
+BF,ipv4,102.208.240.0,24,assigned,
 BF,ipv4,102.209.188.0,23,assigned,[328245;BF;ARCEP-AS]
 BF,ipv4,102.211.121.0,24,assigned,[329306;BF;SONABEL]
 BF,ipv4,102.219.92.0,24,assigned,[328898;BF;ABDD-AS]
@@ -11048,6 +11059,7 @@ BF,ipv6,2001:43f8:a50::,48,assigned,[327871;BF;ANPTIC]
 BF,ipv6,2001:43f8:b60::,48,assigned,[328010;BF;Burkina-IX-MNGNT][37716;BF;Burkina-IX-PEERING]
 BF,ipv6,2001:43f8:b61::,48,assigned,[328010;BF;Burkina-IX-MNGNT][37716;BF;Burkina-IX-PEERING]
 BF,ipv6,2001:43f8:1190::,48,assigned,[328330;BF;ANSII-AS]
+BF,ipv6,2001:43fd:3000::,48,assigned,
 BF,ipv6,2001:43fd:4000::,48,assigned,[328898;BF;ABDD-AS]
 BF,ipv6,2001:43ff:5000::,48,assigned,[329306;BF;SONABEL]
 BI,ipv4,196.13.223.0,24,assigned,[327734;BI;ECONET]
