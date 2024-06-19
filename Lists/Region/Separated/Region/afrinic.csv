@@ -3504,8 +3504,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.208.0.0,17,available,*
 *,ipv4,102.208.128.0,18,available,*
 *,ipv4,102.208.192.0,20,available,*
-*,ipv4,102.208.208.0,21,available,*
-*,ipv4,102.208.216.0,22,available,*
 *,ipv4,102.208.220.0,23,available,*
 *,ipv4,102.208.222.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
@@ -4622,7 +4620,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3908::,29,available,*
 *,ipv6,2c0f:3910::,28,available,*
 *,ipv6,2c0f:3920::,27,available,*
-*,ipv6,2c0f:3940::,26,available,*
+*,ipv6,2c0f:3941::,32,available,*
+*,ipv6,2c0f:3942::,31,available,*
+*,ipv6,2c0f:3944::,30,available,*
+*,ipv6,2c0f:3948::,29,available,*
+*,ipv6,2c0f:3950::,28,available,*
+*,ipv6,2c0f:3960::,27,available,*
 *,ipv6,2c0f:3981::,32,available,*
 *,ipv6,2c0f:3982::,31,available,*
 *,ipv6,2c0f:3984::,30,available,*
@@ -9751,6 +9754,9 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.208.208.0,22,allocated,[329153;ZA;SWDconnect-AS]
+ZA,ipv4,102.208.212.0,22,allocated,
+ZA,ipv4,102.208.216.0,22,allocated,*
 ZA,ipv4,102.208.228.0,22,allocated,[328882;ZA;Sahdsoft-AS]
 ZA,ipv4,102.208.236.0,22,allocated,[328266;ZA;Atomic-AS]
 ZA,ipv4,102.208.252.0,22,allocated,[329438;ZA;HotFibre-Pty-Ltd]
@@ -10626,6 +10632,7 @@ ZA,ipv6,2c0f:3580::,32,allocated,[328323;ZA;Brilliant-Telco-AS]
 ZA,ipv6,2c0f:3600::,32,allocated,[328855;ZA;NCW-Ltd]
 ZA,ipv6,2c0f:3680::,32,allocated,[329133;ZA;ELID1-AS]
 ZA,ipv6,2c0f:3900::,32,allocated,[328931;ZA;WirelessOne]
+ZA,ipv6,2c0f:3940::,32,allocated,
 ZA,ipv6,2c0f:3a80::,32,allocated,[329136;ZA;TL17-AS]
 ZA,ipv6,2c0f:3c80::,32,allocated,[329139;ZA;MCPL2-AS]
 ZA,ipv6,2c0f:4000::,32,allocated,*
