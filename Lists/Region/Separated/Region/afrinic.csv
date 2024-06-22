@@ -3503,7 +3503,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,17,available,*
 *,ipv4,102.208.128.0,18,available,*
-*,ipv4,102.208.192.0,21,available,*
+*,ipv4,102.208.192.0,22,available,*
 *,ipv4,102.208.204.0,23,available,*
 *,ipv4,102.208.206.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
@@ -5803,7 +5803,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7908::,29,available,*
 *,ipv6,2c0f:7910::,28,available,*
 *,ipv6,2c0f:7920::,27,available,*
-*,ipv6,2c0f:7940::,26,available,*
+*,ipv6,2c0f:7941::,32,available,*
+*,ipv6,2c0f:7942::,31,available,*
+*,ipv6,2c0f:7944::,30,available,*
+*,ipv6,2c0f:7948::,29,available,*
+*,ipv6,2c0f:7950::,28,available,*
+*,ipv6,2c0f:7960::,27,available,*
 *,ipv6,2c0f:7981::,32,available,*
 *,ipv6,2c0f:7982::,31,available,*
 *,ipv6,2c0f:7984::,30,available,*
@@ -9062,6 +9067,7 @@ SS,ipv4,102.36.212.0,22,allocated,[328535;SS;Juba-Network]
 SS,ipv4,102.64.0.0,22,allocated,[328546;SS;Trinity-Technologies-AS]
 SS,ipv4,102.64.72.0,22,allocated,[37594;SS;MTN]
 SS,ipv4,102.64.124.0,22,allocated,[328491;SS;Super-NET-AS]
+SS,ipv4,102.208.196.0,22,allocated,
 SS,ipv4,102.211.192.0,22,allocated,[36892;SS;IPTECH]
 SS,ipv4,102.214.13.0,24,allocated,[329168;SS;ECL6-AS]
 SS,ipv4,102.215.16.0,22,allocated,[329094;SS;NFCL1-AS]
@@ -9079,6 +9085,7 @@ SS,ipv4,196.201.8.0,22,allocated,[37406;SS;RCS]
 SS,ipv4,197.231.236.0,22,allocated,[37594;SS;MTN]
 SS,ipv6,2c0f:d80::,32,allocated,[328535;SS;Juba-Network]
 SS,ipv6,2c0f:6740::,32,allocated,[327786;SS;TELECOM-4G]
+SS,ipv6,2c0f:7940::,32,allocated,
 SS,ipv6,2c0f:f690::,32,allocated,[37406;SS;RCS]
 SS,ipv6,2c0f:f950::,32,allocated,[37584;SS;FastNetAS]
 SS,ipv6,2c0f:fa20::,32,allocated,[37376;SS;ZAIN-South-Sudan]
@@ -9755,7 +9762,7 @@ ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
 ZA,ipv4,102.208.200.0,22,allocated,[327812;ZA;Metacom]
-ZA,ipv4,102.208.207.0,24,allocated,
+ZA,ipv4,102.208.207.0,24,allocated,[329445;ZA;In2IT]
 ZA,ipv4,102.208.208.0,22,allocated,[329153;ZA;SWDconnect-AS]
 ZA,ipv4,102.208.212.0,22,allocated,[329443;ZA;iMobility-Pty-ltd]
 ZA,ipv4,102.208.216.0,22,allocated,*
@@ -10976,7 +10983,7 @@ ZM,ipv4,102.23.120.0,22,allocated,[328646;ZM;Infratel-Corporation]
 ZM,ipv4,102.67.160.0,22,allocated,[328570;ZM;Fibrecom-Limited]
 ZM,ipv4,102.68.136.0,22,allocated,[328427;ZM;AirLink-Broadband-AS]
 ZM,ipv4,102.144.0.0,13,allocated,[37287;ZM;ZAIN-ZAMBIA]
-ZM,ipv4,102.208.220.0,23,allocated,
+ZM,ipv4,102.208.220.0,23,allocated,[329444;ZM;BEELINE-TELECOMS-LIMITED]
 ZM,ipv4,102.210.96.0,22,allocated,[328646;ZM;Infratel-Corporation]
 ZM,ipv4,102.210.102.0,24,allocated,[329383;ZM;NetOne-Data]
 ZM,ipv4,102.210.160.0,22,allocated,[36962;ZM;MTNZ-AS]
