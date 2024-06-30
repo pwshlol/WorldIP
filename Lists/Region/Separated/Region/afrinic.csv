@@ -3503,7 +3503,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.208.0.0,17,available,*
 *,ipv4,102.208.128.0,19,available,*
 *,ipv4,102.208.164.0,22,available,*
-*,ipv4,102.208.168.0,21,available,*
+*,ipv4,102.208.168.0,22,available,*
 *,ipv4,102.208.190.0,23,available,*
 *,ipv4,102.208.206.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
@@ -7130,6 +7130,7 @@ CI,ipv4,102.67.192.0,18,allocated,[36924;CI;GVA-Canalbox]
 CI,ipv4,102.130.224.0,21,allocated,[328406;CI;MainOne-CI-AS]
 CI,ipv4,102.135.184.0,22,allocated,[328903;CI;RITER]
 CI,ipv4,102.136.0.0,14,allocated,[36995;CI;MTN-][36974;CI;MTNCI-AS]
+CI,ipv4,102.208.172.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.209.216.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.210.16.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.210.80.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
@@ -7774,7 +7775,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
-KE,ipv4,102.208.180.0,22,allocated,
+KE,ipv4,102.208.180.0,22,allocated,[329451;KE;RAIN-COMMUNICATIONS-LIMITED]
 KE,ipv4,102.208.232.0,22,allocated,[329341;KE;Tatu-Telecom-Company-SEZ-Limited]
 KE,ipv4,102.209.18.0,24,allocated,[329437;KE;Vennet-Fiber]
 KE,ipv4,102.209.56.0,22,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
@@ -7991,7 +7992,7 @@ KE,ipv6,2c0f:7340::,32,allocated,[329421;KE;Localtel-Communications-Limited]
 KE,ipv6,2c0f:7440::,32,allocated,[329424;KE;HTL8]
 KE,ipv6,2c0f:7880::,32,allocated,[329135;KE;Unicast-technology]
 KE,ipv6,2c0f:7a00::,32,allocated,*
-KE,ipv6,2c0f:7a40::,32,allocated,
+KE,ipv6,2c0f:7a40::,32,allocated,[329451;KE;RAIN-COMMUNICATIONS-LIMITED]
 KE,ipv6,2c0f:7d80::,32,allocated,[328302;KE;Cloudone-AS]
 KE,ipv6,2c0f:e818::,32,allocated,[328475;KE;Afriq-Network-Solutions-AS]
 KE,ipv6,2c0f:e850::,32,allocated,[328636;KE;Jambo-Telecoms]
@@ -9254,7 +9255,7 @@ TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
 TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Flashnet-Technologies-Limited]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
-TZ,ipv4,102.208.184.0,22,allocated,
+TZ,ipv4,102.208.184.0,22,allocated,[329450;TZ;Tanzania-Commission-for-Scienceand-Technology]
 TZ,ipv4,102.208.244.0,22,allocated,[329448;TZ;AZAM-MEDIA][327819;TZ;AZAM-MEDIA]
 TZ,ipv4,102.209.36.0,22,allocated,*
 TZ,ipv4,102.209.92.0,22,allocated,*
@@ -10267,6 +10268,7 @@ ZA,ipv4,160.19.128.0,20,allocated,[328218;ZA;WASP-AS]
 ZA,ipv4,160.19.196.0,22,allocated,[328157;ZA;VirtualComms]
 ZA,ipv4,160.19.232.0,22,allocated,[328167;ZA;TWK-Communications]
 ZA,ipv4,160.20.24.0,21,allocated,[328032;ZA;Routed-Hosting]
+ZA,ipv4,160.115.0.0,16,allocated,[37153;ZA;xneelo]
 ZA,ipv4,160.117.0.0,16,allocated,[10798;ZA;SBICSA]
 ZA,ipv4,160.118.0.0,16,allocated,*
 ZA,ipv4,160.119.0.0,19,allocated,[328029;ZA;Web-Telecom-Services]
@@ -11332,7 +11334,7 @@ GH,ipv4,102.131.16.0,24,assigned,[328367;GH;USEmbassy-Ghana-AS]
 GH,ipv4,102.134.130.0,23,assigned,[328353;GH;MethodistUniversity-AS]
 GH,ipv4,102.135.188.0,24,assigned,[328372;GH;Etranzact-AS]
 GH,ipv4,102.164.123.0,24,assigned,[327845;GH;Sage-Petroleum]
-GH,ipv4,102.208.188.0,23,assigned,
+GH,ipv4,102.208.188.0,23,assigned,[329449;GH;Regional-Maritime-University]
 GH,ipv4,102.209.148.0,22,assigned,[329410;GH;Sunyani-Technical-University]
 GH,ipv4,102.210.32.0,22,assigned,[329389;GH;BigPay-Ghana]
 GH,ipv4,102.211.22.0,24,assigned,[329338;GH;Prudential-Bank-Limited]
@@ -11407,7 +11409,7 @@ GH,ipv6,2001:43fc:3000::,48,assigned,[329389;GH;BigPay-Ghana]
 GH,ipv6,2001:43fe:4000::,48,assigned,[328896;GH;UOEA-AS]
 GH,ipv6,2001:43fe:5000::,48,assigned,[329180;GH;AAUO-AS]
 GH,ipv6,2001:43fe:8000::,48,assigned,[328827;GH;NLA-AS]
-GH,ipv6,2001:43ff:7000::,48,assigned,
+GH,ipv6,2001:43ff:7000::,48,assigned,[329449;GH;Regional-Maritime-University]
 GM,ipv4,196.49.1.0,24,assigned,[327719;GM;sixp][37698;GM;Serekunda-IXP]
 GM,ipv4,196.223.34.0,24,assigned,[327719;GM;sixp][37698;GM;Serekunda-IXP]
 GM,ipv6,2001:43f8:970::,48,assigned,[327719;GM;sixp][37698;GM;Serekunda-IXP]
@@ -12104,7 +12106,6 @@ ZA,ipv4,156.0.252.0,24,assigned,[328205;ZA;Outsurance-Insurance-Company]
 ZA,ipv4,156.0.253.0,24,assigned,[328234;ZA;Southey-Holdings-AS]
 ZA,ipv4,156.8.0.0,16,assigned,*
 ZA,ipv4,160.19.188.0,23,assigned,[328161;ZA;PayCorp-Group-AS]
-ZA,ipv4,160.115.0.0,16,assigned,*
 ZA,ipv4,160.116.0.0,16,assigned,*
 ZA,ipv4,160.119.96.0,22,assigned,[328209;ZA;elocity-Trade-Financial-Services]
 ZA,ipv4,160.121.0.0,16,assigned,*
