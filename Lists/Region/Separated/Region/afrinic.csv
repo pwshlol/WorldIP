@@ -3500,7 +3500,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,17,available,*
-*,ipv4,102.208.128.0,19,available,*
+*,ipv4,102.208.128.0,20,available,*
+*,ipv4,102.208.144.0,21,available,*
+*,ipv4,102.208.152.0,22,available,*
 *,ipv4,102.208.190.0,23,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
@@ -6302,7 +6304,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fd:a200::,39,available,*
 *,ipv6,2001:43fd:a400::,38,available,*
 *,ipv6,2001:43fd:a800::,37,available,*
-*,ipv6,2001:43fd:b000::,36,available,*
+*,ipv6,2001:43fd:b001::,48,available,*
+*,ipv6,2001:43fd:b002::,47,available,*
+*,ipv6,2001:43fd:b004::,46,available,*
+*,ipv6,2001:43fd:b008::,45,available,*
+*,ipv6,2001:43fd:b010::,44,available,*
+*,ipv6,2001:43fd:b020::,43,available,*
+*,ipv6,2001:43fd:b040::,42,available,*
+*,ipv6,2001:43fd:b080::,41,available,*
+*,ipv6,2001:43fd:b100::,40,available,*
+*,ipv6,2001:43fd:b200::,39,available,*
+*,ipv6,2001:43fd:b400::,38,available,*
+*,ipv6,2001:43fd:b800::,37,available,*
 *,ipv6,2001:43fd:c001::,48,available,*
 *,ipv6,2001:43fd:c002::,47,available,*
 *,ipv6,2001:43fd:c004::,46,available,*
@@ -11681,6 +11694,7 @@ NG,ipv4,102.131.64.0,18,assigned,[328362;NG;UniversityIlorin-AS]
 NG,ipv4,102.131.128.0,17,assigned,[37420;NG;UNIV-JOS]
 NG,ipv4,102.141.233.0,24,assigned,[328332;NG;FEAP-AS]
 NG,ipv4,102.141.234.0,24,assigned,[328324;NG;FederalUniversity-AS]
+NG,ipv4,102.208.156.0,22,assigned,
 NG,ipv4,102.209.190.0,24,assigned,[329404;NG;Providusbank-PLC]
 NG,ipv4,102.210.194.0,23,assigned,[37001;NG;GTB-AS]
 NG,ipv4,102.210.216.0,22,assigned,[329349;NG;Optimus-Bank-Limited]
@@ -11799,6 +11813,7 @@ NG,ipv6,2001:43fc:5000::,48,assigned,[328516;NG;Premium-Pension-Limited-AS]
 NG,ipv6,2001:43fc:6000::,48,assigned,[329050;NG;JBNP1-AS]
 NG,ipv6,2001:43fc:c000::,48,assigned,[328905;NG;NCC-AS]
 NG,ipv6,2001:43fd:6000::,40,assigned,[329083;NG;WTSO1-AS]
+NG,ipv6,2001:43fd:b000::,48,assigned,
 NG,ipv6,2001:43fe:1000::,44,assigned,[37426;NG;Amcon]
 RW,ipv4,102.130.32.0,21,assigned,[328385;RW;RRA-AS]
 RW,ipv4,102.209.168.0,22,assigned,[329406;RW;RWANDA-SOCIAL-SECURITY-BOARD-RSSB]
