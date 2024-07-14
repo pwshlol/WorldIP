@@ -3500,8 +3500,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,17,available,*
-*,ipv4,102.208.128.0,20,available,*
-*,ipv4,102.208.146.0,23,available,*
+*,ipv4,102.208.128.0,22,available,*
 *,ipv4,102.208.191.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
@@ -4675,7 +4674,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3c08::,29,available,*
 *,ipv6,2c0f:3c10::,28,available,*
 *,ipv6,2c0f:3c20::,27,available,*
-*,ipv6,2c0f:3c40::,26,available,*
+*,ipv6,2c0f:3c41::,32,available,*
+*,ipv6,2c0f:3c42::,31,available,*
+*,ipv6,2c0f:3c44::,30,available,*
+*,ipv6,2c0f:3c48::,29,available,*
+*,ipv6,2c0f:3c50::,28,available,*
+*,ipv6,2c0f:3c60::,27,available,*
 *,ipv6,2c0f:3c81::,32,available,*
 *,ipv6,2c0f:3c82::,31,available,*
 *,ipv6,2c0f:3c84::,30,available,*
@@ -5862,7 +5866,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7c08::,29,available,*
 *,ipv6,2c0f:7c10::,28,available,*
 *,ipv6,2c0f:7c20::,27,available,*
-*,ipv6,2c0f:7c40::,26,available,*
+*,ipv6,2c0f:7c41::,32,available,*
+*,ipv6,2c0f:7c42::,31,available,*
+*,ipv6,2c0f:7c44::,30,available,*
+*,ipv6,2c0f:7c48::,29,available,*
+*,ipv6,2c0f:7c50::,28,available,*
+*,ipv6,2c0f:7c60::,27,available,*
 *,ipv6,2c0f:7c80::,32,available,*
 *,ipv6,2c0f:7c81::,32,available,*
 *,ipv6,2c0f:7c82::,31,available,*
@@ -7344,6 +7353,7 @@ CM,ipv6,2c0f:3100::,32,allocated,[328920;CM;ADCS-AS]
 CM,ipv6,2c0f:3640::,32,allocated,[329432;CM;PORT-AUTONOME-DE-KRIBI]
 CM,ipv6,2c0f:4e00::,32,allocated,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][328840;CM;ST-Digital-AS][37790;CM;DoualaIXPeering]
 CM,ipv6,2c0f:5900::,32,allocated,*
+CM,ipv6,2c0f:7c40::,32,allocated,[328866;CM;NEWTELNET]
 CM,ipv6,2c0f:f070::,32,allocated,[36912;CM;ORANGE]
 CM,ipv6,2c0f:f3d8::,32,allocated,[327741;CM;INFOGENIE-AS]
 CM,ipv6,2c0f:f4d8::,32,allocated,[328481;CM;AVS-Telecom][327920;CM;AVS-TELECOM-SARL]
@@ -7538,6 +7548,7 @@ EG,ipv6,2c0f:fc40::,32,allocated,[33777;EG;EGYPT-NETWORK][29428;EG;EGYPTNETWORK-
 EG,ipv6,2c0f:fc88::,31,allocated,[36992;EG;ETISALAT-MISR]
 EG,ipv6,2c0f:fee0::,32,allocated,[33785;EG;CITYNET]
 ER,ipv4,196.200.96.0,20,allocated,[30987;ER;ERITEL-AS]
+ET,ipv4,102.208.136.0,22,allocated,
 ET,ipv4,102.212.68.0,22,allocated,[329227;ET;WS-ASN]
 ET,ipv4,102.213.68.0,22,allocated,[328988;ET;SAFARICOM-TEL]
 ET,ipv4,102.218.0.0,22,allocated,[24757;ET;EthioNet-AS]
@@ -7547,6 +7558,7 @@ ET,ipv4,196.188.0.0,14,allocated,[24757;ET;EthioNet-AS]
 ET,ipv4,197.154.0.0,16,allocated,[37467;ET;ETherNeT]
 ET,ipv4,197.156.64.0,18,allocated,[24757;ET;EthioNet-AS]
 ET,ipv4,213.55.64.0,18,allocated,[24757;ET;EthioNet-AS]
+ET,ipv6,2c0f:3c40::,32,allocated,
 ET,ipv6,2c0f:6f00::,32,allocated,[328988;ET;SAFARICOM-TEL]
 ET,ipv6,2c0f:f348::,32,allocated,[24757;ET;EthioNet-AS]
 GA,ipv4,41.78.240.0,22,allocated,[37390;GA;iPi9]
@@ -9120,6 +9132,7 @@ SS,ipv4,102.36.212.0,22,allocated,[328535;SS;Juba-Network]
 SS,ipv4,102.64.0.0,22,allocated,[328546;SS;Trinity-Technologies-AS]
 SS,ipv4,102.64.72.0,22,allocated,[37594;SS;MTN]
 SS,ipv4,102.64.124.0,22,allocated,[328491;SS;Super-NET-AS]
+SS,ipv4,102.208.132.0,22,allocated,[328697;SS;Smart-Network-Limited]
 SS,ipv4,102.208.196.0,22,allocated,[329446;SS;BOMA-RURAL-CONNECT]
 SS,ipv4,102.211.192.0,22,allocated,[36892;SS;IPTECH]
 SS,ipv4,102.214.13.0,24,allocated,[329168;SS;ECL6-AS]
@@ -9816,6 +9829,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.208.140.0,22,allocated,
 ZA,ipv4,102.208.200.0,22,allocated,[327812;ZA;Metacom]
 ZA,ipv4,102.208.204.0,23,allocated,[328964;ZA;INSIGHTZA-AS]
 ZA,ipv4,102.208.207.0,24,allocated,[329445;ZA;In2IT]
@@ -11561,6 +11575,7 @@ LY,ipv6,2001:43f8:50::,48,assigned,[328615;LY;LITC2][37795;LY;LYB-IX][37791;LY;L
 LY,ipv6,2001:43f8:16b0::,48,assigned,[328615;LY;LITC2][37795;LY;LYB-IX][37791;LY;LITC-TRIP-KM4][37558;LY;LITC]
 MA,ipv4,102.64.4.0,23,assigned,[328541;MA;Direction-Generale-des-Impots]
 MA,ipv4,102.165.189.0,24,assigned,[329442;MA;Morocco-IXP][328280;MA;LNDR1-AS][37801;MA;Morocco-IXP]
+MA,ipv4,102.208.146.0,23,assigned,[328272;MA;CRNA1-AS]
 MA,ipv4,102.212.205.0,24,assigned,[329280;MA;Centre-Royal-de-Teledetection-Spatiale]
 MA,ipv4,102.216.118.0,24,assigned,[30983;MA;MARWAN-AS]
 MA,ipv4,102.218.131.0,24,assigned,[328960;MA;MOFA2-AS]
