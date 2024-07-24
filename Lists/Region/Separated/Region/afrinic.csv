@@ -3499,8 +3499,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,18,available,*
 *,ipv4,102.208.64.0,19,available,*
-*,ipv4,102.208.96.0,20,available,*
-*,ipv4,102.208.112.0,22,available,*
+*,ipv4,102.208.96.0,21,available,*
+*,ipv4,102.208.104.0,22,available,*
+*,ipv4,102.208.108.0,23,available,*
 *,ipv4,102.209.220.0,22,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
@@ -5890,7 +5891,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7d08::,29,available,*
 *,ipv6,2c0f:7d10::,28,available,*
 *,ipv6,2c0f:7d20::,27,available,*
-*,ipv6,2c0f:7d40::,26,available,*
+*,ipv6,2c0f:7d41::,32,available,*
+*,ipv6,2c0f:7d42::,31,available,*
+*,ipv6,2c0f:7d44::,30,available,*
+*,ipv6,2c0f:7d48::,29,available,*
+*,ipv6,2c0f:7d50::,28,available,*
+*,ipv6,2c0f:7d60::,27,available,*
 *,ipv6,2c0f:7d81::,32,available,*
 *,ipv6,2c0f:7d82::,31,available,*
 *,ipv6,2c0f:7d84::,30,available,*
@@ -8659,6 +8665,7 @@ NG,ipv4,102.165.124.0,22,allocated,[37521;NG;Internet-Solutions-]
 NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
+NG,ipv4,102.208.112.0,22,allocated,
 NG,ipv4,102.208.116.0,22,allocated,[329458;NG;FieldBase-Services]
 NG,ipv4,102.208.144.0,23,allocated,[329454;NG;Vitel-Wireless]
 NG,ipv4,102.208.223.0,24,allocated,[329441;NG;FZX-Media]
@@ -8839,6 +8846,7 @@ NG,ipv6,2c0f:6e80::,28,allocated,[37018;NG;GALAXYBB-AS]
 NG,ipv6,2c0f:6f80::,32,allocated,[37659;NG;BillyRonks-Global-AS]
 NG,ipv6,2c0f:7000::,32,allocated,[328776;NG;Evercare-Hospital-Lekki]
 NG,ipv6,2c0f:7b40::,32,allocated,[329454;NG;Vitel-Wireless]
+NG,ipv6,2c0f:7d40::,32,allocated,
 NG,ipv6,2c0f:7f00::,32,allocated,[329001;NG;KCL3-AS]
 NG,ipv6,2c0f:e830::,32,allocated,[36923;NG;SWIFTNG-ASN]
 NG,ipv6,2c0f:e878::,32,allocated,*
@@ -11885,6 +11893,7 @@ SL,ipv6,2001:43f8:b0::,48,assigned,[37117;SL;IXPSL-AS]
 SL,ipv6,2001:43f8:a90::,48,assigned,[327903;SL;MICG]
 SN,ipv4,102.36.136.0,22,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE-AS]
 SN,ipv4,102.36.147.0,24,assigned,[328558;SN;Senelec-AS]
+SN,ipv4,102.208.110.0,23,assigned,[328558;SN;Senelec-AS]
 SN,ipv4,102.209.164.0,22,assigned,[329407;SN;UCAD1]
 SN,ipv4,102.209.208.0,22,assigned,[329398;SN;ESMT]
 SN,ipv4,196.1.92.0,24,assigned,*
