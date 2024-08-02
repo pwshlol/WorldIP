@@ -84,7 +84,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,41.223.176.0,22,reserved,*
 *,ipv4,41.242.8.0,21,reserved,*
 *,ipv4,41.242.32.0,21,reserved,*
-*,ipv4,41.242.64.0,20,reserved,*
 *,ipv4,41.242.84.0,22,reserved,*
 *,ipv4,41.242.92.0,22,reserved,*
 *,ipv4,41.242.120.0,22,reserved,*
@@ -3496,7 +3495,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,18,available,*
-*,ipv4,102.208.64.0,21,available,*
+*,ipv4,102.208.64.0,22,available,*
 *,ipv4,102.208.80.0,23,available,*
 *,ipv4,102.208.82.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
@@ -8654,6 +8653,7 @@ NG,ipv4,41.223.128.0,22,allocated,[36957;NG;MICROACCESS]
 NG,ipv4,41.223.136.0,22,allocated,[37077;NG;AAUN-]
 NG,ipv4,41.223.144.0,22,allocated,[327684;NG;ipartners][36970;NG;interswitch]
 NG,ipv4,41.242.48.0,20,allocated,[37688;NG;BCNL1-AS]
+NG,ipv4,41.242.64.0,20,allocated,[37605;ZZ;-Reserved AS-]
 NG,ipv4,45.222.96.0,21,allocated,[328035;NG;Zeta-Web-Nigeria-AS]
 NG,ipv4,62.173.32.0,19,allocated,[29091;NG;IPNXng]
 NG,ipv4,80.248.0.0,20,allocated,[25163;NG;NG-NIGERIA-AS]
@@ -8758,7 +8758,7 @@ NG,ipv4,102.219.220.0,22,allocated,[328861;NG;NIMC-AS]
 NG,ipv4,102.220.44.0,22,allocated,[328834;NG;WIN-FTTH-AS][37540;NG;WINROCK-]
 NG,ipv4,102.220.96.0,22,allocated,[328825;NG;AACL-AS]
 NG,ipv4,102.220.160.0,22,allocated,[328833;NG;FW-AS]
-NG,ipv4,102.220.172.0,22,allocated,[328658;ZZ;-Reserved AS-]
+NG,ipv4,102.220.172.0,22,allocated,[328658;ZZ;De-Choicetech-Integrated]
 NG,ipv4,102.220.188.0,22,allocated,[328160;NG;Dotmac-Tech]
 NG,ipv4,102.220.204.0,22,allocated,[37004;NG;Suburban-Broadband-AS]
 NG,ipv4,102.220.212.0,22,allocated,[328528;NG;NetIT-Solutions]
@@ -8773,7 +8773,7 @@ NG,ipv4,102.221.184.0,22,allocated,[328742;NG;Simplifyd-Systems-AS]
 NG,ipv4,102.221.236.0,22,allocated,[328722;NG;Ciudad-AS]
 NG,ipv4,102.222.96.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
 NG,ipv4,102.222.116.0,22,allocated,[328696;NG;Tecpoint-Global-Solutions]
-NG,ipv4,102.223.1.0,24,allocated,[328658;ZZ;-Reserved AS-]
+NG,ipv4,102.223.1.0,24,allocated,[328658;ZZ;De-Choicetech-Integrated]
 NG,ipv4,102.223.36.0,22,allocated,[328668;NG;Nkponani-AS]
 NG,ipv4,102.223.52.0,22,allocated,*
 NG,ipv4,102.223.180.0,23,allocated,[329015;NG;EAL1-AS]
@@ -9485,7 +9485,8 @@ UG,ipv4,102.36.216.0,21,allocated,[37689;UG;SNU-NET-AS]
 UG,ipv4,102.68.172.0,22,allocated,[328015;UG;Sombha-Solutions]
 UG,ipv4,102.80.0.0,13,allocated,[37075;UG;ZAINUGAS][36977;UG;Airtel-]
 UG,ipv4,102.134.140.0,22,allocated,[328408;UG;HAMILTON-TELECOM-AS]
-UG,ipv4,102.208.84.0,22,allocated,
+UG,ipv4,102.208.68.0,22,allocated,*
+UG,ipv4,102.208.84.0,22,allocated,[329464;UG;OGOS-INNO-TECH]
 UG,ipv4,102.209.108.0,22,allocated,[329415;UG;Savanna-Fibre-Limited]
 UG,ipv4,102.209.128.0,22,allocated,[37689;UG;SNU-NET-AS]
 UG,ipv4,102.209.200.0,22,allocated,[327724;UG;NITA]
@@ -9534,7 +9535,7 @@ UG,ipv6,2c0f:4540::,32,allocated,[329253;UG;CSL5-AS]
 UG,ipv6,2c0f:4b00::,32,allocated,[328939;UG;SIL6-AS]
 UG,ipv6,2c0f:7140::,32,allocated,[329415;UG;Savanna-Fibre-Limited]
 UG,ipv6,2c0f:7a80::,32,allocated,[329137;UG;GUL1-AS]
-UG,ipv6,2c0f:7e40::,32,allocated,
+UG,ipv6,2c0f:7e40::,32,allocated,[329464;UG;OGOS-INNO-TECH]
 UG,ipv6,2c0f:e910::,32,allocated,[328707;UG;Al-Bayan-Media]
 UG,ipv6,2c0f:e950::,32,allocated,*
 UG,ipv6,2c0f:ebe0::,32,allocated,[328616;UG;Spidd-Africa]
@@ -9876,7 +9877,7 @@ ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
 ZA,ipv4,102.208.72.0,22,allocated,[328533;ZA;Fliber-Ltd]
-ZA,ipv4,102.208.83.0,24,allocated,
+ZA,ipv4,102.208.83.0,24,allocated,[329465;ZA;Betta-Technologies]
 ZA,ipv4,102.208.108.0,23,allocated,[329462;ZA;V-Dot-Net]
 ZA,ipv4,102.208.140.0,22,allocated,[329455;ZA;ONE-Carrier]
 ZA,ipv4,102.208.200.0,22,allocated,[327812;ZA;Metacom]
@@ -10765,7 +10766,7 @@ ZA,ipv6,2c0f:3940::,32,allocated,[329443;ZA;iMobility-Pty-ltd]
 ZA,ipv6,2c0f:3a40::,32,allocated,[328882;ZA;Sahdsoft-AS]
 ZA,ipv6,2c0f:3a80::,32,allocated,[329136;ZA;TL17-AS]
 ZA,ipv6,2c0f:3c80::,32,allocated,[329139;ZA;MCPL2-AS]
-ZA,ipv6,2c0f:3f40::,32,allocated,
+ZA,ipv6,2c0f:3f40::,32,allocated,[329465;ZA;Betta-Technologies]
 ZA,ipv6,2c0f:4000::,32,allocated,*
 ZA,ipv6,2c0f:4040::,32,allocated,[329231;ZA;Digitegrity-AS]
 ZA,ipv6,2c0f:4200::,32,allocated,[328790;ZA;OTL-AS]
