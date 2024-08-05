@@ -1,12 +1,12 @@
 # WorldIP
 
-Last update: 2024/08/04 01:17:44 (UTC)
+Last update: 2024/08/05 01:17:00 (UTC)
 
 238 Countries in 5 regions
 
 ## IANA Reserved CIDR
 
-- 93 Total | 48 IPV4 | 45 IPV6
+- 92 Total | 48 IPV4 | 44 IPV6
 
 ## IANA Available CIDR
 
