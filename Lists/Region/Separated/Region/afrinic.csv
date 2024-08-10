@@ -3495,7 +3495,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
 *,ipv4,102.208.0.0,19,available,*
-*,ipv4,102.208.32.0,20,available,*
+*,ipv4,102.208.40.0,21,available,*
 *,ipv4,102.208.52.0,23,available,*
 *,ipv4,102.208.80.0,24,available,*
 *,ipv4,102.209.220.0,22,available,*
@@ -3572,7 +3572,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:288::,29,available,*
 *,ipv6,2c0f:290::,28,available,*
 *,ipv6,2c0f:2a0::,27,available,*
-*,ipv6,2c0f:2c0::,26,available,*
+*,ipv6,2c0f:2c1::,32,available,*
+*,ipv6,2c0f:2c2::,31,available,*
+*,ipv6,2c0f:2c4::,30,available,*
+*,ipv6,2c0f:2c8::,29,available,*
+*,ipv6,2c0f:2d0::,28,available,*
+*,ipv6,2c0f:2e0::,27,available,*
 *,ipv6,2c0f:301::,32,available,*
 *,ipv6,2c0f:302::,31,available,*
 *,ipv6,2c0f:304::,30,available,*
@@ -4792,7 +4797,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4188::,29,available,*
 *,ipv6,2c0f:4190::,28,available,*
 *,ipv6,2c0f:41a0::,27,available,*
-*,ipv6,2c0f:41c0::,26,available,*
+*,ipv6,2c0f:41c1::,32,available,*
+*,ipv6,2c0f:41c2::,31,available,*
+*,ipv6,2c0f:41c4::,30,available,*
+*,ipv6,2c0f:41c8::,29,available,*
+*,ipv6,2c0f:41d0::,28,available,*
+*,ipv6,2c0f:41e0::,27,available,*
 *,ipv6,2c0f:4201::,32,available,*
 *,ipv6,2c0f:4202::,31,available,*
 *,ipv6,2c0f:4204::,30,available,*
@@ -6992,6 +7002,7 @@ BW,ipv4,102.134.84.0,22,allocated,[328348;BW;FasttrackLearning-AS]
 BW,ipv4,102.134.160.0,20,allocated,[327776;BW;Stature-PTY-LTD]
 BW,ipv4,102.141.112.0,21,allocated,[327830;BW;Concerotel-Botswana]
 BW,ipv4,102.165.128.0,19,allocated,[329078;BW;ABARI-FTTH][37395;BW;ABARI]
+BW,ipv4,102.208.32.0,22,allocated,
 BW,ipv4,102.208.192.0,22,allocated,*
 BW,ipv4,102.210.158.0,24,allocated,[329381;BW;FIBRE-SOURCING]
 BW,ipv4,102.210.252.0,24,allocated,[329339;BW;Smartgae]
@@ -9907,12 +9918,13 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.208.36.0,22,allocated,
 ZA,ipv4,102.208.64.0,22,allocated,[329467;ZA;PAN-AFRICA-TELECOM-PTY-LTD]
 ZA,ipv4,102.208.72.0,22,allocated,[328533;ZA;Fliber-Ltd]
 ZA,ipv4,102.208.83.0,24,allocated,[329465;ZA;Betta-Technologies]
 ZA,ipv4,102.208.108.0,23,allocated,[329462;ZA;V-Dot-Net]
 ZA,ipv4,102.208.140.0,22,allocated,[329455;ZA;ONE-Carrier]
-ZA,ipv4,102.208.176.0,22,allocated,
+ZA,ipv4,102.208.176.0,22,allocated,[329471;ZA;Kyrascene]
 ZA,ipv4,102.208.200.0,22,allocated,[327812;ZA;Metacom]
 ZA,ipv4,102.208.204.0,23,allocated,[328964;ZA;INSIGHTZA-AS]
 ZA,ipv4,102.208.207.0,24,allocated,[329445;ZA;In2IT]
@@ -10720,6 +10732,7 @@ ZA,ipv6,2c0f::,32,allocated,[328001;ZA;SATSOFT]
 ZA,ipv6,2c0f:40::,32,allocated,[329229;ZA;Stellar-Technology-Solutions]
 ZA,ipv6,2c0f:200::,32,allocated,[328810;ZA;Techwood-as]
 ZA,ipv6,2c0f:240::,32,allocated,[329243;ZA;One-Mile-Telecoms-Pty-Ltd]
+ZA,ipv6,2c0f:2c0::,32,allocated,[329455;ZA;ONE-Carrier]
 ZA,ipv6,2c0f:380::,32,allocated,[328548;ZA;TOUCHNET-TELECOMMUNICATIONS-AS]
 ZA,ipv6,2c0f:400::,32,allocated,[328787;ZA;China-Mobile-International]
 ZA,ipv6,2c0f:440::,32,allocated,[329248;ZA;Simtel-ISP-AS]
@@ -10802,7 +10815,8 @@ ZA,ipv6,2c0f:3c80::,32,allocated,[329139;ZA;MCPL2-AS]
 ZA,ipv6,2c0f:3f40::,32,allocated,[329465;ZA;Betta-Technologies]
 ZA,ipv6,2c0f:4000::,32,allocated,*
 ZA,ipv6,2c0f:4040::,32,allocated,[329231;ZA;Digitegrity-AS]
-ZA,ipv6,2c0f:40c0::,32,allocated,
+ZA,ipv6,2c0f:40c0::,32,allocated,[329471;ZA;Kyrascene]
+ZA,ipv6,2c0f:41c0::,32,allocated,
 ZA,ipv6,2c0f:4200::,32,allocated,[328790;ZA;OTL-AS]
 ZA,ipv6,2c0f:4240::,32,allocated,[328719;ZA;Wired-Tech-AS]
 ZA,ipv6,2c0f:4300::,32,allocated,[328948;ZA;NCC3-AS]
@@ -11336,7 +11350,7 @@ CI,ipv6,2001:43f8:14a0::,48,assigned,[328635;CI;AIGF]
 CI,ipv6,2001:43f8:1630::,48,assigned,[328729;CI;Groupement-Des-Services-Eau-Electricite]
 CI,ipv6,2001:43ff:a000::,48,assigned,[329037;CI;BBGC1-AS]
 CM,ipv4,102.135.189.0,24,assigned,[328352;CM;UnitedNations-AS]
-CM,ipv4,102.208.54.0,23,assigned,
+CM,ipv4,102.208.54.0,23,assigned,[329470;CM;Afriland-First-Bank]
 CM,ipv4,102.208.81.0,24,assigned,[329469;CM;Access-BANK-CAMEROON-PLC]
 CM,ipv4,102.218.252.0,22,assigned,[328937;CM;UDM1-AS]
 CM,ipv4,102.220.222.0,24,assigned,[328878;CM;BDED-AS]
@@ -11356,7 +11370,7 @@ CM,ipv6,2001:43fc:a000::,48,assigned,[328937;CM;UDM1-AS]
 CM,ipv6,2001:43fd:c000::,48,assigned,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][328840;CM;ST-Digital-AS][37790;CM;DoualaIXPeering]
 CM,ipv6,2001:43fe:c000::,48,assigned,[328995;CM;ISC-F-AS][328913;CM;DoualaIX][328840;CM;ST-Digital-AS][37790;CM;DoualaIXPeering]
 CM,ipv6,2001:43ff:8000::,44,assigned,[328878;CM;BDED-AS]
-CM,ipv6,2001:43ff:b000::,48,assigned,
+CM,ipv6,2001:43ff:b000::,48,assigned,[329470;CM;Afriland-First-Bank]
 CV,ipv4,102.69.151.0,24,assigned,[328440;CV;Banco-BAI]
 CV,ipv4,102.212.81.0,24,assigned,[329281;CV;CAIXA-ECONOMICA-DE-CABO-VERDE]
 CV,ipv4,102.212.175.0,24,assigned,[329245;CV;Public-University-of-Cape-Verde]
