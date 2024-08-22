@@ -3498,8 +3498,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:4000::,34,reserved,*
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
-*,ipv4,102.208.0.0,21,available,*
-*,ipv4,102.208.8.0,22,available,*
+*,ipv4,102.208.0.0,22,available,*
 *,ipv4,102.208.52.0,24,available,*
 *,ipv4,102.208.80.0,24,available,*
 *,ipv4,102.209.224.0,21,available,*
@@ -3693,7 +3692,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:788::,29,available,*
 *,ipv6,2c0f:790::,28,available,*
 *,ipv6,2c0f:7a0::,27,available,*
-*,ipv6,2c0f:7c0::,26,available,*
+*,ipv6,2c0f:7c1::,32,available,*
+*,ipv6,2c0f:7c2::,31,available,*
+*,ipv6,2c0f:7c4::,30,available,*
+*,ipv6,2c0f:7c8::,29,available,*
+*,ipv6,2c0f:7d0::,28,available,*
+*,ipv6,2c0f:7e0::,27,available,*
 *,ipv6,2c0f:801::,32,available,*
 *,ipv6,2c0f:802::,31,available,*
 *,ipv6,2c0f:804::,30,available,*
@@ -4937,7 +4941,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4688::,29,available,*
 *,ipv6,2c0f:4690::,28,available,*
 *,ipv6,2c0f:46a0::,27,available,*
-*,ipv6,2c0f:46c0::,26,available,*
+*,ipv6,2c0f:46c1::,32,available,*
+*,ipv6,2c0f:46c2::,31,available,*
+*,ipv6,2c0f:46c4::,30,available,*
+*,ipv6,2c0f:46c8::,29,available,*
+*,ipv6,2c0f:46d0::,28,available,*
+*,ipv6,2c0f:46e0::,27,available,*
 *,ipv6,2c0f:4701::,32,available,*
 *,ipv6,2c0f:4702::,31,available,*
 *,ipv6,2c0f:4704::,30,available,*
@@ -7730,6 +7739,7 @@ GH,ipv4,102.23.112.0,22,allocated,*
 GH,ipv4,102.69.220.0,22,allocated,[328494;GH;WirelessPlus-3D]
 GH,ipv4,102.176.0.0,17,allocated,[29614;GH;GHANATEL-AS]
 GH,ipv4,102.177.100.0,22,allocated,[328261;GH;E-Connecta]
+GH,ipv4,102.208.4.0,22,allocated,
 GH,ipv4,102.208.20.0,22,allocated,[328659;GH;Vobiss-Solutions-Limited]
 GH,ipv4,102.208.40.0,22,allocated,[329477;GH;Boldnet-Internet]
 GH,ipv4,102.208.88.0,23,allocated,[329009;GH;Spectrum-Internet-Service-AS]
@@ -8934,6 +8944,7 @@ NG,ipv4,217.14.80.0,20,allocated,[16284;NG;Inq-Digital-Nigeria-AS]
 NG,ipv4,217.117.0.0,20,allocated,[16284;NG;Inq-Digital-Nigeria-AS]
 NG,ipv6,2c0f:180::,32,allocated,[329148;NG;FTNL2-AS]
 NG,ipv6,2c0f:480::,32,allocated,[329024;NG;LFCS1-AS]
+NG,ipv6,2c0f:7c0::,32,allocated,[329057;NG;Smart-City-Tech]
 NG,ipv6,2c0f:840::,32,allocated,[329267;NG;FBL5-AS]
 NG,ipv6,2001:4270::,32,allocated,[30998;NG;NAL-AS]
 NG,ipv6,2001:43b0::,32,allocated,*
@@ -9967,6 +9978,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.208.8.0,22,allocated,
 ZA,ipv4,102.208.12.0,22,allocated,[328464;ZA;TCS-Wi-Fi]
 ZA,ipv4,102.208.24.0,22,allocated,[329480;ZA;Bongani-Connects]
 ZA,ipv4,102.208.28.0,22,allocated,[329478;ZA;Skyworks-Telecoms]
@@ -10879,6 +10891,7 @@ ZA,ipv6,2c0f:4340::,32,allocated,[329247;ZA;Swift-Fibre-AS]
 ZA,ipv6,2c0f:4480::,32,allocated,[329028;ZA;RNL1-AS]
 ZA,ipv6,2c0f:4600::,32,allocated,[328839;ZA;Silver-Solutions]
 ZA,ipv6,2c0f:4680::,32,allocated,[329032;ZA;MM1-AS]
+ZA,ipv6,2c0f:46c0::,32,allocated,
 ZA,ipv6,2c0f:4740::,32,allocated,[329266;ZA;IITL1-AS]
 ZA,ipv6,2c0f:4880::,32,allocated,[328964;ZA;INSIGHTZA-AS]
 ZA,ipv6,2c0f:4900::,32,allocated,[328870;ZA;SynBurst-AS]
