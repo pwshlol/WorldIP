@@ -3498,8 +3498,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:4000::,34,reserved,*
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,12,available,*
-*,ipv4,102.208.0.0,22,available,*
-*,ipv4,102.208.52.0,24,available,*
 *,ipv4,102.208.80.0,24,available,*
 *,ipv4,102.209.224.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
@@ -6466,7 +6464,18 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fd:e200::,39,available,*
 *,ipv6,2001:43fd:e400::,38,available,*
 *,ipv6,2001:43fd:e800::,37,available,*
-*,ipv6,2001:43fd:f000::,36,available,*
+*,ipv6,2001:43fd:f001::,48,available,*
+*,ipv6,2001:43fd:f002::,47,available,*
+*,ipv6,2001:43fd:f004::,46,available,*
+*,ipv6,2001:43fd:f008::,45,available,*
+*,ipv6,2001:43fd:f010::,44,available,*
+*,ipv6,2001:43fd:f020::,43,available,*
+*,ipv6,2001:43fd:f040::,42,available,*
+*,ipv6,2001:43fd:f080::,41,available,*
+*,ipv6,2001:43fd:f100::,40,available,*
+*,ipv6,2001:43fd:f200::,39,available,*
+*,ipv6,2001:43fd:f400::,38,available,*
+*,ipv6,2001:43fd:f800::,37,available,*
 *,ipv6,2001:43fe:1010::,44,available,*
 *,ipv6,2001:43fe:1020::,43,available,*
 *,ipv6,2001:43fe:1040::,42,available,*
@@ -7739,7 +7748,7 @@ GH,ipv4,102.23.112.0,22,allocated,*
 GH,ipv4,102.69.220.0,22,allocated,[328494;GH;WirelessPlus-3D]
 GH,ipv4,102.176.0.0,17,allocated,[29614;GH;GHANATEL-AS]
 GH,ipv4,102.177.100.0,22,allocated,[328261;GH;E-Connecta]
-GH,ipv4,102.208.4.0,22,allocated,
+GH,ipv4,102.208.4.0,22,allocated,[329482;GH;OPIN-TECHNOLOGIES]
 GH,ipv4,102.208.20.0,22,allocated,[328659;GH;Vobiss-Solutions-Limited]
 GH,ipv4,102.208.40.0,22,allocated,[329477;GH;Boldnet-Internet]
 GH,ipv4,102.208.88.0,23,allocated,[329009;GH;Spectrum-Internet-Service-AS]
@@ -7933,6 +7942,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.208.0.0,22,allocated,[328977;KE;WAVEX]
 KE,ipv4,102.208.44.0,22,allocated,[329475;KE;KONNECT-DATA-NETWORKS-LTD]
 KE,ipv4,102.208.60.0,22,allocated,[328977;KE;WAVEX]
 KE,ipv4,102.208.82.0,24,allocated,[329468;KE;ELEPHANT-TECHNOLOGY-LIMITED]
@@ -9978,7 +9988,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
-ZA,ipv4,102.208.8.0,22,allocated,
+ZA,ipv4,102.208.8.0,22,allocated,[329481;ZA;Lightstruck-Connect]
 ZA,ipv4,102.208.12.0,22,allocated,[328464;ZA;TCS-Wi-Fi]
 ZA,ipv4,102.208.24.0,22,allocated,[329480;ZA;Bongani-Connects]
 ZA,ipv4,102.208.28.0,22,allocated,[329478;ZA;Skyworks-Telecoms]
@@ -10891,7 +10901,7 @@ ZA,ipv6,2c0f:4340::,32,allocated,[329247;ZA;Swift-Fibre-AS]
 ZA,ipv6,2c0f:4480::,32,allocated,[329028;ZA;RNL1-AS]
 ZA,ipv6,2c0f:4600::,32,allocated,[328839;ZA;Silver-Solutions]
 ZA,ipv6,2c0f:4680::,32,allocated,[329032;ZA;MM1-AS]
-ZA,ipv6,2c0f:46c0::,32,allocated,
+ZA,ipv6,2c0f:46c0::,32,allocated,[329481;ZA;Lightstruck-Connect]
 ZA,ipv6,2c0f:4740::,32,allocated,[329266;ZA;IITL1-AS]
 ZA,ipv6,2c0f:4880::,32,allocated,[328964;ZA;INSIGHTZA-AS]
 ZA,ipv6,2c0f:4900::,32,allocated,[328870;ZA;SynBurst-AS]
@@ -11826,6 +11836,7 @@ MW,ipv4,45.221.25.0,24,assigned,[328117;MW;FDH-Bank-AS]
 MW,ipv4,102.36.145.0,24,assigned,[328565;MW;NBS-Bank-Limited]
 MW,ipv4,102.130.101.0,24,assigned,[328403;MW;Malawi-Revenue-Authority-AS]
 MW,ipv4,102.176.250.0,24,assigned,[328300;MW;Malawi-Bank-AS]
+MW,ipv4,102.208.52.0,24,assigned,
 MW,ipv4,102.211.20.0,23,assigned,[329335;MW;Department-of-HIV-AIDS-and-Viral-Hepatitis]
 MW,ipv4,102.211.23.0,24,assigned,[329333;MW;National-Oil-Company-of-Malawi]
 MW,ipv4,102.213.28.0,22,assigned,[329220;MW;Department-of-E-Government]
@@ -11846,6 +11857,7 @@ MW,ipv6,2001:43f8:1720::,48,assigned,[37800;MW;Lilongwe-Open-Neutral-Internet-Ex
 MW,ipv6,2001:43fc:d000::,48,assigned,[329220;MW;Department-of-E-Government]
 MW,ipv6,2001:43fd:1000::,48,assigned,[329260;MW;MCRA1-AS]
 MW,ipv6,2001:43fd:d000::,48,assigned,[329333;MW;National-Oil-Company-of-Malawi]
+MW,ipv6,2001:43fd:f000::,48,assigned,
 MZ,ipv4,102.36.146.0,24,assigned,[328591;MZ;American-International-Mozambique]
 MZ,ipv4,102.176.248.0,23,assigned,[328274;MZ;BBID1-AS]
 MZ,ipv4,160.19.190.0,23,assigned,[328187;MZ;EDM-AS]
