@@ -3497,9 +3497,16 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:2000::,35,reserved,*
 *,ipv6,2c0f:edf0:4000::,34,reserved,*
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
-*,ipv4,102.192.0.0,12,available,*
+*,ipv4,102.192.0.0,13,available,*
+*,ipv4,102.200.0.0,14,available,*
+*,ipv4,102.204.0.0,15,available,*
+*,ipv4,102.206.0.0,16,available,*
+*,ipv4,102.207.0.0,17,available,*
+*,ipv4,102.207.128.0,18,available,*
+*,ipv4,102.207.192.0,19,available,*
+*,ipv4,102.207.232.0,21,available,*
+*,ipv4,102.207.240.0,20,available,*
 *,ipv4,102.208.80.0,24,available,*
-*,ipv4,102.209.224.0,22,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -5050,7 +5057,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4a88::,29,available,*
 *,ipv6,2c0f:4a90::,28,available,*
 *,ipv6,2c0f:4aa0::,27,available,*
-*,ipv6,2c0f:4ac0::,26,available,*
+*,ipv6,2c0f:4ac1::,32,available,*
+*,ipv6,2c0f:4ac2::,31,available,*
+*,ipv6,2c0f:4ac4::,30,available,*
+*,ipv6,2c0f:4ac8::,29,available,*
+*,ipv6,2c0f:4ad0::,28,available,*
+*,ipv6,2c0f:4ae0::,27,available,*
 *,ipv6,2c0f:4b01::,32,available,*
 *,ipv6,2c0f:4b02::,31,available,*
 *,ipv6,2c0f:4b04::,30,available,*
@@ -6984,6 +6996,7 @@ BF,ipv4,102.69.152.0,22,allocated,*
 BF,ipv4,102.176.176.0,22,allocated,[328316;BF;Point-Atterissement-AS]
 BF,ipv4,102.178.0.0,15,allocated,[37577;BF;Orange-]
 BF,ipv4,102.180.0.0,16,allocated,[37577;BF;Orange-]
+BF,ipv4,102.207.224.0,22,allocated,
 BF,ipv4,102.212.160.0,23,allocated,[37734;BF;Virtix-Datacenter][37721;BF;Virtual-Technologies-Solutions-SA]
 BF,ipv4,102.214.40.0,22,allocated,[327871;BF;ANPTIC]
 BF,ipv4,102.214.64.0,22,allocated,[37734;BF;Virtix-Datacenter][37721;BF;Virtual-Technologies-Solutions-SA]
@@ -7004,6 +7017,7 @@ BF,ipv4,212.52.128.0,19,allocated,[25543;BF;FasoNet-AS]
 BF,ipv6,2c0f:1a40::,32,allocated,[329041;BF;ANDE1-AS]
 BF,ipv6,2c0f:1c40::,32,allocated,[328627;BF;ATCS-AS]
 BF,ipv6,2c0f:43c0::,32,allocated,*
+BF,ipv6,2c0f:4ac0::,32,allocated,
 BF,ipv6,2c0f:5700::,32,allocated,[328967;BF;PA16-AS]
 BF,ipv6,2c0f:5a40::,32,allocated,[37073;BF;IPP-burkina-as]
 BF,ipv6,2c0f:7840::,32,allocated,[328721;BF;Groupe-Netforce-AS]
@@ -9147,7 +9161,7 @@ SC,ipv4,160.119.64.0,20,allocated,*
 SC,ipv4,160.119.88.0,21,allocated,[20180;SC;SA-1TEL]
 SC,ipv4,160.119.200.0,22,allocated,*
 SC,ipv4,165.231.0.0,16,allocated,[37518;SC;FIBERGRID]
-SC,ipv4,169.239.20.0,22,allocated,
+SC,ipv4,169.239.20.0,22,allocated,[37740;SC;AS-IPTP]
 SC,ipv4,169.239.128.0,22,allocated,*
 SC,ipv4,169.239.152.0,22,allocated,*
 SC,ipv4,169.239.200.0,22,allocated,*
@@ -9160,7 +9174,7 @@ SC,ipv4,196.57.0.0,16,allocated,[37518;SC;FIBERGRID]
 SC,ipv4,196.58.0.0,16,allocated,[37518;SC;FIBERGRID]
 SC,ipv4,196.59.0.0,16,allocated,[37518;SC;FIBERGRID]
 SC,ipv4,196.61.64.0,22,allocated,*
-SC,ipv4,196.61.128.0,18,allocated,
+SC,ipv4,196.61.128.0,18,allocated,[37740;SC;AS-IPTP]
 SC,ipv4,196.196.0.0,16,allocated,[37518;SC;FIBERGRID]
 SC,ipv4,196.197.0.0,16,allocated,[37518;SC;FIBERGRID]
 SC,ipv4,196.198.0.0,16,allocated,[37518;SC;FIBERGRID]
@@ -10021,6 +10035,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.207.228.0,22,allocated,[328178;ZA;The-Computer-Hut-AS]
 ZA,ipv4,102.208.8.0,22,allocated,[329481;ZA;Lightstruck-Connect]
 ZA,ipv4,102.208.12.0,22,allocated,[328464;ZA;TCS-Wi-Fi]
 ZA,ipv4,102.208.24.0,22,allocated,[329480;ZA;Bongani-Connects]
@@ -11941,6 +11956,7 @@ NG,ipv4,102.141.233.0,24,assigned,[328332;NG;FEAP-AS]
 NG,ipv4,102.141.234.0,24,assigned,[328324;NG;FederalUniversity-AS]
 NG,ipv4,102.208.53.0,24,assigned,[329476;NG;TRADE-MODERNISATION-PROJECT-LIMITED]
 NG,ipv4,102.209.190.0,24,assigned,[329404;NG;Providusbank-PLC]
+NG,ipv4,102.209.224.0,22,assigned,[37222;NG;INTERCONNECT-]
 NG,ipv4,102.210.194.0,23,assigned,[37001;NG;GTB-AS]
 NG,ipv4,102.210.216.0,22,assigned,[329349;NG;Optimus-Bank-Limited]
 NG,ipv4,102.211.163.0,24,assigned,[329299;NG;NOVA-Merchant-Bank-LTD]
