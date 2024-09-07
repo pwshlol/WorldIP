@@ -3506,7 +3506,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.207.192.0,19,available,*
 *,ipv4,102.207.232.0,21,available,*
 *,ipv4,102.207.240.0,20,available,*
-*,ipv4,102.208.80.0,24,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -3794,7 +3793,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:b88::,29,available,*
 *,ipv6,2c0f:b90::,28,available,*
 *,ipv6,2c0f:ba0::,27,available,*
-*,ipv6,2c0f:bc0::,26,available,*
+*,ipv6,2c0f:bc1::,32,available,*
+*,ipv6,2c0f:bc2::,31,available,*
+*,ipv6,2c0f:bc4::,30,available,*
+*,ipv6,2c0f:bc8::,29,available,*
+*,ipv6,2c0f:bd0::,28,available,*
+*,ipv6,2c0f:be0::,27,available,*
 *,ipv6,2c0f:c01::,32,available,*
 *,ipv6,2c0f:c02::,31,available,*
 *,ipv6,2c0f:c04::,30,available,*
@@ -10866,6 +10870,7 @@ ZA,ipv6,2c0f:8c0::,32,allocated,*
 ZA,ipv6,2c0f:980::,32,allocated,[21739;ZA;T-SOL]
 ZA,ipv6,2c0f:a80::,32,allocated,[329036;ZA;TECL1-AS]
 ZA,ipv6,2c0f:ac0::,32,allocated,[329371;ZA;Afrieta]
+ZA,ipv6,2c0f:bc0::,32,allocated,[37225;ZA;NETWIDE]
 ZA,ipv6,2c0f:c00::,32,allocated,[328327;ZA;ASAP-AS]
 ZA,ipv6,2c0f:c40::,32,allocated,[329276;ZA;LNX-Solutions-Pty-Ltd]
 ZA,ipv6,2c0f:c80::,32,allocated,[329045;ZA;Ilitha-Infrastructure]
@@ -11609,6 +11614,7 @@ GH,ipv4,102.131.16.0,24,assigned,[328367;GH;USEmbassy-Ghana-AS]
 GH,ipv4,102.134.130.0,23,assigned,[328353;GH;MethodistUniversity-AS]
 GH,ipv4,102.135.188.0,24,assigned,[328372;GH;Etranzact-AS]
 GH,ipv4,102.164.123.0,24,assigned,[327845;GH;Sage-Petroleum]
+GH,ipv4,102.208.80.0,24,assigned,
 GH,ipv4,102.208.188.0,23,assigned,[329449;GH;Regional-Maritime-University]
 GH,ipv4,102.208.191.0,24,assigned,[329459;GH;UBA-GHANA]
 GH,ipv4,102.209.148.0,22,assigned,[329410;GH;Sunyani-Technical-University]
