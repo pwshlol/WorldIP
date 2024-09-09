@@ -1,6 +1,6 @@
 # WorldIP
 
-Last update: 2024/09/08 01:23:02 (UTC)
+Last update: 2024/09/09 01:20:16 (UTC)
 
 238 Countries in 5 regions
 
