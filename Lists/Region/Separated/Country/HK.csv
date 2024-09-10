@@ -692,7 +692,7 @@ apnic,ipv4,103.84.168.0,23,allocated,[150776;HK;GLOCELLLIMITED-AS-AP Glocell Lim
 apnic,ipv4,103.85.188.0,22,allocated,[134675;HK;HKSERVER-AS-AP 7F  TRANS ASIA CTR 18 KIN HONG ST  KWAI CHUNG HONGKONG][132839;HK;POWERLINE-AS-AP POWER LINE DATACENTER]
 apnic,ipv4,103.85.252.0,22,allocated,*
 apnic,ipv4,103.86.12.0,22,allocated,[132101;HK;UNICOM-SDN China Unicom Global][10099;HK;UNICOM-GLOBAL China Unicom Global]
-apnic,ipv4,103.86.64.0,22,allocated,[136381;HK;HKGATEWAY-ASN1 Hong Kong Gateway Limited][132721;HK;HKGATEWAY-ASN1 Hong Kong Gateway Limited]
+apnic,ipv4,103.86.64.0,22,allocated,[139638;HK;ANTBOX1-AS-AP Antbox Networks Limited][138995;HK;ANTBOX1-AS-AP Antbox Networks Limited]
 apnic,ipv4,103.86.76.0,22,allocated,[136387;HK;DEEPIDC-AS-AP Deepidc technology international co. limted]
 apnic,ipv4,103.87.156.0,22,allocated,[24345;HK;FH-HK Fasthost Limited]
 apnic,ipv4,103.87.240.0,22,allocated,[138698;CN;TLTC-AS Tianjin Longsheng Technology Co.  Ltd.][138392;HK;CTC-HK Colleagues Technology CO.  LIMITED]
@@ -1293,7 +1293,7 @@ apnic,ipv4,116.193.158.0,23,allocated,[55536;HK;PSWITCH-HK PACSWITCH IP NETWORK]
 apnic,ipv4,116.193.168.0,22,allocated,[134675;HK;HKSERVER-AS-AP 7F  TRANS ASIA CTR 18 KIN HONG ST  KWAI CHUNG HONGKONG][132839;HK;POWERLINE-AS-AP POWER LINE DATACENTER]
 apnic,ipv4,116.197.176.0,20,allocated,[24023;HK;JNPR-APAC-AS-AP Juniper Networks HK Ltd.]
 apnic,ipv4,116.204.156.0,22,allocated,*
-apnic,ipv4,116.204.176.0,22,allocated,[136381;HK;HKGATEWAY-ASN1 Hong Kong Gateway Limited][132721;HK;HKGATEWAY-ASN1 Hong Kong Gateway Limited]
+apnic,ipv4,116.204.176.0,22,allocated,[139638;HK;ANTBOX1-AS-AP Antbox Networks Limited][138995;HK;ANTBOX1-AS-AP Antbox Networks Limited]
 apnic,ipv4,116.204.232.0,22,allocated,[151468;HK;SHANGXING1-AS-AP SHANGXING TECH LIMITED][136452;HK;SHANGXING1-AS-AP SHANGXING TECH LIMITED]
 apnic,ipv4,116.204.236.0,22,allocated,[138402;HK;NETEY-AS-AP Netey Networks LLC]
 apnic,ipv4,116.204.244.0,22,allocated,[134548;HK;DXTL-HK DXTL Tseung Kwan O Service][134175;HK;SH2206-AP UNIT A17 9F SILVERCORP INTL TOWER 707-713 NATHAN RD][58658;HK;DXTL-AS-AP DXTL]
@@ -2306,7 +2306,6 @@ apnic,ipv6,2400:ee40::,32,allocated,[136472;HK;IXLINKNETLIMITED-AS-AP IXLINK.NET
 apnic,ipv6,2400:ef00::,32,allocated,[18218;HK;HKSTPC-AS-AP HK Science & Technology Parks Corporation]
 apnic,ipv6,2400:f000::,32,allocated,[17888;HK;SINGTEL-HK SingTel Hong Kong Limited]
 apnic,ipv6,2400:f100::,32,allocated,[135113;HK;SUNNYVISION-HK SunnyVision Limited][134370;HK;SUNNYVISION-HK SunnyVision Limited][131334;HK;SUNNYVISION-AS-AP SunnyVision Limited][63518;HK;SV-AS SunnyVision Limited][38478;HK;SUNNYVISION-AS-AP SunnyVision Limited][4646;HK;SUNNYVISION SunnyVision Limited]
-apnic,ipv6,2400:f3c0::,32,allocated,*
 apnic,ipv6,2400:f700::,32,allocated,[56205;HK;GONET-HK GONET COMPUNICATIONS H.K. LIMITED]
 apnic,ipv6,2400:f800::,32,allocated,[24245;HK;PACKETFABRIC-AS-AP PacketFabric Hong Kong Limited]
 apnic,ipv6,2400:f880::,32,allocated,*
@@ -2723,6 +2722,7 @@ ripencc,ipv4,45.10.208.0,22,allocated,*
 ripencc,ipv4,45.10.248.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,45.13.160.0,22,allocated,*
 ripencc,ipv4,45.15.8.0,22,allocated,[208932;HK;teleglobal Teleglobal Services Limited]
+ripencc,ipv4,45.15.255.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,45.66.188.0,22,allocated,*
 ripencc,ipv4,45.80.112.0,22,allocated,*
 ripencc,ipv4,45.81.136.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
@@ -2741,8 +2741,10 @@ ripencc,ipv4,45.90.46.0,23,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;N
 ripencc,ipv4,45.91.8.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,45.91.224.0,22,allocated,[212921;HK;HDT HDTIDC LIMITED][205960;HK;KIDC HDTIDC LIMITED]
 ripencc,ipv4,45.91.236.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
+ripencc,ipv4,45.93.12.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
+ripencc,ipv4,45.93.14.0,23,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,45.93.16.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
-ripencc,ipv4,45.93.20.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv4,45.93.20.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv4,45.93.64.0,22,allocated,*
 ripencc,ipv4,45.94.228.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,45.95.28.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
@@ -2800,6 +2802,7 @@ ripencc,ipv4,62.3.48.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NE
 ripencc,ipv4,62.3.58.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,62.192.188.0,22,allocated,*
 ripencc,ipv4,62.204.32.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
+ripencc,ipv4,62.204.41.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv4,62.204.52.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,77.72.83.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,77.72.84.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
@@ -2858,13 +2861,14 @@ ripencc,ipv4,91.212.169.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK
 ripencc,ipv4,91.213.155.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.213.230.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.223.199.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
+ripencc,ipv4,91.228.88.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.228.215.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.236.79.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.236.155.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.239.212.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.239.213.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.240.71.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
-ripencc,ipv4,91.240.118.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv4,91.240.118.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv4,91.240.254.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.242.234.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.242.254.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
@@ -2874,8 +2878,8 @@ ripencc,ipv4,91.246.62.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;
 ripencc,ipv4,91.247.169.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,91.247.170.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,92.118.144.0,22,allocated,*
-ripencc,ipv4,92.255.57.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
-ripencc,ipv4,92.255.85.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv4,92.255.57.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv4,92.255.85.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv4,93.90.72.0,23,allocated,*
 ripencc,ipv4,93.93.240.0,22,allocated,[205109;HK;DXTL-UK Dingfeng Xinhui (Hongkong) Technology Limited]
 ripencc,ipv4,93.177.76.0,22,allocated,*
@@ -2885,6 +2889,7 @@ ripencc,ipv4,94.143.230.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK
 ripencc,ipv4,94.154.188.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,95.130.224.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,95.215.57.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
+ripencc,ipv4,103.55.164.0,24,allocated,[214785;HK;INTONET369 369 IntoNet Limited]
 ripencc,ipv4,103.100.168.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,103.211.100.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv4,103.240.148.0,22,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
@@ -2923,7 +2928,7 @@ ripencc,ipv4,176.126.102.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;H
 ripencc,ipv4,178.212.78.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,178.236.40.0,21,allocated,[207190;HK;Yuhonet YUHONET INTERNATIONAL LIMITED]
 ripencc,ipv4,178.255.222.0,24,allocated,[56971;HK;AS56971 CGI GLOBAL LIMITED][56594;HK;cb-byo-ip CGI GLOBAL LIMITED]
-ripencc,ipv4,185.7.214.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv4,185.7.214.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv4,185.10.104.0,22,allocated,[199506;HK;Baidu-Global-EU Baidu (Hong Kong) Limited]
 ripencc,ipv4,185.19.202.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,185.20.4.0,24,allocated,[206922;HK;Globex-NL-AMS Globex Telecom Group Limited]
@@ -2933,7 +2938,7 @@ ripencc,ipv4,185.43.52.0,22,allocated,[202746;HK;EUROPEER-AS Europeer Ltd.]
 ripencc,ipv4,185.49.68.0,22,allocated,*
 ripencc,ipv4,185.51.164.0,22,allocated,*
 ripencc,ipv4,185.64.248.0,22,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
-ripencc,ipv4,185.81.68.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv4,185.81.68.0,24,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv4,185.94.67.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,185.109.236.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,185.109.237.0,24,allocated,[215237;HK;NEXT-AS Next Limited][50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
@@ -3171,9 +3176,9 @@ ripencc,ipv6,2a07:aec0::,29,allocated,*
 ripencc,ipv6,2a07:d940::,29,allocated,[47362;HK;NETEX-47362-AS Netex Limited][44893;HK;SI-AS Netex Limited][42375;HK;NETEX-42375-AS Netex Limited][39182;HK;NETEX-39182-AS Netex Limited][39106;HK;NETEX-39106-AS Netex Limited]
 ripencc,ipv6,2a07:f600::,29,allocated,[47362;HK;NETEX-47362-AS Netex Limited][44893;HK;SI-AS Netex Limited][42375;HK;NETEX-42375-AS Netex Limited][39182;HK;NETEX-39182-AS Netex Limited][39106;HK;NETEX-39106-AS Netex Limited]
 ripencc,ipv6,2a09:42c0::,29,allocated,[211512;HK;SCG-EU StarCloud Global Limited]
-ripencc,ipv6,2a09:4f80::,29,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv6,2a09:4f80::,29,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv6,2a0a:68c0::,32,allocated,*
-ripencc,ipv6,2a0a:a880::,29,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][57523;HK;changway-as Chang Way Technologies Co. Limited]
+ripencc,ipv6,2a0a:a880::,29,allocated,[207566;HK;LD007-AS Chang Way Technologies Co. Limited][59425;RU;HORIZONMSK-AS HORIZON LLC][57523;HK;changway-as Chang Way Technologies Co. Limited]
 ripencc,ipv6,2a0b:1f00::,29,allocated,[213221;HK;YSZ IPv4 Superhub Limited][212836;HK;AS212836 IPv4 Superhub Limited][209178;HK;IPv4Superhub IPv4 Superhub Limited]
 ripencc,ipv6,2a0b:65c0::,29,allocated,[41717;HK;TelflyNetwork Telfly Technology Limited]
 ripencc,ipv6,2a0b:d500::,29,allocated,[214937;HK;ELEVENINTERNET ELEVEN HOLDINGS LIMITED]
