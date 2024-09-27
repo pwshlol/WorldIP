@@ -3512,10 +3512,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.207.128.0,19,available,*
 *,ipv4,102.207.164.0,22,available,*
 *,ipv4,102.207.168.0,21,available,*
-*,ipv4,102.207.176.0,20,available,*
-*,ipv4,102.207.192.0,20,available,*
-*,ipv4,102.207.216.0,22,available,*
-*,ipv4,102.207.220.0,24,available,*
+*,ipv4,102.207.180.0,22,available,*
+*,ipv4,102.207.184.0,22,available,*
+*,ipv4,102.207.190.0,23,available,*
+*,ipv4,102.207.196.0,22,available,*
+*,ipv4,102.207.200.0,21,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -3871,7 +3872,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:e88::,29,available,*
 *,ipv6,2c0f:e90::,28,available,*
 *,ipv6,2c0f:ea0::,27,available,*
-*,ipv6,2c0f:ec0::,26,available,*
+*,ipv6,2c0f:ec1::,32,available,*
+*,ipv6,2c0f:ec2::,31,available,*
+*,ipv6,2c0f:ec4::,30,available,*
+*,ipv6,2c0f:ec8::,29,available,*
+*,ipv6,2c0f:ed0::,28,available,*
+*,ipv6,2c0f:ee0::,27,available,*
 *,ipv6,2c0f:f01::,32,available,*
 *,ipv6,2c0f:f02::,31,available,*
 *,ipv6,2c0f:f04::,30,available,*
@@ -6936,6 +6942,7 @@ AO,ipv4,102.36.224.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,102.64.60.0,22,allocated,[328509;AO;SpeedNet-Servicos]
 AO,ipv4,102.130.64.0,21,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv4,102.130.192.0,19,allocated,[37645;AO;ZAP-Angola]
+AO,ipv4,102.207.192.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.207.212.0,22,allocated,[328943;AO;AAS1-AS]
 AO,ipv4,102.208.92.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.208.148.0,22,allocated,[37645;AO;ZAP-Angola]
@@ -7632,6 +7639,7 @@ DZ,ipv4,41.223.236.0,22,allocated,*
 DZ,ipv4,80.88.12.0,22,allocated,[33779;DZ;wataniya-telecom-as]
 DZ,ipv4,80.246.0.0,20,allocated,[21391;DZ;TDA-AS]
 DZ,ipv4,80.249.64.0,20,allocated,[327712;DZ;ATM][36947;DZ;ALGTEL-AS][33774;DZ;DJAWEB]
+DZ,ipv4,102.207.216.0,22,allocated,
 DZ,ipv4,102.213.56.0,22,allocated,[33779;DZ;wataniya-telecom-as]
 DZ,ipv4,102.218.188.0,22,allocated,[328921;DZ;JHTA-AS]
 DZ,ipv4,102.220.28.0,22,allocated,*
@@ -8317,6 +8325,7 @@ KE,ipv6,2c0f:fe88::,32,allocated,[12556;KE;internet-solutions-ke]
 KE,ipv6,2c0f:fef8::,32,allocated,[16907;KE;ISPKENYA][15399;KE;WANANCHI-]
 KE,ipv6,2c0f:ff18::,32,allocated,[37044;KE;Tangerine-AS]
 KE,ipv6,2c0f:ff90::,32,allocated,*
+KM,ipv4,102.207.176.0,22,allocated,[328061;KM;TELCO-SA-AS]
 KM,ipv4,102.223.120.0,22,allocated,[328061;KM;TELCO-SA-AS]
 KM,ipv4,164.160.136.0,22,allocated,[328061;KM;TELCO-SA-AS]
 KM,ipv4,197.255.224.0,20,allocated,[36939;KM;ComoresTelecom]
@@ -8326,6 +8335,7 @@ LR,ipv4,41.57.80.0,20,allocated,[37410;LR;LONESTAR]
 LR,ipv4,41.86.0.0,19,allocated,[37203;LR;LIBTELCO]
 LR,ipv4,41.191.104.0,22,allocated,[37094;LR;OrangeLiberia]
 LR,ipv4,102.36.184.0,22,allocated,[328549;LR;Sahel-Telecom]
+LR,ipv4,102.207.188.0,23,allocated,
 LR,ipv4,102.210.76.0,22,allocated,[328196;LR;POWERNET]
 LR,ipv4,102.214.136.0,22,allocated,[37094;LR;OrangeLiberia]
 LR,ipv4,102.215.52.0,22,allocated,[329082;LR;CSLL1-AS]
@@ -10948,6 +10958,7 @@ ZA,ipv6,2c0f:c80::,32,allocated,[329045;ZA;Ilitha-Infrastructure]
 ZA,ipv6,2c0f:d00::,32,allocated,[328872;ZA;Sonke-Tel-AS]
 ZA,ipv6,2c0f:e40::,32,allocated,[329284;ZA;Invisible-Waves]
 ZA,ipv6,2c0f:e80::,32,allocated,[329047;ZA;PD1-AS]
+ZA,ipv6,2c0f:ec0::,32,allocated,[329222;ZA;Ndende-Technologies]
 ZA,ipv6,2c0f:f40::,32,allocated,[329289;ZA;Novasys-IT-Pty-Ltd]
 ZA,ipv6,2c0f:f80::,32,allocated,[329153;ZA;SWDconnect-AS]
 ZA,ipv6,2001:4200::,32,allocated,[6149;ZA;TENET-2][2018;ZA;TENET-1][1232;ZA;UNINET-ASNBLOCK][1231;ZA;UNINET-ASNBLOCK][1230;ZA;UNINET-ASNBLOCK][1229;ZA;UNINET-ASNBLOCK][1228;ZA;UNINET-ASNBLOCK]
@@ -12262,6 +12273,7 @@ TZ,ipv4,102.23.218.0,23,assigned,[328557;TZ;DIAMOND-TRUST-BANK-TANZANIA-AS]
 TZ,ipv4,102.68.64.0,22,assigned,[328478;TZ;Exim-Bank-TZ-AS]
 TZ,ipv4,102.68.71.0,24,assigned,[328504;TZ;National-Identification-Authority-AS]
 TZ,ipv4,102.165.191.0,24,assigned,[37045;TZ;tznic]
+TZ,ipv4,102.207.220.0,24,assigned,
 TZ,ipv4,102.209.88.0,23,assigned,[329420;TZ;Azania-Bank]
 TZ,ipv4,102.211.120.0,24,assigned,[329304;TZ;THE-TRUSTEES-OF-THE-TANZANIA-NATIONAL-PARKS]
 TZ,ipv4,102.212.82.0,23,assigned,[329251;TZ;NATIONAL-BANK-OF-COMMERCE-LIMITED]
