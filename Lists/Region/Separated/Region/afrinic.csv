@@ -179,7 +179,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.218.248.0,22,reserved,*
 *,ipv4,102.219.4.0,22,reserved,*
 *,ipv4,102.219.36.0,22,reserved,*
-*,ipv4,102.219.104.0,22,reserved,*
 *,ipv4,102.219.128.0,22,reserved,*
 *,ipv4,102.219.212.0,22,reserved,*
 *,ipv4,102.219.244.0,22,reserved,*
@@ -3510,7 +3509,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.206.0.0,16,available,*
 *,ipv4,102.207.0.0,17,available,*
 *,ipv4,102.207.128.0,20,available,*
-*,ipv4,102.207.144.0,23,available,*
 *,ipv4,102.207.164.0,22,available,*
 *,ipv4,102.207.168.0,21,available,*
 *,ipv4,102.207.190.0,24,available,*
@@ -3895,7 +3893,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:f88::,29,available,*
 *,ipv6,2c0f:f90::,28,available,*
 *,ipv6,2c0f:fa0::,27,available,*
-*,ipv6,2c0f:fc0::,26,available,*
+*,ipv6,2c0f:fc1::,32,available,*
+*,ipv6,2c0f:fc2::,31,available,*
+*,ipv6,2c0f:fc4::,30,available,*
+*,ipv6,2c0f:fc8::,29,available,*
+*,ipv6,2c0f:fd0::,28,available,*
+*,ipv6,2c0f:fe0::,27,available,*
 *,ipv6,2001:4208::,29,available,*
 *,ipv6,2001:4230::,29,available,*
 *,ipv6,2001:4280::,29,available,*
@@ -5207,7 +5210,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4f88::,29,available,*
 *,ipv6,2c0f:4f90::,28,available,*
 *,ipv6,2c0f:4fa0::,27,available,*
-*,ipv6,2c0f:4fc0::,26,available,*
+*,ipv6,2c0f:4fc1::,32,available,*
+*,ipv6,2c0f:4fc2::,31,available,*
+*,ipv6,2c0f:4fc4::,30,available,*
+*,ipv6,2c0f:4fc8::,29,available,*
+*,ipv6,2c0f:4fd0::,28,available,*
+*,ipv6,2c0f:4fe0::,27,available,*
 *,ipv6,2c0f:5001::,32,available,*
 *,ipv6,2c0f:5002::,31,available,*
 *,ipv6,2c0f:5004::,30,available,*
@@ -7238,6 +7246,7 @@ CD,ipv4,102.68.56.0,21,allocated,[328442;CD;UNITED-SA][37799;CD;ACIX-Peering]
 CD,ipv4,102.68.152.0,22,allocated,[328443;CD;Societe-Datco-AS]
 CD,ipv4,102.69.180.0,22,allocated,[328445;CD;UNLIMITED-SARL-AS]
 CD,ipv4,102.135.176.0,21,allocated,[328344;CD;STETechplus-AS]
+CD,ipv4,102.207.144.0,23,allocated,
 CD,ipv4,102.207.248.0,23,allocated,[329489;CD;Castor-Networks]
 CD,ipv4,102.208.120.0,22,allocated,[329430;CD;GVA_RDC]
 CD,ipv4,102.209.212.0,22,allocated,[37453;CD;VODACOM-CONGO]
@@ -7275,6 +7284,7 @@ CD,ipv4,197.189.0.0,17,allocated,[37598;CD;Ebale]
 CD,ipv4,197.215.220.0,22,allocated,[327870;CD;GBS-DRC]
 CD,ipv4,197.231.252.0,22,allocated,[327797;CD;COWS][37571;CD;ITM-DRC]
 CD,ipv6,2c0f:e00::,28,allocated,[329430;CD;GVA_RDC]
+CD,ipv6,2c0f:fc0::,32,allocated,
 CD,ipv6,2c0f:4400::,32,allocated,[37020;CD;CELTEL-DRC]
 CD,ipv6,2c0f:6340::,32,allocated,[329362;CD;Ministere-du-Numerique]
 CD,ipv6,2c0f:6580::,32,allocated,[37414;CD;Microcom-Sprl]
@@ -7886,6 +7896,7 @@ GH,ipv4,102.216.39.0,24,allocated,[329066;GH;DTL5-AS]
 GH,ipv4,102.216.212.0,23,allocated,[329009;GH;Spectrum-Internet-Service-AS]
 GH,ipv4,102.217.148.0,22,allocated,[328984;GH;RL4-AS]
 GH,ipv4,102.219.32.0,22,allocated,[328887;GH;BluetownGhana-AS]
+GH,ipv4,102.219.104.0,22,allocated,[328891;ZZ;-Reserved AS-]
 GH,ipv4,102.220.223.0,24,allocated,[328842;GH;Prodata-AS]
 GH,ipv4,102.221.28.0,22,allocated,[328797;GH;BL26-AS]
 GH,ipv4,102.221.228.0,22,allocated,[328717;GH;Tizeti-Network-Ghana]
@@ -9590,7 +9601,7 @@ TZ,ipv4,45.221.192.0,21,allocated,[36909;TZ;HABARI-CO-TZ-AS]
 TZ,ipv4,102.64.64.0,21,allocated,[328514;TZ;Net-Solutions]
 TZ,ipv4,102.69.164.0,22,allocated,[328436;TZ;Flashnet-Technologies-Limited]
 TZ,ipv4,102.177.80.0,21,allocated,[327900;TZ;SIMPLYCONNECT-Simply-Computers]
-TZ,ipv4,102.207.146.0,23,allocated,
+TZ,ipv4,102.207.146.0,23,allocated,[329499;TZ;AIBRA-GROUP-LIMITED]
 TZ,ipv4,102.207.232.0,22,allocated,[329488;TZ;Dodoma-FiberCo]
 TZ,ipv4,102.208.76.0,22,allocated,[329466;TZ;Bongo-Live-Enterprise-Ltd]
 TZ,ipv4,102.208.152.0,22,allocated,*
@@ -11068,6 +11079,7 @@ ZA,ipv6,2c0f:4dc0::,32,allocated,[328963;ZA;WOW]
 ZA,ipv6,2c0f:4f00::,32,allocated,[328961;ZA;NET99]
 ZA,ipv6,2c0f:4f40::,32,allocated,*
 ZA,ipv6,2c0f:4f80::,32,allocated,[328464;ZA;TCS-Wi-Fi]
+ZA,ipv6,2c0f:4fc0::,32,allocated,[328214;ZA;Bioniq-Ltd-AS]
 ZA,ipv6,2c0f:5000::,32,allocated,[328745;ZA;Urban-Wave-Internet-Solutions]
 ZA,ipv6,2c0f:5080::,32,allocated,[329053;ZA;QCL1-AS]
 ZA,ipv6,2c0f:5100::,32,allocated,[328884;ZA;BIBS-AS]
