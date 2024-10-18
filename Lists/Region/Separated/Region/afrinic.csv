@@ -3511,9 +3511,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,15,available,*
 *,ipv4,102.206.0.0,16,available,*
-*,ipv4,102.207.0.0,17,available,*
-*,ipv4,102.207.140.0,23,available,*
-*,ipv4,102.207.164.0,22,available,*
+*,ipv4,102.207.0.0,18,available,*
+*,ipv4,102.207.64.0,19,available,*
+*,ipv4,102.207.96.0,20,available,*
+*,ipv4,102.207.112.0,21,available,*
+*,ipv4,102.207.120.0,22,available,*
+*,ipv4,102.207.140.0,24,available,*
 *,ipv4,102.207.168.0,21,available,*
 *,ipv4,102.207.190.0,24,available,*
 *,ipv4,102.207.196.0,22,available,*
@@ -6242,7 +6245,17 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fe:100::,40,available,*
 *,ipv6,2001:43fe:200::,39,available,*
 *,ipv6,2001:43fe:400::,38,available,*
-*,ipv6,2001:43fe:800::,37,available,*
+*,ipv6,2001:43fe:801::,48,available,*
+*,ipv6,2001:43fe:802::,47,available,*
+*,ipv6,2001:43fe:804::,46,available,*
+*,ipv6,2001:43fe:808::,45,available,*
+*,ipv6,2001:43fe:810::,44,available,*
+*,ipv6,2001:43fe:820::,43,available,*
+*,ipv6,2001:43fe:840::,42,available,*
+*,ipv6,2001:43fe:880::,41,available,*
+*,ipv6,2001:43fe:900::,40,available,*
+*,ipv6,2001:43fe:a00::,39,available,*
+*,ipv6,2001:43fe:c00::,38,available,*
 *,ipv6,2001:43ff:100::,40,available,*
 *,ipv6,2001:43ff:200::,39,available,*
 *,ipv6,2001:43ff:400::,38,available,*
@@ -8098,6 +8111,7 @@ KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
 KE,ipv4,102.207.148.0,22,allocated,[37684;KE;ANGANI-AS]
 KE,ipv4,102.207.160.0,22,allocated,[328977;KE;WAVEX]
+KE,ipv4,102.207.164.0,22,allocated,[328977;KE;WAVEX]
 KE,ipv4,102.207.191.0,24,allocated,[329497;KE;AVITECH_CLOUD_SERVICES]
 KE,ipv4,102.207.222.0,24,allocated,[329492;KE;Telenet-Solutions]
 KE,ipv4,102.208.0.0,22,allocated,[328977;KE;WAVEX]
@@ -10166,7 +10180,8 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
-ZA,ipv4,102.207.142.0,24,allocated,
+ZA,ipv4,102.207.124.0,22,allocated,[329081;ZA;CENTRACOM-2][329080;ZA;CENTRACOM-2][327791;ZA;Centracom]
+ZA,ipv4,102.207.142.0,24,allocated,[329505;ZA;FLICKSWITCH-PROPRIETARY-LIMITED]
 ZA,ipv4,102.207.143.0,24,allocated,[329502;ZA;INDEPENDENT-MONITORING-SERVICES-PTY-LTD]
 ZA,ipv4,102.207.180.0,22,allocated,[328638;ZA;LETABANETWORKS]
 ZA,ipv4,102.207.184.0,22,allocated,[327966;ZA;FJ-Wiese-CC]
@@ -11828,7 +11843,7 @@ GH,ipv6,2001:43ff:7000::,48,assigned,[329449;GH;Regional-Maritime-University]
 GM,ipv4,196.49.1.0,24,assigned,[327719;GM;sixp][37698;GM;Serekunda-IXP]
 GM,ipv4,196.223.34.0,24,assigned,[327719;GM;sixp][37698;GM;Serekunda-IXP]
 GM,ipv6,2001:43f8:970::,48,assigned,[327719;GM;sixp][37698;GM;Serekunda-IXP]
-GN,ipv4,102.208.222.0,24,assigned,*
+GN,ipv4,102.208.222.0,24,assigned,
 GN,ipv4,196.41.90.0,24,assigned,[328107;GN;GUILAB-AS]
 GN,ipv4,196.49.40.0,24,assigned,[328398;GN;Guinee-CONAKRY-IXP-AS][328108;GN;Guinee-IXP-AS-Mgmt][37784;GN;Guinee-CONAKRY-IXP-AS][37067;GN;Guinee-IXP-AS]
 GN,ipv4,196.49.64.0,24,assigned,[328398;GN;Guinee-CONAKRY-IXP-AS][328108;GN;Guinee-IXP-AS-Mgmt][37784;GN;Guinee-CONAKRY-IXP-AS][37067;GN;Guinee-IXP-AS]
@@ -12221,6 +12236,7 @@ NG,ipv6,2001:43fc:c000::,48,assigned,[328905;NG;NCC-AS]
 NG,ipv6,2001:43fd:6000::,40,assigned,[329083;NG;WTSO1-AS]
 NG,ipv6,2001:43fe:1000::,44,assigned,[37426;NG;Amcon]
 RW,ipv4,102.130.32.0,21,assigned,[328385;RW;RRA-AS]
+RW,ipv4,102.207.141.0,24,assigned,
 RW,ipv4,102.209.168.0,22,assigned,[329406;RW;RWANDA-SOCIAL-SECURITY-BOARD-RSSB]
 RW,ipv4,102.213.212.0,23,assigned,[329189;RW;Rwanda-Development-Board]
 RW,ipv4,102.214.220.0,23,assigned,[329146;RW;EBRP1-AS]
@@ -12231,6 +12247,7 @@ RW,ipv4,196.49.7.0,24,assigned,[328014;RW;RINEX][37224;RW;RINEX]
 RW,ipv4,196.223.12.0,24,assigned,[328014;RW;RINEX][37224;RW;RINEX]
 RW,ipv6,2001:43f8:150::,48,assigned,[328014;RW;RINEX][37224;RW;RINEX]
 RW,ipv6,2001:43f8:d80::,48,assigned,[328180;RW;Bank-Of-Kigali-AS]
+RW,ipv6,2001:43fe:800::,48,assigned,
 RW,ipv6,2001:43f8:11e0::,48,assigned,[328385;RW;RRA-AS]
 RW,ipv6,2001:43fc:7000::,48,assigned,[329406;RW;RWANDA-SOCIAL-SECURITY-BOARD-RSSB]
 RW,ipv6,2001:43fc:9000::,48,assigned,[329189;RW;Rwanda-Development-Board]
@@ -12270,15 +12287,15 @@ SN,ipv4,196.1.98.0,24,assigned,*
 SN,ipv4,196.1.99.0,24,assigned,*
 SN,ipv4,196.1.100.0,24,assigned,*
 SN,ipv4,196.49.42.0,24,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
-SN,ipv4,196.49.108.0,24,assigned,[37803;ZZ;-Reserved AS-]
+SN,ipv4,196.49.108.0,24,assigned,[37803;ZZ;HUBSIX-Peering]
 SN,ipv4,196.60.40.0,24,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
-SN,ipv4,196.60.252.0,24,assigned,[37803;ZZ;-Reserved AS-]
+SN,ipv4,196.60.252.0,24,assigned,[37803;ZZ;HUBSIX-Peering]
 SN,ipv4,196.223.252.0,24,assigned,*
 SN,ipv6,2001:43f8:cf0::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
 SN,ipv6,2001:43f8:cf1::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
 SN,ipv6,2001:43f8:1400::,48,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE-AS]
-SN,ipv6,2001:43f8:1750::,48,assigned,[37803;ZZ;-Reserved AS-]
-SN,ipv6,2001:43f8:1751::,48,assigned,[37803;ZZ;-Reserved AS-]
+SN,ipv6,2001:43f8:1750::,48,assigned,[37803;ZZ;HUBSIX-Peering]
+SN,ipv6,2001:43f8:1751::,48,assigned,[37803;ZZ;HUBSIX-Peering]
 SN,ipv6,2001:43f8:17a0::,48,assigned,[329398;SN;ESMT]
 SN,ipv6,2001:43fe:7000::,48,assigned,[329407;SN;UCAD1]
 SO,ipv4,102.68.144.0,21,assigned,[328435;SO;Economic-Strategic-Research-Center-AS]
