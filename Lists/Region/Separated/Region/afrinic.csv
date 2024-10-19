@@ -3515,7 +3515,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.207.64.0,19,available,*
 *,ipv4,102.207.96.0,20,available,*
 *,ipv4,102.207.112.0,21,available,*
-*,ipv4,102.207.120.0,22,available,*
 *,ipv4,102.207.140.0,24,available,*
 *,ipv4,102.207.168.0,21,available,*
 *,ipv4,102.207.190.0,24,available,*
@@ -5275,7 +5274,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:5188::,29,available,*
 *,ipv6,2c0f:5190::,28,available,*
 *,ipv6,2c0f:51a0::,27,available,*
-*,ipv6,2c0f:51c0::,26,available,*
+*,ipv6,2c0f:51c1::,32,available,*
+*,ipv6,2c0f:51c2::,31,available,*
+*,ipv6,2c0f:51c4::,30,available,*
+*,ipv6,2c0f:51c8::,29,available,*
+*,ipv6,2c0f:51d0::,28,available,*
+*,ipv6,2c0f:51e0::,27,available,*
 *,ipv6,2c0f:5201::,32,available,*
 *,ipv6,2c0f:5202::,31,available,*
 *,ipv6,2c0f:5204::,30,available,*
@@ -6985,7 +6989,7 @@ AO,ipv4,102.36.224.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,102.64.60.0,22,allocated,[328509;AO;SpeedNet-Servicos]
 AO,ipv4,102.130.64.0,21,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv4,102.130.192.0,19,allocated,[37645;AO;ZAP-Angola]
-AO,ipv4,102.207.128.0,22,allocated,
+AO,ipv4,102.207.128.0,22,allocated,[329506;AO;MSBYTE-SOLUTION]
 AO,ipv4,102.207.192.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.207.212.0,22,allocated,[328943;AO;AAS1-AS]
 AO,ipv4,102.208.92.0,22,allocated,[37645;AO;ZAP-Angola]
@@ -7071,7 +7075,7 @@ AO,ipv4,197.216.0.0,15,allocated,[37059;AO;SUPERNET-][11259;AO;ANGOLATELECOM]
 AO,ipv4,197.241.128.0,17,allocated,[37081;AO;movicel-as]
 AO,ipv6,2c0f:300::,32,allocated,[328943;AO;AAS1-AS]
 AO,ipv6,2001:4250::,32,allocated,[17400;AO;EBONET]
-AO,ipv6,2c0f:11c0::,32,allocated,
+AO,ipv6,2c0f:11c0::,32,allocated,[329506;AO;MSBYTE-SOLUTION]
 AO,ipv6,2c0f:1a00::,32,allocated,[37603;AO;GameZone-AS]
 AO,ipv6,2c0f:1c80::,32,allocated,[329065;AO;STSL2-AS]
 AO,ipv6,2c0f:2700::,32,allocated,[328979;AO;NPDS-AS]
@@ -10180,6 +10184,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.207.120.0,22,allocated,
 ZA,ipv4,102.207.124.0,22,allocated,[329081;ZA;CENTRACOM-2][329080;ZA;CENTRACOM-2][327791;ZA;Centracom]
 ZA,ipv4,102.207.142.0,24,allocated,[329505;ZA;FLICKSWITCH-PROPRIETARY-LIMITED]
 ZA,ipv4,102.207.143.0,24,allocated,[329502;ZA;INDEPENDENT-MONITORING-SERVICES-PTY-LTD]
@@ -11125,6 +11130,7 @@ ZA,ipv6,2c0f:5000::,32,allocated,[328745;ZA;Urban-Wave-Internet-Solutions]
 ZA,ipv6,2c0f:5080::,32,allocated,[329053;ZA;QCL1-AS]
 ZA,ipv6,2c0f:5100::,32,allocated,[328884;ZA;BIBS-AS]
 ZA,ipv6,2c0f:5180::,32,allocated,[328422;ZA;FFG-Connection]
+ZA,ipv6,2c0f:51c0::,32,allocated,
 ZA,ipv6,2c0f:5200::,32,allocated,[328822;ZA;YT-as]
 ZA,ipv6,2c0f:5240::,32,allocated,[328917;ZA;SONIC]
 ZA,ipv6,2c0f:5440::,32,allocated,[329305;ZA;GLOBAL-CLOUD-INFRASTRUCTURE-SOLUTIONS]
@@ -12287,15 +12293,15 @@ SN,ipv4,196.1.98.0,24,assigned,*
 SN,ipv4,196.1.99.0,24,assigned,*
 SN,ipv4,196.1.100.0,24,assigned,*
 SN,ipv4,196.49.42.0,24,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
-SN,ipv4,196.49.108.0,24,assigned,[37803;ZZ;HUBSIX-Peering]
+SN,ipv4,196.49.108.0,24,assigned,[329507;SN;HUBSIX-MGMT][37803;SN;HUBSIX-Peering]
 SN,ipv4,196.60.40.0,24,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
-SN,ipv4,196.60.252.0,24,assigned,[37803;ZZ;HUBSIX-Peering]
+SN,ipv4,196.60.252.0,24,assigned,[329507;SN;HUBSIX-MGMT][37803;SN;HUBSIX-Peering]
 SN,ipv4,196.223.252.0,24,assigned,*
 SN,ipv6,2001:43f8:cf0::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
 SN,ipv6,2001:43f8:cf1::,48,assigned,[328148;SN;ADIE-AS][328147;SN;SENIX-MGMT-AS][37773;SN;SENIX-PEERING-AS]
 SN,ipv6,2001:43f8:1400::,48,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE-AS]
-SN,ipv6,2001:43f8:1750::,48,assigned,[37803;ZZ;HUBSIX-Peering]
-SN,ipv6,2001:43f8:1751::,48,assigned,[37803;ZZ;HUBSIX-Peering]
+SN,ipv6,2001:43f8:1750::,48,assigned,[329507;SN;HUBSIX-MGMT][37803;SN;HUBSIX-Peering]
+SN,ipv6,2001:43f8:1751::,48,assigned,[329507;SN;HUBSIX-MGMT][37803;SN;HUBSIX-Peering]
 SN,ipv6,2001:43f8:17a0::,48,assigned,[329398;SN;ESMT]
 SN,ipv6,2001:43fe:7000::,48,assigned,[329407;SN;UCAD1]
 SO,ipv4,102.68.144.0,21,assigned,[328435;SO;Economic-Strategic-Research-Center-AS]
