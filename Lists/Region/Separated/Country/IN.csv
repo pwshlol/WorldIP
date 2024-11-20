@@ -302,7 +302,6 @@ apnic,ipv4,45.120.92.0,22,allocated,*
 apnic,ipv4,45.120.120.0,22,allocated,*
 apnic,ipv4,45.120.136.0,22,allocated,[132335;IN;LEAPSWITCH-IN-AS-AP LEAPSWITCH NETWORKS PRIVATE LIMITED]
 apnic,ipv4,45.120.172.0,22,allocated,[24109;IN;WNSNET WNS Global Services]
-apnic,ipv4,45.120.188.0,22,allocated,[135272;IN;ARIDENW-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED][134352;IN;ARIDEIDC-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED]
 apnic,ipv4,45.120.212.0,22,allocated,*
 apnic,ipv4,45.120.232.0,21,allocated,*
 apnic,ipv4,45.120.248.0,22,allocated,*
@@ -885,7 +884,8 @@ apnic,ipv4,103.60.186.0,23,allocated,*
 apnic,ipv4,103.60.196.0,22,allocated,*
 apnic,ipv4,103.60.219.0,24,allocated,*
 apnic,ipv4,103.60.244.0,22,allocated,[24109;IN;WNSNET WNS Global Services]
-apnic,ipv4,103.61.12.0,22,allocated,[135272;IN;ARIDENW-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED][134352;IN;ARIDEIDC-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED]
+apnic,ipv4,103.61.12.0,24,allocated,[135272;IN;ARIDENW-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED][134352;IN;ARIDEIDC-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED]
+apnic,ipv4,103.61.15.0,24,allocated,[135272;IN;ARIDENW-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED][134352;IN;ARIDEIDC-AS-AP ARIDE OCEAN INFOWAY PRIVATE LIMITED]
 apnic,ipv4,103.61.32.0,22,allocated,*
 apnic,ipv4,103.61.52.0,22,allocated,*
 apnic,ipv4,103.61.56.0,22,allocated,*
@@ -2832,10 +2832,12 @@ apnic,ipv4,110.50.32.0,19,allocated,[17648;IN;HECL-AS Hughes Communications Indi
 apnic,ipv4,110.76.160.0,20,allocated,[45742;IN;CYIENT-IN Cyient Limited]
 apnic,ipv4,110.172.16.0,21,allocated,[38207;IN;RAJESHDIGITAL-IN-TRANSIT-AS-AP RAJESH DIGITAL & DATACOM PRIVATE LIMITED]
 apnic,ipv4,110.172.52.0,22,allocated,*
-apnic,ipv4,110.172.128.0,20,allocated,*
+apnic,ipv4,110.172.128.0,22,allocated,*
+apnic,ipv4,110.172.132.0,24,allocated,*
+apnic,ipv4,110.172.134.0,23,allocated,*
+apnic,ipv4,110.172.136.0,21,allocated,*
 apnic,ipv4,110.172.144.0,23,allocated,*
 apnic,ipv4,110.172.147.0,24,allocated,*
-apnic,ipv4,110.172.149.0,24,allocated,*
 apnic,ipv4,110.172.150.0,23,allocated,*
 apnic,ipv4,110.172.152.0,21,allocated,*
 apnic,ipv4,110.172.160.0,20,allocated,*
@@ -2928,7 +2930,8 @@ apnic,ipv4,114.69.224.0,23,allocated,*
 apnic,ipv4,114.69.226.0,24,allocated,*
 apnic,ipv4,114.69.228.0,22,allocated,*
 apnic,ipv4,114.69.232.0,22,allocated,*
-apnic,ipv4,114.69.240.0,22,allocated,*
+apnic,ipv4,114.69.240.0,24,allocated,*
+apnic,ipv4,114.69.242.0,23,allocated,*
 apnic,ipv4,114.69.248.0,21,allocated,*
 apnic,ipv4,114.79.128.0,18,allocated,*
 apnic,ipv4,114.79.192.0,18,allocated,*
@@ -3375,6 +3378,7 @@ apnic,ipv4,160.238.72.0,22,allocated,*
 apnic,ipv4,160.238.76.0,22,allocated,*
 apnic,ipv4,160.238.88.0,22,allocated,*
 apnic,ipv4,160.238.92.0,22,allocated,*
+apnic,ipv4,160.250.28.0,23,allocated,*
 apnic,ipv4,161.118.0.0,16,allocated,[136025;US;ORACLE-AS-AP Oracle Corporation][38538;IN;ORACLE-BANGALORE-AS-AP Oracle India Developement Centre.][24185;IN;ORACLEV6-OFSS-1 Oracle Corporation][23885;JP;ORACLEV6-AS-AP Oracle Corporation]
 apnic,ipv4,162.56.0.0,16,allocated,[17972;HK;BANKOFAMERICA-ATG-HK Bank of America N.A.][7646;HK;BANKOFAMERICA-ATG-HK Bank of America N.A.]
 apnic,ipv4,162.216.140.0,22,allocated,*
@@ -4426,6 +4430,7 @@ apnic,ipv6,2401:d4e0::,32,allocated,[153393;IN;RACKVOLT-AS-AP RACKVOLT CLOUD SOL
 apnic,ipv6,2401:d5a0::,32,allocated,*
 apnic,ipv6,2401:d5e0::,32,allocated,*
 apnic,ipv6,2401:d660::,32,allocated,*
+apnic,ipv6,2401:d8a0::,32,allocated,*
 apnic,ipv6,2401:dc00::,32,allocated,*
 apnic,ipv6,2401:df80::,32,allocated,*
 apnic,ipv6,2401:e500::,32,allocated,*
@@ -9901,7 +9906,6 @@ apnic,ipv6,2001:df0:4900::,48,assigned,*
 apnic,ipv6,2001:df0:4940::,48,assigned,*
 apnic,ipv6,2001:df0:4b40::,48,assigned,*
 apnic,ipv6,2001:df0:4ec0::,48,assigned,[141464;IN;SHAREKHANLIMITED-AS-AP Sharekhan Limited]
-apnic,ipv6,2001:df0:5000::,48,assigned,[58984;IN;DKPL-IN DIGITAL KITES PRIVATE LIMITED]
 apnic,ipv6,2001:df0:5040::,48,assigned,*
 apnic,ipv6,2001:df0:51c0::,48,assigned,*
 apnic,ipv6,2001:df0:5200::,48,assigned,*
