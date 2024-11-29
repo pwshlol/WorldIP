@@ -3509,8 +3509,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,15,available,*
 *,ipv4,102.206.0.0,16,available,*
-*,ipv4,102.207.0.0,19,available,*
-*,ipv4,102.207.32.0,22,available,*
+*,ipv4,102.207.0.0,21,available,*
+*,ipv4,102.207.12.0,22,available,*
+*,ipv4,102.207.16.0,21,available,*
+*,ipv4,102.207.28.0,22,available,*
 *,ipv4,102.207.48.0,23,available,*
 *,ipv4,102.207.56.0,21,available,*
 *,ipv4,102.207.80.0,22,available,*
@@ -6341,7 +6343,17 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fc:2100::,40,available,*
 *,ipv6,2001:43fc:2200::,39,available,*
 *,ipv6,2001:43fc:2400::,38,available,*
-*,ipv6,2001:43fc:2800::,37,available,*
+*,ipv6,2001:43fc:2801::,48,available,*
+*,ipv6,2001:43fc:2802::,47,available,*
+*,ipv6,2001:43fc:2804::,46,available,*
+*,ipv6,2001:43fc:2808::,45,available,*
+*,ipv6,2001:43fc:2810::,44,available,*
+*,ipv6,2001:43fc:2820::,43,available,*
+*,ipv6,2001:43fc:2840::,42,available,*
+*,ipv6,2001:43fc:2880::,41,available,*
+*,ipv6,2001:43fc:2900::,40,available,*
+*,ipv6,2001:43fc:2a00::,39,available,*
+*,ipv6,2001:43fc:2c00::,38,available,*
 *,ipv6,2001:43fc:3001::,48,available,*
 *,ipv6,2001:43fc:3002::,47,available,*
 *,ipv6,2001:43fc:3004::,46,available,*
@@ -7492,6 +7504,7 @@ CI,ipv4,102.67.192.0,18,allocated,[36924;CI;GVA-Canalbox]
 CI,ipv4,102.130.224.0,21,allocated,[328406;CI;MainOne-CI-AS]
 CI,ipv4,102.135.184.0,22,allocated,[328903;CI;RITER]
 CI,ipv4,102.136.0.0,14,allocated,[36995;CI;MTN-][36974;CI;MTNCI-AS]
+CI,ipv4,102.207.8.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.208.128.0,22,allocated,[37190;CI;ATLANTIQUE-TELECOM-]
 CI,ipv4,102.208.172.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.209.216.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
@@ -8565,6 +8578,7 @@ MA,ipv4,102.68.8.0,22,allocated,[328577;MA;Enterprise-Services]
 MA,ipv4,102.72.0.0,13,allocated,[36956;MA;MT-MPLS][36903;MA;MT-MPLS][6713;MA;IAM-AS]
 MA,ipv4,102.96.0.0,13,allocated,[36925;MA;ASMedi]
 MA,ipv4,102.135.248.0,22,allocated,*
+MA,ipv4,102.207.32.0,22,allocated,[30983;MA;MARWAN-AS]
 MA,ipv4,102.208.100.0,22,allocated,[329461;MA;Maroc-Datacenter-MDC]
 MA,ipv4,102.210.92.0,22,allocated,[329337;MA;Cas-ix-mgmnt][328055;MA;N-PLUS-ONE-AS][37787;MA;CAS-IX]
 MA,ipv4,102.210.212.0,22,allocated,[37738;MA;HOSTOWEB]
@@ -11756,6 +11770,7 @@ EG,ipv4,102.69.149.0,24,assigned,[328430;EG;Fawry-Banking-Electronic-Payment-AS]
 EG,ipv4,102.69.150.0,24,assigned,[328484;EG;TBE-Egypt-AS]
 EG,ipv4,102.164.114.0,23,assigned,[36978;EG;EFG]
 EG,ipv4,102.164.122.0,24,assigned,[328308;EG;Azurde-Jewelry-AS]
+EG,ipv4,102.207.24.0,22,assigned,
 EG,ipv4,102.209.24.0,22,assigned,[329431;EG;Redsea-Sahara-Travel]
 EG,ipv4,102.209.238.0,24,assigned,[329397;EG;GlobeMed]
 EG,ipv4,102.210.188.0,23,assigned,[329359;EG;Agility-Infrastructure]
@@ -11812,6 +11827,7 @@ EG,ipv6,2001:43f8:40::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:41::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:2e0::,48,assigned,[37348;EG;CAC]
 EG,ipv6,2001:43f8:c50::,48,assigned,[37003;EG;Xceed-as]
+EG,ipv6,2001:43fc:2800::,48,assigned,
 ET,ipv4,102.211.105.0,24,assigned,[329327;ET;Bank-of-Abyssinia-Share-Company]
 ET,ipv4,102.212.10.0,24,assigned,[329265;ET;CBOE3-AS]
 ET,ipv4,196.49.98.0,24,assigned,[329226;ET;AddIX-IXP-MGMT][37798;ET;AddIX-IXP-Peering]
