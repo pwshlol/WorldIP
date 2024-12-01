@@ -4085,7 +4085,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:1688::,29,available,*
 *,ipv6,2c0f:1690::,28,available,*
 *,ipv6,2c0f:16a0::,27,available,*
-*,ipv6,2c0f:16c0::,26,available,*
+*,ipv6,2c0f:16c1::,32,available,*
+*,ipv6,2c0f:16c2::,31,available,*
+*,ipv6,2c0f:16c4::,30,available,*
+*,ipv6,2c0f:16c8::,29,available,*
+*,ipv6,2c0f:16d0::,28,available,*
+*,ipv6,2c0f:16e0::,27,available,*
 *,ipv6,2c0f:1701::,32,available,*
 *,ipv6,2c0f:1702::,31,available,*
 *,ipv6,2c0f:1704::,30,available,*
@@ -11540,6 +11545,7 @@ ZM,ipv4,196.46.192.0,19,allocated,[7420;ZM;ZAMNET-AS]
 ZM,ipv4,197.212.0.0,15,allocated,[37287;ZM;ZAIN-ZAMBIA]
 ZM,ipv4,197.220.0.0,19,allocated,[36959;ZM;afczas]
 ZM,ipv4,197.231.244.0,22,allocated,[37569;ZM;Roke_Zambia_ASN]
+ZM,ipv6,2c0f:16c0::,32,allocated,[328427;ZM;AirLink-Broadband-AS]
 ZM,ipv6,2c0f:e9c0::,32,allocated,*
 ZM,ipv6,2c0f:f670::,32,allocated,[37532;ZM;ZAMREN]
 ZM,ipv6,2c0f:f938::,32,allocated,[37569;ZM;Roke_Zambia_ASN]
@@ -11770,7 +11776,7 @@ EG,ipv4,102.69.149.0,24,assigned,[328430;EG;Fawry-Banking-Electronic-Payment-AS]
 EG,ipv4,102.69.150.0,24,assigned,[328484;EG;TBE-Egypt-AS]
 EG,ipv4,102.164.114.0,23,assigned,[36978;EG;EFG]
 EG,ipv4,102.164.122.0,24,assigned,[328308;EG;Azurde-Jewelry-AS]
-EG,ipv4,102.207.24.0,22,assigned,
+EG,ipv4,102.207.24.0,22,assigned,[329520;EG;ARPU-Telecommunications]
 EG,ipv4,102.209.24.0,22,assigned,[329431;EG;Redsea-Sahara-Travel]
 EG,ipv4,102.209.238.0,24,assigned,[329397;EG;GlobeMed]
 EG,ipv4,102.210.188.0,23,assigned,[329359;EG;Agility-Infrastructure]
@@ -11827,7 +11833,7 @@ EG,ipv6,2001:43f8:40::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:41::,48,assigned,[329003;EG;EG-IX-Management][37728;EG;EG-IX]
 EG,ipv6,2001:43f8:2e0::,48,assigned,[37348;EG;CAC]
 EG,ipv6,2001:43f8:c50::,48,assigned,[37003;EG;Xceed-as]
-EG,ipv6,2001:43fc:2800::,48,assigned,
+EG,ipv6,2001:43fc:2800::,48,assigned,[329520;EG;ARPU-Telecommunications]
 ET,ipv4,102.211.105.0,24,assigned,[329327;ET;Bank-of-Abyssinia-Share-Company]
 ET,ipv4,102.212.10.0,24,assigned,[329265;ET;CBOE3-AS]
 ET,ipv4,196.49.98.0,24,assigned,[329226;ET;AddIX-IXP-MGMT][37798;ET;AddIX-IXP-Peering]
