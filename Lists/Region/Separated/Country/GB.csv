@@ -45,7 +45,8 @@ apnic,ipv6,2407:1880::,32,allocated,*
 arin,ipv4,66.163.221.0,24,allocated,*
 arin,ipv4,66.248.237.0,24,allocated,[33408;GB;WHG-SPARE-1]
 arin,ipv4,68.170.8.0,22,allocated,[33408;GB;WHG-SPARE-1]
-arin,ipv4,134.128.128.0,17,allocated,[46257;GB;ATEX-ASN]
+arin,ipv4,134.128.128.0,18,allocated,[46257;GB;ATEX-ASN]
+arin,ipv4,134.128.224.0,19,allocated,[46257;GB;ATEX-ASN]
 arin,ipv4,147.114.0.0,16,allocated,*
 arin,ipv4,170.39.76.0,22,allocated,[33408;GB;WHG-SPARE-1]
 arin,ipv4,173.195.208.0,20,allocated,[54470;GB;GCGKABAM][46681;GB;GCGRY]
@@ -623,6 +624,7 @@ ripencc,ipv4,45.128.104.0,22,allocated,*
 ripencc,ipv4,45.128.136.0,22,allocated,[201838;GB;ASN-COMMUNITYFIBRE Community Fibre Limited]
 ripencc,ipv4,45.128.152.0,22,allocated,*
 ripencc,ipv4,45.128.212.0,22,allocated,[208564;GB;bedroq Bedroq Limited]
+ripencc,ipv4,45.129.16.0,22,allocated,[208417;US;EONSCOPE EonScope  Inc]
 ripencc,ipv4,45.129.100.0,22,allocated,[208522;GB;uk-optimus Optimus Networks LTD]
 ripencc,ipv4,45.130.45.0,24,allocated,[202548;GB;QUADRIS Quadris Ltd]
 ripencc,ipv4,45.130.56.0,22,allocated,[43915;GB;TRUESPEED TrueSpeed Communications Limited]
@@ -1012,7 +1014,8 @@ ripencc,ipv4,62.164.130.0,24,allocated,[207158;GB;WORLDCDN Clouvider Limited][20
 ripencc,ipv4,62.164.131.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,62.164.132.0,22,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,62.164.136.0,22,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
-ripencc,ipv4,62.164.140.0,23,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
+ripencc,ipv4,62.164.140.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
+ripencc,ipv4,62.164.141.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv4,62.164.142.0,23,allocated,[204044;GB;OneCloud PACKET STAR NETWORKS LIMITED]
 ripencc,ipv4,62.164.145.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,62.164.146.0,23,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
@@ -2283,7 +2286,7 @@ ripencc,ipv4,91.238.82.0,24,allocated,[207158;GB;WORLDCDN Clouvider Limited][207
 ripencc,ipv4,91.238.192.0,24,allocated,[48628;GB;CoreISP CoreISP Group Limited]
 ripencc,ipv4,91.238.193.0,24,allocated,[199285;GB;CONARX Conarx  Ltd]
 ripencc,ipv4,91.238.194.0,24,allocated,[214293;GB;BudgetD BUDGET DOMAINS LTD]
-ripencc,ipv4,91.238.195.0,24,allocated,
+ripencc,ipv4,91.238.195.0,24,allocated,[213692;GB;cscm CSCM Limited]
 ripencc,ipv4,91.238.214.0,23,allocated,*
 ripencc,ipv4,91.238.221.0,24,allocated,[25160;GB;VORBOSS_AS Vorboss Limited]
 ripencc,ipv4,91.238.238.0,24,allocated,[216186;GB;AS_PENTEST Pen Test Partners LLP]
@@ -4497,7 +4500,6 @@ ripencc,ipv4,185.198.132.0,22,allocated,[198863;GB;CUP-AS Cambridge University P
 ripencc,ipv4,185.198.188.0,22,allocated,[207158;GB;WORLDCDN Clouvider Limited][207019;GB;TNCL Clouvider Limited][206986;GB;GLOBALCDN Clouvider Limited][206848;GB;UKCDN Clouvider Limited][206822;GB;CLOUDNET Clouvider Limited][206144;GB;Clouvider-north2 Clouvider Limited][206136;GB;CLOUDSRV-NORTH Clouvider Limited][202792;GB;CLOUDSRV Clouvider Limited][202791;GB;CLOUDSRV-ANY Clouvider Limited][62240;GB;Clouvider Clouvider Limited][43878;GB;CLOUVIDER-HEX Clouvider Limited][42902;GB;CLOUVIDER-NORTH Clouvider Limited][35545;GB;Clouvider-Anycast Clouvider Limited][34202;GB;CLOUVIDER-THN2 Clouvider Limited][24669;GB;CLOUVIDER-NETWORK-OPTIMISATION Clouvider Limited]
 ripencc,ipv4,185.198.212.0,22,allocated,[201024;GB;DATAWEBGLOBAL-AS DATAWEB GLOBAL LP.]
 ripencc,ipv4,185.198.228.0,22,allocated,[41230;GB;ASK4 ASK4 Limited]
-ripencc,ipv4,185.198.244.0,22,allocated,*
 ripencc,ipv4,185.199.16.0,22,allocated,*
 ripencc,ipv4,185.199.20.0,22,allocated,[201024;GB;DATAWEBGLOBAL-AS DATAWEB GLOBAL LP.]
 ripencc,ipv4,185.199.56.0,22,allocated,[201508;GB;Connexin Connexin Limited][199775;GB;Connexin-Limited Connexin Limited]
@@ -5043,7 +5045,7 @@ ripencc,ipv4,193.30.22.0,23,allocated,[213272;GB;BFC-SY3 Beeks Financial Cloud L
 ripencc,ipv4,193.30.90.0,23,allocated,[213272;GB;BFC-SY3 Beeks Financial Cloud Ltd][212791;GB;BFC-PA3 Beeks Financial Cloud Ltd][206934;GB;BFC-UK Beeks Financial Cloud Ltd][206733;GB;BFC-HK Beeks Financial Cloud Ltd][206690;GB;BFC-FR2 Beeks Financial Cloud Ltd][206689;GB;bfc-ty3 Beeks Financial Cloud Ltd][197560;GB;VDIS Beeks Financial Cloud Ltd][57624;GB;BeeksFX Beeks Financial Cloud Ltd]
 ripencc,ipv4,193.30.117.0,24,allocated,[216180;GB;WHG-AU WHG Hosting Services Ltd][213183;GB;WHG-LUX WHG Hosting Services Ltd][212660;GB;EUROLIR-OU-AS WHG Hosting Services Ltd][211912;GB;DEM-AS WHG Hosting Services Ltd][211126;GB;EUROLIR-AS WHG Hosting Services Ltd][209341;GB;WHG-FRA WHG Hosting Services Ltd][204800;GB;WHG-SGP WHG Hosting Services Ltd][199404;GB;WHG-IN WHG Hosting Services Ltd][51713;GB;WHG-LON WHG Hosting Services Ltd][36454;GB;WHG-DAL WHG Hosting Services Ltd][36218;GB;WHG-CAN WHG Hosting Services Ltd][14670;GB;WHG-USE1 WHG Hosting Services Ltd]
 ripencc,ipv4,193.30.254.0,23,allocated,[203346;GB;AS-232WEB Proper Support LLP][51490;GB;PROPER-AS Proper Support LLP]
-ripencc,ipv4,193.31.64.0,22,allocated,*
+ripencc,ipv4,193.31.64.0,22,allocated,[203649;GB;goInternet GO INTERNET LTD]
 ripencc,ipv4,193.32.66.0,23,allocated,[203346;GB;AS-232WEB Proper Support LLP][51490;GB;PROPER-AS Proper Support LLP]
 ripencc,ipv4,193.32.93.0,24,allocated,[211427;GB;Origin Origin Solutions Limited]
 ripencc,ipv4,193.32.208.0,22,allocated,[200039;GB;HYDRACOM-AS Hydra Communications Ltd][58325;GB;ASN-BANDWIDTH-ASIA Hydra Communications Ltd][52167;GB;TECONICA Hydra Communications Ltd][49999;GB;BANDWIDTHTECH-AS Hydra Communications Ltd][25369;GB;BANDWIDTH-AS Hydra Communications Ltd]
@@ -7911,6 +7913,7 @@ ripencc,ipv6,2a0e:2dc0::,29,allocated,[25343;GB;COVENTRY-AS Coventry University 
 ripencc,ipv6,2a0e:2e80::,29,allocated,[215471;GB;INTERNETTYUK-MDU Internetty Ltd][60255;GB;InternettyUK Internetty Ltd]
 ripencc,ipv6,2a0e:3140::,29,allocated,[48549;GB;BRINGOGROUP Bringo Group Ltd]
 ripencc,ipv6,2a0e:3240::,29,allocated,[208589;GB;uk123lir ANT BM Limited]
+ripencc,ipv6,2a0e:3640::,29,allocated,[208417;US;EONSCOPE EonScope  Inc]
 ripencc,ipv6,2a0e:3700::,29,allocated,[210874;GB;box-broadband Box Broadband Limited]
 ripencc,ipv6,2a0e:4000::,29,allocated,[61087;GB;DGTL-UK DGTL TECH UK LLP]
 ripencc,ipv6,2a0e:4140::,29,allocated,[208564;GB;bedroq Bedroq Limited]
@@ -8208,7 +8211,7 @@ ripencc,ipv6,2a13:d5c0::,29,allocated,[216338;GB;intelegro INTELEGRO LIMITED]
 ripencc,ipv6,2a13:d800::,32,allocated,[200203;GB;easyhoster EASY HOSTER LIMITED]
 ripencc,ipv6,2a13:d980::,29,allocated,[48628;GB;CoreISP CoreISP Group Limited]
 ripencc,ipv6,2a13:db80::,29,allocated,[49781;GB;b4rk Broadband for Rural Kent Ltd]
-ripencc,ipv6,2a13:dc80::,29,allocated,
+ripencc,ipv6,2a13:dc80::,29,allocated,[213692;GB;cscm CSCM Limited]
 ripencc,ipv6,2a13:e280::,29,allocated,[216149;GB;DomainR Domain Recovery Limited]
 ripencc,ipv6,2a13:e2c0::,29,allocated,[204174;GB;FifthDog-NET Fifth Dog Network Limited]
 ripencc,ipv6,2a13:e540::,29,allocated,[212446;GB;caciltd CACI Ltd]
@@ -8247,6 +8250,7 @@ ripencc,ipv6,2a14:7640::,29,allocated,[214555;GB;Treasury Treasury Limited]
 ripencc,ipv6,2a14:7980::,29,allocated,*
 ripencc,ipv6,2a14:8000::,32,allocated,[213831;GB;wehelphostingstart WE HELP HOSTING LIMITED]
 ripencc,ipv6,2a14:9e00::,29,allocated,[60223;GB;NETIFACE-AS Netiface Limited]
+ripencc,ipv6,2a14:ce00::,32,allocated,*
 apnic,ipv4,103.23.172.0,23,assigned,*
 apnic,ipv4,103.73.186.0,23,assigned,*
 apnic,ipv4,103.115.96.0,24,assigned,[133479;GB;KEYLOOP-AS-AP Keyloop UK Limited]
@@ -9011,7 +9015,6 @@ ripencc,ipv4,164.39.0.0,17,assigned,*
 ripencc,ipv4,164.39.128.0,17,assigned,*
 ripencc,ipv4,164.134.0.0,16,assigned,[202783;GB;SWANN-MNT NHS National Services Scotland][201941;GB;SWANN-AS NHS National Services Scotland]
 ripencc,ipv4,164.136.0.0,16,assigned,*
-ripencc,ipv4,164.137.0.0,16,assigned,*
 ripencc,ipv4,164.143.0.0,16,assigned,*
 ripencc,ipv4,165.65.0.0,16,assigned,[25160;GB;VORBOSS_AS Vorboss Limited]
 ripencc,ipv4,166.49.128.0,17,assigned,*
