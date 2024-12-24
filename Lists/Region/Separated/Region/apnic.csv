@@ -567,6 +567,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2400:f3c0::,32,reserved,*
 *,ipv6,2400:f9c0::,32,reserved,*
 *,ipv6,2400:fb20::,32,reserved,*
+*,ipv6,2400:fbe0::,32,reserved,*
 *,ipv6,2401:13a0::,32,reserved,*
 *,ipv6,2401:1f00::,32,reserved,*
 *,ipv6,2401:2640::,32,reserved,*
@@ -650,6 +651,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2403:9a40::,32,reserved,*
 *,ipv6,2403:a340::,32,reserved,*
 *,ipv6,2403:a400::,32,reserved,*
+*,ipv6,2403:ab40::,32,reserved,*
 *,ipv6,2403:b0c0::,32,reserved,*
 *,ipv6,2403:bec0::,32,reserved,*
 *,ipv6,2403:ca00::,32,reserved,*
@@ -1530,9 +1532,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,160.250.87.0,24,available,*
 *,ipv4,160.250.169.0,24,available,*
 *,ipv4,160.250.200.0,24,available,*
-*,ipv4,161.248.11.0,24,available,*
-*,ipv4,161.248.12.0,22,available,*
-*,ipv4,161.248.16.0,20,available,*
+*,ipv4,161.248.25.0,24,available,*
+*,ipv4,161.248.28.0,22,available,*
 *,ipv4,161.248.32.0,19,available,*
 *,ipv4,161.248.64.0,18,available,*
 *,ipv4,161.248.128.0,17,available,*
@@ -22419,13 +22420,21 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2401:e304::,30,available,*
 *,ipv6,2401:e308::,29,available,*
 *,ipv6,2401:e310::,28,available,*
-*,ipv6,2401:e320::,27,available,*
+*,ipv6,2401:e321::,32,available,*
+*,ipv6,2401:e322::,31,available,*
+*,ipv6,2401:e324::,30,available,*
+*,ipv6,2401:e328::,29,available,*
+*,ipv6,2401:e330::,28,available,*
 *,ipv6,2401:e341::,32,available,*
 *,ipv6,2401:e342::,31,available,*
 *,ipv6,2401:e344::,30,available,*
 *,ipv6,2401:e348::,29,available,*
 *,ipv6,2401:e350::,28,available,*
-*,ipv6,2401:e360::,27,available,*
+*,ipv6,2401:e361::,32,available,*
+*,ipv6,2401:e362::,31,available,*
+*,ipv6,2401:e364::,30,available,*
+*,ipv6,2401:e368::,29,available,*
+*,ipv6,2401:e370::,28,available,*
 *,ipv6,2401:e381::,32,available,*
 *,ipv6,2401:e382::,31,available,*
 *,ipv6,2401:e384::,30,available,*
@@ -82693,28 +82702,48 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df4:cd08::,45,available,*
 *,ipv6,2001:df4:cd10::,44,available,*
 *,ipv6,2001:df4:cd20::,43,available,*
-*,ipv6,2001:df4:cd40::,42,available,*
+*,ipv6,2001:df4:cd41::,48,available,*
+*,ipv6,2001:df4:cd42::,47,available,*
+*,ipv6,2001:df4:cd44::,46,available,*
+*,ipv6,2001:df4:cd48::,45,available,*
+*,ipv6,2001:df4:cd50::,44,available,*
+*,ipv6,2001:df4:cd60::,43,available,*
 *,ipv6,2001:df4:cd81::,48,available,*
 *,ipv6,2001:df4:cd82::,47,available,*
 *,ipv6,2001:df4:cd84::,46,available,*
 *,ipv6,2001:df4:cd88::,45,available,*
 *,ipv6,2001:df4:cd90::,44,available,*
 *,ipv6,2001:df4:cda0::,43,available,*
-*,ipv6,2001:df4:cdc0::,42,available,*
+*,ipv6,2001:df4:cdc1::,48,available,*
+*,ipv6,2001:df4:cdc2::,47,available,*
+*,ipv6,2001:df4:cdc4::,46,available,*
+*,ipv6,2001:df4:cdc8::,45,available,*
+*,ipv6,2001:df4:cdd0::,44,available,*
+*,ipv6,2001:df4:cde0::,43,available,*
 *,ipv6,2001:df4:ce01::,48,available,*
 *,ipv6,2001:df4:ce02::,47,available,*
 *,ipv6,2001:df4:ce04::,46,available,*
 *,ipv6,2001:df4:ce08::,45,available,*
 *,ipv6,2001:df4:ce10::,44,available,*
 *,ipv6,2001:df4:ce20::,43,available,*
-*,ipv6,2001:df4:ce40::,42,available,*
+*,ipv6,2001:df4:ce41::,48,available,*
+*,ipv6,2001:df4:ce42::,47,available,*
+*,ipv6,2001:df4:ce44::,46,available,*
+*,ipv6,2001:df4:ce48::,45,available,*
+*,ipv6,2001:df4:ce50::,44,available,*
+*,ipv6,2001:df4:ce60::,43,available,*
 *,ipv6,2001:df4:ce81::,48,available,*
 *,ipv6,2001:df4:ce82::,47,available,*
 *,ipv6,2001:df4:ce84::,46,available,*
 *,ipv6,2001:df4:ce88::,45,available,*
 *,ipv6,2001:df4:ce90::,44,available,*
 *,ipv6,2001:df4:cea0::,43,available,*
-*,ipv6,2001:df4:cec0::,42,available,*
+*,ipv6,2001:df4:cec1::,48,available,*
+*,ipv6,2001:df4:cec2::,47,available,*
+*,ipv6,2001:df4:cec4::,46,available,*
+*,ipv6,2001:df4:cec8::,45,available,*
+*,ipv6,2001:df4:ced0::,44,available,*
+*,ipv6,2001:df4:cee0::,43,available,*
 *,ipv6,2001:df4:cf01::,48,available,*
 *,ipv6,2001:df4:cf02::,47,available,*
 *,ipv6,2001:df4:cf04::,46,available,*
@@ -98644,6 +98673,7 @@ BD,ipv4,160.250.230.0,23,allocated,[133213;BD;TMCL-AS-AP TEAM Manufacturing Comp
 BD,ipv4,160.250.240.0,23,allocated,[133446;BD;INCITYINTERNET-AS-AP Incity Internet ICI]
 BD,ipv4,161.248.6.0,23,allocated,[133496;BD;MOHITECH-AS-AP Mohi Tech]
 BD,ipv4,161.248.10.0,24,allocated,[152125;BD;NRSENTERPRISE-AS-AP NRS ENTERPRISE]
+BD,ipv4,161.248.16.0,23,allocated,[135613;BD;SIT-AS-AP Streaming Internet Trade]
 BD,ipv4,162.12.212.0,22,allocated,[153179;BD;CCN-AS-AP Computer Complex Network][131686;BD;CCN-AS-AP MD. Khurshid Alom ta Computer Complex Network]
 BD,ipv4,163.47.32.0,22,allocated,[23688;BD;LINK3-TECH-AS-BD-AP Link3 Technologies Ltd.]
 BD,ipv4,163.47.36.0,22,allocated,[132106;BD;BDREN-UGC-BD-AS University Grants Commission of Bangladesh][63961;BD;BDREN-UGC-AS-AP Bangladesh Research and Education Network BdREN]
@@ -98982,7 +99012,6 @@ BD,ipv6,2400:f6a0::,32,allocated,[139839;BD;ZERONET-AS-AP ZeroNET]
 BD,ipv6,2400:f8c0::,32,allocated,[149297;BD;PANDORA-IT-AS-AP Pandora IT][135517;BD;PANDORA-TECHNOLOGY-AS-AP Pandora Technology]
 BD,ipv6,2400:f940::,32,allocated,[45766;BD;TRIANGLESERVICES Triangle Services Limited.]
 BD,ipv6,2400:fa40::,32,allocated,[151353;BD;DAFFODILNET-AS-AP Daffodil Online Ltd.][58768;BD;DAFFODILNET-BD Daffodil Online Ltd.]
-BD,ipv6,2400:fbe0::,32,allocated,[134505;BD;IDEAL2-AS-AP Ideal Communication Network]
 BD,ipv6,2400:fc20::,32,allocated,[151339;BD;BMSCYBERHUT-AS-AP Cyber Hut]
 BD,ipv6,2400:fca0::,32,allocated,[151323;BD;NAMEPART-AS-AP Namepart]
 BD,ipv6,2400:fec0::,32,allocated,[9288;BD;DBTECHNOLOGIES-AS-AP Akhtaruzzaman ta DB Technologies]
@@ -103409,7 +103438,7 @@ CN,ipv4,103.139.136.0,23,allocated,*
 CN,ipv4,103.139.172.0,23,allocated,*
 CN,ipv4,103.139.204.0,23,allocated,*
 CN,ipv4,103.139.212.0,23,allocated,*
-CN,ipv4,103.140.8.0,23,allocated,[149795;CN;ZHIJIE-AS-AP Zhijie Jin][142551;CN;LAPISBLUE27-AS-AP Azurite27 Network][142282;US;NICHONET-NG Next Generation NICHONET Inter-Continental Hosting Operation Network][142281;CA;YUUTA-BACKBONE Yuuta Backbone][142280;CN;NTEREN-BACKBONE NaiveTomcat Education and Research Experimental Network Backbone][139888;CN;TIME-GLOBAL-AS-AP Tang Zhuo][139589;CN;GETONG-AS-AP GTDev Network][139249;CN;ENMOE-AS-CN ENMOE LTD.][134478;CN;JSMSR-AS-AP JSMSR][131171;CN;EVERLIFE-AS-AP Everlife Networks][38041;AU;KR-AS-AP Krish Revo][24144;CN;LSHIY-AS-AP Wuhan LSHIY Network Technology Co.  Ltd.][9384;CN;MIKU-NETWORK MIKU NETWORK LIMITED][7721;CN;QC-NET Qin Cloud Networks]
+CN,ipv4,103.140.8.0,23,allocated,[149795;CN;ZHIJIE-AS-AP Zhijie Jin][142282;US;NICHONET-NG Next Generation NICHONET Inter-Continental Hosting Operation Network][142281;CA;YUUTA-BACKBONE Yuuta Backbone][142280;CN;NTEREN-BACKBONE NaiveTomcat Education and Research Experimental Network Backbone][139888;CN;TIME-GLOBAL-AS-AP Tang Zhuo][139589;CN;GETONG-AS-AP GTDev Network][139249;CN;ENMOE-AS-CN ENMOE LTD.][131171;CN;EVERLIFE-AS-AP Everlife Networks][38041;AU;KR-AS-AP Krish Revo][24144;CN;LSHIY-AS-AP Wuhan LSHIY Network Technology Co.  Ltd.][9384;CN;MIKU-NETWORK MIKU NETWORK LIMITED][7721;CN;QC-NET Qin Cloud Networks]
 CN,ipv4,103.140.14.0,23,allocated,*
 CN,ipv4,103.140.126.0,23,allocated,[139252;CN;ZSSBAY-AS-AP Zhong Shan Shi Ba Ai Yun Ji Suan Co.  Limited]
 CN,ipv4,103.140.140.0,23,allocated,*
@@ -105829,6 +105858,7 @@ CN,ipv4,160.250.252.0,23,allocated,*
 CN,ipv4,161.120.0.0,16,allocated,[133478;CN;TENCENT-AS-AP Tencent Cloud Computing Beijing Co.  Ltd]
 CN,ipv4,161.189.0.0,16,allocated,*
 CN,ipv4,161.207.0.0,16,allocated,*
+CN,ipv4,161.248.20.0,23,allocated,*
 CN,ipv4,162.14.0.0,16,allocated,[133478;CN;TENCENT-AS-AP Tencent Cloud Computing Beijing Co.  Ltd]
 CN,ipv4,162.105.0.0,16,allocated,*
 CN,ipv4,163.0.0.0,16,allocated,*
@@ -108838,6 +108868,7 @@ CN,ipv6,2401:e140::,32,allocated,*
 CN,ipv6,2401:e240::,32,allocated,*
 CN,ipv6,2401:e2c0::,32,allocated,*
 CN,ipv6,2401:e340::,32,allocated,*
+CN,ipv6,2401:e360::,32,allocated,*
 CN,ipv6,2401:e840::,32,allocated,*
 CN,ipv6,2401:e8c0::,32,allocated,*
 CN,ipv6,2401:e940::,32,allocated,*
@@ -109482,7 +109513,7 @@ CN,ipv6,2404:ec40::,32,allocated,*
 CN,ipv6,2404:ecc0::,32,allocated,*
 CN,ipv6,2404:edc0::,32,allocated,*
 CN,ipv6,2404:f040::,32,allocated,*
-CN,ipv6,2404:f4c0::,32,allocated,[149795;CN;ZHIJIE-AS-AP Zhijie Jin][142551;CN;LAPISBLUE27-AS-AP Azurite27 Network][142282;US;NICHONET-NG Next Generation NICHONET Inter-Continental Hosting Operation Network][142281;CA;YUUTA-BACKBONE Yuuta Backbone][142280;CN;NTEREN-BACKBONE NaiveTomcat Education and Research Experimental Network Backbone][139888;CN;TIME-GLOBAL-AS-AP Tang Zhuo][139589;CN;GETONG-AS-AP GTDev Network][139249;CN;ENMOE-AS-CN ENMOE LTD.][134478;CN;JSMSR-AS-AP JSMSR][131171;CN;EVERLIFE-AS-AP Everlife Networks][38041;AU;KR-AS-AP Krish Revo][24144;CN;LSHIY-AS-AP Wuhan LSHIY Network Technology Co.  Ltd.][9384;CN;MIKU-NETWORK MIKU NETWORK LIMITED][7721;CN;QC-NET Qin Cloud Networks]
+CN,ipv6,2404:f4c0::,32,allocated,[149795;CN;ZHIJIE-AS-AP Zhijie Jin][142282;US;NICHONET-NG Next Generation NICHONET Inter-Continental Hosting Operation Network][142281;CA;YUUTA-BACKBONE Yuuta Backbone][142280;CN;NTEREN-BACKBONE NaiveTomcat Education and Research Experimental Network Backbone][139888;CN;TIME-GLOBAL-AS-AP Tang Zhuo][139589;CN;GETONG-AS-AP GTDev Network][139249;CN;ENMOE-AS-CN ENMOE LTD.][131171;CN;EVERLIFE-AS-AP Everlife Networks][38041;AU;KR-AS-AP Krish Revo][24144;CN;LSHIY-AS-AP Wuhan LSHIY Network Technology Co.  Ltd.][9384;CN;MIKU-NETWORK MIKU NETWORK LIMITED][7721;CN;QC-NET Qin Cloud Networks]
 CN,ipv6,2404:f7c0::,32,allocated,*
 CN,ipv6,2405:1080::,32,allocated,*
 CN,ipv6,2405:1180::,32,allocated,*
@@ -111753,7 +111784,7 @@ HK,ipv4,152.32.229.0,24,allocated,[135377;HK;UCLOUD-HK-AS-AP UCLOUD INFORMATION 
 HK,ipv4,152.32.230.0,23,allocated,[135377;HK;UCLOUD-HK-AS-AP UCLOUD INFORMATION TECHNOLOGY HK LIMITED]
 HK,ipv4,152.32.232.0,21,allocated,[135377;HK;UCLOUD-HK-AS-AP UCLOUD INFORMATION TECHNOLOGY HK LIMITED]
 HK,ipv4,152.32.240.0,20,allocated,[135377;HK;UCLOUD-HK-AS-AP UCLOUD INFORMATION TECHNOLOGY HK LIMITED]
-HK,ipv4,152.101.0.0,16,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,152.101.0.0,16,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,152.103.0.0,16,allocated,[4848;HK;AARONCHEUNG-AS Cheung Yuk Tong Aaron]
 HK,ipv4,152.104.0.0,17,allocated,[133893;HK;DIYIXIAN-DIC-AS Dyxnet Data Centre Services Limited][9793;HK;SMART-HK-AP Smart-bets.com Lmited][9584;HK;GENESIS-AP Diyixian.com Limited][9244;TW;ASN-DYXNET-TW-AP # AS-DYXNET-TW-AP CONVERTED TO ASN-DYXNET-TW-AP FOR RPSL COMPLIANCE Diyixian.com TW Limited]
 HK,ipv4,154.8.64.0,18,allocated,[63928;HK;FREECOMM-AS-AP Freecomm Hong Kong Limited]
@@ -111990,9 +112021,9 @@ HK,ipv4,202.64.244.0,22,allocated,[136501;HK;HKBNES-AS-AP HKBN Enterprise Soluti
 HK,ipv4,202.64.248.0,21,allocated,[136501;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited][58441;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited][9381;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited][2706;HK;HKBNES-AS-AP HKBN Enterprise Solutions HK Limited]
 HK,ipv4,202.65.192.0,20,allocated,[133893;HK;DIYIXIAN-DIC-AS Dyxnet Data Centre Services Limited][9793;HK;SMART-HK-AP Smart-bets.com Lmited][9584;HK;GENESIS-AP Diyixian.com Limited][9244;TW;ASN-DYXNET-TW-AP # AS-DYXNET-TW-AP CONVERTED TO ASN-DYXNET-TW-AP FOR RPSL COMPLIANCE Diyixian.com TW Limited]
 HK,ipv4,202.65.208.0,20,allocated,[133893;HK;DIYIXIAN-DIC-AS Dyxnet Data Centre Services Limited][9793;HK;SMART-HK-AP Smart-bets.com Lmited][9584;HK;GENESIS-AP Diyixian.com Limited][9244;TW;ASN-DYXNET-TW-AP # AS-DYXNET-TW-AP CONVERTED TO ASN-DYXNET-TW-AP FOR RPSL COMPLIANCE Diyixian.com TW Limited]
-HK,ipv4,202.66.0.0,17,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.66.0.0,17,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.66.128.0,19,allocated,[133893;HK;DIYIXIAN-DIC-AS Dyxnet Data Centre Services Limited][9793;HK;SMART-HK-AP Smart-bets.com Lmited][9584;HK;GENESIS-AP Diyixian.com Limited][9244;TW;ASN-DYXNET-TW-AP # AS-DYXNET-TW-AP CONVERTED TO ASN-DYXNET-TW-AP FOR RPSL COMPLIANCE Diyixian.com TW Limited]
-HK,ipv4,202.66.192.0,18,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.66.192.0,18,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.67.128.0,19,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][4645;HK;ASN-HKNET-AP HKNet Co. Ltd]
 HK,ipv4,202.67.160.0,19,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][4645;HK;ASN-HKNET-AP HKNet Co. Ltd]
 HK,ipv4,202.67.192.0,20,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][4645;HK;ASN-HKNET-AP HKNet Co. Ltd]
@@ -112026,15 +112057,15 @@ HK,ipv4,202.71.224.0,20,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][46
 HK,ipv4,202.71.240.0,21,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][4645;HK;ASN-HKNET-AP HKNet Co. Ltd]
 HK,ipv4,202.71.248.0,22,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][4645;HK;ASN-HKNET-AP HKNet Co. Ltd]
 HK,ipv4,202.71.252.0,22,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][4645;HK;ASN-HKNET-AP HKNet Co. Ltd]
-HK,ipv4,202.72.0.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.72.8.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.72.16.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.72.0.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.72.8.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.72.16.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.72.228.0,22,allocated,[134795;HK;SOUTHASIAUNIVERSAL-AS-AP South Asia Universal Limited]
-HK,ipv4,202.73.0.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.73.0.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.74.50.0,23,allocated,[9468;HK;IBLLC-HK INTERACTIVE BROKERS LLC]
 HK,ipv4,202.74.96.0,19,allocated,[151013;JP;TAO_LONDON AT&T TAO Cloud Access Node][150810;JP;TAO_MONTREAL AT&T TAO Cloud Access Node][140237;JP;TAO_PHOENIX_DRT AT&T TAO Cloud Access Node][140236;BR;ATT-NBE-BR ATT NBE Equinix Sao Paulo][140235;CA;ATT-NBE-CA ATT NBE Equinix Toronto][140234;MX;ATT-NBE-MX ATT NBE Equinix Mexico City][140233;IN;ATT-NBE-IN ATT NBE Equinix Chennai][140232;CN;ATT-NBE-CN ATT NBE Equinix Shanghai][138515;JP;TAO_TORONTO AT&T TAO Cloud Access Node][134537;US;ATT-NBE-US ATT NBE Equinix Seattle][134536;GB;ATT-NBE-GB ATT NBE Equinix London][134535;NL;ATT-NBE-NL ATT NBE Equinix Amsterdam][134534;SG;ATT-NBE-SG ATT NBE Equinix Singapore][134533;HK;ATT-NBE-HK ATT NBE Equinix Hong Kong][134532;JP;ATT-NBE-JP ATT NBE Equinix Tokyo][134530;AU;ATT-NBE-AU ATT NBE Equinix Sydney][134473;JP;TAO_CHICAGO AT&T TAO Cloud Access Node][134358;JP;TAO_ASHBURN AT&T TAO Cloud Access Node][64016;AU;ATT-AS-AP AT&T][59248;HK;ROCKWELL-AS-AP ROCKWELL AUTOMATION BV][18289;JP;TAO_TORONTO AT&T TAO Cloud Access Node][9935;JP;AGNSCUS-HK AGNS Customer AS]
 HK,ipv4,202.75.64.0,19,allocated,[137207;HK;JUCC-AS-AP Joint Universities Computer Centre Limited][7650;HK;EDUHK-AS-AP The Education University of Hong Kong][7577;HK;VTC-AS-AP Vocational Training Council Hong Kong][3662;HK;HARNET Joint Universities Computer Centre Limited]
-HK,ipv4,202.76.0.0,17,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.76.0.0,17,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.77.0.0,22,allocated,[7493;HK;PEOPLELINK-AS01-AP AS number for Peoplelink Internet Limited][4623;HK;CHEVALIER-AS01 Chevalier Internet Limited autonomous system # 1]
 HK,ipv4,202.77.4.0,22,allocated,[133849;HK;HKBN-AS Hong Kong Broadband Network Ltd][10103;HK;HKBN-AS-AP HK Broadband Network Ltd.][9269;HK;HKBN-AS-AP Hong Kong Broadband Network Ltd.]
 HK,ipv4,202.77.8.0,21,allocated,[7493;HK;PEOPLELINK-AS01-AP AS number for Peoplelink Internet Limited][4623;HK;CHEVALIER-AS01 Chevalier Internet Limited autonomous system # 1]
@@ -112046,9 +112077,9 @@ HK,ipv4,202.77.140.0,22,allocated,[9925;HK;HKTDCS-AS-AP VDC Powerbase Hong Kong 
 HK,ipv4,202.77.144.0,20,allocated,[9925;HK;HKTDCS-AS-AP VDC Powerbase Hong Kong Data Centers Limited][9826;HK;ILINK-HK-AP VDC Powerbase Hong Kong Data Centers Limited][4614;HK;ASIAONLINE-HK-AS VDC Powerbase Hong Kong Data Centers Limited]
 HK,ipv4,202.77.160.0,19,allocated,[9925;HK;HKTDCS-AS-AP VDC Powerbase Hong Kong Data Centers Limited][9826;HK;ILINK-HK-AP VDC Powerbase Hong Kong Data Centers Limited][4614;HK;ASIAONLINE-HK-AS VDC Powerbase Hong Kong Data Centers Limited]
 HK,ipv4,202.77.192.0,18,allocated,[9925;HK;HKTDCS-AS-AP VDC Powerbase Hong Kong Data Centers Limited][9826;HK;ILINK-HK-AP VDC Powerbase Hong Kong Data Centers Limited][4614;HK;ASIAONLINE-HK-AS VDC Powerbase Hong Kong Data Centers Limited]
-HK,ipv4,202.80.0.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.80.8.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.80.16.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.80.0.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.80.8.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.80.16.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.80.128.0,20,allocated,*
 HK,ipv4,202.81.224.0,20,allocated,[4658;HK;M2012LIMITED-AS 2012 Limited  Netfront]
 HK,ipv4,202.81.240.0,21,allocated,[4658;HK;M2012LIMITED-AS 2012 Limited  Netfront]
@@ -112082,18 +112113,18 @@ HK,ipv4,202.85.128.0,19,allocated,[9729;HK;IS-AP iAdvantage Limited]
 HK,ipv4,202.85.160.0,19,allocated,[9729;HK;IS-AP iAdvantage Limited]
 HK,ipv4,202.85.192.0,20,allocated,[10231;HK;TECHTRANS-AP Tech-trans System Ltd.]
 HK,ipv4,202.85.224.0,20,allocated,[17619;HK;POWERNETIX-AS POWERNETIX]
-HK,ipv4,202.85.248.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.85.248.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.86.64.0,19,allocated,[17814;HK;COMNET-AP-ASN2 ComNet Telecom International Ltd. AS number.][7705;HK;COMNET-AP-ASN1 ComNet Telecom International Ltd. AS Number]
 HK,ipv4,202.87.0.0,22,allocated,[9293;HK;HKNET-VIPNET NTT Com Asia Limited][4645;HK;ASN-HKNET-AP HKNet Co. Ltd]
-HK,ipv4,202.88.0.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.88.4.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.88.8.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.88.16.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.0.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.4.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.8.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.16.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.88.36.0,22,allocated,[134820;HK;WOIL-AS-AP WEALTH OCEAN INDUSTRY LIMITED]
-HK,ipv4,202.88.96.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.88.112.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.88.120.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,202.88.124.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.96.0,20,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.112.0,21,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.120.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,202.88.124.0,22,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,202.89.16.0,21,allocated,[135492;DE;CIGNA-HK Cigna Route for Hong Kong]
 HK,ipv4,202.90.248.0,22,allocated,[139914;HK;WPP-JWTNET-HK WPP Hong Kong][131231;HK;WPPNET-AS-AP WPP Malaysia Campus][7695;HK;JWTNET-HK-AS WPPNET-AS-AP Company]
 HK,ipv4,202.92.160.0,20,allocated,*
@@ -112243,7 +112274,7 @@ HK,ipv4,203.83.64.0,19,allocated,[142115;HK;HKCABLE-AS-AP Hong Kong Cable TV Ltd
 HK,ipv4,203.83.96.0,19,allocated,[142115;HK;HKCABLE-AS-AP Hong Kong Cable TV Ltd - Cable Multi-Media Services][9908;HK;HKCABLE2-HK-AP HK Cable TV Ltd][9513;HK;HKCABLE-HK-AP HK Cable TV Ltd]
 HK,ipv4,203.84.0.0,18,allocated,[4748;HK;RESOLINK-AS-AP Resources Link Network Limited]
 HK,ipv4,203.84.192.0,19,allocated,[134706;HK;YAHOO-BR-HK Yahoo-Inc][58720;AU;YAHOO-AU Yahoo-Inc][58525;AU;YAHOO-CORP-TOK3 Yahoo! Tokyo office][56173;SG;YAHOO-SG3 internet content provider][55517;HK;YAHOO-HKA YAHOO! HKA][55418;SG;YAHOO-ID1 YAHOO! ID1][55417;TW;YAHOO-SGA YAHOO! SGA][55416;KR;YAHOO-KRA YAHOO! KRA][45915;US;YAHOO-AS-AP Yahoo Inc.][45863;US;YAHOO-AS-AP Yahoo Inc.][38072;US;YAHOO-AS-AP Yahoo Inc.][38033;JP;YAHOO-JP2-AP internet content provider][38032;HK;YAHOO-HK2-AP internet content provider][24376;CN;YAHOO-CN2-AP Yahoo China Datacenter][24031;US;YAHOO-TPC Yahoo Inc.][24018;HK;YAHOO-BACKBONE-AP Yahoo Backbone Network  Asia Pacific][23926;US;YAHOO-INZ INZ Edge site][23879;US;YAHOO-INY INY Edge site][18293;HK;YAHOO-HK2-AP Internet content provider][17457;AU;YAHOO-AP Internet Content Provider][10230;SG;YAHOO-SG internet content provider][10229;TW;YAHOO-TW1 Yahoo Inc.][10228;HK;YAHOO-CN Internet Content Provider]
-HK,ipv4,203.85.0.0,16,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,203.85.0.0,16,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,203.86.128.0,19,allocated,[137046;HK;PCCW-BIA-AS-AP PCCW IMS Ltd PCCW Business Internet Access][135621;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][135146;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][132585;HK;SIA-HK-AS SkyExchange Internet Access][17824;HK;PACIFICONENET-HK-AP Pacific One Net Limited AS number][9914;HK;PCCW-BIA-HK-AS PCCW IMS Ltd PCCW Business Internet Access][9263;HK;PCCW-IMSBIZ-AP HKT Limited]
 HK,ipv4,203.86.160.0,19,allocated,[9925;HK;HKTDCS-AS-AP VDC Powerbase Hong Kong Data Centers Limited][9826;HK;ILINK-HK-AP VDC Powerbase Hong Kong Data Centers Limited][4614;HK;ASIAONLINE-HK-AS VDC Powerbase Hong Kong Data Centers Limited]
 HK,ipv4,203.86.232.0,21,allocated,[133905;HK;LAYER-AS Layerstack Limited][133380;HK;LAYER-AS Layerstack Limited][132374;HK;LAYER-AS Layerstack Limited][24549;HK;LAYER-AS-AP Layerstack Limited]
@@ -112394,8 +112425,8 @@ HK,ipv4,210.176.160.0,19,allocated,[137046;HK;PCCW-BIA-AS-AP PCCW IMS Ltd PCCW B
 HK,ipv4,210.176.192.0,18,allocated,[137046;HK;PCCW-BIA-AS-AP PCCW IMS Ltd PCCW Business Internet Access][135621;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][135146;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][132585;HK;SIA-HK-AS SkyExchange Internet Access][17824;HK;PACIFICONENET-HK-AP Pacific One Net Limited AS number][9914;HK;PCCW-BIA-HK-AS PCCW IMS Ltd PCCW Business Internet Access][9263;HK;PCCW-IMSBIZ-AP HKT Limited]
 HK,ipv4,210.177.0.0,17,allocated,[137046;HK;PCCW-BIA-AS-AP PCCW IMS Ltd PCCW Business Internet Access][135621;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][135146;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][132585;HK;SIA-HK-AS SkyExchange Internet Access][17824;HK;PACIFICONENET-HK-AP Pacific One Net Limited AS number][9914;HK;PCCW-BIA-HK-AS PCCW IMS Ltd PCCW Business Internet Access][9263;HK;PCCW-IMSBIZ-AP HKT Limited]
 HK,ipv4,210.177.128.0,17,allocated,[137046;HK;PCCW-BIA-AS-AP PCCW IMS Ltd PCCW Business Internet Access][135621;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][135146;HK;PCCW-BIA-HK PCCW IMS Ltd PCCW Business Internet Access][132585;HK;SIA-HK-AS SkyExchange Internet Access][17824;HK;PACIFICONENET-HK-AP Pacific One Net Limited AS number][9914;HK;PCCW-BIA-HK-AS PCCW IMS Ltd PCCW Business Internet Access][9263;HK;PCCW-IMSBIZ-AP HKT Limited]
-HK,ipv4,210.184.0.0,18,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
-HK,ipv4,210.184.64.0,19,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,210.184.0.0,18,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv4,210.184.64.0,19,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv4,210.184.96.0,19,allocated,[9729;HK;IS-AP iAdvantage Limited]
 HK,ipv4,210.184.128.0,17,allocated,[9729;HK;IS-AP iAdvantage Limited]
 HK,ipv4,210.209.64.0,18,allocated,[133777;HK;HKBNESL-AS-AP HKBN Enterprise Solutions Limited][17444;HK;HKBNESL-AS-AP HKBN Enterprise Solutions Limited]
@@ -112756,7 +112787,7 @@ HK,ipv6,2403:1fc0::,32,allocated,[141366;HK;LW-HK-AS Lightway Studio Limited]
 HK,ipv6,2403:22c0::,32,allocated,[139800;HK;CLOUDBASE-AS-AP HONG KONG CLOUDBASE TECHNOLOGY CO.  LIMITED][137944;HK;CLOUDBASE-AS-AP HONG KONG CLOUDBASE TECHNOLOGY CO.  LIMITED]
 HK,ipv6,2403:2400::,32,allocated,[9729;HK;IS-AP iAdvantage Limited]
 HK,ipv6,2403:27c0::,32,allocated,[133617;HK;NETPILOT-AS-AP NetPilot Limited][38324;HK;NETPILOT-AS-AP NetPilot Limited]
-HK,ipv6,2403:2c00::,32,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9538;HK;OFTA-AS-AP Office Of The Telecommunications Authority][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
+HK,ipv6,2403:2c00::,32,allocated,[9665;HK;POSTDEPT-AS-AP Hong Kong Post Office Dept.][9440;HK;JWT-AS-AP JWT Co Ltd][5017;HK;CITICTEL-CPC-AS5017 CITIC Telecom International CPC Limited][4058;HK;CITICTEL-CPC-AS4058 CITIC Telecom International CPC Limited][3689;HK;CITICTEL-CPC-AS3689 CITIC Telecom International CPC Limited][2772;HK;CITICTEL-CPC-AS2772 CITIC Telecom International CPC Limited]
 HK,ipv6,2403:2c80::,32,allocated,[140052;SG;BEHENOBE-AS-SG Behenobe Trade Services Pte. Ltd.][24013;SB;SB SB Professional Services][9312;HK;XTOM xTom]
 HK,ipv6,2403:2c81::,32,allocated,[140052;SG;BEHENOBE-AS-SG Behenobe Trade Services Pte. Ltd.][24013;SB;SB SB Professional Services][9312;HK;XTOM xTom]
 HK,ipv6,2403:43c0::,32,allocated,[137990;HK;SUNIWAY1-AS-AP SUNIWAY GROUP LIMITED]
@@ -115801,6 +115832,7 @@ ID,ipv4,160.191.67.0,24,allocated,*
 ID,ipv4,160.191.126.0,23,allocated,[153382;ID;DLAIP-AS-AP Direktorat Layanan Aplikasi Informatika Pemerintahan]
 ID,ipv4,160.202.40.0,22,allocated,*
 ID,ipv4,160.250.198.0,23,allocated,*
+ID,ipv4,161.248.12.0,23,allocated,*
 ID,ipv4,163.53.184.0,22,allocated,*
 ID,ipv4,167.205.0.0,16,allocated,[149176;ID;ITB-BANDUNG-ASN Institute of Technology Bandung][18007;ID;INHERENT-AS-ID-AP INHERENT][4796;ID;BANDUNG-NET-AS-AP Institute of Technology Bandung]
 ID,ipv4,175.45.184.0,21,allocated,*
@@ -116411,6 +116443,7 @@ ID,ipv6,2401:db40::,32,allocated,*
 ID,ipv6,2401:dcc0::,32,allocated,*
 ID,ipv6,2401:de80::,32,allocated,[153327;ID;IDNIC-APEXNET-ID PT. Adisesha Palladium Interchange][153059;ID;IDNIC-ADATANET-AS-ID PT Akses Datatrans Indonesia][152743;ID;IDNIC-IAIN-PONTIANAK-AS-ID Institut Agama Islam Negeri Pontianak][152344;ID;IDNIC-LINEA-AS-ID PT Linea Global Teknologi][151991;ID;IDNIC-SWN-AS-ID PT SWIN][151502;ID;IDNIC-DISKOMINFO-KOTIM-AS-ID Dinas Komunikasi dan Informatika Kabupaten Kotawaringin Timur][150913;ID;IDNIC-ADANTARA-AS-ID PT Alam Daur Nusantara][150460;ID;IDNIC-AKSENT-AS-ID PT Akses Sentral Teknologi][150185;ID;IDNIC-NALANET-AS-ID PT Prima Nala Mandiri][149877;ID;IJE-AS-ID PT Integrasi Jaringan Ekosistem][149661;ID;IDNIC-PMS-AS-ID PT Pricom Media Solusi][149314;ID;WIFIAN-AS-ID WIFIAN][147072;ID;IDNIC-BTPNS-AS-ID PT Bank BTPN Syariah Tbk][142303;ID;IDNIC-ID Indonesia Network Information Center][141887;ID;IDNIC-SIPRIMA-AS-ID PT Terra Sigma Solusi][141576;ID;IDNIC-OMBUDSMAN-AS-ID Ombudsman Republik Indonesia][141048;ID;IDNIC-KUNINGANKAB-AS-ID Dinas Komunikasi Dan Informatika Kabupaten Kuningan][140383;ID;IDNIC-P4TK-SENI-DAN-BUDAYA-JOGJA-ID PUSAT PENGEMBANGAN DAN PEMBERDAYAAN PENDIDIK DAN TENAGA KEPENDIDIKAN SENI DAN BUDAYA][139932;ID;IDNIC-KOMINFOKRWKAB-AS-ID DINAS KOMUNIKASI DAN INFORMATIKA KABUPATEN KARAWANG][139361;ID;IDNIC-CAESARAWAN-AS-ID CV Caesar Awan Multidata Jaya][138802;ID;IDNIC-BUKALAPAK-AS-ID PT Bukalapak.com][138598;ID;NEVIGATE-AS-AP PT Nevigate Telekomunikasi Indonesia][138045;ID;IDNIC-CPSSOFT-AS-ID PT Cipta Piranti Sejahtera][137285;ID;IDNIC-METISKAFARMA-AS-ID PT. METISKA FARMA][136820;ID;TESOLCITYNET-AS-ID PT. LISAR INTERNATIONAL NETWORKING][136052;ID;IDNIC-IDCLOUDHOST-AS-ID PT Cloud Hosting Indonesia][135439;ID;ADNET-AS-ID PT ADNET MEDIA INDONESIA][134612;ID;IDNIC-CLOUDMATIKA--AS-ID PT Atria Teknologi Indonesia][133807;ID;IDNIC-BPN-AS-ID Badan Pertanahan Nasional][133796;ID;KEMENDAG-AS-ID Subbid Sistem Jaringan dan Infrastruktur][133335;ID;IDNIC-PNP-AS-ID Politeknik Negeri Padang][132629;ID;IDNIC-ID Indonesia Network Information Center][132164;ID;KASKUSNETWORKS-AS PT Darta Media Indonesia][131687;ID;BMP-AS-ID PT. Bumi Merbabu Permai][131111;ID;CEPATNET-AS-ID PT Mora Telematika Indonesia][64297;ID;GLOBALMANDIRI-AS-ID PT Medialink Global Mandiri][64023;ID;TOPAS-AS-ID PT Tunaspersada Cemerlang Jaya][63858;ID;IDNIC-MANIRA-AS-ID PT Solusi Digital Manira][63827;ID;ECONDELIGHT PT Econdelight][63488;ID;IDNIC-TOTALTEKNO-AS-ID PT Total Trimitra Teknologi][59271;ID;IDNIC-ID Indonesia Network Information Center][59131;ID;IDNIC-UNIKA-AS-ID Universitas Katolik Soegijapranata][58816;ID;IDNIC-GARENA-AS-ID PT Garena Indonesia][58549;ID;IDNIC-ID Indonesia Network Information Center][58514;ID;SUPERNET-AS-ID PT. Supernet Advance Teknologi][58488;ID;IDNIC-KKP-AS-ID PUSDATIN KKP][58474;ID;MANGONET-AS-ID PT. MATRIXNET GLOBAL INDONESIA][58375;ID;UNUD-AS-ID Universitas Udayana][58369;ID;FIBERNET-AS-ID PT. Fiber Networks Indonesia][56868;ID;IDNIC-OMNIDC-AS-ID PT Omni Data Center Indonesia][56306;ID;IDNIC-CIP-ID PT. Citra International Pratama][56232;ID;IDNIC-PTRAM-AS-ID PT Royal Audrey Megah][56060;ID;SCBD-NET PT ARTHA TELEKOMINDO][55818;ID;MCIX-AS-AP MC-IX Matrix Internet Exchange RS-1][55794;ID;LYNX-AS-AP PT Lynx Mitra Asia][55652;ID;DASHNET-AS-ID Sumidhaz Permata Bunda  PT][46016;ID;ANTARA-AS-ID LKBN ANTARA][45786;ID;HTSNET-AS-ID PT. Hawk Teknologi Solusi][45702;ID;CITRA-AS-ID PT JEMBATAN CITRA NUSANTARA][45696;ID;PPATK-AS-ID Pusat Pelaporan dan Analisis Transaksi Keuangan][45658;ID;SURYACITRA-ID SCTV Tower - Senayan City][45286;ID;EDIINDONESIA-AS-ID PT EDI INDONESIA][45146;ID;RAJASA-AS-ID-AP PT. Raja Sepadan Abadi][38750;ID;TDS-AS-ID Telemedia Dinamika Sarana  PT][38569;ID;LYNX-AS-ID-AP PT Lynx Mitra Asia][38496;ID;CNI-AS-ID PT Cyber Network Indonesia][38320;ID;MMS-AS-ID PT Maxindo Mitra Solusi][38202;ID;MNET-INDONESIA-AS-ID PT. Mnet Indonesia Transit AS][38141;ID;CITRAMEDIA-AS-ID PT. Citramedia Network][24538;ID;DIGISATNET-AS-ID DIGITAL SATELLITE INDONESIA PT.][24518;ID;AXIS-AS-ID PT. Axis Telekom Indonesia][24194;ID;PISHON-MAGICNET-AS-ID MAGICNET - Triple Play][23945;ID;INDOTRANS-AS-ID Indotrans Data  PT][23756;ID;PADINET-AS-ID PADINET - Padi Internet][23691;ID;MITRA-NET-AS-AP PT Multi Teknologi Sejahtra][23679;ID;NUSANET-AS-ID PT. Media Antar Nusa][23671;ID;JMN-AS-ID PT. Sarana InsanMuda Selaras][23666;ID;SISTELINDO-AS-ID PT Sistelindo Mitralintas][23651;ID;IDNIC-AS-ID Indonesia Network Information Center][18393;ID;JAVA-AS-AP Java Online  PT.][18379;ID;CSMNAP-AS-AP CSMNAP-ASN][18364;ID;QUASAR-ID PT Quasar Jaringan Mandiri][18347;ID;IPNET-ID Indo Pratama CyberNet  PT.][18251;ID;IGF2013-ID Internet Governance Forum 2013][18237;ID;VISION-ID Visionnet AS Number][18189;ID;BROADNETASIA-AP Broadband Network Asia][18156;ID;BITNET-ID-AP BITNET ISP AS][18153;ID;MULTIDATA-ID-AP PT Multidata Rancana Prima][18112;ID;KSNET-ID-AS-AP PT. Sejuta Jaring Global][18103;ID;NEUVIZ-AS-ID-AP Neuviz Net][18059;ID;DTPNET-AS-AP DTPNET NAP][18056;ID;ABADINET-AS-AP Pt Mithaharum Abadi][18052;ID;ASIAKOMNET-ID-AP Asiakomnet Multimedia  PT][18004;ID;WIRELESSNET-ID PT WIRELESS INDONESIA  WIN ][17996;ID;UIINET-ID-AP PT Global Prima Utama][17995;ID;SOLUSINET-AS-ID PT iForte Global Internet][17910;ID;TIGAKOM-AS-ID PT. Tigatra Infokom][17885;ID;JKTXLNET-AS-AP PT XL Axiata Tbk][17884;ID;UNINET-AP PT. Uninet Media Sakti ISP][17826;ID;SATATANET-ID Jl. Raya Pasar Minggu no 99D][17800;ID;IIX-AS-AP Indonesia Internet Exchange IIX][17769;ID;CITYNET-AP PT Indopratama Teleglobal ISPWisma BSG Floor 6][17727;ID;NAPINFO-AS-AP PT. NAP Info Lintas Nusa][17725;ID;PHEONWJ-AS-ID Pertamina Hulu Energi ONWJ][17670;ID;MNCKABELMEDIACOM-ID PT. MNC Kabel Mediacom][17658;ID;PRIMANET-AS PrimaNet - PT. Khasanah Timur Indonesia][17538;ID;CIRCLECOM-AS-ID-AP PT. Circlecom Nusantara Indonesia][17454;ID;HASINDONET-AS-ID-AP PT Hasindo Net][17451;ID;BIZNET-AS-AP BIZNET NETWORKS][17450;ID;IDNIC-BCA-ID PT Bank Central Asia  Tbk][17440;ID;SAANET-AS-ID PT Sinar Alam Abadi][10220;ID;INTERFAST-AS-ID PT. Kreasi Sejahtera Teknologi][10217;ID;NTT-NET-ID-AS PT. NTT Indonesia][10208;ID;THENET-AS-ID-AP PT. Millenium Internetindo][10137;ID;TELKOMSAT-AP PT Telkom Satelit Indonesia][10114;ID;ASIANET-AP PT.Medialintas Antar Buana][9905;ID;LINKNET-ID-AP Linknet ASN][9875;ID;PESAT1-AS-AP PT. Pasifik Satelit Nusantara][9794;ID;DNET-ID-AP PT. Core Mediatech D-NET][9791;ID;PERDANA-ID-AS-AP PERDANA Network AS Content Service Provider][9785;ID;JASATELNET-AS-ID PT Berca Hardayaperkasa][9657;ID;MELSANET-ID-AP Melsa-i-net AS][9462;ID;BOLEH-NET-AP BOLEHNET-ASN][9448;ID;IDNIC-CYBERDC-AS-ID PT. MEDIA NUSANTARA GLOBAL DATA][9422;ID;SOLNET-ID PT SOLNET INDONESIA][9341;ID;ICONPLN-ID-AP-ISP PT INDONESIA COMNETS PLUS][9340;ID;INDONET-AS-AP INDO Internet  PT][9326;ID;CENTRIN-AS-AP PT Centrin Utama][9251;ID;INTERLINK-TECH-AS-ID PT INTERLINK TECHNOLOGY][9228;ID;CENTRALONLINE-ID-AS-AP PT. Total Info Kharisma][7632;ID;LINKNET-EXCHANGE-AS-ID Linknet-Exchange ASN][7597;ID;IIX-AS-AP Indonesia Internet Exchange][7587;ID;ACCESSNETWORKS TRANSMEDIA-][4855;ID;PI-ID-AS-AP Pacific Link Indonesia][4832;ID;INTERNUXNET-AS-ID PT. INTERNUX][4821;ID;SINERGINET-AS-ID PT Sinergi Semesta Telematika][4800;ID;LINTASARTA-AS-AP PT Aplikanusa Lintasarta][4787;ID;ASN-CBN PT Cyberindo Aditama][4622;ID;ID-NIC Indonesia Network Information Center][4434;ID;ERX-RADNET1-AS PT Rahajasa Media Internet][4382;ID;INDONUSA-ID PT. Indonusa System Integrator Prima]
 ID,ipv6,2401:e040::,32,allocated,*
+ID,ipv6,2401:e320::,32,allocated,*
 ID,ipv6,2401:e440::,32,allocated,*
 ID,ipv6,2401:e480::,32,allocated,*
 ID,ipv6,2401:ee00::,32,allocated,*
@@ -120396,6 +120429,7 @@ IN,ipv4,160.250.224.0,23,allocated,*
 IN,ipv4,160.250.234.0,23,allocated,*
 IN,ipv4,161.118.0.0,16,allocated,[136025;US;ORACLE-AS-AP Oracle Corporation][38538;IN;ORACLE-BANGALORE-AS-AP Oracle India Developement Centre.][24185;IN;ORACLEV6-OFSS-1 Oracle Corporation][23885;JP;ORACLEV6-AS-AP Oracle Corporation]
 IN,ipv4,161.248.0.0,23,allocated,[135608;IN;STARMITSOLUTIONS-AS-AP STARMIT SOLUTIONS]
+IN,ipv4,161.248.18.0,23,allocated,*
 IN,ipv4,162.56.0.0,16,allocated,[17972;HK;BANKOFAMERICA-ATG-HK Bank of America N.A.][7646;HK;BANKOFAMERICA-ATG-HK Bank of America N.A.]
 IN,ipv4,162.216.140.0,22,allocated,*
 IN,ipv4,163.47.140.0,22,allocated,*
@@ -121577,7 +121611,6 @@ IN,ipv6,2403:8fc0::,32,allocated,*
 IN,ipv6,2403:9140::,32,allocated,*
 IN,ipv6,2403:9dc0::,32,allocated,*
 IN,ipv6,2403:a080::,32,allocated,*
-IN,ipv6,2403:ab40::,32,allocated,[138329;IN;KWS-AS-AP Kenstar Web Solutions Private Limited]
 IN,ipv6,2403:ad00::,32,allocated,*
 IN,ipv6,2403:bd00::,32,allocated,[58590;IN;AMTRON-IN Assam Electronics Development Corp Ltd]
 IN,ipv6,2403:be80::,32,allocated,*
@@ -130410,6 +130443,7 @@ MY,ipv4,160.250.92.0,23,allocated,*
 MY,ipv4,161.139.0.0,16,allocated,[133014;MY;UTM-AS-AP Universiti Teknologi Malaysia]
 MY,ipv4,161.142.0.0,16,allocated,[9930;MY;TTNET-MY TIME dotCom Berhad No. 14  Jalan Majistret U126 Hicom Glenmarie Industrial Park 40150 Shah Alam Selangor  Malaysia]
 MY,ipv4,161.248.9.0,24,allocated,[135614;MY;ROFBSB-AS-AP RATE ONE FIBER BROADBAND]
+MY,ipv4,161.248.14.0,23,allocated,[133557;MY;NETFORGE-AS-AP Netforge Solution Sdn. Bhd.]
 MY,ipv4,162.253.16.0,22,allocated,[45352;MY;IPSERVERONE-AS-AP IP ServerOne Solutions Sdn Bhd]
 MY,ipv4,163.47.88.0,22,allocated,[134809;MY;VIEWQWEST-AS-AP ViewQwest Sdn. Bhd.][38199;MY;VIEWQWEST-AS-AP ViewQwest Sdn. Bhd.]
 MY,ipv4,163.47.192.0,22,allocated,[45960;MY;YTLCOMMS-AS-AP YTL COMMUNICATIONS SDN BHD][45512;MY;YTLCOMMS-MY YTL Communications Sdn Bhd][45182;MY;YTLCOMMS-MY YTL Communications Sdn Bhd][37997;MY;YTLCOMMS-MY YTL Communications Sdn Bhd][9728;MY;YTLCOMMS-AS-AP YTL Communications Sdn Bhd]
@@ -134299,6 +134333,7 @@ SG,ipv4,103.138.246.0,23,allocated,[149981;SG;LDPL-AS-AP LEGEND DYNASTY PTE. LTD
 SG,ipv4,103.139.72.0,23,allocated,[10122;SG;NETSTAR-AS-AP NETSTAR SG PTE. LTD.]
 SG,ipv4,103.139.130.0,23,allocated,*
 SG,ipv4,103.140.146.0,23,allocated,[139625;SG;ZEN-AS-AP Zenlayer Singapore PTE. LTD]
+SG,ipv4,103.141.235.0,24,allocated,[139601;SG;KRIXEPTELTD-AS-AP Krixe Pte. Ltd.]
 SG,ipv4,103.142.167.0,24,allocated,[139601;SG;KRIXEPTELTD-AS-AP Krixe Pte. Ltd.]
 SG,ipv4,103.143.48.0,23,allocated,[139655;SG;SINGCASHPTELTD-AS-AP Singcash Pte. Ltd.]
 SG,ipv4,103.143.172.0,24,allocated,[137182;SG;BLUE-WIRELESS-SG BLUE WIRELESS PTE LTD]
@@ -144490,6 +144525,8 @@ BD,ipv6,2001:df4:bfc0::,48,assigned,[149770;BD;LBN-AS-AP L.J Broadband Network]
 BD,ipv6,2001:df4:c080::,48,assigned,[141154;BD;IFOSOURCEBROADBANDINTERNET-AS-AP Ifosource Broadband Internet]
 BD,ipv6,2001:df4:c440::,48,assigned,[137921;BD;RAIHANINTERNET-AS-AP RAIHAN INTERNET]
 BD,ipv6,2001:df4:cc40::,48,assigned,[133496;BD;MOHITECH-AS-AP Mohi Tech]
+BD,ipv6,2001:df4:cd40::,48,assigned,[135613;BD;SIT-AS-AP Streaming Internet Trade]
+BD,ipv6,2001:df4:cdc0::,48,assigned,[134505;BD;IDEAL2-AS-AP Ideal Communication Network]
 BD,ipv6,2001:df4:ce80::,48,assigned,[141166;BD;JSINTERNET-AS-AP JS INTERNET]
 BD,ipv6,2001:df4:d480::,48,assigned,[141178;BD;SFC-AS-AP Super Fast Connectivity]
 BD,ipv6,2001:df4:d580::,48,assigned,[141181;BD;BCLONLINESERVICE-AS-AP BCL Online Service]
@@ -151320,7 +151357,6 @@ IN,ipv4,103.141.198.0,24,assigned,[139463;IN;ITIVITI-AS-AP Itiviti India Pvt Ltd
 IN,ipv4,103.141.207.0,24,assigned,[139930;AU;MYLAN-AS-AP Mylan Laboratories Ltd][132349;IN;MYLAN-IN Mylan Laboratories Ltd]
 IN,ipv4,103.141.213.0,24,assigned,*
 IN,ipv4,103.141.218.0,23,assigned,*
-IN,ipv4,103.141.235.0,24,assigned,*
 IN,ipv4,103.141.246.0,24,assigned,*
 IN,ipv4,103.141.247.0,24,assigned,*
 IN,ipv4,103.141.252.0,24,assigned,[134212;IN;GTIPL-AS-AP Gupshup Technology India Pvt. Ltd.]
@@ -153691,6 +153727,9 @@ IN,ipv4,160.250.118.0,23,assigned,*
 IN,ipv4,160.250.218.0,23,assigned,*
 IN,ipv4,160.250.228.0,23,assigned,*
 IN,ipv4,160.250.236.0,23,assigned,*
+IN,ipv4,161.248.22.0,23,assigned,*
+IN,ipv4,161.248.24.0,24,assigned,*
+IN,ipv4,161.248.26.0,23,assigned,*
 IN,ipv4,162.12.244.0,22,assigned,*
 IN,ipv4,163.53.72.0,22,assigned,*
 IN,ipv4,163.53.76.0,22,assigned,*
@@ -155130,6 +155169,7 @@ IN,ipv6,2001:df4:c840::,48,assigned,*
 IN,ipv6,2001:df4:cb00::,48,assigned,*
 IN,ipv6,2001:df4:cc00::,48,assigned,*
 IN,ipv6,2001:df4:ccc0::,48,assigned,[135608;IN;STARMITSOLUTIONS-AS-AP STARMIT SOLUTIONS]
+IN,ipv6,2001:df4:ce40::,48,assigned,*
 IN,ipv6,2001:df4:d380::,48,assigned,*
 IN,ipv6,2001:df4:d680::,48,assigned,*
 IN,ipv6,2001:df4:d780::,48,assigned,*
@@ -159028,6 +159068,7 @@ TH,ipv4,103.255.198.0,24,assigned,[151985;TH;KPC-AS-AP King Power Corporation Co
 TH,ipv4,160.25.170.0,23,assigned,[153163;TH;BSPCL-AS-AP Beyond Securities Public Company Limited]
 TH,ipv4,160.187.192.0,23,assigned,[153357;TH;CCL-AS-AP CBSOFT CO.  LTD.]
 TH,ipv4,160.250.116.0,23,assigned,[153464;TH;PANDORAPRODUCTION-AS-AP Pandora Production CO. LTD.]
+TH,ipv4,161.248.11.0,24,assigned,[136942;TH;BROTHERSPICTURES-AS-AP Brothers Pictures Company Limited]
 TH,ipv4,167.94.112.0,23,assigned,[148997;TH;KTB-KTBCS-AS-AP KTB COMPUTER SERVICES COMPANY LIMITED][141685;TH;KTBCS-VAYU-AS-AP KTBCS VAYUPAK][24060;TH;KTB-KTBCS-TH KTB COMPUTER SERVICES COMPANY LIMITED]
 TH,ipv4,192.41.170.0,24,assigned,[4767;TH;AIT-CS-ASN Computer Science]
 TH,ipv4,192.100.77.0,24,assigned,[9464;TH;PSU-TH-AS-AP Prince of Songkla University SritrangNET]
@@ -160324,6 +160365,7 @@ VN,ipv6,2001:df4:c400::,48,assigned,*
 VN,ipv6,2001:df4:c9c0::,48,assigned,*
 VN,ipv6,2001:df4:cb40::,48,assigned,*
 VN,ipv6,2001:df4:cbc0::,48,assigned,*
+VN,ipv6,2001:df4:cec0::,48,assigned,*
 VN,ipv6,2001:df4:d200::,48,assigned,*
 VN,ipv6,2001:df4:d300::,48,assigned,*
 VN,ipv6,2001:df4:d500::,48,assigned,*
