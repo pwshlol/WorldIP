@@ -165,7 +165,7 @@ apnic,ipv4,160.250.10.0,23,allocated,[153461;US;DIGITAL-LAYER-AS-KR Digital Laye
 apnic,ipv4,161.32.64.0,18,allocated,[133942;US;SFDC-AS-AP SalesForce.com  Inc.][133869;JP;SFDC-AS-AP SalesForce.com  Inc.][45422;US;SFDC-AS-AP SalesForce.com  Inc.]
 apnic,ipv4,161.32.128.0,17,allocated,[133942;US;SFDC-AS-AP SalesForce.com  Inc.][133869;JP;SFDC-AS-AP SalesForce.com  Inc.][45422;US;SFDC-AS-AP SalesForce.com  Inc.]
 apnic,ipv4,161.121.128.0,19,allocated,[38910;US;JPMORGAN-TRANSIT-AS-JP-AP Transit AS Tokyo][38551;US;JPMORGAN-TRANSIT-AS-AU JPMORGAN Australia][38481;US;JPMORGAN-TRANSIT-AS-SG-AP JPMORGAN Singapore][17929;US;JPMC-AP JPMorgan Chase APTI]
-apnic,ipv4,161.248.28.0,23,allocated,[137933;SG;CYBERFORESTLLC-AS-AP CyberForest LLC.]
+apnic,ipv4,161.248.28.0,23,allocated,[137933;US;CYBERFORESTLLC-AS-AP CyberForest LLC.]
 apnic,ipv4,164.152.166.0,23,allocated,*
 apnic,ipv4,167.179.64.0,18,allocated,[133795;JP;CHOOPALLC-AS-AP The Constant Company  LLC]
 apnic,ipv4,167.179.199.0,24,allocated,[150802;US;NTC-AS-INBAG NORTHERN TRUST CORPORATION][138947;US;NTC-AS-APC NORTHERN TRUST CORPORATION][138938;US;NTC-AS-INPE NORTHERN TRUST CORPORATION][138918;US;NTC-AS-SYD Northern Trust Corporation]
@@ -244,7 +244,7 @@ apnic,ipv6,2401:c740::,32,allocated,[23734;US;NETROUTINGINC-AS-AP Netrouting Inc
 apnic,ipv6,2401:d860::,32,allocated,[153461;US;DIGITAL-LAYER-AS-KR Digital Layer Co.  Ltd.][153453;US;HONGSHIN-AS-AP Hongshin  Inc.]
 apnic,ipv6,2401:daa0::,32,allocated,[133374;US;VERSANETWORKSINC-AS-AP Versa Networks Inc]
 apnic,ipv6,2401:df40::,32,allocated,[64022;HK;KAMATERAINC-AS-AP Kamatera  Inc.]
-apnic,ipv6,2401:e3a0::,32,allocated,[137933;SG;CYBERFORESTLLC-AS-AP CyberForest LLC.]
+apnic,ipv6,2401:e3a0::,32,allocated,[137933;US;CYBERFORESTLLC-AS-AP CyberForest LLC.]
 apnic,ipv6,2401:e540::,32,allocated,*
 apnic,ipv6,2401:f9c0::,32,allocated,[138365;AU;ESPORTS-AS-AP eSports Limited][138006;HK;YOTTADEVELOP-AS-AP Long Isaac Kwan][132383;IN;VARUN-PRIOLKAR-AS-AP Varun Priolkar][132362;HK;ORANME-LTD-AP ORANME LIMITED][24076;AU;BOGLE-TECHNOLOGIES-LLC Bogle Technologies LLC][23738;US;TEEMO-AS-AP Bandle City Internet]
 apnic,ipv6,2402:5c40::,32,allocated,[64089;AU;DNSFILTER-AS-AP DNSFilter  Inc.]
@@ -1001,7 +1001,7 @@ arin,ipv4,23.131.20.0,24,allocated,[401328;US;FASTWIRELESSLLC]
 arin,ipv4,23.131.24.0,24,allocated,[62997;US;RICKEY-S-FRANCIS-JR]
 arin,ipv4,23.131.28.0,24,allocated,[46951;US;HERODIGI]
 arin,ipv4,23.131.36.0,24,allocated,[401227;US;JOULEWORKS-MA]
-arin,ipv4,23.131.44.0,24,allocated,*
+arin,ipv4,23.131.44.0,24,allocated,
 arin,ipv4,23.131.48.0,24,allocated,[62655;US;TRANSFORMATIVEMED]
 arin,ipv4,23.131.52.0,24,allocated,*
 arin,ipv4,23.131.64.0,24,allocated,[396480;US;MEADOWRIDGE-NETWORKS]
@@ -23409,6 +23409,7 @@ arin,ipv4,162.252.35.0,24,allocated,[396221;US;RADCC-ASN]
 arin,ipv4,162.252.36.0,22,allocated,*
 arin,ipv4,162.252.40.0,22,allocated,[32874;US;ASSOCIATION-TECHNOLOGIES]
 arin,ipv4,162.252.48.0,22,allocated,[14704;US;SURFX]
+arin,ipv4,162.252.52.0,22,allocated,*
 arin,ipv4,162.252.56.0,22,allocated,[62519;US;COLOHOUSE-LLC][47869;US;CL-1763-47869]
 arin,ipv4,162.252.60.0,22,allocated,[62754;US;REDI-NET]
 arin,ipv4,162.252.64.0,22,allocated,[398497;US;PBBFH RU][398383;US;WMBB-WMF-7000][398337;US;COMMUNITY-INTERNET-PROVIDERS][397872;US;JBL-ASN-01][397310;US;NGN-CONNECT][396351;US;PTBB][396198;US;VB-FIBER][62798;US;PBB-OPELIKA][40174;US;COMMUNITY-INTERNET-PROVIDERS][33346;US;MONSTERBROADBAND][30177;US;FIBER-SOUTH-01][26479;US;SDC-AS][25943;US;COUNTRY-CONNECTIONS-LLC][19872;US;CUSTOM-76][19310;US;CASAIR][17310;US;BVU-2][11381;US;NFIS]
@@ -41392,6 +41393,7 @@ arin,ipv4,198.143.96.0,19,allocated,[54290;US;HOSTWINDS][21773;US;AS-PUH]
 arin,ipv4,198.143.128.0,18,allocated,[47080;US;SINGLEHOP-LLC-2][32475;US;SINGLEHOP-LLC]
 arin,ipv4,198.143.192.0,18,allocated,[399834;US;AWS][40045;US;AWS][21664;US;AMZN-BYOASN][14618;US;AMAZON-AES]
 arin,ipv4,198.144.0.0,20,allocated,[25660;US;CTC][14051;US;SUREWEST][13333;US;CCI-PA-AS-1][12112;US;HICKORYTECH][12042;US;ENVENTIS][11401;US;CPINTERNET-1][10664;US;CP-INTERNET][6300;US;CCI-TEXAS][5742;US;CCINET]
+arin,ipv4,198.144.16.0,22,allocated,*
 arin,ipv4,198.144.24.0,22,allocated,[54847;US;CUSTER-TELEPHONE]
 arin,ipv4,198.144.28.0,22,allocated,*
 arin,ipv4,198.144.32.0,20,allocated,[3998;US;CITY-NET]
@@ -46035,6 +46037,7 @@ arin,ipv4,199.30.64.0,22,allocated,[46841;US;FORKNETWORKING]
 arin,ipv4,199.30.68.0,22,allocated,[35902;US;VERACITY-NETWORKS][29933;US;FIRSTDIGITAL][13415;US;FIRSTDIGITAL]
 arin,ipv4,199.30.72.0,21,allocated,[54142;US;WHITE-CLOUD-COMMUNICATIONS][31888;US;WHITE-CLOUD-COMMUNICATIONS]
 arin,ipv4,199.30.84.0,22,allocated,[21782;US;PLATEAU]
+arin,ipv4,199.30.92.0,22,allocated,*
 arin,ipv4,199.30.96.0,21,allocated,[36374;US;STELLAR-ASSOCIATION][36203;US;STELLAR-ASSOCIATION][33117;US;STELLAR-ASSOCIATION]
 arin,ipv4,199.30.104.0,22,allocated,[31849;US;PINNACLE]
 arin,ipv4,199.30.108.0,22,allocated,[46090;US;AMX]
@@ -61131,6 +61134,7 @@ arin,ipv4,209.20.96.0,19,allocated,[10444;US;ZB NATIONAL ASSOCIATION]
 arin,ipv4,209.20.128.0,23,allocated,[63430;US;5X5]
 arin,ipv4,209.20.132.0,22,allocated,*
 arin,ipv4,209.20.136.0,21,allocated,*
+arin,ipv4,209.20.144.0,22,allocated,*
 arin,ipv4,209.20.148.0,23,allocated,[31783;US;SKRC-SOUTH01]
 arin,ipv4,209.20.150.0,23,allocated,[396296;US;HORIZON-CREDIT-UNION-57]
 arin,ipv4,209.20.152.0,23,allocated,[6423;US;DF-PTL2-3][2044;US;DF-PTL1]
@@ -63784,6 +63788,7 @@ arin,ipv4,216.151.160.0,24,allocated,*
 arin,ipv4,216.151.161.0,24,allocated,[397775;US;RVH-ASN]
 arin,ipv4,216.151.162.0,23,allocated,*
 arin,ipv4,216.151.164.0,23,allocated,*
+arin,ipv4,216.151.166.0,24,allocated,*
 arin,ipv4,216.151.167.0,24,allocated,*
 arin,ipv4,216.151.168.0,23,allocated,*
 arin,ipv4,216.151.170.0,23,allocated,[35999;US;NYPL]
@@ -65854,12 +65859,14 @@ arin,ipv6,2601:c000::,24,allocated,[63188;US;ICOGUNNISON][46193;US;SKYWERX][3363
 arin,ipv6,2601:d000::,20,allocated,[29992;US;VA-TMP-CORE][3143;US;VANET]
 arin,ipv6,2601:e000::,24,allocated,[10967;US;HOMEDEPOTNET]
 arin,ipv6,2601:f000::,24,allocated,[31989;US;FFH-AS]
+arin,ipv6,2602:f757::,36,allocated,*
+arin,ipv6,2602:f759::,40,allocated,[46972;US;WIRETAPTELECOM-ATL1]
 arin,ipv6,2602:f75a::,36,allocated,[399836;US;SXG]
 arin,ipv6,2602:f75c::,40,allocated,[399765;US;FASNET-SERVICES]
 arin,ipv6,2602:f75d::,36,allocated,[400593;US;TRIDATA]
 arin,ipv6,2602:f75e::,36,allocated,*
 arin,ipv6,2602:f75f::,40,allocated,*
-arin,ipv6,2602:f760::,36,allocated,*
+arin,ipv6,2602:f760::,36,allocated,
 arin,ipv6,2602:f761::,40,allocated,[397730;US;MILDPANIC2]
 arin,ipv6,2602:f762::,40,allocated,[401130;US;SATURN-ASN-01]
 arin,ipv6,2602:f763::,40,allocated,[63232;US;EDL-MANAGER]
@@ -65938,7 +65945,7 @@ arin,ipv6,2602:f7b2::,36,allocated,[401441;US;GOOSEWORKS]
 arin,ipv6,2602:f7b3::,40,allocated,[401463;US;NUCLE]
 arin,ipv6,2602:f7b4::,40,allocated,[401461;US;ACCELERATE]
 arin,ipv6,2602:f7b5::,40,allocated,[400395;US;DIGITAL-LAYER-NAM][20200;US;DIGITAL-LAYER-APAC]
-arin,ipv6,2602:f7b6::,40,allocated,[22599;US;365-NETWORK]
+arin,ipv6,2602:f7b6::,40,allocated,[22599;US;365NETWORKS-BACKONE]
 arin,ipv6,2602:f7b7::,36,allocated,[22640;US;DOIX-NET-79]
 arin,ipv6,2602:f7b8::,40,allocated,[13378;US;QINGYE-CLOUD]
 arin,ipv6,2602:f7b9::,36,allocated,*
