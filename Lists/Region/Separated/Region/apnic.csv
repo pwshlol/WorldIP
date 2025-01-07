@@ -1558,8 +1558,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,160.250.87.0,24,available,*
 *,ipv4,160.250.169.0,24,available,*
 *,ipv4,160.250.200.0,24,available,*
-*,ipv4,161.248.100.0,22,available,*
-*,ipv4,161.248.104.0,21,available,*
+*,ipv4,161.248.106.0,23,available,*
+*,ipv4,161.248.108.0,22,available,*
 *,ipv4,161.248.112.0,20,available,*
 *,ipv4,161.248.128.0,17,available,*
 *,ipv4,162.4.0.0,16,available,*
@@ -22567,7 +22567,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2401:e644::,30,available,*
 *,ipv6,2401:e648::,29,available,*
 *,ipv6,2401:e650::,28,available,*
-*,ipv6,2401:e660::,27,available,*
+*,ipv6,2401:e661::,32,available,*
+*,ipv6,2401:e662::,31,available,*
+*,ipv6,2401:e664::,30,available,*
+*,ipv6,2401:e668::,29,available,*
+*,ipv6,2401:e670::,28,available,*
 *,ipv6,2401:e681::,32,available,*
 *,ipv6,2401:e682::,31,available,*
 *,ipv6,2401:e684::,30,available,*
@@ -83145,14 +83149,24 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df4:de88::,45,available,*
 *,ipv6,2001:df4:de90::,44,available,*
 *,ipv6,2001:df4:dea0::,43,available,*
-*,ipv6,2001:df4:dec0::,42,available,*
+*,ipv6,2001:df4:dec1::,48,available,*
+*,ipv6,2001:df4:dec2::,47,available,*
+*,ipv6,2001:df4:dec4::,46,available,*
+*,ipv6,2001:df4:dec8::,45,available,*
+*,ipv6,2001:df4:ded0::,44,available,*
+*,ipv6,2001:df4:dee0::,43,available,*
 *,ipv6,2001:df4:df01::,48,available,*
 *,ipv6,2001:df4:df02::,47,available,*
 *,ipv6,2001:df4:df04::,46,available,*
 *,ipv6,2001:df4:df08::,45,available,*
 *,ipv6,2001:df4:df10::,44,available,*
 *,ipv6,2001:df4:df20::,43,available,*
-*,ipv6,2001:df4:df40::,42,available,*
+*,ipv6,2001:df4:df41::,48,available,*
+*,ipv6,2001:df4:df42::,47,available,*
+*,ipv6,2001:df4:df44::,46,available,*
+*,ipv6,2001:df4:df48::,45,available,*
+*,ipv6,2001:df4:df50::,44,available,*
+*,ipv6,2001:df4:df60::,43,available,*
 *,ipv6,2001:df4:df81::,48,available,*
 *,ipv6,2001:df4:df82::,47,available,*
 *,ipv6,2001:df4:df84::,46,available,*
@@ -98874,6 +98888,7 @@ BD,ipv4,161.248.10.0,24,allocated,[152125;BD;NRSENTERPRISE-AS-AP NRS ENTERPRISE]
 BD,ipv4,161.248.16.0,23,allocated,[135613;BD;SIT-AS-AP Streaming Internet Trade]
 BD,ipv4,161.248.50.0,23,allocated,[137943;BD;LNISP-AS-AP LIVENET. INTERNET SERVICE PROVIDER]
 BD,ipv4,161.248.56.0,23,allocated,[138175;BD;MNNETWORK-AS-AP M N NETWORK]
+BD,ipv4,161.248.100.0,23,allocated,
 BD,ipv4,162.12.212.0,22,allocated,[153179;BD;CCN-AS-AP Computer Complex Network][131686;BD;CCN-AS-AP MD. Khurshid Alom ta Computer Complex Network]
 BD,ipv4,163.47.32.0,22,allocated,[23688;BD;LINK3-TECH-AS-BD-AP Link3 Technologies Ltd.]
 BD,ipv4,163.47.36.0,22,allocated,[132106;BD;BDREN-UGC-BD-AS University Grants Commission of Bangladesh][63961;BD;BDREN-UGC-AS-AP Bangladesh Research and Education Network BdREN]
@@ -99332,6 +99347,7 @@ BD,ipv6,2401:e160::,32,allocated,[133446;BD;INCITYINTERNET-AS-AP Incity Internet
 BD,ipv6,2401:e3c0::,32,allocated,[137029;BD;CMCL-AS-AP Chittagong multi channel limited]
 BD,ipv6,2401:e4c0::,32,allocated,[136618;BD;IICT-BUET-AS-AP Bangladesh University of Engineering and Technology]
 BD,ipv6,2401:e5e0::,32,allocated,[153478;BD;DESHONLINE1-AS-AP DeshOnline]
+BD,ipv6,2401:e660::,32,allocated,
 BD,ipv6,2401:e7c0::,32,allocated,[59382;BD;APL-BD Antaranga Properties Ltd]
 BD,ipv6,2401:e900::,32,allocated,[23991;BD;RANKS-AS-BD Ranks ITT Ltd.]
 BD,ipv6,2401:ea40::,32,allocated,[137038;BD;ZUBAIRITEXPERT-AS-AP MD ZUBAIR ISLAM ta ZUBAIR IT EXPERT]
@@ -129556,12 +129572,12 @@ LA,ipv4,101.78.8.0,21,allocated,[24566;LA;ETL-GPRS-AS-AP ETL GPRS Network][10226
 LA,ipv4,103.1.28.0,22,allocated,[131267;LA;UNITEL-LA Star Telecom]
 LA,ipv4,103.1.232.0,22,allocated,[55508;LA;INTERNET-LA Lao National Internet Center LANIC]
 LA,ipv4,103.13.88.0,22,allocated,[24566;LA;ETL-GPRS-AS-AP ETL GPRS Network][10226;LA;ETL-IX-AS-AP ETL Company Limited]
-LA,ipv4,103.26.103.0,24,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv4,103.26.103.0,24,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv4,103.43.76.0,22,allocated,[133630;LA;LATELECOM-AS-AP Lao Telecommunication IX][9873;LA;TELECOM-LA-AS-AP Lao Telecom Communication  LTC]
-LA,ipv4,103.63.188.0,24,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv4,103.63.188.0,24,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv4,103.66.238.0,23,allocated,[150716;LA;ANCTSC-AS-AP AP Network Communication][135068;LA;HODMC-AS-AP HOD Media Co. Ltd]
-LA,ipv4,103.81.180.0,24,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
-LA,ipv4,103.82.56.0,22,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv4,103.81.180.0,24,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv4,103.82.56.0,22,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv4,103.95.24.0,22,allocated,[136748;LA;ETERNLAOSCOMMUNICATIONTECHNOLOGYSOLECOLTD-AS-AP Etern Laos Communication Technology Sole Co . Ltd]
 LA,ipv4,103.109.116.0,22,allocated,[38528;LA;LANIC-AS-AP Lao National Internet Committee]
 LA,ipv4,103.114.146.0,23,allocated,[137905;LA;REVO-AS-AP Mangkone Technology Co. Ltd.]
@@ -129572,7 +129588,7 @@ LA,ipv4,103.150.74.0,23,allocated,[150297;LA;GDMSCL-AS-AP Global Digital Managem
 LA,ipv4,103.151.76.0,23,allocated,[140635;LA;THREEC-LINKTECNOLOGYSOLECOLTD-AS-AP 3C Link Technology Sole Co.  Ltd.]
 LA,ipv4,103.174.8.0,23,allocated,[147065;LA;LTCC-AS-AP Lao telecom construction Co. Ltd]
 LA,ipv4,103.205.16.0,22,allocated,[134989;LA;LNCSC-AS-AP Kongtavanh Keodouangsinh ta LAO NET COMMUNICATION SOLE CO.  LTD]
-LA,ipv4,103.228.101.0,24,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv4,103.228.101.0,24,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv4,103.228.252.0,22,allocated,[132513;LA;SKYTELLAO-AS-AP Sky Telecom State Company][24337;LA;SKYTELECOM-AS-AP SkytelecomTransit provider and ISP in Vientiene.]
 LA,ipv4,103.240.240.0,22,allocated,[133630;LA;LATELECOM-AS-AP Lao Telecommunication IX][9873;LA;TELECOM-LA-AS-AP Lao Telecom Communication  LTC]
 LA,ipv4,103.245.164.0,24,allocated,[58808;LA;SIAMDATACOLTD-AS Siamdata Lao Co. Ltd]
@@ -129589,7 +129605,7 @@ LA,ipv4,160.191.178.0,23,allocated,[138668;LA;MOTACOL-AS-AP Department of Digita
 LA,ipv4,160.250.220.0,23,allocated,[137838;LA;CPNSC-AS-AP CHALERNSUB PROFESSIONAL NETWORK CO. LTD.]
 LA,ipv4,180.131.148.0,22,allocated,[152145;LA;NUOL-AS-AP National University of Laos NUOL][135274;LA;LERNET-AS-AP National Academic and Research Network for Laos][45906;LA;NUOL-LA LERNET at LAOs]
 LA,ipv4,183.182.96.0,19,allocated,[131267;LA;UNITEL-LA Star Telecom]
-LA,ipv4,185.19.104.0,22,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv4,185.19.104.0,22,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv4,185.126.144.0,22,allocated,[132513;LA;SKYTELLAO-AS-AP Sky Telecom State Company][24337;LA;SKYTELECOM-AS-AP SkytelecomTransit provider and ISP in Vientiene.]
 LA,ipv4,185.129.140.0,22,allocated,[132513;LA;SKYTELLAO-AS-AP Sky Telecom State Company][24337;LA;SKYTELECOM-AS-AP SkytelecomTransit provider and ISP in Vientiene.]
 LA,ipv4,202.62.96.0,20,allocated,[24566;LA;ETL-GPRS-AS-AP ETL GPRS Network][10226;LA;ETL-IX-AS-AP ETL Company Limited]
@@ -129599,7 +129615,7 @@ LA,ipv4,202.137.128.0,19,allocated,[133630;LA;LATELECOM-AS-AP Lao Telecommunicat
 LA,ipv4,202.144.184.0,21,allocated,[133630;LA;LATELECOM-AS-AP Lao Telecommunication IX][9873;LA;TELECOM-LA-AS-AP Lao Telecom Communication  LTC]
 LA,ipv4,203.76.252.0,22,allocated,[134989;LA;LNCSC-AS-AP Kongtavanh Keodouangsinh ta LAO NET COMMUNICATION SOLE CO.  LTD]
 LA,ipv4,203.110.64.0,20,allocated,[38528;LA;LANIC-AS-AP Lao National Internet Committee]
-LA,ipv6,2400:81c0::,32,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv6,2400:81c0::,32,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv6,2400:aa00::,32,allocated,[133630;LA;LATELECOM-AS-AP Lao Telecommunication IX][9873;LA;TELECOM-LA-AS-AP Lao Telecom Communication  LTC]
 LA,ipv6,2400:c180::,32,allocated,[132513;LA;SKYTELLAO-AS-AP Sky Telecom State Company][24337;LA;SKYTELECOM-AS-AP SkytelecomTransit provider and ISP in Vientiene.]
 LA,ipv6,2400:d3a0::,32,allocated,[150716;LA;ANCTSC-AS-AP AP Network Communication][135068;LA;HODMC-AS-AP HOD Media Co. Ltd]
@@ -129607,7 +129623,7 @@ LA,ipv6,2401:d4a0::,32,allocated,[138668;LA;MOTACOL-AS-AP Department of Digital 
 LA,ipv6,2401:e060::,32,allocated,[137838;LA;CPNSC-AS-AP CHALERNSUB PROFESSIONAL NETWORK CO. LTD.]
 LA,ipv6,2402:6840::,32,allocated,[38528;LA;LANIC-AS-AP Lao National Internet Committee]
 LA,ipv6,2402:8c80::,32,allocated,[152145;LA;NUOL-AS-AP National University of Laos NUOL][135274;LA;LERNET-AS-AP National Academic and Research Network for Laos][45906;LA;NUOL-LA LERNET at LAOs]
-LA,ipv6,2402:8d80::,32,allocated,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv6,2402:8d80::,32,allocated,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv6,2404:2e00::,32,allocated,[24566;LA;ETL-GPRS-AS-AP ETL GPRS Network][10226;LA;ETL-IX-AS-AP ETL Company Limited]
 LA,ipv6,2404:adc0::,32,allocated,[138934;LA;SLTNETWORKCOLTD-AS-AP SLT Network Co. LTD]
 LA,ipv6,2404:c200::,32,allocated,[23900;LA;PLANET-ONLINE-AS-LA Planet Online Laos  Internet Service Provider in LAO PDR]
@@ -135190,6 +135206,7 @@ SG,ipv4,203.8.206.0,23,allocated,[135409;SG;KBSPL-AS-AP Kacific Broadband Satell
 SG,ipv4,203.9.78.0,23,allocated,*
 SG,ipv4,203.10.100.0,23,allocated,[137991;SG;LIFEWAY-AS-AP Lifeway Singapore Pte. Ltd.]
 SG,ipv4,203.17.180.0,22,allocated,[135600;SG;WHIZCOMMS-AS-AP Whiz Communications Pte Ltd]
+SG,ipv4,203.19.243.0,24,allocated,[153325;SG;NEXTERA-AS-AP Next Era Pte. Ltd.]
 SG,ipv4,203.21.140.0,22,allocated,[135409;SG;KBSPL-AS-AP Kacific Broadband Satellites Pte Ltd]
 SG,ipv4,203.24.104.0,22,allocated,[135409;SG;KBSPL-AS-AP Kacific Broadband Satellites Pte Ltd]
 SG,ipv4,203.27.96.0,23,allocated,[135409;SG;KBSPL-AS-AP Kacific Broadband Satellites Pte Ltd]
@@ -141905,7 +141922,6 @@ AU,ipv4,203.19.224.0,23,assigned,*
 AU,ipv4,203.19.226.0,23,assigned,*
 AU,ipv4,203.19.232.0,24,assigned,*
 AU,ipv4,203.19.234.0,24,assigned,[139768;AU;COCHLEAR-AS-AP COCHLEAR LIMITED]
-AU,ipv4,203.19.243.0,24,assigned,*
 AU,ipv4,203.19.244.0,22,assigned,[137232;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd][45201;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd][38014;AU;GENERAL-PANTS-AU-AP General Pants Co  Sell Cloth][23609;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd][17766;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd][9797;AU;NEXONASIAPACIFIC-AS-AP Nexon Asia Pacific PL][7567;AU;ASIANONLINEAUS2-AS-AP Nexon Asia Pacific][4786;AU;NEXON-AS-AP Nexon Asia Pacific Pty Ltd]
 AU,ipv4,203.19.251.0,24,assigned,*
 AU,ipv4,203.19.253.0,24,assigned,*
@@ -144078,6 +144094,7 @@ BD,ipv4,160.250.89.0,24,assigned,[58935;BD;LANKABANGLA-BD LankaBangla Informatio
 BD,ipv4,160.250.94.0,23,assigned,[136396;BD;HOSTOMEGA1-AS-AP Masum Talukder ta HOSTOMEGA]
 BD,ipv4,161.248.52.0,24,assigned,[138151;BD;SMARTNETWORK-AS-AP Smart Network Ltd.]
 BD,ipv4,161.248.90.0,23,assigned,[153478;BD;DESHONLINE1-AS-AP DeshOnline]
+BD,ipv4,161.248.102.0,23,assigned,
 BD,ipv4,202.0.94.0,24,assigned,[63914;BD;STEL-BD SB TEL ENTERPRISES LIMITED]
 BD,ipv4,202.4.173.0,24,assigned,[45925;BD;TELETALK-BD ASN For Teletalk Bangladesh Ltd.]
 BD,ipv4,202.45.159.0,24,assigned,[45268;BD;NOVOTEL-IGW--AS-BD Novotel Limited]
@@ -144739,6 +144756,7 @@ BD,ipv6,2001:df4:d480::,48,assigned,[141178;BD;SFC-AS-AP Super Fast Connectivity
 BD,ipv6,2001:df4:d4c0::,48,assigned,[138175;BD;MNNETWORK-AS-AP M N NETWORK]
 BD,ipv6,2001:df4:d580::,48,assigned,[141181;BD;BCLONLINESERVICE-AS-AP BCL Online Service]
 BD,ipv6,2001:df4:dcc0::,48,assigned,[38556;BD;NARAENETWORKS-AS-AP Narae Networks]
+BD,ipv6,2001:df4:dec0::,48,assigned,
 BD,ipv6,2001:df4:e080::,48,assigned,[141185;BD;ASA1-AS-AP ASA]
 BD,ipv6,2001:df4:ed80::,48,assigned,[141208;BD;GBNS-AS-AP Green Broadband Network Service]
 BD,ipv6,2001:df4:ef00::,48,assigned,[137585;BD;CYBERLINKCOMPUTER-AS-AP Cyber Link Computer]
@@ -153941,6 +153959,7 @@ IN,ipv4,161.248.54.0,23,assigned,*
 IN,ipv4,161.248.64.0,23,assigned,*
 IN,ipv4,161.248.68.0,23,assigned,*
 IN,ipv4,161.248.74.0,23,assigned,*
+IN,ipv4,161.248.105.0,24,assigned,*
 IN,ipv4,162.12.244.0,22,assigned,*
 IN,ipv4,163.53.72.0,22,assigned,*
 IN,ipv4,163.53.76.0,22,assigned,*
@@ -156581,7 +156600,7 @@ LA,ipv6,2001:df0:df80::,48,assigned,[139348;LA;LITSSCL-AS-AP Lao International T
 LA,ipv6,2001:df3:5e80::,48,assigned,[150297;LA;GDMSCL-AS-AP Global Digital Management Solutions Co Ltd][140631;LA;GDMSCL-AS-AP Global Digital Management Solutions Co Ltd]
 LA,ipv6,2001:df3:6c40::,48,assigned,[10104;LA;BVKCOMPUTER-AS-AP BV K Computer]
 LA,ipv6,2001:df3:de40::,48,assigned,[138327;LA;MTASIE-AS-AP MJ TRADE AND SERVICES INDIVIDUAL ENTERPRISE]
-LA,ipv6,2001:df3:e000::,48,assigned,[136159;LA;LAODC-AS-AP LAODC LIMITED][132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
+LA,ipv6,2001:df3:e000::,48,assigned,[132861;LA;LAODC-AS-AP LAO DC IT SOLE COMPANY LIMITED][17804;LA;LAODC-AS-AP Lao Data Center LaoDC]
 LA,ipv6,2001:df4:51c0::,48,assigned,[153347;LA;LCTLAOS-AS-AP Lao Communication Technology Sole Co.  Ltd]
 LA,ipv6,2001:df4:6400::,48,assigned,[136486;LA;DATACOM-AS-AP Datacom Sole Co.  Ltd]
 LA,ipv6,2001:df4:b900::,48,assigned,[135059;LA;LAPSCL-AS-AP Lao Asia Pacific Satellite Co.  Ltd.]
@@ -156718,6 +156737,7 @@ MN,ipv4,157.15.6.0,23,assigned,[152337;MN;NUM-AS-AP National University of Mongo
 MN,ipv4,160.22.210.0,23,assigned,[152926;MN;ULAANBAATAR-AS-AP Digital Development and Information Technology Department]
 MN,ipv4,160.187.40.0,23,assigned,*
 MN,ipv4,160.250.66.0,24,assigned,[151637;MN;EMC-AS-AP Erdenet Mining Corporation]
+MN,ipv4,161.248.104.0,24,assigned,[133531;MN;GEMNET-AS-AP Gemnet][45204;MN;GEMNET-MN GEMNET LLC][24064;MN;MISPA-IXP MISPA IXP]
 MN,ipv4,202.37.235.0,24,assigned,[152692;MN;ONLIMENETWORKLLC-AS-AP Onlime Network LLC]
 MN,ipv4,203.17.23.0,24,assigned,[55408;MN;UNIVISION-AS-AP Univision LLC. To TTK STM1 UPSTREAM PROVIDER][38273;MN;UNIVISION-AS-AP Univision LLC. To TTK STM1 UPSTREAM PROVIDER][17882;MN;UNIVISION-AS-AP UNIVISION LLC]
 MN,ipv4,203.21.120.0,24,assigned,[55408;MN;UNIVISION-AS-AP Univision LLC. To TTK STM1 UPSTREAM PROVIDER][38273;MN;UNIVISION-AS-AP Univision LLC. To TTK STM1 UPSTREAM PROVIDER][17882;MN;UNIVISION-AS-AP UNIVISION LLC]
@@ -158015,6 +158035,7 @@ NZ,ipv6,2001:df4:8e00::,48,assigned,[132840;NZ;NSL-AS-AP Neos Systems Limited]
 NZ,ipv6,2001:df4:a000::,48,assigned,[147045;NZ;MERCURYNZ-AS-AP Mercury NZ Limited][136984;NZ;MERCURYNZ-AS-AP Mercury NZ Limited][132687;NZ;MERCURYNZ-AS-AP Mercury NZ Limited][132375;NZ;MERCURYNZ-AS-AP Mercury NZ Limited][132333;NZ;MERCURYNZ-AS-AP Mercury NZ Limited][55926;NZ;MERCURYNZ-AS-AP Mercury NZ Limited][55850;NZ;MERCURYNZ-AS-AP Mercury NZ Limited][9876;NZ;MERCURYNZ-AS-AP Mercury NZ Limited]
 NZ,ipv6,2001:df4:b380::,48,assigned,*
 NZ,ipv6,2001:df4:d080::,47,assigned,*
+NZ,ipv6,2001:df4:df40::,48,assigned,*
 NZ,ipv6,2001:df4:f380::,48,assigned,[141228;NZ;MNZL-AS-AP Monitor New Zealand Limited]
 NZ,ipv6,2001:df4:fc00::,48,assigned,*
 NZ,ipv6,2001:df5:1000::,48,assigned,[133108;NZ;WANGANUI-AS-AP Wanganui District Council]
