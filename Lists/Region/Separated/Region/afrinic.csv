@@ -2739,7 +2739,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:142::,47,reserved,*
 *,ipv6,2001:43f8:144::,46,reserved,*
 *,ipv6,2001:43f8:148::,45,reserved,*
-*,ipv6,2001:43f8:151::,48,reserved,*
 *,ipv6,2001:43f8:152::,47,reserved,*
 *,ipv6,2001:43f8:154::,46,reserved,*
 *,ipv6,2001:43f8:158::,45,reserved,*
@@ -3495,6 +3494,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:1752::,47,reserved,*
 *,ipv6,2001:43f8:1754::,46,reserved,*
 *,ipv6,2001:43f8:1758::,45,reserved,*
+*,ipv6,2001:43f8:1770::,48,reserved,*
+*,ipv6,2001:43f8:1772::,47,reserved,*
+*,ipv6,2001:43f8:1774::,46,reserved,*
+*,ipv6,2001:43f8:1778::,45,reserved,*
 *,ipv6,2001:43f8:17a1::,48,reserved,*
 *,ipv6,2001:43f8:17a2::,47,reserved,*
 *,ipv6,2001:43f8:17a4::,46,reserved,*
@@ -6322,7 +6325,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:1120::,44,available,*
 *,ipv6,2001:43f8:16e0::,43,available,*
 *,ipv6,2001:43f8:1730::,44,available,*
-*,ipv6,2001:43f8:1760::,43,available,*
+*,ipv6,2001:43f8:1760::,44,available,*
 *,ipv6,2001:43f8:1780::,43,available,*
 *,ipv6,2001:43f8:17b0::,44,available,*
 *,ipv6,2001:43f8:17c0::,42,available,*
@@ -6705,6 +6708,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fe:2100::,40,available,*
 *,ipv6,2001:43fe:2200::,39,available,*
 *,ipv6,2001:43fe:2400::,38,available,*
+*,ipv6,2001:43fe:2800::,48,available,*
 *,ipv6,2001:43fe:2801::,48,available,*
 *,ipv6,2001:43fe:2802::,47,available,*
 *,ipv6,2001:43fe:2804::,46,available,*
@@ -11984,7 +11988,7 @@ KE,ipv4,102.68.142.0,24,assigned,[328466;KE;International-School-of-Kenya-AS]
 KE,ipv4,102.69.239.0,24,assigned,[328465;KE;Integrated-Payment-Services-AS]
 KE,ipv4,102.130.102.0,24,assigned,[328380;KE;Prime-Bank-AS]
 KE,ipv4,102.134.129.0,24,assigned,[328392;KE;USAC1-AS]
-KE,ipv4,102.208.206.0,24,assigned,[37804;ZZ;-Reserved AS-][37732;KE;LINX-Kenya-AS]
+KE,ipv4,102.208.206.0,24,assigned,[37804;ZZ;LINX-Mombassa-AS][37732;KE;LINX-Kenya-AS]
 KE,ipv4,102.209.153.0,24,assigned,[329418;KE;International-Centre-Research-Agroforestry]
 KE,ipv4,102.211.106.0,24,assigned,[329313;KE;Moi-Teaching-and-Referral-Hospital]
 KE,ipv4,102.212.142.0,23,assigned,[329262;KE;TBBI1-AS]
@@ -12045,8 +12049,8 @@ KE,ipv4,196.60.36.0,24,assigned,[328100;KE;GPRS-Roaming-Exchange-AS][37789;KE;KI
 KE,ipv4,196.60.66.0,24,assigned,*
 KE,ipv4,196.60.68.0,24,assigned,[328100;KE;GPRS-Roaming-Exchange-AS][37789;KE;KIXP-PAIX-NAIROBI-PEERINGAS][37786;KE;KIXP-ICOLO-Peering][37770;KE;KIXP-Mombasa-Peering][37704;KE;Nairobi-IX-Peering][37578;KE;Tespok]
 KE,ipv4,196.60.80.0,24,assigned,[328100;KE;GPRS-Roaming-Exchange-AS][37789;KE;KIXP-PAIX-NAIROBI-PEERINGAS][37786;KE;KIXP-ICOLO-Peering][37770;KE;KIXP-Mombasa-Peering][37704;KE;Nairobi-IX-Peering][37578;KE;Tespok]
-KE,ipv4,196.60.114.0,24,assigned,[37804;ZZ;-Reserved AS-][37732;KE;LINX-Kenya-AS]
-KE,ipv4,196.60.124.0,24,assigned,[37804;ZZ;-Reserved AS-][37732;KE;LINX-Kenya-AS]
+KE,ipv4,196.60.114.0,24,assigned,[37804;ZZ;LINX-Mombassa-AS][37732;KE;LINX-Kenya-AS]
+KE,ipv4,196.60.124.0,24,assigned,[37804;ZZ;LINX-Mombassa-AS][37732;KE;LINX-Kenya-AS]
 KE,ipv4,196.192.124.0,24,assigned,[37708;MU;AFRINIC-MAIN][37301;MU;AFRINIC-ZA-CPT-AS][37181;MU;AFRINIC-Anycast-RFC-5855][37177;MU;AFRINIC-ANYCAST][33764;MU;AFRINIC-ZA-JNB-AS]
 KE,ipv4,196.216.222.0,23,assigned,[328093;KE;Kenya-Commercial-Bank-AS]
 KE,ipv4,196.216.242.0,23,assigned,[327713;KE;Equity-AS][37298;KE;EQUITYBANK]
@@ -12070,9 +12074,9 @@ KE,ipv6,2001:43f8:d60::,48,assigned,[328162;KE;ICOLO]
 KE,ipv6,2001:43f8:1000::,48,assigned,[328739;KE;Kenya-ports-authority]
 KE,ipv6,2001:43f8:11c0::,48,assigned,[328380;KE;Prime-Bank-AS]
 KE,ipv6,2001:43f8:1440::,48,assigned,[328578;KE;KEMNET-TECHNOLOGIES-AS]
-KE,ipv6,2001:43f8:16d0::,48,assigned,[37804;ZZ;-Reserved AS-][37732;KE;LINX-Kenya-AS]
+KE,ipv6,2001:43f8:16d0::,48,assigned,[37804;ZZ;LINX-Mombassa-AS][37732;KE;LINX-Kenya-AS]
+KE,ipv6,2001:43f8:1771::,48,assigned,[37804;ZZ;LINX-Mombassa-AS][37732;KE;LINX-Kenya-AS]
 KE,ipv6,2001:43fc:4000::,48,assigned,[328100;KE;GPRS-Roaming-Exchange-AS][37789;KE;KIXP-PAIX-NAIROBI-PEERINGAS][37786;KE;KIXP-ICOLO-Peering][37770;KE;KIXP-Mombasa-Peering][37704;KE;Nairobi-IX-Peering][37578;KE;Tespok]
-KE,ipv6,2001:43fe:2800::,48,assigned,[37804;ZZ;-Reserved AS-][37732;KE;LINX-Kenya-AS]
 LR,ipv4,102.22.224.0,21,assigned,[328595;LR;Winners-Incorporated]
 LR,ipv4,196.49.16.0,24,assigned,[327887;LR;Liberia-IXP-Management][37715;LR;Liberia-IXP-Peering]
 LR,ipv4,196.223.44.0,24,assigned,[327887;LR;Liberia-IXP-Management][37715;LR;Liberia-IXP-Peering]
@@ -12374,6 +12378,7 @@ RW,ipv4,156.38.8.0,21,assigned,[328180;RW;Bank-Of-Kigali-AS]
 RW,ipv4,196.49.7.0,24,assigned,[328014;RW;RINEX][37224;RW;RINEX]
 RW,ipv4,196.223.12.0,24,assigned,[328014;RW;RINEX][37224;RW;RINEX]
 RW,ipv6,2001:43f8:150::,48,assigned,[328014;RW;RINEX][37224;RW;RINEX]
+RW,ipv6,2001:43f8:151::,48,assigned,[328014;RW;RINEX][37224;RW;RINEX]
 RW,ipv6,2001:43f8:d80::,48,assigned,[328180;RW;Bank-Of-Kigali-AS]
 RW,ipv6,2001:43fe:800::,48,assigned,[329508;RW;BANK-RWANDA]
 RW,ipv6,2001:43f8:11e0::,48,assigned,[328385;RW;RRA-AS]
