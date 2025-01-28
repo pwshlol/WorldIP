@@ -1619,11 +1619,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,160.250.200.0,24,available,*
 *,ipv4,161.248.170.0,24,available,*
 *,ipv4,162.4.0.0,16,available,*
-*,ipv4,163.47.28.0,24,available,*
 *,ipv4,163.47.46.0,24,available,*
 *,ipv4,163.52.0.0,16,available,*
 *,ipv4,163.53.220.0,22,available,*
-*,ipv4,163.61.4.0,22,available,*
+*,ipv4,163.61.6.0,23,available,*
 *,ipv4,163.61.8.0,21,available,*
 *,ipv4,163.61.16.0,20,available,*
 *,ipv4,163.61.32.0,19,available,*
@@ -22793,13 +22792,21 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2401:ea84::,30,available,*
 *,ipv6,2401:ea88::,29,available,*
 *,ipv6,2401:ea90::,28,available,*
-*,ipv6,2401:eaa0::,27,available,*
+*,ipv6,2401:eaa1::,32,available,*
+*,ipv6,2401:eaa2::,31,available,*
+*,ipv6,2401:eaa4::,30,available,*
+*,ipv6,2401:eaa8::,29,available,*
+*,ipv6,2401:eab0::,28,available,*
 *,ipv6,2401:eac1::,32,available,*
 *,ipv6,2401:eac2::,31,available,*
 *,ipv6,2401:eac4::,30,available,*
 *,ipv6,2401:eac8::,29,available,*
 *,ipv6,2401:ead0::,28,available,*
-*,ipv6,2401:eae0::,27,available,*
+*,ipv6,2401:eae1::,32,available,*
+*,ipv6,2401:eae2::,31,available,*
+*,ipv6,2401:eae4::,30,available,*
+*,ipv6,2401:eae8::,29,available,*
+*,ipv6,2401:eaf0::,28,available,*
 *,ipv6,2401:eb00::,25,available,*
 *,ipv6,2401:eb80::,26,available,*
 *,ipv6,2401:ebc1::,32,available,*
@@ -83983,14 +83990,24 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df4:fd88::,45,available,*
 *,ipv6,2001:df4:fd90::,44,available,*
 *,ipv6,2001:df4:fda0::,43,available,*
-*,ipv6,2001:df4:fdc0::,42,available,*
+*,ipv6,2001:df4:fdc1::,48,available,*
+*,ipv6,2001:df4:fdc2::,47,available,*
+*,ipv6,2001:df4:fdc4::,46,available,*
+*,ipv6,2001:df4:fdc8::,45,available,*
+*,ipv6,2001:df4:fdd0::,44,available,*
+*,ipv6,2001:df4:fde0::,43,available,*
 *,ipv6,2001:df4:fe01::,48,available,*
 *,ipv6,2001:df4:fe02::,47,available,*
 *,ipv6,2001:df4:fe04::,46,available,*
 *,ipv6,2001:df4:fe08::,45,available,*
 *,ipv6,2001:df4:fe10::,44,available,*
 *,ipv6,2001:df4:fe20::,43,available,*
-*,ipv6,2001:df4:fe40::,42,available,*
+*,ipv6,2001:df4:fe41::,48,available,*
+*,ipv6,2001:df4:fe42::,47,available,*
+*,ipv6,2001:df4:fe44::,46,available,*
+*,ipv6,2001:df4:fe48::,45,available,*
+*,ipv6,2001:df4:fe50::,44,available,*
+*,ipv6,2001:df4:fe60::,43,available,*
 *,ipv6,2001:df4:fe81::,48,available,*
 *,ipv6,2001:df4:fe82::,47,available,*
 *,ipv6,2001:df4:fe84::,46,available,*
@@ -110812,6 +110829,7 @@ DE,ipv6,2402:1880::,32,allocated,*
 DE,ipv6,2403:8300::,32,allocated,[136767;DE;BMW-AG-AS-AP BMW AG Bayerische Motoren Werke Aktiengesellschaft]
 EE,ipv4,103.140.186.0,23,allocated,*
 EE,ipv6,2401:a860::,32,allocated,[142108;TH;ROTKONETWORKSOU-AS-AP Rotko Networks]
+EE,ipv6,2401:eaa0::,32,allocated,*
 ES,ipv4,115.124.36.0,22,allocated,*
 FJ,ipv4,27.123.128.0,18,allocated,[38442;FJ;VODAFONEFIJI-AS-FJ Vodafone Fiji Limited]
 FJ,ipv4,45.112.224.0,22,allocated,[4638;FJ;IS-FJ-AS Telecom Fiji Limited]
@@ -121088,6 +121106,7 @@ IN,ipv4,163.53.208.0,22,allocated,*
 IN,ipv4,163.53.236.0,22,allocated,[136481;IN;DTPL-AS-AP Dreamlink Technologies Pvt. Ltd]
 IN,ipv4,163.53.252.0,22,allocated,*
 IN,ipv4,163.61.2.0,23,allocated,*
+IN,ipv4,163.61.4.0,23,allocated,*
 IN,ipv4,164.52.192.0,19,allocated,[132420;IN;E2E-NETWORKS-IN 282  Sector 19]
 IN,ipv4,164.100.0.0,16,allocated,[4758;IN;NICNET-VSNL-BOARDER-AP National Informatics Centre]
 IN,ipv4,164.164.0.0,16,allocated,*
@@ -122143,6 +122162,7 @@ IN,ipv6,2401:e520::,32,allocated,*
 IN,ipv6,2401:e680::,32,allocated,[38468;IN;YESBANK-IN ASN for YESBANK]
 IN,ipv6,2401:e920::,32,allocated,[153522;IN;JDS-AS-AP Joy Data Services]
 IN,ipv6,2401:ea20::,32,allocated,*
+IN,ipv6,2401:eae0::,32,allocated,*
 IN,ipv6,2401:f480::,32,allocated,*
 IN,ipv6,2401:f4c0::,32,allocated,*
 IN,ipv6,2401:f580::,32,allocated,*
@@ -145660,6 +145680,7 @@ CN,ipv6,2001:df7:e580::,48,assigned,[148972;CN;ZCCCCL-AS-AP Zero Cirrus Cloud Co
 CY,ipv4,103.35.178.0,23,assigned,[150405;HK;MML-AS-AP My.com]
 CY,ipv4,202.50.102.0,24,assigned,*
 CY,ipv6,2001:df1:8140::,48,assigned,[150405;HK;MML-AS-AP My.com]
+CY,ipv6,2001:df4:fe40::,48,assigned,*
 DE,ipv4,103.85.135.0,24,assigned,[136264;DE;ALLIANZAMOS-AS-AP Allianz Technology SE]
 DE,ipv4,103.119.72.0,23,assigned,[136264;DE;ALLIANZAMOS-AS-AP Allianz Technology SE]
 DE,ipv6,2001:df0:5500::,48,assigned,[136264;DE;ALLIANZAMOS-AS-AP Allianz Technology SE]
@@ -148663,6 +148684,7 @@ ID,ipv4,161.248.250.0,24,assigned,*
 ID,ipv4,161.248.251.0,24,assigned,*
 ID,ipv4,163.47.22.0,24,assigned,*
 ID,ipv4,163.47.25.0,24,assigned,*
+ID,ipv4,163.47.28.0,24,assigned,*
 ID,ipv4,163.53.192.0,22,assigned,*
 ID,ipv4,175.106.16.0,22,assigned,*
 ID,ipv4,175.106.20.0,22,assigned,*
@@ -150078,6 +150100,7 @@ ID,ipv6,2001:df4:fb00::,48,assigned,*
 ID,ipv6,2001:df4:fb40::,48,assigned,*
 ID,ipv6,2001:df4:fc80::,48,assigned,*
 ID,ipv6,2001:df4:fd80::,48,assigned,*
+ID,ipv6,2001:df4:fdc0::,48,assigned,*
 ID,ipv6,2001:df4:fe80::,48,assigned,*
 ID,ipv6,2001:df5:1100::,48,assigned,*
 ID,ipv6,2001:df5:1280::,48,assigned,*
