@@ -38,7 +38,7 @@ apnic,ipv4,14.102.126.0,23,allocated,*
 apnic,ipv4,14.139.0.0,16,allocated,[55847;IN;NKN-EDGE-NW NKN EDGE Network][55824;IN;NKN-CORE-NW NKN Core Network][38620;IN;RSMANI-NKN-AS-AP National Knowledge Network][9885;IN;NKN-INTERNET-GW NKN INTERNET GATEWAY NETWORK]
 apnic,ipv4,14.140.0.0,14,allocated,[151344;IN;TATACOMM-AS-AP Tata Communications Limited][55460;IN;TATA-AS Tata Communications Limited][17908;IN;TCISL Tata Communications][10199;IN;TATA-AS Tata Communications Ltd][9238;IN;TATA-AS TATA ISP][4755;IN;TATACOMM-AS TATA Communications formerly VSNL is Leading ISP]
 apnic,ipv4,14.192.16.0,22,allocated,[132717;IN;NDCTPL-IN NxtGen Datacenter & Cloud Technologies Pvt. Ltd.][38039;IN;NDCTPL-AS-AP NxtGen Datacenter & Cloud Technologies Pvt. Ltd.]
-apnic,ipv4,14.192.52.0,22,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED]
+apnic,ipv4,14.192.52.0,22,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED][7494;IN;POWERNET-AS-AP POWERNET]
 apnic,ipv4,14.194.0.0,15,allocated,*
 apnic,ipv4,27.0.48.0,20,allocated,*
 apnic,ipv4,27.0.136.0,22,allocated,*
@@ -826,7 +826,7 @@ apnic,ipv4,103.54.136.0,22,allocated,*
 apnic,ipv4,103.54.140.0,23,allocated,*
 apnic,ipv4,103.54.176.0,23,allocated,*
 apnic,ipv4,103.54.178.0,23,allocated,*
-apnic,ipv4,103.54.230.0,23,allocated,[7494;IN;POWERNET-AS-AP POWERNET]
+apnic,ipv4,103.54.230.0,23,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED][7494;IN;POWERNET-AS-AP POWERNET]
 apnic,ipv4,103.54.244.0,22,allocated,*
 apnic,ipv4,103.55.6.0,23,allocated,*
 apnic,ipv4,103.55.40.0,22,allocated,*
@@ -945,7 +945,7 @@ apnic,ipv4,103.68.26.0,24,allocated,*
 apnic,ipv4,103.68.56.0,23,allocated,*
 apnic,ipv4,103.68.112.0,22,allocated,[131299;IN;TNPL-AS-AP tornado net private limited]
 apnic,ipv4,103.68.142.0,23,allocated,*
-apnic,ipv4,103.68.216.0,22,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED]
+apnic,ipv4,103.68.216.0,22,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED][7494;IN;POWERNET-AS-AP POWERNET]
 apnic,ipv4,103.69.8.0,22,allocated,*
 apnic,ipv4,103.69.12.0,22,allocated,*
 apnic,ipv4,103.69.20.0,22,allocated,*
@@ -1287,7 +1287,9 @@ apnic,ipv4,103.109.224.0,22,allocated,*
 apnic,ipv4,103.110.6.0,23,allocated,*
 apnic,ipv4,103.110.16.0,22,allocated,*
 apnic,ipv4,103.110.20.0,22,allocated,*
-apnic,ipv4,103.110.36.0,22,allocated,*
+apnic,ipv4,103.110.36.0,23,allocated,*
+apnic,ipv4,103.110.38.0,24,allocated,[45609;IN;BHARTI-MOBILITY-AS-AP Bharti Airtel Ltd. AS for GPRS Service][45514;IN;TELEMEDIA-SMB-AS-AP Bharti Airtel Ltd.  TELEMEDIA Services  for SMB customers][24560;IN;AIRTELBROADBAND-AS-AP Bharti Airtel Ltd.  Telemedia Services][23870;IN;BHARTI-AS-AP Bharti Airtel Limited][9498;IN;BBIL-AP BHARTI Airtel Ltd.]
+apnic,ipv4,103.110.39.0,24,allocated,*
 apnic,ipv4,103.110.72.0,23,allocated,*
 apnic,ipv4,103.110.102.0,23,allocated,*
 apnic,ipv4,103.110.104.0,22,allocated,[146999;IN;HELLOMAILS1-AS-AP Hello Mails]
@@ -4252,7 +4254,7 @@ apnic,ipv6,2400:c880::,32,allocated,*
 apnic,ipv6,2400:c8e0::,32,allocated,*
 apnic,ipv6,2400:c920::,32,allocated,*
 apnic,ipv6,2400:cc20::,32,allocated,*
-apnic,ipv6,2400:cc60::,32,allocated,[7494;IN;POWERNET-AS-AP POWERNET]
+apnic,ipv6,2400:cc60::,32,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED][7494;IN;POWERNET-AS-AP POWERNET]
 apnic,ipv6,2400:cde0::,32,allocated,*
 apnic,ipv6,2400:ce60::,32,allocated,*
 apnic,ipv6,2400:d020::,32,allocated,*
@@ -4975,7 +4977,7 @@ apnic,ipv6,2407:9a00::,32,allocated,[55446;IN;CENTDEVTEL-NON-AS-AP CENTRE FOR DE
 apnic,ipv6,2407:9d40::,32,allocated,*
 apnic,ipv6,2407:a300::,32,allocated,*
 apnic,ipv6,2407:a780::,32,allocated,*
-apnic,ipv6,2407:a8c0::,32,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED]
+apnic,ipv6,2407:a8c0::,32,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED][7494;IN;POWERNET-AS-AP POWERNET]
 apnic,ipv6,2407:aa40::,32,allocated,*
 apnic,ipv6,2407:aac0::,32,allocated,*
 apnic,ipv6,2407:adc0::,32,allocated,*
@@ -5034,7 +5036,7 @@ apnic,ipv6,2407:fd40::,32,allocated,[147183;IN;UBER-AS-AP Uber India Systems Pri
 apnic,ipv6,2407:ff00::,32,allocated,*
 apnic,ipv6,2409:4000::,22,allocated,[132410;IN;RELIANCEJIO-IN Reliance Jio Infocomm Limited][55836;IN;RELIANCEJIO-IN Reliance Jio Infocomm Limited]
 apnic,ipv6,240a:e000::,20,allocated,[55847;IN;NKN-EDGE-NW NKN EDGE Network][55824;IN;NKN-CORE-NW NKN Core Network][38620;IN;RSMANI-NKN-AS-AP National Knowledge Network][9885;IN;NKN-INTERNET-GW NKN INTERNET GATEWAY NETWORK]
-apnic,ipv6,2001:df6:6b00::,48,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED]
+apnic,ipv6,2001:df6:6b00::,48,allocated,[135772;IN;PCPL-AS-AP POWERNET COMMUNICATIONS PRIVATE LIMITED][7494;IN;POWERNET-AS-AP POWERNET]
 ripencc,ipv4,2.56.228.0,22,allocated,[215991;IN;Darkfibre HostRoyale Technologies Pvt Ltd][207990;IN;HR-CUSTOMER HostRoyale Technologies Pvt Ltd][204287;IN;HostRoyale_Technologies HostRoyale Technologies Pvt Ltd][203020;IN;HostRoyale HostRoyale Technologies Pvt Ltd][44144;IN;OMEGASOFT HostRoyale Technologies Pvt Ltd][39486;IN;HOSTROYALE HostRoyale Technologies Pvt Ltd][35672;IN;LOURO HostRoyale Technologies Pvt Ltd]
 ripencc,ipv4,2.58.156.0,22,allocated,[43027;IN;PRIMECROWN-EU PrimeCrown Technologies Private Limited]
 ripencc,ipv4,2.59.224.0,22,allocated,*
@@ -8072,7 +8074,6 @@ apnic,ipv4,103.177.174.0,23,assigned,*
 apnic,ipv4,103.177.178.0,23,assigned,*
 apnic,ipv4,103.177.180.0,23,assigned,*
 apnic,ipv4,103.177.194.0,23,assigned,*
-apnic,ipv4,103.177.198.0,24,assigned,[149171;IN;ANIPL-AS-AP Array Networks India Private Limited]
 apnic,ipv4,103.177.202.0,23,assigned,*
 apnic,ipv4,103.177.204.0,23,assigned,*
 apnic,ipv4,103.177.224.0,23,assigned,*
@@ -9969,7 +9970,6 @@ apnic,ipv6,2001:df0:1e40::,48,assigned,*
 apnic,ipv6,2001:df0:2200::,48,assigned,*
 apnic,ipv6,2001:df0:2840::,48,assigned,*
 apnic,ipv6,2001:df0:2940::,48,assigned,*
-apnic,ipv6,2001:df0:2a40::,48,assigned,[149171;IN;ANIPL-AS-AP Array Networks India Private Limited]
 apnic,ipv6,2001:df0:2cc0::,48,assigned,*
 apnic,ipv6,2001:df0:2d00::,48,assigned,*
 apnic,ipv6,2001:df0:2f00::,48,assigned,*
