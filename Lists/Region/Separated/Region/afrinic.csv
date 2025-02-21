@@ -3512,16 +3512,16 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,15,available,*
 *,ipv4,102.206.0.0,17,available,*
-*,ipv4,102.206.128.0,18,available,*
+*,ipv4,102.206.128.0,19,available,*
+*,ipv4,102.206.160.0,20,available,*
+*,ipv4,102.206.184.0,23,available,*
 *,ipv4,102.206.196.0,22,available,*
-*,ipv4,102.206.200.0,22,available,*
 *,ipv4,102.206.212.0,22,available,*
 *,ipv4,102.206.216.0,21,available,*
 *,ipv4,102.206.244.0,22,available,*
 *,ipv4,102.206.252.0,22,available,*
-*,ipv4,102.207.12.0,22,available,*
 *,ipv4,102.207.16.0,21,available,*
-*,ipv4,102.207.56.0,21,available,*
+*,ipv4,102.207.60.0,22,available,*
 *,ipv4,102.207.80.0,22,available,*
 *,ipv4,102.207.196.0,22,available,*
 *,ipv4,102.207.200.0,21,available,*
@@ -5455,7 +5455,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:5788::,29,available,*
 *,ipv6,2c0f:5790::,28,available,*
 *,ipv6,2c0f:57a0::,27,available,*
-*,ipv6,2c0f:57c0::,26,available,*
+*,ipv6,2c0f:57c1::,32,available,*
+*,ipv6,2c0f:57c2::,31,available,*
+*,ipv6,2c0f:57c4::,30,available,*
+*,ipv6,2c0f:57c8::,29,available,*
+*,ipv6,2c0f:57d0::,28,available,*
+*,ipv6,2c0f:57e0::,27,available,*
 *,ipv6,2c0f:5801::,32,available,*
 *,ipv6,2c0f:5802::,31,available,*
 *,ipv6,2c0f:5804::,30,available,*
@@ -7538,6 +7543,7 @@ CI,ipv4,102.135.184.0,22,allocated,[328903;CI;RITER]
 CI,ipv4,102.136.0.0,14,allocated,[36995;CI;MTN-][36974;CI;MTNCI-AS]
 CI,ipv4,102.207.0.0,22,allocated,[37190;CI;ATLANTIQUE-TELECOM-]
 CI,ipv4,102.207.8.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
+CI,ipv4,102.207.12.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.208.128.0,22,allocated,[37190;CI;ATLANTIQUE-TELECOM-]
 CI,ipv4,102.208.172.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
 CI,ipv4,102.209.216.0,22,allocated,[329372;CI;ORANGE-COTE-IVOIRE][327710;CI;ORANGE-COTE-IVOIRE][29571;CI;ORANGE-COTE-IVOIRE]
@@ -8536,6 +8542,7 @@ LY,ipv4,102.68.128.0,21,allocated,[327752;LY;RAWAFED-LIBYA]
 LY,ipv4,102.69.0.0,17,allocated,[329129;LY;LNETLICT]
 LY,ipv4,102.164.96.0,21,allocated,[328286;LY;Libyana-Mobile-AS]
 LY,ipv4,102.207.52.0,22,allocated,[328611;LY;Libyan-Elite]
+LY,ipv4,102.207.56.0,22,allocated,[328611;LY;Libyan-Elite]
 LY,ipv4,102.207.132.0,22,allocated,[328611;LY;Libyan-Elite]
 LY,ipv4,102.208.48.0,22,allocated,[329472;LY;Sharart-Altaqanaya-Co-for-Telecom-Technology]
 LY,ipv4,102.208.56.0,22,allocated,[328611;LY;Libyan-Elite]
@@ -8874,6 +8881,7 @@ MW,ipv6,2c0e:7800::,24,allocated,[36969;MW;MTL-AS]
 MW,ipv6,2c0e:7e80::,28,allocated,[37215;MW;MAREN]
 MW,ipv6,2c0f:1300::,32,allocated,[37440;MW;Airtel-]
 MW,ipv6,2c0f:3740::,32,allocated,[329434;MW;Datacom_Limited]
+MW,ipv6,2c0f:57c0::,32,allocated,[329427;MW;Electricity-Supply-Corporation-of-Malawi-Ltd]
 MW,ipv6,2c0f:7300::,32,allocated,[328949;MW;CTNL1-AS]
 MW,ipv6,2c0f:ea60::,32,allocated,[37215;MW;MAREN]
 MW,ipv6,2c0f:ea80::,32,allocated,[328844;MW;AFRIMAX-]
@@ -9085,6 +9093,7 @@ NG,ipv4,102.165.124.0,22,allocated,[37521;NG;Internet-Solutions-]
 NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
+NG,ipv4,102.206.200.0,22,allocated,[328780;NG;Imbil-Telecom-AS]
 NG,ipv4,102.207.40.0,22,allocated,[37004;NG;Suburban-Broadband-AS]
 NG,ipv4,102.207.49.0,24,allocated,[328401;NG;SoftAlliance-AS]
 NG,ipv4,102.207.88.0,22,allocated,[329514;NG;CAMBRIDGE-BROADBAND-NETWORKS-NIGERIA-LTD]
@@ -9551,6 +9560,7 @@ SO,ipv4,102.38.48.0,22,allocated,[328590;SO;Somlink-Wireless-AS]
 SO,ipv4,102.68.16.0,22,allocated,[328469;SO;Somtel-Somalia-AS]
 SO,ipv4,102.128.128.0,21,allocated,[37563;SO;SOMTEL]
 SO,ipv4,102.141.196.0,22,allocated,[328319;SO;Amtel-AS]
+SO,ipv4,102.206.180.0,22,allocated,[328250;SO;Golis-Telecom-AS]
 SO,ipv4,102.210.242.0,24,allocated,[329343;SO;SOMOTT]
 SO,ipv4,102.214.168.0,22,allocated,[328469;SO;Somtel-Somalia-AS]
 SO,ipv4,102.218.10.0,23,allocated,[328954;SO;BL27-AS]
@@ -9991,7 +10001,7 @@ ZA,ipv4,41.66.128.0,18,allocated,[37179;ZA;AFRICAINX]
 ZA,ipv4,41.71.0.0,17,allocated,[37231;ZA;RSAWEB][37053;ZA;RSAWEB-AS]
 ZA,ipv4,41.72.128.0,19,allocated,[37153;ZA;xneelo]
 ZA,ipv4,41.73.32.0,19,allocated,[327840;ZA;RAIN-GROUP-HOLDINGS][327685;ZA;RAIN-GROUP-HOLDINGS][37597;ZA;RAIN-GROUP-HOLDINGS][37105;ZA;RAIN-GROUP-HOLDINGS][37070;ZA;RAIN-GROUP-HOLDINGS][33762;ZA;RAIN-GROUP-HOLDINGS]
-ZA,ipv4,41.74.144.0,20,allocated,*
+ZA,ipv4,41.74.144.0,20,allocated,
 ZA,ipv4,41.74.176.0,20,allocated,[37231;ZA;RSAWEB][37053;ZA;RSAWEB-AS]
 ZA,ipv4,41.74.192.0,20,allocated,[37235;ZA;MimecastSA]
 ZA,ipv4,41.75.96.0,20,allocated,[37276;ZA;VOFFICE]
@@ -10302,6 +10312,8 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;Afrihost-SP-Hosting][37611;ZA;Afrihost]
+ZA,ipv4,102.206.176.0,22,allocated,[328418;ZA;Olena-Trading-AS]
+ZA,ipv4,102.206.188.0,22,allocated,[328178;ZA;The-Computer-Hut-AS]
 ZA,ipv4,102.206.192.0,22,allocated,[328474;ZA;Jebo-Connect-AS]
 ZA,ipv4,102.206.208.0,22,allocated,[37231;ZA;RSAWEB][37053;ZA;RSAWEB-AS]
 ZA,ipv4,102.206.232.0,22,allocated,[328631;ZA;BallitoISP]
@@ -12622,6 +12634,7 @@ ZA,ipv4,102.164.240.0,22,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
 ZA,ipv4,102.165.180.0,22,assigned,*
 ZA,ipv4,102.165.188.0,24,assigned,[328174;ZA;HomeFind24]
 ZA,ipv4,102.176.251.0,24,assigned,[328260;ZA;SPORTPESA]
+ZA,ipv4,102.206.186.0,23,assigned,[328511;ZA;Shoprite-Checkers]
 ZA,ipv4,102.208.90.0,23,assigned,[329106;ZA;CSAL2-AS]
 ZA,ipv4,102.208.242.0,24,assigned,[329016;ZA;IPAP1-AS]
 ZA,ipv4,102.208.248.0,22,assigned,*

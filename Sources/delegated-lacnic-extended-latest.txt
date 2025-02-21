@@ -1,7 +1,7 @@
-2.3|lacnic|20250218|91894|19870101|20250218|-0300
-lacnic|*|ipv4|*|19963|summary
-lacnic|*|ipv6|*|56559|summary
-lacnic|*|asn|*|15372|summary
+2.3|lacnic|20250219|91897|19870101|20250219|-0300
+lacnic|*|ipv4|*|19962|summary
+lacnic|*|ipv6|*|56562|summary
+lacnic|*|asn|*|15373|summary
 lacnic|DO|ipv4|5.183.80.0|1024|20240711|allocated|75934
 lacnic|BR|ipv4|24.152.0.0|1024|20200310|allocated|276392
 lacnic|BR|ipv4|24.152.4.0|1024|20200312|allocated|311598
@@ -2188,7 +2188,6 @@ lacnic|BR|ipv4|45.177.224.0|1024|20190530|allocated|199649
 lacnic|BR|ipv4|45.177.228.0|512|20190619|allocated|262980
 lacnic|BR|ipv4|45.177.230.0|512|20190617|assigned|100746
 lacnic|BR|ipv4|45.177.232.0|1024|20190531|allocated|293527
-lacnic|AR|ipv4|45.177.236.0|1024|20190604|allocated|303118
 lacnic|BR|ipv4|45.177.240.0|1024|20190614|allocated|299655
 lacnic|BR|ipv4|45.177.244.0|1024|20190531|allocated|303207
 lacnic|BR|ipv4|45.177.248.0|512|20190607|allocated|106132
@@ -3016,7 +3015,7 @@ lacnic|BR|ipv4|45.189.144.0|1024|20191126|allocated|113147
 lacnic|MX|ipv4|45.189.148.0|1024|20191203|allocated|300466
 lacnic|MX|ipv4|45.189.152.0|1024|20191211|allocated|306828
 lacnic|MX|ipv4|45.189.156.0|1024|20191211|allocated|297714
-lacnic|BR|ipv4|45.189.160.0|1024|20200114|allocated|304613
+lacnic|BR|ipv4|45.189.160.0|1024|20200114|allocated|306869
 lacnic|BR|ipv4|45.189.164.0|1024|20200114|allocated|308943
 lacnic|BR|ipv4|45.189.168.0|1024|20191217|allocated|233973
 lacnic|AR|ipv4|45.189.172.0|1024|20191125|allocated|307643
@@ -34364,7 +34363,7 @@ lacnic||ipv6|2803:1a51::|32||reserved|
 lacnic||ipv6|2803:1a52::|31||reserved|
 lacnic||ipv6|2803:1a54::|30||reserved|
 lacnic||ipv6|2803:1a58::|29||reserved|
-lacnic|AR|ipv6|2803:1a60::|32|20190604|allocated|303118
+lacnic||ipv6|2803:1a60::|32||reserved|
 lacnic||ipv6|2803:1a61::|32||reserved|
 lacnic||ipv6|2803:1a62::|31||reserved|
 lacnic||ipv6|2803:1a64::|30||reserved|
@@ -67922,7 +67921,7 @@ lacnic||ipv6|2804:68e2::|31||available
 lacnic||ipv6|2804:68e4::|32||reserved|
 lacnic||ipv6|2804:68e5::|32||available
 lacnic||ipv6|2804:68e6::|31||available
-lacnic|BR|ipv6|2804:68e8::|32|20200114|allocated|304613
+lacnic||ipv6|2804:68e8::|32||reserved|
 lacnic||ipv6|2804:68e9::|32||available
 lacnic||ipv6|2804:68ea::|31||available
 lacnic|BR|ipv6|2804:68ec::|32|20200114|allocated|308943
@@ -76032,7 +76031,10 @@ lacnic||ipv6|2804:9322::|31||available
 lacnic|BR|ipv6|2804:9324::|32|20250217|allocated|351362
 lacnic||ipv6|2804:9325::|32||available
 lacnic||ipv6|2804:9326::|31||available
-lacnic||ipv6|2804:9328::|29||available
+lacnic|BR|ipv6|2804:9328::|32|20250219|allocated|350985
+lacnic||ipv6|2804:9329::|32||available
+lacnic||ipv6|2804:932a::|31||available
+lacnic||ipv6|2804:932c::|30||available
 lacnic||ipv6|2804:9330::|28||available
 lacnic||ipv6|2804:9340::|26||available
 lacnic||ipv6|2804:9380::|25||available
@@ -85596,7 +85598,7 @@ lacnic|CO|asn|267880|1|20190530|allocated|300958
 lacnic|EC|asn|267881|1|20190531|allocated|301889
 lacnic|AR|asn|267882|1|20190604|allocated|302205
 lacnic|PY|asn|267883|1|20190604|allocated|300818
-lacnic|AR|asn|267884|1|20190604|allocated|303118
+lacnic||asn|267884|1||available
 lacnic|PY|asn|267885|1|20190606|allocated|302224
 lacnic||asn|267886|1||available
 lacnic|AR|asn|267887|1|20190607|allocated|301368
@@ -87436,7 +87438,7 @@ lacnic|BR|asn|269720|1|20200113|allocated|310136
 lacnic|BR|asn|269721|1|20200113|allocated|310211
 lacnic|BR|asn|269722|1|20200114|allocated|308822
 lacnic||asn|269723|1||reserved|
-lacnic|BR|asn|269724|1|20200114|allocated|304613
+lacnic||asn|269724|1||reserved|
 lacnic|PY|asn|269725|1|20190712|allocated|303872
 lacnic|AR|asn|269726|1|20190716|allocated|303333
 lacnic|AR|asn|269727|1|20190723|allocated|303795
@@ -91895,5 +91897,6 @@ lacnic|BR|asn|274756|1|20250213|allocated|365354
 lacnic|BR|asn|274757|1|20250214|allocated|357161
 lacnic|BR|asn|274758|1|20250214|allocated|323628
 lacnic|BR|asn|274759|1|20250217|allocated|351362
-lacnic||asn|274760|85||available
+lacnic|BR|asn|274760|1|20250219|allocated|350985
+lacnic||asn|274761|84||available
 
