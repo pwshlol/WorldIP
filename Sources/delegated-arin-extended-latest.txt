@@ -1,7 +1,7 @@
-2.3|arin|1742734866968|194251|19700101|20250323|-0400
+2.3|arin|1742821268434|194255|19700101|20250324|-0400
 arin|*|asn|*|31645|summary
 arin|*|ipv4|*|77977|summary
-arin|*|ipv6|*|84629|summary
+arin|*|ipv6|*|84633|summary
 arin|US|asn|1|1|20010920|assigned|e5e3b9c13678dfc483fb1f819d70883c
 arin|US|asn|2|1|19910110|assigned|279fb28df10add3bd7028865951995a6
 arin|US|asn|3|1|00000000|assigned|d98c567cda2db06e693f2b574eafe848
@@ -15808,7 +15808,7 @@ arin|US|asn|32039|1|20040217|assigned|eff71e84701cc8a2435ccbefeb67e161
 arin|US|asn|32040|1|20120118|assigned|69a355e683f9704d8163f0f54acd4194
 arin|US|asn|32041|1|20110307|assigned|5b26faf932d04f134a2cf70e96c4c548
 arin||asn|32042|1||reserved|
-arin||asn|32043|1||available|
+arin|US|asn|32043|1|20250324|assigned|7f812d5546407fac659b2bc378fea881
 arin|US|asn|32044|1|20180410|assigned|38f43982bc559bffb9d04b5f2a515031
 arin|US|asn|32045|1|20040218|assigned|50ed7e8c15f61e4c3528c8cd5accf9a5
 arin|US|asn|32046|8|20040218|assigned|dcc4b8d850b9faad1e6be2674b171591
@@ -29164,7 +29164,7 @@ arin|US|asn|399088|1|20201207|assigned|153f52730854322321fee28cf5bb297e
 arin|CA|asn|399089|1|20201207|assigned|8b01ed47412711e4cdf7fb4c1a056a76
 arin|US|asn|399090|1|20201208|assigned|dcb6c8ebee83b6fbee99045bbf17cfc6
 arin|US|asn|399091|1|20201208|assigned|05c6200faf2ba4cc07816a2ef0adafe8
-arin|US|asn|399092|1|20201208|assigned|c9ce9d1ddf1390f2533866be02b4d05a
+arin|US|asn|399092|1|20201208|assigned|1c93af4c8ce50ab7c309e02abb5de96f
 arin|CA|asn|399093|1|20201208|assigned|8c6c0c0741b6126ef4d41aac1121ab14
 arin|US|asn|399094|1|20201209|assigned|9a3562a8af963900786292c919682b59
 arin|US|asn|399095|1|20201209|assigned|713e80bc1fdbb1006c080ec2e9f883c0
@@ -63140,7 +63140,7 @@ arin|US|ipv4|172.87.36.0|1024|20150527|allocated|acc437236b95421433617001bc73281
 arin|US|ipv4|172.87.40.0|1024|20241008|allocated|72f0610a8d7702e338f4c7e167a59d78
 arin|US|ipv4|172.87.44.0|512|20250206|allocated|465b4d5f80b85c859f871573ac11482e
 arin|US|ipv4|172.87.46.0|256|20250306|allocated|77ac741ce968b662141c8886826f4580
-arin|US|ipv4|172.87.47.0|256|20150526|allocated|dab75b1d4c733e61ba23686ae0d81808
+arin|US|ipv4|172.87.47.0|256|20250324|allocated|9ac5e02bee6db447532dfdc78b7e0ef3
 arin|US|ipv4|172.87.48.0|4096|20150522|allocated|3b77b46dd768bc77bbbce082dca2c43a
 arin|US|ipv4|172.87.64.0|2048|20150526|allocated|c0589e175ef178ef764b39bed5287fe9
 arin|US|ipv4|172.87.72.0|1024|20150526|allocated|ac5103da42fd93e6246d8da817214bf4
@@ -64362,7 +64362,7 @@ arin|US|ipv4|184.169.0.0|8192|20100804|allocated|51413a01e67e3fab33a050a9207e93a
 arin|US|ipv4|184.169.32.0|4096|20100804|allocated|51413a01e67e3fab33a050a9207e93a0
 arin|CA|ipv4|184.169.48.0|4096|20110106|allocated|7ce2dfebde5e82d5ad801e5dad7c99e5
 arin|US|ipv4|184.169.64.0|8192|20180711|allocated|20c786e8edd815cc245070645e265298
-arin|US|ipv4|184.169.96.0|4096|20150427|allocated|c9ce9d1ddf1390f2533866be02b4d05a
+arin|US|ipv4|184.169.96.0|4096|20150427|allocated|1c93af4c8ce50ab7c309e02abb5de96f
 arin|US|ipv4|184.169.112.0|4096|20150420|allocated|b0dfca43049ff72d6cee8fe9bad77cff
 arin|US|ipv4|184.169.128.0|32768|20110831|allocated|d96e252d0e2ea9158df3766231b5640d
 arin|JM|ipv4|184.170.0.0|16384|20100928|allocated|302f5ac1a4c0cc609642462ff413962a
@@ -115641,7 +115641,11 @@ arin||ipv6|2602:f600::|25||available|
 arin||ipv6|2602:f680::|27||available|
 arin||ipv6|2602:f6a0::|29||available|
 arin||ipv6|2602:f6a8::|31||available|
-arin||ipv6|2602:f6aa::|32||available|
+arin|CA|ipv6|2602:f6aa::|36|20250324|allocated|4bf3a4d3941e07d0a55c3646ece42487
+arin||ipv6|2602:f6aa:1000::|36||reserved|
+arin||ipv6|2602:f6aa:2000::|35||reserved|
+arin||ipv6|2602:f6aa:4000::|34||reserved|
+arin||ipv6|2602:f6aa:8000::|33||reserved|
 arin|US|ipv6|2602:f6ab::|40|20250321|allocated|8bc6e1bfb71fdcf518f91ba61079c6d5
 arin||ipv6|2602:f6ab:100::|40||reserved|
 arin||ipv6|2602:f6ab:200::|39||reserved|
@@ -157737,7 +157741,7 @@ arin||ipv6|2607:c944::|30||reserved|
 arin||ipv6|2607:c948::|29||reserved|
 arin||ipv6|2607:c950::|28||available|
 arin||ipv6|2607:c960::|27||available|
-arin|US|ipv6|2607:c980::|32|20161111|allocated|c9ce9d1ddf1390f2533866be02b4d05a
+arin|US|ipv6|2607:c980::|32|20161111|allocated|1c93af4c8ce50ab7c309e02abb5de96f
 arin||ipv6|2607:c981::|32||reserved|
 arin||ipv6|2607:c982::|31||reserved|
 arin||ipv6|2607:c984::|30||reserved|

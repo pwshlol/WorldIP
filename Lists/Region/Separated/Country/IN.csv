@@ -626,7 +626,7 @@ apnic,ipv4,103.16.176.0,22,allocated,*
 apnic,ipv4,103.16.200.0,22,allocated,[136236;IN;CABLELITE-AS-AP Atria Convergence Technologies Pvt. Ltd.][131269;IN;CABLELITE-AS-AP Atria Convergence Technologies Ltd.][55577;IN;CABLELITE-AS-AP Atria Convergence Technologies Ltd.][24309;IN;CABLELITE-AS-AP Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA][18209;IN;CABLELITE-AS-AP Atria Convergence Technologies Ltd.]
 apnic,ipv4,103.17.12.0,23,allocated,*
 apnic,ipv4,103.17.14.0,23,allocated,*
-apnic,ipv4,103.17.80.0,22,allocated,[56209;IN;RKINFRATEL-IN R. K. INFRATEL LIMITED]
+apnic,ipv4,103.17.80.0,22,allocated,*
 apnic,ipv4,103.17.84.0,22,allocated,*
 apnic,ipv4,103.18.68.0,22,allocated,*
 apnic,ipv4,103.18.140.0,22,allocated,[55705;IN;INDIATIMES-IN I World Tower  DLF CITY]
@@ -1595,7 +1595,6 @@ apnic,ipv4,103.137.100.0,22,allocated,*
 apnic,ipv4,103.137.112.0,23,allocated,*
 apnic,ipv4,103.137.138.0,24,allocated,*
 apnic,ipv4,103.137.152.0,22,allocated,*
-apnic,ipv4,103.137.168.0,22,allocated,*
 apnic,ipv4,103.137.174.0,23,allocated,*
 apnic,ipv4,103.137.192.0,23,allocated,*
 apnic,ipv4,103.137.194.0,23,allocated,*
@@ -2374,7 +2373,8 @@ apnic,ipv4,103.194.200.0,22,allocated,*
 apnic,ipv4,103.194.216.0,22,allocated,*
 apnic,ipv4,103.194.224.0,22,allocated,*
 apnic,ipv4,103.195.16.0,24,allocated,*
-apnic,ipv4,103.195.24.0,22,allocated,*
+apnic,ipv4,103.195.24.0,23,allocated,*
+apnic,ipv4,103.195.26.0,23,allocated,*
 apnic,ipv4,103.195.36.0,22,allocated,*
 apnic,ipv4,103.195.40.0,21,allocated,*
 apnic,ipv4,103.195.92.0,22,allocated,*
@@ -3468,6 +3468,8 @@ apnic,ipv4,163.223.138.0,23,allocated,*
 apnic,ipv4,163.223.151.0,24,allocated,*
 apnic,ipv4,163.223.154.0,23,allocated,*
 apnic,ipv4,163.223.164.0,23,allocated,*
+apnic,ipv4,163.223.192.0,23,allocated,*
+apnic,ipv4,163.223.194.0,23,allocated,*
 apnic,ipv4,164.52.192.0,19,allocated,[132420;IN;E2E-NETWORKS-IN 282  Sector 19]
 apnic,ipv4,164.100.0.0,16,allocated,[4758;IN;NICNET-VSNL-BOARDER-AP National Informatics Centre]
 apnic,ipv4,164.164.0.0,16,allocated,*
@@ -4542,6 +4544,8 @@ apnic,ipv6,2401:f5e0::,32,allocated,[149507;IN;LDOPL-AS-AP LEASE PACKET DATACENT
 apnic,ipv6,2401:f620::,32,allocated,*
 apnic,ipv6,2401:f660::,32,allocated,*
 apnic,ipv6,2401:f7e0::,32,allocated,*
+apnic,ipv6,2401:f8e0::,32,allocated,*
+apnic,ipv6,2401:f920::,32,allocated,*
 apnic,ipv6,2401:fa40::,32,allocated,*
 apnic,ipv6,2401:fb00::,32,allocated,*
 apnic,ipv6,2401:fb40::,32,allocated,[132550;IN;KSG-AS-AP K.S.G. Trade Infosystem]
@@ -9524,6 +9528,8 @@ apnic,ipv4,163.223.144.0,23,assigned,*
 apnic,ipv4,163.223.166.0,23,assigned,*
 apnic,ipv4,163.223.168.0,23,assigned,*
 apnic,ipv4,163.223.170.0,23,assigned,*
+apnic,ipv4,163.223.186.0,23,assigned,
+apnic,ipv4,163.223.190.0,23,assigned,*
 apnic,ipv4,169.148.168.0,21,assigned,[56201;IN;ZOHO-IN Zoho Corporation Pvt. Ltd]
 apnic,ipv4,169.148.176.0,21,assigned,[56201;IN;ZOHO-IN Zoho Corporation Pvt. Ltd]
 apnic,ipv4,175.111.97.0,24,assigned,*
@@ -11038,6 +11044,7 @@ apnic,ipv6,2001:df5:4580::,48,assigned,[141004;IN;QTIME-AS-AP QTIME BUSINESSES P
 apnic,ipv6,2001:df5:45c0::,48,assigned,*
 apnic,ipv6,2001:df5:4640::,48,assigned,*
 apnic,ipv6,2001:df5:4700::,48,assigned,*
+apnic,ipv6,2001:df5:47c0::,48,assigned,
 apnic,ipv6,2001:df5:4980::,48,assigned,*
 apnic,ipv6,2001:df5:4c00::,47,assigned,[132711;IN;DELLSONICWALL-AS-AP Dell SonicWALL]
 apnic,ipv6,2001:df5:4e80::,48,assigned,*
