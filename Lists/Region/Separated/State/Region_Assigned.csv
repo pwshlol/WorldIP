@@ -2915,9 +2915,10 @@ apnic,AU,ipv4,163.61.220.0,23,[138511;AU;SJOGHCI-AS-AP ST JOHN OF GOD HEALTHCARE
 apnic,AU,ipv4,163.223.109.0,24,*
 apnic,AU,ipv4,163.223.176.0,23,[136181;AU;ACTIVEPORT-AS-AP ActivePort Pty Ltd]
 apnic,AU,ipv4,163.223.184.0,24,[153643;AU;CHW-AS-AP Central Highlands Region Water Corporation]
-apnic,AU,ipv4,163.223.196.0,23,[153735;AU;LIGHTNETPTYLTD-AS-AP ATS Solutions][153731;AU;LIGHTNETPTYLTD-AS-AP ATS Solutions]
+apnic,AU,ipv4,163.223.196.0,23,[153735;AU;LIGHTNETPTYLTD-AS-AP LightNet Pty Ltd][153731;AU;LIGHTNETPTYLTD-AS-AP LightNet Pty Ltd]
 apnic,AU,ipv4,163.223.212.0,24,[151413;AU;DLBGROUPPTYLTD-AS-AP dlbNetworks]
 apnic,AU,ipv4,163.223.218.0,23,
+apnic,AU,ipv4,163.223.226.0,24,[141746;AU;DISASTER-AS-AP Disaster Science]
 apnic,AU,ipv4,165.173.190.0,23,[139006;AU;ZCPL-AS-AP Zoho Corporation PTY LTD]
 apnic,AU,ipv4,175.45.180.0,22,[133159;AU;MAMMOTHMEDIA-AS-AP Mammoth Media Pty Ltd]
 apnic,AU,ipv4,180.94.0.0,24,[133126;AU;ETWVPL-AS-AP Eureka Taxis Western Victoria Pty Ltd]
@@ -4743,7 +4744,6 @@ apnic,AU,ipv4,203.32.38.0,24,[150110;AU;FJ-AS-AP FJ Networking Pty Limited]
 apnic,AU,ipv4,203.32.39.0,24,[55762;AU;ICAP-AU Internet Communication AP Pty. Ltd.]
 apnic,AU,ipv4,203.32.55.0,24,*
 apnic,AU,ipv4,203.32.57.0,24,*
-apnic,AU,ipv4,203.32.61.0,24,*
 apnic,AU,ipv4,203.32.65.0,24,[139465;AU;CITYOFMONASH-AS-AP MONASH CITY COUNCIL]
 apnic,AU,ipv4,203.32.66.0,24,*
 apnic,AU,ipv4,203.32.71.0,24,*
@@ -5769,7 +5769,7 @@ apnic,AU,ipv6,2001:df5:3f00::,48,[138002;AU;GSN-AS-AP Global Speech Networks Pty
 apnic,AU,ipv6,2001:df5:4180::,48,[139751;AU;MISPL-AS-AP MCG IT Services Pty Ltd]
 apnic,AU,ipv6,2001:df5:4780::,48,[141399;AU;SPECSAVERSPTYLTD-AS-AP Specsavers Pty Ltd]
 apnic,AU,ipv6,2001:df5:4880::,48,[141403;AU;OSIPL-AS-AP Open Spaces Internet Pty Ltd]
-apnic,AU,ipv6,2001:df5:48c0::,48,[153735;AU;LIGHTNETPTYLTD-AS-AP ATS Solutions][153731;AU;LIGHTNETPTYLTD-AS-AP ATS Solutions]
+apnic,AU,ipv6,2001:df5:48c0::,48,[153735;AU;LIGHTNETPTYLTD-AS-AP LightNet Pty Ltd][153731;AU;LIGHTNETPTYLTD-AS-AP LightNet Pty Ltd]
 apnic,AU,ipv6,2001:df5:4a80::,48,[141401;AU;BANKOFSYDNEY-AS-AP Bank of Sydney]
 apnic,AU,ipv6,2001:df5:5300::,48,[137886;AU;WCC-AS-AP Warrnambool City Council]
 apnic,AU,ipv6,2001:df5:5800::,48,[133106;AU;T2OE-AP TAKE TWO INTERACTIVE SOFTWARE  INC.]
@@ -7697,7 +7697,7 @@ apnic,HK,ipv4,103.246.77.0,24,[56302;HK;WOOW-HK FlatRm 1707]
 apnic,HK,ipv4,103.247.136.0,23,[138331;AU;FIDESSA-AU-AP Fidessa Pty ltd][133891;SG;FIDESSA-AS-SG Fidessa ltd][132342;HK;FIDESSA-AP Fidessa ltd]
 apnic,HK,ipv4,103.247.138.0,23,[58560;HK;AMS-IX-HK-RS Amsterdam Internet Exchange][58516;HK;AMS-IX-AP Amsterdam Internet Exchange]
 apnic,HK,ipv4,103.248.142.0,24,[150290;HK;GJIHL-AS-AP Guotai Junan International Holdings Limited]
-apnic,HK,ipv4,103.251.112.0,22,[133322;HK;XIM-HK 1 Serangoon North Ave 6][133024;HK;XIM-HK Room 704  ChinaChen Leighton Plaza][55953;HK;XIM-HK Room 704  ChinaChen Leighton Plaza]
+apnic,HK,ipv4,103.251.112.0,22,[133322;HK;XIM-HK XIMBO Internet Limited][133024;HK;XIM-HK Room 704  ChinaChen Leighton Plaza][55953;HK;XIM-HK Room 704  ChinaChen Leighton Plaza]
 apnic,HK,ipv4,103.251.198.0,23,[45561;HK;M800-HK-AP 21F  Tower 1 Enterprise Square  9 Sheung Yuet Road  Kowloon Bay  Hong Kong]
 apnic,HK,ipv4,103.252.162.0,24,[133144;US;M8X8INC-AS-AP 8x8  Inc.]
 apnic,HK,ipv4,103.253.120.0,22,*
@@ -16341,6 +16341,7 @@ apnic,IN,ipv4,163.223.170.0,23,*
 apnic,IN,ipv4,163.223.186.0,23,[150694;IN;DDPL-AS-AP DEVPETER DATACENTER PRIVATE LIMITED]
 apnic,IN,ipv4,163.223.190.0,23,*
 apnic,IN,ipv4,163.223.202.0,24,[153738;IN;EDIPL-AS-AP ELEVAR DIGITEL INFRASTRUCTURE PVT LTD.]
+apnic,IN,ipv4,163.223.228.0,23,*
 apnic,IN,ipv4,169.148.168.0,21,[56201;IN;ZOHO-IN Zoho Corporation Pvt. Ltd]
 apnic,IN,ipv4,169.148.176.0,21,[56201;IN;ZOHO-IN Zoho Corporation Pvt. Ltd]
 apnic,IN,ipv4,175.111.97.0,24,*
@@ -17857,6 +17858,7 @@ apnic,IN,ipv6,2001:df5:4700::,48,*
 apnic,IN,ipv6,2001:df5:47c0::,48,[150694;IN;DDPL-AS-AP DEVPETER DATACENTER PRIVATE LIMITED]
 apnic,IN,ipv6,2001:df5:4980::,48,*
 apnic,IN,ipv6,2001:df5:4c00::,47,[132711;IN;DELLSONICWALL-AS-AP Dell SonicWALL]
+apnic,IN,ipv6,2001:df5:4e40::,48,*
 apnic,IN,ipv6,2001:df5:4e80::,48,*
 apnic,IN,ipv6,2001:df5:5580::,48,*
 apnic,IN,ipv6,2001:df5:5680::,48,*
@@ -22713,6 +22715,7 @@ apnic,VN,ipv4,163.223.188.0,23,*
 apnic,VN,ipv4,163.223.208.0,23,*
 apnic,VN,ipv4,163.223.210.0,23,*
 apnic,VN,ipv4,163.223.224.0,23,*
+apnic,VN,ipv4,163.223.230.0,23,*
 apnic,VN,ipv4,202.0.79.0,24,*
 apnic,VN,ipv4,202.4.168.0,24,*
 apnic,VN,ipv4,202.4.176.0,24,*
@@ -23170,6 +23173,7 @@ apnic,VN,ipv6,2001:df5:4a40::,48,*
 apnic,VN,ipv6,2001:df5:4ac0::,48,*
 apnic,VN,ipv6,2001:df5:4b00::,48,*
 apnic,VN,ipv6,2001:df5:4dc0::,48,*
+apnic,VN,ipv6,2001:df5:4ec0::,48,*
 apnic,VN,ipv6,2001:df5:7180::,48,*
 apnic,VN,ipv6,2001:df5:7580::,48,*
 apnic,VN,ipv6,2001:df5:7680::,48,*
@@ -25938,6 +25942,7 @@ lacnic,CO,ipv6,2801:1f:c800::,48,*
 lacnic,CO,ipv6,2801:1f:d000::,48,*
 lacnic,CO,ipv6,2801:1f:e800::,48,*
 lacnic,CO,ipv6,2801:1f:f000::,48,*
+lacnic,CO,ipv6,2801:1f:f800::,48,*
 lacnic,CO,ipv6,2001:13c7:6000::,48,[272989;CO;CAMARA COLOMBIANA DE INFORMATICA Y TELECOMUNICACIONES CCIT][14970;CO;CAMARA COLOMBIANA DE INFORMATICA Y TELECOMUNICACIONES CCIT]
 lacnic,CR,ipv4,45.162.204.0,22,[267692;CR;UNIVERSIDAD NACIONAL]
 lacnic,CR,ipv4,45.167.17.0,24,[267744;CR;SMILE DIRECT CLUB S.A]
@@ -30451,7 +30456,7 @@ ripencc,CZ,ipv4,46.174.152.0,21,[214952;CZ;MJANIK-AS mjanik.net s.r.o.][52154;CZ
 ripencc,CZ,ipv4,46.175.88.0,21,[197565;CZ;ASDIGISERVICE NHK Solutions s.r.o.]
 ripencc,CZ,ipv4,46.175.176.0,21,[56427;CZ;ASHRADIL Michal Hradil]
 ripencc,CZ,ipv4,62.182.232.0,21,*
-ripencc,CZ,ipv4,77.87.232.0,21,[202522;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][61169;CZ;SPORKNET O2 Czech Republic  a.s.][49767;CZ;INTERNETPB-AS O2 Czech Republic  a.s.][47681;CZ;RIOMEDIA O2 Czech Republic  a.s.][44070;CZ;MCnet-AS O2 Czech Republic  a.s.][42908;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][41824;CZ;IH-LOSAN-NET O2 Czech Republic  a.s.][41046;CZ;NEJTV-AS O2 Czech Republic  a.s.][35214;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][31246;CZ;NETBOX-AS O2 Czech Republic  a.s.][29321;CZ;CentroNetAS O2 Czech Republic  a.s.][25036;CZ;TERMSNET-AS O2 Czech Republic  a.s.][20884;CZ;CZ-CTNET-AS O2 Czech Republic  a.s.][16246;CZ;AS16246 O2 Czech Republic  a.s.][12570;CZ;ITSELF O2 Czech Republic  a.s.][5610;CZ;O2-CZECH-REPUBLIC O2 Czech Republic  a.s.]
+ripencc,CZ,ipv4,77.87.232.0,21,[202522;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][61169;CZ;SPORKNET O2 Czech Republic  a.s.][49767;CZ;INTERNETPB-AS O2 Czech Republic  a.s.][47681;CZ;RIOMEDIA O2 Czech Republic  a.s.][44070;CZ;MCnet-AS O2 Czech Republic  a.s.][42908;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][41824;CZ;IH-LOSAN-NET O2 Czech Republic  a.s.][41046;CZ;NEJTV-AS O2 Czech Republic  a.s.][35214;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][31246;CZ;NETBOX-AS O2 Czech Republic  a.s.][29321;CZ;CentroNetAS O2 Czech Republic  a.s.][25036;CZ;TERMSNET-AS O2 Czech Republic  a.s.][20884;CZ;CZ-CTNET-AS O2 Czech Republic  a.s.][16246;CZ;AS16246 O2 Czech Republic  a.s.][12570;CZ;ITSELF O2 Czech Republic  a.s.][5610;CZ;O2-CZECH-REPUBLIC O2 Czech Republic  a.s.]
 ripencc,CZ,ipv4,77.87.240.0,21,[51400;CZ;ASSPOJENET SPOJE.NET s.r.o.]
 ripencc,CZ,ipv4,78.31.24.0,21,*
 ripencc,CZ,ipv4,79.110.32.0,20,[57287;CZ;OTAVANET-AS OtavaNet s.r.o.]
@@ -30464,7 +30469,7 @@ ripencc,CZ,ipv4,91.193.132.0,22,*
 ripencc,CZ,ipv4,91.195.106.0,23,*
 ripencc,CZ,ipv4,91.195.202.0,23,*
 ripencc,CZ,ipv4,91.197.112.0,22,[43523;CZ;DESIGN-AS A.T.S. INTERNATIONAL s.r.o]
-ripencc,CZ,ipv4,91.197.116.0,22,[202522;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][61169;CZ;SPORKNET O2 Czech Republic  a.s.][49767;CZ;INTERNETPB-AS O2 Czech Republic  a.s.][47681;CZ;RIOMEDIA O2 Czech Republic  a.s.][44070;CZ;MCnet-AS O2 Czech Republic  a.s.][42908;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][41824;CZ;IH-LOSAN-NET O2 Czech Republic  a.s.][41046;CZ;NEJTV-AS O2 Czech Republic  a.s.][35214;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][31246;CZ;NETBOX-AS O2 Czech Republic  a.s.][29321;CZ;CentroNetAS O2 Czech Republic  a.s.][25036;CZ;TERMSNET-AS O2 Czech Republic  a.s.][20884;CZ;CZ-CTNET-AS O2 Czech Republic  a.s.][16246;CZ;AS16246 O2 Czech Republic  a.s.][12570;CZ;ITSELF O2 Czech Republic  a.s.][5610;CZ;O2-CZECH-REPUBLIC O2 Czech Republic  a.s.]
+ripencc,CZ,ipv4,91.197.116.0,22,[202522;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][61169;CZ;SPORKNET O2 Czech Republic  a.s.][49767;CZ;INTERNETPB-AS O2 Czech Republic  a.s.][47681;CZ;RIOMEDIA O2 Czech Republic  a.s.][44070;CZ;MCnet-AS O2 Czech Republic  a.s.][42908;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][41824;CZ;IH-LOSAN-NET O2 Czech Republic  a.s.][41046;CZ;NEJTV-AS O2 Czech Republic  a.s.][35214;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][31246;CZ;NETBOX-AS O2 Czech Republic  a.s.][29321;CZ;CentroNetAS O2 Czech Republic  a.s.][25036;CZ;TERMSNET-AS O2 Czech Republic  a.s.][20884;CZ;CZ-CTNET-AS O2 Czech Republic  a.s.][16246;CZ;AS16246 O2 Czech Republic  a.s.][12570;CZ;ITSELF O2 Czech Republic  a.s.][5610;CZ;O2-CZECH-REPUBLIC O2 Czech Republic  a.s.]
 ripencc,CZ,ipv4,91.199.164.0,24,*
 ripencc,CZ,ipv4,91.199.207.0,24,[201730;CZ;DataSpring Cloud4com s.r.o.][197376;CZ;TEST-TRANSIT-AS-IPV6PROJECT-EU Cloud4com s.r.o.][47110;CZ;CLOUD4COM-AS Cloud4com s.r.o.][44672;CZ;DataSpring3 Cloud4com s.r.o.]
 ripencc,CZ,ipv4,91.201.92.0,22,[215588;CZ;notino-asn Notino s.r.o.]
@@ -30782,7 +30787,7 @@ ripencc,CZ,ipv6,2001:67c:1220::,46,[201263;CZ;AS-BRIX-CDN Brno University of Tec
 ripencc,CZ,ipv6,2001:67c:1260::,48,[50398;CZ;FASTCOMMUNICATIONS Fast Communication  s.r.o.]
 ripencc,CZ,ipv6,2001:67c:1314::,48,[199806;CZ;DCIT-AS-CZ DCIT  a.s.][199630;CZ;MEPPR Municipal Office of the City Prague][199220;CZ;KRS-AS-CZ KrU Stredoceskeho kraje][198103;CZ;CCS-CZ CCS Ceska spolecnost pro platebni karty s.r.o.][197694;CZ;MEPNET-AS Municipal Office of the City Prague][60208;CZ;JTBANKA-AS J&T BANKA  a.s.][50491;CZ;ASN-CZ-PLANET-A-50491 T-Mobile Czech Republic a.s.][48574;CZ;ASN-CZ-PLANET-A-48574 T-Mobile Czech Republic a.s.][43757;CZ;ICZAS-CZ ICZ a.s.][35096;CZ;ALEFNULA Alef Nula a.s.][21142;CZ;PRAGONET-TRANSIT-AS T-Mobile Czech Republic a.s.][20708;CZ;SKODA-AUTO SKODA AUTO a.s.][15485;CZ;GTSNOVERA T-Mobile Czech Republic a.s.][13036;CZ;TMOBILE-CZ T-Mobile Czech Republic a.s.][12767;CZ;PRAGONET-AS T-Mobile Czech Republic a.s.][5588;CZ;GTSCE T-Mobile Czech Republic a.s.][2819;CZ;GTSCZ T-Mobile Czech Republic a.s.]
 ripencc,CZ,ipv6,2001:67c:134c::,48,*
-ripencc,CZ,ipv6,2001:67c:13c4::,48,[202522;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][61169;CZ;SPORKNET O2 Czech Republic  a.s.][49767;CZ;INTERNETPB-AS O2 Czech Republic  a.s.][47681;CZ;RIOMEDIA O2 Czech Republic  a.s.][44070;CZ;MCnet-AS O2 Czech Republic  a.s.][42908;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][41824;CZ;IH-LOSAN-NET O2 Czech Republic  a.s.][41046;CZ;NEJTV-AS O2 Czech Republic  a.s.][35214;CZ;CZ-NORDICTELECOMREGIONAL Nordic Telecom Regional s.r.o.][31246;CZ;NETBOX-AS O2 Czech Republic  a.s.][29321;CZ;CentroNetAS O2 Czech Republic  a.s.][25036;CZ;TERMSNET-AS O2 Czech Republic  a.s.][20884;CZ;CZ-CTNET-AS O2 Czech Republic  a.s.][16246;CZ;AS16246 O2 Czech Republic  a.s.][12570;CZ;ITSELF O2 Czech Republic  a.s.][5610;CZ;O2-CZECH-REPUBLIC O2 Czech Republic  a.s.]
+ripencc,CZ,ipv6,2001:67c:13c4::,48,[202522;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][61169;CZ;SPORKNET O2 Czech Republic  a.s.][49767;CZ;INTERNETPB-AS O2 Czech Republic  a.s.][47681;CZ;RIOMEDIA O2 Czech Republic  a.s.][44070;CZ;MCnet-AS O2 Czech Republic  a.s.][42908;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][41824;CZ;IH-LOSAN-NET O2 Czech Republic  a.s.][41046;CZ;NEJTV-AS O2 Czech Republic  a.s.][35214;CZ;CZ-NORDICTELECOMREGIONAL O2 Czech Republic  a.s.][31246;CZ;NETBOX-AS O2 Czech Republic  a.s.][29321;CZ;CentroNetAS O2 Czech Republic  a.s.][25036;CZ;TERMSNET-AS O2 Czech Republic  a.s.][20884;CZ;CZ-CTNET-AS O2 Czech Republic  a.s.][16246;CZ;AS16246 O2 Czech Republic  a.s.][12570;CZ;ITSELF O2 Czech Republic  a.s.][5610;CZ;O2-CZECH-REPUBLIC O2 Czech Republic  a.s.]
 ripencc,CZ,ipv6,2001:67c:14a0::,48,[199665;CZ;RADIOLINKplus1-NETWORK Hana Juzkova]
 ripencc,CZ,ipv6,2001:67c:1578::,48,[199806;CZ;DCIT-AS-CZ DCIT  a.s.][199630;CZ;MEPPR Municipal Office of the City Prague][199220;CZ;KRS-AS-CZ KrU Stredoceskeho kraje][198103;CZ;CCS-CZ CCS Ceska spolecnost pro platebni karty s.r.o.][197694;CZ;MEPNET-AS Municipal Office of the City Prague][60208;CZ;JTBANKA-AS J&T BANKA  a.s.][50491;CZ;ASN-CZ-PLANET-A-50491 T-Mobile Czech Republic a.s.][48574;CZ;ASN-CZ-PLANET-A-48574 T-Mobile Czech Republic a.s.][43757;CZ;ICZAS-CZ ICZ a.s.][35096;CZ;ALEFNULA Alef Nula a.s.][21142;CZ;PRAGONET-TRANSIT-AS T-Mobile Czech Republic a.s.][20708;CZ;SKODA-AUTO SKODA AUTO a.s.][15485;CZ;GTSNOVERA T-Mobile Czech Republic a.s.][13036;CZ;TMOBILE-CZ T-Mobile Czech Republic a.s.][12767;CZ;PRAGONET-AS T-Mobile Czech Republic a.s.][5588;CZ;GTSCE T-Mobile Czech Republic a.s.][2819;CZ;GTSCZ T-Mobile Czech Republic a.s.]
 ripencc,CZ,ipv6,2001:67c:1590::,47,*
@@ -40184,6 +40189,7 @@ ripencc,HR,ipv6,2001:67c:3f4::,48,[59522;HR;M3T M3T Projekt d.o.o.]
 ripencc,HR,ipv6,2001:67c:8f4::,48,[51577;HR;STYRIA_AS Styria IT Solutions d.o.o.]
 ripencc,HR,ipv6,2001:67c:1340::,48,[198565;HR;GERMANIASPORT-AS Germania Sport d.o.o.]
 ripencc,HR,ipv6,2001:67c:16e4::,48,[197521;HR;SPAN-AS SPAN d.d.]
+ripencc,HR,ipv6,2001:67c:2920::,48,[213405;HR;INGservis ING SERVIS d.o.o.]
 ripencc,HR,ipv6,2001:67c:2f24::,48,[25365;HR;TOMSOFT-AS Tomsoft d.o.o.]
 ripencc,HU,ipv4,81.160.128.0,17,[31581;HU;KOPINT-AS National Infocommunications Service Company Limited by Shares][30904;HU;KOZHALO-AS National Infocommunications Service Company Limited by Shares]
 ripencc,HU,ipv4,87.101.112.0,20,[202115;HU;MTIXP-AS Magyar Telekom plc.][44376;HU;MAGYAR-TELEKOM-SZARVASNET-AS Magyar Telekom plc.][35190;HU;HTC-ROMANIAN-BACKBONE Magyar Telekom plc.][28794;HU;MAGYAR-TELEKOM-CZ-HU-PL-RO-AS Magyar Telekom plc.][15555;HU;MT-DC-AS Magyar Telekom plc.][15545;HU;MT-DC-AS Magyar Telekom plc.][8579;HU;MAGYAR-TELEKOM-TIX-AS Magyar Telekom plc.][8358;HU;MAGYAR-TELEKOM-INTERWARE-AS Magyar Telekom plc.][6790;HU;MAGYAR-TELEKOM-DATANET-AS Magyar Telekom plc.][5513;HU;MAGYAR-TELEKOM-TMH Magyar Telekom plc.][5483;HU;MAGYAR-TELEKOM-MAIN-AS Magyar Telekom plc.][3340;HU;MAGYAR-TELEKOM-GTS-AS Magyar Telekom plc.]
@@ -44957,6 +44963,7 @@ ripencc,PL,ipv4,109.207.110.0,24,[212262;PL;EPIX-POZ-OpenPeering Stowarzyszenie 
 ripencc,PL,ipv4,109.207.111.0,24,[212262;PL;EPIX-POZ-OpenPeering Stowarzyszenie e-Poludnie][212261;PL;EPIX-POZ-GlobalMix Stowarzyszenie e-Poludnie][206186;PL;EPIX-KTW-Local Stowarzyszenie e-Poludnie][206185;PL;EPIX-WAW-Local Stowarzyszenie e-Poludnie][201925;PL;EPIX-Epinet Stowarzyszenie e-Poludnie][201054;PL;EPIX-PolMix Stowarzyszenie e-Poludnie][201053;PL;EPIX-Transit-AS Stowarzyszenie e-Poludnie][200089;PL;AMSSYSSTEM Stowarzyszenie e-Poludnie][197961;PL;EPIX-CDN1 Stowarzyszenie e-Poludnie][62081;PL;EPIX-WAW-GlobalMix Stowarzyszenie e-Poludnie][62047;PL;EPIX-KTW-OpenPeering Stowarzyszenie e-Poludnie][50607;PL;EPIX-KTW-GlobalMix Stowarzyszenie e-Poludnie][48850;PL;EPIX-WAW-OpenPeering Stowarzyszenie e-Poludnie]
 ripencc,PL,ipv4,109.207.144.0,20,[50661;PL;TELKABSPZOO-AS Telkab sp. z o.o.]
 ripencc,PL,ipv4,119.12.16.0,20,[203435;PL;vmpl P4 Sp. z o.o.][201019;PL;P4NET_POZ P4 Sp. z o.o.][197903;PL;PL-3SF-AS P4 Sp. z o.o.][50481;PL;FIBERTECH P4 Sp. z o.o.][49873;PL;vmpl-roaming P4 Sp. z o.o.][49269;PL;TP-3SF-AS P4 Sp. z o.o.][42900;PL;AS-3S-DC P4 Sp. z o.o.][41642;PL;FNMEDIA-AS P4 Sp. z o.o.][39603;PL;P4NET P4 Sp. z o.o.][31242;PL;TKPSA-AS P4 Sp. z o.o.][15507;PL;IT3GNS-P4-AS P4 Sp. z o.o.]
+ripencc,PL,ipv4,119.235.13.0,24,*
 ripencc,PL,ipv4,121.127.37.0,24,[216129;PL;GuardNetwork-AS SEBEK sp. z o.o][213633;PL;Digital-Solutions SEBEK sp. z o.o]
 ripencc,PL,ipv4,144.86.188.0,24,[213804;PL;NOWANET NOWANET.PL GRP sp. z o.o.]
 ripencc,PL,ipv4,145.14.240.0,21,[197227;PL;PSM_Winogrady Poznanska Spoldzielnia Mieszkaniowa  Winogrady  w Poznaniu]
@@ -46567,12 +46574,12 @@ ripencc,PT,ipv6,2001:67c:2d44::,48,[201170;PT;ANA-AS ANA - Aeroportos de Portuga
 ripencc,PW,ipv6,2001:67c:ec8::,48,[214652;PW;Busan-Fibres ANQI CHEN]
 ripencc,QA,ipv4,185.1.159.0,24,[207337;QA;CRA-QA Communications Regulatory Authority]
 ripencc,QA,ipv4,194.6.255.0,24,[42415;QA;AL-JAZEERA Aljazeera Media Network Corporation]
-ripencc,QA,ipv4,194.42.47.64,26,[211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
-ripencc,QA,ipv4,194.93.123.0,26,[211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
+ripencc,QA,ipv4,194.42.47.64,26,[215791;QA;DOHA-IX-MAPS Ooredoo Q.S.C.][211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
+ripencc,QA,ipv4,194.93.123.0,26,[215791;QA;DOHA-IX-MAPS Ooredoo Q.S.C.][211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
 ripencc,QA,ipv6,2001:7f8:ed::,48,[207337;QA;CRA-QA Communications Regulatory Authority]
 ripencc,QA,ipv6,2001:678:ed8::,48,*
-ripencc,QA,ipv6,2001:7f8:162::,48,[211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
-ripencc,QA,ipv6,2001:7f8:163::,48,[211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
+ripencc,QA,ipv6,2001:7f8:162::,48,[215791;QA;DOHA-IX-MAPS Ooredoo Q.S.C.][211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
+ripencc,QA,ipv6,2001:7f8:163::,48,[215791;QA;DOHA-IX-MAPS Ooredoo Q.S.C.][211942;QA;DOHA-IX Ooredoo Q.S.C.][59966;QA;ASLTroamingIPX Ooredoo Q.S.C.][42298;QA;GCC-MPLS-peering Ooredoo Q.S.C.][34796;QA;Qtel-IXP-AS1 Ooredoo Q.S.C.][8781;QA;QA-ISP Ooredoo Q.S.C.]
 ripencc,RE,ipv4,193.56.203.0,24,*
 ripencc,RO,ipv4,31.131.40.0,21,[56940;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][56887;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][51474;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][50437;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][49074;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL]
 ripencc,RO,ipv4,46.151.224.0,21,[56940;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][56887;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][51474;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][50437;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL][49074;RO;TECHNOLOGICAL SC TECHNOLOGICAL SRL]
@@ -49574,7 +49581,7 @@ ripencc,RU,ipv4,193.34.191.0,24,[3167;RU;ASINFOPRO Group of Company INFOPRO Ltd.
 ripencc,RU,ipv4,193.34.200.128,25,[196716;RU;CHNG-AS CRELCOM LLC][51211;RU;ASTRANSNET CRELCOM LLC][39751;RU;M-IX CRELCOM LLC][6789;RU;CRELCOM-NET CRELCOM LLC]
 ripencc,RU,ipv4,193.34.203.0,25,[196638;RU;Promtelecom-AS ALLOTELECOM LLC][50844;RU;EUNICIX-AS ALLOTELECOM LLC][29420;RU;NLINE-AS ALLOTELECOM LLC]
 ripencc,RU,ipv4,193.34.208.0,22,[43670;RU;NTC-AS New Telecommunication Company Ltd.]
-ripencc,RU,ipv4,193.35.32.0,22,[59404;RU;KORKINO-AS Korkino-Cable Television Networks Ltd]
+ripencc,RU,ipv4,193.35.32.0,22,[59404;RU;GlobalTV-AS Korkino-Cable Television Networks Ltd]
 ripencc,RU,ipv4,193.35.38.0,23,[59423;RU;NB-ENERGO-AS Novations and business in power engineering CJSC]
 ripencc,RU,ipv4,193.35.42.0,23,[59418;RU;NewTechnologies-AS New technologies XXI century LLC]
 ripencc,RU,ipv4,193.35.48.0,22,[59683;RU;iridatelecom VipNet Ltd][51974;RU;VipNet-AS VipNet Ltd]
@@ -49894,7 +49901,7 @@ ripencc,RU,ipv4,193.242.132.0,23,[202804;RU;Inplat-AS PJSC MegaFon][198303;RU;AB
 ripencc,RU,ipv4,193.242.135.0,24,[198932;RU;CEK-AS CEK  LLC]
 ripencc,RU,ipv4,193.242.170.0,23,[57250;RU;RU-NET-AS Ru.Net Ltd.]
 ripencc,RU,ipv4,193.242.173.0,24,[198929;RU;SENTINEL-AS Limited liability company  Sentinel Credit Management ]
-ripencc,RU,ipv4,193.242.190.0,23,[59404;RU;KORKINO-AS Korkino-Cable Television Networks Ltd]
+ripencc,RU,ipv4,193.242.190.0,23,[59404;RU;GlobalTV-AS Korkino-Cable Television Networks Ltd]
 ripencc,RU,ipv4,193.242.193.0,24,[59483;RU;NCSP-NET PJSC Novorossiysk Commercial Sea Port]
 ripencc,RU,ipv4,193.242.200.0,23,[59399;RU;RMRS-AS FAI Russian Maritime Register of Shipping]
 ripencc,RU,ipv4,193.242.202.0,23,[51583;RU;KTS-AS Ray-Svyaz Ltd.][48327;RU;REY-SVYAZ-AS Ray-Svyaz Ltd.]
@@ -50608,7 +50615,7 @@ ripencc,RU,ipv6,2001:7f8:70::,48,[207240;RU;BNGF JSC  Ufanet ][60192;RU;RZN-AS J
 ripencc,RU,ipv6,2001:7f8:77::,48,[60867;RU;YAR-IX-AS Gorizont Ltd][45005;RU;GORIZONT-YAROSLAVL-AS Gorizont Ltd]
 ripencc,RU,ipv6,2001:7f8:78::,48,[210766;RU;ERTH-CITY JSC  ER-Telecom Holding ][208786;RU;MILECOM-2-AS JSC  ER-Telecom Holding ][206661;RU;O1Telecom JSC  ER-Telecom Holding ][205971;RU;ASVOLSVL JSC  ER-Telecom Holding ][204952;RU;VCIOM JSC  ER-Telecom Holding ][201495;RU;AS_TAISHET JSC  ER-Telecom Holding ][199253;RU;ZTELECOM-REGIONAL1-AS JSC  ER-Telecom Holding ][198295;RU;BCI JSC  ER-Telecom Holding ][197585;RU;TELENET-USIB-AS JSC  ER-Telecom Holding ][197140;RU;DSSV-NET JSC  ER-Telecom Holding ][62423;RU;TCENTER-AS JSC  ER-Telecom Holding ][62399;RU;TSKIX JSC  ER-Telecom Holding ][62287;RU;REGION-AS JSC  ER-Telecom Holding ][60430;RU;REDIX JSC  ER-Telecom Holding ][60043;RU;CENTRODOM-AS JSC  ER-Telecom Holding ][59713;RU;ERTH-KURSK-AS JSC  ER-Telecom Holding ][58344;RU;ICOTEL JSC  ER-Telecom Holding ][58189;RU;ASAVICOM JSC  ER-Telecom Holding ][58157;RU;RICENTR-AS JSC  ER-Telecom Holding ][57378;RU;ROSTOV-AS JSC  ER-Telecom Holding ][57079;RU;KHABAROVSK-AS JSC  ER-Telecom Holding ][57044;RU;BRYANSK-AS JSC  ER-Telecom Holding ][57041;RU;KSS-Telecom-AS JSC  ER-Telecom Holding ][57026;RU;CHEB-AS JSC  ER-Telecom Holding ][56981;RU;TOMSK-AS JSC  ER-Telecom Holding ][56969;RU;DVO-IX JSC  ER-Telecom Holding ][56420;RU;RYAZAN-AS JSC  ER-Telecom Holding ][56377;RU;MGSK-AS JSC  ER-Telecom Holding ][56330;RU;KURGAN-AS JSC  ER-Telecom Holding ][52207;RU;TULA-AS JSC  ER-Telecom Holding ][51819;RU;YAR-AS JSC  ER-Telecom Holding ][51645;RU;IRKUTSK-AS JSC  ER-Telecom Holding ][51604;RU;EKAT-AS JSC  ER-Telecom Holding ][51570;RU;SPB-AS JSC  ER-Telecom Holding ][51118;RU;HLT-AS JSC  ER-Telecom Holding ][51035;RU;UFA-AS JSC  ER-Telecom Holding ][51034;RU;DSI-EAS JSC  ER-Telecom Holding ][50544;RU;KRSK-AS JSC  ER-Telecom Holding ][50543;RU;SARATOV-AS JSC  ER-Telecom Holding ][50542;RU;VORONEZH-AS JSC  ER-Telecom Holding ][50512;RU;BARNAUL-AS JSC  ER-Telecom Holding ][50498;RU;LIPETSK-AS JSC  ER-Telecom Holding ][49874;RU;ERTH-DC JSC  ER-Telecom Holding ][49048;RU;TVER-AS JSC  ER-Telecom Holding ][48858;RU;Milecom-as JSC  ER-Telecom Holding ][48532;RU;TELEPORTSPB-AS JSC  ER-Telecom Holding ][48201;RU;westcall-tranzit-as JSC  ER-Telecom Holding ][47911;RU;ERTH-AS JSC  ER-Telecom Holding ][47659;RU;INTERTEL-AS JSC  ER-Telecom Holding ][47398;RU;AS-SIBTELECOM JSC  ER-Telecom Holding ][47151;RU;SMARTCOM-AS JSC  ER-Telecom Holding ][47111;RU;RU-AKADO-SPB-AS JSC  ER-Telecom Holding ][45051;RU;RU-RAID-AS JSC  ER-Telecom Holding ][44905;RU;SKV-AS JSC  ER-Telecom Holding ][44727;RU;OPTICOM-AS JSC  ER-Telecom Holding ][43478;RU;ERTH-NSK-AS JSC  ER-Telecom Holding ][43314;RU;DIANET-AS JSC  ER-Telecom Holding ][43154;RU;KRS-IX JSC  ER-Telecom Holding ][43097;RU;WEBRA JSC  ER-Telecom Holding ][42683;RU;ERTH-OREN-AS JSC  ER-Telecom Holding ][42682;RU;ERTH-NNOV-AS JSC  ER-Telecom Holding ][42631;RU;WESTCALL-SPB-AS JSC  ER-Telecom Holding ][42368;RU;LKS-AS JSC  ER-Telecom Holding ][42218;RU;RUSSNET-AS JSC  ER-Telecom Holding ][42145;RU;BSTV-AS JSC  ER-Telecom Holding ][42116;RU;ERTH-NCHLN-AS JSC  ER-Telecom Holding ][42113;RU;MEDIASTAR-AS JSC  ER-Telecom Holding ][41854;RU;NLINK-AS JSC  ER-Telecom Holding ][41843;RU;ERTH-OMSK-AS JSC  ER-Telecom Holding ][41786;RU;ERTH-YOLA-AS JSC  ER-Telecom Holding ][41754;RU;ERTH-PENZA-AS JSC  ER-Telecom Holding ][41733;RU;ZTELECOM-AS JSC  ER-Telecom Holding ][41727;RU;ERTH-KIROV-AS JSC  ER-Telecom Holding ][41682;RU;ERTH-TMN-AS JSC  ER-Telecom Holding ][41668;RU;ERTH-KAZAN-AS JSC  ER-Telecom Holding ][41661;RU;ERTH-CHEL-AS JSC  ER-Telecom Holding ][41403;RU;ULAN-UDE-AS JSC  ER-Telecom Holding ][41002;RU;ERTH-TRANSIT2-AS JSC  ER-Telecom Holding ][39435;RU;EVOLGOGRAD-AS JSC  ER-Telecom Holding ][39028;RU;ULSK-AS JSC  ER-Telecom Holding ][35374;RU;RC-AS JSC  ER-Telecom Holding ][34925;RU;VLADIVOSTOK-AS JSC  ER-Telecom Holding ][34590;RU;IZHEVSK-AS JSC  ER-Telecom Holding ][34533;RU;ESAMARA-AS JSC  ER-Telecom Holding ][34150;RU;RU-ERTH-KRASNODAR-AS JSC  ER-Telecom Holding ][34145;RU;TOMTEL JSC  ER-Telecom Holding ][33899;RU;RU-HOTLINE-TELECOM-AS JSC  ER-Telecom Holding ][31692;RU;RAID-R-AS JSC  ER-Telecom Holding ][31585;RU;ASN-RAID JSC  ER-Telecom Holding ][31494;RU;INFOSETI-AS JSC  ER-Telecom Holding ][31484;RU;Westcall-AS JSC  ER-Telecom Holding ][31483;RU;ERTELECOM-DC-AS JSC  ER-Telecom Holding ][31363;RU;MOSCOW-AS JSC  ER-Telecom Holding ][31302;RU;TSRV-AS JSC  ER-Telecom Holding ][31036;RU;NEWTELESYSTEMS JSC  ER-Telecom Holding ][30868;RU;OLYMPUS-NSP-AS JSC  ER-Telecom Holding ][29053;RU;TELENET-JSC-AS JSC  ER-Telecom Holding ][25446;RU;ERTH-CLOUD-AS JSC  ER-Telecom Holding ][25408;RU;WESTCALL-SPB-AS JSC  ER-Telecom Holding ][24588;RU;NETPROVODOV-AS JSC  ER-Telecom Holding ][21447;RU;TCENTER-2-AS JSC  ER-Telecom Holding ][21442;RU;NAO-AS JSC  ER-Telecom Holding ][21353;RU;ARTCOMS-AS JSC  ER-Telecom Holding ][21335;RU;DigitOneSPB-AS JSC  ER-Telecom Holding ][21311;RU;ASN-KRAFTSVIAZ JSC  ER-Telecom Holding ][20807;RU;Credolink-ASN JSC  ER-Telecom Holding ][20730;RU;DVO-IX JSC  ER-Telecom Holding ][16300;RU;INTERTAX-AREA JSC  ER-Telecom Holding ][16179;RU;ERTELECOM-CGN-AS JSC  ER-Telecom Holding ][13094;RU;SFO-IX-AS JSC  ER-Telecom Holding ][12772;RU;ENFORTA-AS JSC  ER-Telecom Holding ][12768;RU;ER-TELECOM-AS JSC  ER-Telecom Holding ][12690;RU;MKSNET-AS JSC  ER-Telecom Holding ][9049;RU;ERTH-TRANSIT-AS JSC  ER-Telecom Holding ][8345;RU;DSI-IAS JSC  ER-Telecom Holding ][8331;RU;RINET-AS JSC  ER-Telecom Holding ][5563;RU;URAL JSC  ER-Telecom Holding ]
 ripencc,RU,ipv6,2001:7f8:7d::,48,[50125;RU;ULN-IX-RS Ltd IPTelecom][31138;RU;PROEKT-AS Ltd IPTelecom]
-ripencc,RU,ipv6,2001:7f8:82::,48,[203139;RU;CMFT-CDN Comfortel Ltd.][56534;RU;PIRIX-INET-AS Comfortel Ltd.][48625;RU;PIRIX-AS Comfortel Ltd.][47441;RU;TRUNKM Comfortel Ltd.][34232;RU;PULNET Comfortel Ltd.]
+ripencc,RU,ipv6,2001:7f8:82::,48,[203139;RU;CMFT-CDN Comfortel Ltd.][56534;RU;Comfortel Comfortel Ltd.][48625;RU;PIRIX-AS Comfortel Ltd.][47441;RU;TRUNKM Comfortel Ltd.][34232;RU;PULNET Comfortel Ltd.]
 ripencc,RU,ipv6,2001:7f8:84::,48,[60373;RU;MIRAN-IX Miran Ltd.][41722;RU;MIRAN-AS Miran Ltd.]
 ripencc,RU,ipv6,2001:7f8:9a::,48,[203956;RU;IXNNOV Panin Kirill Evgenyevich][57045;RU;NGS Panin Kirill Evgenyevich]
 ripencc,RU,ipv6,2001:7f8:a3::,48,[211282;RU;PG19-Veydelevka Consumer Internet Cooperative PG-19][206680;RU;PG19-Rovenki Consumer Internet Cooperative PG-19][60246;RU;PG-19 Consumer Internet Cooperative PG-19]
@@ -51697,6 +51704,7 @@ ripencc,SE,ipv6,2001:678:7e8::,48,[200300;SE;AS-NTISOD NTI Gymnasiet Ellips AB]
 ripencc,SE,ipv6,2001:678:81c::,48,*
 ripencc,SE,ipv6,2001:678:848::,48,[56563;SE;WBERGNET Wberg Networks]
 ripencc,SE,ipv6,2001:678:864::,48,[205078;SE;VASYD-AS VA SYD]
+ripencc,SE,ipv6,2001:678:874::,48,[211927;ZZ;-Reserved AS-]
 ripencc,SE,ipv6,2001:678:884::,48,*
 ripencc,SE,ipv6,2001:678:89c::,48,[57195;SE;auto1 Giesecke+Devrient Mobile Security Sweden AB]
 ripencc,SE,ipv6,2001:678:8f8::,48,[206884;SE;FI-AS Finansinspektionen]
