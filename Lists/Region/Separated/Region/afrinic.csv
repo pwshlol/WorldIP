@@ -332,6 +332,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.11.250.0,23,reserved,*
 *,ipv4,196.13.102.0,24,reserved,*
 *,ipv4,196.13.106.0,24,reserved,*
+*,ipv4,196.13.176.0,21,reserved,*
 *,ipv4,196.13.201.0,24,reserved,*
 *,ipv4,196.13.203.0,24,reserved,*
 *,ipv4,196.20.32.0,19,reserved,*
@@ -493,6 +494,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,196.216.0.0,24,reserved,*
 *,ipv4,196.216.16.0,21,reserved,*
 *,ipv4,196.216.128.0,22,reserved,*
+*,ipv4,196.216.160.0,24,reserved,*
 *,ipv4,196.216.196.0,22,reserved,*
 *,ipv4,196.216.232.0,23,reserved,*
 *,ipv4,196.220.208.0,20,reserved,*
@@ -1459,9 +1461,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:f071::,32,reserved,*
 *,ipv6,2c0f:f072::,31,reserved,*
 *,ipv6,2c0f:f074::,30,reserved,*
-*,ipv6,2c0f:f079::,32,reserved,*
-*,ipv6,2c0f:f07a::,31,reserved,*
-*,ipv6,2c0f:f07c::,30,reserved,*
+*,ipv6,2c0f:f078::,29,reserved,*
 *,ipv6,2c0f:f081::,32,reserved,*
 *,ipv6,2c0f:f082::,31,reserved,*
 *,ipv6,2c0f:f084::,30,reserved,*
@@ -10973,7 +10973,6 @@ ZA,ipv4,196.11.152.0,21,allocated,[18931;ZA;SEACOM-AS]
 ZA,ipv4,196.11.176.0,21,allocated,[327996;ZA;ACCELERIT]
 ZA,ipv4,196.13.32.0,19,allocated,[25793;ZA;DXC-Technology]
 ZA,ipv4,196.13.64.0,20,allocated,[25793;ZA;DXC-Technology]
-ZA,ipv4,196.13.176.0,21,allocated,[327939;ZA;Logicalis-AS]
 ZA,ipv4,196.13.187.0,22,allocated,*
 ZA,ipv4,196.13.234.0,22,allocated,*
 ZA,ipv4,196.14.0.0,16,allocated,[27598;ZA;INTERNET-SOLUTIONS-MI-NETWORK][20011;ZA;INTERNET-SOLUTIONS][12258;ZA;OPTINET][10474;ZA;OPTINET][10393;ZA;OPTINET][6351;ZA;OPTINET][6089;ZA;OPTINET][3741;ZA;IS]
@@ -11430,7 +11429,6 @@ ZA,ipv6,2c0f:f020::,32,allocated,[327907;ZA;Paw-Paw-Wireless]
 ZA,ipv6,2c0f:f028::,32,allocated,[37317;ZA;AccessGlobal-AS]
 ZA,ipv6,2c0f:f030::,32,allocated,[328137;ZA;Web-Squad-Connect-AS][37731;ZA;AS-WECOM]
 ZA,ipv6,2c0f:f050::,32,allocated,[327804;ZA;TRUSC]
-ZA,ipv6,2c0f:f078::,32,allocated,[327939;ZA;Logicalis-AS]
 ZA,ipv6,2c0f:f080::,32,allocated,[37368;ZA;BLUEDUST]
 ZA,ipv6,2c0f:f088::,32,allocated,[328471;ZA;Hero-Telecoms][328409;ZA;Atcomm-AS][328232;ZA;HX-Systems-AS][328130;ZA;Kosh-Communication-AS][328064;ZA;LCOM-AS][327957;ZA;HERO-TELECOMS][327858;ZA;CloudConnect-Networks][327826;ZA;SAFRICOM][327781;ZA;HERO-TELECOMS][327715;ZA;HERO-TELECOMS][37596;ZA;HERO-TELECOMS][37439;ZA;HERO-TELECOMS][37417;ZA;HERO-TELECOMS][36953;ZA;HERO-TELECOMS]
 ZA,ipv6,2c0f:f090::,32,allocated,[328173;ZA;Weltel]
@@ -11755,7 +11753,6 @@ CD,ipv6,2001:43f8:3c0::,48,assigned,[328796;CD;GOMIX-MGT][328452;CD;ISPA-RDC-LUB
 CD,ipv6,2001:43f8:3c1::,48,assigned,[328796;CD;GOMIX-MGT][328452;CD;ISPA-RDC-LUBUX-MGMT][327875;CD;ISPA-DRC-CONTENT][37788;CD;ISPA-DRC-GOMIX-Peering][37785;CD;ISPA-RDC-LUBUX-Peering][37431;CD;ISPA-DRC]
 CD,ipv6,2001:43f8:1460::,48,assigned,[328601;CD;Compagnie-Financiere-du-Congo-AS]
 CD,ipv6,2001:43ff:6000::,48,assigned,[328442;CD;UNITED-SA][37799;CD;ACIX-Peering]
-CF,ipv4,196.216.160.0,24,assigned,*
 CG,ipv4,102.209.72.0,22,assigned,[329423;CG;CIRAS]
 CG,ipv4,196.43.240.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv4,196.49.56.0,24,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
