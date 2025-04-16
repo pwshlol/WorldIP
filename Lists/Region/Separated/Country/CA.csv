@@ -88,7 +88,7 @@ arin,ipv4,23.135.176.0,24,allocated,[63072;CA;SPYR-NETWORK]
 arin,ipv4,23.135.192.0,24,allocated,[396521;CA;DSC-ASN-1]
 arin,ipv4,23.136.80.0,24,allocated,[40940;CA;AS-RELIABLE]
 arin,ipv4,23.136.82.0,24,allocated,[399558;CA;DIFFER-COMMUNICATIONS]
-arin,ipv4,23.136.204.0,24,allocated,*
+arin,ipv4,23.136.204.0,24,allocated,
 arin,ipv4,23.136.212.0,24,allocated,[401578;CA;VIRTUALDROPLET]
 arin,ipv4,23.136.240.0,24,allocated,[397617;CA;UNNO]
 arin,ipv4,23.137.0.0,24,allocated,[395214;CA;MICROCOM]
@@ -2421,13 +2421,13 @@ arin,ipv4,162.0.248.0,21,allocated,[35893;CA;ACP]
 arin,ipv4,162.27.150.0,23,allocated,[62868;CA;DATA COMMUNICATIONS MANAGEMENT CORP]
 arin,ipv4,162.27.152.0,23,allocated,[62868;CA;DATA COMMUNICATIONS MANAGEMENT CORP]
 arin,ipv4,162.27.154.0,24,allocated,[62868;CA;DATA COMMUNICATIONS MANAGEMENT CORP]
-arin,ipv4,162.33.168.0,21,allocated,[395127;CA;SUNWIRE]
-arin,ipv4,162.33.180.0,23,allocated,[395127;CA;SUNWIRE]
+arin,ipv4,162.33.168.0,21,allocated,*
+arin,ipv4,162.33.180.0,23,allocated,[7311;CA;FRONTIER]
 arin,ipv4,162.33.183.0,24,allocated,[395127;CA;SUNWIRE]
-arin,ipv4,162.33.188.0,23,allocated,[395127;CA;SUNWIRE]
+arin,ipv4,162.33.188.0,23,allocated,[7311;CA;FRONTIER]
 arin,ipv4,162.33.190.0,24,allocated,[395127;CA;SUNWIRE]
 arin,ipv4,162.33.191.0,24,allocated,[397130;CA;STSAS01]
-arin,ipv4,162.33.216.0,21,allocated,[395127;CA;SUNWIRE]
+arin,ipv4,162.33.216.0,21,allocated,*
 arin,ipv4,162.53.0.0,16,allocated,[393311;CA;PCF-201803][22910;CA;LOBLAW-COMPANIES]
 arin,ipv4,162.70.0.0,16,allocated,[397681;CA;CGINAA][19086;CA;CGI-HOSTING][18563;CA;CGINET-01][14811;CA;CGI-02][11568;CA;CGI-REGINA-1][2710;CA;CGI]
 arin,ipv4,162.106.0.0,16,allocated,*
@@ -3106,7 +3106,6 @@ arin,ipv4,192.55.130.0,24,allocated,[393461;CA;SDM-ASN]
 arin,ipv4,192.55.194.0,24,allocated,[239;CA;UTORONTO-AS]
 arin,ipv4,192.55.206.0,24,allocated,*
 arin,ipv4,192.55.224.0,24,allocated,[3766;CA;SSC-299-Z-3766][3765;CA;SSC-299-Z-3765][837;CA;SSC-299-Z-837][820;CA;SSC-299-Z-820][566;CA;SSC-299-Z-566][74;CA;SSC-299-Z-74][58;CA;SSC-299-Z-58]
-arin,ipv4,192.58.121.0,24,allocated,*
 arin,ipv4,192.58.213.0,24,allocated,*
 arin,ipv4,192.58.245.0,24,allocated,*
 arin,ipv4,192.64.8.0,22,allocated,[40788;CA;MULTIB-40788]
@@ -3522,10 +3521,6 @@ arin,ipv4,192.139.43.0,24,allocated,*
 arin,ipv4,192.139.44.0,24,allocated,*
 arin,ipv4,192.139.45.0,24,allocated,*
 arin,ipv4,192.139.46.0,24,allocated,[26227;CA;COOPERIX-NET]
-arin,ipv4,192.139.47.0,24,allocated,*
-arin,ipv4,192.139.48.0,21,allocated,*
-arin,ipv4,192.139.56.0,22,allocated,*
-arin,ipv4,192.139.60.0,23,allocated,*
 arin,ipv4,192.139.63.0,24,allocated,*
 arin,ipv4,192.139.64.0,24,allocated,*
 arin,ipv4,192.139.65.0,24,allocated,*
@@ -4020,7 +4015,6 @@ arin,ipv4,192.231.174.0,24,allocated,*
 arin,ipv4,192.231.188.0,24,allocated,[394786;CA;AVETRIA-NETWORKS]
 arin,ipv4,192.231.247.0,24,allocated,*
 arin,ipv4,192.234.0.0,24,allocated,[14176;CA;WEBHOSTCANADA]
-arin,ipv4,192.234.23.0,24,allocated,*
 arin,ipv4,192.234.98.0,24,allocated,[400736;CA;RBC-CL-2][400717;CA;RBC-SG][399410;CA;RBC-SYDNEY][399409;CA;RBC-CANADA-2][398669;CA;RBC-CA-TOR][36256;CA;RBC-CAN-01][32176;CA;32176][20069;CA;20069][16731;CA;AS16731][16730;CA;AS16730][16729;CA;AS16729][11544;CA;RBC1-ASN6]
 arin,ipv4,192.234.171.0,24,allocated,*
 arin,ipv4,192.234.196.0,22,allocated,[14007;CA;SOHOSKYWAY1]
@@ -4958,7 +4952,6 @@ arin,ipv4,198.235.200.0,23,allocated,[53910;CA;NWST-SAT][22573;CA;NWTEL][6058;CA
 arin,ipv4,198.235.202.0,24,allocated,*
 arin,ipv4,198.235.203.0,24,allocated,*
 arin,ipv4,198.235.206.0,23,allocated,[12010;CA;IFDS]
-arin,ipv4,198.235.208.0,23,allocated,*
 arin,ipv4,198.235.210.0,23,allocated,[40304;CA;DRYTEL][27181;CA;KMTS-NET][11566;CA;MTS-TEST-AS][11489;CA;BACI][8187;CA;ALIANT][7398;CA;MTS-TEST2-AS][7122;CA;MTS-ASN][6608;CA;ALIANT-AS][6539;CA;GT-BELL][855;CA;CANET-ASN-4][684;CA;MTSAL-ASN][602;CA;BACOM3-AS][601;CA;BACOM4-AS][577;CA;BACOM]
 arin,ipv4,198.235.212.0,22,allocated,[40304;CA;DRYTEL][27181;CA;KMTS-NET][11566;CA;MTS-TEST-AS][11489;CA;BACI][8187;CA;ALIANT][7398;CA;MTS-TEST2-AS][7122;CA;MTS-ASN][6608;CA;ALIANT-AS][6539;CA;GT-BELL][855;CA;CANET-ASN-4][684;CA;MTSAL-ASN][602;CA;BACOM3-AS][601;CA;BACOM4-AS][577;CA;BACOM]
 arin,ipv4,198.235.216.0,22,allocated,[40304;CA;DRYTEL][27181;CA;KMTS-NET][11566;CA;MTS-TEST-AS][11489;CA;BACI][8187;CA;ALIANT][7398;CA;MTS-TEST2-AS][7122;CA;MTS-ASN][6608;CA;ALIANT-AS][6539;CA;GT-BELL][855;CA;CANET-ASN-4][684;CA;MTSAL-ASN][602;CA;BACOM3-AS][601;CA;BACOM4-AS][577;CA;BACOM]
@@ -5071,10 +5064,6 @@ arin,ipv4,199.43.195.0,24,allocated,[394357;CA;CAAQUEBEC]
 arin,ipv4,199.43.243.0,24,allocated,[400736;CA;RBC-CL-2][400717;CA;RBC-SG][399410;CA;RBC-SYDNEY][399409;CA;RBC-CANADA-2][398669;CA;RBC-CA-TOR][36256;CA;RBC-CAN-01][32176;CA;32176][20069;CA;20069][16731;CA;AS16731][16730;CA;AS16730][16729;CA;AS16729][11544;CA;RBC1-ASN6]
 arin,ipv4,199.43.244.0,23,allocated,[400736;CA;RBC-CL-2][400717;CA;RBC-SG][399410;CA;RBC-SYDNEY][399409;CA;RBC-CANADA-2][398669;CA;RBC-CA-TOR][36256;CA;RBC-CAN-01][32176;CA;32176][20069;CA;20069][16731;CA;AS16731][16730;CA;AS16730][16729;CA;AS16729][11544;CA;RBC1-ASN6]
 arin,ipv4,199.43.248.0,24,allocated,*
-arin,ipv4,199.43.249.0,24,allocated,*
-arin,ipv4,199.43.250.0,23,allocated,*
-arin,ipv4,199.43.252.0,23,allocated,*
-arin,ipv4,199.43.254.0,24,allocated,*
 arin,ipv4,199.45.144.0,21,allocated,[397778;CA;FIBRESTREAMBC][397177;CA;BEANFIELD-CLOUD][395570;CA;FIBRESTREAM][53364;CA;AS-PRE2POST-2][40191;CA;AS-PRE2POST-1][23498;CA;CDSI][21949;CA;BEANFIELD][21548;CA;MTO][21513;CA;EPIKNETWORKS][11478;CA;OPENFACE][6391;CA;URBAN-15-AS]
 arin,ipv4,199.45.164.0,23,allocated,[397778;CA;FIBRESTREAMBC][397177;CA;BEANFIELD-CLOUD][395570;CA;FIBRESTREAM][53364;CA;AS-PRE2POST-2][40191;CA;AS-PRE2POST-1][23498;CA;CDSI][21949;CA;BEANFIELD][21548;CA;MTO][21513;CA;EPIKNETWORKS][11478;CA;OPENFACE][6391;CA;URBAN-15-AS]
 arin,ipv4,199.45.167.0,24,allocated,[21995;CA;CLS-NETWORK-01]
@@ -5186,7 +5175,6 @@ arin,ipv4,199.71.3.0,24,allocated,*
 arin,ipv4,199.71.4.0,22,allocated,*
 arin,ipv4,199.71.8.0,24,allocated,*
 arin,ipv4,199.71.9.0,24,allocated,*
-arin,ipv4,199.71.10.0,23,allocated,*
 arin,ipv4,199.71.12.0,24,allocated,*
 arin,ipv4,199.71.13.0,24,allocated,*
 arin,ipv4,199.71.14.0,23,allocated,*
@@ -5212,7 +5200,6 @@ arin,ipv4,199.71.91.0,24,allocated,*
 arin,ipv4,199.71.92.0,24,allocated,*
 arin,ipv4,199.71.94.0,23,allocated,*
 arin,ipv4,199.71.96.0,21,allocated,*
-arin,ipv4,199.71.104.0,23,allocated,*
 arin,ipv4,199.71.108.0,22,allocated,*
 arin,ipv4,199.71.112.0,24,allocated,*
 arin,ipv4,199.71.113.0,24,allocated,[396367;CA;CANTIRE]
@@ -5244,13 +5231,11 @@ arin,ipv4,199.71.155.0,24,allocated,*
 arin,ipv4,199.71.156.0,24,allocated,*
 arin,ipv4,199.71.157.0,24,allocated,*
 arin,ipv4,199.71.158.0,24,allocated,*
-arin,ipv4,199.71.160.0,24,allocated,*
 arin,ipv4,199.71.161.0,24,allocated,*
 arin,ipv4,199.71.162.0,23,allocated,*
 arin,ipv4,199.71.164.0,22,allocated,*
 arin,ipv4,199.71.168.0,21,allocated,[3411;CA;SMH-ASN]
 arin,ipv4,199.71.182.0,23,allocated,*
-arin,ipv4,199.71.184.0,23,allocated,*
 arin,ipv4,199.71.187.0,24,allocated,*
 arin,ipv4,199.71.188.0,24,allocated,*
 arin,ipv4,199.71.189.0,24,allocated,*
@@ -5334,7 +5319,6 @@ arin,ipv4,199.84.182.0,23,allocated,*
 arin,ipv4,199.84.184.0,21,allocated,*
 arin,ipv4,199.84.192.0,20,allocated,*
 arin,ipv4,199.84.208.0,22,allocated,*
-arin,ipv4,199.84.212.0,22,allocated,*
 arin,ipv4,199.84.216.0,21,allocated,*
 arin,ipv4,199.84.224.0,21,allocated,*
 arin,ipv4,199.84.232.0,21,allocated,[395997;CA;METRO]
@@ -5352,7 +5336,6 @@ arin,ipv4,199.85.6.0,24,allocated,*
 arin,ipv4,199.85.16.0,23,allocated,*
 arin,ipv4,199.85.18.0,24,allocated,*
 arin,ipv4,199.85.19.0,24,allocated,[394067;CA;OSLER-ASN]
-arin,ipv4,199.85.20.0,23,allocated,*
 arin,ipv4,199.85.24.0,24,allocated,*
 arin,ipv4,199.85.25.0,24,allocated,*
 arin,ipv4,199.85.28.0,24,allocated,*
@@ -5781,8 +5764,6 @@ arin,ipv4,199.202.149.0,24,allocated,*
 arin,ipv4,199.202.150.0,24,allocated,*
 arin,ipv4,199.202.151.0,24,allocated,*
 arin,ipv4,199.202.152.0,24,allocated,*
-arin,ipv4,199.202.153.0,24,allocated,*
-arin,ipv4,199.202.154.0,24,allocated,*
 arin,ipv4,199.202.155.0,24,allocated,[29810;CA;ITCAN-AS]
 arin,ipv4,199.202.156.0,22,allocated,[29810;CA;ITCAN-AS]
 arin,ipv4,199.202.160.0,21,allocated,[29810;CA;ITCAN-AS]
@@ -5897,7 +5878,6 @@ arin,ipv4,199.212.236.0,24,allocated,*
 arin,ipv4,199.212.237.0,24,allocated,*
 arin,ipv4,199.212.238.0,23,allocated,[32789;CA;FMD-AS]
 arin,ipv4,199.212.240.0,21,allocated,[32789;CA;FMD-AS]
-arin,ipv4,199.212.248.0,23,allocated,*
 arin,ipv4,199.212.250.0,23,allocated,*
 arin,ipv4,199.212.252.0,23,allocated,*
 arin,ipv4,199.212.254.0,24,allocated,*
@@ -5961,10 +5941,6 @@ arin,ipv4,199.246.72.0,23,allocated,[54412;CA;RCC-GRANITE-1]
 arin,ipv4,199.246.74.0,24,allocated,[54412;CA;RCC-GRANITE-1]
 arin,ipv4,199.246.75.0,24,allocated,*
 arin,ipv4,199.246.76.0,24,allocated,*
-arin,ipv4,199.246.89.0,24,allocated,*
-arin,ipv4,199.246.90.0,23,allocated,*
-arin,ipv4,199.246.92.0,22,allocated,*
-arin,ipv4,199.246.96.0,22,allocated,*
 arin,ipv4,199.246.100.0,22,allocated,*
 arin,ipv4,199.246.104.0,23,allocated,*
 arin,ipv4,199.246.107.0,24,allocated,*
@@ -5973,7 +5949,6 @@ arin,ipv4,199.246.109.0,24,allocated,*
 arin,ipv4,199.246.110.0,23,allocated,*
 arin,ipv4,199.246.112.0,24,allocated,*
 arin,ipv4,199.246.113.0,24,allocated,*
-arin,ipv4,199.246.114.0,23,allocated,*
 arin,ipv4,199.246.116.0,24,allocated,[47102;CA;GDSCI]
 arin,ipv4,199.246.117.0,24,allocated,*
 arin,ipv4,199.246.118.0,23,allocated,*
@@ -6307,7 +6282,6 @@ arin,ipv4,204.138.70.0,24,allocated,*
 arin,ipv4,204.138.71.0,24,allocated,*
 arin,ipv4,204.138.72.0,24,allocated,*
 arin,ipv4,204.138.73.0,24,allocated,*
-arin,ipv4,204.138.74.0,23,allocated,*
 arin,ipv4,204.138.76.0,22,allocated,*
 arin,ipv4,204.138.80.0,21,allocated,*
 arin,ipv4,204.138.88.0,23,allocated,*
@@ -6320,7 +6294,6 @@ arin,ipv4,204.138.96.0,24,allocated,*
 arin,ipv4,204.138.99.0,24,allocated,*
 arin,ipv4,204.138.103.0,24,allocated,*
 arin,ipv4,204.138.105.0,24,allocated,*
-arin,ipv4,204.138.106.0,23,allocated,*
 arin,ipv4,204.138.108.0,24,allocated,*
 arin,ipv4,204.138.109.0,24,allocated,*
 arin,ipv4,204.138.110.0,24,allocated,*
@@ -6368,7 +6341,6 @@ arin,ipv4,204.138.176.0,23,allocated,*
 arin,ipv4,204.138.178.0,24,allocated,*
 arin,ipv4,204.138.182.0,24,allocated,*
 arin,ipv4,204.138.183.0,24,allocated,*
-arin,ipv4,204.138.184.0,23,allocated,*
 arin,ipv4,204.138.186.0,23,allocated,*
 arin,ipv4,204.138.188.0,24,allocated,*
 arin,ipv4,204.138.189.0,24,allocated,*
@@ -6386,7 +6358,6 @@ arin,ipv4,204.138.245.0,24,allocated,*
 arin,ipv4,204.138.246.0,23,allocated,*
 arin,ipv4,204.138.248.0,23,allocated,*
 arin,ipv4,204.138.250.0,23,allocated,*
-arin,ipv4,204.138.252.0,23,allocated,*
 arin,ipv4,204.138.254.0,24,allocated,*
 arin,ipv4,204.144.60.0,22,allocated,[46618;CA;DERYTELECOM][30466;CA;CAXD][22520;CA;MICHAUD-TECHNOLOGIES-NET][11290;CA;CC-3272]
 arin,ipv4,204.144.185.0,24,allocated,[53583;CA;WESTJET]
@@ -7219,7 +7190,6 @@ arin,ipv4,205.207.71.0,24,allocated,[1604;CA;TBCDSB]
 arin,ipv4,205.207.72.0,24,allocated,*
 arin,ipv4,205.207.73.0,24,allocated,*
 arin,ipv4,205.207.75.0,24,allocated,*
-arin,ipv4,205.207.76.0,23,allocated,*
 arin,ipv4,205.207.78.0,23,allocated,*
 arin,ipv4,205.207.80.0,22,allocated,*
 arin,ipv4,205.207.84.0,24,allocated,*
@@ -7296,7 +7266,6 @@ arin,ipv4,205.207.208.0,24,allocated,*
 arin,ipv4,205.207.209.0,24,allocated,*
 arin,ipv4,205.207.210.0,24,allocated,*
 arin,ipv4,205.207.211.0,24,allocated,*
-arin,ipv4,205.207.212.0,23,allocated,*
 arin,ipv4,205.207.214.0,23,allocated,*
 arin,ipv4,205.207.216.0,23,allocated,*
 arin,ipv4,205.207.218.0,24,allocated,*
@@ -7320,9 +7289,6 @@ arin,ipv4,205.207.242.0,24,allocated,*
 arin,ipv4,205.207.243.0,24,allocated,*
 arin,ipv4,205.207.244.0,24,allocated,*
 arin,ipv4,205.207.245.0,24,allocated,*
-arin,ipv4,205.207.248.0,22,allocated,*
-arin,ipv4,205.207.252.0,23,allocated,*
-arin,ipv4,205.207.254.0,24,allocated,*
 arin,ipv4,205.209.1.0,24,allocated,[7443;CA;PRIMUS-AS7443][7036;CA;PRIMUS-AS7036][6407;CA;PRIMUS-AS6407][5688;CA;PRIMUS-AS5688][3672;CA;PRIMUS-AS3672]
 arin,ipv4,205.209.2.0,23,allocated,*
 arin,ipv4,205.209.4.0,24,allocated,*
@@ -7335,7 +7301,6 @@ arin,ipv4,205.210.2.0,24,allocated,*
 arin,ipv4,205.210.3.0,24,allocated,*
 arin,ipv4,205.210.4.0,24,allocated,*
 arin,ipv4,205.210.5.0,24,allocated,*
-arin,ipv4,205.210.6.0,24,allocated,*
 arin,ipv4,205.210.7.0,24,allocated,*
 arin,ipv4,205.210.8.0,21,allocated,*
 arin,ipv4,205.210.16.0,24,allocated,*
@@ -7376,7 +7341,6 @@ arin,ipv4,205.210.71.0,24,allocated,*
 arin,ipv4,205.210.72.0,24,allocated,*
 arin,ipv4,205.210.73.0,24,allocated,*
 arin,ipv4,205.210.74.0,24,allocated,*
-arin,ipv4,205.210.75.0,24,allocated,*
 arin,ipv4,205.210.76.0,23,allocated,*
 arin,ipv4,205.210.78.0,24,allocated,*
 arin,ipv4,205.210.79.0,24,allocated,*
@@ -7436,7 +7400,6 @@ arin,ipv4,205.210.240.0,23,allocated,[21813;CA;THP-14]
 arin,ipv4,205.210.242.0,24,allocated,*
 arin,ipv4,205.210.243.0,24,allocated,*
 arin,ipv4,205.210.244.0,24,allocated,*
-arin,ipv4,205.210.245.0,24,allocated,*
 arin,ipv4,205.210.246.0,24,allocated,*
 arin,ipv4,205.210.247.0,24,allocated,*
 arin,ipv4,205.210.249.0,24,allocated,*
@@ -7535,7 +7498,6 @@ arin,ipv4,205.233.68.0,24,allocated,*
 arin,ipv4,205.233.69.0,24,allocated,*
 arin,ipv4,205.233.70.0,24,allocated,*
 arin,ipv4,205.233.72.0,24,allocated,*
-arin,ipv4,205.233.74.0,24,allocated,*
 arin,ipv4,205.233.80.0,21,allocated,[7873;CA;MICROTEC-AS]
 arin,ipv4,205.233.88.0,23,allocated,[7873;CA;MICROTEC-AS]
 arin,ipv4,205.233.92.0,24,allocated,*
@@ -8173,7 +8135,7 @@ arin,ipv4,206.197.9.0,24,allocated,[397905;CA;THINKON-UK1][397468;CA;THINKON][39
 arin,ipv4,206.197.31.0,24,allocated,[399973;CA;OPENTEXT-NA-US-ASHBURN-1][398848;CA;OPENTEXT-NA-WATERLOO-1][397717;CA;OPENTEXT-NA-US-6][395791;CA;OPENTEXT-NA-CA-TORONTO-1][395509;CA;LIAISONBGP-W][46371;CA;CARBO][35888;CA;OPENTEXT-NA-US-5][33459;CA;EVAULT-AS][32263;CA;CATALYST-REPOSITORY-SYSTEMS-US][32216;CA;OPENTEXT-NA-US-7][31917;CA;OPENTEXT-NA-US-3][27570;CA;OPENTEXT-NA-US-2][27495;CA;OPENTEXT-NA-US-1][26704;CA;OPENTEXT-NA-US-4][26547;CA;OPENTEXT-NA-RESEARCH][22591;CA;OT-DECHO][21563;CA;AS21563][19554;CA;OPENTEXT-NA-US-1][18442;CA;OPENTEXT-NA-US-VA][16751;CA;OPENTEXT-NA-CA-1][11539;CA;LIAISONBGP]
 arin,ipv4,206.197.151.0,24,allocated,*
 arin,ipv4,206.198.192.0,22,allocated,[54139;CA;CONNEXIO]
-arin,ipv4,206.204.110.0,24,allocated,[395127;CA;SUNWIRE]
+arin,ipv4,206.204.110.0,24,allocated,[7311;CA;FRONTIER]
 arin,ipv4,206.204.240.0,21,allocated,[395127;CA;SUNWIRE]
 arin,ipv4,206.210.96.0,19,allocated,[33130;CA;IASL]
 arin,ipv4,206.211.216.0,23,allocated,[16796;CA;MERLIN-NET][1048;CA;MERLIN-02]
@@ -9141,6 +9103,7 @@ arin,ipv6,2604:4a0::,32,allocated,[394397;CA;DASHTEL]
 arin,ipv6,2604:780::,32,allocated,[21774;CA;GSCNET]
 arin,ipv6,2604:840::,32,allocated,[33628;CA;DIDO-ASN-01]
 arin,ipv6,2604:920::,32,allocated,[397128;CA;CELERITY-TELECOM]
+arin,ipv6,2604:b60::,32,allocated,[23299;CA;LIBEO-NOCX-1]
 arin,ipv6,2604:d40::,32,allocated,[27584;CA;CLEARWAVE-BROADBAND-NETWORKS]
 arin,ipv6,2604:dc0::,32,allocated,[32586;CA;NIAGARA-WIRELESS-INTERNET-COMPANY]
 arin,ipv6,2604:e80::,32,allocated,*
@@ -9200,7 +9163,7 @@ arin,ipv6,2602:f692::,36,allocated,*
 arin,ipv6,2602:f69f::,40,allocated,[46747;CA;SECUREIP]
 arin,ipv6,2602:f6aa::,36,allocated,[19772;CA;LIBERATED]
 arin,ipv6,2602:f6b4::,40,allocated,[12109;CA;SUITE SOLUTIONS FIBER INTERNET]
-arin,ipv6,2602:f6c1::,36,allocated,*
+arin,ipv6,2602:f6c1::,36,allocated,
 arin,ipv6,2602:f6f1::,36,allocated,[26922;CA;SIMPLYNET-1]
 arin,ipv6,2602:f71c::,40,allocated,[20082;CA;WIRELESSFARM-CA-TOR1]
 arin,ipv6,2602:f72c::,36,allocated,[401604;CA;COLOCATAIRES]
