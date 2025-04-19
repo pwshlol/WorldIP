@@ -266,6 +266,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,160.181.0.0,16,reserved,*
 *,ipv4,160.184.0.0,16,reserved,*
 *,ipv4,160.226.188.0,22,reserved,*
+*,ipv4,160.238.48.0,23,reserved,*
 *,ipv4,160.242.128.0,18,reserved,*
 *,ipv4,160.255.0.0,16,reserved,*
 *,ipv4,164.160.12.0,22,reserved,*
@@ -3224,10 +3225,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:1082::,47,reserved,*
 *,ipv6,2001:43f8:1084::,46,reserved,*
 *,ipv6,2001:43f8:1088::,45,reserved,*
-*,ipv6,2001:43f8:1091::,48,reserved,*
-*,ipv6,2001:43f8:1092::,47,reserved,*
-*,ipv6,2001:43f8:1094::,46,reserved,*
-*,ipv6,2001:43f8:1098::,45,reserved,*
+*,ipv6,2001:43f8:1090::,44,reserved,*
 *,ipv6,2001:43f8:10a1::,48,reserved,*
 *,ipv6,2001:43f8:10a2::,47,reserved,*
 *,ipv6,2001:43f8:10a4::,46,reserved,*
@@ -7068,7 +7066,7 @@ AO,ipv4,41.78.16.0,22,allocated,[37119;AO;unitel-AS]
 AO,ipv4,41.205.32.0,19,allocated,[36907;AO;TVCaboAngola]
 AO,ipv4,41.210.192.0,18,allocated,[37081;AO;movicel-as]
 AO,ipv4,41.216.236.0,22,allocated,[37264;AO;DNSANGOLA]
-AO,ipv4,41.221.240.0,20,allocated,[17400;AO;EBONET]
+AO,ipv4,41.221.240.0,20,allocated,[17400;AO;MSTelcom]
 AO,ipv4,41.222.200.0,22,allocated,[37593;AO;Infrasat]
 AO,ipv4,41.222.236.0,22,allocated,[37011;AO;MSTARTEL-AS]
 AO,ipv4,41.222.248.0,21,allocated,[36907;AO;TVCaboAngola]
@@ -7151,13 +7149,13 @@ AO,ipv4,169.239.76.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,169.239.108.0,22,allocated,[36881;AO;MULTITEL]
 AO,ipv4,169.239.132.0,22,allocated,[328111;AO;IPWORLD-AS]
 AO,ipv4,169.255.88.0,22,allocated,[327833;AO;CENTRAL-8]
-AO,ipv4,196.29.192.0,20,allocated,[17400;AO;EBONET]
+AO,ipv4,196.29.192.0,20,allocated,[17400;AO;MSTelcom]
 AO,ipv4,196.32.192.0,21,allocated,[36881;AO;MULTITEL]
 AO,ipv4,196.45.160.0,22,allocated,[32717;AO;ASN-SNETANGOLA]
 AO,ipv4,196.46.72.0,21,allocated,[32717;AO;ASN-SNETANGOLA]
 AO,ipv4,196.61.76.0,22,allocated,[37272;AO;CMCANGOLA]
 AO,ipv4,196.202.252.0,22,allocated,[36907;AO;TVCaboAngola]
-AO,ipv4,196.249.192.0,18,allocated,[17400;AO;EBONET]
+AO,ipv4,196.249.192.0,18,allocated,[17400;AO;MSTelcom]
 AO,ipv4,197.148.0.0,18,allocated,[36907;AO;TVCaboAngola]
 AO,ipv4,197.148.88.0,21,allocated,[37432;AO;ITELNET]
 AO,ipv4,197.149.148.0,22,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
@@ -7165,7 +7163,7 @@ AO,ipv4,197.157.196.0,22,allocated,[37432;AO;ITELNET]
 AO,ipv4,197.216.0.0,15,allocated,[37059;AO;SUPERNET-][11259;AO;ANGOLATELECOM]
 AO,ipv4,197.241.128.0,17,allocated,[37081;AO;movicel-as]
 AO,ipv6,2c0f:300::,32,allocated,[328943;AO;AAS1-AS]
-AO,ipv6,2001:4250::,32,allocated,[17400;AO;EBONET]
+AO,ipv6,2001:4250::,32,allocated,[17400;AO;MSTelcom]
 AO,ipv6,2c0f:11c0::,32,allocated,[329506;AO;MSBYTE-SOLUTION]
 AO,ipv6,2c0f:1a00::,32,allocated,[37603;AO;GameZone-AS]
 AO,ipv6,2c0f:1c80::,32,allocated,[329065;AO;STSL2-AS]
@@ -12718,7 +12716,6 @@ ZA,ipv4,160.122.0.0,16,assigned,*
 ZA,ipv4,160.123.0.0,16,assigned,*
 ZA,ipv4,160.124.0.0,16,assigned,[327683;ZA;POSIX-AFRICA][6083;ZA;POSIX-AFRICA]
 ZA,ipv4,160.226.176.0,23,assigned,[328186;ZA;Newshelf-1315]
-ZA,ipv4,160.238.48.0,23,assigned,[328267;ZA;Tysflo-AS]
 ZA,ipv4,163.195.0.0,16,assigned,*
 ZA,ipv4,163.196.0.0,16,assigned,*
 ZA,ipv4,163.197.0.0,16,assigned,*
@@ -13503,7 +13500,6 @@ ZA,ipv6,2001:43f8:db0::,48,assigned,[328205;ZA;Outsurance-Insurance-Company]
 ZA,ipv6,2001:43f8:1030::,48,assigned,[37438;ZA;Gijima][3068;ZA;DENINF-IVAN][3067;ZA;DENINF-IPLAN]
 ZA,ipv6,2001:43f8:1040::,48,assigned,[328246;ZA;Foschini-Retail-Group-AS]
 ZA,ipv6,2001:43f8:1070::,48,assigned,[328174;ZA;HomeFind24]
-ZA,ipv6,2001:43f8:1090::,48,assigned,[328267;ZA;Tysflo-AS]
 ZA,ipv6,2001:43f8:1140::,48,assigned,*
 ZA,ipv6,2001:43f8:1141::,48,assigned,*
 ZA,ipv6,2001:43f8:1180::,48,assigned,[37394;ZA;eNetworks-Anycast][32653;ZA;ENETWORKS]
