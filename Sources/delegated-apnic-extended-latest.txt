@@ -25,10 +25,10 @@
 #
 ######################################################################
 #
-2.3|apnic|20250421|176772||20250417|+1000
-apnic|*|asn|*|13698|summary
-apnic|*|ipv4|*|55906|summary
-apnic|*|ipv6|*|107168|summary
+2.3|apnic|20250422|176785||20250421|+1000
+apnic|*|asn|*|13699|summary
+apnic|*|ipv4|*|55907|summary
+apnic|*|ipv6|*|107179|summary
 apnic|AU|ipv4|1.0.0.0|256|20110811|assigned|A91872ED
 apnic|CN|ipv4|1.0.1.0|256|20110414|allocated|A92E1062
 apnic|CN|ipv4|1.0.2.0|512|20110414|allocated|A92E1062
@@ -38883,7 +38883,8 @@ apnic||ipv4|163.227.101.0|256||available|
 apnic|IN|ipv4|163.227.102.0|512|20250417|allocated|A926102D
 apnic|IN|ipv4|163.227.104.0|512|20250417|assigned|A921FDAE
 apnic|IN|ipv4|163.227.106.0|512|20250417|assigned|A9252BD4
-apnic||ipv4|163.227.108.0|1024||available|
+apnic|IN|ipv4|163.227.108.0|512|20250421|assigned|A9271B82
+apnic|IN|ipv4|163.227.110.0|512|20250421|assigned|A91886AB
 apnic||ipv4|163.227.112.0|2048||available|
 apnic||ipv4|163.227.120.0|1024||available|
 apnic||ipv4|163.227.124.0|256||available|
@@ -93949,7 +93950,13 @@ apnic||ipv6|2001:df5:6384::|46||available|
 apnic||ipv6|2001:df5:6388::|45||available|
 apnic||ipv6|2001:df5:6390::|44||available|
 apnic||ipv6|2001:df5:63a0::|43||available|
-apnic||ipv6|2001:df5:63c0::|42||available|
+apnic|IN|ipv6|2001:df5:63c0::|48|20250421|assigned|A928DD29
+apnic||ipv6|2001:df5:63c1::|48||available|
+apnic||ipv6|2001:df5:63c2::|47||available|
+apnic||ipv6|2001:df5:63c4::|46||available|
+apnic||ipv6|2001:df5:63c8::|45||available|
+apnic||ipv6|2001:df5:63d0::|44||available|
+apnic||ipv6|2001:df5:63e0::|43||available|
 apnic|JP|ipv6|2001:df5:6400::|48|20150806|assigned|A92127DC
 apnic||ipv6|2001:df5:6401::|48||available|
 apnic||ipv6|2001:df5:6402::|47||available|
@@ -124550,7 +124557,12 @@ apnic||ipv6|2401:fec2::|31||available|
 apnic||ipv6|2401:fec4::|30||available|
 apnic||ipv6|2401:fec8::|29||available|
 apnic||ipv6|2401:fed0::|28||available|
-apnic||ipv6|2401:fee0::|27||available|
+apnic|IN|ipv6|2401:fee0::|32|20250421|allocated|A9271B82
+apnic||ipv6|2401:fee1::|32||available|
+apnic||ipv6|2401:fee2::|31||available|
+apnic||ipv6|2401:fee4::|30||available|
+apnic||ipv6|2401:fee8::|29||available|
+apnic||ipv6|2401:fef0::|28||available|
 apnic|NZ|ipv6|2401:ff00::|32|20110920|allocated|A916A3BE
 apnic||ipv6|2401:ff01::|32||available|
 apnic||ipv6|2401:ff02::|31||available|
@@ -171706,7 +171718,7 @@ apnic|BD|asn|137189|1|20171124|allocated|A918D808
 apnic|SG|asn|137190|1|20240110|allocated|A91FABEF
 apnic|IN|asn|137191|1|20171127|allocated|A918EDB2
 apnic|AU|asn|137192|1|20171127|allocated|A9172E1E
-apnic||asn|137193|1||available|
+apnic|PH|asn|137193|1|20250420|allocated|A914DA9E
 apnic|US|asn|137194|1|20171128|allocated|A9120BA8
 apnic||asn|137195|1||available|
 apnic|HK|asn|137196|1|20171128|allocated|A91AF3CB
@@ -171721,7 +171733,7 @@ apnic|AU|asn|137204|1|20171130|allocated|A914E8BA
 apnic|SG|asn|137205|1|20171130|allocated|A91EDDE1
 apnic|KH|asn|137206|1|20171130|allocated|A91F7BE4
 apnic|HK|asn|137207|1|20171130|allocated|A9156D54
-apnic||asn|137208|1||available|
+apnic|PH|asn|137208|1|20250420|allocated|A911C53A
 apnic|NP|asn|137209|1|20171201|allocated|A91AA618
 apnic|IN|asn|137210|1|20250303|allocated|A918EDB2
 apnic||asn|137211|1||available|
@@ -172503,7 +172515,7 @@ apnic|BD|asn|138512|1|20250220|allocated|A91FBC89
 apnic|CN|asn|138513|2|20200311|allocated|A914EAE4
 apnic|JP|asn|138515|1|20230312|allocated|A917336A
 apnic|HK|asn|138516|1|20181219|allocated|A91D15A4
-apnic||asn|138517|1||available|
+apnic|ID|asn|138517|1|20250421|allocated|A9186214
 apnic|IN|asn|138518|1|20181220|allocated|A9144354
 apnic|PG|asn|138519|1|20181221|allocated|A91E4515
 apnic|IN|asn|138520|1|20181221|allocated|A91AC232
@@ -176800,5 +176812,6 @@ apnic|IN|asn|153795|1|20250417|allocated|A918EDB2
 apnic|ID|asn|153796|2|20250417|allocated|A9186214
 apnic|IN|asn|153798|2|20250417|allocated|A918EDB2
 apnic|BD|asn|153800|1|20250417|allocated|A911AA05
-apnic||asn|153801|2161||available|
+apnic|ID|asn|153801|7|20250421|allocated|A9186214
+apnic||asn|153808|2154||available|
 
