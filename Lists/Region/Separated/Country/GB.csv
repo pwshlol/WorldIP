@@ -42,7 +42,7 @@ apnic,ipv6,2401:a780::,32,allocated,[150448;HK;CMSL-AS-AP Connect Managed Servic
 apnic,ipv6,2401:e4e0::,32,allocated,[153476;HK;ALICENETWORKSLTD-AS-AP Alice Networks LTD]
 apnic,ipv6,2402:28c0::,32,allocated,*
 apnic,ipv6,2405:fb80::,32,allocated,[132006;GB;DIOM-AS-AP Domicilium IOM Ltd]
-apnic,ipv6,2407:1880::,32,allocated,[153833;GB;GCXG-AS-AP GCXG INDIA PRIVATE LIMITED]
+apnic,ipv6,2407:1880::,32,allocated,[153833;GB;GCXGINDIAPRIVATELIMITED-AS-IN GCXG INDIA PRIVATE LIMITED]
 arin,ipv4,23.132.164.0,24,allocated,[401626;GB;NETIFACE-TORONTO]
 arin,ipv4,66.163.221.0,24,allocated,*
 arin,ipv4,66.248.237.0,24,allocated,[33408;GB;WHG-SPARE-1]
@@ -499,7 +499,7 @@ ripencc,ipv4,37.244.64.0,18,allocated,[213289;GB;iqvia Redcentric Solutions Ltd]
 ripencc,ipv4,37.252.0.0,20,allocated,[50162;GB;Inferno-AS 3nt solutions LLP][50132;GB;WRG-AS 3nt solutions LLP][47947;GB;WEHANDS-AS 3nt solutions LLP][42305;GB;SMART-AS 3nt solutions LLP][8180;GB;AS-3NT 3nt solutions LLP]
 ripencc,ipv4,37.252.24.0,21,allocated,[199291;GB;BCDS GCI Network Solutions Limited][196875;GB;NASSTAR-MON-AS GCI Network Solutions Limited][61341;GB;NASSTAR-MPLS-AS GCI Network Solutions Limited][60648;GB;EKNNET GCI Network Solutions Limited][43198;GB;OUTSOURCERY-AS GCI Network Solutions Limited][41393;GB;NASSTAR-AS GCI Network Solutions Limited][39179;GB;NASSTAR-TRANSIT-AS GCI Network Solutions Limited][34940;GB;Vesk GCI Network Solutions Limited][31270;GB;FMN GCI Network Solutions Limited][8851;GB;EDGE GCI Network Solutions Limited]
 ripencc,ipv4,37.252.32.0,19,allocated,*
-ripencc,ipv4,37.252.192.0,21,allocated,[31716;GB;VGN Qube Research and Technologies Limited][29754;US;GO2TEL]
+ripencc,ipv4,37.252.192.0,21,allocated,[31716;GB;VGN Qube Research and Technologies Limited][29754;GB;AS29754 Qube Research and Technologies Limited]
 ripencc,ipv4,40.17.0.0,16,allocated,[35106;GB;MICROSOFT-LIVE-MEETING Microsoft Limited]
 ripencc,ipv4,40.21.0.0,16,allocated,[35106;GB;MICROSOFT-LIVE-MEETING Microsoft Limited]
 ripencc,ipv4,40.25.0.0,16,allocated,[35106;GB;MICROSOFT-LIVE-MEETING Microsoft Limited]
@@ -2587,7 +2587,7 @@ ripencc,ipv4,94.101.160.0,20,allocated,[47797;GB;ESSEXCC-AS Essex County Council
 ripencc,ipv4,94.102.144.0,20,allocated,[34920;GB;Simply-Romford Team Blue Carrier Limited][29550;GB;SIMPLYTRANSIT Team Blue Carrier Limited]
 ripencc,ipv4,94.102.240.0,20,allocated,[25562;GB;SCEE Sony Interactive Entertainment Europe Limited]
 ripencc,ipv4,94.103.8.0,21,allocated,[200904;GB;FOXCLOUD FOXCLOUD LLP]
-ripencc,ipv4,94.103.240.0,22,allocated,[213094;GB;FullFibre Full Fibre Limited]
+ripencc,ipv4,94.103.240.0,22,allocated,[213094;GB;FullFibre Full Fibre Limited][211178;GB;DIGITALINFRA-AS Digital Infrastructure LTD]
 ripencc,ipv4,94.116.0.0,15,allocated,[41012;GB;THECLOUD The Cloud Networks Limited]
 ripencc,ipv4,94.118.0.0,16,allocated,[41012;GB;THECLOUD The Cloud Networks Limited]
 ripencc,ipv4,94.119.4.0,22,allocated,[41012;GB;THECLOUD The Cloud Networks Limited]
@@ -2665,7 +2665,7 @@ ripencc,ipv4,94.247.142.0,24,allocated,*
 ripencc,ipv4,94.247.152.0,21,allocated,[49694;GB;UK-FR-MNLTD Masternaut Limited]
 ripencc,ipv4,94.250.224.0,20,allocated,[8586;GB;OBSL-AS TalkTalk Communications Limited]
 ripencc,ipv4,94.250.244.0,22,allocated,*
-ripencc,ipv4,95.36.72.0,21,allocated,[31716;GB;VGN Qube Research and Technologies Limited][29754;US;GO2TEL]
+ripencc,ipv4,95.36.72.0,21,allocated,[31716;GB;VGN Qube Research and Technologies Limited][29754;GB;AS29754 Qube Research and Technologies Limited]
 ripencc,ipv4,95.85.80.0,21,allocated,[209207;GB;HOSTING-TELECOM-AS HOSTING TELECOM LTD][39150;GB;HOSTING-TELECOM-AS HOSTING TELECOM LTD]
 ripencc,ipv4,95.87.96.0,21,allocated,[43323;GB;VISION247 Vision247 Ltd]
 ripencc,ipv4,95.87.104.0,21,allocated,[199283;GB;UKSCOMMS-AS STRUCTURED COMMUNICATIONS LIMITED]
@@ -2830,13 +2830,19 @@ ripencc,ipv4,109.175.160.0,21,allocated,[48961;GB;WarwickNet Glide Student & Res
 ripencc,ipv4,109.175.168.0,22,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
 ripencc,ipv4,109.175.172.0,23,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
 ripencc,ipv4,109.175.176.0,20,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
-ripencc,ipv4,109.175.192.0,18,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.192.0,19,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.224.0,24,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.226.0,23,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.228.0,22,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.232.0,23,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.235.0,24,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.236.0,22,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
+ripencc,ipv4,109.175.240.0,20,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
 ripencc,ipv4,109.176.0.0,16,allocated,[199291;GB;BCDS GCI Network Solutions Limited][196875;GB;NASSTAR-MON-AS GCI Network Solutions Limited][61341;GB;NASSTAR-MPLS-AS GCI Network Solutions Limited][60648;GB;EKNNET GCI Network Solutions Limited][43198;GB;OUTSOURCERY-AS GCI Network Solutions Limited][41393;GB;NASSTAR-AS GCI Network Solutions Limited][39179;GB;NASSTAR-TRANSIT-AS GCI Network Solutions Limited][34940;GB;Vesk GCI Network Solutions Limited][31270;GB;FMN GCI Network Solutions Limited][8851;GB;EDGE GCI Network Solutions Limited]
 ripencc,ipv4,109.180.0.0,16,allocated,[35736;GB;WUK-AS EE Limited][33898;GB;TMOBILE-AS EE Limited][12576;GB;EE EE Limited]
 ripencc,ipv4,109.181.0.0,16,allocated,[35736;GB;WUK-AS EE Limited][33898;GB;TMOBILE-AS EE Limited][12576;GB;EE EE Limited]
 ripencc,ipv4,109.196.128.0,20,allocated,[209207;GB;HOSTING-TELECOM-AS HOSTING TELECOM LTD][39150;GB;HOSTING-TELECOM-AS HOSTING TELECOM LTD]
 ripencc,ipv4,109.200.0.0,19,allocated,[39451;GB;IOMART-AS IOMART MANAGED SERVICES LIMITED][35662;GB;IOMARTHOSTING IOMART MANAGED SERVICES LIMITED]
-ripencc,ipv4,109.202.224.0,23,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
 ripencc,ipv4,109.202.226.0,24,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
 ripencc,ipv4,109.202.227.0,24,allocated,[207158;GB;WORLDCDN Clouvider Limited][207019;GB;TNCL Clouvider Limited][206986;GB;GLOBALCDN Clouvider Limited][206848;GB;UKCDN Clouvider Limited][206822;GB;CLOUDNET Clouvider Limited][206144;GB;Clouvider-north2 Clouvider Limited][206136;GB;CLOUDSRV-NORTH Clouvider Limited][202792;GB;CLOUDSRV Clouvider Limited][202791;GB;CLOUDSRV-ANY Clouvider Limited][62240;GB;Clouvider Clouvider Limited][43878;GB;CLOUVIDER-HEX Clouvider Limited][42902;GB;CLOUVIDER-NORTH Clouvider Limited][35545;GB;Clouvider-Anycast Clouvider Limited][34202;GB;CLOUVIDER-THN2 Clouvider Limited][24669;GB;CLOUVIDER-NETWORK-OPTIMISATION Clouvider Limited]
 ripencc,ipv4,109.202.228.0,22,allocated,[48961;GB;WarwickNet Glide Student & Residential Limited][42689;GB;Glide Glide Student & Residential Limited]
@@ -3138,6 +3144,7 @@ ripencc,ipv4,152.89.66.0,23,allocated,[208118;GB;NI-Technology-Ltd N.I Technolog
 ripencc,ipv4,152.89.76.0,22,allocated,[60899;GB;ATECHMEDIA-AS Krystal Hosting Ltd][43219;GB;KRYSTAL Krystal Hosting Ltd][12488;GB;KRYSTAL Krystal Hosting Ltd]
 ripencc,ipv4,152.89.204.0,22,allocated,[207158;GB;WORLDCDN Clouvider Limited][207019;GB;TNCL Clouvider Limited][206986;GB;GLOBALCDN Clouvider Limited][206848;GB;UKCDN Clouvider Limited][206822;GB;CLOUDNET Clouvider Limited][206144;GB;Clouvider-north2 Clouvider Limited][206136;GB;CLOUDSRV-NORTH Clouvider Limited][202792;GB;CLOUDSRV Clouvider Limited][202791;GB;CLOUDSRV-ANY Clouvider Limited][62240;GB;Clouvider Clouvider Limited][43878;GB;CLOUVIDER-HEX Clouvider Limited][42902;GB;CLOUVIDER-NORTH Clouvider Limited][35545;GB;Clouvider-Anycast Clouvider Limited][34202;GB;CLOUVIDER-THN2 Clouvider Limited][24669;GB;CLOUVIDER-NETWORK-OPTIMISATION Clouvider Limited]
 ripencc,ipv4,152.89.208.0,22,allocated,*
+ripencc,ipv4,152.114.208.0,22,allocated,*
 ripencc,ipv4,152.138.0.0,16,allocated,[35106;GB;MICROSOFT-LIVE-MEETING Microsoft Limited]
 ripencc,ipv4,155.231.0.0,16,allocated,[42952;GB;HSCNPEERING NHS England]
 ripencc,ipv4,155.254.32.0,19,allocated,[64080;GB;SYN-UK SYN LTD][58305;GB;SYN-US SYN LTD][50711;GB;SYN-ANY SYN LTD][50077;GB;SYN-NL SYN LTD][47391;GB;SYNWW SYN LTD]
@@ -5177,7 +5184,7 @@ ripencc,ipv4,192.250.224.0,20,allocated,[216180;GB;WHG-AUS WHG Hosting Services 
 ripencc,ipv4,193.0.176.0,23,allocated,[25160;GB;VORBOSS_AS Vorboss Limited]
 ripencc,ipv4,193.0.232.0,24,allocated,[61977;GB;PATH-GLOBAL-UK-LIMITED Path Global UK Limited]
 ripencc,ipv4,193.3.26.0,24,allocated,[211307;GB;Fibreme Upp Corporation Limited]
-ripencc,ipv4,193.3.34.0,24,allocated,[211178;GB;DIGITALINFRA-AS Digital Infrastructure LTD]
+ripencc,ipv4,193.3.34.0,24,allocated,[213094;GB;FullFibre Full Fibre Limited][211178;GB;DIGITALINFRA-AS Digital Infrastructure LTD]
 ripencc,ipv4,193.3.44.0,24,allocated,[212169;GB;TECH-RMMINET CARDOCK HOSTING LIMITED][211803;GB;AS_INTER_ACT CARDOCK HOSTING LIMITED][211165;GB;asbattyhost CARDOCK HOSTING LIMITED][211142;GB;as_gaussmanltd CARDOCK HOSTING LIMITED][211120;GB;as_grootwebhost CARDOCK HOSTING LIMITED][42635;GB;AS-RCKR CARDOCK HOSTING LIMITED][42457;GB;ascardock1 CARDOCK HOSTING LIMITED]
 ripencc,ipv4,193.3.46.0,24,allocated,[212406;GB;TransFICC TransFICC Ltd.][212158;GB;TransFICC TransFICC Ltd.]
 ripencc,ipv4,193.3.160.0,24,allocated,*
@@ -7972,7 +7979,7 @@ ripencc,ipv6,2a0b:c8c0::,29,allocated,[205281;GB;NF-CLOUD1 Otava Tech LTD]
 ripencc,ipv6,2a0b:c940::,29,allocated,[207525;GB;sausage Sausage Systems Ltd]
 ripencc,ipv6,2a0b:cac0::,29,allocated,*
 ripencc,ipv6,2a0b:cb40::,29,allocated,*
-ripencc,ipv6,2a0b:cc80::,29,allocated,[213094;GB;FullFibre Full Fibre Limited]
+ripencc,ipv6,2a0b:cc80::,29,allocated,[213094;GB;FullFibre Full Fibre Limited][211178;GB;DIGITALINFRA-AS Digital Infrastructure LTD]
 ripencc,ipv6,2a0b:cd00::,29,allocated,[206372;GB;ORCA-AS Orca IT Ltd]
 ripencc,ipv6,2a0b:d480::,29,allocated,[206352;GB;MEDIACONNECTIVE Media Connective LLP]
 ripencc,ipv6,2a0b:d980::,29,allocated,[43851;GB;JSEPHTON-AS Jack Sephton]
@@ -8317,7 +8324,6 @@ ripencc,ipv6,2a11:b000::,29,allocated,[50193;GB;LOADEDGE LoadEdge Limited][38237
 ripencc,ipv6,2a11:c900::,29,allocated,*
 ripencc,ipv6,2a11:d540::,29,allocated,[207586;GB;DOYLE-AS Doyle (North West) Ltd.]
 ripencc,ipv6,2a11:d5c0::,29,allocated,*
-ripencc,ipv6,2a11:dd40::,29,allocated,[211178;GB;DIGITALINFRA-AS Digital Infrastructure LTD]
 ripencc,ipv6,2a11:e680::,29,allocated,[59608;GB;SBPL Sona Business Pvt. Ltd.]
 ripencc,ipv6,2a11:f2c0::,29,allocated,[207960;GB;AS-TRANSRIGHTS AS207960 Cyfyngedig][202359;GB;glauca-carrier AS207960 Cyfyngedig]
 ripencc,ipv6,2a11:f440::,29,allocated,[51823;GB;MTNETWORKSLTD Microtalk Europe Ltd]
@@ -9092,7 +9098,11 @@ ripencc,ipv4,152.78.0.0,16,assigned,*
 ripencc,ipv4,152.105.0.0,16,assigned,*
 ripencc,ipv4,152.114.0.0,16,assigned,*
 ripencc,ipv4,152.114.196.0,24,assigned,*
-ripencc,ipv4,152.114.202.0,20,assigned,*
+ripencc,ipv4,152.114.202.0,23,assigned,*
+ripencc,ipv4,152.114.204.0,23,assigned,*
+ripencc,ipv4,152.114.206.0,23,assigned,*
+ripencc,ipv4,152.114.212.0,22,assigned,*
+ripencc,ipv4,152.114.216.0,21,assigned,*
 ripencc,ipv4,152.114.228.0,21,assigned,*
 ripencc,ipv4,152.114.236.0,22,assigned,[215675;GB;perceptiontvcdn Perception TVCDN Ltd]
 ripencc,ipv4,152.150.0.0,16,assigned,*
@@ -10670,7 +10680,6 @@ ripencc,ipv6,2001:678:d90::,48,assigned,[213092;GB;marbleis Marble Information S
 ripencc,ipv6,2001:678:e00::,48,assigned,[44471;GB;MENARI Thomas Menari]
 ripencc,ipv6,2001:678:e78::,48,assigned,[60382;GB;CRANLEIGH-AS Cranleigh School]
 ripencc,ipv6,2001:678:f5c::,48,assigned,[57483;GB;ICHILTON Ian Chilton]
-ripencc,ipv6,2001:678:fb0::,48,assigned,[211041;GB;SWOOTH-AS GoFiber Ltd]
 ripencc,ipv6,2001:678:fc8::,48,assigned,[207960;GB;AS-TRANSRIGHTS AS207960 Cyfyngedig][202359;GB;glauca-carrier AS207960 Cyfyngedig]
 ripencc,ipv6,2001:67c:118::,48,assigned,[50419;GB;EXASTACK Eye Pea Ltd.]
 ripencc,ipv6,2001:67c:128::,48,assigned,[34079;GB;EDUSERV-AS Jisc Services Limited][8548;GB;AS8548 Jisc Services Limited]
