@@ -1,6 +1,6 @@
 # WorldIP
 
-Last update: 2025/05/29 01:52:05 (UTC)
+Last update: 2025/05/30 01:52:42 (UTC)
 
 238 Countries in 5 regions
 
@@ -23,36 +23,36 @@ Last update: 2025/05/29 01:52:05 (UTC)
 
 ## Regions Reserved CIDR
 
-- global : 155021 Total | 4635 IPV4 | 150386 IPV6
+- global : 155061 Total | 4634 IPV4 | 150427 IPV6
 - afrinic : 3514 Total | 525 IPV4 | 2989 IPV6
-- apnic : 1069 Total | 451 IPV4 | 618 IPV6
-- arin : 49991 Total | 2997 IPV4 | 46994 IPV6
-- lacnic : 16618 Total | 448 IPV4 | 16170 IPV6
-- ripencc : 83829 Total | 214 IPV4 | 83615 IPV6
+- apnic : 1070 Total | 451 IPV4 | 619 IPV6
+- arin : 50030 Total | 2997 IPV4 | 47033 IPV6
+- lacnic : 16619 Total | 448 IPV4 | 16171 IPV6
+- ripencc : 83828 Total | 213 IPV4 | 83615 IPV6
 
 ## Regions Available CIDR
 
-- global : 154593 Total | 2826 IPV4 | 151767 IPV6
-- afrinic : 3585 Total | 18 IPV4 | 3567 IPV6
-- apnic : 93962 Total | 2797 IPV4 | 91165 IPV6
+- global : 154642 Total | 2826 IPV4 | 151816 IPV6
+- afrinic : 3589 Total | 17 IPV4 | 3572 IPV6
+- apnic : 94000 Total | 2797 IPV4 | 91203 IPV6
 - arin : 28449 Total | 6 IPV4 | 28443 IPV6
-- lacnic : 27838 Total | 2 IPV4 | 27836 IPV6
-- ripencc : 759 Total | 3 IPV4 | 756 IPV6
+- lacnic : 27844 Total | 2 IPV4 | 27842 IPV6
+- ripencc : 760 Total | 4 IPV4 | 756 IPV6
 
 ## Country Allocated CIDR
 
-- global : 261249 Total | 206319 IPV4 | 54930 IPV6
-- afrinic : 4625 Total | 3511 IPV4 | 1114 IPV6
-- apnic : 47338 Total | 38183 IPV4 | 9155 IPV6
-- arin : 85538 Total | 75071 IPV4 | 10467 IPV6
-- lacnic : 28741 Total | 17297 IPV4 | 11444 IPV6
+- global : 261278 Total | 206336 IPV4 | 54942 IPV6
+- afrinic : 4628 Total | 3513 IPV4 | 1115 IPV6
+- apnic : 47344 Total | 38187 IPV4 | 9157 IPV6
+- arin : 85552 Total | 75078 IPV4 | 10474 IPV6
+- lacnic : 28747 Total | 17301 IPV4 | 11446 IPV6
 - ripencc : 95007 Total | 72257 IPV4 | 22750 IPV6
 
 ## Country Assigned CIDR
 
-- global : 55566 Total | 42771 IPV4 | 12795 IPV6
+- global : 55575 Total | 42775 IPV4 | 12800 IPV6
 - afrinic : 1908 Total | 1567 IPV4 | 341 IPV6
-- apnic : 21600 Total | 14656 IPV4 | 6944 IPV6
+- apnic : 21610 Total | 14661 IPV4 | 6949 IPV6
 - arin : 0 Total | 0 IPV4 | 0 IPV6
-- lacnic : 4153 Total | 2563 IPV4 | 1590 IPV6
+- lacnic : 4152 Total | 2562 IPV4 | 1590 IPV6
 - ripencc : 27905 Total | 23985 IPV4 | 3920 IPV6
