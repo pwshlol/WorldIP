@@ -1,6 +1,6 @@
-2.3|lacnic|20250601|92929|19870101|20250601|-0300
+2.3|lacnic|20250602|92933|19870101|20250602|-0300
 lacnic|*|ipv4|*|20329|summary
-lacnic|*|ipv6|*|57067|summary
+lacnic|*|ipv6|*|57071|summary
 lacnic|*|asn|*|15533|summary
 lacnic|DO|ipv4|5.183.80.0|1024|20240711|allocated|75934
 lacnic|BR|ipv4|24.152.0.0|1024|20200310|allocated|276392
@@ -371,7 +371,7 @@ lacnic|BR|ipv4|45.68.92.0|512|20241106|assigned|362319
 lacnic|PY|ipv4|45.68.94.0|512|20250403|assigned|359124
 lacnic|EC|ipv4|45.68.96.0|1024|20250422|assigned|364836
 lacnic|VE|ipv4|45.68.100.0|1024|20250527|assigned|357285
-lacnic||ipv4|45.68.104.0|256||reserved|
+lacnic|PA|ipv4|45.68.104.0|256|20250602|assigned|192498
 lacnic||ipv4|45.68.105.0|256||reserved|
 lacnic||ipv4|45.68.106.0|256||reserved|
 lacnic||ipv4|45.68.107.0|256||reserved|
@@ -6359,7 +6359,7 @@ lacnic|MX|ipv4|148.224.0.0|4096|19930521|assigned|35339
 lacnic|MX|ipv4|148.224.16.0|2048|19930521|assigned|35339
 lacnic|MX|ipv4|148.224.24.0|1024|19930521|assigned|35339
 lacnic|MX|ipv4|148.224.28.0|256|19930521|assigned|35339
-lacnic|TT|ipv4|148.224.29.0|256|19930521|assigned|345884
+lacnic|TT|ipv4|148.224.29.0|256|19930521|allocated|345884
 lacnic|MX|ipv4|148.224.30.0|512|19930521|assigned|35339
 lacnic|MX|ipv4|148.224.32.0|4096|19930521|assigned|35339
 lacnic|MX|ipv4|148.224.52.0|1024|19930521|assigned|35339
@@ -27360,7 +27360,7 @@ lacnic||ipv6|2801:1d:f080::|41||available
 lacnic||ipv6|2801:1d:f100::|40||available
 lacnic||ipv6|2801:1d:f200::|39||available
 lacnic||ipv6|2801:1d:f400::|38||available
-lacnic|TT|ipv6|2801:1d:f800::|48|20250211|assigned|345884
+lacnic||ipv6|2801:1d:f800::|48||reserved|
 lacnic||ipv6|2801:1d:f801::|48||reserved|
 lacnic||ipv6|2801:1d:f802::|47||reserved|
 lacnic||ipv6|2801:1d:f804::|46||reserved|
@@ -45039,7 +45039,11 @@ lacnic||ipv6|2803:c1c1::|32||reserved|
 lacnic||ipv6|2803:c1c2::|31||reserved|
 lacnic||ipv6|2803:c1c4::|30||reserved|
 lacnic||ipv6|2803:c1c8::|29||reserved|
-lacnic||ipv6|2803:c1d0::|28||available
+lacnic|TT|ipv6|2803:c1d0::|32|20250602|allocated|345884
+lacnic||ipv6|2803:c1d1::|32||reserved|
+lacnic||ipv6|2803:c1d2::|31||reserved|
+lacnic||ipv6|2803:c1d4::|30||reserved|
+lacnic||ipv6|2803:c1d8::|29||reserved|
 lacnic|AR|ipv6|2803:c1e0::|32|20200512|allocated|312595
 lacnic||ipv6|2803:c1e1::|32||reserved|
 lacnic||ipv6|2803:c1e2::|31||reserved|
