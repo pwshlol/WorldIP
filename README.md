@@ -1,6 +1,6 @@
 # WorldIP
 
-Last update: 2025/06/07 01:51:41 (UTC)
+Last update: 2025/06/08 01:58:13 (UTC)
 
 238 Countries in 5 regions
 
@@ -23,29 +23,29 @@ Last update: 2025/06/07 01:51:41 (UTC)
 
 ## Regions Reserved CIDR
 
-- global : 155393 Total | 4676 IPV4 | 150717 IPV6
+- global : 155382 Total | 4677 IPV4 | 150705 IPV6
 - afrinic : 3514 Total | 525 IPV4 | 2989 IPV6
 - apnic : 1076 Total | 450 IPV4 | 626 IPV6
-- arin : 50306 Total | 3043 IPV4 | 47263 IPV6
+- arin : 50304 Total | 3045 IPV4 | 47259 IPV6
 - lacnic : 16655 Total | 447 IPV4 | 16208 IPV6
-- ripencc : 83842 Total | 211 IPV4 | 83631 IPV6
+- ripencc : 83833 Total | 210 IPV4 | 83623 IPV6
 
 ## Regions Available CIDR
 
-- global : 154828 Total | 2826 IPV4 | 152002 IPV6
-- afrinic : 3590 Total | 18 IPV4 | 3572 IPV6
+- global : 154835 Total | 2826 IPV4 | 152009 IPV6
+- afrinic : 3589 Total | 17 IPV4 | 3572 IPV6
 - apnic : 94166 Total | 2798 IPV4 | 91368 IPV6
-- arin : 28476 Total | 6 IPV4 | 28470 IPV6
-- lacnic : 27841 Total | 2 IPV4 | 27839 IPV6
-- ripencc : 755 Total | 2 IPV4 | 753 IPV6
+- arin : 28472 Total | 6 IPV4 | 28466 IPV6
+- lacnic : 27844 Total | 2 IPV4 | 27842 IPV6
+- ripencc : 764 Total | 3 IPV4 | 761 IPV6
 
 ## Country Allocated CIDR
 
-- global : 261433 Total | 206446 IPV4 | 54987 IPV6
-- afrinic : 4631 Total | 3516 IPV4 | 1115 IPV6
+- global : 261438 Total | 206449 IPV4 | 54989 IPV6
+- afrinic : 4632 Total | 3517 IPV4 | 1115 IPV6
 - apnic : 47375 Total | 38217 IPV4 | 9158 IPV6
-- arin : 85588 Total | 75079 IPV4 | 10509 IPV6
-- lacnic : 28770 Total | 17315 IPV4 | 11455 IPV6
+- arin : 85590 Total | 75081 IPV4 | 10509 IPV6
+- lacnic : 28772 Total | 17315 IPV4 | 11457 IPV6
 - ripencc : 95069 Total | 72319 IPV4 | 22750 IPV6
 
 ## Country Assigned CIDR
