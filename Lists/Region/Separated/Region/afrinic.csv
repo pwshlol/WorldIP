@@ -2534,8 +2534,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.204.0.0,16,available,*
 *,ipv4,102.205.0.0,17,available,*
 *,ipv4,102.205.128.0,21,available,*
-*,ipv4,102.205.136.0,22,available,*
-*,ipv4,102.205.144.0,23,available,*
 *,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
 *,ipv4,102.206.40.0,22,available,*
@@ -4670,6 +4668,8 @@ NG,ipv4,102.165.124.0,22,allocated,[37521;NG;Internet-Solutions-]
 NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
+NG,ipv4,102.205.136.0,22,allocated,
+NG,ipv4,102.205.144.0,23,allocated,
 NG,ipv4,102.205.156.0,22,allocated,[329560;NG;Paribas_Communications_Limited]
 NG,ipv4,102.205.184.0,22,allocated,[329553;NG;Bluetel_Communications_Limited]
 NG,ipv4,102.205.192.0,22,allocated,[329550;NG;Voisip_Telecommunications_Limited]
@@ -7602,8 +7602,8 @@ GH,ipv4,196.43.225.0,24,assigned,[37392;GH;SSNIT]
 GH,ipv4,196.43.242.0,24,assigned,[37478;GH;Mantrac-Gh]
 GH,ipv4,196.46.80.0,20,assigned,*
 GH,ipv4,196.49.14.0,24,assigned,[327890;GH;GHANA-IXP-MNGNT][30997;GH;GIXA-AS]
-GH,ipv4,196.49.112.0,24,assigned,[37806;ZZ;-Reserved AS-]
-GH,ipv4,196.60.160.0,24,assigned,[37806;ZZ;-Reserved AS-]
+GH,ipv4,196.49.112.0,24,assigned,[37806;ZZ;LINX-Ghana-Peering]
+GH,ipv4,196.60.160.0,24,assigned,[37806;ZZ;LINX-Ghana-Peering]
 GH,ipv4,196.201.2.0,24,assigned,[327890;GH;GHANA-IXP-MNGNT][30997;GH;GIXA-AS]
 GH,ipv4,196.201.4.0,23,assigned,[327965;GH;ARB-APEX-BANK]
 GH,ipv4,196.216.180.0,22,assigned,[37212;GH;ZENITH-BANK-]
@@ -7629,8 +7629,8 @@ GH,ipv6,2001:43f8:13d0::,48,assigned,[328532;GH;Valley-View-University]
 GH,ipv6,2001:43f8:1600::,48,assigned,[328663;GH;Catholic-University-Ghana]
 GH,ipv6,2001:43f8:1650::,48,assigned,[328752;GH;Christian-Service-University-AS]
 GH,ipv6,2001:43f8:1740::,48,assigned,[329410;GH;Sunyani-Technical-University]
-GH,ipv6,2001:43f8:1a00::,48,assigned,[37806;ZZ;-Reserved AS-]
-GH,ipv6,2001:43f8:1a10::,48,assigned,[37806;ZZ;-Reserved AS-]
+GH,ipv6,2001:43f8:1a00::,48,assigned,[37806;ZZ;LINX-Ghana-Peering]
+GH,ipv6,2001:43f8:1a10::,48,assigned,[37806;ZZ;LINX-Ghana-Peering]
 GH,ipv6,2001:43fc:3000::,48,assigned,[329389;GH;BigPay-Ghana]
 GH,ipv6,2001:43fe:4000::,48,assigned,[328896;GH;UOEA-AS]
 GH,ipv6,2001:43fe:5000::,48,assigned,[329180;GH;AAUO-AS]
