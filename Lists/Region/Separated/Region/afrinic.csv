@@ -2261,6 +2261,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:fc71::,32,reserved,*
 *,ipv6,2c0f:fc72::,31,reserved,*
 *,ipv6,2c0f:fc74::,30,reserved,*
+*,ipv6,2c0f:fc79::,32,reserved,*
+*,ipv6,2c0f:fc7a::,31,reserved,*
+*,ipv6,2c0f:fc7c::,30,reserved,*
 *,ipv6,2c0f:fc81::,32,reserved,*
 *,ipv6,2c0f:fc82::,31,reserved,*
 *,ipv6,2c0f:fc84::,30,reserved,*
@@ -2534,7 +2537,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.204.0.0,16,available,*
 *,ipv4,102.205.0.0,18,available,*
 *,ipv4,102.205.64.0,19,available,*
-*,ipv4,102.205.96.0,21,available,*
+*,ipv4,102.205.96.0,22,available,*
 *,ipv4,102.205.104.0,23,available,*
 *,ipv4,102.205.122.0,24,available,*
 *,ipv4,102.206.20.0,22,available,*
@@ -2581,7 +2584,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:fad0::,29,available,*
 *,ipv6,2c0f:fb28::,29,available,*
 *,ipv6,2c0f:fc50::,29,available,*
-*,ipv6,2c0f:fc78::,29,available,*
 *,ipv6,2c0f:fcc0::,29,available,*
 *,ipv6,2c0f:fd70::,29,available,*
 *,ipv6,2c0f:fde0::,29,available,*
@@ -5925,6 +5927,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;AFRIHOST-SP][37611;ZA;AFRIHOST-SP]
+ZA,ipv4,102.205.100.0,22,allocated,
 ZA,ipv4,102.205.116.0,22,allocated,[328512;ZA;Backspace-Technologies]
 ZA,ipv4,102.205.120.0,23,allocated,
 ZA,ipv4,102.205.124.0,22,allocated,[329572;ZA;AFROCENTRIC]
@@ -6949,6 +6952,7 @@ ZA,ipv6,2c0f:6640::,32,allocated,[328473;ZA;Be-Broadband-AS]
 ZA,ipv6,2c0f:66c0::,32,allocated,*
 ZA,ipv6,2c0f:6800::,32,allocated,[327987;ZA;Webstorm]
 ZA,ipv6,2c0f:6840::,28,allocated,[329038;ZA;WHL1-AS]
+ZA,ipv6,2c0f:68c0::,32,allocated,
 ZA,ipv6,2c0f:6900::,32,allocated,[328889;ZA;MODEM-COMPUTER-SERVICES-AS]
 ZA,ipv6,2c0f:6940::,32,allocated,[329360;ZA;iiNet-Connect-Pty-Ltd]
 ZA,ipv6,2c0f:6a00::,32,allocated,[328829;ZA;vumatel-AS]
@@ -9138,6 +9142,7 @@ ZA,ipv4,206.223.136.0,24,assigned,[37175;ZA;UNIFORUM-SA-ANYCAST][6968;ZA;ZACR]
 ZA,ipv6,2001:42d0::,40,assigned,[37708;MU;AFRINIC-MAIN][37301;MU;AFRINIC-ZA-CPT-AS][37181;MU;AFRINIC-Anycast-RFC-5855][37177;MU;AFRINIC-ANYCAST][33764;MU;AFRINIC-ZA-JNB-AS]
 ZA,ipv6,2001:43fe::,48,assigned,[328791;ZA;Mr-Price-Group]
 ZA,ipv6,2c0f:edf0::,36,assigned,[328374;ZA;Spar-AS]
+ZA,ipv6,2c0f:fc78::,32,assigned,[329532;ZA;HEVIS_CO_SYSTEMS_PTY_LTD]
 ZA,ipv6,2001:43f8:30::,48,assigned,[37175;ZA;UNIFORUM-SA-ANYCAST][6968;ZA;ZACR]
 ZA,ipv6,2001:43f8:70::,45,assigned,[36982;ZA;UCT]
 ZA,ipv6,2001:43f8:a0::,48,assigned,[327867;ZA;ADvTECH][19232;ZA;Advtech]
@@ -9198,7 +9203,6 @@ ZA,ipv6,2001:43fc:6800::,48,assigned,[329558;ZA;SMSPortal]
 ZA,ipv6,2001:43fc:8000::,40,assigned,[328041;ZA;Hollywood-Sportsbooks-AS]
 ZA,ipv6,2001:43fc:b000::,44,assigned,[329016;ZA;IPAP1-AS]
 ZA,ipv6,2001:43fe:2000::,48,assigned,[328934;ZA;SSL6-AS]
-ZA,ipv6,2001:43fe:4800::,48,assigned,[329532;ZA;HEVIS_CO_SYSTEMS_PTY_LTD]
 ZA,ipv6,2001:43fe:9000::,48,assigned,[329214;ZA;MSAL1-ASN]
 ZA,ipv6,2001:43fe:a000::,40,assigned,[328968;ZA;Deloitte-AS][328312;ZA;Deloitte-AS]
 ZA,ipv6,2001:43fe:e000::,48,assigned,[329075;ZA;TL16-AS]
