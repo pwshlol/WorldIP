@@ -3546,10 +3546,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.204.0.0,16,available,*
 *,ipv4,102.205.0.0,18,available,*
 *,ipv4,102.205.64.0,20,available,*
-*,ipv4,102.205.80.0,21,available,*
-*,ipv4,102.205.88.0,22,available,*
+*,ipv4,102.205.80.0,22,available,*
 *,ipv4,102.205.104.0,23,available,*
-*,ipv4,102.205.122.0,24,available,*
 *,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
 *,ipv4,102.206.40.0,22,available,*
@@ -6007,7 +6005,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:6988::,29,available,*
 *,ipv6,2c0f:6990::,28,available,*
 *,ipv6,2c0f:69a0::,27,available,*
-*,ipv6,2c0f:69c0::,26,available,*
+*,ipv6,2c0f:69c1::,32,available,*
+*,ipv6,2c0f:69c2::,31,available,*
+*,ipv6,2c0f:69c4::,30,available,*
+*,ipv6,2c0f:69c8::,29,available,*
+*,ipv6,2c0f:69d0::,28,available,*
+*,ipv6,2c0f:69e0::,27,available,*
 *,ipv6,2c0f:6a01::,32,available,*
 *,ipv6,2c0f:6a02::,31,available,*
 *,ipv6,2c0f:6a04::,30,available,*
@@ -8265,6 +8268,7 @@ GH,ipv4,102.23.112.0,22,allocated,*
 GH,ipv4,102.69.220.0,22,allocated,[328494;GH;WirelessPlus-3D]
 GH,ipv4,102.176.0.0,17,allocated,[29614;GH;GHANATEL-AS]
 GH,ipv4,102.177.100.0,22,allocated,[328261;GH;E-Connecta]
+GH,ipv4,102.205.88.0,22,allocated,
 GH,ipv4,102.207.4.0,22,allocated,[327992;GH;GHANAIAN-ACADEMIC-AND-RESEARCH-NETWORK]
 GH,ipv4,102.208.4.0,22,allocated,[329482;GH;OPIN-TECHNOLOGIES]
 GH,ipv4,102.208.20.0,22,allocated,[328659;GH;Vobiss-Solutions-Limited]
@@ -8464,6 +8468,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.205.84.0,22,allocated,
 KE,ipv4,102.205.148.0,22,allocated,[329562;KE;SERVERLINK-SOLUTIONS]
 KE,ipv4,102.205.168.0,22,allocated,[329556;KE;Newworks-Limited]
 KE,ipv4,102.205.188.0,23,allocated,[329552;KE;PHPLAVATEC]
@@ -8713,6 +8718,7 @@ KE,ipv6,2c0f:5fc0::,32,allocated,[329539;KE;Grid_Link_Networks_Limited]
 KE,ipv6,2c0f:6300::,32,allocated,[328977;KE;WAVEX]
 KE,ipv6,2c0f:64c0::,32,allocated,[329556;KE;Newworks-Limited]
 KE,ipv6,2c0f:6980::,32,allocated,[329183;KE;FLINK-AS]
+KE,ipv6,2c0f:69c0::,32,allocated,
 KE,ipv6,2c0f:6c80::,32,allocated,[329029;KE;MyManga-AS]
 KE,ipv6,2c0f:6f40::,32,allocated,[329409;KE;JIJI_FIBER_LTD]
 KE,ipv6,2c0f:7200::,32,allocated,[37219;KE;ICTA-]
@@ -10638,7 +10644,7 @@ ZA,ipv4,102.205.180.0,22,allocated,[329554;ZA;Cheapcalls]
 ZA,ipv4,102.205.190.0,23,allocated,[329557;ZA;RISE_TELECOMMS_PTY_LTD]
 ZA,ipv4,102.205.196.0,22,allocated,[329549;ZA;Connexion-Link]
 ZA,ipv4,102.205.206.0,24,allocated,[329546;ZA;Akesa-Technologies]
-ZA,ipv4,102.205.212.0,22,allocated,[329541;ZA;zing-fibre]
+ZA,ipv4,102.205.212.0,22,allocated,[329541;ZA;zing_fibre_pty_Ltd]
 ZA,ipv4,102.205.232.0,24,allocated,[329543;ZA;Kerridge]
 ZA,ipv4,102.206.12.0,22,allocated,[329527;ZA;Blue_Diamond_Trading_226]
 ZA,ipv4,102.206.32.0,22,allocated,[327897;ZA;ATEC-Systems]
@@ -11555,7 +11561,7 @@ ZA,ipv6,2c0f:1c00::,32,allocated,[328802;ZA;Khula-Tech-AS]
 ZA,ipv6,2c0f:1d00::,32,allocated,*
 ZA,ipv6,2c0f:1d40::,32,allocated,[329340;ZA;LINKAFRICA-PTY-LTD]
 ZA,ipv6,2c0f:2040::,32,allocated,[37276;ZA;VOFFICE]
-ZA,ipv6,2c0f:20c0::,32,allocated,[329541;ZA;zing-fibre]
+ZA,ipv6,2c0f:20c0::,32,allocated,[329541;ZA;zing_fibre_pty_Ltd]
 ZA,ipv6,2c0f:2100::,32,allocated,[328910;ZA;Devboks-AS]
 ZA,ipv6,2c0f:2140::,32,allocated,[329351;ZA;Tradepage-Pty-Ltd]
 ZA,ipv6,2c0f:2180::,32,allocated,[328257;ZA;ASK-Internet-Technologies]
@@ -12087,6 +12093,7 @@ BJ,ipv6,2001:43f8:af0::,48,assigned,[327818;BJ;BENIN-IX][37090;BJ;ISOCEL]
 BJ,ipv6,2001:43f8:af1::,48,assigned,[327818;BJ;BENIN-IX][37090;BJ;ISOCEL]
 BJ,ipv6,2001:43f8:1730::,48,assigned,[329544;BJ;CHAPITRE-BENINOIS-DE-L-INTERNET-SOCIETY-MGMT][37805;BJ;CHAPITRE_BENINOIS_DE_L_INTERNET_SOCIETY_Peering]
 BJ,ipv6,2001:43f8:1731::,48,assigned,[329544;BJ;CHAPITRE-BENINOIS-DE-L-INTERNET-SOCIETY-MGMT][37805;BJ;CHAPITRE_BENINOIS_DE_L_INTERNET_SOCIETY_Peering]
+BW,ipv4,102.205.122.0,24,assigned,
 BW,ipv4,102.219.206.0,24,assigned,[328869;BW;BGL-AS]
 BW,ipv4,196.49.24.0,24,assigned,[327696;BW;BINX-MGMT-AS][37771;BW;BINX-Peering]
 BW,ipv4,196.60.4.0,24,assigned,[327696;BW;BINX-MGMT-AS][37771;BW;BINX-Peering]
