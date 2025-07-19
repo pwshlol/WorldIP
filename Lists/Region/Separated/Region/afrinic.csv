@@ -3527,6 +3527,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:17a2::,47,reserved,*
 *,ipv6,2001:43f8:17a4::,46,reserved,*
 *,ipv6,2001:43f8:17a8::,45,reserved,*
+*,ipv6,2001:43f8:17c1::,48,reserved,*
+*,ipv6,2001:43f8:17c2::,47,reserved,*
+*,ipv6,2001:43f8:17c4::,46,reserved,*
+*,ipv6,2001:43f8:17c8::,45,reserved,*
 *,ipv6,2001:43f8:1900::,40,reserved,*
 *,ipv6,2001:43f8:1a01::,48,reserved,*
 *,ipv6,2001:43f8:1a02::,47,reserved,*
@@ -3546,7 +3550,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.204.0.0,16,available,*
 *,ipv4,102.205.0.0,18,available,*
 *,ipv4,102.205.64.0,20,available,*
-*,ipv4,102.205.80.0,22,available,*
 *,ipv4,102.205.104.0,23,available,*
 *,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
@@ -4606,7 +4609,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:2a88::,29,available,*
 *,ipv6,2c0f:2a90::,28,available,*
 *,ipv6,2c0f:2aa0::,27,available,*
-*,ipv6,2c0f:2ac0::,26,available,*
+*,ipv6,2c0f:2ac1::,32,available,*
+*,ipv6,2c0f:2ac2::,31,available,*
+*,ipv6,2c0f:2ac4::,30,available,*
+*,ipv6,2c0f:2ac8::,29,available,*
+*,ipv6,2c0f:2ad0::,28,available,*
+*,ipv6,2c0f:2ae0::,27,available,*
 *,ipv6,2c0f:2b01::,32,available,*
 *,ipv6,2c0f:2b02::,31,available,*
 *,ipv6,2c0f:2b04::,30,available,*
@@ -6545,7 +6553,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43f8:1760::,44,available,*
 *,ipv6,2001:43f8:1780::,43,available,*
 *,ipv6,2001:43f8:17b0::,44,available,*
-*,ipv6,2001:43f8:17c0::,42,available,*
+*,ipv6,2001:43f8:17d0::,44,available,*
+*,ipv6,2001:43f8:17e0::,43,available,*
 *,ipv6,2001:43f8:1a20::,43,available,*
 *,ipv6,2001:43f8:1a40::,42,available,*
 *,ipv6,2001:43f8:1a80::,42,available,*
@@ -8468,6 +8477,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.205.80.0,22,allocated,
 KE,ipv4,102.205.84.0,22,allocated,
 KE,ipv4,102.205.148.0,22,allocated,[329562;KE;SERVERLINK-SOLUTIONS]
 KE,ipv4,102.205.168.0,22,allocated,[329556;KE;Newworks-Limited]
@@ -8679,6 +8689,7 @@ KE,ipv6,2c0f:2740::,32,allocated,[329379;KE;FIBERLINK]
 KE,ipv6,2c0f:2840::,32,allocated,[329382;KE;Pure-Infrastructure-Limited]
 KE,ipv6,2c0f:2880::,32,allocated,[329101;KE;IFSL1-AS]
 KE,ipv6,2c0f:2940::,32,allocated,[329387;KE;Skylink]
+KE,ipv6,2c0f:2ac0::,32,allocated,
 KE,ipv6,2c0f:2c80::,32,allocated,[329110;KE;FLL2-AS]
 KE,ipv6,2c0f:2d80::,32,allocated,[329174;KE;Swift-Broadband-Limited]
 KE,ipv6,2c0f:2e00::,32,allocated,[328578;KE;KEMNET-TECHNOLOGIES-AS]
@@ -9380,7 +9391,7 @@ NG,ipv4,102.165.124.0,22,allocated,[37521;NG;Internet-Solutions-]
 NG,ipv4,102.165.184.0,22,allocated,[328873;NG;NationalAssemblyAbuja]
 NG,ipv4,102.176.240.0,22,allocated,[328256;NG;Skymax-Integrated-Network-AS]
 NG,ipv4,102.176.244.0,22,allocated,[328630;NG;TIZETI_GH][37682;NG;TIZETI-AS]
-NG,ipv4,102.205.92.0,22,allocated,
+NG,ipv4,102.205.92.0,22,allocated,[329579;NG;Nationwaves_Telcom_Nigeria_Limited]
 NG,ipv4,102.205.106.0,23,allocated,[329577;NG;Olla-Systems-Limited]
 NG,ipv4,102.205.108.0,22,allocated,[329575;NG;STNL2]
 NG,ipv4,102.205.136.0,22,allocated,[329567;NG;EEL1]
@@ -9567,7 +9578,7 @@ NG,ipv6,2c0f:2280::,32,allocated,[36873;NG;VNL1-AS]
 NG,ipv6,2c0f:2300::,32,allocated,[328976;NG;KCL2-AS]
 NG,ipv6,2c0f:26c0::,28,allocated,[328585;NG;MegaMore]
 NG,ipv6,2c0f:2980::,32,allocated,[329182;NG;AMICS-TECHNOLOGIES-LIMITED]
-NG,ipv6,2c0f:29c0::,32,allocated,
+NG,ipv6,2c0f:29c0::,32,allocated,[329579;NG;Nationwaves_Telcom_Nigeria_Limited]
 NG,ipv6,2c0f:2a80::,32,allocated,*
 NG,ipv6,2c0f:3b80::,32,allocated,[329215;NG;LL4-AS]
 NG,ipv6,2c0f:3d80::,32,allocated,[329218;NG;Qrios-VAS-AS]
@@ -12099,6 +12110,7 @@ BW,ipv4,196.49.24.0,24,assigned,[327696;BW;BINX-MGMT-AS][37771;BW;BINX-Peering]
 BW,ipv4,196.60.4.0,24,assigned,[327696;BW;BINX-MGMT-AS][37771;BW;BINX-Peering]
 BW,ipv4,196.216.163.0,24,assigned,[37051;BW;govbw-as0]
 BW,ipv6,2001:43f8:2a0::,48,assigned,[32279;BW;UBW-WAN]
+BW,ipv6,2001:43f8:17c0::,48,assigned,
 CD,ipv4,102.36.144.0,24,assigned,[328569;CD;Banque-Central-Congo]
 CD,ipv4,102.36.180.0,24,assigned,[328552;CD;STE-MDICIS]
 CD,ipv4,102.205.123.0,24,assigned,[329573;CD;SOCIETE_FINANCIERE_DE_BANQUE]
