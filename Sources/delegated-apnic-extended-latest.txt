@@ -25,10 +25,10 @@
 #
 ######################################################################
 #
-2.3|apnic|20250720|179021||20250719|+1000
-apnic|*|asn|*|13895|summary
+2.3|apnic|20250721|179028||20250720|+1000
+apnic|*|asn|*|13896|summary
 apnic|*|ipv4|*|56341|summary
-apnic|*|ipv6|*|108785|summary
+apnic|*|ipv6|*|108791|summary
 apnic|AU|ipv4|1.0.0.0|256|20110811|assigned|A91872ED
 apnic|CN|ipv4|1.0.1.0|256|20110414|allocated|A92E1062
 apnic|CN|ipv4|1.0.2.0|512|20110414|allocated|A92E1062
@@ -39346,7 +39346,7 @@ apnic|BD|ipv4|165.101.226.0|512|20250718|allocated|A91585F0
 apnic|IN|ipv4|165.101.228.0|512|20250718|allocated|A9225F8C
 apnic|ID|ipv4|165.101.230.0|512|20250718|assigned|A928E693
 apnic|AU|ipv4|165.101.232.0|512|20250718|allocated|A916845C
-apnic||ipv4|165.101.234.0|512||available|
+apnic|VN|ipv4|165.101.234.0|512|20250720|assigned|A92293D2
 apnic||ipv4|165.101.236.0|1024||available|
 apnic||ipv4|165.101.240.0|4096||available|
 apnic|JP|ipv4|165.102.0.0|65536|19930511|allocated|A921DC22
@@ -97620,7 +97620,13 @@ apnic||ipv6|2001:df5:e384::|46||available|
 apnic||ipv6|2001:df5:e388::|45||available|
 apnic||ipv6|2001:df5:e390::|44||available|
 apnic||ipv6|2001:df5:e3a0::|43||available|
-apnic||ipv6|2001:df5:e3c0::|42||available|
+apnic|VN|ipv6|2001:df5:e3c0::|48|20250720|assigned|A92293D2
+apnic||ipv6|2001:df5:e3c1::|48||available|
+apnic||ipv6|2001:df5:e3c2::|47||available|
+apnic||ipv6|2001:df5:e3c4::|46||available|
+apnic||ipv6|2001:df5:e3c8::|45||available|
+apnic||ipv6|2001:df5:e3d0::|44||available|
+apnic||ipv6|2001:df5:e3e0::|43||available|
 apnic||ipv6|2001:df5:e400::|41||available|
 apnic|IN|ipv6|2001:df5:e480::|48|20210128|assigned|A927AB87
 apnic||ipv6|2001:df5:e481::|48||available|
@@ -179049,5 +179055,6 @@ apnic|IN|asn|154065|1|20250716|allocated|A918EDB2
 apnic|PK|asn|154066|1|20250716|allocated|A91BEA8B
 apnic|ID|asn|154067|1|20250718|allocated|A9186214
 apnic|IN|asn|154068|2|20250718|allocated|A918EDB2
-apnic||asn|154070|1892||available|
+apnic|VN|asn|154070|1|20250720|allocated|A91A560A
+apnic||asn|154071|1891||available|
 
