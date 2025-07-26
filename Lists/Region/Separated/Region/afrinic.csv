@@ -3549,7 +3549,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,16,available,*
 *,ipv4,102.205.0.0,18,available,*
-*,ipv4,102.205.64.0,21,available,*
+*,ipv4,102.205.64.0,22,available,*
 *,ipv4,102.205.74.0,23,available,*
 *,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
@@ -6037,7 +6037,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:6a88::,29,available,*
 *,ipv6,2c0f:6a90::,28,available,*
 *,ipv6,2c0f:6aa0::,27,available,*
-*,ipv6,2c0f:6ac0::,26,available,*
+*,ipv6,2c0f:6ac1::,32,available,*
+*,ipv6,2c0f:6ac2::,31,available,*
+*,ipv6,2c0f:6ac4::,30,available,*
+*,ipv6,2c0f:6ac8::,29,available,*
+*,ipv6,2c0f:6ad0::,28,available,*
+*,ipv6,2c0f:6ae0::,27,available,*
 *,ipv6,2c0f:6b01::,32,available,*
 *,ipv6,2c0f:6b02::,31,available,*
 *,ipv6,2c0f:6b04::,30,available,*
@@ -10645,6 +10650,7 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;AFRIHOST-SP][37611;ZA;AFRIHOST-SP]
+ZA,ipv4,102.205.68.0,22,allocated,
 ZA,ipv4,102.205.76.0,22,allocated,[329585;ZA;Solid-Fibre]
 ZA,ipv4,102.205.100.0,22,allocated,[329578;ZA;URBANXCONNECT_PTY_LTD]
 ZA,ipv4,102.205.116.0,22,allocated,[328512;ZA;Backspace-Technologies]
@@ -11675,6 +11681,7 @@ ZA,ipv6,2c0f:68c0::,32,allocated,[329578;ZA;URBANXCONNECT_PTY_LTD]
 ZA,ipv6,2c0f:6900::,32,allocated,[328889;ZA;MODEM-COMPUTER-SERVICES-AS]
 ZA,ipv6,2c0f:6940::,32,allocated,[329360;ZA;iiNet-Connect-Pty-Ltd]
 ZA,ipv6,2c0f:6a00::,32,allocated,[328829;ZA;vumatel-AS]
+ZA,ipv6,2c0f:6ac0::,32,allocated,
 ZA,ipv6,2c0f:6b00::,32,allocated,[328985;ZA;KOSL1-AS]
 ZA,ipv6,2c0f:6b80::,32,allocated,[328712;ZA;Keter-Technologies]
 ZA,ipv6,2c0f:6d40::,32,allocated,[329401;ZA;Fastr-Connect]
@@ -12148,7 +12155,7 @@ CG,ipv6,2001:43f8:6a2::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;C
 CG,ipv6,2001:43f8:6a3::,48,assigned,[328379;CG;CGIX-PointeNoire-AS-MGT][328329;CG;ARPCE-AS][37782;CG;CGIX-PointeNoire-AS-PEERING][37548;CG;ARPCE][37481;CG;CGIX]
 CG,ipv6,2001:43fc:f000::,48,assigned,[329423;CG;CIRAS]
 CI,ipv4,102.135.191.0,24,assigned,[328355;CI;DGI-AS]
-CI,ipv4,102.205.72.0,23,assigned,
+CI,ipv4,102.205.72.0,23,assigned,[329586;CI;Port-Autonome]
 CI,ipv4,102.216.100.0,22,assigned,[329037;CI;BBGC1-AS]
 CI,ipv4,102.221.152.0,24,assigned,[328809;CI;EDIATTAH-AS]
 CI,ipv4,102.222.82.0,23,assigned,[328729;CI;Groupement-Des-Services-Eau-Electricite]
