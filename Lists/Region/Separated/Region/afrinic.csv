@@ -3548,9 +3548,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,13,available,*
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,16,available,*
-*,ipv4,102.205.0.0,18,available,*
-*,ipv4,102.205.64.0,22,available,*
-*,ipv4,102.205.74.0,23,available,*
+*,ipv4,102.205.0.0,19,available,*
+*,ipv4,102.205.32.0,20,available,*
+*,ipv4,102.205.48.0,21,available,*
+*,ipv4,102.205.56.0,22,available,*
+*,ipv4,102.205.62.0,23,available,*
+*,ipv4,102.205.74.0,24,available,*
 *,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
 *,ipv4,102.206.40.0,22,available,*
@@ -4633,7 +4636,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:2b88::,29,available,*
 *,ipv6,2c0f:2b90::,28,available,*
 *,ipv6,2c0f:2ba0::,27,available,*
-*,ipv6,2c0f:2bc0::,26,available,*
+*,ipv6,2c0f:2bc1::,32,available,*
+*,ipv6,2c0f:2bc2::,31,available,*
+*,ipv6,2c0f:2bc4::,30,available,*
+*,ipv6,2c0f:2bc8::,29,available,*
+*,ipv6,2c0f:2bd0::,28,available,*
+*,ipv6,2c0f:2be0::,27,available,*
 *,ipv6,2c0f:2c01::,32,available,*
 *,ipv6,2c0f:2c02::,31,available,*
 *,ipv6,2c0f:2c04::,30,available,*
@@ -7332,6 +7340,7 @@ AO,ipv4,102.36.224.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,102.64.60.0,22,allocated,[328509;AO;SpeedNet-Servicos]
 AO,ipv4,102.130.64.0,21,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv4,102.130.192.0,19,allocated,[37645;AO;ZAP-Angola]
+AO,ipv4,102.205.75.0,24,allocated,
 AO,ipv4,102.205.234.0,24,allocated,[329536;AO;ADTE1]
 AO,ipv4,102.206.52.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.206.56.0,22,allocated,[37645;AO;ZAP-Angola]
@@ -7427,6 +7436,7 @@ AO,ipv6,2c0f:1a00::,32,allocated,[37603;AO;GameZone-AS]
 AO,ipv6,2c0f:1c80::,32,allocated,[329065;AO;STSL2-AS]
 AO,ipv6,2c0f:2700::,32,allocated,[328979;AO;NPDS-AS]
 AO,ipv6,2c0f:2b80::,32,allocated,[328725;AO;Advanlink-AS]
+AO,ipv6,2c0f:2bc0::,32,allocated,
 AO,ipv6,2c0f:5600::,32,allocated,[328792;AO;EEID-AS]
 AO,ipv6,2c0f:6540::,32,allocated,[329370;AO;ESPACONET]
 AO,ipv6,2c0f:e968::,32,allocated,[328718;AO;ANYCONNECT]
@@ -7697,6 +7707,7 @@ CD,ipv6,2c0f:f978::,32,allocated,[37598;CD;Ebale]
 CD,ipv6,2c0f:ff10::,32,allocated,[329096;CD;ccTLD-CD-Registry][37677;CD;SCPT]
 CF,ipv4,41.78.120.0,22,allocated,[329274;CF;MoovAfricaCentrafrique]
 CF,ipv4,41.223.184.0,22,allocated,[37460;CF;ORANGE-CA]
+CF,ipv4,102.205.60.0,23,allocated,
 CF,ipv4,169.239.96.0,22,allocated,[328079;CF;TELECEL-CENTRAFRIQUE-AS]
 CF,ipv4,197.242.176.0,21,allocated,[37460;CF;ORANGE-CA]
 CG,ipv4,41.75.64.0,20,allocated,[37322;CG;GVA-CONGO][37281;CG;GVA-CONGO]
@@ -12305,6 +12316,7 @@ GH,ipv4,102.131.16.0,24,assigned,[328367;GH;USEmbassy-Ghana-AS]
 GH,ipv4,102.134.130.0,23,assigned,[328353;GH;MethodistUniversity-AS]
 GH,ipv4,102.135.188.0,24,assigned,[328372;GH;Etranzact-AS]
 GH,ipv4,102.164.123.0,24,assigned,[327845;GH;Sage-Petroleum]
+GH,ipv4,102.205.64.0,22,assigned,
 GH,ipv4,102.208.80.0,24,assigned,[329486;GH;GCB-BANK-PLC]
 GH,ipv4,102.208.188.0,23,assigned,[329449;GH;Regional-Maritime-University]
 GH,ipv4,102.208.191.0,24,assigned,[329459;GH;UBA-GHANA]
