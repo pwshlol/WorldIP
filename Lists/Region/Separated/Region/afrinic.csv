@@ -3547,7 +3547,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,16,available,*
 *,ipv4,102.205.0.0,21,available,*
-*,ipv4,102.205.8.0,23,available,*
 *,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
 *,ipv4,102.206.40.0,22,available,*
@@ -4750,7 +4749,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3088::,29,available,*
 *,ipv6,2c0f:3090::,28,available,*
 *,ipv6,2c0f:30a0::,27,available,*
-*,ipv6,2c0f:30c0::,26,available,*
+*,ipv6,2c0f:30c1::,32,available,*
+*,ipv6,2c0f:30c2::,31,available,*
+*,ipv6,2c0f:30c4::,30,available,*
+*,ipv6,2c0f:30c8::,29,available,*
+*,ipv6,2c0f:30d0::,28,available,*
+*,ipv6,2c0f:30e0::,27,available,*
 *,ipv6,2c0f:3101::,32,available,*
 *,ipv6,2c0f:3102::,31,available,*
 *,ipv6,2c0f:3104::,30,available,*
@@ -7623,6 +7627,7 @@ BW,ipv4,102.134.84.0,22,allocated,[328348;BW;FasttrackLearning-AS]
 BW,ipv4,102.134.160.0,20,allocated,[327776;BW;Stature-PTY-LTD]
 BW,ipv4,102.141.112.0,21,allocated,[327830;BW;Concerotel-Botswana]
 BW,ipv4,102.165.128.0,19,allocated,[329078;BW;ABARI-FTTH][37395;BW;ABARI]
+BW,ipv4,102.205.8.0,23,allocated,
 BW,ipv4,102.207.236.0,22,allocated,[37604;BW;Zebranet-AS]
 BW,ipv4,102.208.32.0,22,allocated,[329473;BW;Click-Connect]
 BW,ipv4,102.208.192.0,22,allocated,*
@@ -7650,6 +7655,7 @@ BW,ipv4,196.61.208.0,21,allocated,[328070;BW;MTN-Business-Solutions-BW-AS]
 BW,ipv4,197.231.192.0,22,allocated,[37604;BW;Zebranet-AS]
 BW,ipv6,2c0f:1340::,32,allocated,[329301;BW;BOTSWANA-RESEARCH-AND-EDUCATION-NETWORK-SOCIETY]
 BW,ipv6,2c0f:1840::,32,allocated,[37604;BW;Zebranet-AS]
+BW,ipv6,2c0f:30c0::,32,allocated,
 BW,ipv6,2c0f:4780::,32,allocated,[37014;BW;Mascom-Wireless-Botswana]
 BW,ipv6,2c0f:e970::,32,allocated,*
 BW,ipv6,2c0f:e9d8::,32,allocated,[328737;BW;Netway-Proprietary-Limited]
