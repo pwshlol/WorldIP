@@ -3549,11 +3549,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.204.128.0,18,available,*
 *,ipv4,102.204.192.0,19,available,*
 *,ipv4,102.204.224.0,20,available,*
-*,ipv4,102.204.248.0,21,available,*
+*,ipv4,102.204.248.0,22,available,*
+*,ipv4,102.204.252.0,23,available,*
+*,ipv4,102.204.254.0,24,available,*
 *,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
 *,ipv4,102.206.40.0,22,available,*
-*,ipv4,102.206.60.0,22,available,*
 *,ipv4,102.206.96.0,21,available,*
 *,ipv4,102.206.112.0,21,available,*
 *,ipv4,102.206.140.0,22,available,*
@@ -6236,7 +6237,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7188::,29,available,*
 *,ipv6,2c0f:7190::,28,available,*
 *,ipv6,2c0f:71a0::,27,available,*
-*,ipv6,2c0f:71c0::,26,available,*
+*,ipv6,2c0f:71c1::,32,available,*
+*,ipv6,2c0f:71c2::,31,available,*
+*,ipv6,2c0f:71c4::,30,available,*
+*,ipv6,2c0f:71c8::,29,available,*
+*,ipv6,2c0f:71d0::,28,available,*
+*,ipv6,2c0f:71e0::,27,available,*
 *,ipv6,2c0f:7201::,32,available,*
 *,ipv6,2c0f:7202::,31,available,*
 *,ipv6,2c0f:7204::,30,available,*
@@ -7410,6 +7416,7 @@ AO,ipv4,102.205.75.0,24,allocated,[329589;AO;SELENIUM_DIGITAL_SOLUTIONS_SA]
 AO,ipv4,102.205.234.0,24,allocated,[329536;AO;ADTE1]
 AO,ipv4,102.206.52.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.206.56.0,22,allocated,[37645;AO;ZAP-Angola]
+AO,ipv4,102.206.60.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.206.76.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,102.207.128.0,22,allocated,[329506;AO;MSBYTE-SOLUTION]
 AO,ipv4,102.207.192.0,22,allocated,[37645;AO;ZAP-Angola]
@@ -8569,6 +8576,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.204.255.0,24,allocated,
 KE,ipv4,102.205.16.0,22,allocated,[329600;KE;Elegant-Telekom]
 KE,ipv4,102.205.32.0,23,allocated,[329596;KE;INTERSIGHT-ENGINEERING]
 KE,ipv4,102.205.40.0,22,allocated,[329593;KE;Moveon-Telecoms]
@@ -11793,6 +11801,7 @@ ZA,ipv6,2c0f:6d40::,32,allocated,[329401;ZA;Fastr-Connect]
 ZA,ipv6,2c0f:6ec0::,32,allocated,[329597;ZA;Microweb]
 ZA,ipv6,2c0f:7080::,32,allocated,[329121;ZA;MLMA1-AS]
 ZA,ipv6,2c0f:70c0::,32,allocated,
+ZA,ipv6,2c0f:71c0::,32,allocated,[328562;ZA;Swift-Connect]
 ZA,ipv6,2c0f:7240::,32,allocated,[328826;ZA;Jumbo-Technologies]
 ZA,ipv6,2c0f:7280::,32,allocated,[329126;ZA;IIP-AS]
 ZA,ipv6,2c0f:7380::,32,allocated,[328222;ZA;NETLAYER]
