@@ -1,6 +1,6 @@
 region,version,ip,prefixlength,state,orgsflat
-apnic,ipv4,24.230.0.0,19,allocated,[132418;FR;OUTSCALE-AP 1 Rue Royale]
-apnic,ipv4,103.20.172.0,22,allocated,[132418;FR;OUTSCALE-AP 1 Rue Royale]
+apnic,ipv4,24.230.0.0,19,allocated,[154214;FR;OUTSCALE-AS-AP Outscale SAS][132418;FR;OUTSCALE-AP 1 Rue Royale]
+apnic,ipv4,103.20.172.0,22,allocated,[154214;FR;OUTSCALE-AS-AP Outscale SAS][132418;FR;OUTSCALE-AP 1 Rue Royale]
 apnic,ipv4,103.153.6.0,23,allocated,[140894;KR;BLADESAS-AS-AP Blade SAS]
 apnic,ipv4,103.214.228.0,24,allocated,*
 apnic,ipv4,185.24.232.0,22,allocated,[138199;SG;TRANSATEL1-AS-AP Transatel]
@@ -800,7 +800,7 @@ ripencc,ipv4,85.116.32.0,19,allocated,[204493;FR;LAG-ASN HACHETTE FILIPACCHI PRE
 ripencc,ipv4,85.117.128.0,19,allocated,[208157;FR;DSP_PYRENEES_ATLANTIQUES64 Societe Francaise Du Radiotelephone - SFR SA][49112;FR;ARMORCONNECTIC-AS Societe Francaise Du Radiotelephone - SFR SA][47206;FR;RENNES-TELECOM-AS Societe Francaise Du Radiotelephone - SFR SA][43763;FR;HAUT-RHIN-TELECOM-AS Societe Francaise Du Radiotelephone - SFR SA][39079;FR;SERVICES-IP_SFR Societe Francaise Du Radiotelephone - SFR SA][35632;FR;IRIS64-AS Societe Francaise Du Radiotelephone - SFR SA][34860;FR;DSP76 Societe Francaise Du Radiotelephone - SFR SA][29372;FR;SFR-NETWORK Societe Francaise Du Radiotelephone - SFR SA][21502;FR;ASN-NUMERICABLE Societe Francaise Du Radiotelephone - SFR SA][15890;FR;DSP_Martinique_THD Societe Francaise Du Radiotelephone - SFR SA][15557;FR;LDCOMNET Societe Francaise Du Radiotelephone - SFR SA][12626;FR;CEGETEL-AS Societe Francaise Du Radiotelephone - SFR SA][12566;FR;SFR-BUSINESS-TEAM Societe Francaise Du Radiotelephone - SFR SA][9003;FR;ASN-SFR Societe Francaise Du Radiotelephone - SFR SA][8228;FR;CEGETEL-AS Societe Francaise Du Radiotelephone - SFR SA][3305;FR;ISERE38 Societe Francaise Du Radiotelephone - SFR SA]
 ripencc,ipv4,85.118.32.0,19,allocated,[57179;FR;IELO-B IELO-LIAZO SERVICES SAS][50618;FR;Liazo IELO-LIAZO SERVICES SAS][29075;FR;IELO IELO-LIAZO SERVICES SAS]
 ripencc,ipv4,85.119.168.0,21,allocated,[12645;FR;CAP-MEDIATEL-AS COAXIS HOSTING SASAU]
-ripencc,ipv4,85.158.8.0,22,allocated,[202139;FR;FR-DEVOTEAM DEVOTEAM SA]
+ripencc,ipv4,85.158.8.0,22,allocated,[202139;FR;FR-DEVOTEAM DEVOTEAM SA][60293;FR;ALFUN ALFUN SAS]
 ripencc,ipv4,85.158.16.0,21,allocated,[16071;FR;GRPLEG LEGRAND FRANCE S.A]
 ripencc,ipv4,85.158.112.0,21,allocated,[34391;FR;PARITEL-01-AS PARITEL OPERATEUR SAS]
 ripencc,ipv4,85.158.120.0,21,allocated,[205681;FR;GENERIX GENERIX GROUP SAS]
@@ -2580,7 +2580,7 @@ ripencc,ipv4,193.27.194.0,23,allocated,[212720;FR;CYBERPROTECT ADISTA SAS][20332
 ripencc,ipv4,193.30.126.0,24,allocated,[49689;FR;CORESYSTEM-LABS CORESYSTEM SASU][42369;FR;CORESYSTEM CORESYSTEM SASU]
 ripencc,ipv4,193.30.127.0,24,allocated,[49689;FR;CORESYSTEM-LABS CORESYSTEM SASU][42369;FR;CORESYSTEM CORESYSTEM SASU]
 ripencc,ipv4,193.33.121.0,24,allocated,[208705;FR;NIIT NIIT SASU]
-ripencc,ipv4,193.33.244.0,24,allocated,
+ripencc,ipv4,193.33.244.0,24,allocated,[213432;FR;aevoo Aevoo SARL]
 ripencc,ipv4,193.34.32.0,22,allocated,*
 ripencc,ipv4,193.35.98.0,24,allocated,[50628;FR;Leonix-Telecom Leonix Telecom SAS]
 ripencc,ipv4,193.35.101.0,24,allocated,[50628;FR;Leonix-Telecom Leonix Telecom SAS]
@@ -2907,6 +2907,7 @@ ripencc,ipv4,195.66.30.0,23,allocated,*
 ripencc,ipv4,195.68.224.0,22,allocated,*
 ripencc,ipv4,195.68.248.0,23,allocated,[47648;FR;NOREST-SERVICES NOREST SERVICES SAS]
 ripencc,ipv4,195.68.254.0,23,allocated,[47648;FR;NOREST-SERVICES NOREST SERVICES SAS]
+ripencc,ipv4,195.72.32.0,24,allocated,[213703;FR;Elaunira Elaunira SARL]
 ripencc,ipv4,195.80.44.0,22,allocated,[209085;FR;SF Seconde Fondation EURL]
 ripencc,ipv4,195.80.152.0,21,allocated,[215639;FR;WANWORLD-AS WanWorld SAS]
 ripencc,ipv4,195.83.0.0,19,allocated,[3256;FR;Renater]
@@ -3793,7 +3794,7 @@ ripencc,ipv6,2a05:f180::,29,allocated,[200836;FR;CND-ASN Centre National de la D
 ripencc,ipv6,2a05:f400::,29,allocated,[209469;FR;URW-AS Unibail Management SAS]
 ripencc,ipv6,2a05:f440::,29,allocated,[43767;FR;F5-INFRA F5 Networks SARL][35280;FR;F5 F5 Networks SARL]
 ripencc,ipv6,2a05:f9c0::,29,allocated,[35353;FR;alphasquare Alpha Square SAS]
-ripencc,ipv6,2a05:fa80::,29,allocated,[202139;FR;FR-DEVOTEAM DEVOTEAM SA]
+ripencc,ipv6,2a05:fa80::,29,allocated,[202139;FR;FR-DEVOTEAM DEVOTEAM SA][60293;FR;ALFUN ALFUN SAS]
 ripencc,ipv6,2a05:fac0::,29,allocated,[200821;FR;ARTETV ARTE G.E.I.E.]
 ripencc,ipv6,2a06:1200::,29,allocated,[200618;FR;FR-FININFO FININFO GIE]
 ripencc,ipv6,2a06:1500::,29,allocated,[203901;FR;ATSYS-ASN ATLANTIC SYSTEMES SARL]
@@ -4389,7 +4390,7 @@ ripencc,ipv6,2a14:1200::,29,allocated,[215604;FR;ASEVOLUTION Evolution Wireless 
 ripencc,ipv6,2a14:1880::,29,allocated,[209124;FR;ASROVERBA ROVERBA CGS SAS]
 ripencc,ipv6,2a14:1d00::,29,allocated,[216190;FR;OCASDEV FBW NETWORKS SAS][209428;FR;DSCW FBW NETWORKS SAS][49434;FR;FBWNETWORKS FBW NETWORKS SAS][48130;FR;MENGINE-AS FBW NETWORKS SAS][34534;FR;BULLIONET FBW NETWORKS SAS]
 ripencc,ipv6,2a14:2140::,29,allocated,[215227;FR;LEOGRID-AS LEOGRID SAS]
-ripencc,ipv6,2a14:26c0::,29,allocated,
+ripencc,ipv6,2a14:26c0::,29,allocated,[213432;FR;aevoo Aevoo SARL]
 ripencc,ipv6,2a14:2ac0::,29,allocated,[210935;FR;buch-74s 74Software SA][52127;FR;Axway-Software-AS 74Software SA]
 ripencc,ipv6,2a14:2e00::,29,allocated,*
 ripencc,ipv6,2a14:2e40::,29,allocated,[215234;FR;UBIZWAN UBIZWAN SAS]
@@ -4419,7 +4420,7 @@ ripencc,ipv6,2a14:f100::,29,allocated,[213412;FR;ONYPHE ONYPHE SAS]
 ripencc,ipv6,2a14:f400::,29,allocated,[205263;FR;ABC-ARBITRAGE ABC arbitrage Asset Management SA]
 ripencc,ipv6,2a14:fa80::,29,allocated,[209925;FR;INNOVEST INNOVEST SARL]
 apnic,ipv4,103.122.52.0,24,assigned,[138199;SG;TRANSATEL1-AS-AP Transatel]
-apnic,ipv6,2001:df0:40c::,48,assigned,[132418;FR;OUTSCALE-AP 1 Rue Royale]
+apnic,ipv6,2001:df0:40c::,48,assigned,[154214;FR;OUTSCALE-AS-AP Outscale SAS][132418;FR;OUTSCALE-AP 1 Rue Royale]
 apnic,ipv6,2001:df1:c200::,48,assigned,*
 apnic,ipv6,2001:df6:8d00::,48,assigned,[138199;SG;TRANSATEL1-AS-AP Transatel]
 ripencc,ipv4,14.102.102.0,24,assigned,[35600;FR;ASN-VEDEGE Vedege SAS]
