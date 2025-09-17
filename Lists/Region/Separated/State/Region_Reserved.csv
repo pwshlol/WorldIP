@@ -3693,6 +3693,7 @@ apnic,ipv4,103.148.221.0,24
 apnic,ipv4,103.149.149.0,24
 apnic,ipv4,103.149.188.0,23
 apnic,ipv4,103.150.42.0,23
+apnic,ipv4,103.150.54.0,23
 apnic,ipv4,103.150.94.0,24
 apnic,ipv4,103.151.108.0,24
 apnic,ipv4,103.151.166.0,23
@@ -3772,7 +3773,6 @@ apnic,ipv4,103.210.130.0,23
 apnic,ipv4,103.210.211.0,24
 apnic,ipv4,103.211.136.0,22
 apnic,ipv4,103.214.36.0,22
-apnic,ipv4,103.214.156.0,22
 apnic,ipv4,103.215.128.0,22
 apnic,ipv4,103.218.226.0,23
 apnic,ipv4,103.219.80.0,22
@@ -3813,7 +3813,6 @@ apnic,ipv4,123.253.240.0,22
 apnic,ipv4,137.59.212.0,22
 apnic,ipv4,139.5.65.0,24
 apnic,ipv4,139.5.66.0,23
-apnic,ipv4,144.48.112.0,22
 apnic,ipv4,146.62.0.0,16
 apnic,ipv4,150.107.228.0,22
 apnic,ipv4,157.10.176.0,23
@@ -4406,7 +4405,6 @@ apnic,ipv6,2407:b340::,32
 apnic,ipv6,2407:b480::,32
 apnic,ipv6,2407:dbc0::,32
 apnic,ipv6,2407:dcc0::,32
-apnic,ipv6,2407:ea40::,32
 apnic,ipv6,2408:1000::,20
 apnic,ipv6,2408:2100::,24
 apnic,ipv6,2408:2200::,23
@@ -4629,6 +4627,7 @@ apnic,ipv6,2001:df3:2a80::,48
 apnic,ipv6,2001:df3:3880::,48
 apnic,ipv6,2001:df3:4bc0::,48
 apnic,ipv6,2001:df3:5380::,48
+apnic,ipv6,2001:df3:5980::,48
 apnic,ipv6,2001:df3:5f40::,48
 apnic,ipv6,2001:df3:77c0::,48
 apnic,ipv6,2001:df3:7840::,48
@@ -5709,7 +5708,8 @@ arin,ipv4,23.145.121.0,22
 arin,ipv4,23.145.125.0,22
 arin,ipv4,23.145.129.0,22
 arin,ipv4,23.145.133.0,22
-arin,ipv4,23.145.137.0,21
+arin,ipv4,23.145.137.0,22
+arin,ipv4,23.145.141.0,22
 arin,ipv4,23.145.145.0,21
 arin,ipv4,23.145.153.0,21
 arin,ipv4,23.145.161.0,21
@@ -8133,8 +8133,8 @@ arin,ipv6,2620:5:8::,45
 arin,ipv6,2620:60::,48
 arin,ipv6,2620:6:1::,48
 arin,ipv6,2620:61::,48
-arin,ipv6,2620:6:2::,47
 arin,ipv6,2620:62::,48
+arin,ipv6,2620:6:2::,47
 arin,ipv6,2620:63::,48
 arin,ipv6,2620:6:4::,46
 arin,ipv6,2620:65::,40
@@ -9805,12 +9805,12 @@ arin,ipv6,2620:19:2::,47
 arin,ipv6,2620:19:4::,46
 arin,ipv6,2620:19:8::,45
 arin,ipv6,2620:19b::,32
-arin,ipv6,2620:1a:1::,48
 arin,ipv6,2620:1a1::,32
-arin,ipv6,2620:1a:2::,47
+arin,ipv6,2620:1a:1::,48
 arin,ipv6,2620:1a2::,31
-arin,ipv6,2620:1a4::,30
+arin,ipv6,2620:1a:2::,47
 arin,ipv6,2620:1a:4::,46
+arin,ipv6,2620:1a4::,30
 arin,ipv6,2620:1a8::,29
 arin,ipv6,2620:1a:8::,45
 arin,ipv6,2620:1c:1::,48
@@ -35532,6 +35532,14 @@ arin,ipv6,2620:dc:c001::,48
 arin,ipv6,2620:dc:c002::,47
 arin,ipv6,2620:dc:c004::,46
 arin,ipv6,2620:dc:c008::,45
+arin,ipv6,2620:dc:e001::,48
+arin,ipv6,2620:dc:e002::,47
+arin,ipv6,2620:dc:e004::,46
+arin,ipv6,2620:dc:e008::,45
+arin,ipv6,2620:dd:2001::,48
+arin,ipv6,2620:dd:2002::,47
+arin,ipv6,2620:dd:2004::,46
+arin,ipv6,2620:dd:2008::,45
 arin,ipv6,2620:dd:4001::,48
 arin,ipv6,2620:dd:4002::,47
 arin,ipv6,2620:dd:4004::,46
@@ -37867,6 +37875,18 @@ arin,ipv6,2602:81c:4010::,44
 arin,ipv6,2602:81c:4020::,43
 arin,ipv6,2602:81c:4040::,42
 arin,ipv6,2602:81c:4080::,41
+arin,ipv6,2602:81c:5010::,44
+arin,ipv6,2602:81c:5020::,43
+arin,ipv6,2602:81c:5040::,42
+arin,ipv6,2602:81c:5080::,41
+arin,ipv6,2602:f560:100::,40
+arin,ipv6,2602:f560:200::,39
+arin,ipv6,2602:f560:400::,38
+arin,ipv6,2602:f560:800::,37
+arin,ipv6,2602:f561:100::,40
+arin,ipv6,2602:f561:200::,39
+arin,ipv6,2602:f561:400::,38
+arin,ipv6,2602:f561:800::,37
 arin,ipv6,2602:f563:100::,40
 arin,ipv6,2602:f563:200::,39
 arin,ipv6,2602:f563:400::,38
@@ -46237,6 +46257,18 @@ arin,ipv6,2620:1ff:1000::,36
 arin,ipv6,2620:1ff:2000::,35
 arin,ipv6,2620:1ff:4000::,34
 arin,ipv6,2620:1ff:8000::,33
+arin,ipv6,2602:f560:1000::,36
+arin,ipv6,2602:f560:2000::,35
+arin,ipv6,2602:f560:4000::,34
+arin,ipv6,2602:f560:8000::,33
+arin,ipv6,2602:f561:1000::,36
+arin,ipv6,2602:f561:2000::,35
+arin,ipv6,2602:f561:4000::,34
+arin,ipv6,2602:f561:8000::,33
+arin,ipv6,2602:f562:1000::,36
+arin,ipv6,2602:f562:2000::,35
+arin,ipv6,2602:f562:4000::,34
+arin,ipv6,2602:f562:8000::,33
 arin,ipv6,2602:f563:1000::,36
 arin,ipv6,2602:f563:2000::,35
 arin,ipv6,2602:f563:4000::,34
@@ -58015,8 +58047,8 @@ lacnic,ipv6,2801:13:8::,45
 lacnic,ipv6,2801:14:1::,48
 lacnic,ipv6,2801:14:2::,47
 lacnic,ipv6,2801:14:4::,46
-lacnic,ipv6,2801:14:8::,45
 lacnic,ipv6,2801:148::,40
+lacnic,ipv6,2801:14:8::,45
 lacnic,ipv6,2801:15:1::,48
 lacnic,ipv6,2801:15:2::,47
 lacnic,ipv6,2801:15:4::,46
@@ -58050,8 +58082,8 @@ lacnic,ipv6,2801:1c:2::,47
 lacnic,ipv6,2801:1c:4::,46
 lacnic,ipv6,2801:1c:8::,45
 lacnic,ipv6,2801:1d:2::,47
-lacnic,ipv6,2801:1d:4::,46
 lacnic,ipv6,2801:1d4::,32
+lacnic,ipv6,2801:1d:4::,46
 lacnic,ipv6,2801:1d:8::,45
 lacnic,ipv6,2801:1ee::,40
 lacnic,ipv6,2801:1f:1::,48
@@ -70733,6 +70765,7 @@ lacnic,ipv6,2804:3da0::,32
 lacnic,ipv6,2804:3db4::,32
 lacnic,ipv6,2804:3dd0::,32
 lacnic,ipv6,2804:3dd8::,32
+lacnic,ipv6,2804:3ddc::,32
 lacnic,ipv6,2804:3de0::,32
 lacnic,ipv6,2804:3de8::,32
 lacnic,ipv6,2804:3e24::,32
@@ -71386,10 +71419,10 @@ lacnic,ipv6,2801:11e:10::,44
 lacnic,ipv6,2801:11e:20::,43
 lacnic,ipv6,2801:11e:40::,42
 lacnic,ipv6,2801:11e:80::,41
-lacnic,ipv6,2801:12:110::,44
 lacnic,ipv6,2801:121:10::,44
-lacnic,ipv6,2801:12:120::,43
+lacnic,ipv6,2801:12:110::,44
 lacnic,ipv6,2801:121:20::,43
+lacnic,ipv6,2801:12:120::,43
 lacnic,ipv6,2801:121:40::,42
 lacnic,ipv6,2801:12:140::,42
 lacnic,ipv6,2801:121:80::,41
@@ -73977,6 +74010,7 @@ ripencc,ipv4,194.48.243.0,24
 ripencc,ipv4,194.48.254.0,24
 ripencc,ipv4,194.50.48.0,24
 ripencc,ipv4,194.54.68.0,22
+ripencc,ipv4,194.62.112.0,21
 ripencc,ipv4,194.62.163.0,24
 ripencc,ipv4,194.76.184.0,23
 ripencc,ipv4,194.76.198.0,23
@@ -78538,6 +78572,9 @@ ripencc,ipv6,2a0e:dc4::,30
 ripencc,ipv6,2a0e:dc8::,29
 ripencc,ipv6,2a0e:dd0::,28
 ripencc,ipv6,2a0e:de0::,27
+ripencc,ipv6,2a0e:e08::,29
+ripencc,ipv6,2a0e:e10::,28
+ripencc,ipv6,2a0e:e20::,27
 ripencc,ipv6,2a0e:e48::,29
 ripencc,ipv6,2a0e:e50::,28
 ripencc,ipv6,2a0e:e60::,27
@@ -112062,7 +112099,6 @@ ripencc,ipv6,2a07:3f60::,27
 ripencc,ipv6,2a07:3f88::,29
 ripencc,ipv6,2a07:3f90::,28
 ripencc,ipv6,2a07:3fa0::,27
-ripencc,ipv6,2a07:3fc0::,26
 ripencc,ipv6,2a07:4008::,29
 ripencc,ipv6,2a07:4010::,28
 ripencc,ipv6,2a07:4020::,27
@@ -124193,7 +124229,6 @@ ripencc,ipv6,2a0c:1de0::,27
 ripencc,ipv6,2a0c:1e08::,29
 ripencc,ipv6,2a0c:1e10::,28
 ripencc,ipv6,2a0c:1e20::,27
-ripencc,ipv6,2a0c:1e40::,26
 ripencc,ipv6,2a0c:1e88::,29
 ripencc,ipv6,2a0c:1e90::,28
 ripencc,ipv6,2a0c:1ea0::,27
@@ -124770,7 +124805,6 @@ ripencc,ipv6,2a0c:4960::,27
 ripencc,ipv6,2a0c:4988::,29
 ripencc,ipv6,2a0c:4990::,28
 ripencc,ipv6,2a0c:49a0::,27
-ripencc,ipv6,2a0c:49c0::,26
 ripencc,ipv6,2a0c:4a08::,29
 ripencc,ipv6,2a0c:4a10::,28
 ripencc,ipv6,2a0c:4a20::,27
@@ -126115,7 +126149,6 @@ ripencc,ipv6,2a0c:af20::,27
 ripencc,ipv6,2a0c:af48::,29
 ripencc,ipv6,2a0c:af50::,28
 ripencc,ipv6,2a0c:af60::,27
-ripencc,ipv6,2a0c:af80::,26
 ripencc,ipv6,2a0c:afc8::,29
 ripencc,ipv6,2a0c:afd0::,28
 ripencc,ipv6,2a0c:afe0::,27
@@ -129768,9 +129801,6 @@ ripencc,ipv6,2a0d:d6a0::,27
 ripencc,ipv6,2a0d:d6c8::,29
 ripencc,ipv6,2a0d:d6d0::,28
 ripencc,ipv6,2a0d:d6e0::,27
-ripencc,ipv6,2a0d:d701::,32
-ripencc,ipv6,2a0d:d702::,31
-ripencc,ipv6,2a0d:d704::,30
 ripencc,ipv6,2a0d:d708::,29
 ripencc,ipv6,2a0d:d710::,28
 ripencc,ipv6,2a0d:d720::,27
@@ -152039,7 +152069,6 @@ ripencc,ipv6,2001:678:d11::,48
 ripencc,ipv6,2001:678:d12::,47
 ripencc,ipv6,2001:678:d15::,48
 ripencc,ipv6,2001:678:d16::,47
-ripencc,ipv6,2001:678:d18::,46
 ripencc,ipv6,2001:678:d1d::,48
 ripencc,ipv6,2001:678:d1e::,47
 ripencc,ipv6,2001:678:d21::,48
@@ -156819,7 +156848,6 @@ ripencc,ipv6,2001:67c:29dd::,48
 ripencc,ipv6,2001:67c:29de::,47
 ripencc,ipv6,2001:67c:29e1::,48
 ripencc,ipv6,2001:67c:29e2::,47
-ripencc,ipv6,2001:67c:29e4::,46
 ripencc,ipv6,2001:67c:29e9::,48
 ripencc,ipv6,2001:67c:29ea::,47
 ripencc,ipv6,2001:67c:29ed::,48
