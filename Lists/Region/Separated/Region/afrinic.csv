@@ -3547,7 +3547,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,17,available,*
 *,ipv4,102.204.128.0,18,available,*
-*,ipv4,102.204.196.0,22,available,*
 *,ipv4,102.204.200.0,21,available,*
 *,ipv4,102.204.214.0,23,available,*
 *,ipv4,102.206.20.0,22,available,*
@@ -4847,7 +4846,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3488::,29,available,*
 *,ipv6,2c0f:3490::,28,available,*
 *,ipv6,2c0f:34a0::,27,available,*
-*,ipv6,2c0f:34c0::,26,available,*
+*,ipv6,2c0f:34c1::,32,available,*
+*,ipv6,2c0f:34c2::,31,available,*
+*,ipv6,2c0f:34c4::,30,available,*
+*,ipv6,2c0f:34c8::,29,available,*
+*,ipv6,2c0f:34d0::,28,available,*
+*,ipv6,2c0f:34e0::,27,available,*
 *,ipv6,2c0f:3501::,32,available,*
 *,ipv6,2c0f:3502::,31,available,*
 *,ipv6,2c0f:3504::,30,available,*
@@ -8598,6 +8602,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.204.196.0,22,allocated,
 KE,ipv4,102.204.255.0,24,allocated,[329609;KE;Skye_Platforms_Limited]
 KE,ipv4,102.205.16.0,22,allocated,[329600;KE;Elegant-Telekom]
 KE,ipv4,102.205.32.0,23,allocated,[329596;KE;INTERSIGHT-ENGINEERING]
@@ -8830,6 +8835,7 @@ KE,ipv6,2c0f:3280::,32,allocated,[328856;KE;VIJIJI-CONNECT-LIMITED]
 KE,ipv6,2c0f:3300::,32,allocated,[328989;KE;SMARTCLOUD]
 KE,ipv6,2c0f:3340::,32,allocated,[329419;KE;IX-AFRICA-DATA-CENTRE]
 KE,ipv6,2c0f:3440::,32,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
+KE,ipv6,2c0f:34c0::,32,allocated,
 KE,ipv6,2c0f:3840::,32,allocated,[329437;KE;Veenet-Africa]
 KE,ipv6,2c0f:3980::,32,allocated,[329211;KE;Novia-East-Africa-AS]
 KE,ipv6,2c0f:3a00::,32,allocated,[328835;KE;Easy-BroadBand]
