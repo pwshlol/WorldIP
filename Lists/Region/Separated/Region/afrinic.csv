@@ -3550,11 +3550,10 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.204.64.0,19,available,*
 *,ipv4,102.204.96.0,20,available,*
 *,ipv4,102.204.116.0,22,available,*
-*,ipv4,102.204.120.0,22,available,*
-*,ipv4,102.204.127.0,24,available,*
+*,ipv4,102.204.120.0,23,available,*
+*,ipv4,102.204.122.0,24,available,*
 *,ipv4,102.204.132.0,22,available,*
 *,ipv4,102.204.136.0,21,available,*
-*,ipv4,102.206.20.0,22,available,*
 *,ipv4,102.206.24.0,21,available,*
 *,ipv4,102.206.40.0,22,available,*
 *,ipv4,102.206.96.0,21,available,*
@@ -4989,7 +4988,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3a88::,29,available,*
 *,ipv6,2c0f:3a90::,28,available,*
 *,ipv6,2c0f:3aa0::,27,available,*
-*,ipv6,2c0f:3ac0::,26,available,*
+*,ipv6,2c0f:3ac1::,32,available,*
+*,ipv6,2c0f:3ac2::,31,available,*
+*,ipv6,2c0f:3ac4::,30,available,*
+*,ipv6,2c0f:3ac8::,29,available,*
+*,ipv6,2c0f:3ad0::,28,available,*
+*,ipv6,2c0f:3ae0::,27,available,*
 *,ipv6,2c0f:3b01::,32,available,*
 *,ipv6,2c0f:3b02::,31,available,*
 *,ipv6,2c0f:3b04::,30,available,*
@@ -6469,7 +6473,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:7988::,29,available,*
 *,ipv6,2c0f:7990::,28,available,*
 *,ipv6,2c0f:79a0::,27,available,*
-*,ipv6,2c0f:79c0::,26,available,*
+*,ipv6,2c0f:79c1::,32,available,*
+*,ipv6,2c0f:79c2::,31,available,*
+*,ipv6,2c0f:79c4::,30,available,*
+*,ipv6,2c0f:79c8::,29,available,*
+*,ipv6,2c0f:79d0::,28,available,*
+*,ipv6,2c0f:79e0::,27,available,*
 *,ipv6,2c0f:7a01::,32,available,*
 *,ipv6,2c0f:7a02::,31,available,*
 *,ipv6,2c0f:7a04::,30,available,*
@@ -7497,7 +7506,7 @@ AO,ipv4,102.36.224.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,102.64.60.0,22,allocated,[328509;AO;SpeedNet-Servicos]
 AO,ipv4,102.130.64.0,21,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv4,102.130.192.0,19,allocated,[37645;AO;ZAP-Angola]
-AO,ipv4,102.204.164.0,22,allocated,
+AO,ipv4,102.204.164.0,22,allocated,[329631;AO;YETOCOM]
 AO,ipv4,102.204.192.0,22,allocated,[329616;AO;Internet-Technologies-Angol]
 AO,ipv4,102.205.75.0,24,allocated,[329589;AO;SELENIUM_DIGITAL_SOLUTIONS_SA]
 AO,ipv4,102.205.234.0,24,allocated,[329536;AO;ADTE1]
@@ -7601,7 +7610,7 @@ AO,ipv6,2c0f:2bc0::,32,allocated,[329589;AO;SELENIUM_DIGITAL_SOLUTIONS_SA]
 AO,ipv6,2c0f:5600::,32,allocated,[328792;AO;EEID-AS]
 AO,ipv6,2c0f:6540::,32,allocated,[329370;AO;ESPACONET]
 AO,ipv6,2c0f:73c0::,32,allocated,[329616;AO;Internet-Technologies-Angol]
-AO,ipv6,2c0f:78c0::,32,allocated,
+AO,ipv6,2c0f:78c0::,32,allocated,[329631;AO;YETOCOM]
 AO,ipv6,2c0f:e968::,32,allocated,[328718;AO;ANYCONNECT]
 AO,ipv6,2c0f:ea28::,32,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv6,2c0f:eab0::,32,allocated,[328111;AO;IPWORLD-AS]
@@ -7883,7 +7892,7 @@ CG,ipv4,41.75.64.0,20,allocated,[37322;CG;GVA-CONGO][37281;CG;GVA-CONGO]
 CG,ipv4,102.64.116.0,22,allocated,[328500;CG;AMC-Telecom]
 CG,ipv4,102.129.64.0,19,allocated,[37451;CG;CongoTelecom]
 CG,ipv4,102.141.0.0,18,allocated,[37322;CG;GVA-CONGO][37281;CG;GVA-CONGO]
-CG,ipv4,102.204.124.0,24,allocated,
+CG,ipv4,102.204.124.0,24,allocated,[329632;CG;TELECOMMUNICATION-DU-CONGO]
 CG,ipv4,102.213.232.0,22,allocated,[37451;CG;CongoTelecom]
 CG,ipv4,102.220.244.0,22,allocated,[328857;CG;SILICONEAS]
 CG,ipv4,102.223.220.0,22,allocated,[327829;CG;SKYTIC-TELECOM]
@@ -8676,9 +8685,11 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.204.123.0,24,allocated,
+KE,ipv4,102.204.127.0,24,allocated,
 KE,ipv4,102.204.148.0,22,allocated,[329622;KE;KONNEKT_Smart_Life_LTD]
 KE,ipv4,102.204.152.0,22,allocated,[329621;KE;Gawia_Ltd]
-KE,ipv4,102.204.168.0,22,allocated,
+KE,ipv4,102.204.168.0,22,allocated,[329630;KE;Tego_Networks_LTD]
 KE,ipv4,102.204.176.0,22,allocated,[329255;KE;TSL13-AS]
 KE,ipv4,102.204.196.0,22,allocated,[329618;KE;Mpaps-Internet]
 KE,ipv4,102.204.255.0,24,allocated,[329609;KE;Skye_Platforms_Limited]
@@ -8917,9 +8928,10 @@ KE,ipv6,2c0f:3440::,32,allocated,[329422;KE;SAFHOME-FIBRE-LIMITED]
 KE,ipv6,2c0f:34c0::,32,allocated,[329618;KE;Mpaps-Internet]
 KE,ipv6,2c0f:35c0::,32,allocated,[329621;KE;Gawia_Ltd]
 KE,ipv6,2c0f:3840::,32,allocated,[329437;KE;Veenet-Africa]
-KE,ipv6,2c0f:38c0::,32,allocated,
+KE,ipv6,2c0f:38c0::,32,allocated,[329630;KE;Tego_Networks_LTD]
 KE,ipv6,2c0f:3980::,32,allocated,[329211;KE;Novia-East-Africa-AS]
 KE,ipv6,2c0f:3a00::,32,allocated,[328835;KE;Easy-BroadBand]
+KE,ipv6,2c0f:3ac0::,32,allocated,
 KE,ipv6,2c0f:3b00::,32,allocated,[328993;KE;Click-Fiber-AS]
 KE,ipv6,2c0f:3b40::,32,allocated,[329452;KE;Alwen-Networks]
 KE,ipv6,2c0f:3f00::,32,allocated,[328994;KE;NCL4-AS]
@@ -8952,6 +8964,7 @@ KE,ipv6,2c0f:7200::,32,allocated,[37219;KE;ICTA-]
 KE,ipv6,2c0f:7340::,32,allocated,[329421;KE;Localtel-Communications-Limited]
 KE,ipv6,2c0f:7440::,32,allocated,[329424;KE;HTL8]
 KE,ipv6,2c0f:7880::,32,allocated,[329135;KE;Unicast-technology]
+KE,ipv6,2c0f:79c0::,32,allocated,
 KE,ipv6,2c0f:7a00::,32,allocated,*
 KE,ipv6,2c0f:7a40::,32,allocated,[329451;KE;RAIN-COMMUNICATIONS-LIMITED]
 KE,ipv6,2c0f:7d80::,32,allocated,[328302;KE;Cloudone-AS]
@@ -10320,6 +10333,7 @@ TZ,ipv4,102.205.248.0,22,allocated,[329530;TZ;Savanna_Fibre_Tanzania_Ltd]
 TZ,ipv4,102.205.252.0,22,allocated,[329529;TZ;KINETIC]
 TZ,ipv4,102.206.0.0,22,allocated,[329524;TZ;ZANZIBAR-CABLE-TELEVISION]
 TZ,ipv4,102.206.16.0,22,allocated,*
+TZ,ipv4,102.206.20.0,22,allocated,*
 TZ,ipv4,102.206.228.0,22,allocated,[328436;TZ;Flashnet-Technologies-Limited]
 TZ,ipv4,102.207.28.0,22,allocated,*
 TZ,ipv4,102.207.146.0,23,allocated,[329499;TZ;AIBRA-GROUP-LIMITED]
@@ -10484,7 +10498,7 @@ UG,ipv4,102.68.172.0,22,allocated,[328015;UG;Sombha-Solutions]
 UG,ipv4,102.80.0.0,13,allocated,[37075;UG;ZAINUGAS][36977;UG;Airtel-]
 UG,ipv4,102.134.140.0,22,allocated,[328408;UG;HAMILTON-TELECOM-AS]
 UG,ipv4,102.204.160.0,22,allocated,[328727;UG;KAMPALA-SITI-CABLE]
-UG,ipv4,102.204.172.0,22,allocated,
+UG,ipv4,102.204.172.0,22,allocated,[329629;UG;KILIMANJARO_TELECOM_COMPANY_LIMITED]
 UG,ipv4,102.205.128.0,23,allocated,[329569;UG;CFTS-CO]
 UG,ipv4,102.205.244.0,22,allocated,[329531;UG;TALKIO_MOBILE_LTD]
 UG,ipv4,102.206.128.0,22,allocated,[328939;UG;SIL6-AS]
@@ -10539,7 +10553,7 @@ UG,ipv6,2c0f:4540::,32,allocated,[329253;UG;CSL5-AS]
 UG,ipv6,2c0f:4b00::,32,allocated,[328939;UG;SIL6-AS]
 UG,ipv6,2c0f:59c0::,32,allocated,[36901;UG;DATANET][23549;UG;DATA-IXP]
 UG,ipv6,2c0f:7140::,32,allocated,[329415;UG;Savanna-Fibre-Limited]
-UG,ipv6,2c0f:77c0::,32,allocated,
+UG,ipv6,2c0f:77c0::,32,allocated,[329629;UG;KILIMANJARO_TELECOM_COMPANY_LIMITED]
 UG,ipv6,2c0f:7a80::,32,allocated,[329137;UG;GUL1-AS]
 UG,ipv6,2c0f:7e40::,32,allocated,[329464;UG;OGOS-INNO-TECH]
 UG,ipv6,2c0f:e910::,32,allocated,[328707;UG;Al-Bayan-Media]
