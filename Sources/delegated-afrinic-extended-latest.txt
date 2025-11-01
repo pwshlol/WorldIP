@@ -1,7 +1,7 @@
-2|afrinic|20251030|17705|00000000|20251030|00000
+2|afrinic|20251031|17712|00000000|20251031|00000
 afrinic|*|asn|*|3326|summary
-afrinic|*|ipv4|*|5810|summary
-afrinic|*|ipv6|*|8569|summary
+afrinic|*|ipv4|*|5811|summary
+afrinic|*|ipv6|*|8575|summary
 afrinic|ZA|asn|1228|1|19910301|allocated|F36B9F4B
 afrinic|ZA|asn|1229|1|19910301|allocated|F36B9F4B
 afrinic|ZA|asn|1230|1|19910301|allocated|F36B9F4B
@@ -4442,6 +4442,8 @@ afrinic|SD|ipv4|102.181.128.0|16384|20170616|allocated|F366600B
 afrinic|SD|ipv4|102.181.192.0|8192|20170616|allocated|F366600B
 afrinic|ZA|ipv4|102.182.0.0|65536|20170602|allocated|F3674908
 afrinic|EG|ipv4|102.184.0.0|524288|20170517|allocated|F3625D7B
+afrinic|KE|ipv4|102.204.16.0|1024|20251030|allocated|F36A1FBC
+afrinic|ZA|ipv4|102.204.20.0|1024|20251030|allocated|F36722D4
 afrinic|BF|ipv4|102.204.24.0|1024|20251029|allocated|F362A277
 afrinic|GH|ipv4|102.204.32.0|1024|20251028|allocated|F36BE359
 afrinic|ZA|ipv4|102.204.36.0|1024|20251028|allocated|F36DBB05
@@ -9121,7 +9123,6 @@ afrinic|ZZ|ipv4|217.78.64.0|4096||reserved|
 afrinic|ZZ|ipv4|102.192.0.0|524288||available|
 afrinic|ZZ|ipv4|102.200.0.0|262144||available|
 afrinic|ZZ|ipv4|102.204.0.0|4096||available|
-afrinic|ZZ|ipv4|102.204.16.0|2048||available|
 afrinic|ZZ|ipv4|102.204.44.0|512||available|
 afrinic|ZZ|ipv4|102.204.46.0|256||available|
 afrinic|ZZ|ipv4|102.204.88.0|1024||available|
@@ -13300,7 +13301,13 @@ afrinic|ZZ|ipv6|2c0f:3f84::|30||available|
 afrinic|ZZ|ipv6|2c0f:3f88::|29||available|
 afrinic|ZZ|ipv6|2c0f:3f90::|28||available|
 afrinic|ZZ|ipv6|2c0f:3fa0::|27||available|
-afrinic|ZZ|ipv6|2c0f:3fc0::|26||available|
+afrinic|KE|ipv6|2c0f:3fc0::|32|20251030|allocated|F36A1FBC
+afrinic|ZZ|ipv6|2c0f:3fc1::|32||available|
+afrinic|ZZ|ipv6|2c0f:3fc2::|31||available|
+afrinic|ZZ|ipv6|2c0f:3fc4::|30||available|
+afrinic|ZZ|ipv6|2c0f:3fc8::|29||available|
+afrinic|ZZ|ipv6|2c0f:3fd0::|28||available|
+afrinic|ZZ|ipv6|2c0f:3fe0::|27||available|
 afrinic|ZA|ipv6|2c0f:4000::|32|20201123|allocated|F36EF1CB
 afrinic|ZZ|ipv6|2c0f:4001::|32||available|
 afrinic|ZZ|ipv6|2c0f:4002::|31||available|

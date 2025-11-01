@@ -3548,7 +3548,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,13,available,*
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,20,available,*
-*,ipv4,102.204.16.0,21,available,*
 *,ipv4,102.204.44.0,23,available,*
 *,ipv4,102.204.46.0,24,available,*
 *,ipv4,102.204.88.0,22,available,*
@@ -5111,7 +5110,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:3f88::,29,available,*
 *,ipv6,2c0f:3f90::,28,available,*
 *,ipv6,2c0f:3fa0::,27,available,*
-*,ipv6,2c0f:3fc0::,26,available,*
+*,ipv6,2c0f:3fc1::,32,available,*
+*,ipv6,2c0f:3fc2::,31,available,*
+*,ipv6,2c0f:3fc4::,30,available,*
+*,ipv6,2c0f:3fc8::,29,available,*
+*,ipv6,2c0f:3fd0::,28,available,*
+*,ipv6,2c0f:3fe0::,27,available,*
 *,ipv6,2c0f:4001::,32,available,*
 *,ipv6,2c0f:4002::,31,available,*
 *,ipv6,2c0f:4004::,30,available,*
@@ -8576,7 +8580,7 @@ GH,ipv4,102.23.112.0,22,allocated,*
 GH,ipv4,102.69.220.0,22,allocated,[328494;GH;WirelessPlus-3D]
 GH,ipv4,102.176.0.0,17,allocated,[29614;GH;GHANATEL-AS]
 GH,ipv4,102.177.100.0,22,allocated,[328261;GH;E-Connecta]
-GH,ipv4,102.204.32.0,22,allocated,
+GH,ipv4,102.204.32.0,22,allocated,[329649;GH;Carl_Tech_IT_Solutions_LTD]
 GH,ipv4,102.204.144.0,22,allocated,[329624;GH;MONINET]
 GH,ipv4,102.205.24.0,22,allocated,*
 GH,ipv4,102.205.56.0,22,allocated,[329591;GH;Dynamic-Data-Solutions]
@@ -8637,7 +8641,7 @@ GH,ipv6,2c0f:1640::,32,allocated,[329309;GH;West-Africa-Data-Centres-Limited]
 GH,ipv6,2c0f:1d80::,32,allocated,[33786;GH;KNet]
 GH,ipv6,2c0f:2b00::,32,allocated,[328984;GH;RL4-AS]
 GH,ipv6,2c0f:2fc0::,32,allocated,*
-GH,ipv6,2c0f:3ec0::,32,allocated,
+GH,ipv6,2c0f:3ec0::,32,allocated,[329649;GH;Carl_Tech_IT_Solutions_LTD]
 GH,ipv6,2c0f:47c0::,32,allocated,[329482;GH;OPIN-TECHNOLOGIES]
 GH,ipv6,2c0f:5c40::,32,allocated,[329332;GH;Freedotel]
 GH,ipv6,2c0f:6bc0::,32,allocated,[329591;GH;Dynamic-Data-Solutions]
@@ -8786,6 +8790,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.204.16.0,22,allocated,*
 KE,ipv4,102.204.52.0,22,allocated,*
 KE,ipv4,102.204.84.0,22,allocated,[328734;KE;Tandaa-Networks]
 KE,ipv4,102.204.123.0,24,allocated,[329636;KE;Imani_Labs_Limited]
@@ -9039,6 +9044,7 @@ KE,ipv6,2c0f:3ac0::,32,allocated,[329636;KE;Imani_Labs_Limited]
 KE,ipv6,2c0f:3b00::,32,allocated,[328993;KE;Click-Fiber-AS]
 KE,ipv6,2c0f:3b40::,32,allocated,[329452;KE;Alwen-Networks]
 KE,ipv6,2c0f:3f00::,32,allocated,[328994;KE;NCL4-AS]
+KE,ipv6,2c0f:3fc0::,32,allocated,*
 KE,ipv6,2c0f:4140::,32,allocated,[329239;KE;Xcobean-Systems-AS]
 KE,ipv6,2c0f:42c0::,32,allocated,[329341;KE;Tatu-Telecom-Company-SEZ-Limited]
 KE,ipv6,2c0f:4440::,32,allocated,[329278;KE;truehostcloud]
@@ -11010,7 +11016,8 @@ ZA,ipv4,102.177.64.0,21,allocated,[328262;ZA;Internet-Uncapped]
 ZA,ipv4,102.177.112.0,20,allocated,[37072;ZA;CMCNETWORKS][25818;ZA;CMCNETWORKS]
 ZA,ipv4,102.177.128.0,18,allocated,[328239;ZA;EvoNet-AS]
 ZA,ipv4,102.182.0.0,16,allocated,[328871;ZA;AFRIHOST-SP][37611;ZA;AFRIHOST-SP]
-ZA,ipv4,102.204.36.0,22,allocated,
+ZA,ipv4,102.204.20.0,22,allocated,[328157;ZA;VirtualComms]
+ZA,ipv4,102.204.36.0,22,allocated,[329648;ZA;CSSi_South_Africa_Pty_Ltd]
 ZA,ipv4,102.204.56.0,22,allocated,[327966;ZA;FJ-Wiese-CC]
 ZA,ipv4,102.204.60.0,22,allocated,[329643;ZA;IO_FROM_AFRICA_PTY_LTD]
 ZA,ipv4,102.204.72.0,22,allocated,[329639;ZA;JFSWISP_PTY_LTD]
@@ -12080,7 +12087,7 @@ ZA,ipv6,2c0f:7900::,32,allocated,[328935;ZA;PC6-AS]
 ZA,ipv6,2c0f:7ac0::,32,allocated,[328157;ZA;VirtualComms]
 ZA,ipv6,2c0f:7b80::,32,allocated,[37137;ZA;Vodacom-Business-Africa][37114;ZA;vodacom-business]
 ZA,ipv6,2c0f:7d00::,32,allocated,[328942;ZA;IIL3-AS]
-ZA,ipv6,2c0f:7dc0::,32,allocated,
+ZA,ipv6,2c0f:7dc0::,32,allocated,[329648;ZA;CSSi_South_Africa_Pty_Ltd]
 ZA,ipv6,2c0f:7e80::,32,allocated,[329144;ZA;EDGETECH]
 ZA,ipv6,2c0f:7f40::,32,allocated,[329081;ZA;CENTRACOM-2][329080;ZA;CENTRACOM-2][327791;ZA;Centracom]
 ZA,ipv6,2c0f:7f80::,32,allocated,[328517;ZA;Infinity-Wireless-AS]
