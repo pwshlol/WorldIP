@@ -3549,7 +3549,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,20,available,*
 *,ipv4,102.204.44.0,23,available,*
-*,ipv4,102.204.46.0,24,available,*
 *,ipv4,102.204.88.0,22,available,*
 *,ipv4,102.204.96.0,21,available,*
 *,ipv4,102.204.104.0,22,available,*
@@ -7744,7 +7743,7 @@ BF,ipv4,102.69.152.0,22,allocated,*
 BF,ipv4,102.176.176.0,22,allocated,[328316;BF;Point-Atterissement-AS]
 BF,ipv4,102.178.0.0,15,allocated,[37577;BF;Orange-]
 BF,ipv4,102.180.0.0,16,allocated,[37577;BF;Orange-]
-BF,ipv4,102.204.24.0,22,allocated,
+BF,ipv4,102.204.24.0,22,allocated,[329651;BF;integris]
 BF,ipv4,102.204.125.0,24,allocated,[329633;BF;SERENITY_SARL]
 BF,ipv4,102.207.224.0,22,allocated,[329485;BF;Bridge-Fiber]
 BF,ipv4,102.212.160.0,23,allocated,[37734;BF;Virtix-Datacenter][37721;BF;Virtual-Technologies-Solutions-SA]
@@ -7772,7 +7771,7 @@ BF,ipv6,2c0f:4ac0::,32,allocated,[329485;BF;Bridge-Fiber]
 BF,ipv6,2c0f:5700::,32,allocated,[328967;BF;PA16-AS]
 BF,ipv6,2c0f:5a40::,32,allocated,[37073;BF;IPP-burkina-as]
 BF,ipv6,2c0f:7840::,32,allocated,[328721;BF;Groupe-Netforce-AS]
-BF,ipv6,2c0f:7ec0::,32,allocated,
+BF,ipv6,2c0f:7ec0::,32,allocated,[329651;BF;integris]
 BF,ipv6,2c0f:e948::,32,allocated,[328716;BF;VIPNET-BUKINA-FASO]
 BF,ipv6,2c0f:ea50::,32,allocated,[328534;BF;AFREENET-SA]
 BF,ipv6,2c0f:eb58::,32,allocated,*
@@ -13067,6 +13066,7 @@ NG,ipv4,102.131.64.0,18,assigned,[328362;NG;UniversityIlorin-AS]
 NG,ipv4,102.131.128.0,17,assigned,[37420;NG;UNIV-JOS]
 NG,ipv4,102.141.233.0,24,assigned,[328332;NG;FEAP-AS]
 NG,ipv4,102.141.234.0,24,assigned,[328324;NG;FederalUniversity-AS]
+NG,ipv4,102.204.46.0,24,assigned,
 NG,ipv4,102.204.215.0,24,assigned,[329623;NG;NETWORK_INTERNATIONAL_PAYMENTS_SERVICES_NIGERIA_LIMITED]
 NG,ipv4,102.204.252.0,24,assigned,[329613;NG;Iris-Smart-Technologies]
 NG,ipv4,102.205.204.0,23,assigned,[329547;NG;Alpha_Morgan_Bank_Limited]
@@ -13234,7 +13234,7 @@ SL,ipv6,2001:43f8:b0::,48,assigned,[37117;SL;IXPSL-AS]
 SL,ipv6,2001:43f8:a90::,48,assigned,[327903;SL;MICG]
 SN,ipv4,102.36.136.0,22,assigned,[328650;SN;Universite-numerique-Cheikh-Hamidou-KANE]
 SN,ipv4,102.36.147.0,24,assigned,[328558;SN;Senelec-AS]
-SN,ipv4,102.204.28.0,22,assigned,
+SN,ipv4,102.204.28.0,22,assigned,[329650;SN;CINERI]
 SN,ipv4,102.207.140.0,24,assigned,[329517;SN;LA-DIRECTION-GENERALE-DES-DOUANES]
 SN,ipv4,102.208.110.0,23,assigned,[328558;SN;Senelec-AS]
 SN,ipv4,102.209.164.0,22,assigned,[329407;SN;UCAD1]
@@ -13260,7 +13260,7 @@ SN,ipv6,2001:43f8:1750::,48,assigned,[329507;SN;HUBSIX-MGMT][37803;SN;HUBSIX-Pee
 SN,ipv6,2001:43f8:1751::,48,assigned,[329507;SN;HUBSIX-MGMT][37803;SN;HUBSIX-Peering]
 SN,ipv6,2001:43f8:17a0::,48,assigned,[329398;SN;ESMT]
 SN,ipv6,2001:43fe:7000::,48,assigned,[329407;SN;UCAD1]
-SN,ipv6,2001:43fe:c800::,48,assigned,
+SN,ipv6,2001:43fe:c800::,48,assigned,[329650;SN;CINERI]
 SO,ipv4,102.68.144.0,21,assigned,[328435;SO;Economic-Strategic-Research-Center-AS]
 SO,ipv4,196.11.62.0,24,assigned,[37644;SO;MIPT-AS]
 SO,ipv4,196.49.58.0,24,assigned,[328363;SO;SOIXP-Management-AS][327764;SO;SomaliREN][37781;SO;SOIXP-PEERING-AS]
