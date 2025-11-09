@@ -3548,8 +3548,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.192.0.0,13,available,*
 *,ipv4,102.200.0.0,14,available,*
 *,ipv4,102.204.0.0,21,available,*
-*,ipv4,102.204.8.0,22,available,*
-*,ipv4,102.204.14.0,23,available,*
+*,ipv4,102.204.15.0,24,available,*
 *,ipv4,102.204.88.0,22,available,*
 *,ipv4,102.204.96.0,21,available,*
 *,ipv4,102.204.104.0,22,available,*
@@ -3572,7 +3571,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4::,30,available,*
 *,ipv6,2c0f:8::,29,available,*
 *,ipv6,2c0f:10::,28,available,*
-*,ipv6,2c0f:20::,27,available,*
+*,ipv6,2c0f:21::,32,available,*
+*,ipv6,2c0f:22::,31,available,*
+*,ipv6,2c0f:24::,30,available,*
+*,ipv6,2c0f:28::,29,available,*
+*,ipv6,2c0f:30::,28,available,*
 *,ipv6,2c0f:41::,32,available,*
 *,ipv6,2c0f:42::,31,available,*
 *,ipv6,2c0f:44::,30,available,*
@@ -7409,7 +7412,17 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43fe:e100::,40,available,*
 *,ipv6,2001:43fe:e200::,39,available,*
 *,ipv6,2001:43fe:e400::,38,available,*
-*,ipv6,2001:43fe:e800::,37,available,*
+*,ipv6,2001:43fe:e801::,48,available,*
+*,ipv6,2001:43fe:e802::,47,available,*
+*,ipv6,2001:43fe:e804::,46,available,*
+*,ipv6,2001:43fe:e808::,45,available,*
+*,ipv6,2001:43fe:e810::,44,available,*
+*,ipv6,2001:43fe:e820::,43,available,*
+*,ipv6,2001:43fe:e840::,42,available,*
+*,ipv6,2001:43fe:e880::,41,available,*
+*,ipv6,2001:43fe:e900::,40,available,*
+*,ipv6,2001:43fe:ea00::,39,available,*
+*,ipv6,2001:43fe:ec00::,38,available,*
 *,ipv6,2001:43fe:f000::,48,available,*
 *,ipv6,2001:43fe:f001::,48,available,*
 *,ipv6,2001:43fe:f002::,47,available,*
@@ -8806,6 +8819,7 @@ KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
 KE,ipv4,102.204.12.0,23,allocated,
+KE,ipv4,102.204.14.0,24,allocated,
 KE,ipv4,102.204.16.0,22,allocated,*
 KE,ipv4,102.204.52.0,22,allocated,*
 KE,ipv4,102.204.84.0,22,allocated,[328734;KE;Tandaa-Networks]
@@ -9010,6 +9024,7 @@ KE,ipv4,197.254.0.0,17,allocated,*
 KE,ipv4,212.22.160.0,19,allocated,[12556;KE;internet-solutions-ke]
 KE,ipv4,212.49.64.0,19,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,217.199.144.0,20,allocated,*
+KE,ipv6,2c0f:20::,32,allocated,
 KE,ipv6,2c0f:80::,32,allocated,[329002;KE;PAID1-AS]
 KE,ipv6,2c0f:c0::,32,allocated,[329468;KE;ELEPHANT-TECHNOLOGY-LIMITED]
 KE,ipv6,2c0f:340::,32,allocated,[329246;KE;HANIF-TELECOM-LIMITED]
@@ -13328,6 +13343,7 @@ TZ,ipv4,102.23.218.0,23,assigned,[328557;TZ;DIAMOND-TRUST-BANK-TANZANIA-AS]
 TZ,ipv4,102.68.64.0,22,assigned,[328478;TZ;Exim-Bank-TZ-AS]
 TZ,ipv4,102.68.71.0,24,assigned,[328504;TZ;National-Identification-Authority-AS]
 TZ,ipv4,102.165.191.0,24,assigned,[37045;TZ;tznic]
+TZ,ipv4,102.204.8.0,22,assigned,
 TZ,ipv4,102.204.122.0,24,assigned,[328607;TZ;UBX-AS]
 TZ,ipv4,102.205.62.0,24,assigned,[329595;TZ;Tanzania-Railways-Corporation]
 TZ,ipv4,102.205.233.0,24,assigned,[329545;TZ;DCB-Commercial-Bank]
@@ -13396,6 +13412,7 @@ TZ,ipv6,2001:43f8:14d0::,48,assigned,[328700;TZ;TIX-CDN][328326;TZ;TISPA-MBIXP-A
 TZ,ipv6,2001:43fc:2000::,48,assigned,[328930;TZ;TNEC-AS]
 TZ,ipv6,2001:43fd:e000::,48,assigned,[328700;TZ;TIX-CDN][328326;TZ;TISPA-MBIXP-AS][328325;TZ;TISPA-DIXP-AS][328294;TZ;TISPA-ZIXP-MGMT-AS][328022;TZ;MWANXA-IXP-mgmnt][327852;TZ;TISPA-AIXP-MNGNT][327844;TZ;TISPA-TIX-MANAGEMENT][37779;TZ;TISPA-MBIXP-PEERING-AS][37778;TZ;TISPA-DIXP-PEERING-AS][37777;TZ;TISPA-ZIXP-PEERING-AS][37769;TZ;MWANZA-IXP-peering][37710;TZ;AIXP-Route-Server][33791;TZ;TIX-ASN]
 TZ,ipv6,2001:43fe:b000::,48,assigned,[329420;TZ;Azania-Bank]
+TZ,ipv6,2001:43fe:e800::,48,assigned,
 TZ,ipv6,2001:43ff:2000::,48,assigned,[328980;TZ;ISOT-AS]
 UG,ipv4,80.88.2.0,24,assigned,[328233;UG;DFCU-Bank-AS]
 UG,ipv4,102.68.124.0,24,assigned,[328462;UG;National-Social-Security-Fund-AS]
