@@ -2919,6 +2919,7 @@ apnic,AU,ipv4,138.252.90.0,24,[151497;AU;IA-AS-AP Imaging Associates]
 apnic,AU,ipv4,138.252.138.0,24,[142114;AU;ALEXANDRINACOUNCIL-AS-AP Alexandrina Council]
 apnic,AU,ipv4,138.252.154.0,23,[147028;AU;QCNPL-AS-AP QCN]
 apnic,AU,ipv4,138.252.156.0,24,[147016;AU;WEBSCHOOL-AS-AP WEBSCHOOL.AU PTY LTD]
+apnic,AU,ipv4,138.252.216.0,24,*
 apnic,AU,ipv4,140.168.248.0,23,[139055;AU;AIL-AS-AP AVANTEOS INVESTMENTS LIMITED]
 apnic,AU,ipv4,146.88.144.0,23,[63913;AU;IMPL-AU Ingram Micro Pty Ltd]
 apnic,AU,ipv4,150.107.72.0,22,[133159;AU;MAMMOTHMEDIA-AS-AP Mammoth Media Pty Ltd]
@@ -7426,7 +7427,6 @@ apnic,CN,ipv6,2001:df3:9a40::,48,[151493;CN;BKTCL-AS-AP Beijing Kouding Technolo
 apnic,CN,ipv6,2001:df3:a680::,48,*
 apnic,CN,ipv6,2001:df3:c680::,48,[140633;CN;BILIBILIHKLIMITED-AS-AP BILIBILI HK LIMITED]
 apnic,CN,ipv6,2001:df3:d0c0::,48,[141172;CN;TIANAOCHEN-AS-AP Tianao Chen]
-apnic,CN,ipv6,2001:df3:d880::,48,*
 apnic,CN,ipv6,2001:df3:ef80::,48,[140714;CN;ANT-AS-AP Agilenaas Network Technology Shanghai Co .Ltd]
 apnic,CN,ipv6,2001:df4:1880::,48,*
 apnic,CN,ipv6,2001:df4:2780::,48,*
@@ -7675,7 +7675,7 @@ apnic,HK,ipv4,103.148.231.0,24,[138516;HK;CVG-AS-AP CommVerge Solutions Limited]
 apnic,HK,ipv4,103.149.82.0,24,[137022;HK;BOERBOELTRADING-AS-AP BOERBOEL LLC]
 apnic,HK,ipv4,103.149.83.0,24,[137405;HK;KAPL-AS-AP KERING ASIA PACIFIC LIMITED]
 apnic,HK,ipv4,103.149.102.0,24,[140240;HK;LWHKL-AS-AP LeeWrangler Hong Kong Limited]
-apnic,HK,ipv4,103.150.28.0,24,[140542;HK;CCT-AS-AP CCT Technologies Co.  Limited]
+apnic,HK,ipv4,103.150.28.0,24,[140542;HK;CCT-AS-AP CCT Technologies Co.  Limited][135509;HK;CCCCL-AS-AP CN Care Cyber Cloud Limited]
 apnic,HK,ipv4,103.150.104.0,24,[138994;HK;CIBL1-HK China International Business Limited]
 apnic,HK,ipv4,103.150.118.0,23,[151206;HK;HKCLOUDDATA-AS-AP HK CLOUD DATA CO.  LIMITED][150337;HK;HKPENG-AS-AP PENG CLOUD TECHNOLOGY LIMITED][149641;HK;HKXC-AS-AP XCLOUD TECHNOLOGY LIMITED][142267;HK;HKBEE-AS-AP Hong Kong Beecloud System Technology Services Limited][140570;HK;HKBCS-AS-AP Hong Kong Beecloud System Technology Services Limited][138542;HK;ZTINFO-AS-HK ZT Information Network Co.  Limited]
 apnic,HK,ipv4,103.150.184.0,23,[140591;HK;TESUCH-AS-AP HK TESUCH GLOBAL CO.  LIMITED]
@@ -8115,7 +8115,7 @@ apnic,HK,ipv6,2001:df3:4080::,48,[142032;HK;HFTCL-AS-AP High Family Technology C
 apnic,HK,ipv6,2001:df3:49c0::,48,[152179;HK;GCNL-AS-AP GLOBAL COMMUNICATION NETWORK LIMITED][148996;HK;GCNL-AS-AP GLOBAL COMMUNICATION NETWORK LIMITED][136739;HK;ASIACOLOHKLIMITED-AS-HK Asia Colo HK Limited]
 apnic,HK,ipv6,2001:df3:4dc0::,48,[152159;HK;HZCL-AS-AP HK ZUNGWAI CLOUD LIMITED]
 apnic,HK,ipv6,2001:df3:5040::,48,[152194;HK;CTGSERVERLIMITED-AS-AP CTG Server Limited]
-apnic,HK,ipv6,2001:df3:5180::,48,[140542;HK;CCT-AS-AP CCT Technologies Co.  Limited]
+apnic,HK,ipv6,2001:df3:5180::,48,*
 apnic,HK,ipv6,2001:df3:5500::,48,*
 apnic,HK,ipv6,2001:df3:65c0::,48,[152330;HK;ALLLAN-AS-AP Alllan Communications Co.  Limited]
 apnic,HK,ipv6,2001:df3:7240::,48,[151630;HK;HKYZKJ-AS-AP Yun Zhong Technology Limited]
@@ -10129,6 +10129,8 @@ apnic,ID,ipv4,138.252.193.0,24,*
 apnic,ID,ipv4,138.252.203.0,24,*
 apnic,ID,ipv4,138.252.209.0,24,*
 apnic,ID,ipv4,138.252.210.0,24,*
+apnic,ID,ipv4,138.252.217.0,24,*
+apnic,ID,ipv4,138.252.222.0,24,*
 apnic,ID,ipv4,139.5.148.0,22,*
 apnic,ID,ipv4,139.5.152.0,22,*
 apnic,ID,ipv4,144.48.12.0,22,*
@@ -12416,6 +12418,8 @@ apnic,ID,ipv6,2001:df6:4dc0::,48,*
 apnic,ID,ipv6,2001:df6:4e80::,48,*
 apnic,ID,ipv6,2001:df6:51c0::,48,*
 apnic,ID,ipv6,2001:df6:5300::,48,*
+apnic,ID,ipv6,2001:df6:53c0::,48,*
+apnic,ID,ipv6,2001:df6:5440::,48,*
 apnic,ID,ipv6,2001:df6:5500::,48,*
 apnic,ID,ipv6,2001:df6:5600::,48,*
 apnic,ID,ipv6,2001:df6:5700::,48,*
@@ -19794,6 +19798,7 @@ apnic,MN,ipv4,103.229.176.0,22,[133453;MN;MOGULSS-AS-AP Mogul Service LLC]
 apnic,MN,ipv4,103.236.194.0,23,[24496;MN;GNET-AS-MN GNET Co. Ltd Internet Service Provider Mongolia]
 apnic,MN,ipv4,138.252.28.0,23,[154290;MN;NEWFUNDNBFILLC-AS-AP Newfund NBFI LLC]
 apnic,MN,ipv4,138.252.202.0,24,[154359;MN;APUCOMPANY-AS-AP APU Company]
+apnic,MN,ipv4,138.252.220.0,23,
 apnic,MN,ipv4,157.15.6.0,23,[152337;MN;NUM-AS-AP National University of Mongolia]
 apnic,MN,ipv4,160.22.210.0,23,[152926;MN;ULAANBAATAR-AS-AP Digital Development and Information Technology Department]
 apnic,MN,ipv4,160.187.40.0,23,*
@@ -19830,6 +19835,7 @@ apnic,MN,ipv6,2001:df4:4c80::,48,[140931;MN;FIBOGLOBALLLC-AS-AP Fibo Global LLC]
 apnic,MN,ipv6,2001:df5:e100::,48,[137982;MN;BOWLLC-AS-AP BOW LLC]
 apnic,MN,ipv6,2001:df6:32c0::,48,[154290;MN;NEWFUNDNBFILLC-AS-AP Newfund NBFI LLC]
 apnic,MN,ipv6,2001:df6:4fc0::,48,[154359;MN;APUCOMPANY-AS-AP APU Company]
+apnic,MN,ipv6,2001:df6:5340::,48,
 apnic,MN,ipv6,2001:df6:5a80::,48,[142023;MN;NEXUSMONGOLIA-AS-AP NEXUS]
 apnic,MN,ipv6,2001:df6:c980::,48,*
 apnic,MO,ipv4,103.240.56.0,23,[138164;MO;MUST-AS-AP Macau University of Science and Technology]
@@ -23201,6 +23207,7 @@ apnic,VN,ipv4,121.200.216.0,23,*
 apnic,VN,ipv4,138.252.132.0,23,*
 apnic,VN,ipv4,138.252.142.0,23,*
 apnic,VN,ipv4,138.252.152.0,23,*
+apnic,VN,ipv4,138.252.218.0,23,*
 apnic,VN,ipv4,157.10.52.0,23,*
 apnic,VN,ipv4,157.10.86.0,23,*
 apnic,VN,ipv4,157.10.188.0,23,*
@@ -29836,6 +29843,7 @@ ripencc,CA,ipv4,46.174.184.0,21,[62160;CA;GM-AS WEB3 Leaders INC][61316;CA;iPROs
 ripencc,CA,ipv4,91.230.28.0,22,[198972;CA;TANGRAM-CA-AS TANGRAM CANADA INC]
 ripencc,CA,ipv4,161.115.64.0,19,[28944;CA;TataMedia TATA Communications (Canada) Ltd.][8297;CA;GIEUROPE TATA Communications (Canada) Ltd.]
 ripencc,CA,ipv4,168.222.184.0,22,[12989;CA;BlackHOST Black HOST Ltd]
+ripencc,CA,ipv4,168.222.244.0,22,*
 ripencc,CA,ipv4,176.116.152.0,21,*
 ripencc,CA,ipv4,193.33.212.0,23,[62160;CA;GM-AS WEB3 Leaders INC][61316;CA;iPROsrv WEB3 Leaders INC][42865;CA;euShield WEB3 Leaders INC][24700;CA;Paritetweb-AS WEB3 Leaders INC]
 ripencc,CA,ipv4,193.106.248.0,22,[50499;CA;INETCLOUD-AS INETCLOUD Inc.]
@@ -32258,6 +32266,7 @@ ripencc,DE,ipv4,143.163.0.0,16,[206618;DE;VOLKSWAGEN Volkswagen AG]
 ripencc,DE,ipv4,143.164.0.0,16,*
 ripencc,DE,ipv4,144.41.0.0,16,*
 ripencc,DE,ipv4,144.76.0.0,16,*
+ripencc,DE,ipv4,144.124.208.0,20,[205634;DE;PF Prime Formation GmbH]
 ripencc,DE,ipv4,145.11.64.0,18,[42366;DE;TERRATRANSIT-AS TerraTransit AG]
 ripencc,DE,ipv4,145.14.128.0,23,[42366;DE;TERRATRANSIT-AS TerraTransit AG]
 ripencc,DE,ipv4,145.14.130.0,24,[207082;DE;X-ION-WORLD x-ion GmbH][60664;DE;X-ION x-ion GmbH][34455;DE;HotSpotDrive x-ion GmbH]
@@ -34214,6 +34223,7 @@ ripencc,DE,ipv4,194.99.120.0,21,*
 ripencc,DE,ipv4,194.99.128.0,20,*
 ripencc,DE,ipv4,194.99.144.0,20,[60123;DE;REMSCHEID-AS Stadtverwaltung Remscheid]
 ripencc,DE,ipv4,194.99.160.0,17,*
+ripencc,DE,ipv4,194.102.215.0,24,*
 ripencc,DE,ipv4,194.105.40.0,21,[203437;DE;CGM CompuGroup Medical SE & Co. KGaA]
 ripencc,DE,ipv4,194.105.146.0,23,*
 ripencc,DE,ipv4,194.107.81.0,24,*
@@ -36376,6 +36386,7 @@ ripencc,ES,ipv4,161.111.0.0,16,*
 ripencc,ES,ipv4,161.116.0.0,16,*
 ripencc,ES,ipv4,163.117.0.0,16,*
 ripencc,ES,ipv4,167.150.22.0,24,[206215;ES;AS-SKIDBLADNIR_LABS Skidbladnir Labs  S.L.]
+ripencc,ES,ipv4,167.150.220.0,24,[206215;ES;AS-SKIDBLADNIR_LABS Skidbladnir Labs  S.L.]
 ripencc,ES,ipv4,167.150.223.0,24,[204269;ES;MATTEO-AS Mateo De la Hoz]
 ripencc,ES,ipv4,176.96.192.0,19,[12479;ES;UNI2-AS Orange Espagne SA]
 ripencc,ES,ipv4,176.97.224.0,22,[212833;ES;cwalcoy-as FIBRAWORLD TELECOM S.A.U.][207050;ES;AS_CABLEWORLDELDA FIBRAWORLD TELECOM S.A.U.][205981;ES;CWSANVICENTE-AS FIBRAWORLD TELECOM S.A.U.][200738;ES;INTERFIBRA-AS FIBRAWORLD TELECOM S.A.U.][60267;ES;CABLERWORLD-MURCIA-AS FIBRAWORLD TELECOM S.A.U.][39339;ES;TELEYECLA-AS FIBRAWORLD TELECOM S.A.U.][3339;ES;FIBRAWORLD-AS FIBRAWORLD TELECOM S.A.U.]
@@ -36389,10 +36400,10 @@ ripencc,ES,ipv4,176.120.168.0,21,[58327;ES;GLOBE-OPERATOR-TELECOM FIBERGREEN TEC
 ripencc,ES,ipv4,185.1.20.0,24,[208036;ES;Tecnocratica-extra Tecnocratica Centro de Datos  S.L.][62376;ES;ToroIX Tecnocratica Centro de Datos  S.L.][60682;ES;ATEINCO Tecnocratica Centro de Datos  S.L.][29117;ES;ChatHispano Asociacion IRC Hispano][16134;ES;Tecnocratica-Anycast Tecnocratica Centro de Datos  S.L.][15954;ES;Tecnocratica Tecnocratica Centro de Datos  S.L.]
 ripencc,ES,ipv4,185.1.22.0,24,[34952;ES;EQUINIX-CLOUD-EXCHANGE-BA-ASN EQUINIX (SPAIN) ENTERPRISES SLU][15734;ES;Equinix-Connect-Iberia EQUINIX (SPAIN) ENTERPRISES SLU]
 ripencc,ES,ipv4,185.1.68.0,24,[210505;ES;lo0 Fibercli Proyectos e Innovacion S.L.][209235;ES;fibercli Fibercli Proyectos e Innovacion S.L.][202349;ES;Fibrabox Fibercli Proyectos e Innovacion S.L.]
-ripencc,ES,ipv4,185.1.90.0,24,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][199531;ES;carbonet Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
+ripencc,ES,ipv4,185.1.90.0,24,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
 ripencc,ES,ipv4,185.1.143.0,24,[34952;ES;EQUINIX-CLOUD-EXCHANGE-BA-ASN EQUINIX (SPAIN) ENTERPRISES SLU][15734;ES;Equinix-Connect-Iberia EQUINIX (SPAIN) ENTERPRISES SLU]
 ripencc,ES,ipv4,185.1.237.0,24,[57542;ES;NIXVAL-IXP FALBOX S.L. trading as NIXVAL][13287;ES;NIXVAL FALBOX S.L. trading as NIXVAL]
-ripencc,ES,ipv4,185.1.242.0,24,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][199531;ES;carbonet Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
+ripencc,ES,ipv4,185.1.242.0,24,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
 ripencc,ES,ipv4,188.239.128.0,19,[12479;ES;UNI2-AS Orange Espagne SA]
 ripencc,ES,ipv4,192.67.79.0,24,*
 ripencc,ES,ipv4,192.77.140.0,24,*
@@ -36425,7 +36436,7 @@ ripencc,ES,ipv4,192.149.19.0,24,*
 ripencc,ES,ipv4,192.159.84.0,24,*
 ripencc,ES,ipv4,192.159.85.0,24,*
 ripencc,ES,ipv4,192.160.33.0,24,*
-ripencc,ES,ipv4,192.162.12.0,22,[44233;ES;SPCNET-AS SPC Net Soluciones de Negocio Electronico S.L.]
+ripencc,ES,ipv4,192.162.12.0,22,[208222;ES;BULLHOST Bullhost Cloud Services  SL][44233;ES;SPCNET-AS SPC Net Soluciones de Negocio Electronico S.L.]
 ripencc,ES,ipv4,192.166.148.0,22,[15364;ES;ASN-TECAVICAS Tecavicas S.L.]
 ripencc,ES,ipv4,192.187.24.0,23,[25354;ES;RED-ES-AS Entidad Publica Empresarial Red.es][766;ES;RedIRIS Entidad Publica Empresarial Red.es]
 ripencc,ES,ipv4,192.207.25.0,24,*
@@ -36547,20 +36558,20 @@ ripencc,ES,ipv6,2001:678:44::,48,[25354;ES;RED-ES-AS Entidad Publica Empresarial
 ripencc,ES,ipv6,2001:678:48::,48,[25354;ES;RED-ES-AS Entidad Publica Empresarial Red.es][766;ES;RedIRIS Entidad Publica Empresarial Red.es]
 ripencc,ES,ipv6,2001:7f8:2a::,48,[60082;ES;CATNIX-RS Consorci de Serveis Universitaris de Catalunya][49638;ES;CATNIX Consorci de Serveis Universitaris de Catalunya][13041;ES;CESCA-AC Consorci de Serveis Universitaris de Catalunya]
 ripencc,ES,ipv6,2001:7f8:7e::,48,[208036;ES;Tecnocratica-extra Tecnocratica Centro de Datos  S.L.][62376;ES;ToroIX Tecnocratica Centro de Datos  S.L.][60682;ES;ATEINCO Tecnocratica Centro de Datos  S.L.][29117;ES;ChatHispano Asociacion IRC Hispano][16134;ES;Tecnocratica-Anycast Tecnocratica Centro de Datos  S.L.][15954;ES;Tecnocratica Tecnocratica Centro de Datos  S.L.]
-ripencc,ES,ipv6,2001:7f8:b2::,48,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][199531;ES;carbonet Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
+ripencc,ES,ipv6,2001:7f8:b2::,48,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
 ripencc,ES,ipv6,2001:7f8:c6::,48,[34952;ES;EQUINIX-CLOUD-EXCHANGE-BA-ASN EQUINIX (SPAIN) ENTERPRISES SLU][15734;ES;Equinix-Connect-Iberia EQUINIX (SPAIN) ENTERPRISES SLU]
 ripencc,ES,ipv6,2001:7f8:de::,48,[34952;ES;EQUINIX-CLOUD-EXCHANGE-BA-ASN EQUINIX (SPAIN) ENTERPRISES SLU][15734;ES;Equinix-Connect-Iberia EQUINIX (SPAIN) ENTERPRISES SLU]
 ripencc,ES,ipv6,2001:678:2f4::,48,[49054;ES;Tuenti TELEFONICA INNOVACION DIGITAL SL][42976;ES;TELEFONICA TELEFONICA INNOVACION DIGITAL SL]
 ripencc,ES,ipv6,2001:678:2f8::,48,[49054;ES;Tuenti TELEFONICA INNOVACION DIGITAL SL][42976;ES;TELEFONICA TELEFONICA INNOVACION DIGITAL SL]
 ripencc,ES,ipv6,2001:678:2fc::,48,[49054;ES;Tuenti TELEFONICA INNOVACION DIGITAL SL][42976;ES;TELEFONICA TELEFONICA INNOVACION DIGITAL SL]
 ripencc,ES,ipv6,2001:678:310::,48,[62080;ES;aalmenar Adrian Almenar Serrano]
-ripencc,ES,ipv6,2001:678:420::,48,*
+ripencc,ES,ipv6,2001:678:420::,48,[208222;ES;BULLHOST Bullhost Cloud Services  SL][44233;ES;SPCNET-AS SPC Net Soluciones de Negocio Electronico S.L.]
 ripencc,ES,ipv6,2001:678:508::,48,*
 ripencc,ES,ipv6,2001:678:930::,48,[59908;ES;ISLALINK BalaLink S.A.]
 ripencc,ES,ipv6,2001:678:c28::,48,*
 ripencc,ES,ipv6,2001:678:dd4::,48,[212998;ES;VICTORROMAN Victor Roman Archidona]
 ripencc,ES,ipv6,2001:678:ff4::,48,[211033;ES;ASCORIAWEB Jose Poyato Prieto]
-ripencc,ES,ipv6,2001:67c:400::,48,*
+ripencc,ES,ipv6,2001:67c:400::,48,[208222;ES;BULLHOST Bullhost Cloud Services  SL][44233;ES;SPCNET-AS SPC Net Soluciones de Negocio Electronico S.L.]
 ripencc,ES,ipv6,2001:67c:7d8::,48,[31676;ES;PENTALOG-AS Software Product Creation SL]
 ripencc,ES,ipv6,2001:67c:820::,48,[210904;ES;CGL-AS CHRISTIAN GARCIA LOZANO]
 ripencc,ES,ipv6,2001:67c:98c::,48,[212377;ES;ASGUARDIACIVIL Direccion General de la Guardia Civil]
@@ -36571,7 +36582,7 @@ ripencc,ES,ipv6,2001:67c:da8::,48,[215627;ES;KEDARE-NET MATHIEU POUSSIN]
 ripencc,ES,ipv6,2001:67c:f20::,48,[214123;ES;VIRTUALIZAME Virtualizame SL]
 ripencc,ES,ipv6,2001:7f8:118::,48,[210505;ES;lo0 Fibercli Proyectos e Innovacion S.L.][209235;ES;fibercli Fibercli Proyectos e Innovacion S.L.][202349;ES;Fibrabox Fibercli Proyectos e Innovacion S.L.]
 ripencc,ES,ipv6,2001:7f8:127::,48,[57542;ES;NIXVAL-IXP FALBOX S.L. trading as NIXVAL][13287;ES;NIXVAL FALBOX S.L. trading as NIXVAL]
-ripencc,ES,ipv6,2001:7f8:12c::,48,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][199531;ES;carbonet Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
+ripencc,ES,ipv6,2001:7f8:12c::,48,[211653;ES;AS-Rabits-Storage Cesar Maffini Martin][60134;ES;AS-AndaluciaLink Cesar Maffini Martin][42229;ES;AS-IXPlay-MAD-ES Cesar Maffini Martin]
 ripencc,ES,ipv6,2001:7f8:167::,48,[216166;ES;GALNIX PUNTO NEUTRO DE GALICIA GALNIX  S.L.]
 ripencc,ES,ipv6,2001:678:1098::,48,[207363;ES;Manuel_Antonio_Seijo_Bustamante Manuel Antonio Seijo Bustamante]
 ripencc,ES,ipv6,2001:678:1118::,48,[204269;ES;MATTEO-AS Mateo De la Hoz]
@@ -38935,7 +38946,6 @@ ripencc,GB,ipv4,144.82.0.0,16,*
 ripencc,GB,ipv4,144.87.0.0,16,*
 ripencc,GB,ipv4,144.98.0.0,16,[57276;GB;OPTIMITY Vorboss Limited][50056;GB;VORBOSS-ORIG Vorboss Limited][44874;GB;VORBOSS-RD Vorboss Limited][25160;GB;VORBOSS Vorboss Limited]
 ripencc,GB,ipv4,144.124.0.0,17,*
-ripencc,GB,ipv4,144.124.208.0,20,[205634;DE;PF Prime Formation GmbH]
 ripencc,GB,ipv4,144.173.0.0,16,*
 ripencc,GB,ipv4,144.178.106.0,24,*
 ripencc,GB,ipv4,144.178.116.0,24,*
@@ -40590,7 +40600,6 @@ ripencc,GB,ipv6,2001:678:c40::,48,[207754;GB;COLDERWOOD James Colderwood]
 ripencc,GB,ipv6,2001:678:cb0::,48,[204931;GB;PNOSOLUTIONS-AS PNO Solutions Limited][60431;GB;PNO-AS PNO Solutions Limited]
 ripencc,GB,ipv6,2001:678:cb4::,48,[56396;GB;Amobee NEXXEN GROUP LTD]
 ripencc,GB,ipv6,2001:678:d90::,48,[213092;GB;marbleis Marble Information Systems Limited]
-ripencc,GB,ipv6,2001:678:e00::,48,[44471;GB;MENARI Thomas Menari]
 ripencc,GB,ipv6,2001:678:e10::,48,[208915;GB;HyperLink HYPERLXC MEDICAL LTD]
 ripencc,GB,ipv6,2001:678:e78::,48,[60382;GB;CRANLEIGH-AS Cranleigh School]
 ripencc,GB,ipv6,2001:678:f5c::,48,[57483;GB;ICHILTON Ian Chilton]
@@ -40963,6 +40972,7 @@ ripencc,HK,ipv4,84.38.4.0,23,[56447;HK;FE511-AS Kong Lok Consultant Limited]
 ripencc,HK,ipv4,91.198.23.0,24,[214743;HK;COGENTO-AS Cogento Backbone Limited]
 ripencc,HK,ipv4,91.241.19.0,24,[57678;HK;CATTECHNOLOGIES-AS Cat Technologies Co. Limited]
 ripencc,HK,ipv4,130.49.0.0,17,[62300;HK;ASN62300-AS Address Limited][61048;HK;LINK-AS Address Limited][50308;HK;FREE50308 Address Limited][49996;HK;AS49996-AS Address Limited][49842;HK;AS49842-AS Address Limited][42413;HK;AS42413 Address Limited]
+ripencc,HK,ipv4,130.49.156.0,22,*
 ripencc,HK,ipv4,138.249.0.0,16,[62300;HK;ASN62300-AS Address Limited][61048;HK;LINK-AS Address Limited][50308;HK;FREE50308 Address Limited][49996;HK;AS49996-AS Address Limited][49842;HK;AS49842-AS Address Limited][42413;HK;AS42413 Address Limited]
 ripencc,HK,ipv4,146.101.0.0,16,*
 ripencc,HK,ipv4,154.8.0.0,18,*
@@ -45544,9 +45554,7 @@ ripencc,PL,ipv4,91.231.32.0,23,[39507;PL;IPIVISION-AS Biznes Swiatlowodem Sp. z 
 ripencc,PL,ipv4,91.231.36.0,22,[197474;PL;ASECUREX Securex s.c.  Tomasz Raczynski  Piotr Abgarowicz]
 ripencc,PL,ipv4,91.231.44.0,23,[60336;PL;Krakowski-Internet Konrad Szewczyk]
 ripencc,PL,ipv4,91.231.60.0,23,[198158;PL;AGNET-AS FIRMA USLUGOWO-HANDLOWA  AG-net  JOANNA MACZENSKA]
-ripencc,PL,ipv4,91.231.70.0,23,*
 ripencc,PL,ipv4,91.231.72.0,22,[199978;PL;NETCOM Robert Jerzy Opielinski trading as NETCOM COMPUTERS][198048;PL;WINET-AS Robert Jerzy Opielinski trading as NETCOM COMPUTERS]
-ripencc,PL,ipv4,91.231.80.0,22,*
 ripencc,PL,ipv4,91.231.92.0,23,[47672;PL;MON-AS CENTRUM ZASOBOW CYBERPRZESTRZENI SIL ZBROJNYCH]
 ripencc,PL,ipv4,91.231.100.0,22,[15624;PL;OKITECH OKITECH Krzysztof Kusnierczyk]
 ripencc,PL,ipv4,91.231.104.0,22,[198106;PL;SZYMCZAS-NET P.P.H.U. Szymczas Maciej Szymczyk]
@@ -45875,7 +45883,7 @@ ripencc,PL,ipv4,158.75.0.0,16,*
 ripencc,PL,ipv4,162.27.160.0,23,[39174;PL;RRD-AS Walstead Krakow Sp. z o.o.]
 ripencc,PL,ipv4,162.27.162.0,24,[39174;PL;RRD-AS Walstead Krakow Sp. z o.o.]
 ripencc,PL,ipv4,168.222.232.0,22,[38987;PL;OST-ASN Spoldzielnia Telekomunikacyjna OST]
-ripencc,PL,ipv4,168.222.236.0,22,[201990;PL;Techgroup_NET Jakub Bartlomiej Osuch trading as Techgroup]
+ripencc,PL,ipv4,168.222.236.0,22,[198317;PL;KOMPEX Gabriel Sulka trading as Firma Handlowo - Uslugowa KOMPEX Gabriel Sulka][50505;PL;KOMPEX-AS Gabriel Sulka trading as Firma Handlowo - Uslugowa KOMPEX Gabriel Sulka]
 ripencc,PL,ipv4,170.117.202.0,23,[208348;PL;DOMYNET-AS DomyNet Sp. z o.o.]
 ripencc,PL,ipv4,171.25.182.0,24,[57701;PL;ASMTK Myszkowska Telewizja Kablowa Sp. z o.o.]
 ripencc,PL,ipv4,171.25.183.0,24,[61319;PL;Pomorskie Wojewodztwo Pomorskie]
@@ -45886,7 +45894,6 @@ ripencc,PL,ipv4,171.25.230.0,24,[198418;PL;CELcom CELCOM SPOLKA Z OGRANICZONA OD
 ripencc,PL,ipv4,171.25.231.0,24,[33895;PL;PL-TSYSTEMSPL  T-Systems Polska Sp. z o.o. ]
 ripencc,PL,ipv4,176.96.32.0,20,[197956;PL;GART-AS G.ART Technology Artur Grabiec]
 ripencc,PL,ipv4,176.97.16.0,21,[197399;PL;MIASTO_KOSZALIN Gmina Miasto Koszalin]
-ripencc,PL,ipv4,176.97.24.0,21,*
 ripencc,PL,ipv4,176.97.48.0,22,*
 ripencc,PL,ipv4,176.97.52.0,22,[59958;PL;MJ7912-RIPE P.H.U MMJ Marcin Janos]
 ripencc,PL,ipv4,176.97.80.0,20,[198073;PL;TVK-Slupsk MAZOVIA Investment Sp. z o.o.]
@@ -47193,7 +47200,7 @@ ripencc,PL,ipv6,2001:67c:138c::,48,[16167;PL;MBANK-SA MBANK S.A.][13274;PL;MBANK
 ripencc,PL,ipv6,2001:67c:13a4::,48,*
 ripencc,PL,ipv6,2001:67c:143c::,48,[201695;PL;ALARMADI-AS ALARMADI Adrian Dobrogowski]
 ripencc,PL,ipv6,2001:67c:155c::,48,[199265;PL;Inwep Inwep Sp. z o.o.]
-ripencc,PL,ipv6,2001:67c:159c::,48,[201439;PL;DANAR-WOJTYSIAK-AS Artur Wojtysiak trading as Danar Wojtysiak Sp. z o.o.][43073;PL;DANAR-WOJTYSIAK-AS Artur Wojtysiak trading as Danar Wojtysiak Sp. z o.o.]
+ripencc,PL,ipv6,2001:67c:159c::,48,[43073;PL;DANAR-WOJTYSIAK-AS Artur Wojtysiak trading as Danar Wojtysiak Sp. z o.o.]
 ripencc,PL,ipv6,2001:67c:15c4::,48,*
 ripencc,PL,ipv6,2001:67c:1694::,48,[50366;PL;ALTERTEL-AS AlterTEL Sp. z o.o.]
 ripencc,PL,ipv6,2001:67c:1698::,48,[199584;PL;ASUMB Miasto Bialystok]
@@ -47964,7 +47971,6 @@ ripencc,RO,ipv4,194.102.202.0,24,*
 ripencc,RO,ipv4,194.102.203.0,24,[34198;RO;ROL iNES GROUP SRL][21007;RO;DIGICOM iNES GROUP SRL][12310;RO;iNES iNES GROUP SRL]
 ripencc,RO,ipv4,194.102.204.0,24,*
 ripencc,RO,ipv4,194.102.208.0,24,[30885;RO;BNR Banca Nationala a Romaniei]
-ripencc,RO,ipv4,194.102.215.0,24,[34517;RO;MAXNET-AS Maxnet Telecomunicatii SRL]
 ripencc,RO,ipv4,194.102.220.0,24,*
 ripencc,RO,ipv4,194.102.221.0,24,[39737;RO;Prime-Telecom-AS Prime Telecom srl]
 ripencc,RO,ipv4,194.102.223.0,24,*
@@ -48439,7 +48445,6 @@ ripencc,RU,ipv4,46.149.224.0,20,*
 ripencc,RU,ipv4,46.150.128.0,19,[51891;RU;GSPNET-AS GSP ltd.]
 ripencc,RU,ipv4,46.150.160.0,19,*
 ripencc,RU,ipv4,46.150.224.0,20,[204354;RU;MBSAMARA-AS PJSC Rostelecom][196747;RU;Electronic-government PJSC Rostelecom][57561;RU;SPATENT-AS Sojuzpatent LLC][57510;RU;TSB-AS JSC  Transstroibank ][56350;RU;TELENET2-AS PJSC Rostelecom][56341;RU;ENTER-AS PJSC Rostelecom][51281;RU;COUNTRY-TELECOM-AS PJSC Rostelecom][48421;RU;ATLAS-AS PJSC Rostelecom][47460;RU;NCNET-KURGAN-AS PJSC Rostelecom][44982;RU;GLOBUS-SARATOV-AS PJSC Rostelecom][44467;RU;IRN-STC-AS PJSC Rostelecom][44412;RU;INGUSHELECTROSVYAZ-AS PJSC Rostelecom][44237;RU;CTC-CORE-AS PJSC Rostelecom][43975;RU;VTK-AS PJSC Rostelecom][43793;RU;TOTALNET-AS PJSC Rostelecom][43574;RU;DAGSV-AS PJSC Rostelecom][43468;RU;RU-CHTTS PJSC Rostelecom][43132;RU;KBT-AS PJSC Rostelecom][43053;RU;NOVAKTV-AS PJSC Rostelecom][42825;RU;UDMVT-AS PJSC Rostelecom][42610;RU;NCNET-AS PJSC Rostelecom][42548;RU;KCHR-AS PJSC Rostelecom][42448;RU;ERA-AS PJSC Rostelecom][42362;RU;ALANIA-AS PJSC Rostelecom][42358;RU;INSYS-AS PJSC Rostelecom][42091;RU;KHAKAS-AS PJSC Rostelecom][41691;RU;SUMTEL-AS-RIPE PJSC Rostelecom][41440;RU;SIBIRTELECOM-AS PJSC Rostelecom][41190;RU;IDEATELECOM PJSC Rostelecom][41134;RU;CTC-OREL-AS PJSC Rostelecom][39407;RU;CHITATELECOM-AS PJSC Rostelecom][39229;RU;SAN-AS PJSC Rostelecom][39054;RU;STBUR-AS PJSC Rostelecom][38985;RU;GAGUES-AS PJSC Rostelecom][38976;RU;RU-ATVC-AS PJSC Rostelecom][38951;RU;TKT-AS PJSC Rostelecom][35531;RU;RU-USI-KURGAN PJSC Rostelecom][35516;RU;KURSKNET-RU-AS PJSC Rostelecom][35400;RU;MFIST PJSC Rostelecom][35389;RU;KRASLAN-AS PJSC Rostelecom][35177;RU;ASI-AS PJSC Rostelecom][35154;RU;TELENET-AS PJSC Rostelecom][35125;RU;SMOLENSK-AS PJSC Rostelecom][35078;RU;CORVETTE-AS PJSC Rostelecom][34974;RU;KAMCHATKA-AS PJSC Rostelecom][34892;RU;INFOLINK-AS PJSC Rostelecom][34875;RU;YANFES PJSC Rostelecom][34584;RU;KHBDSV PJSC Rostelecom][34490;RU;TSC-AS PJSC Rostelecom][34449;RU;MORDOVIA-AS PJSC Rostelecom][34297;RU;SKH-IX-AS PJSC Rostelecom][34267;RU;DEBRYANSK-AS-1 PJSC Rostelecom][34205;RU;MRBD-AS PJSC Rostelecom][34168;RU;ELCOM-ISP-AS PJSC Rostelecom][34137;RU;RUAMUR-AS PJSC Rostelecom][33934;RU;VolgogradEC-AS PJSC Rostelecom][33887;RU;TELESET-NCHELNY PJSC Rostelecom][31496;RU;ATNET-AS PJSC Rostelecom][31353;RU;PTT-AS PJSC Rostelecom][31185;RU;TNPKO-AS PJSC Rostelecom][31094;RU;TTKNET PJSC Rostelecom][30974;RU;NNTS-AS PJSC Rostelecom][30749;RU;VOLOGDA-AS PJSC Rostelecom][29456;RU;BELSVYAZ-AS PJSC Rostelecom][29069;RU;TLK-AS PJSC Rostelecom][28860;RU;PARMA-INFORM-AS PJSC Rostelecom][28802;RU;KALMYKIA-AS PJSC Rostelecom][28719;RU;HMFES PJSC Rostelecom][25531;RU;INTFRM-AS PJSC Rostelecom][25515;RU;CTCNET-AS PJSC Rostelecom][25510;RU;rostelecom-AS PJSC Rostelecom][25490;RU;STC-AS PJSC Rostelecom][25436;RU;KIROV-CAIT-AS PJSC Rostelecom][25405;RU;NMTS-AS PJSC Rostelecom][25008;RU;ESOO-AS PJSC Rostelecom][24873;RU;ELLINK-AS PJSC Rostelecom][24810;RU;TELESET-KAZAN PJSC Rostelecom][24789;RU;NOVGORODTELECOM-AS PJSC Rostelecom][24783;RU;ASN-MELS-MurmanElectroSviaz PJSC Rostelecom][24699;RU;IVTELECOM-AS PJSC Rostelecom][24665;RU;SUTC-AS PJSC Rostelecom][24612;RU;PENZA-SVIAZINFORM-AS PJSC Rostelecom][21487;RU;SAKHATELECOM-AS PJSC Rostelecom][21479;RU;ROSTOV-TELEGRAF-AS PJSC Rostelecom][21378;RU;CTCTVER PJSC Rostelecom][21289;RU;ROSTOVTELECOM-AS PJSC Rostelecom][21017;RU;VSI-AS PJSC Rostelecom][20519;RU;BALTNET PJSC Rostelecom][16301;RU;DATACOM-AS PJSC Rostelecom][16287;RU;KUZBASSNET PJSC Rostelecom][16054;RU;NSOELSV-AS PJSC Rostelecom][15934;RU;ZEBRA-AS PJSC Rostelecom][15759;RU;DIN-AS PJSC Rostelecom][15500;RU;PJSC Rostelecom][15468;RU;KLGELECS-AS PJSC Rostelecom][13118;RU;ASN-YARTELECOM PJSC Rostelecom][13056;RU;RT-TMB-AS PJSC Rostelecom][12846;RU;PJSC Rostelecom][12730;RU;INECO_AS PJSC Rostelecom][12705;RU;PFES PJSC Rostelecom][12685;RU;SIBITEX PJSC Rostelecom][12683;RU;STATEL-AS PJSC Rostelecom][12389;RU;ROSTELECOM-AS PJSC Rostelecom][12380;RU;LENSVYAZ PJSC Rostelecom][12332;RU;PRIMORYE-AS PJSC Rostelecom][8997;RU;ASN-SPBNIT PJSC Rostelecom][8828;RU;BURNET-AS PJSC Rostelecom][8675;RU;AS_TULATEL PJSC Rostelecom][8594;RU;OMSKELECOM PJSC Rostelecom][8570;RU;LES PJSC Rostelecom][8568;RU;MMT-AS PJSC Rostelecom][8557;RU;ELKATEL-AS PJSC Rostelecom][8443;RU;SKHDSV-AS PJSC Rostelecom][8439;RU;AIST PJSC Rostelecom][8382;RU;IRTEL-AS PJSC Rostelecom][8249;RU;TOTCOM-AS PJSC Rostelecom][6863;RU;ROSNET-AS PJSC Rostelecom][6844;RU;TECHNODESIGN PJSC Rostelecom][6828;RU;USI PJSC Rostelecom][5591;RU;MARTELCOM-AS PJSC Rostelecom][5573;RU;KRASNET-AS PJSC Rostelecom][3239;RU;RU-SUrNet PJSC Rostelecom][2878;RU;ULRT-AS PJSC Rostelecom]
-ripencc,RU,ipv4,46.150.240.0,20,*
 ripencc,RU,ipv4,46.151.0.0,21,[197406;RU;ASTELECOMLTD OOO Telecom LTD]
 ripencc,RU,ipv4,46.151.8.0,21,[51836;RU;ASNEMIYA Pioner-Lan Ltd.]
 ripencc,RU,ipv4,46.151.40.0,21,[34047;RU;DGROUP-AS Bystrov Dmitriy Sergeevich]
@@ -49321,7 +49326,7 @@ ripencc,RU,ipv4,91.223.90.0,24,[60058;RU;IT-Osoba-AS  IT Osoba  LLC]
 ripencc,RU,ipv4,91.223.93.0,24,[44386;RU;OZON-AS LLC Internet Solutions]
 ripencc,RU,ipv4,91.223.98.0,24,[56358;RU;BALTTELECOMPORT-AS Balttelecomport Ltd.]
 ripencc,RU,ipv4,91.223.105.0,24,[197577;RU;KomTelecom-AS KomTelecom LLC]
-ripencc,RU,ipv4,91.223.108.0,24,[197574;RU;TKM-AS JSC TC  Megapolis ]
+ripencc,RU,ipv4,91.223.108.0,24,*
 ripencc,RU,ipv4,91.223.109.0,24,*
 ripencc,RU,ipv4,91.223.118.0,24,*
 ripencc,RU,ipv4,91.223.120.0,24,[9078;RU;SIBIS-AS Sibirskie Innovacionnye Sistemy Ltd]
@@ -49847,7 +49852,6 @@ ripencc,RU,ipv4,91.241.84.0,23,[59495;RU;ULKM-AS Uralskie lokomotivy Ltd]
 ripencc,RU,ipv4,91.241.88.0,22,*
 ripencc,RU,ipv4,91.241.128.0,19,*
 ripencc,RU,ipv4,91.241.160.0,21,[51511;RU;TRADE-EXPRESS-AS LLC  Teleradio Company Traide-Express ]
-ripencc,RU,ipv4,91.241.180.0,23,*
 ripencc,RU,ipv4,91.241.182.0,23,[39580;RU;MIAC_YaNAO-AS GAUZ MIAC YaNAO]
 ripencc,RU,ipv4,91.241.184.0,21,[51511;RU;TRADE-EXPRESS-AS LLC  Teleradio Company Traide-Express ]
 ripencc,RU,ipv4,91.242.32.0,21,[56864;RU;WELLSERVER-AS Xeon LLC]
@@ -50081,7 +50085,6 @@ ripencc,RU,ipv4,176.102.0.0,21,*
 ripencc,RU,ipv4,176.102.8.0,21,*
 ripencc,RU,ipv4,176.102.16.0,20,*
 ripencc,RU,ipv4,176.102.160.0,21,*
-ripencc,RU,ipv4,176.103.80.0,20,*
 ripencc,RU,ipv4,176.103.208.0,22,*
 ripencc,RU,ipv4,176.104.120.0,21,[197831;RU;DISKUS-AS Telekom Ltd]
 ripencc,RU,ipv4,176.104.128.0,19,[199049;RU;ICC-AS Joint Stock Company TransTeleCom][198791;RU;Lightnet-AS Ekran-Telecom  LLC][197857;RU;COMPASSPLUS-AS Compass Plus LLC][197333;RU;GVC-AS Joint Stock Company TransTeleCom][196797;RU;CityTeleNet Joint Stock Company TransTeleCom][59476;RU;ASROSINTRA Joint Stock Company TransTeleCom][58231;RU;RU-CHELINDBANK PJSC CHELINDBANK][57149;RU;IT-KGN-AS LLC  Internet-Technology ][56830;RU;ASCHITATTK Joint Stock Company TransTeleCom][51882;RU;GOV45-AS Government of Kurgan area][51813;RU;DARTEL Joint Stock Company TransTeleCom][51663;RU;ASADMSOL Administration of Solikamsk city][51543;RU;SAMARA-TTK Joint Stock Company TransTeleCom][49301;RU;Transtelecom-DV Joint Stock Company TransTeleCom][49128;RU;IVCSPBORW-AS Joint Stock Company TransTeleCom][47842;RU;TPCHEL-AS JSC  Teplopribor ][47313;RU;ECOM-RZN-AS Joint Stock Company TransTeleCom][47241;RU;IV-TELECOM-AS Joint Stock Company TransTeleCom][44775;RU;ECOM-DON-AS Joint Stock Company TransTeleCom][43782;RU;TTK-UL-AS Joint Stock Company TransTeleCom][43592;RU;ICB-AS JSC Databank][41341;RU;TMK-AS Joint Stock Company TransTeleCom][39660;RU;TTK-AS Joint Stock Company TransTeleCom][35641;RU;ELECTRO-COM-AS Joint Stock Company TransTeleCom][34291;RU;CINVB-AS PJSC  CHELYABINVESTBANK ][31501;RU;SPBTELEPORT-AS Joint Stock Company TransTeleCom][31364;RU;INTELBI-AS Joint Stock Company TransTeleCom][28906;RU;TTKNN-AS1 Joint Stock Company TransTeleCom][28769;RU;STTK-AS Joint Stock Company TransTeleCom][28745;RU;SUTTK-AS Joint Stock Company TransTeleCom][24923;RU;SETTC Joint Stock Company TransTeleCom][24626;RU;TTKNN-AS Joint Stock Company TransTeleCom][21438;RU;ECOM-KALUGA-AS Joint Stock Company TransTeleCom][21191;RU;ASN-SEVERTTK Joint Stock Company TransTeleCom][21127;RU;ZSTTKAS Joint Stock Company TransTeleCom][20870;RU;KAVKAZ-TRANSTELECOM-AS Joint Stock Company TransTeleCom][20485;RU;TRANSTELECOM Joint Stock Company TransTeleCom][16285;RU;ASN-UMN Joint Stock Company TransTeleCom][15974;RU;VTT-AS Joint Stock Company TransTeleCom][12688;RU;BAIKALTRANSTELECOM Joint Stock Company TransTeleCom][8485;RU;TEST-ASN2 Joint Stock Company TransTeleCom][8427;RU;MAGINFO-AS Joint Stock Company TransTeleCom][5543;RU;TEST-ASN1 Joint Stock Company TransTeleCom]
@@ -51017,7 +51020,6 @@ ripencc,RU,ipv4,194.169.255.0,24,[199161;RU;PKO-NHO-AS OOO  PKO NEFTEHIMOBORUDOV
 ripencc,RU,ipv4,194.176.100.0,24,[200926;RU;BOFC JSC  BM-Bank ][197010;RU;OPEN-BDO-1-AS JSC  BM-Bank ][60348;RU;OPEN-RES-4-AS JSC  BM-Bank ][49288;RU;OPEN-RGSB-1-AS JSC  BM-Bank ][42843;RU;OPEN-RES-3-AS JSC  BM-Bank ][42224;RU;OPEN-RES-7-AS JSC  BM-Bank ][41673;RU;OPEN-RES-9-AS JSC  BM-Bank ][41428;RU;OPEN-RES-6-AS JSC  BM-Bank ][41300;RU;OPEN-RES-2-AS JSC  BM-Bank ][41258;RU;OPEN-BIN-1-AS JSC  BM-Bank ][39428;RU;OPEN-RES-8-AS JSC  BM-Bank ][28829;RU;OPEN-RES-5-AS JSC  BM-Bank ][25296;RU;OPEN-RES-1-AS JSC  BM-Bank ][5589;RU;OPEN-FC-1-AS JSC  BM-Bank ]
 ripencc,RU,ipv4,194.176.114.0,24,*
 ripencc,RU,ipv4,194.176.118.0,24,*
-ripencc,RU,ipv4,194.187.100.0,22,*
 ripencc,RU,ipv4,194.187.148.0,22,[210525;RU;SIRIUS-NET Nikita Sergienko][207875;RU;KSOT-as Nikita Sergienko][200441;RU;CRIMEADC-NET Nikita Sergienko][196665;RU;OPTICOM-AS Nikita Sergienko][58000;RU;MTN-NET-AS Nikita Sergienko][57899;RU;MASANDRA-AS Nikita Sergienko][50140;RU;YALTA-AS Nikita Sergienko][49617;RU;IZMV-AS Nikita Sergienko][48086;RU;TRK555-AS Nikita Sergienko][44341;RU;SEVONLINE Nikita Sergienko][43222;RU;CRIMEA-IX-AS Nikita Sergienko][41269;RU;CrimeaTechnology Nikita Sergienko][35533;RU;RU-SITECH Nikita Sergienko][35381;RU;POLIGON-ISP Nikita Sergienko]
 ripencc,RU,ipv4,194.187.196.0,22,*
 ripencc,RU,ipv4,194.187.204.0,22,[35598;RU;INETCOM INETCOM CARRIER LLC]
@@ -51063,7 +51065,6 @@ ripencc,RU,ipv4,195.2.238.0,23,*
 ripencc,RU,ipv4,195.3.132.0,22,[29031;RU;LTC Lugansk Telephone Company]
 ripencc,RU,ipv4,195.3.140.0,22,[41377;RU;Faktor-AS OOO  Faktor ]
 ripencc,RU,ipv4,195.3.180.0,24,[215259;RU;EVOTOROFD-AS Evotor OFD LLC]
-ripencc,RU,ipv4,195.3.181.0,24,*
 ripencc,RU,ipv4,195.3.182.0,24,[50806;RU;LCOM-AS LCom LLC]
 ripencc,RU,ipv4,195.3.183.0,24,[39562;RU;TVERREG-AS GKU TO CIT]
 ripencc,RU,ipv4,195.3.216.0,24,[209755;RU;NEWLIME-AS Newlime LLC]
@@ -51247,7 +51248,6 @@ ripencc,RU,ipv4,195.93.240.0,23,*
 ripencc,RU,ipv4,195.93.246.0,23,[57352;RU;ROSSIYA-SEGODNYA Federal State Unitary Enterprise Rossiya Segodnya International Information Agency][44479;RU;ROSSIYA-SEGODNYA Federal State Unitary Enterprise Rossiya Segodnya International Information Agency]
 ripencc,RU,ipv4,195.95.212.0,23,[34241;RU;NCT-AS New Communication Technologies LLC][34166;RU;ELECOM-AS New Communication Technologies LLC]
 ripencc,RU,ipv4,195.95.214.0,23,[34192;RU;TRANSITEC TRANSITEC Ltd]
-ripencc,RU,ipv4,195.95.216.0,23,*
 ripencc,RU,ipv4,195.95.218.0,24,[57274;RU;PSCB JSC Petersburg Social Commercial Bank]
 ripencc,RU,ipv4,195.95.252.0,23,[34241;RU;NCT-AS New Communication Technologies LLC][34166;RU;ELECOM-AS New Communication Technologies LLC]
 ripencc,RU,ipv4,195.110.6.0,23,[42239;RU;FARLINE-AS Ltd.  Cypher ][34990;RU;SKYINET-AS Ltd.  Cypher ]
@@ -51560,7 +51560,7 @@ ripencc,RU,ipv6,2001:678:600::,48,[204600;RU;REPUBLER-AS Atlantic LLC.]
 ripencc,RU,ipv6,2001:678:614::,48,[50241;RU;UNITTEL-AS UnitTelecom Ltd]
 ripencc,RU,ipv6,2001:678:624::,48,[215257;RU;LISTOPAD-TJ-AS Andrei Listopad]
 ripencc,RU,ipv6,2001:678:62c::,48,[51428;RU;IRONNET-AS IRONNET Ltd.]
-ripencc,RU,ipv6,2001:678:630::,48,[197574;RU;TKM-AS JSC TC  Megapolis ]
+ripencc,RU,ipv6,2001:678:630::,48,*
 ripencc,RU,ipv6,2001:678:65c::,48,[35572;RU;com Smart Technology LLC][35526;RU;MASTERBIT-AS Smart Technology LLC]
 ripencc,RU,ipv6,2001:678:670::,48,[197880;RU;ARQA-AS ARQA Technologies LLC][48349;RU;ARQA-QUIK-AS ARQA Technologies LLC]
 ripencc,RU,ipv6,2001:678:674::,48,[197880;RU;ARQA-AS ARQA Technologies LLC][48349;RU;ARQA-QUIK-AS ARQA Technologies LLC]
@@ -51951,12 +51951,18 @@ ripencc,SA,ipv6,2001:67c:2164::,48,[15505;SA;KAU King Abdulaziz University (KAU)
 ripencc,SA,ipv6,2001:67c:27b8::,48,*
 ripencc,SA,ipv6,2001:67c:2994::,48,[62452;SA;IMIU Al-Imam Muhammad Ibn Saud Islamic University]
 ripencc,SC,ipv4,31.134.0.0,20,*
+ripencc,SC,ipv4,46.150.240.0,20,*
 ripencc,SC,ipv4,91.234.196.0,23,[207557;SC;BeetleNetwork BeetleNetwork Ltd.]
 ripencc,SC,ipv4,91.235.158.0,24,*
+ripencc,SC,ipv4,91.241.180.0,23,*
 ripencc,SC,ipv4,91.247.38.0,24,[61336;SC;IslandServers-AS Island Servers LTD]
 ripencc,SC,ipv4,157.22.0.0,16,[56897;SC;IPC-AS iNet Ltd][51837;SC;NETEX-51837-AS iNet Ltd][51711;SC;INSYS-AS iNet Ltd][49111;SC;iNET-AS iNet Ltd][44893;SC;SI-AS iNet Ltd][42375;SC;iNET-AS iNet Ltd]
+ripencc,SC,ipv4,176.103.80.0,20,*
 ripencc,SC,ipv4,178.219.32.0,22,[47739;SC;THEABYSS-AS Aphrodite Limited]
 ripencc,SC,ipv4,193.200.150.0,24,*
+ripencc,SC,ipv4,194.187.100.0,22,*
+ripencc,SC,ipv4,195.3.181.0,24,*
+ripencc,SC,ipv4,195.95.216.0,23,*
 ripencc,SC,ipv4,195.144.21.0,24,*
 ripencc,SC,ipv4,195.242.112.0,23,[34046;SC;SHIELD-AS ShieldTelecom  Ltd.]
 ripencc,SC,ipv4,195.245.80.0,23,[34046;SC;SHIELD-AS ShieldTelecom  Ltd.]
@@ -54459,10 +54465,12 @@ ripencc,UA,ipv4,176.110.102.0,23,[59497;UA;BUKNET-AS Buknet LLC]
 ripencc,UA,ipv4,176.111.32.0,24,[52174;UA;EU-as-3 Skillvps LLC][48730;UA;Kyiv-UDC-AS Skillvps LLC][47821;UA;IF-Discovery-AS Skillvps LLC]
 ripencc,UA,ipv4,176.111.33.0,24,*
 ripencc,UA,ipv4,176.111.34.0,23,[43815;UA;NashProstir-LLC Nash Prostir LLC]
-ripencc,UA,ipv4,176.111.36.0,21,[57960;UA;ASBITNET Snitcar Olexandr Antonovich]
+ripencc,UA,ipv4,176.111.36.0,24,[44737;UA;NEXT-AS Oleksii Khvostenko]
+ripencc,UA,ipv4,176.111.37.0,21,[57960;UA;ASBITNET Snitcar Olexandr Antonovich]
 ripencc,UA,ipv4,176.111.44.0,24,[202656;UA;XServerCloud Ivanov Vitaliy Sergeevich][48031;UA;XServerCloud Ivanov Vitaliy Sergeevich]
 ripencc,UA,ipv4,176.111.45.0,24,[52174;UA;EU-as-3 Skillvps LLC][48730;UA;Kyiv-UDC-AS Skillvps LLC][47821;UA;IF-Discovery-AS Skillvps LLC]
-ripencc,UA,ipv4,176.111.46.0,23,[57960;UA;ASBITNET Snitcar Olexandr Antonovich]
+ripencc,UA,ipv4,176.111.46.0,24,[197561;UA;HOST-VDS-AS HOST VDS LLC]
+ripencc,UA,ipv4,176.111.47.0,24,[57960;UA;ASBITNET Snitcar Olexandr Antonovich]
 ripencc,UA,ipv4,176.111.48.0,22,*
 ripencc,UA,ipv4,176.111.51.0,24,*
 ripencc,UA,ipv4,176.111.53.0,24,[209107;UA;SAYENKO_KHARENKO Sayenko Kharenko Attorneys Office]
@@ -55731,8 +55739,10 @@ ripencc,US,ipv4,57.112.0.0,12,*
 ripencc,US,ipv4,57.178.0.0,15,*
 ripencc,US,ipv4,62.122.168.0,21,[50245;US;SERVEREL-AS Serverel Inc.][5545;US;SERVEREL-AS Serverel Inc.]
 ripencc,US,ipv4,64.187.208.0,23,[210761;US;PuduTest Pudu  LLC][47689;US;Pudu Pudu  LLC]
+ripencc,US,ipv4,64.255.40.0,24,*
 ripencc,US,ipv4,66.9.96.0,20,[208308;US;canopy Lunarnaut  LLC][200598;US;lunarnaut Lunarnaut  LLC]
 ripencc,US,ipv4,66.33.37.0,24,[216357;US;INFINITIUM-AS216357 INFINITIUM CORPORATION][50937;US;INFINITIUM-AS INFINITIUM CORPORATION]
+ripencc,US,ipv4,69.5.186.0,24,*
 ripencc,US,ipv4,77.87.192.0,21,[28907;US;MIROHOST Internet Invest  Ltd.][25393;US;MIROHOST Internet Invest  Ltd.][21343;US;ALLIED Internet Invest  Ltd.]
 ripencc,US,ipv4,78.27.192.0,18,[28907;US;MIROHOST Internet Invest  Ltd.][25393;US;MIROHOST Internet Invest  Ltd.][21343;US;ALLIED Internet Invest  Ltd.]
 ripencc,US,ipv4,79.110.184.0,22,[208308;US;canopy Lunarnaut  LLC][200598;US;lunarnaut Lunarnaut  LLC]
@@ -55930,8 +55940,7 @@ ripencc,US,ipv4,168.1.0.0,16,*
 ripencc,US,ipv4,168.75.224.0,20,[208308;US;canopy Lunarnaut  LLC][200598;US;lunarnaut Lunarnaut  LLC]
 ripencc,US,ipv4,168.222.0.0,17,[210398;US;Brander-Group-ASN Brander Group Inc.]
 ripencc,US,ipv4,168.222.160.0,20,*
-ripencc,US,ipv4,168.222.208.0,19,[210398;US;Brander-Group-ASN Brander Group Inc.]
-ripencc,US,ipv4,168.222.244.0,22,*
+ripencc,US,ipv4,168.222.224.0,21,[210398;US;Brander-Group-ASN Brander Group Inc.]
 ripencc,US,ipv4,168.222.248.0,22,*
 ripencc,US,ipv4,169.38.0.0,16,*
 ripencc,US,ipv4,169.40.0.0,16,*
