@@ -3545,14 +3545,19 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:edf0:4000::,34,reserved,*
 *,ipv6,2c0f:edf0:8000::,33,reserved,*
 *,ipv4,102.192.0.0,13,available,*
-*,ipv4,102.200.0.0,14,available,*
-*,ipv4,102.204.15.0,24,available,*
+*,ipv4,102.200.0.0,15,available,*
+*,ipv4,102.202.0.0,16,available,*
+*,ipv4,102.203.0.0,17,available,*
+*,ipv4,102.203.128.0,18,available,*
+*,ipv4,102.203.192.0,19,available,*
+*,ipv4,102.203.224.0,20,available,*
+*,ipv4,102.203.244.0,22,available,*
+*,ipv4,102.203.248.0,21,available,*
 *,ipv4,102.204.88.0,22,available,*
 *,ipv4,102.204.96.0,21,available,*
 *,ipv4,102.204.104.0,22,available,*
 *,ipv4,102.204.132.0,22,available,*
 *,ipv4,102.204.136.0,21,available,*
-*,ipv4,102.206.28.0,22,available,*
 *,ipv4,156.0.199.0,24,available,*
 *,ipv4,196.61.4.0,22,available,*
 *,ipv6,2c00::,13,available,*
@@ -7659,6 +7664,7 @@ AO,ipv4,102.36.224.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,102.64.60.0,22,allocated,[328509;AO;SpeedNet-Servicos]
 AO,ipv4,102.130.64.0,21,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv4,102.130.192.0,19,allocated,[37645;AO;ZAP-Angola]
+AO,ipv4,102.203.240.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.204.164.0,22,allocated,[329631;AO;YETOCOM]
 AO,ipv4,102.204.192.0,22,allocated,[329616;AO;Internet-Technologies-Angol]
 AO,ipv4,102.205.75.0,24,allocated,[329589;AO;SELENIUM_DIGITAL_SOLUTIONS_SA]
@@ -9392,6 +9398,7 @@ MG,ipv4,41.242.96.0,20,allocated,[37608;MG;iRENALA-AS]
 MG,ipv4,102.16.0.0,14,allocated,[37054;MG;Telecom-Malagasy]
 MG,ipv4,102.20.0.0,15,allocated,[37054;MG;Telecom-Malagasy]
 MG,ipv4,102.68.192.0,18,allocated,[37037;MG;ORANGEMG-AS]
+MG,ipv4,102.206.28.0,22,allocated,[37037;MG;ORANGEMG-AS]
 MG,ipv4,102.211.100.0,22,allocated,[329314;MG;STELLAR-IX]
 MG,ipv4,154.120.128.0,18,allocated,[37037;MG;ORANGEMG-AS]
 MG,ipv4,154.126.0.0,17,allocated,[37054;MG;Telecom-Malagasy]
@@ -13463,6 +13470,7 @@ UG,ipv4,80.88.2.0,24,assigned,[328233;UG;DFCU-Bank-AS]
 UG,ipv4,102.68.124.0,24,assigned,[328462;UG;National-Social-Security-Fund-AS]
 UG,ipv4,102.134.144.0,21,assigned,[328358;UG;Makerere-AS]
 UG,ipv4,102.164.120.0,24,assigned,[328292;UG;AgentBanking-AS]
+UG,ipv4,102.204.15.0,24,assigned,
 UG,ipv4,102.205.207.0,24,assigned,[329551;UG;I-M-Bank-Uganda]
 UG,ipv4,102.207.221.0,24,assigned,[328233;UG;DFCU-Bank-AS]
 UG,ipv4,102.209.239.0,24,assigned,[329396;UG;Uganda-Electricity]
