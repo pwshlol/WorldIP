@@ -3550,7 +3550,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.203.0.0,17,available,*
 *,ipv4,102.203.128.0,18,available,*
 *,ipv4,102.203.192.0,19,available,*
-*,ipv4,102.203.224.0,20,available,*
+*,ipv4,102.203.224.0,21,available,*
 *,ipv4,102.203.244.0,22,available,*
 *,ipv4,102.203.248.0,21,available,*
 *,ipv4,102.204.88.0,22,available,*
@@ -3649,7 +3649,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:284::,30,available,*
 *,ipv6,2c0f:288::,29,available,*
 *,ipv6,2c0f:290::,28,available,*
-*,ipv6,2c0f:2a0::,27,available,*
+*,ipv6,2c0f:2a1::,32,available,*
+*,ipv6,2c0f:2a2::,31,available,*
+*,ipv6,2c0f:2a4::,30,available,*
+*,ipv6,2c0f:2a8::,29,available,*
+*,ipv6,2c0f:2b0::,28,available,*
 *,ipv6,2c0f:2c1::,32,available,*
 *,ipv6,2c0f:2c2::,31,available,*
 *,ipv6,2c0f:2c4::,30,available,*
@@ -5201,7 +5205,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4204::,30,available,*
 *,ipv6,2c0f:4208::,29,available,*
 *,ipv6,2c0f:4210::,28,available,*
-*,ipv6,2c0f:4220::,27,available,*
+*,ipv6,2c0f:4221::,32,available,*
+*,ipv6,2c0f:4222::,31,available,*
+*,ipv6,2c0f:4224::,30,available,*
+*,ipv6,2c0f:4228::,29,available,*
+*,ipv6,2c0f:4230::,28,available,*
 *,ipv6,2c0f:4241::,32,available,*
 *,ipv6,2c0f:4242::,31,available,*
 *,ipv6,2c0f:4244::,30,available,*
@@ -8850,6 +8858,8 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
+KE,ipv4,102.203.232.0,22,allocated,
+KE,ipv4,102.203.236.0,22,allocated,
 KE,ipv4,102.204.0.0,22,allocated,[329659;KE;Lineserve]
 KE,ipv4,102.204.4.0,22,allocated,[329658;KE;NetPoint-Solutions]
 KE,ipv4,102.204.12.0,23,allocated,[329654;KE;Cortech-Systems]
@@ -9066,6 +9076,7 @@ KE,ipv6,2c0f:80::,32,allocated,[329002;KE;PAID1-AS]
 KE,ipv6,2c0f:a0::,32,allocated,[329659;KE;Lineserve]
 KE,ipv6,2c0f:c0::,32,allocated,[329468;KE;ELEPHANT-TECHNOLOGY-LIMITED]
 KE,ipv6,2c0f:1a0::,32,allocated,[329664;KE;AGAPETECH_ENTERPRISE_SOLUTION_LIMITED]
+KE,ipv6,2c0f:2a0::,32,allocated,
 KE,ipv6,2c0f:340::,32,allocated,[329246;KE;HANIF-TELECOM-LIMITED]
 KE,ipv6,2c0f:4c0::,32,allocated,[329475;KE;KONNECT-DATA-NETWORKS-LTD]
 KE,ipv6,2c0f:500::,32,allocated,[328862;KE;SKL-AS]
@@ -9117,6 +9128,7 @@ KE,ipv6,2c0f:3f00::,32,allocated,[328994;KE;NCL4-AS]
 KE,ipv6,2c0f:3fc0::,32,allocated,*
 KE,ipv6,2c0f:4020::,32,allocated,[329658;KE;NetPoint-Solutions]
 KE,ipv6,2c0f:4140::,32,allocated,[329239;KE;Xcobean-Systems-AS]
+KE,ipv6,2c0f:4220::,32,allocated,
 KE,ipv6,2c0f:42c0::,32,allocated,[329341;KE;Tatu-Telecom-Company-SEZ-Limited]
 KE,ipv6,2c0f:4440::,32,allocated,[329278;KE;truehostcloud]
 KE,ipv6,2c0f:4500::,32,allocated,[328808;KE;DUMATEL-AS]
