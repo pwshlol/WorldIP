@@ -3560,7 +3560,9 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.200.0.0,15,available,*
 *,ipv4,102.202.0.0,16,available,*
 *,ipv4,102.203.0.0,17,available,*
-*,ipv4,102.203.128.0,18,available,*
+*,ipv4,102.203.128.0,19,available,*
+*,ipv4,102.203.160.0,20,available,*
+*,ipv4,102.203.176.0,21,available,*
 *,ipv4,102.203.192.0,23,available,*
 *,ipv4,102.203.228.0,22,available,*
 *,ipv4,102.203.244.0,22,available,*
@@ -5253,7 +5255,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4304::,30,available,*
 *,ipv6,2c0f:4308::,29,available,*
 *,ipv6,2c0f:4310::,28,available,*
-*,ipv6,2c0f:4320::,27,available,*
+*,ipv6,2c0f:4321::,32,available,*
+*,ipv6,2c0f:4322::,31,available,*
+*,ipv6,2c0f:4324::,30,available,*
+*,ipv6,2c0f:4328::,29,available,*
+*,ipv6,2c0f:4330::,28,available,*
 *,ipv6,2c0f:4341::,32,available,*
 *,ipv6,2c0f:4342::,31,available,*
 *,ipv6,2c0f:4344::,30,available,*
@@ -6833,7 +6839,17 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:43ff:100::,40,available,*
 *,ipv6,2001:43ff:200::,39,available,*
 *,ipv6,2001:43ff:400::,38,available,*
-*,ipv6,2001:43ff:800::,37,available,*
+*,ipv6,2001:43ff:801::,48,available,*
+*,ipv6,2001:43ff:802::,47,available,*
+*,ipv6,2001:43ff:804::,46,available,*
+*,ipv6,2001:43ff:808::,45,available,*
+*,ipv6,2001:43ff:810::,44,available,*
+*,ipv6,2001:43ff:820::,43,available,*
+*,ipv6,2001:43ff:840::,42,available,*
+*,ipv6,2001:43ff:880::,41,available,*
+*,ipv6,2001:43ff:900::,40,available,*
+*,ipv6,2001:43ff:a00::,39,available,*
+*,ipv6,2001:43ff:c00::,38,available,*
 *,ipv6,2001:43f8:1120::,44,available,*
 *,ipv6,2001:43f8:16f0::,44,available,*
 *,ipv6,2001:43f8:1760::,44,available,*
@@ -9262,7 +9278,7 @@ LS,ipv4,41.76.16.0,21,allocated,[37057;LS;VODACOM-LESOTHO]
 LS,ipv4,41.191.200.0,21,allocated,[37057;LS;VODACOM-LESOTHO]
 LS,ipv4,41.203.176.0,20,allocated,[33767;LS;TELECOM-LESOTHO][33567;LS;TELECOM-LESOTHO]
 LS,ipv4,102.36.240.0,22,allocated,[328567;LS;LEC-Communications]
-LS,ipv4,102.203.194.0,23,allocated,
+LS,ipv4,102.203.194.0,23,allocated,[329681;LS;MICSTI]
 LS,ipv4,102.214.112.0,22,allocated,*
 LS,ipv4,129.232.0.0,17,allocated,[33767;LS;TELECOM-LESOTHO][33567;LS;TELECOM-LESOTHO]
 LS,ipv4,154.66.108.0,22,allocated,[37642;LS;Comnet-Lesotho-AS]
@@ -10472,6 +10488,7 @@ TG,ipv4,41.207.160.0,19,allocated,*
 TG,ipv4,80.248.64.0,20,allocated,[30982;TG;CAFENET]
 TG,ipv4,102.64.128.0,17,allocated,*
 TG,ipv4,102.164.224.0,20,allocated,[328282;TG;TEOLIS-SAU]
+TG,ipv4,102.203.184.0,22,allocated,
 TG,ipv4,102.212.92.0,22,allocated,[37229;TG;ATLANTIQUE-TELECOM-]
 TG,ipv4,102.217.12.0,22,allocated,[329010;TG;SDN1-AS]
 TG,ipv4,102.219.236.0,22,allocated,[328859;TG;HOSTEUR-AS]
@@ -10481,6 +10498,7 @@ TG,ipv4,160.242.192.0,18,allocated,[328463;TG;Ministere-des-Postes-Togo-AS]
 TG,ipv4,196.168.0.0,14,allocated,*
 TG,ipv4,197.148.96.0,19,allocated,*
 TG,ipv6,2c0f:4080::,32,allocated,[329010;TG;SDN1-AS]
+TG,ipv6,2c0f:4320::,32,allocated,
 TG,ipv6,2c0f:58c0::,32,allocated,[328282;TG;TEOLIS-SAU]
 TG,ipv6,2c0f:7e00::,32,allocated,[328859;TG;HOSTEUR-AS]
 TG,ipv6,2c0f:f0f8::,32,allocated,*
@@ -13212,6 +13230,7 @@ NG,ipv4,102.131.64.0,18,assigned,[328362;NG;UniversityIlorin-AS]
 NG,ipv4,102.131.128.0,17,assigned,[37420;NG;UNIV-JOS]
 NG,ipv4,102.141.233.0,24,assigned,[328332;NG;FEAP-AS]
 NG,ipv4,102.141.234.0,24,assigned,[328324;NG;FederalUniversity-AS]
+NG,ipv4,102.203.188.0,22,assigned,
 NG,ipv4,102.204.44.0,24,assigned,[329655;NG;FSDH-Bank]
 NG,ipv4,102.204.45.0,24,assigned,[329653;NG;Premium-Trust-Bank-Limited]
 NG,ipv4,102.204.46.0,24,assigned,[329652;NG;SUMMIT_BANK_LIMITED]
@@ -13326,6 +13345,7 @@ NG,ipv6,2001:43f8:b10::,48,assigned,[327942;NG;LANDMARK-UNIVERSITY]
 NG,ipv6,2001:43f8:bb0::,48,assigned,[36940;NG;IXPN-AS-MGMT][36932;NG;IXPN-AS]
 NG,ipv6,2001:43f8:bb1::,48,assigned,[36940;NG;IXPN-AS-MGMT][36932;NG;IXPN-AS]
 NG,ipv6,2001:43f8:d90::,48,assigned,[328188;NG;Covenant-University-AS]
+NG,ipv6,2001:43ff:800::,48,assigned,
 NG,ipv6,2001:43f8:1060::,48,assigned,[327953;NG;ABUJA-ELECTRIC]
 NG,ipv6,2001:43f8:11f0::,48,assigned,[328395;NG;WAF-IX-AS-MGMT][37783;NG;WAF-IX-AS-Peering][37282;NG;MAINONE][30984;NG;Mainone-AS]
 NG,ipv6,2001:43f8:11f1::,48,assigned,[328395;NG;WAF-IX-AS-MGMT][37783;NG;WAF-IX-AS-Peering][37282;NG;MAINONE][30984;NG;Mainone-AS]
