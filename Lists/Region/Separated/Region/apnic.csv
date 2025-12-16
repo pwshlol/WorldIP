@@ -36,6 +36,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,103.40.225.0,24,reserved,*
 *,ipv4,103.42.14.0,23,reserved,*
 *,ipv4,103.42.191.0,24,reserved,*
+*,ipv4,103.43.236.0,22,reserved,*
 *,ipv4,103.47.61.0,24,reserved,*
 *,ipv4,103.47.152.0,24,reserved,*
 *,ipv4,103.48.26.0,24,reserved,*
@@ -49,6 +50,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,103.60.184.0,24,reserved,*
 *,ipv4,103.68.224.0,22,reserved,*
 *,ipv4,103.69.228.0,22,reserved,*
+*,ipv4,103.73.194.0,23,reserved,*
 *,ipv4,103.73.218.0,23,reserved,*
 *,ipv4,103.76.124.0,24,reserved,*
 *,ipv4,103.77.201.0,24,reserved,*
@@ -94,6 +96,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,103.123.216.0,22,reserved,*
 *,ipv4,103.124.9.0,24,reserved,*
 *,ipv4,103.125.0.0,22,reserved,*
+*,ipv4,103.126.242.0,23,reserved,*
 *,ipv4,103.127.75.0,24,reserved,*
 *,ipv4,103.127.172.0,22,reserved,*
 *,ipv4,103.128.0.0,16,reserved,*
@@ -107,6 +110,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,103.135.204.0,22,reserved,*
 *,ipv4,103.136.28.0,22,reserved,*
 *,ipv4,103.137.57.0,24,reserved,*
+*,ipv4,103.140.226.0,23,reserved,*
 *,ipv4,103.140.253.0,24,reserved,*
 *,ipv4,103.141.16.0,23,reserved,*
 *,ipv4,103.141.80.0,23,reserved,*
@@ -142,6 +146,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,103.152.154.0,23,reserved,*
 *,ipv4,103.153.67.0,24,reserved,*
 *,ipv4,103.153.94.0,23,reserved,*
+*,ipv4,103.153.128.0,23,reserved,*
 *,ipv4,103.153.232.0,23,reserved,*
 *,ipv4,103.155.114.0,23,reserved,*
 *,ipv4,103.155.120.0,23,reserved,*
@@ -228,6 +233,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,103.246.216.0,24,reserved,*
 *,ipv4,103.251.10.0,23,reserved,*
 *,ipv4,103.251.12.0,23,reserved,*
+*,ipv4,103.254.82.0,23,reserved,*
 *,ipv4,103.255.54.0,24,reserved,*
 *,ipv4,113.52.128.0,22,reserved,*
 *,ipv4,113.192.44.0,23,reserved,*
@@ -714,6 +720,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2403:5b00::,32,reserved,*
 *,ipv6,2403:65c0::,32,reserved,*
 *,ipv6,2403:6bc0::,32,reserved,*
+*,ipv6,2403:7780::,32,reserved,*
+*,ipv6,2403:7840::,32,reserved,*
 *,ipv6,2403:86c0::,32,reserved,*
 *,ipv6,2403:a040::,32,reserved,*
 *,ipv6,2403:aac0::,32,reserved,*
@@ -809,6 +817,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2406:9740::,32,reserved,*
 *,ipv6,2406:9e40::,32,reserved,*
 *,ipv6,2406:b440::,32,reserved,*
+*,ipv6,2406:bdc0::,32,reserved,*
 *,ipv6,2406:c3c0::,32,reserved,*
 *,ipv6,2406:c600::,32,reserved,*
 *,ipv6,2407:1580::,32,reserved,*
@@ -1033,6 +1042,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df2:1640::,48,reserved,*
 *,ipv6,2001:df2:2000::,48,reserved,*
 *,ipv6,2001:df2:3cc0::,48,reserved,*
+*,ipv6,2001:df2:4100::,48,reserved,*
 *,ipv6,2001:df2:4580::,48,reserved,*
 *,ipv6,2001:df2:5980::,48,reserved,*
 *,ipv6,2001:df2:6180::,48,reserved,*
@@ -1076,10 +1086,12 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df4:1a80::,48,reserved,*
 *,ipv6,2001:df4:33c0::,48,reserved,*
 *,ipv6,2001:df4:6a00::,48,reserved,*
+*,ipv6,2001:df4:7a00::,48,reserved,*
 *,ipv6,2001:df4:7d00::,48,reserved,*
 *,ipv6,2001:df4:8400::,48,reserved,*
 *,ipv6,2001:df4:9740::,48,reserved,*
 *,ipv6,2001:df4:a680::,48,reserved,*
+*,ipv6,2001:df4:a980::,48,reserved,*
 *,ipv6,2001:df4:c680::,48,reserved,*
 *,ipv6,2001:df4:c780::,48,reserved,*
 *,ipv6,2001:df4:cc00::,48,reserved,*
@@ -1831,8 +1843,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,143.218.0.0,16,available,*
 *,ipv4,144.48.196.0,22,available,*
 *,ipv4,144.79.40.0,24,available,*
-*,ipv4,144.79.116.0,22,available,*
-*,ipv4,144.79.120.0,21,available,*
 *,ipv4,144.79.128.0,17,available,*
 *,ipv4,150.107.127.0,24,available,*
 *,ipv4,151.158.0.0,16,available,*
@@ -25438,7 +25448,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2402:3ec4::,30,available,*
 *,ipv6,2402:3ec8::,29,available,*
 *,ipv6,2402:3ed0::,28,available,*
-*,ipv6,2402:3ee0::,27,available,*
+*,ipv6,2402:3ee1::,32,available,*
+*,ipv6,2402:3ee2::,31,available,*
+*,ipv6,2402:3ee4::,30,available,*
+*,ipv6,2402:3ee8::,29,available,*
+*,ipv6,2402:3ef0::,28,available,*
 *,ipv6,2402:3f00::,25,available,*
 *,ipv6,2402:3f81::,32,available,*
 *,ipv6,2402:3f82::,31,available,*
@@ -92400,28 +92414,48 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df6:7088::,45,available,*
 *,ipv6,2001:df6:7090::,44,available,*
 *,ipv6,2001:df6:70a0::,43,available,*
-*,ipv6,2001:df6:70c0::,42,available,*
+*,ipv6,2001:df6:70c1::,48,available,*
+*,ipv6,2001:df6:70c2::,47,available,*
+*,ipv6,2001:df6:70c4::,46,available,*
+*,ipv6,2001:df6:70c8::,45,available,*
+*,ipv6,2001:df6:70d0::,44,available,*
+*,ipv6,2001:df6:70e0::,43,available,*
 *,ipv6,2001:df6:7101::,48,available,*
 *,ipv6,2001:df6:7102::,47,available,*
 *,ipv6,2001:df6:7104::,46,available,*
 *,ipv6,2001:df6:7108::,45,available,*
 *,ipv6,2001:df6:7110::,44,available,*
 *,ipv6,2001:df6:7120::,43,available,*
-*,ipv6,2001:df6:7140::,42,available,*
+*,ipv6,2001:df6:7141::,48,available,*
+*,ipv6,2001:df6:7142::,47,available,*
+*,ipv6,2001:df6:7144::,46,available,*
+*,ipv6,2001:df6:7148::,45,available,*
+*,ipv6,2001:df6:7150::,44,available,*
+*,ipv6,2001:df6:7160::,43,available,*
 *,ipv6,2001:df6:7181::,48,available,*
 *,ipv6,2001:df6:7182::,47,available,*
 *,ipv6,2001:df6:7184::,46,available,*
 *,ipv6,2001:df6:7188::,45,available,*
 *,ipv6,2001:df6:7190::,44,available,*
 *,ipv6,2001:df6:71a0::,43,available,*
-*,ipv6,2001:df6:71c0::,42,available,*
+*,ipv6,2001:df6:71c1::,48,available,*
+*,ipv6,2001:df6:71c2::,47,available,*
+*,ipv6,2001:df6:71c4::,46,available,*
+*,ipv6,2001:df6:71c8::,45,available,*
+*,ipv6,2001:df6:71d0::,44,available,*
+*,ipv6,2001:df6:71e0::,43,available,*
 *,ipv6,2001:df6:7201::,48,available,*
 *,ipv6,2001:df6:7202::,47,available,*
 *,ipv6,2001:df6:7204::,46,available,*
 *,ipv6,2001:df6:7208::,45,available,*
 *,ipv6,2001:df6:7210::,44,available,*
 *,ipv6,2001:df6:7220::,43,available,*
-*,ipv6,2001:df6:7240::,42,available,*
+*,ipv6,2001:df6:7241::,48,available,*
+*,ipv6,2001:df6:7242::,47,available,*
+*,ipv6,2001:df6:7244::,46,available,*
+*,ipv6,2001:df6:7248::,45,available,*
+*,ipv6,2001:df6:7250::,44,available,*
+*,ipv6,2001:df6:7260::,43,available,*
 *,ipv6,2001:df6:7282::,47,available,*
 *,ipv6,2001:df6:7284::,46,available,*
 *,ipv6,2001:df6:7288::,45,available,*
@@ -108400,7 +108434,6 @@ CN,ipv4,103.153.36.0,23,allocated,*
 CN,ipv4,103.153.100.0,23,allocated,*
 CN,ipv4,103.153.114.0,23,allocated,*
 CN,ipv4,103.153.122.0,23,allocated,[140914;CN;FCCDC-AS-AP Hunan Furong Cloud Communication Technology Co.  Limited]
-CN,ipv4,103.153.128.0,23,allocated,*
 CN,ipv4,103.153.132.0,23,allocated,*
 CN,ipv4,103.153.138.0,23,allocated,*
 CN,ipv4,103.153.146.0,23,allocated,*
@@ -110582,6 +110615,7 @@ CN,ipv4,144.79.42.0,23,allocated,*
 CN,ipv4,144.79.54.0,23,allocated,*
 CN,ipv4,144.79.70.0,23,allocated,[154402;CN;SHENZHEN6-AS-AP Shenzhen FredCloud Computing Technology Co.  Ltd.]
 CN,ipv4,144.79.84.0,23,allocated,*
+CN,ipv4,144.79.118.0,23,allocated,*
 CN,ipv4,144.123.0.0,16,allocated,*
 CN,ipv4,144.255.0.0,16,allocated,*
 CN,ipv4,146.56.192.0,18,allocated,[133478;CN;TENCENT-AS-AP Tencent Cloud Computing Beijing Co.  Ltd]
@@ -114202,7 +114236,6 @@ CN,ipv6,2403:7540::,32,allocated,*
 CN,ipv6,2403:7580::,32,allocated,*
 CN,ipv6,2403:76c0::,32,allocated,*
 CN,ipv6,2403:7700::,32,allocated,*
-CN,ipv6,2403:7840::,32,allocated,*
 CN,ipv6,2403:78c0::,32,allocated,*
 CN,ipv6,2403:7a80::,32,allocated,*
 CN,ipv6,2403:7b00::,32,allocated,*
@@ -114889,7 +114922,6 @@ CN,ipv6,2406:bb80::,32,allocated,*
 CN,ipv6,2406:bc80::,32,allocated,*
 CN,ipv6,2406:bd40::,32,allocated,*
 CN,ipv6,2406:bd80::,32,allocated,*
-CN,ipv6,2406:bdc0::,32,allocated,*
 CN,ipv6,2406:be80::,32,allocated,*
 CN,ipv6,2406:bf80::,32,allocated,*
 CN,ipv6,2406:c080::,32,allocated,*
@@ -115813,7 +115845,6 @@ HK,ipv4,103.43.84.0,22,allocated,[135575;HK;AOFEI-HK AOFEI DATA INTERNATIONAL CO
 HK,ipv4,103.43.160.0,22,allocated,[133115;HK;HKKFGL-AS-AP HK Kwaifong Group Limited]
 HK,ipv4,103.43.172.0,22,allocated,[133892;HK;JULONGYUNLLC-AP JULONGYUN L.L.C]
 HK,ipv4,103.43.216.0,22,allocated,*
-HK,ipv4,103.43.236.0,22,allocated,[133783;HK;IPGONET-AS-AP IPGO.NET LIMITED]
 HK,ipv4,103.43.244.0,22,allocated,[63915;HK;XIAOMIHKLIMITED-HK FLATRM C 21F CMA BUILDING 64 CONNAUGHT ROAD CENTRAL][63855;HK;XIAOMIHKLIMITED-AS XIAOMI H.K. Limited]
 HK,ipv4,103.44.28.0,22,allocated,[133861;HK;SONDERCLOUDLIMITED-AS-AP SonderCloud Limited][133199;HK;SONDERCLOUDLIMITED-AS-AP SonderCloud Limited]
 HK,ipv4,103.44.60.0,22,allocated,[149840;HK;ISLHKLTD-AS-AP ISL HK LTD][137999;HK;QUINTRON-SYSTEMS-LIMITED QUINTRON-SYSTEMS-LIMITED][133926;HK;BOCOMM-AS-AP Bank of Communications Hong Kong Limited]
@@ -115925,7 +115956,6 @@ HK,ipv4,103.72.164.0,22,allocated,[134243;HK;OURDOMAINS-HK Ourdomains Limited]
 HK,ipv4,103.73.88.0,22,allocated,[134548;HK;DXTL-HK DXTL Tseung Kwan O Service][134175;HK;SH2206-AP UNIT A17 9F SILVERCORP INTL TOWER 707-713 NATHAN RD][58658;HK;DXTL-AS-AP DXTL]
 HK,ipv4,103.73.96.0,22,allocated,[135386;HK;LTG-AS-AP LinkChina Telecom Global Limited.]
 HK,ipv4,103.73.160.0,22,allocated,[134604;HK;CACHETELECOMM-HK Cache Tele Limited]
-HK,ipv4,103.73.194.0,23,allocated,[132685;HK;TOUCHPAL-AS-AP TouchPal HK Co.  Limited]
 HK,ipv4,103.74.52.0,23,allocated,[134729;HK;JPTL-AS-AP JOINT POWER TECHNOLOGY LIMITED]
 HK,ipv4,103.74.172.0,22,allocated,[132813;HK;AISI-AS-AP HK AISI CLOUD COMPUTING LIMITED]
 HK,ipv4,103.74.192.0,22,allocated,[134694;HK;BLNCL-HK baud linker network co.  limited]
@@ -116072,7 +116102,6 @@ HK,ipv4,103.123.160.0,22,allocated,[133526;HK;HENGDA-AS-AP HENGDA NETWORK LIMITE
 HK,ipv4,103.124.192.0,22,allocated,[138402;HK;NETEY-AS-AP Netey Networks LLC]
 HK,ipv4,103.125.115.0,24,allocated,[138461;HK;BALLWAN-AS-AP Ballwan Technology Co.  Limited]
 HK,ipv4,103.126.92.0,22,allocated,*
-HK,ipv4,103.126.242.0,23,allocated,[132685;HK;TOUCHPAL-AS-AP TouchPal HK Co.  Limited]
 HK,ipv4,103.127.24.0,22,allocated,[137984;HK;XLC-AS-AP XLC GLOBAL Limited][9744;HK;XLC-AS-AP XLC GLOBAL]
 HK,ipv4,103.127.80.0,22,allocated,[152331;HK;LEMON-AS-AP LEMON TELECOMMUNICATIONS LIMITED][133522;HK;LEMON-AS-AP LEMON TELECOMMUNICATIONS LIMITED][132325;HK;LEMON-AS-AP LEMON TELECOMMUNICATIONS LIMITED]
 HK,ipv4,103.127.240.0,22,allocated,[140227;HK;HKCICL-AS-AP Hong Kong Communications International Co.  Limited][131640;HK;HKCICL-AS-AP Hong Kong Communications International Co.  Limited]
@@ -116104,7 +116133,6 @@ HK,ipv4,103.140.68.0,23,allocated,[139243;HK;HGNANT-AS-AP HONGKONG GLOBAL NETWOR
 HK,ipv4,103.140.70.0,23,allocated,[138645;HK;G3S-AS-AP G3S Technologies Co.  Limited][49385;HK;G3S-AS-AP G3S Technologies Co.  Limited][35820;HK;G3S-AS-AP G3S Technologies Co.  Limited]
 HK,ipv4,103.140.156.0,23,allocated,[136744;HK;DPTL-AS-AP DREAM POWER TECHNOLOGY LIMITED]
 HK,ipv4,103.140.170.0,23,allocated,[139268;HK;GLINK-AS-AP Global Link Internet Limited]
-HK,ipv4,103.140.226.0,23,allocated,*
 HK,ipv4,103.140.238.0,23,allocated,[139293;HK;UFO-AS-AP UFO Network Limited]
 HK,ipv4,103.141.118.0,23,allocated,[142574;HK;SDG-AS-AP HONG KONG SDG TECHNOLOGY LIMITED][140525;HK;GIGALINK-AS-AP HONG KONG GIGALINK NETWORK LIMITED][139817;HK;GIGALINK-AS-AP HONG KONG GIGALINK NETWORK LIMITED][139340;HK;GIGALINK-AS-AP HONG KONG GIGALINK NETWORK LIMITED]
 HK,ipv4,103.141.130.0,23,allocated,[141009;HK;ANCENT-AS-AP ANCENT GROUP LIMITED][10358;US;ANCENT-HK-AS ANCENT GROUP LIMITED]
@@ -117845,7 +117873,6 @@ HK,ipv6,2403:64c0::,32,allocated,[134379;HK;TGGO-AS-AP TGGO COMPANY LIMITED]
 HK,ipv6,2403:6540::,32,allocated,[10132;HK;EASTAR-TECHNOLOGY-AP Towngas Telecommunications Fixed Network Limited]
 HK,ipv6,2403:6f80::,32,allocated,[134795;HK;SOUTHASIAUNIVERSAL-AS-AP South Asia Universal Limited]
 HK,ipv6,2403:7680::,32,allocated,[134446;HK;SNS-AS-AP Sfera Networks s.r.l.]
-HK,ipv6,2403:7780::,32,allocated,[133783;HK;IPGONET-AS-AP IPGO.NET LIMITED]
 HK,ipv6,2403:8100::,32,allocated,[24023;HK;JNPR-APAC-AS-AP Juniper Networks HK Ltd.]
 HK,ipv6,2403:8e40::,32,allocated,*
 HK,ipv6,2403:9bc0::,32,allocated,[135562;HK;NGNHK-AS-AP Nevigate Global Network Hong Kong Limited]
@@ -124908,7 +124935,7 @@ IN,ipv4,103.253.200.0,22,allocated,*
 IN,ipv4,103.253.208.0,22,allocated,*
 IN,ipv4,103.254.52.0,22,allocated,*
 IN,ipv4,103.254.56.0,22,allocated,*
-IN,ipv4,103.254.80.0,22,allocated,*
+IN,ipv4,103.254.80.0,23,allocated,*
 IN,ipv4,103.254.96.0,22,allocated,*
 IN,ipv4,103.254.100.0,22,allocated,*
 IN,ipv4,103.254.128.0,22,allocated,*
@@ -129440,6 +129467,7 @@ JP,ipv4,143.125.224.0,19,allocated,*
 JP,ipv4,143.189.0.0,16,allocated,*
 JP,ipv4,143.201.0.0,16,allocated,*
 JP,ipv4,144.1.0.0,16,allocated,*
+JP,ipv4,144.79.120.0,23,allocated,*
 JP,ipv4,144.91.128.0,19,allocated,*
 JP,ipv4,144.91.160.0,20,allocated,*
 JP,ipv4,144.213.0.0,16,allocated,*
@@ -131719,6 +131747,7 @@ JP,ipv6,2402:3880::,32,allocated,*
 JP,ipv6,2402:3b00::,32,allocated,*
 JP,ipv6,2402:3c60::,32,allocated,*
 JP,ipv6,2402:3d00::,32,allocated,*
+JP,ipv6,2402:3ee0::,32,allocated,*
 JP,ipv6,2402:4200::,32,allocated,*
 JP,ipv6,2402:4700::,32,allocated,*
 JP,ipv6,2402:56c0::,32,allocated,*
@@ -135943,6 +135972,7 @@ MY,ipv4,138.252.188.0,23,allocated,[154358;MY;BMSB-AS-AP Bitdeer Malaysia SDN. B
 MY,ipv4,139.5.176.0,22,allocated,*
 MY,ipv4,143.192.96.0,20,allocated,[131310;MY;PLT-NET-MY CX2 Computer Exchange]
 MY,ipv4,144.79.80.0,23,allocated,[154399;MY;HELIX-AS-AP HELIX SOLUTION SDN BHD]
+MY,ipv4,144.79.123.0,24,allocated,[152153;MY;NETINFINIUM-AS-AP NETINFINIUM SOLUTIONS SDN BHD]
 MY,ipv4,144.199.0.0,16,allocated,*
 MY,ipv4,146.88.152.0,21,allocated,[148994;MY;CNC-AS-AP CNC TECH LIMIT ED][146993;MY;DBL-AS-AP DEEP BRIGHT LIMITED][133847;MY;ICT-AS-AP Anpple Tech Enterprise]
 MY,ipv4,146.88.196.0,22,allocated,[139075;MY;MYNAP-AS NTT MSC Sdn Bhd][10204;MY;ARCNET-NTTMSC-MY Arcnet NTT MSC ISP]
@@ -138385,6 +138415,7 @@ PH,ipv4,143.44.128.0,17,allocated,[153356;PH;HOMEDEVELOPMENTMUTUALFUND-AS-PH Hom
 PH,ipv4,144.48.28.0,22,allocated,[136031;PH;NEWMOUNTAINVIEW-AS-AP Terraserv Technologies Inc.][135345;PH;NEWMOUNTAINVIEW-PH NewMountainView Satellite Corporation]
 PH,ipv4,144.48.200.0,22,allocated,[64066;PH;AWNPI-AS-AP Ace Wireless Network Philippines Inc.][58757;PH;AWNPI-AS Ace Wireless Network Phils. Inc.]
 PH,ipv4,144.79.92.0,23,allocated,[154409;PH;POWERLINK-AS-AP Powerlink Technologies Inc]
+PH,ipv4,144.79.116.0,23,allocated,[154424;PH;JREVIT-AS-AP Jrev IT Solutions]
 PH,ipv4,146.88.64.0,20,allocated,[152326;PH;RTI-PLDTVRF-PH RTI-PLDT Network Infra][55821;PH;RADIUSTELECOMS-AS-AP RADIUS TELECOMS  INC.]
 PH,ipv4,146.88.80.0,22,allocated,[134490;PH;AVCHI-ZAM-AS-AP Asian Vision Cable Holdings Inc][56099;PH;AVCHI-CLICK-AS-AP Asian Vision Cable]
 PH,ipv4,147.185.169.0,24,allocated,[139798;PH;TASKUS-AS-AP LizardBear Tasking Inc][139626;PH;TWOGO-AS-AP 2GO Group  Inc.][132853;PH;PDSHC-AS PHILIPPINE DEALING SYSTEM HOLDINGS CORP][132595;PH;SEEI-AS-AP Solutions Experts and Enablers Inc.][131121;PH;GLOBE-TELECOM-AS Globe Telecom  Inc.][55730;PH;SUNWEST-AS-AP Sunwest Construction & Devt. Corporation][45832;PH;ENDERUN--TRANSIT-AS-AP Enderun Colleges  Inc.][45799;PH;SINONET-TRANSIT-AS-AP Sinonet Technology][45462;PH;ATSC-TRANSIT-AS-AP Aboitiz Transport System Corporation][45343;PH;AYALALAND-TRANSIT-AS-AP AYALA LAND][38822;PH;ACNET-AP Ayala Corporation  Conglomerate][38445;PH;WIPRO-TRANSIT-AS-AP WiPro BPO Philippines LTD Inc.][24451;PH;PDS-GROUP-AS-AP Philippine Dealing System][24179;PH;IMI-AS-AP IMI  Manufacturing Semiconductors and Electronics][24091;PH;INNOVE-MSDDNPLUS-AP Innove Multi-Service Data Network][23689;PH;MAKATISHANGRILA-AS-AP Makati Shangri-La][23606;PH;GLOBE-TELECOM-AS-AP Globe Telecoms][18392;PH;GLOBE-TELECOM-IX Globe Telecom IX Network][4775;PH;GLOBE-TELECOM-AS Globe Telecoms]
@@ -140369,7 +140400,7 @@ SG,ipv4,148.66.128.0,19,allocated,[133882;SG;GODADDY-NET-SG-AS-AP Godaddy.com]
 SG,ipv4,148.145.128.0,17,allocated,[151610;SG;HIPL-AS-AP HUAWEI INTERNATIONAL PTE. LTD.][149167;SG;HIPL-AS-AP HUAWEI INTERNATIONAL PTE. LTD.][141180;SG;HIPL-AS-AP HUAWEI INTERNATIONAL PTE. LTD.][136907;HK;HWCLOUDS-AS-AP HUAWEI CLOUDS][131444;SG;HIPL-AS-AP Huawei IT Data Center in AP]
 SG,ipv4,148.222.64.0,20,allocated,[133151;SG;GARENA-AS-AP Garena Online Pte Ltd][58521;SG;GARENA-SG Garena Online Pte Ltd]
 SG,ipv4,148.222.80.0,21,allocated,[133151;SG;GARENA-AS-AP Garena Online Pte Ltd][58521;SG;GARENA-SG Garena Online Pte Ltd]
-SG,ipv4,148.222.92.0,23,allocated,[133151;SG;GARENA-AS-AP Garena Online Pte Ltd][58521;SG;GARENA-SG Garena Online Pte Ltd]
+SG,ipv4,148.222.92.0,24,allocated,[133151;SG;GARENA-AS-AP Garena Online Pte Ltd][58521;SG;GARENA-SG Garena Online Pte Ltd]
 SG,ipv4,148.222.160.0,20,allocated,[149981;SG;ELD-AS-AP Edgenext Legend Dynasty Pte. Ltd.][139057;SG;ELD-AS-AP Edgenext Legend Dynasty Pte. Ltd.]
 SG,ipv4,149.129.0.0,16,allocated,[134963;SG;ASEPL-AS-AP Alibaba Cloud Singapore Private Limited]
 SG,ipv4,149.232.128.0,19,allocated,[151610;SG;HIPL-AS-AP HUAWEI INTERNATIONAL PTE. LTD.][149167;SG;HIPL-AS-AP HUAWEI INTERNATIONAL PTE. LTD.][141180;SG;HIPL-AS-AP HUAWEI INTERNATIONAL PTE. LTD.][136907;HK;HWCLOUDS-AS-AP HUAWEI CLOUDS][131444;SG;HIPL-AS-AP Huawei IT Data Center in AP]
@@ -140860,7 +140891,7 @@ SG,ipv4,203.127.184.0,21,allocated,[9877;SG;NGEEANN-POLY-AS-AP Ngee Ann Polytech
 SG,ipv4,203.127.192.0,19,allocated,[9877;SG;NGEEANN-POLY-AS-AP Ngee Ann Polytechnic Computer Center][9247;SG;NIE-SG National Institute of Education][3758;SG;SINGNET SingNet]
 SG,ipv4,203.127.224.0,19,allocated,[9877;SG;NGEEANN-POLY-AS-AP Ngee Ann Polytechnic Computer Center][9247;SG;NIE-SG National Institute of Education][3758;SG;SINGNET SingNet]
 SG,ipv4,203.142.16.0,21,allocated,[45227;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][38386;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][9892;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.]
-SG,ipv4,203.142.24.0,23,allocated,[45227;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][38386;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][9892;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.]
+SG,ipv4,203.142.24.0,23,allocated,*
 SG,ipv4,203.142.27.0,24,allocated,[45227;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][38386;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][9892;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.]
 SG,ipv4,203.142.28.0,22,allocated,[45227;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][38386;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.][9892;SG;ICONZ-WEBVISIONS-AP Iconz-Webvisions Pte. Ltd.]
 SG,ipv4,203.143.128.0,19,allocated,[138450;SG;AVALOQ-AS-AP Avaloq][136468;SG;IBM-SG-AP IBM Singapore Pte Ltd][135291;SG;IBM-SG-AP IBM Singapore Server Farm][134667;SG;IBM-SG-AP IBM Singapore Pte Ltd][10120;SG;IBM-SG-AP IBM Sinapore Server Farm]
@@ -144813,6 +144844,7 @@ VN,ipv4,144.48.24.0,22,allocated,*
 VN,ipv4,146.196.64.0,22,allocated,*
 VN,ipv4,148.222.88.0,23,allocated,*
 VN,ipv4,148.222.90.0,23,allocated,*
+VN,ipv4,148.222.93.0,24,allocated,*
 VN,ipv4,148.222.94.0,24,allocated,*
 VN,ipv4,148.222.95.0,24,allocated,*
 VN,ipv4,150.95.16.0,22,allocated,*
@@ -146079,7 +146111,7 @@ AU,ipv4,103.158.60.0,23,assigned,[141399;AU;SPECSAVERSPTYLTD-AS-AP Specsavers Pt
 AU,ipv4,103.158.64.0,24,assigned,[141402;AU;SAC-AS-AP St Augustines College-Sydney]
 AU,ipv4,103.158.84.0,23,assigned,[141401;AU;BANKOFSYDNEY-AS-AP Bank of Sydney]
 AU,ipv4,103.158.232.0,23,assigned,[141422;AU;COMTEL-AS-AP COMTEL PTY. LIMITED]
-AU,ipv4,103.158.243.0,24,assigned,[138624;AU;NSS-AS-AP NORTHERN STEVEDORING SERVICES PTY LTD]
+AU,ipv4,103.158.243.0,24,assigned,[152169;AU;NEPTUNE-AS-AP Neptune Internet]
 AU,ipv4,103.160.60.0,23,assigned,[134456;AU;ACAPL-AS-AP Akuna Capital Australia Pty Ltd]
 AU,ipv4,103.160.162.0,24,assigned,[134472;AU;SYSTIMAPTYLTD-AS-AP SYSTIMA PTY LTD]
 AU,ipv4,103.161.58.0,24,assigned,[134498;AU;FREMANTLE-AS-AP Fremantle Port Authority]
@@ -149704,6 +149736,7 @@ BD,ipv4,144.79.102.0,24,assigned,[154416;BD;DGDP-AS-AP Directorate General Defen
 BD,ipv4,144.79.103.0,24,assigned,[154417;BD;MAHIRDOTNET-AS-AP Mahir Dot Net]
 BD,ipv4,144.79.104.0,24,assigned,[154417;BD;MAHIRDOTNET-AS-AP Mahir Dot Net]
 BD,ipv4,144.79.108.0,23,assigned,[154420;BD;STAR7-AS-AP Star Tech & Engineering Ltd.]
+BD,ipv4,144.79.124.0,23,assigned,[154421;BD;NEBULAIHOST-AS-AP Nebula I Host]
 BD,ipv4,155.35.46.0,23,assigned,[154158;BD;MAC-AS-AP MS Al Amin Computers]
 BD,ipv4,157.10.132.0,23,assigned,[152319;BD;DGOF-AS-AP Directorate General of Food]
 BD,ipv4,157.10.174.0,23,assigned,[152327;BD;RASUWEBHOST-AS-AP Rasu Web Host]
@@ -150594,6 +150627,7 @@ BD,ipv6,2001:df6:6980::,48,assigned,[136275;BD;FBDN-AS-AP FASTLINK BD DOT NET]
 BD,ipv6,2001:df6:6d80::,48,assigned,[142044;BD;CONTRIVANCETECHNOLOGY-AS-AP Contrivance Technology]
 BD,ipv6,2001:df6:6e40::,48,assigned,[154417;BD;MAHIRDOTNET-AS-AP Mahir Dot Net]
 BD,ipv6,2001:df6:6ec0::,48,assigned,[154420;BD;STAR7-AS-AP Star Tech & Engineering Ltd.]
+BD,ipv6,2001:df6:71c0::,48,assigned,[154421;BD;NEBULAIHOST-AS-AP Nebula I Host]
 BD,ipv6,2001:df6:7700::,48,assigned,[133031;BD;PROCOMM1-AS-AP Procomm Technologies]
 BD,ipv6,2001:df6:7880::,48,assigned,[138408;BD;NUSRATECHPTELTD-AS-AP Gotipath]
 BD,ipv6,2001:df6:7a80::,48,assigned,[142054;BD;TECHCITYCOMMUNICATIONS-AS-AP TECH CITY COMMUNICATIONS]
@@ -150899,7 +150933,6 @@ CN,ipv6,2001:df4:3d80::,48,assigned,*
 CN,ipv6,2001:df4:4b80::,48,assigned,*
 CN,ipv6,2001:df4:4d80::,48,assigned,[140943;CN;BILIBILI-AS-AP Shanghai Bilibili Technology Co.  Ltd.]
 CN,ipv6,2001:df4:a1c0::,48,assigned,[136769;CN;GFITCL-AS-AP Guangzhou Fengyun Information Technology Co.  Ltd.]
-CN,ipv6,2001:df4:a980::,48,assigned,[141028;CN;HKCTCL-AS-AP Hunan kaopu Cloud Technology Co. LTD]
 CN,ipv6,2001:df4:c180::,48,assigned,[141151;CN;BZC-AS-AP Beijing ZhimengxingchenTechnology Co. Ltd]
 CN,ipv6,2001:df4:c580::,48,assigned,*
 CN,ipv6,2001:df4:e140::,48,assigned,[153497;CN;DXTCL-AS-AP Dongguan Xingxiu Technology Co.  Ltd.][135040;CN;DXTCL-AS-AP Dongguan Xingxiu Technology Co.  Ltd.]
@@ -151535,7 +151568,6 @@ HK,ipv6,2001:df2:2a40::,48,assigned,[151045;HK;YAETELECOMLIMITED-AS-AP Yae Telec
 HK,ipv6,2001:df2:2c00::,48,assigned,[133929;HK;TWOWINCOLIMITED-AS-AP TWOWIN CO.  LIMITED]
 HK,ipv6,2001:df2:37c0::,48,assigned,[154045;HK;WPSDL-AS-AP Winning Partner Software Development Limited][151061;HK;WPSDL-AS-AP Winning Partner Software Development Limited]
 HK,ipv6,2001:df2:3880::,48,assigned,[139836;HK;CCSCL-AS-AP COMEZOLO INTERNET SERVICE HONGKONG CO.  LIMITED][137901;HK;CCSCL-AS-AP COMEZOLO INTERNET SERVICE HONGKONG CO.  LIMITED][135005;HK;CCSCL-AS-AP COMEZOLO INTERNET SERVICE HONGKONG CO.  LIMITED]
-HK,ipv6,2001:df2:4100::,48,assigned,*
 HK,ipv6,2001:df2:4600::,48,assigned,[135489;HK;FENGYENET-AS FENGYE NETWORKS LIMITED]
 HK,ipv6,2001:df2:4680::,48,assigned,*
 HK,ipv6,2001:df2:5100::,48,assigned,[136927;HK;FNETLINKLTD-AS-AP FNETLINK Co.  Ltd.]
@@ -151605,7 +151637,6 @@ HK,ipv6,2001:df4:3700::,48,assigned,[137452;HK;BEAHK-AS-AP The Bank of East Asia
 HK,ipv6,2001:df4:4780::,48,assigned,[140925;HK;SIHL-AS-AP STAR INTELLITECH HK LIMITED]
 HK,ipv6,2001:df4:6b00::,48,assigned,[136493;HK;ENTCL-AS-AP Earth Network Technology HongKong Co.  Limited]
 HK,ipv6,2001:df4:7000::,48,assigned,[45561;HK;M800-HK-AP 21F  Tower 1 Enterprise Square  9 Sheung Yuet Road  Kowloon Bay  Hong Kong]
-HK,ipv6,2001:df4:7a00::,48,assigned,[132685;HK;TOUCHPAL-AS-AP TouchPal HK Co.  Limited]
 HK,ipv6,2001:df4:8c00::,48,assigned,[134234;HK;HOSTMY-AS-AP HOSTMY HK PRIVATE LIMITED]
 HK,ipv6,2001:df4:a0c0::,48,assigned,[153457;HK;VIEWCLOUD-AS-AP VIEWCLOUD NETWORK LIMITED]
 HK,ipv6,2001:df4:be40::,48,assigned,[140591;HK;TESUCH-AS-AP HK TESUCH GLOBAL CO.  LIMITED]
@@ -153626,6 +153657,7 @@ ID,ipv4,144.79.94.0,23,assigned,*
 ID,ipv4,144.79.96.0,24,assigned,*
 ID,ipv4,144.79.97.0,24,assigned,*
 ID,ipv4,144.79.98.0,23,assigned,*
+ID,ipv4,144.79.122.0,24,assigned,*
 ID,ipv4,146.196.96.0,22,assigned,*
 ID,ipv4,146.196.104.0,22,assigned,*
 ID,ipv4,146.196.108.0,22,assigned,*
@@ -155945,6 +155977,7 @@ ID,ipv6,2001:df6:6cc0::,48,assigned,*
 ID,ipv6,2001:df6:6d40::,48,assigned,*
 ID,ipv6,2001:df6:6f00::,48,assigned,*
 ID,ipv6,2001:df6:7040::,48,assigned,*
+ID,ipv6,2001:df6:7140::,48,assigned,*
 ID,ipv6,2001:df6:7380::,48,assigned,*
 ID,ipv6,2001:df6:7500::,48,assigned,*
 ID,ipv6,2001:df6:7b00::,48,assigned,*
@@ -160052,6 +160085,7 @@ IN,ipv4,144.79.16.0,24,assigned,[141518;IN;SUBHOST-AS-IN SUBHOSTING INNOVATIONS 
 IN,ipv4,144.79.30.0,23,assigned,*
 IN,ipv4,144.79.68.0,23,assigned,*
 IN,ipv4,144.79.105.0,24,assigned,*
+IN,ipv4,144.79.126.0,23,assigned,*
 IN,ipv4,146.196.32.0,22,assigned,*
 IN,ipv4,146.196.36.0,22,assigned,*
 IN,ipv4,146.196.44.0,22,assigned,*
@@ -162129,6 +162163,7 @@ IN,ipv6,2001:df6:6f80::,48,assigned,[141014;IN;BTDPL-AS-AP Balaji Teleworks Deve
 IN,ipv6,2001:df6:6fc0::,48,assigned,*
 IN,ipv6,2001:df6:7100::,48,assigned,*
 IN,ipv6,2001:df6:7200::,48,assigned,*
+IN,ipv6,2001:df6:7240::,48,assigned,*
 IN,ipv6,2001:df6:7300::,48,assigned,*
 IN,ipv6,2001:df6:7480::,48,assigned,*
 IN,ipv6,2001:df6:7580::,48,assigned,*
@@ -165053,6 +165088,7 @@ PH,ipv6,2001:df6:3240::,48,assigned,[154287;PH;RCNC-AS-AP R-Connect]
 PH,ipv6,2001:df6:3ac0::,48,assigned,[154355;PH;CNADS-AS-AP CABSTECH NETWORK AND DATA SOLUTION]
 PH,ipv6,2001:df6:5540::,48,assigned,[133922;PH;RNI-AS-AP Robcom Networks Inc.]
 PH,ipv6,2001:df6:6ac0::,48,assigned,[154409;PH;POWERLINK-AS-AP Powerlink Technologies Inc]
+PH,ipv6,2001:df6:70c0::,48,assigned,[154424;PH;JREVIT-AS-AP Jrev IT Solutions]
 PH,ipv6,2001:df6:a700::,48,assigned,[132046;PH;SUNBRIDGE-PH-AS-AP Sunbridge worldwide LTD]
 PH,ipv6,2001:df6:b080::,48,assigned,[142285;PH;KEITHNET-AS-AP KEITH.NET INCORPORATED][139920;PH;UEIX-AS-PH UE-IX]
 PH,ipv6,2001:df6:b300::,48,assigned,[138218;PH;AEV-AS-AP ABOITIZ EQUITY VENTURES INC.]
