@@ -300,6 +300,7 @@ apnic,ipv4,45.127.112.0,22,allocated,*
 apnic,ipv4,45.127.124.0,22,allocated,[134675;HK;HKSERVER-AS-AP 7F  TRANS ASIA CTR 18 KIN HONG ST  KWAI CHUNG HONGKONG][132839;HK;POWERLINE-AS-AP POWER LINE DATACENTER]
 apnic,ipv4,45.127.160.0,22,allocated,[134683;HK;AHECL-AS-AP ANXIN HIGHT ELECTRONIC CO.  LIMITED]
 apnic,ipv4,45.127.184.0,22,allocated,[134687;HK;TWIDC-AS-AP TWIDC Limited]
+apnic,ipv4,45.146.112.0,22,allocated,[152450;HK;CHANGLIAN1-AS-AP ChangLian Network Technology Co.  Limited][137443;HK;CHANGLIAN-AS-AP ChangLian Network Technology Co.  Limited]
 apnic,ipv4,45.158.180.0,22,allocated,[140688;HK;KAOPU-HK Kaopu Cloud HK Limited][138915;HK;KAOPU-HK Kaopu Cloud HK Limited]
 apnic,ipv4,45.248.68.0,22,allocated,[135386;HK;LTG-AS-AP LinkChina Telecom Global Limited.]
 apnic,ipv4,45.249.92.0,22,allocated,[133115;HK;HKKFGL-AS-AP HK Kwaifong Group Limited]
@@ -1441,7 +1442,7 @@ apnic,ipv4,144.48.68.0,22,allocated,[142012;HK;CAMBO-AS-AP CAMBO HK TECHNOLOGY I
 apnic,ipv4,144.48.124.0,22,allocated,[134675;HK;HKSERVER-AS-AP 7F  TRANS ASIA CTR 18 KIN HONG ST  KWAI CHUNG HONGKONG][132839;HK;POWERLINE-AS-AP POWER LINE DATACENTER]
 apnic,ipv4,144.48.188.0,22,allocated,[142012;HK;CAMBO-AS-AP CAMBO HK TECHNOLOGY I.S.P CO.  LIMITED][138607;HK;CAMBO-AS-AP CAMBO HK TECHNOLOGY I.S.P CO.  LIMITED]
 apnic,ipv4,144.48.240.0,22,allocated,*
-apnic,ipv4,144.79.134.0,23,allocated,
+apnic,ipv4,144.79.134.0,23,allocated,[154432;HK;BIL-AS-AP BeeCloud ICT Limited]
 apnic,ipv4,144.214.0.0,16,allocated,[4158;HK;CITYUNI-AS-AP City University of Hong Kong]
 apnic,ipv4,146.88.88.0,21,allocated,[59243;HK;CISL-AS-AP CROSS IT SOLUTIONS LIMITED]
 apnic,ipv4,146.196.52.0,22,allocated,[135152;HK;GNTL-AS-AP Global Network Transit Limited]
@@ -2514,7 +2515,7 @@ apnic,ipv6,2402:2a80::,32,allocated,*
 apnic,ipv6,2402:2b40::,32,allocated,[133746;HK;BAIDU-AS-AP Baidu Hong Kong Limited]
 apnic,ipv6,2402:3960::,32,allocated,[150150;HK;AISANIE1-AS-AP AISANIE DATA SERVICES LIMITED]
 apnic,ipv6,2402:3b40::,32,allocated,[55361;HK;LUCKYTONE-NET-HK Lucky Tone Communications Ltd.]
-apnic,ipv6,2402:3f60::,32,allocated,
+apnic,ipv6,2402:3f60::,32,allocated,[154432;HK;BIL-AS-AP BeeCloud ICT Limited]
 apnic,ipv6,2402:4480::,32,allocated,*
 apnic,ipv6,2402:4680::,32,allocated,*
 apnic,ipv6,2402:47c0::,32,allocated,[137280;HK;KSYUNGLOBAL-AS-AP Kingsoft cloud corporation limited]
@@ -2866,7 +2867,6 @@ ripencc,ipv4,45.142.254.0,24,allocated,[50159;HK;NEX-AS Next Limited][34567;HK;N
 ripencc,ipv4,45.144.2.0,23,allocated,[50159;HK;NEX-AS Next Limited][34567;HK;NEXT-AS Next Limited]
 ripencc,ipv4,45.144.136.0,22,allocated,[60188;HK;XNNET XNNET LIMITED][55000;HK;XNNET XNNET LIMITED][43333;HK;XNNET XNNET LIMITED]
 ripencc,ipv4,45.145.228.0,22,allocated,[60188;HK;XNNET XNNET LIMITED][55000;HK;XNNET XNNET LIMITED][43333;HK;XNNET XNNET LIMITED]
-ripencc,ipv4,45.146.112.0,22,allocated,[208628;HK;changlian ChangLian Network Technology Co. Limited]
 ripencc,ipv4,45.147.24.0,22,allocated,*
 ripencc,ipv4,45.147.212.0,22,allocated,*
 ripencc,ipv4,45.149.68.0,22,allocated,*
@@ -4194,9 +4194,7 @@ apnic,ipv6,2001:df7:f680::,48,assigned,[148987;HK;DCLZD-AS-AP DINGLU CO.  LIMITE
 apnic,ipv6,2001:df7:fc80::,48,assigned,[148995;HK;HJITL-AS-AP HK JIUYUN INFINITE TRADE LIMITED]
 ripencc,ipv4,84.38.4.0,23,assigned,[56447;HK;FE511-AS Kong Lok Consultant Limited]
 ripencc,ipv4,91.198.23.0,24,assigned,[214743;HK;COGENTO-AS Cogento Backbone Limited]
-ripencc,ipv4,91.241.19.0,24,assigned,[57678;HK;CATTECHNOLOGIES-AS Cat Technologies Co. Limited]
 ripencc,ipv4,130.49.0.0,17,assigned,[62300;HK;ASN62300-AS Address Limited][61048;HK;LINK-AS Address Limited][50308;HK;FREE50308 Address Limited][49996;HK;AS49996-AS Address Limited][49842;HK;AS49842-AS Address Limited][42413;HK;AS42413 Address Limited]
-ripencc,ipv4,130.49.132.0,21,assigned,*
 ripencc,ipv4,130.49.140.0,23,assigned,[62300;HK;ASN62300-AS Address Limited][61048;HK;LINK-AS Address Limited][50308;HK;FREE50308 Address Limited][49996;HK;AS49996-AS Address Limited][49842;HK;AS49842-AS Address Limited][42413;HK;AS42413 Address Limited]
 ripencc,ipv4,138.249.0.0,16,assigned,[62300;HK;ASN62300-AS Address Limited][61048;HK;LINK-AS Address Limited][50308;HK;FREE50308 Address Limited][49996;HK;AS49996-AS Address Limited][49842;HK;AS49842-AS Address Limited][42413;HK;AS42413 Address Limited]
 ripencc,ipv4,146.101.0.0,16,assigned,*
