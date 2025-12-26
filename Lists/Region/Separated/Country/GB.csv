@@ -46,13 +46,13 @@ arin,ipv4,23.132.164.0,24,allocated,[401626;GB;NETIFACE-TORONTO]
 arin,ipv4,66.163.221.0,24,allocated,*
 arin,ipv4,66.248.237.0,24,allocated,[33408;GB;WHG-SPARE-1]
 arin,ipv4,68.170.8.0,22,allocated,[33408;GB;WHG-SPARE-1]
-arin,ipv4,134.65.0.0,21,allocated,[27263;US;AVON]
-arin,ipv4,134.65.40.0,21,allocated,[27263;US;AVON]
-arin,ipv4,134.65.160.0,22,allocated,[27263;US;AVON]
-arin,ipv4,134.65.173.0,24,allocated,[27263;US;AVON]
-arin,ipv4,134.65.186.0,23,allocated,[27263;US;AVON]
-arin,ipv4,134.65.196.0,24,allocated,[27263;US;AVON]
-arin,ipv4,134.65.200.0,22,allocated,[27263;US;AVON]
+arin,ipv4,134.65.0.0,21,allocated,[27263;GB;NUHL]
+arin,ipv4,134.65.40.0,21,allocated,[27263;GB;NUHL]
+arin,ipv4,134.65.160.0,22,allocated,[27263;GB;NUHL]
+arin,ipv4,134.65.173.0,24,allocated,[27263;GB;NUHL]
+arin,ipv4,134.65.186.0,23,allocated,[27263;GB;NUHL]
+arin,ipv4,134.65.196.0,24,allocated,[27263;GB;NUHL]
+arin,ipv4,134.65.200.0,22,allocated,[27263;GB;NUHL]
 arin,ipv4,147.114.0.0,16,allocated,*
 arin,ipv4,170.39.76.0,22,allocated,[33408;GB;WHG-SPARE-1]
 arin,ipv4,173.195.208.0,20,allocated,[54470;GB;GCGKABAM][46681;GB;GCGRY]
@@ -86,7 +86,7 @@ arin,ipv6,2602:f753::,36,allocated,[401568;GB;MEMILUS]
 arin,ipv6,2605:8940::,32,allocated,[33408;GB;WHG-SPARE-1]
 arin,ipv6,2620:0:300::,48,allocated,*
 arin,ipv6,2001:504:20::,46,allocated,[63053;GB;IIX-AZIIX-RS][63042;GB;IIX-NNIIX-RS][63041;GB;IIX-SFIIX-RS][63024;GB;IIX-WAIIX-RS][63022;GB;IIX-SCIIX-RS][62980;GB;IIX-SJIIX-RS][62979;GB;IIX-GAIIX-RS][55212;GB;IIX-WVIIX-RS][40897;GB;IIX-OKIIX-RS][40550;GB;IIX-GTIIX-RS][36287;GB;IIX-BNIIX-RS][30351;GB;IIX-GCIIX-RS][17102;GB;IIX-LABS]
-arin,ipv6,2620:0:2290::,48,allocated,[27263;US;AVON]
+arin,ipv6,2620:0:2290::,48,allocated,[27263;GB;NUHL]
 ripencc,ipv4,1.186.0.0,16,allocated,[35106;GB;MICROSOFT-LIVE-MEETING Microsoft Limited]
 ripencc,ipv4,2.24.0.0,13,allocated,[35736;GB;WUK-AS EE Limited][33898;GB;TMOBILE-AS EE Limited][12576;GB;EE EE Limited]
 ripencc,ipv4,2.56.84.0,22,allocated,[51561;GB;AS-ICUK ICUK Computing Services Limited]
@@ -1100,7 +1100,7 @@ ripencc,ipv4,62.164.131.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,62.164.132.0,22,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,62.164.136.0,22,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,62.164.140.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
-ripencc,ipv4,62.164.141.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,62.164.141.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv4,62.164.142.0,23,allocated,[204044;GB;Onlyservers PACKET STAR NETWORKS LIMITED]
 ripencc,ipv4,62.164.145.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,62.164.146.0,23,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
@@ -4282,7 +4282,7 @@ ripencc,ipv4,185.108.12.0,22,allocated,*
 ripencc,ipv4,185.108.44.0,22,allocated,*
 ripencc,ipv4,185.108.56.0,22,allocated,[31712;GB;GIGASTREAM-AS GIGASTREAM LIMITED]
 ripencc,ipv4,185.108.92.0,22,allocated,[205402;GB;INTERCITY-TECH-THN Intercity Technology Ltd][202038;GB;INTERCITY-TECH-UKCORE Intercity Technology Ltd]
-ripencc,ipv4,185.108.132.0,22,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,185.108.132.0,22,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv4,185.108.168.0,22,allocated,[43157;GB;URBANWIMAX-NET Telcom Networks Limited][31631;GB;ELEVATE Telcom Networks Limited][5631;GB;ELEVATE Telcom Networks Limited]
 ripencc,ipv4,185.108.176.0,22,allocated,[204239;GB;UK-Abzorb Abzorb Group Ltd]
 ripencc,ipv4,185.108.232.0,22,allocated,[24633;GB;XICON BCN Group Hosting Ltd]
@@ -5082,7 +5082,7 @@ ripencc,ipv4,185.233.96.0,22,allocated,[211500;GB;AS_NOTAHST LOBOS NETWORKING LT
 ripencc,ipv4,185.233.108.0,22,allocated,*
 ripencc,ipv4,185.233.112.0,22,allocated,[208756;GB;deas-001 ALCON TELECOM LTD]
 ripencc,ipv4,185.233.228.0,22,allocated,*
-ripencc,ipv4,185.234.0.0,22,allocated,[211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
+ripencc,ipv4,185.234.0.0,22,allocated,[214606;GB;LINX-INTERNAL London Internet Exchange Ltd.][211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][202631;GB;LINX-GVPP London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
 ripencc,ipv4,185.234.36.0,22,allocated,[61323;GB;UKFAST ANS ACADEMY LIMITED][34934;GB;UKFast ANS ACADEMY LIMITED]
 ripencc,ipv4,185.234.102.0,24,allocated,[211987;GB;datagrid-network COMMERCIS NETWORK LTD]
 ripencc,ipv4,185.234.247.0,24,allocated,[61087;GB;DGTL-UK DGTL TECH UK LLP]
@@ -5455,11 +5455,11 @@ ripencc,ipv4,193.56.1.0,24,allocated,[212174;GB;jola Jola Cloud Solutions Ltd]
 ripencc,ipv4,193.56.176.0,22,allocated,[212263;GB;AS-ROCKETFIBRE Rocket Fibre Ltd][60787;GB;UK_ROCKETFIBRE2 Rocket Fibre Ltd][31595;GB;Awell-Wireless-AS Rocket Fibre Ltd][8801;GB;ROCKETFIBRE Rocket Fibre Ltd]
 ripencc,ipv4,193.57.16.0,22,allocated,[202574;GB;ASN-VLE VLE LIMITED]
 ripencc,ipv4,193.57.80.0,22,allocated,[202517;GB;ZOPA ZOPA BANK LIMITED]
-ripencc,ipv4,193.57.144.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,193.57.144.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv4,193.57.148.0,22,allocated,[212475;GB;COMCAST-UK Comcast International Holdings UK Limited][212465;GB;COMCAST-UK-2 Comcast International Holdings UK Limited][202149;GB;platformuk Comcast International Holdings UK Limited]
-ripencc,ipv4,193.57.159.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
-ripencc,ipv4,193.57.167.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
-ripencc,ipv4,193.57.168.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,193.57.159.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,193.57.167.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,193.57.168.0,24,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv4,193.57.173.0,24,allocated,*
 ripencc,ipv4,193.57.200.0,24,allocated,*
 ripencc,ipv4,193.57.223.0,24,allocated,*
@@ -6056,7 +6056,7 @@ ripencc,ipv4,195.60.172.0,23,allocated,[210511;GB;blue-telecoms Direct Market So
 ripencc,ipv4,195.60.208.0,22,allocated,[41107;GB;backbone-connect Backbone Connect Limited]
 ripencc,ipv4,195.62.192.0,19,allocated,[6717;GB;AS6717 Internet Central Limited]
 ripencc,ipv4,195.66.102.0,24,allocated,*
-ripencc,ipv4,195.66.224.0,19,allocated,[211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
+ripencc,ipv4,195.66.224.0,19,allocated,[214606;GB;LINX-INTERNAL London Internet Exchange Ltd.][211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][202631;GB;LINX-GVPP London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
 ripencc,ipv4,195.68.0.0,17,allocated,[15404;GB;COLT Technology Services Group Limited][12878;GB;Colt-managed-DC-Cloud-Customers COLT Technology Services Group Limited][12761;GB;COLT-CORP-IT COLT Technology Services Group Limited][12755;GB;COLT Technology Services Group Limited][12640;GB;COLT Technology Services Group Limited][9126;GB;COLT Technology Services Group Limited][8372;GB;COLT-UK-AS COLT Technology Services Group Limited][8220;GB;COLT COLT Technology Services Group Limited][6675;GB;COLT-FRANCE-AS COLT Technology Services Group Limited]
 ripencc,ipv4,195.68.206.0,23,allocated,[9153;GB;BURSTFIRE-EU Burstfire Networks Ltd][3344;GB;BURSTFIRE Burstfire Networks Ltd]
 ripencc,ipv4,195.69.100.0,22,allocated,[61323;GB;UKFAST ANS ACADEMY LIMITED][34934;GB;UKFast ANS ACADEMY LIMITED]
@@ -6187,7 +6187,7 @@ ripencc,ipv4,195.191.218.0,23,allocated,[212806;GB;stratagem VeloxServ Communica
 ripencc,ipv4,195.191.250.0,24,allocated,[60672;GB;SC ServerChoice Ltd]
 ripencc,ipv4,195.194.0.0,16,allocated,[34079;GB;EDUSERV-AS Jisc Services Limited][8548;GB;AS8548 Jisc Services Limited]
 ripencc,ipv4,195.195.0.0,16,allocated,[34079;GB;EDUSERV-AS Jisc Services Limited][8548;GB;AS8548 Jisc Services Limited]
-ripencc,ipv4,195.200.20.0,23,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,195.200.20.0,23,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv4,195.200.22.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,195.200.27.0,24,allocated,[8897;GB;KCOM-SPN KCOM GROUP LIMITED]
 ripencc,ipv4,195.200.128.0,19,allocated,[206576;GB;Wavenet-AS206576 Wavenet Limited][200973;GB;Wavenet-AS200973 Wavenet Limited][21267;GB;Wavenet-AS21267 Wavenet Limited][8613;GB;Wavenet-AS8613 Wavenet Limited][5519;GB;Wavenet-AS5519 Wavenet Limited][5413;GB;Wavenet-AS5413 Wavenet Limited]
@@ -6938,7 +6938,7 @@ ripencc,ipv4,217.198.183.0,24,allocated,[43872;GB;OPTINET Optinet U.K. Limited]
 ripencc,ipv4,217.204.0.0,14,allocated,[50173;GB;VTESSE GTT - EMEA Ltd.][35694;GB;SIEMENS-COMMUNICATIONS-SOLUTION-1 GTT - EMEA Ltd.][20500;GB;GRIFFIN GTT - EMEA Ltd.][15565;GB;GTT - EMEA Ltd.][15482;GB;GTT - EMEA Ltd.][12852;GB;EASYNETES-AS GTT - EMEA Ltd.][12606;GB;EASYNET-NL GTT - EMEA Ltd.][12554;GB;EASYNET-BE GTT - EMEA Ltd.][8844;GB;COMMUNITY GTT - EMEA Ltd.][6727;GB;EASYNET-FRANCE GTT - EMEA Ltd.][5571;GB;NETCOM GTT - EMEA Ltd.]
 ripencc,ipv6,2a07::,29,allocated,[51048;GB;NEXT-CONNEX Next Connex Ltd]
 ripencc,ipv6,2a08::,19,allocated,[206747;GB;NCSC UK Ministry of Defence][203665;GB;UKMOD UK Ministry of Defence]
-ripencc,ipv6,2a01:40::,32,allocated,[211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
+ripencc,ipv6,2a01:40::,32,allocated,[214606;GB;LINX-INTERNAL London Internet Exchange Ltd.][211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][202631;GB;LINX-GVPP London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
 ripencc,ipv6,2a01:50::,32,allocated,[30933;GB;PROTEXIA-EU KDA WEB SERVICES LTD]
 ripencc,ipv6,2a01:70::,32,allocated,[57161;GB;FTSOC Netcalibre Ltd][25098;GB;NETCALIBRE Netcalibre Ltd]
 ripencc,ipv6,2a01:90::,32,allocated,[60012;GB;GDSV vXtream Ltd][29668;GB;QUBE vXtream Ltd]
@@ -8449,7 +8449,7 @@ ripencc,ipv6,2a0f:7800::,29,allocated,[202888;GB;ZH-NET UPSTREAM NETWORK LTD][19
 ripencc,ipv6,2a0f:7d40::,29,allocated,[204089;GB;ADML Apollo Duck Media Ltd]
 ripencc,ipv6,2a0f:80c0::,29,allocated,*
 ripencc,ipv6,2a0f:8500::,29,allocated,[215661;GB;ANIXNICS ANIXNICS LIMITED]
-ripencc,ipv6,2a0f:85c0::,29,allocated,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv6,2a0f:85c0::,29,allocated,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv6,2a0f:8640::,29,allocated,*
 ripencc,ipv6,2a0f:90c0::,29,allocated,*
 ripencc,ipv6,2a0f:93c0::,29,allocated,[207158;GB;WORLDCDN Clouvider Limited][207019;GB;TNCL Clouvider Limited][206986;GB;GLOBALCDN Clouvider Limited][206848;GB;UKCDN Clouvider Limited][206822;GB;CLOUDNET Clouvider Limited][206144;GB;NA-Transit Clouvider Limited][206136;GB;CLOUDSRV-NORTH Clouvider Limited][202792;GB;CLOUD-TRANSIT Clouvider Limited][202791;GB;CLOUDSRV-ANY Clouvider Limited][62240;GB;Clouvider Clouvider Limited][43878;GB;EUROPE-CONNECTED Clouvider Limited][42902;GB;GLOBECONNECT Clouvider Limited][35545;GB;Clouvider-Anycast Clouvider Limited][34202;GB;CLOUVIDER-THN2 Clouvider Limited][24669;GB;CLOUVIDER-NETWORK-OPTIMISATION Clouvider Limited]
@@ -9500,7 +9500,7 @@ ripencc,ipv4,185.1.141.0,24,assigned,[8943;GB;JUMP Jump Networks Ltd]
 ripencc,ipv4,185.1.168.0,24,assigned,[60934;GB;IXBRADFORD IXBRADFORD LIMITED][50871;GB;IXBRADFORD IXBRADFORD LIMITED]
 ripencc,ipv4,185.1.195.0,24,assigned,[212265;GB;NCL-IX Stellium Networks Limited][206324;GB;STELLIUM-DC Stellium Networks Limited][60710;GB;NCL-IX-RS Stellium Networks Limited]
 ripencc,ipv4,185.1.207.0,24,assigned,[51601;GB;IPTP IPTP LTD][43565;GB;JumboIX IPTP LTD][41095;GB;IPTP IPTP LTD][20842;GB;FORMULAPLUS-AS IPTP LTD]
-ripencc,ipv4,185.1.232.0,24,assigned,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv4,185.1.232.0,24,assigned,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv4,188.191.132.0,22,assigned,*
 ripencc,ipv4,188.191.152.0,21,assigned,[57148;GB;TBSH-CLIENT-TRISTAR-BYTEHOUSE Bytehouse Ltd]
 ripencc,ipv4,192.5.28.0,24,assigned,*
@@ -10567,7 +10567,7 @@ ripencc,ipv4,194.153.136.0,21,assigned,[9090;GB;PRNE PR Newswire Europe Ltd.]
 ripencc,ipv4,194.153.152.128,25,assigned,*
 ripencc,ipv4,194.153.153.0,26,assigned,[214714;GB;SIGNALX-UK SIGNALX CLOUD COMMUNICATIONS LTD][214402;GB;SIGNALX SIGNALX CLOUD COMMUNICATIONS LTD][212534;GB;LONIX SIGNALX CLOUD COMMUNICATIONS LTD]
 ripencc,ipv4,194.153.154.0,25,assigned,*
-ripencc,ipv4,194.153.159.128,26,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD]
+ripencc,ipv4,194.153.159.128,26,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD][203031;GB;AKIX-RS AKAERE NETWORKS TECHNOLOGY LTD]
 ripencc,ipv4,194.153.184.0,24,assigned,[198567;GB;ED-AND-F-MAN-HOLDINGS-AS MCML LIMITED]
 ripencc,ipv4,194.153.218.0,24,assigned,*
 ripencc,ipv4,194.165.12.0,23,assigned,[56670;GB;WSCC-AS West Sussex County Council]
@@ -10804,7 +10804,7 @@ ripencc,ipv4,216.245.80.0,24,assigned,*
 ripencc,ipv6,2001:678:4::,48,assigned,*
 ripencc,ipv6,2001:678:5::,48,assigned,*
 ripencc,ipv6,2001:7f8:3::,48,assigned,[42565;GB;PacketExchange GTT - EMEA Ltd.][21493;GB;PKXGEU GTT - EMEA Ltd.][21356;GB;XchangePointMLP GTT - EMEA Ltd.][16260;GB;GTT-AUS GTT - EMEA Ltd.]
-ripencc,ipv6,2001:7f8:4::,48,assigned,[211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
+ripencc,ipv6,2001:7f8:4::,48,assigned,[214606;GB;LINX-INTERNAL London Internet Exchange Ltd.][211386;GB;LINX-ROUTE-SERV-AZURE London Internet Exchange Ltd.][204979;GB;LINX-SCO1 London Internet Exchange Ltd.][202631;GB;LINX-GVPP London Internet Exchange Ltd.][8714;GB;LINX-ROUTESRV London Internet Exchange Ltd.][5459;GB;LINX-AS London Internet Exchange Ltd.]
 ripencc,ipv6,2001:67c:30::,48,assigned,[210961;GB;SIGN4 Nathan York]
 ripencc,ipv6,2001:67c:80::,48,assigned,[201980;GB;UNION-AS Claranet Limited][199269;GB;UK-ARDENTA-ASN Claranet Limited][24976;GB;Techgate-Communications Claranet Limited][8426;GB;CLARANET-AS Claranet Limited][8272;GB;NETSCALIBUR-UK Claranet Limited][6656;GB;STARINTERNET Claranet Limited]
 ripencc,ipv6,2001:67c:90::,48,assigned,*
@@ -10820,8 +10820,8 @@ ripencc,ipv6,2001:7f8:be::,48,assigned,[60640;GB;EQUINIX-CLOUD-EXCHANGE-DUBLIN-A
 ripencc,ipv6,2001:7f8:da::,48,assigned,[207936;GB;DELIGHTNETWORKS-AS Konstantin Verba][60735;GB;DELIGHTVPS-AS Konstantin Verba][59813;GB;DELIGHTFIBER-AS Konstantin Verba][49374;GB;BFD-IX Konstantin Verba]
 ripencc,ipv6,2001:7f8:dc::,48,assigned,[8943;GB;JUMP Jump Networks Ltd]
 ripencc,ipv6,2001:7f8:f3::,48,assigned,[60934;GB;IXBRADFORD IXBRADFORD LIMITED][50871;GB;IXBRADFORD IXBRADFORD LIMITED]
-ripencc,ipv6,2001:7f8:fc::,48,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD]
-ripencc,ipv6,2001:678:120::,48,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD]
+ripencc,ipv6,2001:7f8:fc::,48,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD][203031;GB;AKIX-RS AKAERE NETWORKS TECHNOLOGY LTD]
+ripencc,ipv6,2001:678:120::,48,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD][203031;GB;AKIX-RS AKAERE NETWORKS TECHNOLOGY LTD]
 ripencc,ipv6,2001:678:13c::,48,assigned,[201567;GB;Cinnabar Vivian Band]
 ripencc,ipv6,2001:678:144::,48,assigned,[48397;GB;Unipart-AS Unipart Group Limited]
 ripencc,ipv6,2001:678:150::,48,assigned,[59617;GB;ANDYD Andy Davidson]
@@ -10930,7 +10930,7 @@ ripencc,ipv6,2001:67c:f6c::,48,assigned,[196902;GB;DUDLEY-MBC Dudley Metropolita
 ripencc,ipv6,2001:67c:f7c::,48,assigned,[213897;GB;BUBBLES-AS BUBBLES ALTER LIMITED]
 ripencc,ipv6,2001:67c:fc0::,48,assigned,[213767;GB;RH Richard Humphries]
 ripencc,ipv6,2001:7f8:113::,48,assigned,[51601;GB;IPTP IPTP LTD][43565;GB;JumboIX IPTP LTD][41095;GB;IPTP IPTP LTD][20842;GB;FORMULAPLUS-AS IPTP LTD]
-ripencc,ipv6,2001:7f8:123::,48,assigned,[207841;GB;INFERNO Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
+ripencc,ipv6,2001:7f8:123::,48,assigned,[207841;GB;INFERNO Inferno Communications Ltd][202762;GB;INFERNO-EVENTS Inferno Communications Ltd][62079;GB;RAPIDIX Inferno Communications Ltd]
 ripencc,ipv6,2001:7f8:132::,48,assigned,[213863;GB;SmartIXPRouteServers SMARTNET LIMITED][203446;GB;AS203446 SMARTNET LIMITED]
 ripencc,ipv6,2001:7f8:145::,48,assigned,[202888;GB;ZH-NET UPSTREAM NETWORK LTD][198250;GB;IIX-RS UPSTREAM NETWORK LTD][59538;GB;UPSTREAM UPSTREAM NETWORK LTD]
 ripencc,ipv6,2001:7f8:147::,48,assigned,[215587;GB;STELIAIX Stelia Ltd][212175;GB;STELIA Stelia Ltd][47584;GB;STELIA Stelia Ltd]
@@ -10944,7 +10944,7 @@ ripencc,ipv6,2001:678:1028::,48,assigned,[215499;GB;richard-franks Richard Frank
 ripencc,ipv6,2001:678:1054::,48,assigned,*
 ripencc,ipv6,2001:678:1068::,48,assigned,[47219;GB;NTT_GDC_Anycast NTT Global Data Centers EMEA UK Ltd.][29017;GB;GYRON NTT Global Data Centers EMEA UK Ltd.]
 ripencc,ipv6,2001:678:10b0::,48,assigned,*
-ripencc,ipv6,2001:678:10d0::,48,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD]
+ripencc,ipv6,2001:678:10d0::,48,assigned,[210440;GB;Akaere-NetWork AKAERE NETWORKS TECHNOLOGY LTD][203031;GB;AKIX-RS AKAERE NETWORKS TECHNOLOGY LTD]
 ripencc,ipv6,2001:678:1104::,48,assigned,[216265;GB;ARISTO-NET ARISTO NETWORKS LTD][202190;GB;ARISTO-NET-IT ARISTO NETWORKS LTD]
 ripencc,ipv6,2001:678:1178::,48,assigned,*
 ripencc,ipv6,2001:67c:1020::,47,assigned,[35106;GB;MICROSOFT-LIVE-MEETING Microsoft Limited]
