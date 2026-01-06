@@ -64,6 +64,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,103.84.206.0,23,reserved,*
 *,ipv4,103.86.80.0,22,reserved,*
 *,ipv4,103.86.191.0,24,reserved,*
+*,ipv4,103.87.188.0,24,reserved,*
 *,ipv4,103.89.168.0,22,reserved,*
 *,ipv4,103.90.173.0,24,reserved,*
 *,ipv4,103.91.216.0,24,reserved,*
@@ -256,7 +257,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,157.20.33.0,24,reserved,*
 *,ipv4,157.20.110.0,23,reserved,*
 *,ipv4,157.66.154.0,23,reserved,*
-*,ipv4,160.22.166.0,23,reserved,*
 *,ipv4,160.25.14.0,23,reserved,*
 *,ipv4,160.25.102.0,23,reserved,*
 *,ipv4,160.187.7.0,24,reserved,*
@@ -1009,6 +1009,7 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df0:5b80::,48,reserved,*
 *,ipv6,2001:df0:7100::,48,reserved,*
 *,ipv6,2001:df0:8c00::,48,reserved,*
+*,ipv6,2001:df0:8d00::,48,reserved,*
 *,ipv6,2001:df0:9700::,48,reserved,*
 *,ipv6,2001:df0:9f80::,48,reserved,*
 *,ipv6,2001:df0:a4c0::,48,reserved,*
@@ -1080,7 +1081,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df3:e680::,48,reserved,*
 *,ipv6,2001:df3:ed80::,48,reserved,*
 *,ipv6,2001:df3:ee80::,48,reserved,*
-*,ipv6,2001:df3:ef40::,48,reserved,*
 *,ipv6,2001:df4:1340::,48,reserved,*
 *,ipv6,2001:df4:1380::,48,reserved,*
 *,ipv6,2001:df4:1580::,48,reserved,*
@@ -1917,7 +1917,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,192.5.240.0,24,available,*
 *,ipv4,192.35.59.0,24,available,*
 *,ipv4,192.41.203.0,24,available,*
-*,ipv4,192.42.85.0,24,available,*
 *,ipv4,192.42.86.0,24,available,*
 *,ipv4,192.42.237.0,24,available,*
 *,ipv4,192.43.174.0,24,available,*
@@ -2095,8 +2094,8 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,192.231.216.0,24,available,*
 *,ipv4,192.231.218.0,24,available,*
 *,ipv4,192.231.248.0,24,available,*
-*,ipv4,192.232.36.0,22,available,*
-*,ipv4,192.232.40.0,21,available,*
+*,ipv4,192.232.42.0,23,available,*
+*,ipv4,192.232.44.0,22,available,*
 *,ipv4,192.232.48.0,20,available,*
 *,ipv4,192.234.58.0,24,available,*
 *,ipv4,192.234.231.0,24,available,*
@@ -25651,7 +25650,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2402:4504::,30,available,*
 *,ipv6,2402:4508::,29,available,*
 *,ipv6,2402:4510::,28,available,*
-*,ipv6,2402:4520::,27,available,*
+*,ipv6,2402:4521::,32,available,*
+*,ipv6,2402:4522::,31,available,*
+*,ipv6,2402:4524::,30,available,*
+*,ipv6,2402:4528::,29,available,*
+*,ipv6,2402:4530::,28,available,*
 *,ipv6,2402:4541::,32,available,*
 *,ipv6,2402:4542::,31,available,*
 *,ipv6,2402:4544::,30,available,*
@@ -93054,15 +93057,32 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df6:8b08::,45,available,*
 *,ipv6,2001:df6:8b10::,44,available,*
 *,ipv6,2001:df6:8b20::,43,available,*
-*,ipv6,2001:df6:8b40::,42,available,*
+*,ipv6,2001:df6:8b41::,48,available,*
+*,ipv6,2001:df6:8b42::,47,available,*
+*,ipv6,2001:df6:8b44::,46,available,*
+*,ipv6,2001:df6:8b48::,45,available,*
+*,ipv6,2001:df6:8b50::,44,available,*
+*,ipv6,2001:df6:8b60::,43,available,*
 *,ipv6,2001:df6:8b81::,48,available,*
 *,ipv6,2001:df6:8b82::,47,available,*
 *,ipv6,2001:df6:8b84::,46,available,*
 *,ipv6,2001:df6:8b88::,45,available,*
 *,ipv6,2001:df6:8b90::,44,available,*
 *,ipv6,2001:df6:8ba0::,43,available,*
-*,ipv6,2001:df6:8bc0::,42,available,*
-*,ipv6,2001:df6:8c00::,40,available,*
+*,ipv6,2001:df6:8bc1::,48,available,*
+*,ipv6,2001:df6:8bc2::,47,available,*
+*,ipv6,2001:df6:8bc4::,46,available,*
+*,ipv6,2001:df6:8bc8::,45,available,*
+*,ipv6,2001:df6:8bd0::,44,available,*
+*,ipv6,2001:df6:8be0::,43,available,*
+*,ipv6,2001:df6:8c00::,42,available,*
+*,ipv6,2001:df6:8c41::,48,available,*
+*,ipv6,2001:df6:8c42::,47,available,*
+*,ipv6,2001:df6:8c44::,46,available,*
+*,ipv6,2001:df6:8c48::,45,available,*
+*,ipv6,2001:df6:8c50::,44,available,*
+*,ipv6,2001:df6:8c60::,43,available,*
+*,ipv6,2001:df6:8c80::,41,available,*
 *,ipv6,2001:df6:8d01::,48,available,*
 *,ipv6,2001:df6:8d02::,47,available,*
 *,ipv6,2001:df6:8d04::,46,available,*
@@ -95049,7 +95069,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2001:df7:3690::,44,available,*
 *,ipv6,2001:df7:36a0::,43,available,*
 *,ipv6,2001:df7:36c0::,42,available,*
-*,ipv6,2001:df7:3702::,47,available,*
 *,ipv6,2001:df7:3704::,46,available,*
 *,ipv6,2001:df7:3708::,45,available,*
 *,ipv6,2001:df7:3710::,44,available,*
@@ -108677,7 +108696,7 @@ CN,ipv4,103.150.172.0,23,allocated,[151464;CN;LUOGU-AS-AP Shanghai Luogu Network
 CN,ipv4,103.150.180.0,23,allocated,*
 CN,ipv4,103.150.200.0,23,allocated,*
 CN,ipv4,103.150.210.0,23,allocated,[140596;CN;STNC-AS-AP SHENZHEN TUTENG NETWORK CO. LTD]
-CN,ipv4,103.150.214.0,23,allocated,[153633;CN;KVQNET-AS-AP KVQNET][153458;CN;HARUZAKURA-AS-AP Haruzakura Cloud][153376;CN;BRNET-AS-AP Jilin Province Brick Business Service Limited][153330;CN;CLOSEAI-AS-AP Northern Lights Technologies LLC][153195;CN;TUOKE-AS-AP Shaoyang Tuoke Technology Co Ltd][153189;CN;WANGJIANWEI-AS-AP Wang Jianwei][153185;CN;WANGDEHONG-AS-AP Wang Dehong][153170;CN;CUIHONGTAO-AS-AP Cui Hongtao][153168;CN;LUBIN-AS-AP Lu Bin][153057;CN;LIRUIZHI-AS-AP Li Ruizhi][153033;CN;SHANGXU-AS-AP Shang Xu][152930;CN;LINXIANGLIANG-AS-AP Lin Xiangliang][152920;CN;ZHAOCHENGLIN-AS-AP Zhao Chenglin][152911;CN;SYICT-AS-KR SY ICT][152892;CN;LIUJIARONG-AS-AP Liu Jiarong][152697;CN;HUIFA-AS-AP Nanning Huifa Technology Co Ltd][152631;CN;XYHELPER-AS-AP Xyhelper Inc][152598;CN;CHAT-AS-AP Beijing Gong Gong Fa Technology Co Ltd][152186;CN;MINTEL-AS-AP Mintel Holding Limited][152134;CN;ZORO-AS-AP Zoro Limited][152118;CN;DARK495-AS-AP Shenzhen Moesys Computer System Co Ltd][151814;CN;GUOCHUANGXINXINGBEIJINGTECHNOLOGYCOLTD-AS-CN Guo Chuang Xin Xing Beijing Technology Co Ltd][151785;CN;ZHOU-AS-AP Zhou Yang][151673;CN;CHENXINYU-AS-AP Chen Xinyu][151494;CN;ELYSIA-AS-AP Lin Kangyi][151490;CN;GAONIT-AS-KR GaonIT][151418;CN;JUNKAI-AS-AP Zhang Junkai][151331;CN;SORAYOU-AS-JP Sora You][151202;CN;HONOKA-AS-AP Suzhou Honoka Technology Co Ltd][151194;CN;STELIGHT-AS-AP Zhu Yucheng][151193;CN;DEJU-AS-AP Shandong Deju Information Technology Co Ltd][151187;CN;LEONET-AS-AP Shen Jiale][150373;CN;BEACOWORKS-AS-AP Zhang Bocheng][150184;CN;OWONET-AS-AP Chen Chi][150173;CN;POLOCLOUD-AS-AP PoloCloud Computing Hong Kong Limited][150141;CN;W1N0DL-AS-AP Wang Jiacheng][149510;CN;FENGLIBO-AS-AP Feng Libo][142642;CN;ATONAL-AS-AP Atonal System][142586;CN;LIGHTXI-AS-AP Zhuhai Xiyun Cloud Technology Co Ltd][142553;CN;AIRSPROJECT-PRIVATE-NETWORK Airs Project Private Network Main][142438;CN;KSMNW-AS-AP Kasumi Networks Inc][142433;CN;DATAWAVE-AS-AP DATAWAVE GLOBAL LLC][142164;CN;GOLDDOGE-AS-AP GoldDoge Computer Technologies & Networks Information Center][141776;CN;BAOSHUO-AS-AP Baoshuo Network][141445;CN;PXNET-AS-AP Phoenix Network][141429;CN;AGATHA-AS-AP Agatha Network][140961;CN;ZXIX-AS-AP ZX Internet Exchange][140915;CN;DFA-AS-AP Xiang Xuanchen][140731;CN;TOHU-OP-AP TOHU Public Internet][140682;CN;MCDAWANJIA-AS-AP Yang Xuyao][140498;CN;AIFUN-AS-AP Chengdu Qizhen Lingyi Internet Co Ltd][139791;CN;WOPAI-AS-AP Langfang Wopai Communications Co Ltd][139317;CN;ZX-AS-AP Ningbo Dahuamao Information Technology Co Ltd][139231;CN;ZERO-AS-AP Zero][138535;CN;FURDEVS-AS-AP Wu Qi][138401;CN;TUPLENET2-AS-AP TupleTech Corporation][138211;CN;TUPLENET-AS-AP TupleTech Corporation][137908;CN;MOEFIRE-AS-AP Lin Siqi][137835;CN;NATCHAN-AS Nathaniel Chan Jie Le][137436;CN;CONGPENGBO-AS-AP Cong Pengbo][137264;CN;WINGMARK-AS-AP Wingmark Matrix Wuhan Computer Systems Co Ltd][136725;CN;CHENJITONG-AS-AP Chen Jitong][136591;CN;MXXCLOUD-AS-AP MxxCloud LLC][136535;CN;HRBM27-AS-AP Yang Mengqi][134488;CN;CTJ-AS-AP CTJs Global Network][134477;CN;JUNRUIYUN-AS-AP Shaoxing Junruiyunjisuan Co Ltd][134413;CN;KMNIX-AS-AP KMNIX LLC][133555;CN;DOORPOST-AS-AP DOORPOST Limited][132623;CN;TSUKERU-AS Tsukeru Networks][132479;CN;JUSTKEEPMEEDO-AS-AP Xue Desen][7721;CN;QC-NET Qin Cloud Networks]
+CN,ipv4,103.150.214.0,23,allocated,[153633;CN;KVQNET-AS-AP KVQNET][153458;CN;HARUZAKURA-AS-AP Haruzakura Cloud][153376;CN;BRNET-AS-AP Jilin Province Brick Business Service Limited][153330;CN;CLOSEAI-AS-AP Northern Lights Technologies LLC][153195;CN;TUOKE-AS-AP Shaoyang Tuoke Technology Co Ltd][153189;CN;WANGJIANWEI-AS-AP Wang Jianwei][153185;CN;WANGDEHONG-AS-AP Wang Dehong][153170;CN;CUIHONGTAO-AS-AP Cui Hongtao][153168;CN;LUBIN-AS-AP Lu Bin][153057;CN;LIRUIZHI-AS-AP Li Ruizhi][153033;CN;SHANGXU-AS-AP Shang Xu][152930;CN;LINXIANGLIANG-AS-AP Lin Xiangliang][152920;CN;ZHAOCHENGLIN-AS-AP Zhao Chenglin][152911;CN;SYICT-AS-KR SY ICT][152892;CN;LIUJIARONG-AS-AP Liu Jiarong][152697;CN;HUIFA-AS-AP Nanning Huifa Technology Co Ltd][152631;CN;XYHELPER-AS-AP Xyhelper Inc][152598;CN;CHAT-AS-AP Beijing Gong Gong Fa Technology Co Ltd][152186;CN;MINTEL-AS-AP Mintel Holding Limited][152134;CN;ZORO-AS-AP Zoro Limited][152118;CN;DARK495-AS-AP Shenzhen Moesys Computer System Co Ltd][151814;CN;GUOCHUANGXINXINGBEIJINGTECHNOLOGYCOLTD-AS-CN Guo Chuang Xin Xing Beijing Technology Co Ltd][151785;CN;ZHOU-AS-AP Zhou Yang][151673;CN;CHENXINYU-AS-AP Chen Xinyu][151494;CN;ELYSIA-AS-AP Lin Kangyi][151490;CN;GAONIT-AS-KR GaonIT][151418;CN;JUNKAI-AS-AP Zhang Junkai][151331;CN;SORAYOU-AS-JP Sora You][151202;CN;HONOKA-AS-AP Suzhou Honoka Technology Co Ltd][151194;CN;STELIGHT-AS-AP Zhu Yucheng][151193;CN;DEJU-AS-AP Shandong Deju Information Technology Co Ltd][151187;CN;LEONET-AS-AP Shen Jiale][150373;CN;BEACOWORKS-AS-AP Zhang Bocheng][150184;CN;OWONET-AS-AP Chen Chi][150173;CN;POLOCLOUD-AS-AP PoloCloud Computing Hong Kong Limited][150141;CN;W1N0DL-AS-AP Wang Jiacheng][149510;CN;FENGLIBO-AS-AP Feng Libo][142642;CN;ATONAL-AS-AP Atonal System][142586;CN;LIGHTXI-AS-AP Zhuhai Xiyun Cloud Technology Co Ltd][142553;CN;AIRSPROJECT-PRIVATE-NETWORK Airs Project Private Network Main][142438;CN;KSMNW-AS-AP Kasumi Networks Inc][142433;CN;DATAWAVE-AS-AP DATAWAVE GLOBAL LLC][142164;CN;GOLDDOGE-AS-AP GoldDoge Computer Technologies & Networks Information Center][141776;CN;BAOSHUO-AS-AP Baoshuo Network][141445;CN;PXNET-AS-AP Phoenix Network][141429;CN;AGATHA-AS-AP Agatha Network][140961;CN;ZXIX-AS-AP ZX Internet Exchange][140915;CN;DFA-AS-AP Xiang Xuanchen][140731;CN;TOHU-OP-AP TOHU Public Internet][140682;CN;MCDAWANJIA-AS-AP Yang Xuyao][139791;CN;WOPAI-AS-AP Langfang Wopai Communications Co Ltd][139317;CN;ZX-AS-AP Ningbo Dahuamao Information Technology Co Ltd][139231;CN;ZERO-AS-AP Zero][138535;CN;FURDEVS-AS-AP Wu Qi][138401;CN;TUPLENET2-AS-AP TupleTech Corporation][138211;CN;TUPLENET-AS-AP TupleTech Corporation][137908;CN;MOEFIRE-AS-AP Lin Siqi][137835;CN;NATCHAN-AS Nathaniel Chan Jie Le][137436;CN;CONGPENGBO-AS-AP Cong Pengbo][137264;CN;WINGMARK-AS-AP Wingmark Matrix Wuhan Computer Systems Co Ltd][136725;CN;CHENJITONG-AS-AP Chen Jitong][136591;CN;MXXCLOUD-AS-AP MxxCloud LLC][136535;CN;HRBM27-AS-AP Yang Mengqi][134488;CN;CTJ-AS-AP CTJs Global Network][134477;CN;JUNRUIYUN-AS-AP Shaoxing Junruiyunjisuan Co Ltd][134413;CN;KMNIX-AS-AP KMNIX LLC][133555;CN;DOORPOST-AS-AP DOORPOST Limited][132623;CN;TSUKERU-AS Tsukeru Networks][132479;CN;JUSTKEEPMEEDO-AS-AP Xue Desen][7721;CN;QC-NET Qin Cloud Networks]
 CN,ipv4,103.150.216.0,23,allocated,*
 CN,ipv4,103.150.244.0,23,allocated,*
 CN,ipv4,103.151.4.0,23,allocated,[149304;CN;SQNTCL-AS-AP Shenzhen Qiyi Network Technology Co.  Ltd.]
@@ -110688,7 +110707,13 @@ CN,ipv4,123.253.52.0,23,allocated,*
 CN,ipv4,123.254.96.0,22,allocated,*
 CN,ipv4,123.254.100.0,22,allocated,*
 CN,ipv4,124.6.64.0,18,allocated,*
-CN,ipv4,124.14.0.0,18,allocated,*
+CN,ipv4,124.14.0.0,20,allocated,*
+CN,ipv4,124.14.16.0,21,allocated,*
+CN,ipv4,124.14.24.0,21,allocated,*
+CN,ipv4,124.14.32.0,20,allocated,*
+CN,ipv4,124.14.48.0,22,allocated,*
+CN,ipv4,124.14.52.0,22,allocated,*
+CN,ipv4,124.14.56.0,21,allocated,*
 CN,ipv4,124.14.64.0,18,allocated,*
 CN,ipv4,124.14.128.0,17,allocated,*
 CN,ipv4,124.15.0.0,16,allocated,*
@@ -113580,7 +113605,7 @@ CN,ipv6,2406:280::,32,allocated,*
 CN,ipv6,2406:440::,32,allocated,*
 CN,ipv6,2406:4c0::,32,allocated,*
 CN,ipv6,2406:7c0::,32,allocated,[140596;CN;STNC-AS-AP SHENZHEN TUTENG NETWORK CO. LTD]
-CN,ipv6,2406:840::,32,allocated,[153633;CN;KVQNET-AS-AP KVQNET][153458;CN;HARUZAKURA-AS-AP Haruzakura Cloud][153376;CN;BRNET-AS-AP Jilin Province Brick Business Service Limited][153330;CN;CLOSEAI-AS-AP Northern Lights Technologies LLC][153195;CN;TUOKE-AS-AP Shaoyang Tuoke Technology Co Ltd][153189;CN;WANGJIANWEI-AS-AP Wang Jianwei][153185;CN;WANGDEHONG-AS-AP Wang Dehong][153170;CN;CUIHONGTAO-AS-AP Cui Hongtao][153168;CN;LUBIN-AS-AP Lu Bin][153057;CN;LIRUIZHI-AS-AP Li Ruizhi][153033;CN;SHANGXU-AS-AP Shang Xu][152930;CN;LINXIANGLIANG-AS-AP Lin Xiangliang][152920;CN;ZHAOCHENGLIN-AS-AP Zhao Chenglin][152911;CN;SYICT-AS-KR SY ICT][152892;CN;LIUJIARONG-AS-AP Liu Jiarong][152697;CN;HUIFA-AS-AP Nanning Huifa Technology Co Ltd][152631;CN;XYHELPER-AS-AP Xyhelper Inc][152598;CN;CHAT-AS-AP Beijing Gong Gong Fa Technology Co Ltd][152186;CN;MINTEL-AS-AP Mintel Holding Limited][152134;CN;ZORO-AS-AP Zoro Limited][152118;CN;DARK495-AS-AP Shenzhen Moesys Computer System Co Ltd][151814;CN;GUOCHUANGXINXINGBEIJINGTECHNOLOGYCOLTD-AS-CN Guo Chuang Xin Xing Beijing Technology Co Ltd][151785;CN;ZHOU-AS-AP Zhou Yang][151673;CN;CHENXINYU-AS-AP Chen Xinyu][151494;CN;ELYSIA-AS-AP Lin Kangyi][151490;CN;GAONIT-AS-KR GaonIT][151418;CN;JUNKAI-AS-AP Zhang Junkai][151331;CN;SORAYOU-AS-JP Sora You][151202;CN;HONOKA-AS-AP Suzhou Honoka Technology Co Ltd][151194;CN;STELIGHT-AS-AP Zhu Yucheng][151193;CN;DEJU-AS-AP Shandong Deju Information Technology Co Ltd][151187;CN;LEONET-AS-AP Shen Jiale][150373;CN;BEACOWORKS-AS-AP Zhang Bocheng][150184;CN;OWONET-AS-AP Chen Chi][150173;CN;POLOCLOUD-AS-AP PoloCloud Computing Hong Kong Limited][150141;CN;W1N0DL-AS-AP Wang Jiacheng][149510;CN;FENGLIBO-AS-AP Feng Libo][142642;CN;ATONAL-AS-AP Atonal System][142586;CN;LIGHTXI-AS-AP Zhuhai Xiyun Cloud Technology Co Ltd][142553;CN;AIRSPROJECT-PRIVATE-NETWORK Airs Project Private Network Main][142438;CN;KSMNW-AS-AP Kasumi Networks Inc][142433;CN;DATAWAVE-AS-AP DATAWAVE GLOBAL LLC][142164;CN;GOLDDOGE-AS-AP GoldDoge Computer Technologies & Networks Information Center][141776;CN;BAOSHUO-AS-AP Baoshuo Network][141445;CN;PXNET-AS-AP Phoenix Network][141429;CN;AGATHA-AS-AP Agatha Network][140961;CN;ZXIX-AS-AP ZX Internet Exchange][140915;CN;DFA-AS-AP Xiang Xuanchen][140731;CN;TOHU-OP-AP TOHU Public Internet][140682;CN;MCDAWANJIA-AS-AP Yang Xuyao][140498;CN;AIFUN-AS-AP Chengdu Qizhen Lingyi Internet Co Ltd][139791;CN;WOPAI-AS-AP Langfang Wopai Communications Co Ltd][139317;CN;ZX-AS-AP Ningbo Dahuamao Information Technology Co Ltd][139231;CN;ZERO-AS-AP Zero][138535;CN;FURDEVS-AS-AP Wu Qi][138401;CN;TUPLENET2-AS-AP TupleTech Corporation][138211;CN;TUPLENET-AS-AP TupleTech Corporation][137908;CN;MOEFIRE-AS-AP Lin Siqi][137835;CN;NATCHAN-AS Nathaniel Chan Jie Le][137436;CN;CONGPENGBO-AS-AP Cong Pengbo][137264;CN;WINGMARK-AS-AP Wingmark Matrix Wuhan Computer Systems Co Ltd][136725;CN;CHENJITONG-AS-AP Chen Jitong][136591;CN;MXXCLOUD-AS-AP MxxCloud LLC][136535;CN;HRBM27-AS-AP Yang Mengqi][134488;CN;CTJ-AS-AP CTJs Global Network][134477;CN;JUNRUIYUN-AS-AP Shaoxing Junruiyunjisuan Co Ltd][134413;CN;KMNIX-AS-AP KMNIX LLC][133555;CN;DOORPOST-AS-AP DOORPOST Limited][132623;CN;TSUKERU-AS Tsukeru Networks][132479;CN;JUSTKEEPMEEDO-AS-AP Xue Desen][7721;CN;QC-NET Qin Cloud Networks]
+CN,ipv6,2406:840::,32,allocated,[153633;CN;KVQNET-AS-AP KVQNET][153458;CN;HARUZAKURA-AS-AP Haruzakura Cloud][153376;CN;BRNET-AS-AP Jilin Province Brick Business Service Limited][153330;CN;CLOSEAI-AS-AP Northern Lights Technologies LLC][153195;CN;TUOKE-AS-AP Shaoyang Tuoke Technology Co Ltd][153189;CN;WANGJIANWEI-AS-AP Wang Jianwei][153185;CN;WANGDEHONG-AS-AP Wang Dehong][153170;CN;CUIHONGTAO-AS-AP Cui Hongtao][153168;CN;LUBIN-AS-AP Lu Bin][153057;CN;LIRUIZHI-AS-AP Li Ruizhi][153033;CN;SHANGXU-AS-AP Shang Xu][152930;CN;LINXIANGLIANG-AS-AP Lin Xiangliang][152920;CN;ZHAOCHENGLIN-AS-AP Zhao Chenglin][152911;CN;SYICT-AS-KR SY ICT][152892;CN;LIUJIARONG-AS-AP Liu Jiarong][152697;CN;HUIFA-AS-AP Nanning Huifa Technology Co Ltd][152631;CN;XYHELPER-AS-AP Xyhelper Inc][152598;CN;CHAT-AS-AP Beijing Gong Gong Fa Technology Co Ltd][152186;CN;MINTEL-AS-AP Mintel Holding Limited][152134;CN;ZORO-AS-AP Zoro Limited][152118;CN;DARK495-AS-AP Shenzhen Moesys Computer System Co Ltd][151814;CN;GUOCHUANGXINXINGBEIJINGTECHNOLOGYCOLTD-AS-CN Guo Chuang Xin Xing Beijing Technology Co Ltd][151785;CN;ZHOU-AS-AP Zhou Yang][151673;CN;CHENXINYU-AS-AP Chen Xinyu][151494;CN;ELYSIA-AS-AP Lin Kangyi][151490;CN;GAONIT-AS-KR GaonIT][151418;CN;JUNKAI-AS-AP Zhang Junkai][151331;CN;SORAYOU-AS-JP Sora You][151202;CN;HONOKA-AS-AP Suzhou Honoka Technology Co Ltd][151194;CN;STELIGHT-AS-AP Zhu Yucheng][151193;CN;DEJU-AS-AP Shandong Deju Information Technology Co Ltd][151187;CN;LEONET-AS-AP Shen Jiale][150373;CN;BEACOWORKS-AS-AP Zhang Bocheng][150184;CN;OWONET-AS-AP Chen Chi][150173;CN;POLOCLOUD-AS-AP PoloCloud Computing Hong Kong Limited][150141;CN;W1N0DL-AS-AP Wang Jiacheng][149510;CN;FENGLIBO-AS-AP Feng Libo][142642;CN;ATONAL-AS-AP Atonal System][142586;CN;LIGHTXI-AS-AP Zhuhai Xiyun Cloud Technology Co Ltd][142553;CN;AIRSPROJECT-PRIVATE-NETWORK Airs Project Private Network Main][142438;CN;KSMNW-AS-AP Kasumi Networks Inc][142433;CN;DATAWAVE-AS-AP DATAWAVE GLOBAL LLC][142164;CN;GOLDDOGE-AS-AP GoldDoge Computer Technologies & Networks Information Center][141776;CN;BAOSHUO-AS-AP Baoshuo Network][141445;CN;PXNET-AS-AP Phoenix Network][141429;CN;AGATHA-AS-AP Agatha Network][140961;CN;ZXIX-AS-AP ZX Internet Exchange][140915;CN;DFA-AS-AP Xiang Xuanchen][140731;CN;TOHU-OP-AP TOHU Public Internet][140682;CN;MCDAWANJIA-AS-AP Yang Xuyao][139791;CN;WOPAI-AS-AP Langfang Wopai Communications Co Ltd][139317;CN;ZX-AS-AP Ningbo Dahuamao Information Technology Co Ltd][139231;CN;ZERO-AS-AP Zero][138535;CN;FURDEVS-AS-AP Wu Qi][138401;CN;TUPLENET2-AS-AP TupleTech Corporation][138211;CN;TUPLENET-AS-AP TupleTech Corporation][137908;CN;MOEFIRE-AS-AP Lin Siqi][137835;CN;NATCHAN-AS Nathaniel Chan Jie Le][137436;CN;CONGPENGBO-AS-AP Cong Pengbo][137264;CN;WINGMARK-AS-AP Wingmark Matrix Wuhan Computer Systems Co Ltd][136725;CN;CHENJITONG-AS-AP Chen Jitong][136591;CN;MXXCLOUD-AS-AP MxxCloud LLC][136535;CN;HRBM27-AS-AP Yang Mengqi][134488;CN;CTJ-AS-AP CTJs Global Network][134477;CN;JUNRUIYUN-AS-AP Shaoxing Junruiyunjisuan Co Ltd][134413;CN;KMNIX-AS-AP KMNIX LLC][133555;CN;DOORPOST-AS-AP DOORPOST Limited][132623;CN;TSUKERU-AS Tsukeru Networks][132479;CN;JUSTKEEPMEEDO-AS-AP Xue Desen][7721;CN;QC-NET Qin Cloud Networks]
 CN,ipv6,2406:880::,32,allocated,*
 CN,ipv6,2406:8c0::,32,allocated,*
 CN,ipv6,2406:d80::,32,allocated,*
@@ -121231,6 +121256,7 @@ ID,ipv4,192.144.92.0,22,allocated,*
 ID,ipv4,192.188.80.0,24,allocated,*
 ID,ipv4,192.188.85.0,24,allocated,*
 ID,ipv4,192.188.89.0,24,allocated,*
+ID,ipv4,192.232.38.0,23,allocated,*
 ID,ipv4,202.1.24.0,23,allocated,*
 ID,ipv4,202.3.208.0,20,allocated,*
 ID,ipv4,202.6.192.0,23,allocated,*
@@ -121861,6 +121887,7 @@ ID,ipv6,2402:3d80::,32,allocated,*
 ID,ipv6,2402:3f20::,32,allocated,*
 ID,ipv6,2402:4100::,32,allocated,*
 ID,ipv6,2402:4240::,32,allocated,*
+ID,ipv6,2402:4520::,32,allocated,*
 ID,ipv6,2402:4840::,32,allocated,*
 ID,ipv6,2402:5040::,32,allocated,*
 ID,ipv6,2402:5580::,32,allocated,*
@@ -126158,6 +126185,7 @@ IN,ipv4,192.84.219.0,24,allocated,[133908;IN;KAL-AS-AP Kal Cables Private Limite
 IN,ipv4,192.150.16.0,24,allocated,[58664;IN;ADOBE-NET-INFRA ADOBE-NET-INFRA]
 IN,ipv4,192.203.156.0,23,allocated,*
 IN,ipv4,192.232.32.0,23,allocated,*
+IN,ipv4,192.232.40.0,23,allocated,*
 IN,ipv4,192.245.162.0,24,allocated,[136814;IN;BMC-AS-AP BMC Software India Pvt. Ltd.]
 IN,ipv4,193.149.151.0,24,allocated,*
 IN,ipv4,195.142.156.0,22,allocated,[59331;IN;SNMPL-IN SAILOR NETWORK MARKETING PRIVATE LIMITED]
@@ -152064,6 +152092,7 @@ HK,ipv6,2001:df7:2600::,48,assigned,[136212;HK;ATML-AS-AP Asia Telecom Managemen
 HK,ipv6,2001:df7:3480::,48,assigned,[42960;HK;VH-GLOBAL VH Global Limited]
 HK,ipv6,2001:df7:3700::,48,assigned,[154346;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited][151970;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited][138456;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited]
 HK,ipv6,2001:df7:3701::,48,assigned,[154346;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited][151970;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited][138456;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited]
+HK,ipv6,2001:df7:3702::,47,assigned,[154346;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited][151970;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited][138456;HK;OCTL-AS-AP OceanBlue Cloud Technology Limited]
 HK,ipv6,2001:df7:3d00::,48,assigned,[4748;HK;RESOLINK-AS-AP Resources Link Network Limited]
 HK,ipv6,2001:df7:5500::,48,assigned,[138485;HK;PRIMECREDITLIMITED-AS-AP PrimeCredit Limited]
 HK,ipv6,2001:df7:6280::,48,assigned,[148990;HK;CHENGYI-AS-AP CHENGYI CO.  LIMITED]
@@ -154573,6 +154602,7 @@ ID,ipv4,182.255.16.0,22,assigned,*
 ID,ipv4,183.182.92.0,22,assigned,*
 ID,ipv4,192.41.206.0,24,assigned,[3382;ID;INDONESIAUNI-AS-AP University of Indonesia]
 ID,ipv4,192.42.84.0,24,assigned,*
+ID,ipv4,192.42.85.0,24,assigned,*
 ID,ipv4,192.88.101.0,24,assigned,*
 ID,ipv4,192.135.97.0,24,assigned,*
 ID,ipv4,192.135.98.0,24,assigned,*
@@ -154581,6 +154611,7 @@ ID,ipv4,192.147.114.0,24,assigned,*
 ID,ipv4,192.156.142.0,24,assigned,*
 ID,ipv4,192.172.246.0,24,assigned,*
 ID,ipv4,192.188.175.0,24,assigned,[136025;US;ORACLE-AS-AP Oracle Corporation][38538;IN;ORACLE-BANGALORE-AS-AP Oracle India Developement Centre.][24185;IN;ORACLEV6-OFSS-1 Oracle Corporation][23885;JP;ORACLEV6-AS-AP Oracle Corporation]
+ID,ipv4,192.232.36.0,23,assigned,*
 ID,ipv4,198.51.101.0,24,assigned,[149176;ID;ITB-BANDUNG-ASN Institute of Technology Bandung][18007;ID;INHERENT-AS-ID-AP INHERENT][4796;ID;BANDUNG-NET-AS-AP Institute of Technology Bandung]
 ID,ipv4,202.0.88.0,23,assigned,*
 ID,ipv4,202.0.92.0,23,assigned,*
@@ -156390,6 +156421,9 @@ ID,ipv6,2001:df6:8900::,48,assigned,*
 ID,ipv6,2001:df6:8940::,48,assigned,*
 ID,ipv6,2001:df6:8a00::,48,assigned,*
 ID,ipv6,2001:df6:8ac0::,48,assigned,*
+ID,ipv6,2001:df6:8b40::,48,assigned,*
+ID,ipv6,2001:df6:8bc0::,48,assigned,*
+ID,ipv6,2001:df6:8c40::,48,assigned,*
 ID,ipv6,2001:df6:8e00::,48,assigned,*
 ID,ipv6,2001:df6:9200::,48,assigned,*
 ID,ipv6,2001:df6:9600::,48,assigned,*
@@ -160605,6 +160639,7 @@ IN,ipv4,160.22.108.0,23,assigned,*
 IN,ipv4,160.22.131.0,24,assigned,*
 IN,ipv4,160.22.132.0,23,assigned,*
 IN,ipv4,160.22.153.0,24,assigned,*
+IN,ipv4,160.22.166.0,23,assigned,[138942;ZZ;-Reserved AS-]
 IN,ipv4,160.22.186.0,24,assigned,[152924;IN;APPL-AS-AP Alendei Platforms Private Limited]
 IN,ipv4,160.22.226.0,23,assigned,*
 IN,ipv4,160.22.235.0,24,assigned,*
@@ -162125,6 +162160,7 @@ IN,ipv6,2001:df3:e740::,48,assigned,*
 IN,ipv6,2001:df3:e800::,48,assigned,[59336;IN;HAPL-IN HOMELAND AVENUES PRIVATE LIMITED]
 IN,ipv6,2001:df3:e840::,48,assigned,*
 IN,ipv6,2001:df3:ecc0::,48,assigned,*
+IN,ipv6,2001:df3:ef40::,48,assigned,[138942;ZZ;-Reserved AS-]
 IN,ipv6,2001:df3:f080::,48,assigned,*
 IN,ipv6,2001:df3:f2c0::,48,assigned,*
 IN,ipv6,2001:df3:f4c0::,48,assigned,*
@@ -163824,7 +163860,6 @@ MV,ipv4,103.71.57.0,24,assigned,[132218;MV;MCS-AS-AP Maldives Customs Service]
 MV,ipv4,103.76.2.0,24,assigned,[133742;MV;STOP-AS-AP State Trading Organization Plc]
 MV,ipv4,103.84.132.0,24,assigned,[136234;MV;MEDIANETPVTLTD-AS-AP Media Net Pvt Ltd]
 MV,ipv4,103.84.134.0,24,assigned,[136238;MV;SATLINKPVTLTD-AS-AP SatLink Pvt Ltd]
-MV,ipv4,103.87.188.0,24,assigned,*
 MV,ipv4,103.103.66.0,24,assigned,[137056;MV;TREETOP-AS-AP Tree Top Health Pvt. Ltd.]
 MV,ipv4,103.110.40.0,24,assigned,[137477;MV;VILLA-STC-AS-AP Villa Shipping and Trading Company Pvt. Ltd.]
 MV,ipv4,103.119.75.0,24,assigned,[137981;MV;BML-AS-AP Bank of Maldives Plc]
@@ -163841,7 +163876,6 @@ MV,ipv6,2001:dec:c000::,48,assigned,[150125;MV;MIE-AS-AP Maldives internet excha
 MV,ipv6,2001:df0:1d00::,48,assigned,[136234;MV;MEDIANETPVTLTD-AS-AP Media Net Pvt Ltd]
 MV,ipv6,2001:df0:1f00::,48,assigned,[136238;MV;SATLINKPVTLTD-AS-AP SatLink Pvt Ltd]
 MV,ipv6,2001:df0:7040::,48,assigned,[140727;MV;NCN-AS-AP National Centre for Information Technology][24184;MV;GOVERNMENT-NETWORK-MALDIVES National Centre for Information Technology  Male  Maldives]
-MV,ipv6,2001:df0:8d00::,48,assigned,*
 MV,ipv6,2001:df1:5540::,48,assigned,[150125;MV;MIE-AS-AP Maldives internet exchange][9446;MV;MIE-AS-AP Maldives internet exchange]
 MV,ipv6,2001:df3:ea00::,48,assigned,[132218;MV;MCS-AS-AP Maldives Customs Service]
 MV,ipv6,2001:df4:5b00::,48,assigned,[137477;MV;VILLA-STC-AS-AP Villa Shipping and Trading Company Pvt. Ltd.]
