@@ -3566,7 +3566,6 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv4,102.203.112.0,21,available,*
 *,ipv4,102.203.120.0,22,available,*
 *,ipv4,102.203.124.0,23,available,*
-*,ipv4,102.203.139.0,24,available,*
 *,ipv4,102.203.144.0,22,available,*
 *,ipv4,102.203.228.0,22,available,*
 *,ipv4,102.203.248.0,21,available,*
@@ -5338,7 +5337,11 @@ country,version,ip,prefixlength,state,orgsflat
 *,ipv6,2c0f:4504::,30,available,*
 *,ipv6,2c0f:4508::,29,available,*
 *,ipv6,2c0f:4510::,28,available,*
-*,ipv6,2c0f:4520::,27,available,*
+*,ipv6,2c0f:4521::,32,available,*
+*,ipv6,2c0f:4522::,31,available,*
+*,ipv6,2c0f:4524::,30,available,*
+*,ipv6,2c0f:4528::,29,available,*
+*,ipv6,2c0f:4530::,28,available,*
 *,ipv6,2c0f:4541::,32,available,*
 *,ipv6,2c0f:4542::,31,available,*
 *,ipv6,2c0f:4544::,30,available,*
@@ -7769,7 +7772,8 @@ AO,ipv4,102.36.224.0,22,allocated,[327932;AO;CONNECTIS-DATA-ANGOLA]
 AO,ipv4,102.64.60.0,22,allocated,[328509;AO;SpeedNet-Servicos]
 AO,ipv4,102.130.64.0,21,allocated,[329357;AO;Tel-Cables-Nigeria][329356;AO;Tel-Cables-PTY-LTD][327788;AO;ANGOLA-IX][37468;AO;ANGOLA-CABLES]
 AO,ipv4,102.130.192.0,19,allocated,[37645;AO;ZAP-Angola]
-AO,ipv4,102.203.128.0,22,allocated,
+AO,ipv4,102.203.128.0,22,allocated,[329695;AO;ZON_DATA_ANGOLA]
+AO,ipv4,102.203.139.0,24,allocated,
 AO,ipv4,102.203.164.0,22,allocated,[329686;AO;Ramos-Network]
 AO,ipv4,102.203.240.0,22,allocated,[37645;AO;ZAP-Angola]
 AO,ipv4,102.203.244.0,22,allocated,[37645;AO;ZAP-Angola]
@@ -7867,7 +7871,7 @@ AO,ipv4,197.157.196.0,22,allocated,[37432;AO;ITELNET]
 AO,ipv4,197.216.0.0,15,allocated,[37059;AO;SUPERNET-][11259;AO;ANGOLATELECOM]
 AO,ipv4,197.241.128.0,17,allocated,[37081;AO;movicel-as]
 AO,ipv6,2c0f:300::,32,allocated,[328943;AO;AAS1-AS]
-AO,ipv6,2c0f:520::,32,allocated,
+AO,ipv6,2c0f:520::,32,allocated,[329695;AO;ZON_DATA_ANGOLA]
 AO,ipv6,2001:4250::,32,allocated,[17400;AO;MSTelcom]
 AO,ipv6,2c0f:11c0::,32,allocated,[329506;AO;MSBYTE-SOLUTION]
 AO,ipv6,2c0f:1a00::,32,allocated,[37603;AO;GameZone-AS]
@@ -7876,6 +7880,7 @@ AO,ipv6,2c0f:2700::,32,allocated,[328979;AO;NPDS-AS]
 AO,ipv6,2c0f:2b80::,32,allocated,[328725;AO;Advanlink-AS]
 AO,ipv6,2c0f:2bc0::,32,allocated,[329589;AO;SELENIUM_DIGITAL_SOLUTIONS_SA]
 AO,ipv6,2c0f:43a0::,32,allocated,[329686;AO;Ramos-Network]
+AO,ipv6,2c0f:4520::,32,allocated,
 AO,ipv6,2c0f:5600::,32,allocated,[328792;AO;EEID-AS]
 AO,ipv6,2c0f:6540::,32,allocated,[329370;AO;ESPACONET]
 AO,ipv6,2c0f:73c0::,32,allocated,[329616;AO;Internet-Technologies-Angol]
@@ -8965,7 +8970,7 @@ KE,ipv4,102.164.56.0,22,allocated,[328298;KE;Duara-AS]
 KE,ipv4,102.164.60.0,22,allocated,[328296;KE;Atlancis-AS]
 KE,ipv4,102.166.0.0,15,allocated,[30994;KE;Galileo-Kenya][12455;KE;JAMBONET]
 KE,ipv4,102.176.180.0,22,allocated,[328271;KE;Syokinet-Solutions-AS]
-KE,ipv4,102.203.126.0,23,allocated,
+KE,ipv4,102.203.126.0,23,allocated,[329696;KE;PRIMESOFT_SOLUTIONS_K_LIMITED]
 KE,ipv4,102.203.132.0,22,allocated,[329692;KE;HTG-CLOUDS]
 KE,ipv4,102.203.137.0,24,allocated,[329693;KE;ATLANTIC-TECH-FIBER]
 KE,ipv4,102.203.140.0,22,allocated,[329341;KE;Tatu-Telecom-Company-SEZ-Limited]
@@ -13632,7 +13637,7 @@ UG,ipv4,80.88.2.0,24,assigned,[328233;UG;DFCU-Bank-AS]
 UG,ipv4,102.68.124.0,24,assigned,[328462;UG;National-Social-Security-Fund-AS]
 UG,ipv4,102.134.144.0,21,assigned,[328358;UG;Makerere-AS]
 UG,ipv4,102.164.120.0,24,assigned,[328292;UG;AgentBanking-AS]
-UG,ipv4,102.203.138.0,24,assigned,
+UG,ipv4,102.203.138.0,24,assigned,[329694;UG;Uganda_Registration_Services]
 UG,ipv4,102.204.15.0,24,assigned,[329669;UG;National_Identification_and_Registration_Authority]
 UG,ipv4,102.205.207.0,24,assigned,[329551;UG;I-M-Bank-Uganda]
 UG,ipv4,102.207.221.0,24,assigned,[328233;UG;DFCU-Bank-AS]
@@ -13669,7 +13674,7 @@ UG,ipv6,2001:43f8:1370::,48,assigned,[328462;UG;National-Social-Security-Fund-AS
 UG,ipv6,2001:43f8:1a20::,48,assigned,[329679;UG;NIPPI-IX-Uganda-MGMT][327724;UG;NITA][37809;UG;NIPPI-IX-Uganda-Peering]
 UG,ipv6,2001:43f8:1a21::,48,assigned,[329679;UG;NIPPI-IX-Uganda-MGMT][327724;UG;NITA][37809;UG;NIPPI-IX-Uganda-Peering]
 UG,ipv6,2001:43fe:3000::,48,assigned,[329396;UG;Uganda-Electricity]
-UG,ipv6,2001:43ff:2800::,48,assigned,
+UG,ipv6,2001:43ff:2800::,48,assigned,[329694;UG;Uganda_Registration_Services]
 ZA,ipv4,45.220.49.0,24,assigned,[328119;ZA;BUI-Medical-Technology-AS]
 ZA,ipv4,45.221.26.0,24,assigned,[328114;ZA;Comsol-Networks-AS]
 ZA,ipv4,45.222.104.0,21,assigned,[328041;ZA;Hollywood-Sportsbooks-AS]
